@@ -9,20 +9,16 @@
 public static string Theme { get; }
 -->
 
-
 ## -description
 
-
-Gets the recommended name for a qualifier based on the system theme.
+Gets the name of the qualifier for the system theme.
 
 ## -property-value
 
-The recommended name for a qualifier based on the system theme.
+The name of the qualifier for the system theme.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

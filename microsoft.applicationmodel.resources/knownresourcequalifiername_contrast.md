@@ -9,19 +9,16 @@
 public static string Contrast { get; }
 -->
 
-
 ## -description
 
-Gets the recommended name for a qualifier based on the system constast settings.
+Gets the name of the qualifier for the system contrast settings.
 
 ## -property-value
 
-The recommended name for a qualifier based on the system constast settings.
+The name of the qualifier for the system contrast settings.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

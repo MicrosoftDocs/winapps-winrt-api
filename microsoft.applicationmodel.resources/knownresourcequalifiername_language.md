@@ -9,19 +9,16 @@
 public static string Language { get; }
 -->
 
-
 ## -description
 
-Gets the recommended name for a qualifier based on the system language.
+Gets the name of the qualifier for the system language.
 
 ## -property-value
 
-The recommended name for a qualifier based on the system language.
+The name of the qualifier for the system language.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

@@ -9,19 +9,16 @@
 public static string DeviceFamily { get; }
 -->
 
-
 ## -description
 
-Gets the recommended name for a qualifier based on the current device's family.
+Gets the name of the qualifier for the current device's family.
 
 ## -property-value
 
-The recommended name for a qualifier based on the current device's family.
+The name of the qualifier for the current device's family.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

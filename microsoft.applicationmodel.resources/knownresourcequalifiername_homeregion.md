@@ -9,19 +9,16 @@
 public static string HomeRegion { get; }
 -->
 
-
 ## -description
 
-Gets the recommended name for a qualifier based on the current system home region.
+Gets the name of the qualifier for the current system home region.
 
 ## -property-value
 
-The recommended name for a qualifier based on the current system home region.
+The name of the qualifier for the current system home region.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

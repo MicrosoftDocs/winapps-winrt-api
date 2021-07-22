@@ -9,19 +9,16 @@
 public static string TargetSize { get; }
 -->
 
-
 ## -description
 
-Gets the recommended name for a qualifier based on target size.
+Gets the name of the qualifier for target size.
 
 ## -property-value
 
-The recommended name for a qualifier based on target size.
+The name of the qualifier for target size.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
