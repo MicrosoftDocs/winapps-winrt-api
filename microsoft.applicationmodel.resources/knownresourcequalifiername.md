@@ -12,7 +12,7 @@ public static class KnownResourceQualifierName
 
 ## -description
 
-Contains recommended names for common resource qualifiers such as language, system theme, and display scale.
+Contains names for common resource qualifiers such as language, system theme, and display scale.
 
 ## -remarks
 
