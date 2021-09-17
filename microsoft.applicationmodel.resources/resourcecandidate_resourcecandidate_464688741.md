@@ -12,7 +12,7 @@ public ResourceCandidate (Microsoft.ApplicationModel.Resources.ResourceCandidate
 
 ## -description
 
-Creates an instance of the [ResourceCandiate](resourcecandidate.md) class with the specified value.
+Creates an instance of the [ResourceCandidate](resourcecandidate.md) class with the specified value.
 
 ## -parameters
 

@@ -1,12 +1,12 @@
 ---
--api-id: M:Microsoft.ApplicationModel.Resources.ResourceMap.TryGetValue(System.String,Microsoft.ApplicationModel.Resources.ResourceContext)
+-api-id: M:Microsoft.Windows.ApplicationModel.Resources.ResourceMap.TryGetValue(System.String,Microsoft.Windows.ApplicationModel.Resources.ResourceContext)
 -api-type: winrt method
 ---
 
-# Microsoft.ApplicationModel.Resources.ResourceMap.TryGetValue(System.String,Microsoft.ApplicationModel.Resources.ResourceContext)
+# Microsoft.Windows.ApplicationModel.Resources.ResourceMap.TryGetValue(System.String,Microsoft.Windows.ApplicationModel.Resources.ResourceContext)
 
 <!--
-public Microsoft.ApplicationModel.Resources.ResourceCandidate TryGetValue (string resource, Microsoft.ApplicationModel.Resources.ResourceContext context);
+public Microsoft.Windows.ApplicationModel.Resources.ResourceCandidate TryGetValue (string resource, Microsoft.Windows.ApplicationModel.Resources.ResourceContext context);
 -->
 
 

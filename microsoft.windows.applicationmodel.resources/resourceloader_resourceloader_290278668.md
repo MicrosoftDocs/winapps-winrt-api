@@ -1,13 +1,14 @@
 ---
--api-id: M:Microsoft.ApplicationModel.Resources.ResourceLoader.#ctor(System.String)
+-api-id: M:Microsoft.Windows.ApplicationModel.Resources.ResourceLoader.#ctor(System.String)
 -api-type: winrt constructor
 ---
 
-<!-- Method syntax
-public ResourceLoader(System.String fileName)
+# Microsoft.Windows.ApplicationModel.Resources.ResourceLoader.#ctor(System.String)
+
+<!--
+public ResourceLoader (string fileName);
 -->
 
-# Microsoft.ApplicationModel.Resources.ResourceLoader.ResourceLoader
 
 ## -description
 
@@ -26,6 +27,8 @@ The resource identifier of the [ResourceMap](resourcemap.md) that the new resour
 
 This constructor is typically used to access resources relative to a resource file with the specified resource identifier. For example, `new ResourceLoader('Errors');` is relative to errors.resjson or errors.resw.
 
+## -see-also
+
 ## -examples
 
-## -see-also
+

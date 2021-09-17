@@ -1,13 +1,15 @@
 ---
--api-id: T:Microsoft.ApplicationModel.Resources.ResourceCandidateKind
+-api-id: T:Microsoft.Windows.ApplicationModel.Resources.ResourceCandidateKind
 -api-type: winrt enum
 ---
 
-# Microsoft.ApplicationModel.Resources.ResourceCandidateKind
+# Microsoft.Windows.ApplicationModel.Resources.ResourceCandidateKind
 
 <!--
 public enum ResourceCandidateKind
 -->
+
+
 ## -description
 
 Defines values that represent the type of resource that is encapsulated in a [ResourceCandidate](resourcecandidate.md).

@@ -1,9 +1,9 @@
 ---
--api-id: M:Microsoft.ApplicationModel.Resources.ResourceCandidate.#ctor(System.Byte[])
+-api-id: M:Microsoft.Windows.ApplicationModel.Resources.ResourceCandidate.#ctor(System.Byte[])
 -api-type: winrt constructor
 ---
 
-# Microsoft.ApplicationModel.Resources.ResourceCandidate.#ctor(System.Byte[])
+# Microsoft.Windows.ApplicationModel.Resources.ResourceCandidate.#ctor(System.Byte[])
 
 <!--
 public ResourceCandidate (byte[] data);

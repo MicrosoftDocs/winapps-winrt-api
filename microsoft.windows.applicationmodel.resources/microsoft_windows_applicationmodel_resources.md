@@ -1,16 +1,16 @@
 ---
--api-id: N:Microsoft.ApplicationModel.Resources
+-api-id: N:Microsoft.Windows.ApplicationModel.Resources
 -api-type: winrt namespace
 ---
 
-# Microsoft.ApplicationModel.Resources
+# Microsoft.Windows.ApplicationModel.Resources
 
 ## -description
 
 Provides simplified access to application resources, such as strings, that are defined using basic naming conventions.
 
 > [!NOTE]
-> In Windows App SDK 1.0 Preview 1 and later releases, this namespace has been renamed to [Microsoft.Windows.ApplicationModel.Resources](../microsoft.windows.applicationmodel.resources/microsoft_windows_applicationmodel_resources.md).
+> In releases before Windows App SDK 1.0 Preview 1, this namespace was named [Microsoft.ApplicationModel.Resources](../microsoft.applicationmodel.resources/microsoft_applicationmodel_resources.md).
 
 ## -remarks
 
