@@ -12,7 +12,11 @@ public uint ProcessId { get; }
 
 ## -description
 
+Gets the process ID of the app instance.
+
 ## -property-value
+
+The process ID of the app instance.
 
 ## -remarks
 

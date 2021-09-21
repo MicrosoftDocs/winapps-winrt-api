@@ -12,7 +12,11 @@ public static Microsoft.Windows.AppLifecycle.AppInstance GetCurrent ();
 
 ## -description
 
+Retrieves the current running instance of the app.
+
 ## -returns
+
+The current running instance of the app.
 
 ## -remarks
 

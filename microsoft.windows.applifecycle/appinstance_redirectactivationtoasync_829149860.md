@@ -12,16 +12,22 @@ public Windows.Foundation.IAsyncAction RedirectActivationToAsync (Microsoft.Wind
 
 ## -description
 
+Redirects the current activation request to another app instance.
+
 ## -parameters
 
 ### -param args
 
+The activation arguments to pass to the other app instance.
+
 ## -returns
+
+An object that represents the results of the asynchronous operation.
 
 ## -remarks
 
 ## -see-also
 
+[App instancing](/windows/apps/windows-app-sdk/applifecycle/applifecycle-instancing)
+
 ## -examples
-
-

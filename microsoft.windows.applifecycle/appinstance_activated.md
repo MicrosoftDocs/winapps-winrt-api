@@ -12,6 +12,8 @@ public event System.EventHandler<Microsoft.Windows.AppLifecycle.AppActivationArg
 
 ## -description
 
+Raised when an app activation is triggered that was registered by using one of the static methods of the [ActivationRegistrationManager](activationregistrationmanager.md) class.
+
 ## -remarks
 
 ## -see-also

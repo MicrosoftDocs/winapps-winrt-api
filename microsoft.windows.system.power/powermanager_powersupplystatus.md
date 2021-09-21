@@ -12,11 +12,17 @@ public static Microsoft.Windows.System.Power.PowerSupplyStatus PowerSupplyStatus
 
 ## -description
 
+Gets the current power supply status of the device.
+
 ## -property-value
+
+The current power supply status of the device.
 
 ## -remarks
 
 ## -see-also
+
+[PowerSupplyStatusChanged event](powermanager_powersupplystatuschanged.md), [PowerSupplyStatus enum](powersupplystatus.md), [Power management with the app lifecycle API](/windows/apps/windows-app-sdk/applifecycle/applifecycle-power)
 
 ## -examples
 
