@@ -20,7 +20,8 @@ Constructs a new [ResourceLoader](resourceloader.md) object for the specified [R
 
 The resource identifier of the [ResourceMap](resourcemap.md) that the new resource loader uses for unqualified resource references. It can then retrieve resources relative to those references.
 
-**NOTE**: The resource identifier is treated as a Uniform Resource Identifier (URI) fragment, subject to Uniform Resource Identifier (URI) semantics. For example, "Caption%20" is treated as "Caption ". Do not use "?" or "#" in resource identifiers, as they terminate the resource path. For example, "Foo?3" is treated as "Foo".
+> [!NOTE]
+> The resource identifier is treated as a Uniform Resource Identifier (URI) fragment, subject to Uniform Resource Identifier (URI) semantics. For example, "Caption%20" is treated as "Caption ". Do not use "?" or "#" in resource identifiers, as they terminate the resource path. For example, "Foo?3" is treated as "Foo".
 
 ## -remarks
 

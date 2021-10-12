@@ -21,7 +21,8 @@ A new instance of `DisplayAreaWatcher`.
 
 A [DisplayAreaWatcher](displayareawatcher.md) enumerates [DisplayArea](displayarea.md) objects and raises events when the collection of display areas changes, or if the configuration of an individual `DisplayArea` has changed.
 
-**NOTE**: You must create the `DisplayAreaWatcher` on a UI thread.
+> [!NOTE]
+> You must create the `DisplayAreaWatcher` on a UI thread.
 
 ## -see-also
 

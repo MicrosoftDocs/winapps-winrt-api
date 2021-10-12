@@ -18,7 +18,8 @@ Returns the most appropriate string value of a resource, specified by resource i
 ### -param resourceId
 The resource identifier of the resource to be resolved.
 
-**NOTE**: The resource identifier is treated as a Uniform Resource Identifier (URI) fragment, subject to Uniform Resource Identifier (URI) semantics. For example, **getString** ("Caption%20") is treated as **getString** ("Caption "). Do not use "?" or "#" in resource identifiers, as they terminate the resource path. For example, "Foo?3" is treated as "Foo".
+> [!NOTE]
+> The resource identifier is treated as a Uniform Resource Identifier (URI) fragment, subject to Uniform Resource Identifier (URI) semantics. For example, **getString** ("Caption%20") is treated as **getString** ("Caption "). Do not use "?" or "#" in resource identifiers, as they terminate the resource path. For example, "Foo?3" is treated as "Foo".
 
 ## -returns
 The most appropriate string value of the specified resource for the default [ResourceContext](resourcecontext.md).
