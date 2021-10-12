@@ -18,7 +18,7 @@ Defines values that represent the type of resource that is encapsulated in a [Re
 
 ### -field Unknown:0
 
-The **ResourceCandidate** contains a value with an unknown type.
+The **ResourceCandidate** is of an unknown type.
 
 ### -field String:1
 

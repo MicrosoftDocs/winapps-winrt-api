@@ -33,10 +33,7 @@ The app window uses an overlapped presenter.
 
 ## -remarks
 
-> [!NOTE]
-> The `Default` value is used only when you apply an [AppWindowPresenter](appwindowpresenter.md) by _kind_ ([AppWindow.SetPresenter(appWindowPresenterKind)](appwindow_setpresenter_1503611267.md)), it is never used as the value of the [Kind](appwindowpresenter_kind.md) property of any presenter.
->
->The default presenter is [OverlappedPresenter](overlappedpresenter.md), which means that calling `AppWindow.SetPresenter(AppWindowPresenterKind.Default)` will result in an `OverlappedPresenter` being applied to the window.
+**NOTE**: The `Default` value is used only when you apply an [AppWindowPresenter](appwindowpresenter.md) by _kind_ ([AppWindow.SetPresenter(appWindowPresenterKind)](appwindow_setpresenter_1503611267.md)), it is never used as the value of the [Kind](appwindowpresenter_kind.md) property of any presenter. The default presenter is [OverlappedPresenter](overlappedpresenter.md), which means that calling `AppWindow.SetPresenter(AppWindowPresenterKind.Default)` will result in an `OverlappedPresenter` being applied to the window.
 
 ## -see-also
 

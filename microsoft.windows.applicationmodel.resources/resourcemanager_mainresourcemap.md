@@ -12,7 +12,7 @@ public Microsoft.Windows.ApplicationModel.Resources.ResourceMap MainResourceMap 
 
 ## -description
 
-Gets the [ResourceMap](resourcemap.md) that is associated with the main package of the currently running application.
+Gets the [ResourceMap](resourcemap.md) that is associated with the main package of the currently running app.
 
 ## -property-value
 

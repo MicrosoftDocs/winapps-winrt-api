@@ -12,11 +12,11 @@ public static string Contrast { get; }
 
 ## -description
 
-Gets the name for a qualifier based on the system contrast settings.
+Gets the name for a qualifier based on the contrast settings.
 
 ## -property-value
 
-The name for a qualifier based on the system contrast settings.
+The name for a qualifier based on the contrast settings.
 
 ## -remarks
 

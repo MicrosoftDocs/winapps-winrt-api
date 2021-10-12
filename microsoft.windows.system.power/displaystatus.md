@@ -12,7 +12,7 @@ public enum DisplayStatus
 
 ## -description
 
-Defines values that represent the status of the display that is associated with the application's session.
+Defines values that represent the status of the display that is associated with the app's session.
 
 ## -enum-fields
 

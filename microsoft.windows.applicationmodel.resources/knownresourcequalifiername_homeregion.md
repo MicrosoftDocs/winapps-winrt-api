@@ -12,11 +12,11 @@ public static string HomeRegion { get; }
 
 ## -description
 
-Gets the name for a qualifier based on the current system home region.
+Gets the name for a qualifier based on the current home region.
 
 ## -property-value
 
-The name for a qualifier based on the current system home region.
+The name for a qualifier based on the current home region.
 
 ## -remarks
 

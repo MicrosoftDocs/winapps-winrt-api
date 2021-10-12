@@ -12,11 +12,11 @@ public static string LayoutDirection { get; }
 
 ## -description
 
-Gets the name for a qualifier based on the current system UI layout direction.
+Gets the name for a qualifier based on the current UI layout direction.
 
 ## -property-value
 
-The name for a qualifier based on the current system UI layout direction.
+The name for a qualifier based on the current UI layout direction.
 
 ## -remarks
 

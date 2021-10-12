@@ -12,11 +12,11 @@ public static string Theme { get; }
 
 ## -description
 
-Gets the name for a qualifier based on the system theme.
+Gets the name for a qualifier based on the current theme.
 
 ## -property-value
 
-The name for a qualifier based on the system theme.
+The name for a qualifier based on the current theme.
 
 ## -remarks
 

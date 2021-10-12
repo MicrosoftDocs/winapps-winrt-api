@@ -19,7 +19,7 @@ The width of the system-reserved region of the upper-left corner of the app wind
 
 ## -remarks
 
-For applications with custom title bars (that is, [ExtendsContentIntoTitleBar](appwindowtitlebar_extendscontentintotitlebar.md) is `true`), the system reserves the option to have system UI drawn in the upper-left or upper-right corner of the app window. The system draws caption buttons in the upper-right for left-to-right languages and the upper-left for right-to-left languages.
+For apps with custom title bars (that is, [ExtendsContentIntoTitleBar](appwindowtitlebar_extendscontentintotitlebar.md) is `true`), the system reserves the option to have system UI drawn in the upper-left or upper-right corner of the app window. The system draws caption buttons in the upper-right for left-to-right languages and the upper-left for right-to-left languages.
 
 The width of the reserved region on each side is given by `LeftInset` or [RightInset](appwindowtitlebar_rightinset.md) properties, and its height is given by the [Height](appwindowtitlebar_height.md) property. In the areas described by these regions, you should not put any UI that you expect the user to be able to interact with.
 

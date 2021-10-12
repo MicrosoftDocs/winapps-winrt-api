@@ -12,7 +12,7 @@ public static Microsoft.Windows.System.Power.UserPresenceStatus UserPresenceStat
 
 ## -description
 
-Gets the current user status associated with the application's session.
+Gets the current user status associated with the app's session.
 
 ## -property-value
 

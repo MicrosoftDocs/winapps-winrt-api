@@ -12,7 +12,7 @@ public static event System.EventHandler<object> UserPresenceStatusChanged;
 
 ## -description
 
-Raised when the user status associated with the application's session has changed.
+Raised when the user status associated with the app's session has changed.
 
 ## -remarks
 

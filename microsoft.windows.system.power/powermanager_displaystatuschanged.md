@@ -12,7 +12,7 @@ public static event System.EventHandler<object> DisplayStatusChanged;
 
 ## -description
 
-Raised when the status of the display that is associated with the application's session.
+Raised when the status of the display that is associated with the app's session.
 
 ## -remarks
 

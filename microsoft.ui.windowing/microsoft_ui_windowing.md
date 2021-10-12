@@ -7,7 +7,7 @@
 
 ## -description
 
-Provides support for creating and managing the windows associated with an application.
+Provides support for creating and managing the windows associated with an app.
 
 ## -remarks
 

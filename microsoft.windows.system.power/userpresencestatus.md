@@ -12,7 +12,7 @@ public enum UserPresenceStatus
 
 ## -description
 
-Defines values that represent the user status associated with the application's session.
+Defines values that represent the user status associated with the app's session.
 
 ## -enum-fields
 

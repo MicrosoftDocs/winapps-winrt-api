@@ -12,11 +12,11 @@ public static string Language { get; }
 
 ## -description
 
-Gets the name for a qualifier based on the system language.
+Gets the name for a qualifier based on the current language.
 
 ## -property-value
 
-The name for a qualifier based on the system language.
+The name for a qualifier based on the current language.
 
 ## -remarks
 

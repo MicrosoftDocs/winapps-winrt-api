@@ -7,10 +7,9 @@
 
 ## -description
 
-Provides simplified access to application resources, such as strings, that are defined using basic naming conventions.
+Provides simplified access to app resources, such as strings, that are defined using basic naming conventions.
 
-> [!NOTE]
-> In Windows App SDK 1.0 Preview 1 and later releases, this namespace has been renamed to [Microsoft.Windows.ApplicationModel.Resources](../microsoft.windows.applicationmodel.resources/microsoft_windows_applicationmodel_resources.md).
+**NOTE**: In Windows App SDK 1.0 Preview 1 and later releases, this namespace has been renamed to [Microsoft.Windows.ApplicationModel.Resources](../microsoft.windows.applicationmodel.resources/microsoft_windows_applicationmodel_resources.md).
 
 ## -remarks
 

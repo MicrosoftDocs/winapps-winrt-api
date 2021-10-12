@@ -157,7 +157,7 @@ Reserved for system use.
 
 ### -field PrintWorkflowForegroundTask:1018
 
-The app was activated because the user is printing to a printer that has a Print Workflow Application associated with it which has requested user input.
+The app was activated because the user is printing to a printer that has a Print Workflow App associated with it which has requested user input.
 
 ### -field GameUIProvider:1019
 

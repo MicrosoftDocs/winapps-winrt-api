@@ -12,11 +12,11 @@ public static Microsoft.Windows.System.Power.DisplayStatus DisplayStatus { get; 
 
 ## -description
 
-Gets the current status of the display that is associated with the application's session.
+Gets the current status of the display that is associated with the app's session.
 
 ## -property-value
 
-The current status of the display that is associated with the application's session.
+The current status of the display that is associated with the app's session.
 
 ## -remarks
 
