@@ -1,0 +1,87 @@
+{
+  "build": {
+    "markdownEngineName": "markdig",
+    "content": [
+      {
+        "files": ["breadcrumb/toc.yml"]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "**/_themes/**",
+          "api/overwrites/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.svg",
+          "**/*.gif",
+          "**/*.bmp"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": {
+      "files": [
+        "api/overwrites/**/*.md"
+      ]
+    },
+    "globalMetadata": {
+      "open_to_public_contributors": false,
+      "apiPlatform": "dotnet",
+      "breadcrumb_path": "/windows/windows-app-sdk/api/winrt/breadcrumb/toc.json",
+      "feedback_product_url": "https://github.com/microsoft/ProjectReunion/issues",
+      "uhfHeaderId": "MSDocsHeader-WinDevCenter",
+      "titleSuffix": "Windows App SDK",
+      "author": "GrantMeStrength",
+      "ms.author": "jken",
+      "extendBreadcrumb": true,
+      "ms.prod": "reunion",
+      "ms.technology": "reunion-reference",
+      "ms.topic": "managed-reference"
+    },
+    "fileMetadata": {
+      "langs": {
+        "winapps-api-build/**.yml": ["csharp","cppwinrt"]
+      },
+      "author": {
+        "microsoft.applicationmodel.resources*.yml": "hickeys",
+        "microsoft.ui.windowing*.yml": "jwmsft",
+        "microsoft.windows.applicationmodel.dynamicdependency*.yml": "mikben",
+        "microsoft.windows.applicationmodel.resources*.yml": "hickeys",
+        "microsoft.windows.applicationmodel.windowsappruntime*.yml": "mikben",
+        "microsoft.windows.applifecycle*.yml": "hickeys",
+        "microsoft.windows.system.power*.yml": "hickeys"
+      },
+      "ms.author":
+      {
+        "microsoft.applicationmodel.resources*.yml": "hickeys",
+        "microsoft.ui.windowing*.yml": "jimwalk",
+        "microsoft.windows.applicationmodel.dynamicdependency*.yml": "mikben",
+        "microsoft.windows.applicationmodel.resources*.yml": "hickeys",
+        "microsoft.windows.applicationmodel.windowsappruntime*.yml": "mikben",
+        "microsoft.windows.applifecycle*.yml": "hickeys",
+        "microsoft.windows.system.power*.yml": "hickeys"
+      }	
+    },
+    "template": [],
+    "dest": "_site",
+    "lruSize": 0
+  }
+}
