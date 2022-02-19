@@ -20,9 +20,12 @@ Gets a value that indicates whether the title bar can be customized.
 
 ## -remarks
 
-In the current release, title bars can be customized only on Windows 11. Use this property to determine whether the title bar can be customized.
+> [!IMPORTANT]
+> Title bar customization APIs are currently supported on Windows 11 only. You should check `IsCustomizationSupported` in your code before you call these APIs to ensure your app doesn't crash on other versions of Windows. See [Title bar customization](/windows/apps/develop/title-bar?tabs=wasdk) for more info.
 
 ## -see-also
+
+[Title bar customization](/windows/apps/develop/title-bar?tabs=wasdk)
 
 ## -examples
 

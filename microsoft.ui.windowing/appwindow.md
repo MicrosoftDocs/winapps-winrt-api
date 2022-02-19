@@ -15,8 +15,11 @@ Represents a system-managed container for the content of an app.
 
 ## -remarks
 
+> [!IMPORTANT]
+> Title bar customization APIs are currently supported on Windows 11 only. You should check [AppWindowTitleBar.IsCustomizationSupported](/windows/windows-app-sdk/api/winrt/microsoft.ui.windowing.appwindowtitlebar.iscustomizationsupported) in your code before you call these APIs to ensure your app doesn't crash on other versions of Windows. See [Title bar customization](/windows/apps/develop/title-bar?tabs=wasdk) for more info.
+
 ## -see-also
 
-[Manage app windows](/windows/apps/windows-app-sdk/windowing/windowing-overview)
+[Manage app windows](/windows/apps/windows-app-sdk/windowing/windowing-overview), [Title bar customization](/windows/apps/develop/title-bar?tabs=wasdk)
 
 ## -examples
