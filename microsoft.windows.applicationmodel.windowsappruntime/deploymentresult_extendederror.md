@@ -16,12 +16,12 @@ Gets the first encountered error if there was an error initializing the Windows 
 
 ## -property-value
 
-The first encountered error if there was an error initializing the Windows App SDK runtime or getting the status of the runtime. If there is no error, this property returns **S_OK**.
+The first encountered error if there was an error initializing the Windows App SDK runtime or getting the status of the runtime. If there is no error, then this property returns **S_OK**.
 
 ## -remarks
 
 ## -see-also
 
+[Deployment guide for packaged apps](/windows/apps/windows-app-sdk/deploy-packaged-apps)
+
 ## -examples
-
-

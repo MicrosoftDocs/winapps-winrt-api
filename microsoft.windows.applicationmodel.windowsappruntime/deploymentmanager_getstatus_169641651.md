@@ -27,5 +27,3 @@ Call this method after the current app is initialized but before it has used any
 [Deployment guide for packaged apps](/windows/apps/windows-app-sdk/deploy-packaged-apps)
 
 ## -examples
-
-

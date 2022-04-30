@@ -27,4 +27,6 @@ The first encountered error if there was an error initializing the Windows App S
 
 ## -see-also
 
+[Deployment guide for packaged apps](/windows/apps/windows-app-sdk/deploy-packaged-apps)
+
 ## -examples
