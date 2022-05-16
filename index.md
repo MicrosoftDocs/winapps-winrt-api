@@ -7,4 +7,4 @@
 
 ## -description
 
-This section provides detailed information about the Windows Runtime (WinRT) APIs in the [Windows App SDK](/windows/apps/windows-app-sdk). TEST
+This section provides detailed information about the Windows Runtime (WinRT) APIs in the [Windows App SDK](/windows/apps/windows-app-sdk).
