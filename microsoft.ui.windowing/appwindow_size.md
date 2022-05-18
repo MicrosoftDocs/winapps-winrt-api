@@ -19,10 +19,12 @@ The current size of the window in screen coordinates.
 
 ## -remarks
 
-_Screen coordinates_ are relative to the upper-left corner of the screen; the coordinates of the upper-left corner are (0,0).
+To get the size of only the client area of the window, use the [ClientSize](appwindow_clientsize.md) property.
+
+_Screen coordinates_ are relative to the upper-left corner of the screen; the coordinates of the upper-left corner are (0,0). For more information, see [Window Coordinate System (Win32)](/windows/win32/gdi/window-coordinate-system).
 
 ## -see-also
 
-[AppWindow](appwindow.md), [Window Coordinate System (Win32)](/windows/win32/gdi/window-coordinate-system), [Windows Forms coordinates](/dotnet/desktop/winforms/windows-forms-coordinates)
+[AppWindow](appwindow.md), [ClientSize](appwindow_clientsize.md), [Resize](appwindow_resize_102971024.md) [Window Coordinate System (Win32)](/windows/win32/gdi/window-coordinate-system), [Windows Forms coordinates](/dotnet/desktop/winforms/windows-forms-coordinates)
 
 ## -examples
