@@ -9,15 +9,16 @@
 public Windows.Foundation.Point Position { get; }
 -->
 
-
 ## -description
 
+Gets the location of the mouse or pen/stylus contact.
+
 ## -property-value
+
+The screen coordinates, in device-independent pixel (DIP).
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

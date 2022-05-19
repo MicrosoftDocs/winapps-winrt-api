@@ -9,15 +9,16 @@
 public uint ResourceId { get; }
 -->
 
-
 ## -description
 
+Gets the resource identifier of the cursor resource.
+
 ## -property-value
+
+The resource identifier of the cursor resource.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

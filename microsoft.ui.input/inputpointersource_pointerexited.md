@@ -9,13 +9,12 @@
 public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Input.InputPointerSource,Microsoft.UI.Input.PointerEventArgs> PointerExited;
 -->
 
-
 ## -description
+
+Occurs when a pointer moves out of the bounds of this [InputPointerSource](inputpointersource.md).
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

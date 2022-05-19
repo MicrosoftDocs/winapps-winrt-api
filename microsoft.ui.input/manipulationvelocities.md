@@ -9,9 +9,7 @@
 public struct ManipulationVelocities
 -->
 
-
 ## -description
-
 ## -struct-fields
 
 ### -field Angular
@@ -25,5 +23,3 @@ public struct ManipulationVelocities
 ## -see-also
 
 ## -examples
-
-

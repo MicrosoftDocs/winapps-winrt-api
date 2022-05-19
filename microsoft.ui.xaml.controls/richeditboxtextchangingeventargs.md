@@ -1,0 +1,21 @@
+---
+-api-id: T:Microsoft.UI.Xaml.Controls.RichEditBoxTextChangingEventArgs
+-api-type: winrt class
+---
+
+<!-- Class syntax.
+public class RichEditBoxTextChangingEventArgs : Windows.UI.Xaml.Controls.IRichEditBoxTextChangingEventArgs, Windows.UI.Xaml.Controls.IRichEditBoxTextChangingEventArgs2
+-->
+
+# Microsoft.UI.Xaml.Controls.RichEditBoxTextChangingEventArgs
+
+## -description
+Provides event data for the [RichEditBox.TextChanging](richeditbox_textchanging.md) event.
+
+## -remarks
+An instance of this class is passed as a parameter to the [TextChanging](richeditbox_textchanging.md) event handler.
+
+## -examples
+
+## -see-also
+[RichEditBox.TextChanging](richeditbox_textchanging.md)

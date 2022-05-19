@@ -9,13 +9,12 @@
 public sealed class PointerPointProperties
 -->
 
-
 ## -description
+
+Provides extended properties for a [PointerPoint](pointerpoint.md) object.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

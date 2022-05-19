@@ -9,13 +9,12 @@
 public sealed class InputLightDismissEventArgs
 -->
 
-
 ## -description
+
+Provides data for the [Dismissed](inputlightdismissaction_dismissed.md) event.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

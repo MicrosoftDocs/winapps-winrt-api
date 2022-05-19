@@ -9,13 +9,12 @@
 public static class InputKeyboardSource
 -->
 
-
 ## -description
+
+Enables handling of keyboard input for the current thread.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

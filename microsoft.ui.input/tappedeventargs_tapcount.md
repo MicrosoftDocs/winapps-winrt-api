@@ -9,15 +9,16 @@
 public uint TapCount { get; }
 -->
 
-
 ## -description
 
+Gets the number of times the tap interaction was detected.
+
 ## -property-value
+
+The total number of detected taps.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

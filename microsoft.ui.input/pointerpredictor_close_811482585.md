@@ -9,13 +9,16 @@
 // This member is not implemented in C#
 -->
 
-
 ## -description
+
+Closes the [PointerPredictor](pointerpredictor.md) and releases system resources.
 
 ## -remarks
 
+Not implemented in C#.
+
 ## -see-also
 
+[CreateForInputPointerSource(Microsoft.UI.Input.InputPointerSource)](pointerpredictor_createforinputpointersource_1467140847.md)
+
 ## -examples
-
-

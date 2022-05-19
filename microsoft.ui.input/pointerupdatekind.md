@@ -9,37 +9,60 @@
 public enum PointerUpdateKind
 -->
 
-
 ## -description
+
+Specifies the types of pointer updates that are supported by an application.
 
 ## -enum-fields
 
-### -field Other: 0
+### -field Other:0
 
-### -field LeftButtonPressed: 1
+Pointer updates not identified by other PointerUpdateKind values.
 
-### -field LeftButtonReleased: 2
+### -field LeftButtonPressed:1
 
-### -field RightButtonPressed: 3
+Left button pressed.
 
-### -field RightButtonReleased: 4
+### -field LeftButtonReleased:2
 
-### -field MiddleButtonPressed: 5
+Left button released.
 
-### -field MiddleButtonReleased: 6
+### -field RightButtonPressed:3
 
-### -field XButton1Pressed: 7
+Right button pressed.
 
-### -field XButton1Released: 8
+### -field RightButtonReleased:4
 
-### -field XButton2Pressed: 9
+Right button released.
 
-### -field XButton2Released: 10
+### -field MiddleButtonPressed:5
+
+Middle button pressed.
+
+### -field MiddleButtonReleased:6
+
+Middle button released.
+
+### -field XButton1Pressed:7
+
+XBUTTON1 pressed.
+
+### -field XButton1Released:8
+
+XBUTTON1 released.
+
+### -field XButton2Pressed:9
+
+XBUTTON2 pressed.
+
+### -field XButton2Released:10
+
+XBUTTON2 released.
 
 ## -remarks
 
 ## -see-also
 
+[PointerPointProperties.PointerUpdateKind](pointerpointproperties_pointerupdatekind.md)
+
 ## -examples
-
-

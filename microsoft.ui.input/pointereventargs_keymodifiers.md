@@ -9,15 +9,14 @@
 public Windows.System.VirtualKeyModifiers KeyModifiers { get; }
 -->
 
-
 ## -description
+
+Gets the keyboard key or keys used to modify the pointer input, such as the "Ctrl" key when pressed in conjunction with another key, as in Ctrl+C.
 
 ## -property-value
 
-## -remarks
+The active key modifiers.
 
 ## -see-also
 
 ## -examples
-
-

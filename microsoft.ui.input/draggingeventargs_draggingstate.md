@@ -9,15 +9,16 @@
 public Microsoft.UI.Input.DraggingState DraggingState { get; }
 -->
 
-
 ## -description
 
+Gets the state of the [Dragging](gesturerecognizer_dragging.md) event.
+
 ## -property-value
+
+State of the [Dragging](gesturerecognizer_dragging.md) event.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
