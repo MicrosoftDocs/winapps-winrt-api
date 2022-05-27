@@ -1,12 +1,12 @@
 ---
--api-id: M:Microsoft.UI.Input.PointerPoint.GetPointTransformed(Microsoft.UI.Input.IPointerPointTransform)
+-api-id: M:Microsoft.UI.Input.PointerPoint.GetTransformedPoint(Microsoft.UI.Input.IPointerPointTransform)
 -api-type: winrt method
 ---
 
-# Microsoft.UI.Input.PointerPoint.GetPointTransformed(Microsoft.UI.Input.IPointerPointTransform)
+# Microsoft.UI.Input.PointerPoint.GetTransformedPoint(Microsoft.UI.Input.IPointerPointTransform)
 
 <!--
-public Microsoft.UI.Input.PointerPoint GetPointTransformed (Microsoft.UI.Input.IPointerPointTransform transform);
+public Microsoft.UI.Input.PointerPoint GetTransformedPoint (Microsoft.UI.Input.IPointerPointTransform transform);
 -->
 
 ## -description
