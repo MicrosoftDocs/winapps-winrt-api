@@ -1,0 +1,47 @@
+---
+-api-id: T:Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
+-api-type: winrt enum
+---
+<!-- Enumeration syntax.
+public enum NavigationViewShoulderNavigationEnabled : int 
+-->
+
+# Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
+
+## -description
+
+Defines constants that specify when gamepad bumpers can be used to navigate the top-level navigation items in a NavigationView.
+
+## -enum-fields
+
+### -field WhenSelectionFollowsFocus:0
+
+Gamepad bumpers navigate the top-level navigation items when the [SelectionFollowsFocus](/uwp/api/windows.ui.xaml.controls.navigationview.selectionfollowfocus) property is **Enabled**.
+
+### -field Never:2
+
+Gamepad bumpers never navigate the top-level navigation items.
+
+### -field Always:1
+
+Gamepad bumpers always navigate the top-level navigation items.
+
+## -remarks
+
+## -see-also
+
+[Designing for Xbox and TV](/windows/apps/design/devices/designing-for-tv#hardware-buttons)
+
+## -examples
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [NavigationView](/windows/apps/design/controls/navigationview).
+>
+> The **WinUI 3 Gallery** and **WinUI 2 Gallery** apps include interactive examples of most WinUI 3 and WinUI 2 controls, features, and functionality.
+>
+> If installed already, open them by clicking the following links: [**WinUI 3 Gallery**](winui3gallery:/item/NavigationView) or [**WinUI 2 Gallery**](winui2gallery:/item/NavigationView).
+>
+> If they are not installed, you can download the [**WinUI 3 Gallery**](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) and the [**WinUI 2 Gallery**](https://www.microsoft.com/store/productId/9MSVH128X2ZT) from the Microsoft Store.
+>
+> You can also get the source code for both from [GitHub](https://github.com/Microsoft/WinUI-Gallery) (use the *main* branch for WinUI 3 and the *winui2* branch for WinUI 2).
+
