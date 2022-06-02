@@ -31,6 +31,10 @@ The composition target to connect to.
 
 Use this method to connect the `DesktopAcrylicController` to a Win32 `HWND` or an [AppWindow](/windows/windows-app-sdk/api/winrt/microsoft.ui.windowing.appwindow).
 
+This method must be called on a thread with a [DispatcherQueue](/uwp/api/windows.system.dispatcherqueue).
+
+When used in a Win32 application, desktop acrylic requires the DWM window attribute [DWMWA_USE_HOSTBACKDROPBRUSH](/windows/win32/api/dwmapi/ne-dwmapi-dwmwindowattribute) to be set on the top level `hWnd` in order to work.
+
 ## -see-also
 
 [Manage app windows](/windows/apps/windows-app-sdk/windowing/windowing-overview)

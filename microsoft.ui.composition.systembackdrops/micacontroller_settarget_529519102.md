@@ -31,6 +31,8 @@ The composition target to connect to.
 
 Use this method to connect the `MicaController` to a Win32 `HWND` or an [AppWindow](/windows/windows-app-sdk/api/winrt/microsoft.ui.windowing.appwindow).
 
+This method must be called on a thread with a [DispatcherQueue](/uwp/api/windows.system.dispatcherqueue).
+
 ## -see-also
 
 [Manage app windows](/windows/apps/windows-app-sdk/windowing/windowing-overview)

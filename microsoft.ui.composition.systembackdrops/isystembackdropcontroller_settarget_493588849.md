@@ -31,6 +31,8 @@ The composition target to connect to.
 
 Use this method to connect the `ISystemBackdropController` to a [CoreWindow](/uwp/api/windows.ui.core.corewindow).
 
+This method must be called on a thread with a [DispatcherQueue](/uwp/api/windows.system.dispatcherqueue).
+
 ## -see-also
 
 ## -examples
