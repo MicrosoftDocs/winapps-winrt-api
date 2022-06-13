@@ -13,11 +13,6 @@ public class Pivot : Windows.UI.Xaml.Controls.ItemsControl, Windows.UI.Xaml.Cont
 
 Represents a control that provides quick navigation of views within an app.
 
-> [!Important]
-> The **Pivot** control is no longer recommended and could be removed in future releases of the Windows UI Library (WinUI). Note that information and images in this topic might be out of date.
->
-> Please use the [NavigationView](navigationview.md) ([NavigationViewPaneDisplayMode](navigationviewpanedisplaymode.md) of Top) instead.
-
 ## -xaml-syntax
 
 ```xaml
@@ -34,6 +29,9 @@ Represents a control that provides quick navigation of views within an app.
 
 > [!TIP]
 > For more info, design guidance, and code examples, see [Pivot](/windows/apps/design/controls/pivot).
+
+> [!NOTE]
+>The Pivot control is not recommended for [Windows 11 design patterns](/windows/apps/design/basics/app-silhouette). When designing for Windows 11, consider using a [NavigationView](/windows/apps/design/controls/navigationview) or [TabView](/windows/apps/design/controls/tab-view) control instead of a Pivot control. See the [Use NavigationView instead of Pivot](/windows/apps/design/controls/pivot#use-navigationview-instead-of-pivot) section of the Pivot article for an example.
 
 Use a Pivot to present groups of content that a user can swipe through. You typically use a Pivot as the top level control on a page.
 
