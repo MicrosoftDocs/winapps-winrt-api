@@ -35,6 +35,8 @@ The PointerRoutedEventArgs event data class is used for these events:
 
 [!code-csharp[PointerMoved](../microsoft.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
 
+:::code language="xaml" source="code/PointerInput/csharp/MainPage.xaml" id="SnippetPointerMoved":::
+
 [!code-csharp[PointerMoved](../microsoft.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
 
 + The value of *sender* (which is on the delegate signature, not this event data class).
