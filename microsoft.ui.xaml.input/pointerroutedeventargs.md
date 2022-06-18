@@ -33,9 +33,7 @@ The PointerRoutedEventArgs event data class is used for these events:
 > [!IMPORTANT]
 > Mouse input is associated with a single pointer assigned when mouse input is first detected. Clicking a mouse button (left, wheel, or right) creates a secondary association between the pointer and that button through the [PointerPressed](../microsoft.ui.xaml/uielement_pointerpressed.md) event. The [PointerReleased](../microsoft.ui.xaml/uielement_pointerreleased.md) event is fired only when that same mouse button is released (no other button can be associated with the pointer until this event is complete). Because of this exclusive association, other mouse button clicks are routed through the [PointerMoved](../microsoft.ui.xaml/uielement_pointermoved.md) event. You can test the mouse button state when handling this event, as shown in the following example.
 
-[!code-csharp[PointerMoved](../microsoft.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
-
-[!code-csharp[PointerMoved](../microsoft.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
+:::code language="csharp" source="code/PointerInput/csharp/MainWindow.xaml.cs" id="SnippetPointerMoved":::
 
 + The value of *sender* (which is on the delegate signature, not this event data class).
 + Specific members of PointerRoutedEventArgs, such as [KeyModifiers](pointerroutedeventargs_keymodifiers.md) or [GetCurrentPoint](pointerroutedeventargs_getcurrentpoint_293890010.md).
@@ -48,20 +46,18 @@ The object retrieved by the GetCurrentPoint and GetIntermediatePoints methods pr
 
 In the following example, we get extended pointer properties through the [PointerPoint](../microsoft.ui.input/pointerpoint.md) and [PointerPointProperties](../microsoft.ui.input/pointerpointproperties.md) objects. (See [Quickstart: Pointers](/previous-versions/windows/apps/hh465383(v=win.10)) for the complete example.)
 
-[!code-csharp[SnippetQueryPointer](../microsoft.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetQueryPointer)]
+:::code language="csharp" source="code/PointerInput/csharp/MainWindow.xaml.cs" id="SnippetQueryPointer":::
 
 Typically, the object returned by this method is used to feed pointer data to a [GestureRecognizer](../microsoft.ui.input/gesturerecognizer.md). Another scenario is getting the [MouseWheelDelta](../microsoft.ui.input/pointerpointproperties_mousewheeldelta.md) for a [PointerWheelChanged](../microsoft.ui.xaml/uielement_pointerwheelchanged.md) event; that value is in [PointerPointProperties](../microsoft.ui.input/pointerpointproperties.md).
 
 ## -examples
+
 The following code example shows scenario 2 from the [Input sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample). This code shows some usage patterns for direct manipulation using the [PointerPressed](../microsoft.ui.xaml/uielement_pointerpressed.md), [PointerReleased](../microsoft.ui.xaml/uielement_pointerreleased.md), [PointerEntered](../microsoft.ui.xaml/uielement_pointerentered.md), [PointerExited](../microsoft.ui.xaml/uielement_pointerexited.md), and [PointerMoved](../microsoft.ui.xaml/uielement_pointermoved.md) events.
 
+:::code language="xaml" source="../microsoft.ui.xaml/code/input/csharp/Scenario2.xaml" id="SnippetScenario2Xaml":::
 
-
-[!code-xaml[Scenario2Xaml](../microsoft.ui.xaml/code/input/csharp/Scenario2.xaml#SnippetScenario2Xaml)]
-
-[!code-csharp[Scenario2Code](../microsoft.ui.xaml/code/input/csharp/Scenario2.xaml.cs#SnippetScenario2Code)]
-
-[!code-vb[Scenario2Code](../microsoft.ui.xaml/code/input/vbnet/Scenario2.xaml.vb#SnippetScenario2Code)]
+:::code language="csharp" source="../microsoft.ui.xaml/code/input/csharp/Scenario2.xaml.cs" id="SnippetScenario2Code":::
 
 ## -see-also
+
 [RoutedEventArgs](../microsoft.ui.xaml/routedeventargs.md), [PointerPressed](../microsoft.ui.xaml/uielement_pointerpressed.md), [PointerPressed](../microsoft.ui.xaml/uielement_pointerpressed.md)
