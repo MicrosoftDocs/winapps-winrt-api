@@ -50,14 +50,6 @@ In the following example, we get extended pointer properties through the [Pointe
 
 Typically, the object returned by this method is used to feed pointer data to a [GestureRecognizer](../microsoft.ui.input/gesturerecognizer.md). Another scenario is getting the [MouseWheelDelta](../microsoft.ui.input/pointerpointproperties_mousewheeldelta.md) for a [PointerWheelChanged](../microsoft.ui.xaml/uielement_pointerwheelchanged.md) event; that value is in [PointerPointProperties](../microsoft.ui.input/pointerpointproperties.md).
 
-## -examples
-
-The following code example shows scenario 2 from the [Input sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample). This code shows some usage patterns for direct manipulation using the [PointerPressed](../microsoft.ui.xaml/uielement_pointerpressed.md), [PointerReleased](../microsoft.ui.xaml/uielement_pointerreleased.md), [PointerEntered](../microsoft.ui.xaml/uielement_pointerentered.md), [PointerExited](../microsoft.ui.xaml/uielement_pointerexited.md), and [PointerMoved](../microsoft.ui.xaml/uielement_pointermoved.md) events.
-
-:::code language="xaml" source="../microsoft.ui.xaml/code/input/csharp/Scenario2.xaml" id="snippetScenario2Xaml":::
-
-:::code language="csharp" source="../microsoft.ui.xaml/code/input/csharp/Scenario2.xaml.cs" id="snippetScenario2Code":::
-
 ## -see-also
 
 [RoutedEventArgs](../microsoft.ui.xaml/routedeventargs.md), [PointerPressed](../microsoft.ui.xaml/uielement_pointerpressed.md), [PointerPressed](../microsoft.ui.xaml/uielement_pointerpressed.md)
