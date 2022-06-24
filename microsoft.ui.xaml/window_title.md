@@ -19,26 +19,29 @@ The string used for the window title.
 
 ## -remarks
 
-In a UWP app, this property is a wrapper for [ApplicationView.Title](/uwp/api/windows.ui.viewmanagement.applicationview.title). In a Desktop app this is a wrapper for [SetWindowText](/windows/win32/api/winuser/nf-winuser-setwindowtextw).
+For more information, see [Title bar customization](/windows/apps/develop/title-bar?tabs=winui3#title-1)
+
+By default, the title bar shows the app's display name as the window title. The display name is set in the `Package.appxmanifest` file. To replace the title with custom text, set the `Window.Title` property to a text value, as shown in the Examples.
 
 In addition to the title bar, this string is used in other system UI such as the application switcher (Alt-Tab).
 
-If [ExtendsContentIntoTitleBar](window_extendscontentintotitlebar.md) is set, this value is not displayed by the title bar.
+In a Desktop app this is a wrapper for [SetWindowText](/windows/win32/api/winuser/nf-winuser-setwindowtextw).
+
+If [ExtendsContentIntoTitleBar](window_extendscontentintotitlebar.md) is setto `true`, this value is not displayed by the title bar.
 
 ## -examples
 
-The following example shows a MainWindow.xaml file that specifies a `Title`.
+> [!CAUTION]
+> `Title` shows in the XAML IntelliSense for `Window`, but setting it in XAML causes an error. Set this property in code instead.
 
-```xaml
-<Window 
-    x:Class="MainWindow"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    Title="Main Window">
-...    
-</Window>
+```csharp
+public MainWindow()
+{
+    InitializeComponent();
+    Title = "App title";
+}
 ```
 
 ## -see-also
 
-[SetTitleBar(Microsoft.UI.Xaml.UIElement)](window_settitlebar_1494775390.md)
+[Title bar customization](/windows/apps/develop/title-bar?tabs=winui3), [SetTitleBar(Microsoft.UI.Xaml.UIElement)](window_settitlebar_1494775390.md)
