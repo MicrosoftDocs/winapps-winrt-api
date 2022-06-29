@@ -11,11 +11,11 @@ public Microsoft.UI.Input.InputActivationState State { get; }
 
 ## -description
 
-Gets the activation state of the window, view, or other visual element.
+Gets the activation state of the window.
 
 ## -property-value
 
-The activation state of the window, view, or other visual element.
+The activation state of the window.
 
 ## -remarks
 

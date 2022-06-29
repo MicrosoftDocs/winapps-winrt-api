@@ -11,7 +11,7 @@ public sealed class InputActivationListener : Microsoft.UI.Input.InputObject
 
 ## -description
 
-Provides the ability to access and observe changes to the activation state of a window, view, or other visual element.
+Provides the ability to access and observe changes to the activation state of a window.
 
 ## -remarks
 
