@@ -29,7 +29,7 @@ If the window associated with an InputLightDismissAction is destroyed, the Input
 
 ## -examples
 
-The following example shows how to create a context-menu-styled  AppWindow and close it when the light dismiss event is raised.
+The following example shows how to create a context-menu-styled <xref:Microsoft.UI.Windowing.AppWindow?displayProperty=nameWithType> and close it when the light dismiss event is raised.
 
 ```csharp
 AppWindow appWindow = AppWindow.Create(AppWindowConfiguration.CreateForContextMenu());

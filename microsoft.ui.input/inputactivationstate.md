@@ -11,7 +11,7 @@ public enum InputActivationState
 
 ## -description
 
-Specifies all possible activation states for a view, window, or other user interface element.
+Specifies all possible activation states for a window.
 
 ## -enum-fields
 

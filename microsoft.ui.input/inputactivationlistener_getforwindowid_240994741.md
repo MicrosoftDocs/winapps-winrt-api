@@ -38,37 +38,3 @@ In all cases there can only be a single <xref:Microsoft.UI.Input.InputActivation
 <xref:Microsoft.UI.Input.InputActivationListenerActivationChangedEventArgs>
 
 ## -examples
-
-The following Windows App SDK example shows how to respond to activation events for an <xref:Microsoft.UI.Windowing.AppWindow?displayProperty=nameWithType> object:
-
-```csharp
-class RespondToAppWindowActivation
-{
-    InputActivationListener inputActivationListener;
-
-    public RespondToAppWindowActivation(Microsoft.UI.Windowing.AppWindow appWindow)
-    {
-        inputActivationListener = InputActivationListener.GetForWindowId(appWindow.Id);
-
-        inputActivationListener.InputActivationChanged += OnActivationChanged;
-    }
-
-    void OnActivationChanged(
-        InputActivationListener sender,
-        InputActivationListenerActivationChangedEventArgs args)
-    {
-        if (sender.State == InputActivationState.Activated)
-        {
-            System.Diagnostics.Debug.WriteLine("AppWindow was activated.");
-
-            LeaveMyBackgroundMode();
-        }
-        else
-        {
-            System.Diagnostics.Debug.WriteLine("AppWindow was deactivated.");
-
-            EnterMyBackgroundMode();
-        }
-    }
-}
-```
