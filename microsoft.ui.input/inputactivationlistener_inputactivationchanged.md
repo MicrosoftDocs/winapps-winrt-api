@@ -11,7 +11,7 @@ public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Input.InputActiva
 
 ## -description
 
-Occurs when the window, view, or other visual element completes transition to a new activation state.
+Occurs when the activation state of the associated window changes.
 
 ## -remarks
 
