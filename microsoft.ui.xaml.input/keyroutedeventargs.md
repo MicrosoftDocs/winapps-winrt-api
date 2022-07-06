@@ -37,14 +37,6 @@ This table provides the mapping detail for these devices.
 
 ## -examples
 
-Here, we demonstrate how to handle the [KeyUp](../microsoft.ui.xaml/uielement_keyup.md) event to navigate to a URL if the [virtual key](/uwp/api/windows.system.virtualkey) associated with the event is the **Enter** key. For the complete code listing, see the [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView).
-
-[!code-cpp[WebViewNavigation](../microsoft.ui.xaml.input/code/Controls_WebView/cpp/Scenario1.xaml.cpp#SnippetWebViewNavigation)]
-
-[!code-csharp[WebViewNavigation](../microsoft.ui.xaml.input/code/Controls_WebView/csharp/Scenario1.xaml.cs#SnippetWebViewNavigation)]
-
-[!code-vb[WebViewNavigation](../microsoft.ui.xaml.input/code/Controls_WebView/vbnet/Scenario1.xaml.vb#SnippetWebViewNavigation)]
-
 ## -see-also
 
-[RoutedEventArgs](../microsoft.ui.xaml/routedeventargs.md), [WebView](/uwp/api/windows.ui.xaml.controls.webview), [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView)
+[RoutedEventArgs](../microsoft.ui.xaml/routedeventargs.md)
