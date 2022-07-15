@@ -56,7 +56,7 @@ Set the [DisplayMode](splitview_displaymode.md) property to configure the intera
 > [!div class="nextstepaction"]
 > [Open the WinUI 3 Gallery app and see the SplitView in action](winui3gallery:/item/SplitView).
 
-> The **WinUI 3 Gallery app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery)
+> The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery)
 
 
 Here's a SplitView control with an open [Pane](splitview_pane.md) appearing inline next to the [Content](splitview_content.md).

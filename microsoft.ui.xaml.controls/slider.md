@@ -81,7 +81,7 @@ This table shows the resources used by the Slider control.
 > [!div class="nextstepaction"]
 > [Open the WinUI 3 Gallery app and see the Slider in action](winui3gallery:/item/Slider).
 
-> The **WinUI 3 Gallery app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery)
+> The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery)
 
 
 The following code example shows several slider controls and how to handle the [ValueChanged](../microsoft.ui.xaml.controls.primitives/rangebase_valuechanged.md) event. The [ValueChanged](../microsoft.ui.xaml.controls.primitives/rangebase_valuechanged.md) event is used to update the value of a [TextBlock](textblock.md) as the [Value](../microsoft.ui.xaml.controls.primitives/rangebase_value.md) property of the slider changes.

@@ -34,14 +34,11 @@ The [INavigate](inavigate.md) interface is mainly infrastructure. It's not expec
 
 > [!TIP]
 > For more info, design guidance, and code examples, see [Page transitions](/windows/apps/design/motion/page-transitions).
->
-> The **WinUI 3 Gallery** and **WinUI 2 Gallery** apps include interactive examples of most WinUI 3 and WinUI 2 controls, features, and functionality.
->
-> If installed already, open them by clicking the following links: [**WinUI 3 Gallery**](winui3gallery:/item/PageTransition) or [**WinUI 2 Gallery**](winui2gallery:/item/PageTransition).
->
-> If they are not installed, you can download the [**WinUI 3 Gallery**](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) and the [**WinUI 2 Gallery**](https://www.microsoft.com/store/productId/9MSVH128X2ZT) from the Microsoft Store.
->
-> You can also get the source code for both from [GitHub](https://github.com/Microsoft/WinUI-Gallery) (use the *main* branch for WinUI 3 and the *winui2* branch for WinUI 2).
+
+> [!div class="nextstepaction"]
+> [Open the WinUI 3 Gallery app and see PageTransition in action](winui3gallery:/item/PageTransition).
+
+> The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery).
 
 The following code example is from the Blank App template in Microsoft Visual Studio. This code shows how an [OnLaunched](/uwp/api/windows.ui.xaml.application.onlaunched(windows.applicationmodel.activation.launchactivatedeventargs)) method override initializes the app window. If the app is resuming after being suspended, then the window might already be initialized. If not, this code sets the app window to a new Frame, then navigates the frame to the default initial page.
 

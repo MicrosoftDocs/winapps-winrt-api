@@ -33,14 +33,6 @@ You can use the [MinWindowWidth](adaptivetrigger_minwindowwidth.md) and [MinWind
 
 > [!TIP]
 > For more info, design guidance, and code examples, see [Responsive layouts with XAML](/windows/apps/design/layout/layouts-with-xaml).
->
-> The **WinUI 3 Gallery** and **WinUI 2 Gallery** apps include interactive examples of most WinUI 3 and WinUI 2 controls, features, and functionality.
->
-> If installed already, open them by clicking the following links: [**WinUI 3 Gallery**](winui3gallery:) or [**WinUI 2 Gallery**](winui2gallery:).
->
-> If they are not installed, you can get the [**WinUI 3 Gallery**](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) and the [**WinUI 2 Gallery**](https://www.microsoft.com/store/productId/9MSVH128X2ZT) from the Microsoft Store.
->
-> You can also view, clone, and build both from [GitHub](https://github.com/Microsoft/WinUI-Gallery) (use the *main* branch for WinUI 3 and the *winui2* branch for WinUI 2).
 
 The following example shows how to use the [StateTriggers](visualstate_statetriggers.md) property with an AdaptiveTrigger to create a declarative rule in XAML markup based on window size. By default, the [StackPanel](../microsoft.ui.xaml.controls/stackpanel.md) orientation is **Vertical**. When the window width is &gt;= 720 effective pixels, the [VisualState](visualstate.md) change is triggered, and the [StackPanel](../microsoft.ui.xaml.controls/stackpanel.md) orientation is changed to **Horizontal**.
 

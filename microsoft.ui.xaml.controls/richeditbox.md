@@ -87,7 +87,7 @@ This table shows the resources used by the RichEditBox control. Resources that s
 > [!div class="nextstepaction"]
 > [Open the WinUI 3 Gallery app and see the RichEditBox in action](winui3gallery:/item/RichEditBox).
 
-> The **WinUI 3 Gallery app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery)
+> The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery)
 
 
 This example shows how to use the [ITextDocument.SetText](/uwp/api/windows.ui.text.itextdocument.settext(windows.ui.text.textsetoptions,system.string)) method to programmatically add text to a RichEditBox.

@@ -222,7 +222,7 @@ This table shows the resources used by the TextBox control. Resources that start
 > [!div class="nextstepaction"]
 > [Open the WinUI 3 Gallery app and see the TextBox in action](winui3gallery:/item/TextBox).
 
-> The **WinUI 3 Gallery app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery)
+> The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery)
 
 
 This example shows a TextBox with a header and placeholder text. The [Text](textbox_text.md) from the TextBox is used to show a greeting to the user.
