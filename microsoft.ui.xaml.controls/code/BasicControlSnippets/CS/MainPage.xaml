@@ -79,7 +79,7 @@
 
                 <Canvas>
                     <!-- <SnippetBasicHyperlinkButtonXAML> -->
-                    <HyperlinkButton Content="www.microsoft.com" NavigateUri="http://www.microsoft.com"/>
+                    <HyperlinkButton Content="www.microsoft.com" NavigateUri="https://www.microsoft.com"/>
                     <!-- </SnippetBasicHyperlinkButtonXAML> -->
                 </Canvas>
 
@@ -260,7 +260,7 @@
                 <!-- WEBVIEW -->
                 <Grid>
                     <!-- <SnippetBasicWebViewXAML> -->
-                    <WebView x:Name="webView1" Source="http://dev.windows.com" Height="400" Width="800" />
+                    <WebView x:Name="webView1" Source="https://dev.windows.com" Height="400" Width="800" />
                     <!-- </SnippetBasicWebViewXAML> -->
                 </Grid>
                 <Grid>
