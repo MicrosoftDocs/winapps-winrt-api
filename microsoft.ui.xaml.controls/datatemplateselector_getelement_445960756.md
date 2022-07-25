@@ -29,6 +29,6 @@ For more info, see the remarks for the [DataTemplate.GetElement](/uwp/api/window
 
 ## -see-also
 
-[IElementFactory](ielementfactory.md), [DataTemplate.GetElement](/uwp/api/windows.ui.xaml.datatemplate.getelement), [DataTemplate.RecycleElement](/uwp/api/windows.ui.xaml.datatemplate.recycleelement), [DataTemplateSelector.RecycleElement](/uwp/api/windows.ui.xaml.controls.datatemplateselector.recycleelement)
+[IElementFactory](ielementfactory.md), [DataTemplate.GetElement](../microsoft.ui.xaml/datatemplate_getelement_445960756.md), [DataTemplate.RecycleElement](../microsoft.ui.xaml/datatemplate_recycleelement_1220951169.md), [DataTemplateSelector.RecycleElement](datatemplateselector_recycleelement_1220951169.md)
 
 ## -examples

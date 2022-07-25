@@ -40,6 +40,6 @@ Specifying the [Parent](elementfactoryrecycleargs_parent.md) is not required whe
 
 ## -see-also
 
-[IElementFactory](ielementfactory.md), [DataTemplate.GetElement](/uwp/api/windows.ui.xaml.datatemplate.getelement), [DataTemplateSelector.GetElement](/uwp/api/windows.ui.xaml.controls.datatemplateselector.getelement), [DataTemplateSelector.RecycleElement](/uwp/api/windows.ui.xaml.controls.datatemplateselector.recycleelement), [ElementFactoryGetArgs](elementfactorygetargs.md), [ElementFactoryRecycleArgs](elementfactoryrecycleargs.md), [UIElement.GetChildrenInTabFocusOrder](/windows/winui/api/microsoft.ui.xaml.uielement.getchildrenintabfocusorder), [AutomationPeer.GetChildrenCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getchildrencore)
+[IElementFactory](ielementfactory.md), [DataTemplate.GetElement](datatemplate_getelement_445960756.md), [DataTemplateSelector.GetElement](../microsoft.ui.xaml.controls/datatemplateselector_getelement_445960756.md), [DataTemplateSelector.RecycleElement](../microsoft.ui.xaml.controls/datatemplateselector_recycleelement_1220951169.md), [ElementFactoryGetArgs](elementfactorygetargs.md), [ElementFactoryRecycleArgs](elementfactoryrecycleargs.md), [UIElement.GetChildrenInTabFocusOrder](/windows/winui/api/microsoft.ui.xaml.uielement.getchildrenintabfocusorder), [AutomationPeer.GetChildrenCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getchildrencore)
 
 ## -examples

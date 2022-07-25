@@ -11,7 +11,7 @@ public class Colors : Windows.UI.IColors
 
 ## -description
 
-Implements a set of predefined colors. See [Color](color.md) for usage information.
+Implements a set of predefined colors. See [Color](/uwp/api/windows.ui.color) for usage information.
 
 ## -remarks
 

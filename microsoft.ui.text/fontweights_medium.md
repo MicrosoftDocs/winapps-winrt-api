@@ -15,7 +15,7 @@ Specifies a font weight value of 500.
 
 ## -property-value
 
-A [FontWeight](fontweight.md) with a Weight value of 500.
+A [FontWeight](/uwp/api/windows.ui.text.fontweight) with a Weight value of 500.
 
 ## -remarks
 

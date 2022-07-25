@@ -10,7 +10,7 @@ public Windows.UI.Color FromArgb(System.Byte a, System.Byte r, System.Byte g, Sy
 # Microsoft.UI.ColorHelper.FromArgb
 
 ## -description
-Generates a [Color](color.md) structure, based on discrete **Byte** values for **ARGB** components. C# and Microsoft Visual Basic code should use **Color.FromArgb** instead.
+Generates a [Color](/uwp/api/windows.ui.color) structure, based on discrete **Byte** values for **ARGB** components. C# and Microsoft Visual Basic code should use **Color.FromArgb** instead.
 
 ## -parameters
 ### -param a
@@ -26,13 +26,13 @@ The **G** component of the desired color. Range is 0-255.
 The **B** component of the desired color. Range is 0-255.
 
 ## -returns
-The generated [Color](color.md) value.
+The generated [Color](/uwp/api/windows.ui.color) value.
 
 ## -remarks
 > **C#/Visual Basic**
-> The [ColorHelper](colorhelper.md) class is available for use from C# and Visual Basic code but it's not commonly used. The **FromArgb** method that's available as a static method of the [Color](color.md) structure has exactly the same functionality, and you also have other API there that's more convenient to use from [Color](color.md) itself rather than using the [ColorHelper](colorhelper.md) class. [ColorHelper](colorhelper.md) is mainly intended for Visual C++ component extensions (C++/CX) code, which doesn't have access to the nondata API of the [Color](color.md) structure.
+> The [ColorHelper](colorhelper.md) class is available for use from C# and Visual Basic code but it's not commonly used. The **FromArgb** method that's available as a static method of the [Color](/uwp/api/windows.ui.color) structure has exactly the same functionality, and you also have other API there that's more convenient to use from [Color](/uwp/api/windows.ui.color) itself rather than using the [ColorHelper](colorhelper.md) class. [ColorHelper](colorhelper.md) is mainly intended for Visual C++ component extensions (C++/CX) code, which doesn't have access to the nondata API of the [Color](/uwp/api/windows.ui.color) structure.
 
-The most common reason for creating a [Color](color.md) value is to use it as an argument for the [SolidColorBrush](../microsoft.ui.xaml.media/solidcolorbrush_solidcolorbrush_2106742027.md) constructor, then assign that brush to a XAML UI property.
+The most common reason for creating a [Color](/uwp/api/windows.ui.color) value is to use it as an argument for the [SolidColorBrush](../microsoft.ui.xaml.media/solidcolorbrush_solidcolorbrush_2106742027.md) constructor, then assign that brush to a XAML UI property.
 
 ## -examples
 
