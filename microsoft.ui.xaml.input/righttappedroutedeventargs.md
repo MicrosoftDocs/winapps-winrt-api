@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class RightTappedRoutedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.UI.Xaml.Input.IRightTappedRoutedEventArgs
+public class RightTappedRoutedEventArgs : Microsoft.UI.Xaml.RoutedEventArgs, Microsoft.UI.Xaml.Input.IRightTappedRoutedEventArgs
 -->
 
 # Microsoft.UI.Xaml.Input.RightTappedRoutedEventArgs

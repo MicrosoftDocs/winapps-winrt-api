@@ -17,4 +17,3 @@ Initializes a new instance of the [ManipulationPivot](manipulationpivot.md) clas
 ## -examples
 
 ## -see-also
-[ManipulationPivot(Point, Double)](manipulationpivot_manipulationpivot_294271601.md)

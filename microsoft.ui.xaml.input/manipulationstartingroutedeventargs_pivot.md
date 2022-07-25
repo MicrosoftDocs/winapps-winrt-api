@@ -4,7 +4,7 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.Input.ManipulationPivot Pivot { get;  set; }
+public Microsoft.UI.Xaml.Input.ManipulationPivot Pivot { get;  set; }
 -->
 
 # Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.Pivot

@@ -15,7 +15,7 @@ Derives from [XamlUICommand](xamluicommand.md), adding a set of standard platfor
 
 ## -remarks
 
-[XamlUICommand](xamluicommand.md) implements the ICommand interface ([Windows.UI.Xaml.Input.ICommand](icommand.md) for C++ or [System.Windows.Input.ICommand](/dotnet/api/system.windows.input.icommand?view=dotnet-uwp-10.0&preserve-view=true) for C#), adding various UI properties, methods, and events.
+[XamlUICommand](xamluicommand.md) implements the `ICommand` interface ([Microsoft.UI.Xaml.Input.ICommand](icommand.md) for C++ or [System.Windows.Input.ICommand](/dotnet/api/system.windows.input.icommand?view=dotnet-uwp-10.0&preserve-view=true) for C#), adding various UI properties, methods, and events.
 
 The platform provides the following set of commands.
 
@@ -40,12 +40,12 @@ The platform provides the following set of commands.
 
 ## -see-also
 
-[XamlUICommand](xamluicommand.md), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](/windows/apps/design/controls/commanding)
+[XamlUICommand](xamluicommand.md), [Commanding in Windows apps using StandardUICommand, XamlUICommand, and ICommand](/windows/apps/design/controls/commanding)
 
 ## -examples
 
 > [!TIP]
-> For more info, design guidance, and code examples, see  [Command design basics](/windows/uwp/layout/commanding-basics).
+> For more info, design guidance, and code examples, see [Commanding basics](/windows/uwp/layout/commanding-basics).
 
 > [!div class="nextstepaction"]
 > [Open the WinUI 3 Gallery app and see the StandardUICommand in action](winui3gallery:/item/StandardUICommand).

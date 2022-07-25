@@ -3,7 +3,7 @@
 -api-type: winrt delegate
 ---
 <!-- Delegate syntax.
-public delegate void ManipulationInertiaStartingEventHandler(System.Object sender, Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs e)
+public delegate void ManipulationInertiaStartingEventHandler(System.Object sender, Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs e)
 -->
 # Microsoft.UI.Xaml.Input.ManipulationInertiaStartingEventHandler
 

@@ -15,7 +15,7 @@ Gets a boolean value that indicates whether focus can be assigned to an object.
 
 ## -property-value
 
-True, if focus can be assigned; otherwise, false.
+`true` if focus can be assigned; otherwise, `false`.
 
 ## -remarks
 

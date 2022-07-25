@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class FocusManager : Windows.UI.Xaml.Input.IFocusManager
+public class FocusManager : Microsoft.UI.Xaml.Input.IFocusManager
 -->
 
 # Microsoft.UI.Xaml.Input.FocusManager
@@ -21,7 +21,7 @@ FocusManager is intended for advanced scenarios where specific elements in an ap
 
 Here's some basic markup to illustrate the example:
 
-``` xaml
+```xaml
 <Page …>
     <Grid …>
         <Popup …>
@@ -45,7 +45,7 @@ Here's some basic markup to illustrate the example:
 </Page>
 ```
 
-In this case, a Popup contains StackPanel3, which, in turn, contains Button5. When [IsOpen](../microsoft.ui.xaml.controls.primitives/popup_isopen.md) is set to true and focus moves from Button1 to Button5, the LosingFocus and LostFocus events bubble up across the visual tree (StackPanel1, the Grid, and the Page get both these events). However, only StackPanel3 receives the subsequent GettingFocus and GotFocus events that bubble up from Button5 (Grid and Page do not, as they are not in a parent-child relationship with Popup).
+In this case, a `Popup` contains `StackPanel3`, which, in turn, contains `Button5`. When [IsOpen](../microsoft.ui.xaml.controls.primitives/popup_isopen.md) is set to `true` and focus moves from `Button1` to `Button5`, the `LosingFocus` and `LostFocus` events bubble up across the visual tree (`StackPanel1`, the `Grid`, and the `Page` get both these events). However, only `StackPanel3` receives the subsequent `GettingFocus` and `GotFocus` events that bubble up from `Button5` (`Grid` and `Page` do not, as they are not in a parent-child relationship with `Popup`).
 
 An application can have multiple elements with logical focus (depending on the number of focus scopes). However, only one element in the application can have keyboard focus.
 
@@ -53,7 +53,7 @@ There can be multiple elements with logical focus, but only one element with log
 
 ## -examples
 
-Use [TryMoveFocus](/uwp/api/windows.ui.xaml.input.focusmanager.trymovefocus) to traverse between UI elements using the arrow keys.
+Use [TryMoveFocus](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.input.focusmanager.trymovefocus) to traverse between UI elements using the arrow keys.
 
 ```csharp
 private void Page_KeyUp(object sender, KeyRoutedEventArgs e)

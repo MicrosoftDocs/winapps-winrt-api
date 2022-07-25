@@ -3,7 +3,7 @@
 -api-type: winrt delegate
 ---
 <!-- Delegate syntax.
-public delegate void ManipulationStartingEventHandler(System.Object sender, Windows.UI.Xaml.Input.ManipulationStartingRoutedEventArgs e)
+public delegate void ManipulationStartingEventHandler(System.Object sender, Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs e)
 -->
 # Microsoft.UI.Xaml.Input.ManipulationStartingEventHandler
 

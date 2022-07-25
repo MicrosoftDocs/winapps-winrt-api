@@ -4,7 +4,7 @@
 ---
 
 <!-- Enumeration syntax
-public enum Windows.UI.Xaml.Input.KeyboardNavigationMode : int
+public enum Microsoft.UI.Xaml.Input.KeyboardNavigationMode : int
 -->
 
 # KeyboardNavigationMode

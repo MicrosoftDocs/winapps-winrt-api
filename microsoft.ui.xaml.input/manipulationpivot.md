@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class ManipulationPivot : Windows.UI.Xaml.Input.IManipulationPivot
+public class ManipulationPivot : Microsoft.UI.Xaml.Input.IManipulationPivot
 -->
 
 # Microsoft.UI.Xaml.Input.ManipulationPivot

@@ -4,7 +4,7 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.Input.Pointer Pointer { get; }
+public Microsoft.UI.Xaml.Input.Pointer Pointer { get; }
 -->
 
 # Microsoft.UI.Xaml.Input.PointerRoutedEventArgs.Pointer

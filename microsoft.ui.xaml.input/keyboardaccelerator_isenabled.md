@@ -13,12 +13,12 @@ public bool IsEnabled { get;  set; }
 Gets or sets whether a keyboard shortcut (accelerator) is available to the user.
 
 ## -property-value
-**true** if the shortcut is available; otherwise, **false**.
+`true` if the shortcut is available; otherwise, `false`.
 
 ## -remarks
 
 ## -see-also
-[Keyboard Accelerators](/windows/apps/design/input/keyboard-accelerators)
+[Keyboard accelerators](/windows/apps/design/input/keyboard-accelerators)
 
 ## -examples
 

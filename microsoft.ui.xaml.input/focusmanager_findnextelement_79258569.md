@@ -25,7 +25,7 @@ The next object to receive focus.
 
 ## -remarks
 
-We recommend using this method instead of [FindNextFocusableElement(FocusNavigationDirection)](focusmanager_findnextfocusableelement_2063175091.md). FindNextFocusableElement retrieves a UIElement, which returns null if the next focusable element is not a UIElement (such as a [Hyperlink](../microsoft.ui.xaml.documents/hyperlink.md) object).
+We recommend using this method instead of [FindNextFocusableElement(FocusNavigationDirection)](focusmanager_findnextfocusableelement_2063175091.md). `FindNextFocusableElement` retrieves a `UIElement`, which returns `null` if the next focusable element is not a `UIElement` (such as a [Hyperlink](../microsoft.ui.xaml.documents/hyperlink.md) object).
 
 ## -see-also
 

@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class InertiaExpansionBehavior : Windows.UI.Xaml.Input.IInertiaExpansionBehavior
+public class InertiaExpansionBehavior : Microsoft.UI.Xaml.Input.IInertiaExpansionBehavior
 -->
 
 # Microsoft.UI.Xaml.Input.InertiaExpansionBehavior

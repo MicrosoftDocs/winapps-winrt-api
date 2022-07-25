@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class AccessKeyManager : Windows.UI.Xaml.Input.IAccessKeyManager
+public class AccessKeyManager : Microsoft.UI.Xaml.Input.IAccessKeyManager
 -->
 
 # Microsoft.UI.Xaml.Input.AccessKeyManager
@@ -13,7 +13,6 @@ public class AccessKeyManager : Windows.UI.Xaml.Input.IAccessKeyManager
 A helper class that enables access keys (mnemonics) for XAML user interfaces.
 
 ## -remarks
-Available starting in Windows 10, version 1607.
 
 ## -examples
 

@@ -4,7 +4,7 @@
 ---
 
 <!-- Property syntax
-public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.Input.InputScopeName> Names { get; }
+public Windows.Foundation.Collections.IVector<Microsoft.UI.Xaml.Input.InputScopeName> Names { get; }
 -->
 
 # Microsoft.UI.Xaml.Input.InputScope.Names
@@ -13,7 +13,7 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.Input.InputScopeNa
 Gets a collection of valid [InputScopeName](inputscopename.md) items that are relevant to this [InputScope](inputscope.md).
 
 ## -property-value
-A collection of valid [InputScopeName](inputscopename.md) items. Valid input scope names are specifed by the [InputScopeNameValue](inputscopenamevalue.md) enumeration.
+A collection of valid [InputScopeName](inputscopename.md) items. Valid input scope names are specified by the [InputScopeNameValue](inputscopenamevalue.md) enumeration.
 
 ## -remarks
 

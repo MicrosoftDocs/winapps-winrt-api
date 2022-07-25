@@ -10,10 +10,10 @@ public Windows.Devices.Input.PointerDeviceType PointerDeviceType { get; }
 # Microsoft.UI.Xaml.Input.Pointer.PointerDeviceType
 
 ## -description
-Gets the [PointerDeviceType](/uwp/api/windows.devices.input.pointerdevicetype) for the pointer device.
+Gets the [PointerDeviceType](../microsoft.ui.input/pointerdevicetype.md) for the pointer device.
 
 ## -property-value
-The [PointerDeviceType](/uwp/api/windows.devices.input.pointerdevicetype) for this pointer reference.
+The [PointerDeviceType](../microsoft.ui.input/pointerdevicetype.md) for this pointer reference.
 
 ## -remarks
 

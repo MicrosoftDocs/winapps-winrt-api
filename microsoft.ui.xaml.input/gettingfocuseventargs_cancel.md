@@ -15,11 +15,11 @@ Gets or sets whether focus navigation should be canceled.
 
 ## -property-value
 
-**true** if focus navigation should be canceled. Otherwise, **false**.
+`true` if focus navigation should be canceled; otherwise, `false`.
 
 ## -remarks
 
-Apps that target Windows 10, version 1803 or later should use [TryCancel](gettingfocuseventargs_trycancel_50138317.md) instead of this property. If your app also supports previous versions, see [Version adaptive apps: Use new APIs while maintaining compatibility with previous versions](/windows/uwp/debug-test-perf/version-adaptive-apps) for more info.
+You should call the [TryCancel](gettingfocuseventargs_trycancel_50138317.md) method instead of setting this property.
 
 ## -see-also
 

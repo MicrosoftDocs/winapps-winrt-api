@@ -3,7 +3,7 @@
 -api-type: winrt delegate
 ---
 <!-- Delegate syntax.
-public delegate void RightTappedEventHandler(System.Object sender, Windows.UI.Xaml.Input.RightTappedRoutedEventArgs e)
+public delegate void RightTappedEventHandler(System.Object sender, Microsoft.UI.Xaml.Input.RightTappedRoutedEventArgs e)
 -->
 # Microsoft.UI.Xaml.Input.RightTappedEventHandler
 

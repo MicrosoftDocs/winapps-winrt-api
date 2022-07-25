@@ -17,7 +17,7 @@ Retrieves the last element that can receive focus based on the specified scope.
 
 ### -param searchScope
 
-The root object from which to search. If **null**, the search scope is the current window.
+The root object from which to search. If `null`, the search scope is the current window.
 
 ## -returns
 

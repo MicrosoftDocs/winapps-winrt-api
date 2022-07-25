@@ -21,6 +21,6 @@ The identifier for the [AccessKey](xamluicommand_accesskey.md) dependency proper
 
 ## -see-also
 
-[StandardUICommand](standarduicommand.md), [Command design basics](/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](/windows/apps/design/controls/commanding)
+[StandardUICommand](standarduicommand.md), [Commanding basics](/windows/uwp/layout/commanding-basics), [Commanding in Windows apps using StandardUICommand, XamlUICommand, and ICommand](/windows/apps/design/controls/commanding)
 
 ## -examples

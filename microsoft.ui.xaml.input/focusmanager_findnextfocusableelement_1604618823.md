@@ -4,7 +4,7 @@
 ---
 
 <!-- Method syntax
-public Windows.UI.Xaml.UIElement FindNextFocusableElement(Windows.UI.Xaml.Input.FocusNavigationDirection focusNavigationDirection, Windows.Foundation.Rect hintRect)
+public Microsoft.UI.Xaml.UIElement FindNextFocusableElement(Microsoft.UI.Xaml.Input.FocusNavigationDirection focusNavigationDirection, Windows.Foundation.Rect hintRect)
 -->
 
 # Microsoft.UI.Xaml.Input.FocusManager.FindNextFocusableElement
@@ -28,14 +28,14 @@ A bounding rectangle used to influence which element is most likely to be consid
 
 ## -returns
 
-**null** if focus cannot be set in the specified direction.
+`null` if focus cannot be set in the specified direction.
 
 ## -remarks
 
 You can also use either the [FindNextElement(FocusNavigationDirection, FindNextElementOptions)](focusmanager_findnextelement_905966547.md) method or the [FindNextElement(FocusNavigationDirection)](focusmanager_findnextelement_79258569.md) method to programmatically move focus. These methods retrieve the element (as a [DependencyObject](../microsoft.ui.xaml/dependencyobject.md)) that will receive focus based on the specified navigation direction (directional navigation only, cannot be used to emulate tab navigation).
 
 > [!NOTE]
-> We recommend using the FindNextElement method instead of FindNextFocusableElement because FindNextFocusableElement retrieves a UIElement, which returns null if the next focusable element is not a UIElement (such as a [Hyperlink](../microsoft.ui.xaml.documents/hyperlink.md) object).
+> We recommend using the [FindNextElement](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.input.focusmanager.findnextelement) method instead of `FindNextFocusableElement` because `FindNextFocusableElement` retrieves a `UIElement`, which returns `null` if the next focusable element is not a `UIElement` (such as a [Hyperlink](../microsoft.ui.xaml.documents/hyperlink.md) object).
 
 ## -examples
 

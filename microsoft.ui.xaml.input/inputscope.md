@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class InputScope : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Input.IInputScope
+public class InputScope : Microsoft.UI.Xaml.DependencyObject, Microsoft.UI.Xaml.Input.IInputScope
 -->
 
 # Microsoft.UI.Xaml.Input.InputScope
@@ -23,4 +23,4 @@ The input scope indicates the expected input so that the XAML framework can disp
 ## -examples
 
 ## -see-also
-[Windows.UI.Xaml.Input](microsoft_ui_xaml_input.md), [DependencyObject](../microsoft.ui.xaml/dependencyobject.md), [Use input scope to change the touch keyboard](/windows/apps/design/input/use-input-scope-to-change-the-touch-keyboard)
+[Microsoft.UI.Xaml.Input](microsoft_ui_xaml_input.md), [DependencyObject](../microsoft.ui.xaml/dependencyobject.md), [Use input scope to change the touch keyboard](/windows/apps/design/input/use-input-scope-to-change-the-touch-keyboard)

@@ -10,10 +10,10 @@ public Windows.Devices.Input.PointerDeviceType PointerDeviceType { get; }
 # Microsoft.UI.Xaml.Input.HoldingRoutedEventArgs.PointerDeviceType
 
 ## -description
-Gets the [PointerDeviceType](/uwp/api/windows.devices.input.pointerdevicetype) for the pointer device that initiated the associated input event.
+Gets the [PointerDeviceType](../microsoft.ui.input/pointerdevicetype.md) for the pointer device that initiated the associated input event.
 
 ## -property-value
-The [PointerDeviceType](/uwp/api/windows.devices.input.pointerdevicetype) for this event occurrence.
+The [PointerDeviceType](../microsoft.ui.input/pointerdevicetype.md) for this event occurrence.
 
 ## -remarks
 

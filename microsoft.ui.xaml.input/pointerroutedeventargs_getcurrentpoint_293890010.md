@@ -4,20 +4,20 @@
 ---
 
 <!-- Method syntax
-public Windows.UI.Input.PointerPoint GetCurrentPoint(Windows.UI.Xaml.UIElement relativeTo)
+public Windows.UI.Input.PointerPoint GetCurrentPoint(Microsoft.UI.Xaml.UIElement relativeTo)
 -->
 
 # Microsoft.UI.Xaml.Input.PointerRoutedEventArgs.GetCurrentPoint
 
 ## -description
-Retrieves a [PointerPoint](../microsoft.ui.input/pointerpoint.md) object that provides basic info on the pointer associated with the event.
+Retrieves a [PointerPoint](../microsoft.ui.input/pointerpoint.md) object that provides basic info about the pointer associated with the event.
 
 ## -parameters
 ### -param relativeTo
-Any [UIElement](../microsoft.ui.xaml/uielement.md)-derived object that is connected to the same object tree. To specify the object relative to the overall coordinate system, use a *relativeTo*  value of **null**.
+Any [UIElement](../microsoft.ui.xaml/uielement.md)-derived object that is connected to the same object tree. To specify the object relative to the overall coordinate system, use a *relativeTo* value of `null`.
 
 ## -returns
-A [PointerPoint](../microsoft.ui.input/pointerpoint.md) value that represents the pointer point associated with this event. If **null** was passed as *relativeTo*, the coordinates are in the frame of reference of the overall window. If a *relativeTo* value other than **null** was passed, the coordinates are relative to the object referenced by *relativeTo*.
+A [PointerPoint](../microsoft.ui.input/pointerpoint.md) value that represents the pointer point associated with this event. If `null` was passed as *relativeTo*, the coordinates are in the frame of reference of the overall window. If a *relativeTo* value other than `null` was passed, the coordinates are relative to the object referenced by *relativeTo*.
 
 ## -remarks
 

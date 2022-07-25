@@ -87,6 +87,6 @@ Specifies the redo command.
 
 ## -see-also
 
-[Kind](standarduicommand_kind.md), [StandardUICommand(StandardUICommandKind kind)](standarduicommand_standarduicommand_1061089699.md), [Windows.UI.Xaml.Input.XamlUICommand](xamluicommand.md), [Command design basics](/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](/windows/apps/design/controls/commanding)
+[Kind](standarduicommand_kind.md), [StandardUICommand(StandardUICommandKind kind)](standarduicommand_standarduicommand_1061089699.md), [XamlUICommand](xamluicommand.md), [Commanding basics](/windows/uwp/layout/commanding-basics), [Commanding in Windows apps using StandardUICommand, XamlUICommand, and ICommand](/windows/apps/design/controls/commanding)
 
 ## -examples

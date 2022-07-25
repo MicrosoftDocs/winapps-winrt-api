@@ -13,7 +13,7 @@ public bool IsDisplayModeEnabled { get; }
 Gets a value that indicates whether the app has started an access key sequence.
 
 ## -property-value
-**true** if an access key sequence has started; otherwise, **false**.
+`true` if an access key sequence has started; otherwise, `false`.
 
 ## -remarks
 

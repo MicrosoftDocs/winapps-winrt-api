@@ -13,7 +13,7 @@ public bool IsInContact { get; }
 Gets a value that determines whether the pointer device was in contact with a sensor or digitizer at the time that the event was reported.
 
 ## -property-value
-**true** if the pointer device was in contact; otherwise, **false**.
+`true` if the pointer device was in contact; otherwise, `false`.
 
 ## -remarks
 

@@ -29,9 +29,10 @@ The [FocusMovementResult](focusmovementresult.md) that indicates whether focus w
 
 ## -remarks
 
-Some objects, such as a [WebView](/uwp/api/windows.ui.xaml.controls.webview), can run in either the app process or in a separate process (see [WebViewExecutionMode.SeparateProcess](/uwp/api/windows.ui.xaml.controls.webviewexecutionmode)). 
+Some objects, such as a [WebView](/uwp/api/windows.ui.xaml.controls.webview), can run in either the app process or in a separate process (see [WebViewExecutionMode.SeparateProcess](/uwp/api/windows.ui.xaml.controls.webviewexecutionmode)).
 
 When an object runs in the app process, the following focus events occur as expected for both the previously focused object and the newly focused object:
+
 - [GettingFocus](../microsoft.ui.xaml/uielement_gettingfocus.md)
 - [LosingFocus](../microsoft.ui.xaml/uielement_losingfocus.md)
 - [GotFocus](../microsoft.ui.xaml/uielement_gotfocus.md)

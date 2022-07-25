@@ -4,7 +4,7 @@
 ---
 
 <!-- Method syntax
-public InputScopeName(Windows.UI.Xaml.Input.InputScopeNameValue nameValue)
+public InputScopeName(Microsoft.UI.Xaml.Input.InputScopeNameValue nameValue)
 -->
 
 # Microsoft.UI.Xaml.Input.InputScopeName.InputScopeName

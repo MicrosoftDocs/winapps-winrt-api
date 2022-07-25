@@ -4,7 +4,7 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.UIElement Container { get;  set; }
+public Microsoft.UI.Xaml.UIElement Container { get;  set; }
 -->
 
 # Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.Container

@@ -4,7 +4,7 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.Input.InertiaRotationBehavior RotationBehavior { get;  set; }
+public Microsoft.UI.Xaml.Input.InertiaRotationBehavior RotationBehavior { get;  set; }
 -->
 
 # Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.RotationBehavior

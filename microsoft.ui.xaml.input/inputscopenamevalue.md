@@ -4,7 +4,7 @@
 ---
 
 <!-- Enumeration syntax
-public enum Windows.UI.Xaml.Input.InputScopeNameValue : int
+public enum Microsoft.UI.Xaml.Input.InputScopeNameValue : int
 -->
 
 # InputScopeNameValue
@@ -210,4 +210,4 @@ Expected input does not include emoji. Advises input processors to not show the 
 
 ## -see-also
 
-[Windows.UI.Xaml.Input enumerations](windows_ui_xaml_input_enumerations.md), [Use input scope to change the touch keyboard](/windows/apps/design/input/use-input-scope-to-change-the-touch-keyboard)
+[Use input scope to change the touch keyboard](/windows/apps/design/input/use-input-scope-to-change-the-touch-keyboard)

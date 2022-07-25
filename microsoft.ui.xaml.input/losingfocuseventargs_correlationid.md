@@ -15,9 +15,7 @@ Gets the unique ID generated when a focus movement event is initiated.
 
 ## -property-value
 
-The unique ID, if any. Otherwise, **null**.
-
-The default is **null**.
+The unique ID, if any; otherwise, `null`. The default is `null`.
 
 ## -remarks
 
@@ -31,13 +29,13 @@ In other cases, you might need to cancel a focus change from one of your focus e
 
 In addition, because focus events are raised asynchronously, focus might change again before a previous focus event has finished executing.
 
-Each time a focus event is initiated, a unique CorrelationId is generated to help you track a focus event throughout these focus actions.
+Each time a focus event is initiated, a unique `CorrelationId` is generated to help you track a focus event throughout these focus actions.
 
-A new CorrelationId is generated when:
+A new `CorrelationId` is generated when:
 
 - The user moves focus.
-- The app moves focus using methods such as [Control.Focus](/uwp/api/windows.ui.xaml.controls.control.focus(windows.ui.xaml.focusstate)) or [FocusManager.TryFocusAsync](focusmanager_tryfocusasync_238985746.md).
-- The app gets/loses focus due to window activation (see [CoreWindow.Activated](/uwp/api/windows.ui.core.corewindow.activated)).
+- The app moves focus using methods such as [UIElement.Focus](../microsoft.ui.xaml/uielement_focus_1914077590.md) or [FocusManager.TryFocusAsync](focusmanager_tryfocusasync_238985746.md).
+- The app gets/loses focus due to window activation (see [Window.Activated](../microsoft.ui.xaml/window_activated.md)).
 
 ## -see-also
 

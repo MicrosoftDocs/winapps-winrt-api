@@ -17,7 +17,7 @@ Defines the method to be called when the command is invoked.
 
 ### -param parameter
 
-Data used by the command. If the command does not require data to be passed, this value can be null.
+Data used by the command. If the command does not require data to be passed, this value can be `null`.
 
 ## -remarks
 
@@ -25,4 +25,4 @@ Data used by the command. If the command does not require data to be passed, thi
 
 ## -see-also
 
-[Command design basics](/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](/windows/apps/design/controls/commanding), [XamlUICommand](xamluicommand.md), [StandardUICommand](standarduicommand.md)
+[Commanding basics](/windows/uwp/layout/commanding-basics), [Commanding in Windows apps using StandardUICommand, XamlUICommand, and ICommand](/windows/apps/design/controls/commanding), [XamlUICommand](xamluicommand.md), [StandardUICommand](standarduicommand.md)

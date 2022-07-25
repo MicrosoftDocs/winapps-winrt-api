@@ -4,7 +4,7 @@
 ---
 
 <!-- Enumeration syntax
-public enum Windows.UI.Xaml.Input.FocusNavigationDirection : int
+public enum Microsoft.UI.Xaml.Input.FocusNavigationDirection : int
 -->
 
 # FocusNavigationDirection
@@ -25,41 +25,30 @@ The previous element in the tab order.
 
 ### -field Up:2
 
-An element above the element with focus. 
-
-> Not supported in Windows 8 apps and Windows Phone apps.
+An element above the element with focus.
 
 ### -field Down:3
 
-An element below the element with focus. 
-
-> Not supported in Windows 8 apps and Windows Phone apps.
+An element below the element with focus.
 
 ### -field Left:4
 
-An element to the left of the element with focus. 
-
-> Not supported in Windows 8 apps and Windows Phone apps.
+An element to the left of the element with focus.
 
 ### -field Right:5
 
-An element to the right of the element with focus. 
-
-> Not supported in Windows 8 apps and Windows Phone apps.
+An element to the right of the element with focus.
 
 ### -field None:6
 
 No change in focus.
 
-> Not supported in Windows 8 apps and Windows Phone apps.
-
-
 ## -remarks
 
-FocusNavigationDirection.Previous and FocusNavigationDirection.Next cannot be used with [FindNextElementOptions](findnextelementoptions.md). Only FocusNavigationDirection.Up, FocusNavigationDirection.Down, FocusNavigationDirection.Left, or FocusNavigationDirection.Right are valid.
+`FocusNavigationDirection.Previous` and `FocusNavigationDirection.Next` cannot be used with [FindNextElementOptions](findnextelementoptions.md). Only `FocusNavigationDirection.Up`, `FocusNavigationDirection.Down`, `FocusNavigationDirection.Left`, or `FocusNavigationDirection.Right` are valid.
 
 ## -examples
 
 ## -see-also
 
-[TryMoveFocus](/uwp/api/windows.ui.xaml.input.focusmanager.trymovefocus), [Keyboard interactions](/windows/apps/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/apps/design/input/focus-navigation), [Programmatic focus navigation](/windows/apps/design/input/focus-navigation-programmatic)
+[FocusManager.TryMoveFocus](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.input.focusmanager.trymovefocus), [Keyboard interactions](/windows/apps/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/apps/design/input/focus-navigation), [Programmatic focus navigation](/windows/apps/design/input/focus-navigation-programmatic)

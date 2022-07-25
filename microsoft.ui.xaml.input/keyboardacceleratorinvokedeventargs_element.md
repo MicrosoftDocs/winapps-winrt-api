@@ -18,7 +18,7 @@ A reference to the object associated with the [keyboard shortcut (or accelerator
 ## -remarks
 
 ## -see-also
-[Keyboard Accelerators](/windows/apps/design/input/keyboard-accelerators)
+[Keyboard accelerators](/windows/apps/design/input/keyboard-accelerators)
 
 ## -examples
 

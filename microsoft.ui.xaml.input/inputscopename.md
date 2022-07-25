@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class InputScopeName : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Input.IInputScopeName
+public class InputScopeName : Microsoft.UI.Xaml.DependencyObject, Microsoft.UI.Xaml.Input.IInputScopeName
 -->
 
 # Microsoft.UI.Xaml.Input.InputScopeName

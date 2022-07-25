@@ -4,7 +4,7 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.Input.InputScopeNameValue NameValue { get;  set; }
+public Microsoft.UI.Xaml.Input.InputScopeNameValue NameValue { get;  set; }
 -->
 
 # Microsoft.UI.Xaml.Input.InputScopeName.NameValue

@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class KeyRoutedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.UI.Xaml.Input.IKeyRoutedEventArgs, Windows.UI.Xaml.Input.IKeyRoutedEventArgs2, Windows.UI.Xaml.Input.IKeyRoutedEventArgs3
+public class KeyRoutedEventArgs : Microsoft.UI.Xaml.RoutedEventArgs, Microsoft.UI.Xaml.Input.IKeyRoutedEventArgs, Microsoft.UI.Xaml.Input.IKeyRoutedEventArgs2, Microsoft.UI.Xaml.Input.IKeyRoutedEventArgs3
 -->
 
 # Microsoft.UI.Xaml.Input.KeyRoutedEventArgs
@@ -15,7 +15,7 @@ Provides event data for the [KeyUp](../microsoft.ui.xaml/uielement_keyup.md) and
 
 ## -remarks
 
-Button input is mapped to differerent key values for various devices, including gamepad and the Xbox One infrared remote.
+Button input is mapped to different key values for various devices, including gamepad and the Xbox One infrared remote.
 
 This table provides the mapping detail for these devices.
 

@@ -4,7 +4,7 @@
 ---
 
 <!-- Delegate syntax.
-public delegate void HoldingEventHandler(System.Object sender, Windows.UI.Xaml.Input.HoldingRoutedEventArgs e)
+public delegate void HoldingEventHandler(System.Object sender, Microsoft.UI.Xaml.Input.HoldingRoutedEventArgs e)
 -->
 
 # Microsoft.UI.Xaml.Input.HoldingEventHandler

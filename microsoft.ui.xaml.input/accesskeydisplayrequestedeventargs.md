@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class AccessKeyDisplayRequestedEventArgs : Windows.UI.Xaml.Input.IAccessKeyDisplayRequestedEventArgs
+public class AccessKeyDisplayRequestedEventArgs : Microsoft.UI.Xaml.Input.IAccessKeyDisplayRequestedEventArgs
 -->
 
 # Microsoft.UI.Xaml.Input.AccessKeyDisplayRequestedEventArgs
@@ -13,7 +13,6 @@ public class AccessKeyDisplayRequestedEventArgs : Windows.UI.Xaml.Input.IAccessK
 Provides event data for the [AccessKeyDisplayRequested](../microsoft.ui.xaml/uielement_accesskeydisplayrequested.md) event.
 
 ## -remarks
-Available starting in Windows 10, version 1607.
 
 ## -examples
 

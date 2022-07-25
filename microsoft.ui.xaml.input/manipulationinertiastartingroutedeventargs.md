@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class ManipulationInertiaStartingRoutedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.UI.Xaml.Input.IManipulationInertiaStartingRoutedEventArgs
+public class ManipulationInertiaStartingRoutedEventArgs : Microsoft.UI.Xaml.RoutedEventArgs, Microsoft.UI.Xaml.Input.IManipulationInertiaStartingRoutedEventArgs
 -->
 
 # Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs

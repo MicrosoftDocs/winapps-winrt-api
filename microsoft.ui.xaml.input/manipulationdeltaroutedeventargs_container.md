@@ -4,7 +4,7 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.UIElement Container { get; }
+public Microsoft.UI.Xaml.UIElement Container { get; }
 -->
 
 # Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.Container

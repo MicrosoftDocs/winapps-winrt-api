@@ -3,7 +3,7 @@
 -api-type: winrt delegate
 ---
 <!-- Delegate syntax.
-public delegate void PointerEventHandler(System.Object sender, Windows.UI.Xaml.Input.PointerRoutedEventArgs e)
+public delegate void PointerEventHandler(System.Object sender, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs e)
 -->
 # Microsoft.UI.Xaml.Input.PointerEventHandler
 

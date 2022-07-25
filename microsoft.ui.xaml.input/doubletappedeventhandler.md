@@ -3,7 +3,7 @@
 -api-type: winrt delegate
 ---
 <!-- Delegate syntax.
-public delegate void DoubleTappedEventHandler(System.Object sender, Windows.UI.Xaml.Input.DoubleTappedRoutedEventArgs e)
+public delegate void DoubleTappedEventHandler(System.Object sender, Microsoft.UI.Xaml.Input.DoubleTappedRoutedEventArgs e)
 -->
 # Microsoft.UI.Xaml.Input.DoubleTappedEventHandler
 

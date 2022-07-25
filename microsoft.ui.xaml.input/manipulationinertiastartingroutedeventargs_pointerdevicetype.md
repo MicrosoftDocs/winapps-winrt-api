@@ -10,7 +10,7 @@ public Windows.Devices.Input.PointerDeviceType PointerDeviceType { get; }
 # Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.PointerDeviceType
 
 ## -description
-Gets the [PointerDeviceType](/uwp/api/windows.devices.input.pointerdevicetype) for the pointer device involved in the manipulation.
+Gets the [PointerDeviceType](../microsoft.ui.input/pointerdevicetype.md) for the pointer device involved in the manipulation.
 
 ## -property-value
 A value of the enumeration.

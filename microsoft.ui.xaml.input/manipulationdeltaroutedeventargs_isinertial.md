@@ -13,7 +13,7 @@ public bool IsInertial { get; }
 Gets whether the [ManipulationDelta](../microsoft.ui.xaml/uielement_manipulationdelta.md) event occurs during inertia.
 
 ## -property-value
-**true** if the [ManipulationDelta](../microsoft.ui.xaml/uielement_manipulationdelta.md) event occurs during inertia; **false** if the event occurs while the user's input device has contact with the element.
+`true` if the [ManipulationDelta](../microsoft.ui.xaml/uielement_manipulationdelta.md) event occurs during inertia; `false` if the event occurs while the user's input device has contact with the element.
 
 ## -remarks
 

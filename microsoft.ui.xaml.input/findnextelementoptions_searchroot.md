@@ -13,15 +13,11 @@ public DependencyObject SearchRoot { get;  set; }
 Gets or sets the object that must be the root from which to identify the next focus candidate to receive navigation focus.
 
 ## -property-value
-The root object. 
-
-If **null**, the entire visual tree of the app.
+The root object. If `null`, the entire visual tree of the app.
 
 ## -remarks
 
-If one or more transforms are applied to the descendants of **SearchRoot**
-that place them outside of the directional area, these elements are still considered candidates.
-
+If one or more transforms are applied to the descendants of `SearchRoot` that place them outside of the directional area, these elements are still considered candidates.
 
 ## -see-also
 [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/apps/design/input/focus-navigation), [Programmatic focus navigation](/windows/apps/design/input/focus-navigation-programmatic)

@@ -42,7 +42,7 @@ private async void OnKeyDown(object sender, KeyRoutedEventArgs e)
 
 
 
-Sometimes, an [OnKeyDown](/uwp/api/windows.ui.xaml.controls.control.onkeydown(windows.ui.xaml.input.keyroutedeventargs)) event might not fire because the event was already handled by a control. In this case, call the [GetCurrentKeyEventDeviceId](/uwp/api/windows.ui.core.corewindow.getcurrentkeyeventdeviceid) method from the [KeyDown](/uwp/api/windows.ui.core.corewindow.keydown) handler of [CoreWindow](/uwp/api/windows.ui.core.corewindow), as shown here.
+Sometimes, an [OnKeyDown](../microsoft.ui.xaml.controls/control_onkeydown_647020286.md) event might not fire because the event was already handled by a control. In this case, call the [GetCurrentKeyEventDeviceId](/uwp/api/windows.ui.core.corewindow.getcurrentkeyeventdeviceid) method from the [KeyDown](/uwp/api/windows.ui.core.corewindow.keydown) handler of [CoreWindow](/uwp/api/windows.ui.core.corewindow), as shown here.
 
 ```csharp
 public MainPage()

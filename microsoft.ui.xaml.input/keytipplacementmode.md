@@ -5,13 +5,13 @@
 
 <!-- Enumeration syntax.
 public enum KeyTipPlacementMode : int {
-	Auto = 0
-	Bottom = 1
-	Center = 5
-	Hidden = 6
-	Left = 3
-	Right = 4
-	Top = 2
+    Auto = 0
+    Bottom = 1
+    Center = 5
+    Hidden = 6
+    Left = 3
+    Right = 4
+    Top = 2
 }
 -->
 
@@ -48,7 +48,7 @@ The Key Tip is not shown.
 This enumeration is used by the [UIElement.KeyTipPlacementMode](../microsoft.ui.xaml/uielement_keytipplacementmode.md) property.
 
 ## -see-also
-[UIElement.KeyTipPlacementMode](../microsoft.ui.xaml/uielement_keytipplacementmode.md), [Access keys](/windows/uwp/input-and-devices/access-keys)
+[UIElement.KeyTipPlacementMode](../microsoft.ui.xaml/uielement_keytipplacementmode.md), [Access keys](/windows/apps/design/input/access-keys)
 
 ## -examples
 

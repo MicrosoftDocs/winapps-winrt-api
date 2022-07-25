@@ -15,7 +15,7 @@ Provides event data for the [Invoked](keyboardaccelerator_invoked.md) event.
 ## -remarks
 
 ## -see-also
-[Keyboard Accelerators](/windows/apps/design/input/keyboard-accelerators)
+[Keyboard accelerators](/windows/apps/design/input/keyboard-accelerators)
 
 ## -examples
 

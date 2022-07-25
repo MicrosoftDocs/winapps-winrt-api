@@ -23,6 +23,6 @@ The pre-defined command (including behavior, and various UI-related properties, 
 
 ## -see-also
 
-[StandardUICommand()](standarduicommand_standarduicommand_1221375020.md), [XamlUICommand](xamluicommand.md), [Command design basics](/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](/windows/apps/design/controls/commanding)
+[StandardUICommand()](standarduicommand_standarduicommand_1221375020.md), [XamlUICommand](xamluicommand.md), [Commanding basics](/windows/uwp/layout/commanding-basics), [Commanding in Windows apps using StandardUICommand, XamlUICommand, and ICommand](/windows/apps/design/controls/commanding)
 
 ## -examples

@@ -11,7 +11,7 @@ public DependencyObject NewFocusedElement { get;  set; }
 
 ## -description
 
-Gets the most recent focused object.
+Gets or sets the most recent focused object.
 
 ## -property-value
 

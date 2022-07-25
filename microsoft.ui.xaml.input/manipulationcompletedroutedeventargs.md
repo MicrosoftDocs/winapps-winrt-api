@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class ManipulationCompletedRoutedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.UI.Xaml.Input.IManipulationCompletedRoutedEventArgs
+public class ManipulationCompletedRoutedEventArgs : Microsoft.UI.Xaml.RoutedEventArgs, Microsoft.UI.Xaml.Input.IManipulationCompletedRoutedEventArgs
 -->
 
 # Microsoft.UI.Xaml.Input.ManipulationCompletedRoutedEventArgs

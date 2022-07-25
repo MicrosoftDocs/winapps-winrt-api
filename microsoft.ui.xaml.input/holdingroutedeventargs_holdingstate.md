@@ -10,7 +10,7 @@ public Windows.UI.Input.HoldingState HoldingState { get; }
 # Microsoft.UI.Xaml.Input.HoldingRoutedEventArgs.HoldingState
 
 ## -description
-Gets the underlying [HoldingState](/uwp/api/windows.ui.input.holdingstate) for the interaction
+Gets the underlying [HoldingState](../microsoft.ui.input/holdingstate.md) for the interaction.
 
 ## -property-value
 A value of the enumeration.

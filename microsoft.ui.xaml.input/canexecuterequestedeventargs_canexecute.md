@@ -15,7 +15,7 @@ Gets or sets a value indicating whether the [ICommand](icommand.md) that raised 
 
 ## -property-value
 
-**true** if the ICommand is able to execute; otherwise, **false**.
+`true` if the `ICommand` is able to execute; otherwise, `false`.
 
 ## -remarks
 

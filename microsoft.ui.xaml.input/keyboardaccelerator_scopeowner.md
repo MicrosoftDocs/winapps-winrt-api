@@ -10,16 +10,17 @@ public DependencyObject ScopeOwner { get;  set; }
 # Microsoft.UI.Xaml.Input.KeyboardAccelerator.ScopeOwner
 
 ## -description
-Gets or sets the scope (or target) of the keyboard accelerator. 
+Gets or sets the scope (or target) of the keyboard accelerator.
 
 ## -property-value
-The default is null (global scope).
+
+The scope (or target) of the keyboard accelerator. The default is `null` (global scope).
 
 ## -remarks
-By default, an accelerator has global scope. However, you can constrain scope using ScopeOwner or disable an accelerator completely using [IsEnabled](keyboardaccelerator_isenabled.md).
+By default, an accelerator has global scope. However, you can constrain scope using `ScopeOwner` or disable an accelerator completely using [IsEnabled](keyboardaccelerator_isenabled.md).
 
 ## -see-also
-[Keyboard Accelerators](/windows/apps/design/input/keyboard-accelerators)
+[Keyboard accelerators](/windows/apps/design/input/keyboard-accelerators)
 
 ## -examples
 

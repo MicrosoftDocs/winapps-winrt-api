@@ -11,7 +11,7 @@ public object FocusManager.GetFocusedElement(XamlRoot xamlRoot)
 
 ## -description
 
-Retrieves the focused element within the Xaml island container.
+Retrieves the focused element within the XAML island container.
 
 ## -parameters
 

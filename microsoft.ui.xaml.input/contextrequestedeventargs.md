@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class ContextRequestedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.UI.Xaml.Input.IContextRequestedEventArgs
+public class ContextRequestedEventArgs : Microsoft.UI.Xaml.RoutedEventArgs, Microsoft.UI.Xaml.Input.IContextRequestedEventArgs
 -->
 
 # Microsoft.UI.Xaml.Input.ContextRequestedEventArgs

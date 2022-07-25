@@ -3,12 +3,12 @@
 -api-type: winrt delegate
 ---
 <!-- Delegate syntax.
-public delegate void KeyEventHandler(System.Object sender, Windows.UI.Xaml.Input.KeyRoutedEventArgs e)
+public delegate void KeyEventHandler(System.Object sender, Microsoft.UI.Xaml.Input.KeyRoutedEventArgs e)
 -->
 # Microsoft.UI.Xaml.Input.KeyEventHandler
 
 ## -description
-Represents the method that handles the [KeyUp](../microsoft.ui.xaml/uielement_keyup.md) and [KeyDown](../microsoft.ui.xaml/uielement_keydown.md)  events.
+Represents the method that handles the [KeyUp](../microsoft.ui.xaml/uielement_keyup.md) and [KeyDown](../microsoft.ui.xaml/uielement_keydown.md) events.
 
 ## -parameters
 ### -param sender

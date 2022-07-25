@@ -3,7 +3,7 @@
 -api-type: winrt delegate
 ---
 <!-- Delegate syntax.
-public delegate void ManipulationDeltaEventHandler(System.Object sender, Windows.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs e)
+public delegate void ManipulationDeltaEventHandler(System.Object sender, Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs e)
 -->
 # Microsoft.UI.Xaml.Input.ManipulationDeltaEventHandler
 

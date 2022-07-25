@@ -4,7 +4,7 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.Input.InertiaExpansionBehavior ExpansionBehavior { get;  set; }
+public Microsoft.UI.Xaml.Input.InertiaExpansionBehavior ExpansionBehavior { get;  set; }
 -->
 
 # Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.ExpansionBehavior

@@ -25,7 +25,7 @@ The options to help identify the next element to receive focus with keyboard/con
 
 ## -returns
 
-**true** if focus moved; otherwise, **false**.
+`true` if focus moved; otherwise, `false`.
 
 ## -remarks
 
@@ -33,17 +33,16 @@ The tab order is the order in which a user moves from one control to another by 
 
 This method uses tab order sequence and behavior to traverse all focusable elements in the UI.
 
-If the focus is on the first element in the tab order and [FocusNavigationDirection.Previous](focusnavigationdirection.md) is specified, focus moves to the last element.
-
-If the focus is on the last element in the tab order and [FocusNavigationDirection.Next](focusnavigationdirection.md) is specified, focus moves to the first element.
+- If the focus is on the first element in the tab order and [FocusNavigationDirection.Previous](focusnavigationdirection.md) is specified, focus moves to the last element.
+- If the focus is on the last element in the tab order and [FocusNavigationDirection.Next](focusnavigationdirection.md) is specified, focus moves to the first element.
 
 You can also use either the [FindNextElement(FocusNavigationDirection, FindNextElementOptions)](focusmanager_findnextelement_905966547.md) method or the [FindNextElement(FocusNavigationDirection)](focusmanager_findnextelement_79258569.md) method to programmatically move focus. These methods retrieve the element (as a [DependencyObject](../microsoft.ui.xaml/dependencyobject.md)) that will receive focus based on the specified navigation direction (directional navigation only, cannot be used to emulate tab navigation).
 
 > [!NOTE]
-> We recommend using the FindNextElement method instead of FindNextFocusableElement because FindNextFocusableElement retrieves a UIElement, which returns null if the next focusable element is not a UIElement (such as a [Hyperlink](../microsoft.ui.xaml.documents/hyperlink.md) object).
+> We recommend using the [FindNextElement](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.input.focusmanager.findnextelement) method instead of `FindNextFocusableElement` because `FindNextFocusableElement` retrieves a `UIElement`, which returns `null` if the next focusable element is not a `UIElement` (such as a [Hyperlink](../microsoft.ui.xaml.documents/hyperlink.md) object).
 
 ## -see-also
 
-[TryMoveFocus(Windows.UI.Xaml.Input.FocusNavigationDirection focusNavigationDirection)](focusmanager_trymovefocus_1950067292.md), [Keyboard interactions](/windows/apps/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/apps/design/input/focus-navigation), [Programmatic focus navigation](/windows/apps/design/input/focus-navigation-programmatic)
+[TryMoveFocus(Microsoft.UI.Xaml.Input.FocusNavigationDirection focusNavigationDirection)](focusmanager_trymovefocus_1950067292.md), [Keyboard interactions](/windows/apps/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/apps/design/input/focus-navigation), [Programmatic focus navigation](/windows/apps/design/input/focus-navigation-programmatic)
 
 ## -examples

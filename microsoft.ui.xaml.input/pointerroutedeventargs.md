@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class PointerRoutedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.UI.Xaml.Input.IPointerRoutedEventArgs
+public class PointerRoutedEventArgs : Microsoft.UI.Xaml.RoutedEventArgs, Microsoft.UI.Xaml.Input.IPointerRoutedEventArgs
 -->
 
 # Microsoft.UI.Xaml.Input.PointerRoutedEventArgs
@@ -15,11 +15,11 @@ Contains the arguments returned by the last pointer event message.
 
 ## -remarks
 
-In most cases, we recommend that you get pointer info through the event argument of the pointer event handlers in your chosen language framework (Windows app using JavaScript, UWP app using C++, C#, or Visual Basic, or UWP app using DirectX with C++).
+In most cases, we recommend that you get pointer info through the event argument of the pointer event handlers.
 
-If the event argument doesn't intrinsically expose the pointer details required by your app, you can get access to extended pointer data through the [GetCurrentPoint](pointerroutedeventargs_getcurrentpoint_293890010.md) and [GetIntermediatePoints](pointerroutedeventargs_getintermediatepoints_516826524.md) methods of PointerRoutedEventArgs. Use these methods to specify the context of the pointer data.
+If the event argument doesn't intrinsically expose the pointer details required by your app, you can get access to extended pointer data through the [GetCurrentPoint](pointerroutedeventargs_getcurrentpoint_293890010.md) and [GetIntermediatePoints](pointerroutedeventargs_getintermediatepoints_516826524.md) methods of `PointerRoutedEventArgs`. Use these methods to specify the context of the pointer data.
 
-The PointerRoutedEventArgs event data class is used for these events:
+The `PointerRoutedEventArgs` event data class is used for these events:
 
 + [PointerPressed](../microsoft.ui.xaml/uielement_pointerpressed.md)
 + [PointerCanceled](../microsoft.ui.xaml/uielement_pointercanceled.md)
@@ -42,9 +42,9 @@ The PointerRoutedEventArgs event data class is used for these events:
 
 Specific events often have information available in the various pointer device and pointer point classes that is mainly only relevant for that event. For example, when you handle [PointerWheelChanged](../microsoft.ui.xaml/uielement_pointerwheelchanged.md), you might be interested in the [MouseWheelDelta](../microsoft.ui.input/pointerpointproperties_mousewheeldelta.md) from [PointerPointProperties](../microsoft.ui.input/pointerpointproperties.md).
 
-The object retrieved by the GetCurrentPoint and GetIntermediatePoints methods provide access to extended pointer info through the [Properties](../microsoft.ui.input/pointerpoint_properties.md) property, which gets a [PointerPointProperties](../microsoft.ui.input/pointerpointproperties.md) object.
+The object retrieved by the `GetCurrentPoint` and `GetIntermediatePoints` methods provide access to extended pointer info through the [Properties](../microsoft.ui.input/pointerpoint_properties.md) property, which gets a [PointerPointProperties](../microsoft.ui.input/pointerpointproperties.md) object.
 
-In the following example, we get extended pointer properties through the [PointerPoint](../microsoft.ui.input/pointerpoint.md) and [PointerPointProperties](../microsoft.ui.input/pointerpointproperties.md) objects. (See [Quickstart: Pointers](/previous-versions/windows/apps/hh465383(v=win.10)) for the complete example.)
+In the following example, we get extended pointer properties through the [PointerPoint](../microsoft.ui.input/pointerpoint.md) and [PointerPointProperties](../microsoft.ui.input/pointerpointproperties.md) objects. (See [Handle pointer input](/windows/apps/design/input/handle-pointer-input) for the complete example.)
 
 :::code language="csharp" source="code/PointerInput/csharp/MainWindow.xaml.cs" id="SnippetQueryPointer":::
 

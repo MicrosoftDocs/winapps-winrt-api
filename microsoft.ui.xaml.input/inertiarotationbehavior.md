@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class InertiaRotationBehavior : Windows.UI.Xaml.Input.IInertiaRotationBehavior
+public class InertiaRotationBehavior : Microsoft.UI.Xaml.Input.IInertiaRotationBehavior
 -->
 
 # Microsoft.UI.Xaml.Input.InertiaRotationBehavior

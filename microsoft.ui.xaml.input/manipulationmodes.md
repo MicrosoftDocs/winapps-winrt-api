@@ -4,7 +4,7 @@
 ---
 
 <!-- Enumeration syntax
-public enum Windows.UI.Xaml.Input.ManipulationModes : uint
+public enum Microsoft.UI.Xaml.Input.ManipulationModes : uint
 -->
 
 # ManipulationModes
@@ -56,7 +56,7 @@ Enable system-driven touch interactions supported through [Direct Manipulation](
 > [!NOTE]
 > [Direct Manipulation](/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal) defines a manipulation as the scrolling or zooming of some part of the application UI.
 
-This enumeration provides the value for the [UIElement.ManipulationMode](../microsoft.ui.xaml/uielement_manipulationmode.md) property. By setting this property you can enable app code handling for manipulation events such as [ManipulationStarted](../microsoft.ui.xaml/uielement_manipulationstarted.md). You must set the [ManipulationMode](../microsoft.ui.xaml/uielement_manipulationmode.md) to a value other than **System** or **None** to enable handling the events from that element. For more info on manipulations, see [Handle pointer input](/windows/apps/design/input/handle-pointer-input).
+This enumeration provides the value for the [UIElement.ManipulationMode](../microsoft.ui.xaml/uielement_manipulationmode.md) property. By setting this property you can enable app code handling for manipulation events such as [ManipulationStarted](../microsoft.ui.xaml/uielement_manipulationstarted.md). You must set the [ManipulationMode](../microsoft.ui.xaml/uielement_manipulationmode.md) to a value other than `System` or `None` to enable handling the events from that element. For more info on manipulations, see [Handle pointer input](/windows/apps/design/input/handle-pointer-input).
 
 Value enforcement for possible combinations is documented in the Remarks for the [UIElement.ManipulationMode](../microsoft.ui.xaml/uielement_manipulationmode.md) property.
 

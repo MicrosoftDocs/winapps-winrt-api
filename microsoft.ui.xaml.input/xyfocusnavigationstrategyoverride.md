@@ -4,7 +4,7 @@
 ---
 
 <!-- Enumeration syntax.
-public enum XYFocusNavigationStrategyOverride : int 
+public enum XYFocusNavigationStrategyOverride : int
 -->
 
 # Microsoft.UI.Xaml.Input.XYFocusNavigationStrategyOverride
@@ -16,10 +16,10 @@ Overrides [XYFocusKeyboardNavigationStrategyMode](xyfocuskeyboardnavigationmode.
 
 ## -enum-fields
 ### -field None:0
-No navigation override is applied. 
+No navigation override is applied.
 
 ### -field Auto:1
-Indicates that navigation strategy is inherited from the element's ancestors. If all ancestors have a value of **Auto**, the fallback strategy is **Projection**. 
+Indicates that navigation strategy is inherited from the element's ancestors. If all ancestors have a value of `Auto`, the fallback strategy is `Projection`.
 
 ### -field Projection:2
 Indicates that focus moves to the first element encountered when projecting the edge of the currently focused element in the  direction of navigation.
@@ -41,27 +41,28 @@ The edge of the bounding rect corresponding to the navigation direction is exten
 *Focus moves from A to C and then from C to B on down navigation*
 
 ### -field RectilinearDistance:4
-Indicates that focus moves to the closest element based on the shortest 2D distance (Manhattan metric). 
+Indicates that focus moves to the closest element based on the shortest 2D distance (Manhattan metric).
 
 This distance is calculated by adding the primary distance and the secondary distance of each potential candidate. In the case of a tie:
+
 - The first element to the left is selected if the navigation direction is up or down
 - The first element to the top is selected if the navigation direction is left or right
 
 Here we show how focus moves from A to B based on rectilinear distance.
 
--   Distance (A, B, Down) = 10 + 0 = 10
--   Distance (A, C, Down) = 0 + 30 = 30
--   Distance (A, D, Down) 30 + 0 = 30
+- Distance (A, B, Down) = 10 + 0 = 10
+- Distance (A, C, Down) = 0 + 30 = 30
+- Distance (A, D, Down) 30 + 0 = 30
 
 <img alt="Focus navigation - rectilinear distance" src="images/rectilinear-distance.png" />
 
 *Focus moves from A to B based on rectilinear distance*
 
 ## -remarks
-XY navigation is used to navigate a user interface (UI) with a gamepad, remote control, or keyboard directional arrows. For more info, see [Gamepad and remote control interactions](/windows/uwp/input-and-devices/gamepad-and-remote-interactions)
+XY navigation is used to navigate a user interface (UI) with a gamepad, remote control, or keyboard directional arrows. For more info, see [Gamepad and remote control interactions](/apps/design/input/gamepad-and-remote-interactions)
 
 ## -see-also
 
-[XYFocusNavigationStrategy](xyfocusnavigationstrategy.md), [Programmatic focus navigation](/windows/uwp/input-and-devices/focus-navigation-programmatic), [Desiging for Xbox - XY focus navigation and interaction](/windows/uwp/input-and-devices/designing-for-tv)
+[XYFocusNavigationStrategy](xyfocusnavigationstrategy.md), [Programmatic focus navigation](/windows/uwp/input-and-devices/focus-navigation-programmatic)
 
 ## -examples

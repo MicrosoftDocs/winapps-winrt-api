@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class ManipulationStartingRoutedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.UI.Xaml.Input.IManipulationStartingRoutedEventArgs
+public class ManipulationStartingRoutedEventArgs : Microsoft.UI.Xaml.RoutedEventArgs, Microsoft.UI.Xaml.Input.IManipulationStartingRoutedEventArgs
 -->
 
 # Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs
@@ -25,4 +25,3 @@ The following code example shows scenario 4 from the [Input sample](https://gith
 
 ## -see-also
 [RoutedEventArgs](../microsoft.ui.xaml/routedeventargs.md)
-ndows.ui.xaml/routedeventargs.md)
