@@ -4,7 +4,7 @@
 ---
 
 <!-- Method syntax
-public void Start(Windows.UI.Xaml.ApplicationInitializationCallback callback)
+public void Start(Microsoft.UI.Xaml.ApplicationInitializationCallback callback)
 -->
 
 # Microsoft.UI.Xaml.Application.Start
@@ -21,7 +21,7 @@ The callback that should be invoked during the initialization sequence.
 
 ## -remarks
 
-In a Desktop app this runs a message pump internally, and does not return until the application shuts down. In a UWP app it returns immediately.
+This runs a message pump internally, and does not return until the application shuts down.
 
 Typically, you do not need to call this method directly. For example, in Visual Studio, the build system generates code that makes the call.
 

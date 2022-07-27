@@ -11,7 +11,7 @@ protected virtual void OnLaunched (Microsoft.UI.Xaml.LaunchActivatedEventArgs ar
 
 ## -description
 
-Invoked when the application is launched. Override this method to perform application initialization and to display initial content in the associated window (UWP apps) or to create a new window (desktop apps).
+Invoked when the application is launched. Override this method to perform application initialization and to create a new window.
 
 ## -parameters
 
@@ -23,14 +23,10 @@ This method is typically created automatically when a project is created. You ca
 
 ## -see-also
 
-[LaunchActivatedEventArgs](launchactivatedeventargs.md), [Launching and resuming apps](/windows/uwp/launch-resume/)
+[LaunchActivatedEventArgs](launchactivatedeventargs.md)
 
 ## -examples
 
-In a desktop app, use OnLaunched to create the main window and pass it the first command line argument.
+Use OnLaunched to create the main window and pass it the first command line argument.
 
 [!code-csharp[DesktopOnLaunchedSample](../microsoft.ui.xaml/code/Application_OnLaunchedSample/MainPage.xaml.cs#SnippetDesktopOnLaunchedSample)]
-
-In a UWP app, use OnLaunched to display some initial content.
-
-[!code-csharp[UWPOnLaunchedSample](../microsoft.ui.xaml/code/Application_OnLaunchedSample/MainPage.xaml.cs#SnippetUWPOnLaunchedSample)]
