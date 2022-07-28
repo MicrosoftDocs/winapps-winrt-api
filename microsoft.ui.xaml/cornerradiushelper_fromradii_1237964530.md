@@ -4,7 +4,7 @@
 ---
 
 <!-- Method syntax
-public Windows.UI.Xaml.CornerRadius FromRadii(System.Double topLeft, System.Double topRight, System.Double bottomRight, System.Double bottomLeft)
+public Microsoft.UI.Xaml.CornerRadius FromRadii(System.Double topLeft, System.Double topRight, System.Double bottomRight, System.Double bottomLeft)
 -->
 
 # Microsoft.UI.Xaml.CornerRadiusHelper.FromRadii
@@ -17,19 +17,19 @@ Generates a [CornerRadius](cornerradius.md) value from element values. C# and Mi
 
 ### -param topLeft
 
-The initial **TopLeft** value.
+The initial `TopLeft` value.
 
 ### -param topRight
 
-The initial **TopRight** value.
+The initial `TopRight` value.
 
 ### -param bottomRight
 
-The initial **BottomRight** value.
+The initial `BottomRight` value.
 
 ### -param bottomLeft
 
-The initial **BottomLeft** value.
+The initial `BottomLeft` value.
 
 ## -returns
 

@@ -4,7 +4,7 @@
 ---
 
 <!-- Method syntax
-public Windows.UI.Xaml.CornerRadius FromUniformRadius(System.Double uniformRadius)
+public Microsoft.UI.Xaml.CornerRadius FromUniformRadius(System.Double uniformRadius)
 -->
 
 # Microsoft.UI.Xaml.CornerRadiusHelper.FromUniformRadius
