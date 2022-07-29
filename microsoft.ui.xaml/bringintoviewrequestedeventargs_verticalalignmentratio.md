@@ -10,19 +10,21 @@ public double VerticalAlignmentRatio { get; }
 # Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.VerticalAlignmentRatio
 
 ## -description
-Gets the requested vertical alignment ratio which controls the alignment of the horizontal axis of the TargetRect with respect to the horizontal axis of the viewport. 
+
+Gets the requested vertical alignment ratio which controls the alignment of the horizontal axis of the TargetRect with respect to the horizontal axis of the viewport.
 
 ## -property-value
 
 The requested vertical alignment ratio between 0.0 and 1.0, or NaN. See Remarks.
 
 ## -remarks
+
 A value of NaN indicates that scrolling controls should do the minimum necessary to bring the element fully into view aligned to the nearest edge of the viewport.
 
 > [!NOTE]
 > Do not use the `==` operator to test for NaN.
 >
-> In C#, use [Double.IsNaN()](/dotnet/api/system.double.isnan?view=dotnet-uwp-10.0&preserve-view=true) to test for NaN.
+> In C#, use [Double.IsNaN()](/dotnet/api/system.double.isnan) to test for NaN.
 >
 > In C++, use [isnan()](/cpp/c-runtime-library/reference/isnan-isnan-isnanf) to test for NaN.
 
@@ -33,4 +35,3 @@ All scrolling controls that participate in bringing an element into view are exp
 ## -see-also
 
 ## -examples
-
