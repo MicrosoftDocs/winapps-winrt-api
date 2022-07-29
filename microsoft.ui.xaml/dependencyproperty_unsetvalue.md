@@ -45,4 +45,3 @@ This example checks for an existing local value with [ReadLocalValue](dependency
 ## -see-also
 
 [IValueConverter.Convert](../microsoft.ui.xaml.data/ivalueconverter_convert_101701969.md), [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)
-b4f1-6caf-4128-a61a-4e400b149011)

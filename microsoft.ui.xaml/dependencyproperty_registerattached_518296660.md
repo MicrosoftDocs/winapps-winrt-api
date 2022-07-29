@@ -21,11 +21,11 @@ The name of the dependency property to register.
 
 ### -param propertyType
 
-The type of the property, as a type reference ([System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) for Microsoft .NET, a [TypeName](/uwp/api/windows.ui.xaml.interop.typename) helper struct for Visual C++ component extensions (C++/CX)).
+The type of the property, as a type reference ([System.Type](/dotnet/api/system.type) for Microsoft .NET, a [TypeName](/uwp/api/windows.ui.xaml.interop.typename) helper struct for Visual C++ component extensions (C++/CX)).
 
 ### -param ownerType
 
-The owner type that is registering the dependency property, as a type reference ([System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) for Microsoft .NET, a [TypeName](/uwp/api/windows.ui.xaml.interop.typename) helper struct for Visual C++ component extensions (C++/CX)).
+The owner type that is registering the dependency property, as a type reference ([System.Type](/dotnet/api/system.type) for Microsoft .NET, a [TypeName](/uwp/api/windows.ui.xaml.interop.typename) helper struct for Visual C++ component extensions (C++/CX)).
 
 ### -param defaultMetadata
 
@@ -48,4 +48,3 @@ This example defines a class that derives from [DependencyObject](dependencyobje
 ## -see-also
 
 [Custom attached properties](/windows/uwp/xaml-platform/custom-attached-properties), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)
-1de0-d640-48b1-9961-d0adf33266e2)

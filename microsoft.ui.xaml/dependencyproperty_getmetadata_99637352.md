@@ -17,7 +17,7 @@ Retrieves the property metadata value for the dependency property as registered 
 
 ### -param forType
 
-The name of the specific type from which to retrieve the dependency property metadata, as a type reference ([System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) for Microsoft .NET, a [TypeName](/uwp/api/windows.ui.xaml.interop.typename) helper struct for Visual C++ component extensions (C++/CX)).
+The name of the specific type from which to retrieve the dependency property metadata, as a type reference ([System.Type](/dotnet/api/system.type) for Microsoft .NET, a [TypeName](/uwp/api/windows.ui.xaml.interop.typename) helper struct for Visual C++ component extensions (C++/CX)).
 
 ## -returns
 
@@ -36,4 +36,3 @@ This example implements a utility method that reports the default value of a giv
 ## -see-also
 
 [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)
-9e66-f71c-4daa-9994-617c886fda7e)
