@@ -11,7 +11,7 @@ public sealed class InputPointerSource : Microsoft.UI.Input.InputObject
 
 ## -description
 
-Represents an object that is registered to report pointer input and provides pointer cursor and input event handling.
+Represents an object that is registered to report pointer input and provide pointer cursor and input event handling.
 
 ## -remarks
 
@@ -91,33 +91,37 @@ It is also possible to receive a brand new in-contact pointer that was routed fr
 
 ## -examples
 
-The following example shows how to configure a [SwapChainPanel](../microsoft.ui.xaml.controls/swapchainpanel.md) to receive low-latency pen and touch input on a background thread using [CreateCoreIndependentInputSource](../microsoft.ui.xaml.controls/swapchainpanel_createcoreindependentinputsource_467679991.md):
+The following example shows how to configure a [SwapChainPanel](../microsoft.ui.xaml.controls/swapchainpanel.md) with [CreateCoreIndependentInputSource](../microsoft.ui.xaml.controls/swapchainpanel_createcoreindependentinputsource_467679991.md) and receive low-latency pen and touch input on a background thread through a [DispatcherQueueController](../microsoft.ui.dispatching/dispatcherqueuecontroller.md).
 
 ```csharp
 void SetupBackgroundPenInput(SwapChainPanel swapChainPanel)
 {
-    m_inputPointerSource = swapChainPanel.CreateCoreIndependentInputSource(
-        InputPointerSourceDeviceKinds.Pen |
-        InputPointerSourceDeviceKinds.Touch);
+    m_dispatcherQueueController = DispatcherQueueController::CreateOnDedicatedThread();
 
-    m_inputPointerSource.PointerMoved += OnPointerMoved;
+    InputPointerSourceDeviceKinds deviceKind = (InputPointerSourceDeviceKinds)(
+        Microsoft::UI::Input::InputPointerSourceDeviceKinds::Touch |
+        Microsoft::UI::Input::InputPointerSourceDeviceKinds::Pen);
+    m_coreInput = swapChainPanel().CreateCoreIndependentInputSource(deviceKind);
+
+    m_coreInput.PointerMoved({ this, &DirectXPage::SwapChainPanel_OnPointerMoved });
 }
 
-void OnPointerMoved(InputPointerSource source, PointerEventArgs args)
-{
-    PointerPoint point = args.CurrentPoint;
 
-    DrawToPoint(point.Position.X, point.Position.Y);
+void DirectXPage::SwapChainPanel_OnPointerPressed(InputPointerSource const& sender, Microsoft::UI::Input::PointerEventArgs const& e)
+{
+    // When the pointer is pressed begin tracking the pointer movement.
+    m_main->StartTracking();
 }
 ```
 
 This example shows how to configure the system hand cursor image to display when the cursor hovers over a SwapChainPanel:
 
 ```csharp
-m_inputPointerSource = swapChainPanel.CreateCoreIndependentInputSource(
-    InputPointerSourceDeviceKinds.Pen |
-    InputPointerSourceDeviceKinds.Touch |
-    InputPointerSourceDeviceKinds.Mouse);
+InputPointerSourceDeviceKinds deviceKind = (InputPointerSourceDeviceKinds)(
+    Microsoft::UI::Input::InputPointerSourceDeviceKinds::Touch |
+    Microsoft::UI::Input::InputPointerSourceDeviceKinds::Mouse |
+    Microsoft::UI::Input::InputPointerSourceDeviceKinds::Pen);
+m_coreInput = swapChainPanel().CreateCoreIndependentInputSource(deviceKind);
 
-m_inputPointerSource.InputCursor = InputSystemCursor.Create(InputSystemCursorShape.Hand);
+m_coreInput.InputCursor = InputSystemCursor.Create(InputSystemCursorShape.Hand);
 ```
