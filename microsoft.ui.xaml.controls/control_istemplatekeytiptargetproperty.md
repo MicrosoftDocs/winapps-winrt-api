@@ -10,14 +10,16 @@ public DependencyProperty IsTemplateKeyTipTargetProperty { get; }
 # Microsoft.UI.Xaml.Controls.Control.IsTemplateKeyTipTargetProperty
 
 ## -description
-Identifies the [Control.IsTemplateKeyTipTarget](/windows/winui/api/microsoft.ui.xaml.controls.control#xaml-attached-properties) XAML attached property.
+Identifies the [Control.IsTemplateKeyTipTarget](control_istemplatekeytiptarget.md) XAML attached property.
 
 ## -property-value
-The identifier for the [Control.IsTemplateKeyTipTarget](/windows/winui/api/microsoft.ui.xaml.controls.control#xaml-attached-properties) XAML attached property.
+The identifier for the [Control.IsTemplateKeyTipTarget](control_istemplatekeytiptarget.md) XAML attached property.
 
 ## -remarks
 
 ## -see-also
+
+[Control.IsTemplateKeyTipTarget](control_istemplatekeytiptarget.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)
 
 ## -examples
 

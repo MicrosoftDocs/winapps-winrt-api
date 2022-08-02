@@ -10,11 +10,11 @@ public void SetEastAsianWidths(Windows.UI.Xaml.DependencyObject element, Windows
 # Microsoft.UI.Xaml.Documents.Typography.SetEastAsianWidths
 
 ## -description
-Sets the value of the [EastAsianWidths](/windows/winui/api/microsoft.ui.xaml.documents.typography#xaml-attached-properties) attached property for a specified dependency object.
+Sets the value of the [EastAsianWidths](typography_eastasianwidths.md) attached property for a specified dependency object.
 
 ## -parameters
 ### -param element
-The dependency object for which to set the value of the [EastAsianWidths](/windows/winui/api/microsoft.ui.xaml.documents.typography#xaml-attached-properties) property.
+The dependency object for which to set the value of the [EastAsianWidths](typography_eastasianwidths.md) property.
 
 ### -param value
 The new value to set the property to.
@@ -24,3 +24,5 @@ The new value to set the property to.
 ## -examples
 
 ## -see-also
+
+[EastAsianWidths](typography_eastasianwidths.md), [XAML attached properties](/windows/uwp/xaml-platform/attached-properties-overview)
