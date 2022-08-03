@@ -15,4 +15,4 @@ Enables fundamental Windows Runtime functionality, including managing asynchrono
 
 ## -see-also
 
-[Windows.Foundation.Collections](/uwp/api/windows.foundation.collections), [Windows.Foundation.Diagnostics](/uwp/api/windows.foundation.diagnostics), [Windows.Foundation.Metadata](/uwp/api/windows.foundation.metadata), [Calendar sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Calendar), [RSS reader end-to-end (JavaScript) sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FeedReader)
+[Windows.Foundation.Collections](/uwp/api/windows.foundation.collections), [Windows.Foundation.Diagnostics](/uwp/api/windows.foundation.diagnostics), [Windows.Foundation.Metadata](/uwp/api/windows.foundation.metadata), [Calendar sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Calendar)
