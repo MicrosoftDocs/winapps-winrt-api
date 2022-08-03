@@ -10,8 +10,9 @@ public void SetExtensionInstance(Microsoft.UI.Xaml.FrameworkElement element, Mic
 # Microsoft.UI.Xaml.DataTemplate.SetExtensionInstance
 
 ## -description
+Sets the value of the [DataTemplate.ExtensionInstance](datatemplate_extensioninstance.md) XAML attached property for a target element.
 
-Sets the value of the [DataTemplate.ExtensionInstance](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.datatemplate#xaml-attached-properties) XAML attached property for a target element.
+
 
 ## -parameters
 
@@ -29,4 +30,4 @@ The value to set.
 
 ## -see-also
 
-[DataTemplate.ExtensionInstance](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.datatemplate#xaml-attached-properties)
+[DataTemplate.ExtensionInstance](datatemplate_extensioninstance.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

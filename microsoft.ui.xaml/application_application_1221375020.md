@@ -19,7 +19,7 @@ The [Application](application.md) object is typically provided in the initial XA
 
 This property (and the static [Current](application_current.md) property) returns a [Window](window.md) object. From this object, an app can use the [Dispatcher](window_dispatcher.md) object or determine the size of the Window from the [Bounds](window_bounds.md) property.
 
-Typically, Window is used to set a [UIElement](uielement.md) to the [Content](window_content.md) that represents the app UI. This is usually done as part of app activation (for example in the [OnLaunched](application_onlaunched_1344752508.md) override) and allows you to change the window content throughout the lifetime of the window.
+Typically, `Window` is used to set a [UIElement](uielement.md) to the [Content](window_content.md) that represents the app UI. This is usually done as part of app activation (for example in the [OnLaunched](application_onlaunched_1344752508.md) override) and allows you to change the window content throughout the lifetime of the window.
 
 ## -examples
 

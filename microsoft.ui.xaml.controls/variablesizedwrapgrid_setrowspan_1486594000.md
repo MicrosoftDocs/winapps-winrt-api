@@ -10,7 +10,7 @@ public void SetRowSpan(Windows.UI.Xaml.UIElement element, System.Int32 value)
 # Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.SetRowSpan
 
 ## -description
-Sets the value of the [VariableSizedWrapGrid.RowSpan](/windows/winui/api/microsoft.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property on a target element.
+Sets the value of the [VariableSizedWrapGrid.RowSpan](variablesizedwrapgrid_rowspan.md) XAML attached property on a target element.
 
 ## -parameters
 ### -param element
@@ -20,9 +20,10 @@ The target element.
 The value to set.
 
 ## -remarks
-For more info, see the [VariableSizedWrapGrid.RowSpan](/windows/winui/api/microsoft.ui.xaml.controls.grid#xaml-attached-properties) attached property.
+For more info, see the [VariableSizedWrapGrid.RowSpan](variablesizedwrapgrid_rowspan.md) attached property.
 
 ## -examples
 
 ## -see-also
-[VariableSizedWrapGrid.RowSpan](/windows/winui/api/microsoft.ui.xaml.controls.grid#xaml-attached-properties)
+
+[VariableSizedWrapGrid.RowSpan](variablesizedwrapgrid_rowspan.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

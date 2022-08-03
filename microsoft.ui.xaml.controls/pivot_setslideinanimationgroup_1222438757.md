@@ -24,3 +24,5 @@ The slide-in animation group that this [FrameworkElement](../microsoft.ui.xaml/f
 ## -examples
 
 ## -see-also
+
+[Pivot.SlideInAnimationGroup](pivot_slideinanimationgroup.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

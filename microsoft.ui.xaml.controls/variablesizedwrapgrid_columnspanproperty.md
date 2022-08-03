@@ -10,13 +10,15 @@ public Windows.UI.Xaml.DependencyProperty ColumnSpanProperty { get; }
 # Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.ColumnSpanProperty
 
 ## -description
-Identifies the [VariableSizedWrapGrid.ColumnSpan](/windows/winui/api/microsoft.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property.
+Identifies the [VariableSizedWrapGrid.ColumnSpan](variablesizedwrapgrid_columnspanproperty.md) XAML attached property.
 
 ## -property-value
-The identifier for the [VariableSizedWrapGrid.ColumnSpan](/windows/winui/api/microsoft.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property.
+The identifier for the [VariableSizedWrapGrid.ColumnSpan](variablesizedwrapgrid_columnspanproperty.md) XAML attached property.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
+[VariableSizedWrapGrid.ColumnSpan](variablesizedwrapgrid_columnspanproperty.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)
