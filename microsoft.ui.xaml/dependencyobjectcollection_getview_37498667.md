@@ -4,15 +4,17 @@
 ---
 
 <!-- Method syntax
-public Windows.Foundation.Collections.IVectorView<Windows.UI.Xaml.DependencyObject> GetView()
+public Windows.Foundation.Collections.IVectorView<Microsoft.UI.Xaml.DependencyObject> GetView()
 -->
 
 # Microsoft.UI.Xaml.DependencyObjectCollection.GetView
 
 ## -description
+
 Gets an immutable view into the collection.
 
 ## -returns
+
 An object representing the immutable collection view.
 
 ## -remarks

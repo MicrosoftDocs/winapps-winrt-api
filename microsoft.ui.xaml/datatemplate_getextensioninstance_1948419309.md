@@ -4,7 +4,7 @@
 ---
 
 <!-- Method syntax
-public Windows.UI.Xaml.IDataTemplateExtension GetExtensionInstance(Windows.UI.Xaml.FrameworkElement element)
+public Microsoft.UI.Xaml.IDataTemplateExtension GetExtensionInstance(Microsoft.UI.Xaml.FrameworkElement element)
 -->
 
 # Microsoft.UI.Xaml.DataTemplate.GetExtensionInstance
@@ -13,7 +13,9 @@ public Windows.UI.Xaml.IDataTemplateExtension GetExtensionInstance(Windows.UI.Xa
 Gets the value of the [DataTemplate.ExtensionInstance](datatemplate_extensioninstance.md) XAML attached property for the target element.
 
 ## -parameters
+
 ### -param element
+
 The object from which the property value is read.
 
 ## -returns

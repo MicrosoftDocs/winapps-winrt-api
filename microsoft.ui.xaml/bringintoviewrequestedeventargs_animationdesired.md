@@ -15,11 +15,10 @@ Gets or sets a value that specifies whether the scrolling should be animated.
 
 ## -property-value
 
-**true** to animate the scrolling; otherwise, **false**.
+`true` to animate the scrolling; otherwise, `false`.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

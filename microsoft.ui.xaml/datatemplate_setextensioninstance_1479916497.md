@@ -4,7 +4,7 @@
 ---
 
 <!-- Method syntax
-public void SetExtensionInstance(Windows.UI.Xaml.FrameworkElement element, Windows.UI.Xaml.IDataTemplateExtension value)
+public void SetExtensionInstance(Microsoft.UI.Xaml.FrameworkElement element, Microsoft.UI.Xaml.IDataTemplateExtension value)
 -->
 
 # Microsoft.UI.Xaml.DataTemplate.SetExtensionInstance
@@ -15,10 +15,13 @@ Sets the value of the [DataTemplate.ExtensionInstance](datatemplate_extensionins
 
 
 ## -parameters
+
 ### -param element
+
 The object to which the property value is written.
 
 ### -param value
+
 The value to set.
 
 ## -remarks

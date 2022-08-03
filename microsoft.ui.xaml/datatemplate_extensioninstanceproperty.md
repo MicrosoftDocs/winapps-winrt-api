@@ -4,7 +4,7 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.DependencyProperty ExtensionInstanceProperty { get; }
+public Microsoft.UI.Xaml.DependencyProperty ExtensionInstanceProperty { get; }
 -->
 
 # Microsoft.UI.Xaml.DataTemplate.ExtensionInstanceProperty
