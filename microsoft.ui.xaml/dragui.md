@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class DragUI : Windows.UI.Xaml.IDragUI
+public class DragUI : Microsoft.UI.Xaml.IDragUI
 -->
 
 # Microsoft.UI.Xaml.DragUI

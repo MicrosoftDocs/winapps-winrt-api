@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class DragStartingEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.UI.Xaml.IDragStartingEventArgs, Windows.UI.Xaml.IDragStartingEventArgs2
+public class DragStartingEventArgs : Microsoft.UI.Xaml.RoutedEventArgs, Microsoft.UI.Xaml.IDragStartingEventArgs, Microsoft.UI.Xaml.IDragStartingEventArgs2
 -->
 
 # Microsoft.UI.Xaml.DragStartingEventArgs
