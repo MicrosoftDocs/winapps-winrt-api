@@ -136,4 +136,4 @@ This table shows the equivalent properties and methods available in .NET and C++
 
 ## -see-also
 
-[Storyboarded animations](/windows/uwp/graphics/storyboarded-animations), [Storyboard](../microsoft.ui.xaml.media.animation/storyboard.md), [Timeline.Duration](../microsoft.ui.xaml.media.animation/timeline_duration.md)
+[Storyboarded animations](/windows/apps/design/motion/storyboarded-animations), [Storyboard](../microsoft.ui.xaml.media.animation/storyboard.md), [Timeline.Duration](../microsoft.ui.xaml.media.animation/timeline_duration.md)

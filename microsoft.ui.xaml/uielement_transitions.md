@@ -69,4 +69,4 @@ The following XAML example shows a single [EntranceThemeTransition](../microsoft
 
 ## -see-also
 
-[Storyboarded animations](/windows/uwp/graphics/storyboarded-animations), [TransitionCollection](../microsoft.ui.xaml.media.animation/transitioncollection.md)
+[Storyboarded animations](/windows/apps/design/motion/storyboarded-animations), [TransitionCollection](../microsoft.ui.xaml.media.animation/transitioncollection.md)

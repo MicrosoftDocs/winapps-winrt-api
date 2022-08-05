@@ -44,4 +44,4 @@ The following example shows how to set the background of a [Border](border.md) t
 [!code-xaml[BackgroundCorner](../microsoft.ui.xaml.controls/code/BorderSample2/csharp/Page.xaml#SnippetBackgroundCorner)]
 
 ## -see-also
-[Child](border_child.md), [Use brushes](/windows/uwp/graphics/using-brushes)
+[Child](border_child.md), [XAML brushes](/windows/apps/design/style/brushes)

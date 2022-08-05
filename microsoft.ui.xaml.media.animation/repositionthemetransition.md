@@ -24,34 +24,9 @@ The RepositionThemeTransition is not designed to be used with Panels that perfor
 ## -examples
 The following example applies a RepositionThemeTransition to a button. When you click the button, its margin changes, which changes its position. This position change is animated.
 
-
-<!--  
-      <p xml:space="preserve">
-            <TRANSLATE_MANUALLY>
-              <externalLink xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
-                <linkText>Run this sample</linkText>
-                <linkUri>http://go.microsoft.com/fwlink/p/?linkid=139798&amp;sref=BackEase_scale</linkUri>
-              </externalLink>
-            </TRANSLATE_MANUALLY>
-          </p>-->
-
-
-
 [!code-xaml[RepositionThemeTransitionSimple](../microsoft.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml#SnippetRepositionThemeTransitionSimple)]
 
 [!code-csharp[RepositionThemeTransitionSimple_code](../microsoft.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml.cs#SnippetRepositionThemeTransitionSimple_code)]
-
-
-<!--  
-      <p xml:space="preserve">
-            <TRANSLATE_MANUALLY>
-              <externalLink xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
-                <linkText>Run this sample</linkText>
-                <linkUri>http://go.microsoft.com/fwlink/p/?linkid=139798&amp;sref=BackEase_scale</linkUri>
-              </externalLink>
-            </TRANSLATE_MANUALLY>
-          </p>-->
-
 
 
 [!code-xaml[RepositionThemeTransition](../microsoft.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml#SnippetRepositionThemeTransition)]

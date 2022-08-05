@@ -55,4 +55,4 @@ Avoid using [CacheMode](../microsoft.ui.xaml.media/cachemode.md) and storyboarde
 ## -examples
 
 ## -see-also
-[IsOverdrawHeatMapEnabled](debugsettings_isoverdrawheatmapenabled.md), [Optimize your XAML markup](/windows/uwp/debug-test-perf/optimize-xaml-loading), [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations)
+[IsOverdrawHeatMapEnabled](debugsettings_isoverdrawheatmapenabled.md), [Optimize your XAML markup](/windows/uwp/debug-test-perf/optimize-xaml-loading), [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations)

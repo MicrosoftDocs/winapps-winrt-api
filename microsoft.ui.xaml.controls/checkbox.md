@@ -231,5 +231,4 @@ private void Option_Unchecked(object sender, RoutedEventArgs e)
 
 
 ## -see-also
-[Check boxes overview](/windows/uwp/controls-and-patterns/checkbox), [CheckBox styles and templates](/windows/apps/design/style/xaml-styles), [RadioButton](radiobutton.md), [ToggleButton](../microsoft.ui.xaml.controls.primitives/togglebutton.md), [Controls list](/windows/apps/design/controls/), [Controls by function](/windows/uwp/controls-and-patterns/controls-by-function)
-p://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+[Check boxes](/windows/apps/design/controls/checkbox), [RadioButton](radiobutton.md), [ToggleButton](../microsoft.ui.xaml.controls.primitives/togglebutton.md), [Controls list](/windows/apps/design/controls/)

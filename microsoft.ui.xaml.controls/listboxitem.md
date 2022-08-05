@@ -38,4 +38,4 @@ You can specify the look of the ListBoxItem by setting the [ListBox](listbox.md)
 
 ## -see-also
 
-[SelectorItem](../microsoft.ui.xaml.controls.primitives/selectoritem.md), [ListBox](listbox.md), [ItemContainerStyle](itemscontrol_itemcontainerstyle.md), [ListBoxItem styles and templates](/windows/apps/design/style/xaml-styles)
+[SelectorItem](../microsoft.ui.xaml.controls.primitives/selectoritem.md), [ListBox](listbox.md), [ItemContainerStyle](itemscontrol_itemcontainerstyle.md)

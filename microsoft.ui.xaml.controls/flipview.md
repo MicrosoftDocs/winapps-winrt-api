@@ -79,4 +79,4 @@ In this example, the [ItemTemplate](itemscontrol_itemtemplate.md) of a FlipView 
 [!code-xaml[FlipViewItemTemplate](../microsoft.ui.xaml.controls/code/ListAndGridViewSnippets/csharp/SplitPage.xaml#SnippetFlipViewItemTemplate)]
 
 ## -see-also
-[Selector](../microsoft.ui.xaml.controls.primitives/selector.md), [FlipView styles and templates](/windows/apps/design/style/xaml-styles), [XAML FlipView sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20FlipView%20control%20sample), [Guidelines for flip view controls](/windows/apps/design/controls/flipview)
+[Selector](../microsoft.ui.xaml.controls.primitives/selector.md), [XAML FlipView sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20FlipView%20control%20sample), [Guidelines for flip view controls](/windows/apps/design/controls/flipview)

@@ -31,4 +31,4 @@ The collection of child [Timeline](timeline.md) objects. The default is an empty
 ## -examples
 
 ## -see-also
-[Storyboarded animations](/windows/uwp/graphics/storyboarded-animations)
+[Storyboarded animations](/windows/apps/design/motion/storyboarded-animations)

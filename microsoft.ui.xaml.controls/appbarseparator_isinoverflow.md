@@ -16,7 +16,7 @@ Gets a value that indicates whether this item is in the overflow menu.
 **true** if this item is in the overflow menu; otherwise, **false**.
 
 ## -remarks
-For more info and guidelines, see the [App bar and command bar](/windows/uwp/controls-and-patterns/app-bars) article.
+For more info and guidelines, see the [Command bar](/windows/apps/design/controls/command-bar) article.
 
 Starting in Windows 10, version 1607, [CommandBar](commandbar.md) introduces a dynamic overflow feature. By default, [PrimaryCommands](commandbar_primarycommands.md) automatically move in or out of the overflow area as the command bar width changes, for example, when users resize their app window. You can set the [IsDynamicOverflowEnabled](commandbar_isdynamicoverflowenabled.md) property to **false** to disable this behavior.
 

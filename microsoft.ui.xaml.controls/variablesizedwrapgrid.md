@@ -85,4 +85,4 @@ In order to support XAML processor access to the attached properties, and also t
 
 ## -see-also
 
-[Panel](panel.md), [Define layouts](/windows/uwp/layout/layouts-with-xaml), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview), [Canvas](canvas.md), [Grid](grid.md), [ItemsWrapGrid](itemswrapgrid.md), [StackPanel](stackpanel.md), [WrapGrid](wrapgrid.md), [Controls list](/windows/apps/design/controls/), [Controls by function](/windows/uwp/controls-and-patterns/controls-by-function)
+[Panel](panel.md), [Define layouts](/windows/uwp/layout/layouts-with-xaml), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview), [Canvas](canvas.md), [Grid](grid.md), [ItemsWrapGrid](itemswrapgrid.md), [StackPanel](stackpanel.md), [WrapGrid](wrapgrid.md), [Controls list](/windows/apps/design/controls/)

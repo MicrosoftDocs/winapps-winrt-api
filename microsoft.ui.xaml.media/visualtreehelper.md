@@ -79,4 +79,4 @@ internal static void FindChildren<T>(List<T> results, DependencyObject startNode
 
 
 ## -see-also
-[Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10)), [XAML namescopes](/windows/uwp/xaml-platform/xaml-namescopes), [Controls by function](/windows/uwp/controls-and-patterns/controls-by-function)
+[XAML Control templates](/windows/apps/design/style/xaml-control-templates), [XAML namescopes](/windows/uwp/xaml-platform/xaml-namescopes)

@@ -121,4 +121,4 @@ This example shows how to set the [Header](toggleswitch_header.md), [OnContent](
 
 
 ## -see-also
-[Toggle switches overview](/windows/uwp/controls-and-patterns/toggles), [ToggleSwitch styles and templates](/windows/apps/design/style/xaml-styles), [CheckBox](checkbox.md), [RadioButton](radiobutton.md), [Controls list](/windows/apps/design/controls/), [Controls by function](/windows/uwp/controls-and-patterns/controls-by-function)
+[Toggle switches overview](/windows/uwp/controls-and-patterns/toggles), [CheckBox](checkbox.md), [RadioButton](radiobutton.md), [Controls list](/windows/apps/design/controls/)

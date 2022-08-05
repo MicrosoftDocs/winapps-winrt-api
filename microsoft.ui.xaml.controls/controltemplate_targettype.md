@@ -29,7 +29,7 @@ The typical way to specify a TargetType value is through a XAML attribute on the
 
 In most cases, you will be setting the TargetType for a [ControlTemplate](controltemplate.md) where that [ControlTemplate](controltemplate.md) is within a [Setter](../microsoft.ui.xaml/setter.md) for the [Template](control_template.md) property. This in turn is within the implicit [Style](../microsoft.ui.xaml/style.md) you are defining for a control. The ControlTemplate.TargetType value and the [Style.TargetType](../microsoft.ui.xaml/style_targettype.md) value of the containing [Style](../microsoft.ui.xaml/style.md) should always be the same type reference, referring to the same implicitly named control. Otherwise the control template might not work.
 
-For more info on how to write a control template, see [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10)).
+For more info on how to write a control template, see [XAML Control templates](/windows/apps/design/style/xaml-control-templates).
 
 > [!NOTE]
 > If you have previously programmed XAML for Windows Presentation Foundation (WPF), then you might have used an **x:Type** markup extension to fill in any XAML values that take a [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true). The Windows Runtime XAML parser does not support **x:Type**. Instead, you should refer to the type by name without using any markup extension, and any necessary XAML-to-backing type conversion is already handled by the built-in conversion behavior described in the previous paragraph.
@@ -46,4 +46,4 @@ Getting a TargetType in code is also uncommon, but you might do this to double-c
 ## -examples
 
 ## -see-also
-[Style.TargetType](../microsoft.ui.xaml/style_targettype.md), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10)), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[Style.TargetType](../microsoft.ui.xaml/style_targettype.md), [XAML Control templates](/windows/apps/design/style/xaml-control-templates), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)

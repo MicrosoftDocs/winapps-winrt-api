@@ -130,4 +130,4 @@ This table shows the resources used by the CalendarDatePicker control.
 
 ## -see-also
 
-[Control](control.md), [CalendarDatePicker styles and templates](/windows/apps/design/style/xaml-styles)
+[Control](control.md)

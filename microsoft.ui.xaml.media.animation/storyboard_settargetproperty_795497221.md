@@ -58,7 +58,7 @@ Note that for subproperty values, there can be some value inference. For example
 (Control.Background).Color
 ```
 
-There is a lot more to property path specification than this. This remark is just intended to get you started with the basic targeting scenarios. For more info, see [Property-path syntax](/windows/uwp/xaml-platform/property-path-syntax) and [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations).
+There is a lot more to property path specification than this. This remark is just intended to get you started with the basic targeting scenarios. For more info, see [Property-path syntax](/windows/uwp/xaml-platform/property-path-syntax) and [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations).
 
 ### Migration notes
 
@@ -67,4 +67,4 @@ When you specify a path value for the *path* parameter, you specify the string, 
 ## -examples
 
 ## -see-also
-[Storyboard.TargetProperty attached property](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard#xaml-attached-properties), [GetTargetProperty](storyboard_gettargetproperty_428014327.md), [SetTargetName](storyboard_settargetname_317263893.md), [Property-path syntax](/windows/uwp/xaml-platform/property-path-syntax), [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations)
+[Storyboard.TargetProperty attached property](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard#xaml-attached-properties), [GetTargetProperty](storyboard_gettargetproperty_428014327.md), [SetTargetName](storyboard_settargetname_317263893.md), [Property-path syntax](/windows/uwp/xaml-platform/property-path-syntax), [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations)

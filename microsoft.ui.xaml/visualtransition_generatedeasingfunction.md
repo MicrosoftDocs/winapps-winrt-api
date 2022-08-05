@@ -46,4 +46,4 @@ This XAML example shows the markup for applying a [QuadraticEase](../microsoft.u
 
 
 ## -see-also
-[Key-frame animations and easing function animations](/windows/uwp/graphics/key-frame-and-easing-function-animations), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10)), [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations), [Storyboarded animations for visual states](/previous-versions/windows/apps/jj819808(v=win.10))
+[Key-frame animations and easing function animations](/windows/apps/design/motion/key-frame-and-easing-function-animations), [XAML Control templates](/windows/apps/design/style/xaml-control-templates), [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations)

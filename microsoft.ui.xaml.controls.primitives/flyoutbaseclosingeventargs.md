@@ -13,7 +13,6 @@ public class FlyoutBaseClosingEventArgs : Windows.UI.Xaml.Controls.Primitives.IF
 Provides data for the [FlyoutBase.Closing](flyoutbase_closing.md) event
 
 ## -remarks
-Available starting in Windows 10, version 1607.
 
 ## -examples
 

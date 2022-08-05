@@ -139,4 +139,4 @@ In order to support XAML processor access to the attached properties, and also t
 
 ## -see-also
 
-[Panel](panel.md), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml), [Quickstart: Adding layout controls](/previous-versions/windows/apps/hh969155(v=win.10)), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding), [Canvas](canvas.md), [Grid](grid.md), [StackPanel](stackpanel.md), [VariableSizedWrapGrid](variablesizedwrapgrid.md), [Controls list](/windows/apps/design/controls/), [Controls by function](/windows/uwp/controls-and-patterns/controls-by-function)
+[Panel](panel.md), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml), [Quickstart: Adding layout controls](/previous-versions/windows/apps/hh969155(v=win.10)), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding), [Canvas](canvas.md), [Grid](grid.md), [StackPanel](stackpanel.md), [VariableSizedWrapGrid](variablesizedwrapgrid.md), [Controls list](/windows/apps/design/controls/)

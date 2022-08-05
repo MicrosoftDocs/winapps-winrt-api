@@ -64,4 +64,4 @@ Overriding the behavior of [RaiseCurrentStateChanged](visualstatemanager_raisecu
 ## -examples
 
 ## -see-also
-[GoToState](visualstatemanager_gotostate_51722231.md), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10))
+[GoToState](visualstatemanager_gotostate_51722231.md), [XAML Control templates](/windows/apps/design/style/xaml-control-templates)

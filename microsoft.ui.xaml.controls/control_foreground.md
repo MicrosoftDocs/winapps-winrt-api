@@ -41,4 +41,4 @@ Starting in Windows 10, version 1607 (Windows Software Development Kit (SDK) ve
 ## -examples
 
 ## -see-also
-[Use brushes](/windows/uwp/graphics/using-brushes)
+[XAML brushes](/windows/apps/design/style/brushes)

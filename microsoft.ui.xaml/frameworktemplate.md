@@ -15,7 +15,7 @@ Creates an element tree of elements. FrameworkTemplate is a base class for class
 ## -remarks
 FrameworkTemplate has a [ContentPropertyAttribute](../microsoft.ui.xaml.markup/contentpropertyattribute.md) that indicates that its XAML content property is named "Template". FrameworkTemplate doesn't define a property of that name, nor do its derived types that have a practical usage ([ControlTemplate](../microsoft.ui.xaml.controls/controltemplate.md), [DataTemplate](datatemplate.md)). The content of a FrameworkTemplate is a root element that should be created when the template is applied to the object being templated, and isn't a conventional property in the object model. Content of a FrameworkTemplate is handled specially by the XAML parser when content is created from a template.
 
-For more info on how to use templates, see [ControlTemplate](../microsoft.ui.xaml.controls/controltemplate.md) and [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10)).
+For more info on how to use templates, see [ControlTemplate](../microsoft.ui.xaml.controls/controltemplate.md) and [XAML Control templates](/windows/apps/design/style/xaml-control-templates).
 
 ### **FrameworkTemplate** derived classes
 
@@ -30,4 +30,4 @@ FrameworkTemplate is the parent class for several immediately derived classes th
 ## -examples
 
 ## -see-also
-[DependencyObject](dependencyobject.md), [Control.Template](../microsoft.ui.xaml.controls/control_template.md), [ControlTemplate](../microsoft.ui.xaml.controls/controltemplate.md), [DataTemplate](datatemplate.md), [ItemsPanelTemplate](../microsoft.ui.xaml.controls/itemspaneltemplate.md), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10))
+[DependencyObject](dependencyobject.md), [Control.Template](../microsoft.ui.xaml.controls/control_template.md), [ControlTemplate](../microsoft.ui.xaml.controls/controltemplate.md), [DataTemplate](datatemplate.md), [ItemsPanelTemplate](../microsoft.ui.xaml.controls/itemspaneltemplate.md), [XAML Control templates](/windows/apps/design/style/xaml-control-templates)

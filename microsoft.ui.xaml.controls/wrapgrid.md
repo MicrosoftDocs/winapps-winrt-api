@@ -66,4 +66,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 ## -examples
 
 ## -see-also
-[OrientedVirtualizingPanel](../microsoft.ui.xaml.controls.primitives/orientedvirtualizingpanel.md), [IScrollSnapPointsInfo](../microsoft.ui.xaml.controls.primitives/iscrollsnappointsinfo.md), [ItemsControl.ItemsPanel](itemscontrol_itemspanel.md), [ItemsPanelTemplate](itemspaneltemplate.md), [Quickstart: Adding ListView and GridView controls](/previous-versions/windows/apps/hh780650(v=win.10))
+[OrientedVirtualizingPanel](../microsoft.ui.xaml.controls.primitives/orientedvirtualizingpanel.md), [IScrollSnapPointsInfo](../microsoft.ui.xaml.controls.primitives/iscrollsnappointsinfo.md), [ItemsControl.ItemsPanel](itemscontrol_itemspanel.md), [ItemsPanelTemplate](itemspaneltemplate.md), [List view and grid view](/windows/apps/design/controls/listview-and-gridview)

@@ -30,17 +30,6 @@ The following example moves an ellipse along a triangular path. The example uses
 1. During the end of the next half second, it uses an instance of the [DiscretePointKeyFrame](discretepointkeyframe.md) class to suddenly move the ellipse along the path to the next position. Discrete key frames like [DiscretePointKeyFrame](discretepointkeyframe.md) create sudden jumps between values.
 1. During the final two seconds, it uses an instance of the [SplinePointKeyFrame](splinepointkeyframe.md) class to move the ellipse back to its starting position. Spline key frames like [SplinePointKeyFrame](splinepointkeyframe.md) create a variable transition between values according to the values of the [KeySpline](splinepointkeyframe_keyspline.md) property. In this example, the animation begins slowly and speeds up exponentially toward the end of the time segment.
 
-<!--<p xml:space="preserve">
-            <TRANSLATE_MANUALLY>
-              <externalLink xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
-                <linkText>Run this sample</linkText>
-                <linkUri>http://go.microsoft.com/fwlink/p/?linkid=139798&amp;sref=pointanimationusingkeyframes</linkUri>
-              </externalLink>
-            </TRANSLATE_MANUALLY>
-          </p>-->
-
-
-
 [!code-xaml[Pointanimationusingkeyframes](../microsoft.ui.xaml/code/pointanimationusingkeyframes/csharp/Page.xaml#SnippetPointanimationusingkeyframes)]
 
 [!code-csharp[Pointanimationusingkeyframes_cs](../microsoft.ui.xaml/code/pointanimationusingkeyframes/csharp/Page.xaml.cs#SnippetPointanimationusingkeyframes_cs)]
@@ -48,5 +37,5 @@ The following example moves an ellipse along a triangular path. The example uses
 [!code-vb[Pointanimationusingkeyframes_cs](../microsoft.ui.xaml/code/pointanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetPointanimationusingkeyframes_cs)]
 
 ## -see-also
-[Storyboarded animations](/windows/uwp/graphics/storyboarded-animations)
+[Storyboarded animations](/windows/apps/design/motion/storyboarded-animations)
 p://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a)
