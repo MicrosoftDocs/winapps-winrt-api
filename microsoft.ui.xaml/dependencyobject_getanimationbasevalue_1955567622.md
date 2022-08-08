@@ -25,12 +25,12 @@ The returned base value.
 
 ## -remarks
 
-Use `GetAnimationBaseValue` to get values that might currently be animated but you want to know the value before the animation ran. Note that animations with **HoldEnd** behavior might not have this same value. For more info on the **HoldEnd** concept, see [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations).
+Use `GetAnimationBaseValue` to get values that might currently be animated but you want to know the value before the animation ran. Note that animations with **HoldEnd** behavior might not have this same value. For more info on the **HoldEnd** concept, see [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations).
 
-Animations that are used for visual states don't have **HoldEnd** behavior but do apply an animated value applied while the state is active. For more info, see [Storyboarded animations for visual states](/previous-versions/windows/apps/jj819808(v=win.10)).
+Animations that are used for visual states don't have **HoldEnd** behavior but do apply an animated value applied while the state is active.
 
 ## -examples
 
 ## -see-also
 
-[ReadLocalValue](dependencyobject_readlocalvalue_1526948202.md), [Timeline](../microsoft.ui.xaml.media.animation/timeline.md), [Timeline.FillBehavior](../microsoft.ui.xaml.media.animation/timeline_fillbehavior.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview), [Animations overview](/windows/uwp/graphics/animations-overview), [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations), [Storyboarded animations for visual states](/previous-versions/windows/apps/jj819808(v=win.10))
+[ReadLocalValue](dependencyobject_readlocalvalue_1526948202.md), [Timeline](../microsoft.ui.xaml.media.animation/timeline.md), [Timeline.FillBehavior](../microsoft.ui.xaml.media.animation/timeline_fillbehavior.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview), [Animations overview](/windows/uwp/graphics/animations-overview), [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations)

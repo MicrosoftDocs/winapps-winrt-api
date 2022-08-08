@@ -32,4 +32,4 @@ For general state change logic in a custom control, you should use [VisualStateM
 ## -examples
 
 ## -see-also
-[VisualStateManager.GoToState](visualstatemanager_gotostate_51722231.md), [Storyboarded animations for visual states](/previous-versions/windows/apps/jj819808(v=win.10))
+[VisualStateManager.GoToState](visualstatemanager_gotostate_51722231.md)

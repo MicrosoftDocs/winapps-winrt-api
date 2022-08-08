@@ -23,4 +23,4 @@ Provides basic utility methods for processing [Duration](duration.md) values. C#
 
 ## -see-also
 
-[Duration](duration.md), [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations)
+[Duration](duration.md), [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations)

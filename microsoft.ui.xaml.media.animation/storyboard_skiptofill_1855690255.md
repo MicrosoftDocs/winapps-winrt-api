@@ -23,4 +23,4 @@ This method is mainly relevant for methods that are playing or paused, and which
 ## -examples
 
 ## -see-also
-[FillBehavior](timeline_fillbehavior.md), [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations)
+[FillBehavior](timeline_fillbehavior.md), [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations)

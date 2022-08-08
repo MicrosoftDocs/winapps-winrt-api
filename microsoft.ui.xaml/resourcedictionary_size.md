@@ -22,4 +22,4 @@ The number of elements contained in the collection.
 ## -examples
 
 ## -see-also
-[Count](resourcedictionary_count.md), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[Count](resourcedictionary_count.md), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)

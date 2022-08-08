@@ -41,4 +41,4 @@ If you're using a [Panel](panel.md) class such as [Grid](grid.md) or [StackPanel
 ## -examples
 
 ## -see-also
-[Use brushes](/windows/uwp/graphics/using-brushes)
+[XAML brushes](/windows/apps/design/style/brushes)

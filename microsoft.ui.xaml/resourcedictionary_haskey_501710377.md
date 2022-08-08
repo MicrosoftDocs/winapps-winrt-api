@@ -26,4 +26,4 @@ The requested key.
 ## -examples
 
 ## -see-also
-[ContainsKey](resourcedictionary_containskey.md), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[ContainsKey](resourcedictionary_containskey.md), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)

@@ -76,4 +76,4 @@ The "local:" prefix (or some other namespace that maps to your app's code and na
 ## -examples
 
 ## -see-also
-[OnApplyTemplate](../microsoft.ui.xaml/frameworkelement_onapplytemplate_1955470198.md), [Style](../microsoft.ui.xaml/style.md), [Style.TargetType](../microsoft.ui.xaml/style_targettype.md), [XAML namespaces and namespace mapping](/windows/uwp/xaml-platform/xaml-namespaces-and-namespace-mapping), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10))
+[OnApplyTemplate](../microsoft.ui.xaml/frameworkelement_onapplytemplate_1955470198.md), [Style](../microsoft.ui.xaml/style.md), [Style.TargetType](../microsoft.ui.xaml/style_targettype.md), [XAML namespaces and namespace mapping](/windows/uwp/xaml-platform/xaml-namespaces-and-namespace-mapping), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary), [XAML Control templates](/windows/apps/design/style/xaml-control-templates)

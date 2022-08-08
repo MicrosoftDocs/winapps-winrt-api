@@ -27,17 +27,6 @@ The following example uses the ObjectAnimationUsingKeyFrames class to animate th
 1. Using a [DiscreteObjectKeyFrame](discreteobjectkeyframe.md), the [Fill](../microsoft.ui.xaml.shapes/shape_fill.md) property of the [Rectangle](../microsoft.ui.xaml.shapes/rectangle.md) suddenly changes to a [LinearGradientBrush](../microsoft.ui.xaml.media/lineargradientbrush.md) after the first two seconds of the animation.
 1. After the third second of the animation, the [Fill](../microsoft.ui.xaml.shapes/shape_fill.md) property is suddenly changed to a different [LinearGradientBrush](../microsoft.ui.xaml.media/lineargradientbrush.md), which remains until the end of the animation (four seconds total).
 
-<!--<p xml:space="preserve">
-            <TRANSLATE_MANUALLY>
-              <externalLink xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
-                <linkText>Run this sample</linkText>
-                <linkUri>http://go.microsoft.com/fwlink/p/?linkid=139798&amp;sref=objectanimationusingkeyframes</linkUri>
-              </externalLink>
-            </TRANSLATE_MANUALLY>
-          </p>-->
-
-
-
 [!code-xaml[Objectanimationusingkeyframes](../microsoft.ui.xaml.media.animation/code/objectanimationusingkeyframes/csharp/Page.xaml#SnippetObjectanimationusingkeyframes)]
 
 [!code-csharp[Objectanimationusingkeyframes_cs](../microsoft.ui.xaml.media.animation/code/objectanimationusingkeyframes/csharp/Page.xaml.cs#SnippetObjectanimationusingkeyframes_cs)]
@@ -45,4 +34,4 @@ The following example uses the ObjectAnimationUsingKeyFrames class to animate th
 [!code-vb[Objectanimationusingkeyframes_cs](../microsoft.ui.xaml.media.animation/code/objectanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetObjectanimationusingkeyframes_cs)]
 
 ## -see-also
-[Storyboarded animations](/windows/uwp/graphics/storyboarded-animations), [Timeline](timeline.md), [ObjectKeyFrame](objectkeyframe.md), [Timeline](timeline.md), [ObjectKeyFrame](objectkeyframe.md)
+[Storyboarded animations](/windows/apps/design/motion/storyboarded-animations), [Timeline](timeline.md), [ObjectKeyFrame](objectkeyframe.md), [Timeline](timeline.md), [ObjectKeyFrame](objectkeyframe.md)

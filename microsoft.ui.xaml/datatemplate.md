@@ -66,4 +66,4 @@ The following example uses a DataTemplate to display the items of a [ListBox](..
 
 ## -see-also
 
-[FrameworkTemplate](frameworktemplate.md), [ItemsControl.ItemTemplate](../microsoft.ui.xaml.controls/itemscontrol_itemtemplate.md), [ContentControl.ContentTemplate](../microsoft.ui.xaml.controls/contentcontrol_contenttemplate.md), [DataTemplateSelector](../microsoft.ui.xaml.controls/datatemplateselector.md), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[FrameworkTemplate](frameworktemplate.md), [ItemsControl.ItemTemplate](../microsoft.ui.xaml.controls/itemscontrol_itemtemplate.md), [ContentControl.ContentTemplate](../microsoft.ui.xaml.controls/contentcontrol_contenttemplate.md), [DataTemplateSelector](../microsoft.ui.xaml.controls/datatemplateselector.md), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)

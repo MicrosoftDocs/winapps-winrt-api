@@ -69,4 +69,4 @@ The Loaded event is a good time to start decorative animations that aren't tied 
 [!code-vb[Pointanimation_cs](../microsoft.ui.xaml/code/pointanimation/vbnet/Page.xaml.vb#SnippetPointanimation_cs)]
 
 ## -see-also
-[OnApplyTemplate](frameworkelement_onapplytemplate_1955470198.md), [VisualTreeHelper](../microsoft.ui.xaml.media/visualtreehelper.md), [Control.Template](../microsoft.ui.xaml.controls/control_template.md), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview), [Quickstart: control templates](/previous-versions/windows/apps/hh465374(v=win.10))
+[OnApplyTemplate](frameworkelement_onapplytemplate_1955470198.md), [VisualTreeHelper](../microsoft.ui.xaml.media/visualtreehelper.md), [Control.Template](../microsoft.ui.xaml.controls/control_template.md), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview), [XAML Control templates](/windows/apps/design/style/xaml-control-templates)

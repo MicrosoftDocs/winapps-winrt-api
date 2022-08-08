@@ -23,15 +23,6 @@ Note that setting the [Duration](timeline_duration.md) property has no effect on
 ## -examples
 The following is an example of a custom control that uses split open and split close theme animations.
 
-<!--<p xml:space="preserve">
-            <TRANSLATE_MANUALLY>
-              <externalLink xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
-                <linkText>Run this sample</linkText>
-                <linkUri>http://go.microsoft.com/fwlink/p/?linkid=139798&amp;sref=SineEase</linkUri>
-              </externalLink>
-            </TRANSLATE_MANUALLY>
-          </p>-->
-
 ```xaml
 // Themes/Generic.xaml
 <!-- Example template of a custom control that uses split open 

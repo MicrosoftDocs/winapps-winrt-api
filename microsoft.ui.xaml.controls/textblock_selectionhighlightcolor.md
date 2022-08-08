@@ -39,4 +39,4 @@ The brush used to highlight the selected text. The default is a null brush from 
 
 ## -see-also
 
-[Use brushes](/windows/uwp/graphics/using-brushes)
+[XAML brushes](/windows/apps/design/style/brushes)

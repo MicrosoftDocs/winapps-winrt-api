@@ -56,4 +56,4 @@ private void CommandBar_Loaded(object sender, RoutedEventArgs e)
 ## -examples
 
 ## -see-also
-[DynamicOverflowItemsChangingEventArgs](dynamicoverflowitemschangingeventargs.md), [App bar and command bar](/windows/uwp/controls-and-patterns/app-bars)
+[DynamicOverflowItemsChangingEventArgs](dynamicoverflowitemschangingeventargs.md), [Command bar](/windows/apps/design/controls/command-bar)
