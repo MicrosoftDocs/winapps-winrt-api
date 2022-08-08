@@ -4,15 +4,17 @@
 ---
 
 <!-- Method syntax
-public Windows.UI.Xaml.DragOperationDeferral GetDeferral()
+public Microsoft.UI.Xaml.DragOperationDeferral GetDeferral()
 -->
 
 # Microsoft.UI.Xaml.DragStartingEventArgs.GetDeferral
 
 ## -description
+
 Supports asynchronous drag-and-drop operations by creating and returning a [DragOperationDeferral](dragoperationdeferral.md) object.
 
 ## -returns
+
 A deferral object that you can use to identify when the generation of the data package is complete.
 
 ## -remarks

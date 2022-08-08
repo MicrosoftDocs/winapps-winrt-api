@@ -10,10 +10,12 @@ public bool IsContentVisible { get;  set; }
 # Microsoft.UI.Xaml.DragUIOverride.IsContentVisible
 
 ## -description
+
 Gets or sets a value that indicates whether the content of the drag visual is shown.
 
 ## -property-value
-**true** if the content is shown; otherwise, **false**.
+
+`true` if the content is shown; otherwise, `false`.
 
 ## -remarks
 
