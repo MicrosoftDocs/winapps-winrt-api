@@ -14,7 +14,7 @@ public ResourceLoader()
 Constructs a new [ResourceLoader](resourceloader.md) object for the "Resources" subtree of the currently running app's main [ResourceMap](resourcemap.md).
 
 ## -remarks
-The empty constructor typically allows access relative to a resource file's resources (resources.resjson or resources.resw).
+The empty constructor typically allows access relative to a resource file's resources.
 
 This constructor fails with an exception if the main [ResourceMap](resourcemap.md) does not have a "Resources" subtree.
 
