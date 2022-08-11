@@ -25,7 +25,6 @@ Gets the element to use as the flyout's placement target.
 The element to use as the flyout's placement target.
 
 ## -remarks
-Available starting in Windows 10, version 1607.
 
 ## -examples
 

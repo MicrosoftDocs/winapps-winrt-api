@@ -22,7 +22,7 @@ Gets or sets the order in which this item is moved to the [CommandBar](commandba
 The order in which this item is moved to the overflow menu relative to other items.
 
 ## -remarks
-For more info and guidelines, see the [App bar and command bar](/windows/uwp/controls-and-patterns/app-bars) article.
+For more info and guidelines, see the [Command bar](/windows/apps/design/controls/command-bar) article.
 
 Starting in Windows 10, version 1607, [CommandBar](commandbar.md) introduces a dynamic overflow feature. By default, [PrimaryCommands](commandbar_primarycommands.md) automatically move in or out of the overflow area as the command bar width changes, for example, when users resize their app window. You can set the [IsDynamicOverflowEnabled](commandbar_isdynamicoverflowenabled.md) property to **false** to disable this behavior.
 

@@ -61,4 +61,4 @@ When you use a [GridView](gridview.md) in a SemanticZoom control, always set the
 
 
 ## -see-also
-[Control](control.md), [SemanticZoom styles and templates](/windows/apps/design/style/xaml-styles), [Semantic zoom overview](/windows/apps/design/controls/semantic-zoom), [GridView](gridview.md), [Hub](hub.md), [ListView](listview.md),
+[Control](control.md), [Semantic zoom overview](/windows/apps/design/controls/semantic-zoom), [GridView](gridview.md), [Hub](hub.md), [ListView](listview.md),

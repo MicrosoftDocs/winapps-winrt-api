@@ -22,7 +22,7 @@ Gets or sets a value that indicates whether primary commands automatically move 
 **true** if primary commands automatically move to the overflow menu when space is limited; otherwise, **false**. The default is **true**.
 
 ## -remarks
-For more info and guidelines, see the [App bar and command bar](/windows/uwp/controls-and-patterns/app-bars) article.
+For more info and guidelines, see the [Command bar](/windows/apps/design/controls/command-bar) article.
 
 Starting in Windows 10, version 1607, [CommandBar](commandbar.md) introduces a dynamic overflow feature. By default, [PrimaryCommands](commandbar_primarycommands.md) automatically move in or out of the overflow area as the command bar width changes, for example, when users resize their app window. You can set the IsDynamicOverflowEnabled property to **false** to disable this behavior.
 

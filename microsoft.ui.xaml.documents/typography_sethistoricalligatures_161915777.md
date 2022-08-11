@@ -10,11 +10,11 @@ public void SetHistoricalLigatures(Windows.UI.Xaml.DependencyObject element, Sys
 # Microsoft.UI.Xaml.Documents.Typography.SetHistoricalLigatures
 
 ## -description
-Sets the value of the [HistoricalLigatures](/windows/winui/api/microsoft.ui.xaml.documents.typography#xaml-attached-properties) attached property for a specified dependency object.
+Sets the value of the [HistoricalLigatures](typography_historicalligatures.md) attached property for a specified dependency object.
 
 ## -parameters
 ### -param element
-The dependency object for which to set the value of the [HistoricalLigatures](/windows/winui/api/microsoft.ui.xaml.documents.typography#xaml-attached-properties) property.
+The dependency object for which to set the value of the [HistoricalLigatures](typography_historicalligatures.md) property.
 
 ### -param value
 The new value to set the property to.
@@ -24,3 +24,5 @@ The new value to set the property to.
 ## -examples
 
 ## -see-also
+
+[Typography.HistoricalLigatures](typography_historicalligatures.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

@@ -22,7 +22,7 @@ Gets or sets a value that indicates whether the [AppBar](appbar.md) is open.
 **true** if the app bar is open; otherwise, **false**.
 
 ## -remarks
-How the app bar is displayed when it's open depends on the [ClosedDisplayMode](appbar_closeddisplaymode.md) property setting. For more info, see [App bar and command bar](/windows/uwp/controls-and-patterns/app-bars).
+How the app bar is displayed when it's open depends on the [ClosedDisplayMode](appbar_closeddisplaymode.md) property setting. For more info, see [Command bar](/windows/apps/design/controls/command-bar).
 
 You can open and close the app bar programmatically by setting the IsOpen property. You can use the [Opening](appbar_opening.md), [Opened](appbar_opened.md), [Closing](appbar_closing.md), and [Closed](appbar_closed.md) events to respond to the app bar being opened or closed.
 
@@ -37,4 +37,4 @@ You can open and close the app bar programmatically by setting the IsOpen proper
 [!code-xaml[IsOpenXAML](../microsoft.ui.xaml.controls/code/AppBarSample/CS/SnippetsPage.xaml#SnippetIsOpenXAML)]
 
 ## -see-also
-[Quickstart: Adding app bars](/previous-versions/windows/apps/hh781232(v=win.10))
+[Command bar](/windows/apps/design/controls/command-bar)

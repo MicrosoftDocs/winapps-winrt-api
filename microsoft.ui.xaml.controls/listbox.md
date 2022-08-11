@@ -107,4 +107,4 @@ End Sub
 
 
 ## -see-also
-[Selector](../microsoft.ui.xaml.controls.primitives/selector.md), [ItemsControl](itemscontrol.md), [ListBoxItem](listboxitem.md), [ListBox styles and templates](/windows/apps/design/style/xaml-styles), [ComboBox](combobox.md), [Controls list](/windows/apps/design/controls/), [Controls by function](/windows/uwp/controls-and-patterns/controls-by-function)
+[Selector](../microsoft.ui.xaml.controls.primitives/selector.md), [ItemsControl](itemscontrol.md), [ListBoxItem](listboxitem.md), [ComboBox](combobox.md), [Controls list](/windows/apps/design/controls/)

@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class DragUIOverride : Windows.UI.Xaml.IDragUIOverride
+public class DragUIOverride : Microsoft.UI.Xaml.IDragUIOverride
 -->
 
 # Microsoft.UI.Xaml.DragUIOverride

@@ -28,4 +28,4 @@ A **false** value for AllowDependentAnimations overrides all cases where **Enabl
 ## -examples
 
 ## -see-also
-[Storyboarded animations](/windows/uwp/graphics/storyboarded-animations), [Optimize animations and media](/windows/uwp/debug-test-perf/optimize-animations-and-media)
+[Storyboarded animations](/windows/apps/design/motion/storyboarded-animations), [Optimize animations and media](/windows/uwp/debug-test-perf/optimize-animations-and-media)

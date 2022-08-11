@@ -19,7 +19,6 @@ Occurs when the flyout starts to be hidden.
 
 
 ## -remarks
-Available starting in Windows 10, version 1607.
 
 ## -examples
 

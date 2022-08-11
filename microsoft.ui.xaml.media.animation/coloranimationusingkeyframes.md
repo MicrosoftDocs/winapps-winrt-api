@@ -30,25 +30,12 @@ The following example uses the ColorAnimationUsingKeyFrames class to animate the
 1. During the end of the next half second, [DiscreteColorKeyFrame](discretecolorkeyframe.md) quickly changes the color from red to yellow. Discrete key frames like [DiscreteColorKeyFrame](discretecolorkeyframe.md) create sudden changes between values; the animation occurs quickly and has no interpolation at all between values.
 1. During the final two seconds, [SplineColorKeyFrame](splinecolorkeyframe.md) changes the color again, this time from yellow back to green. Spline key frames like [SplineColorKeyFrame](splinecolorkeyframe.md) create a variable transition between values according to the values of the [KeySpline](splinecolorkeyframe_keyspline.md) property. A [KeySpline](keyspline.md) provides a way to alter the relationship of time versus value during the animation duration to be nonlinear, and in particular the relationship can be a curve that would be difficult to produce with individual key frames. In this example, the change in color begins slowly and speeds up exponentially toward the end of the time segment.
 
-<!--<p xml:space="preserve">
-            <TRANSLATE_MANUALLY>
-              <externalLink xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
-                <linkText>Run this sample</linkText>
-                <linkUri>http://go.microsoft.com/fwlink/p/?linkid=139798&amp;sref=coloranimationusingkeyframes</linkUri>
-              </externalLink>
-            </TRANSLATE_MANUALLY>
-          </p>-->
-
-
-
 [!code-xaml[Coloranimationusingkeyframes](../microsoft.ui.xaml.media.animation/code/coloranimationusingkeyframes/csharp/Page.xaml#SnippetColoranimationusingkeyframes)]
-
-
 
 [!code-csharp[Coloranimationusingkeyframes_cs](../microsoft.ui.xaml.media.animation/code/coloranimationusingkeyframes/csharp/Page.xaml.cs#SnippetColoranimationusingkeyframes_cs)]
 
 [!code-vb[Coloranimationusingkeyframes_cs](../microsoft.ui.xaml.media.animation/code/coloranimationusingkeyframes/vbnet/Page.xaml.vb#SnippetColoranimationusingkeyframes_cs)]
 
 ## -see-also
-[Storyboarded animations](/windows/uwp/graphics/storyboarded-animations)
+[Storyboarded animations](/windows/apps/design/motion/storyboarded-animations)
 p://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a)

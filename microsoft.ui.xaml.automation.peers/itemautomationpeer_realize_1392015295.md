@@ -17,4 +17,4 @@ Makes the virtual item fully accessible as a Microsoft UI Automation element.
 ## -examples
 
 ## -see-also
-[ItemsControl](../microsoft.ui.xaml.controls/itemscontrol.md), [VirtualizingStackPanel](../microsoft.ui.xaml.controls/virtualizingstackpanel.md), [Quickstart: Adding ListView and GridView controls](/previous-versions/windows/apps/hh780650(v=win.10))
+[ItemsControl](../microsoft.ui.xaml.controls/itemscontrol.md), [VirtualizingStackPanel](../microsoft.ui.xaml.controls/virtualizingstackpanel.md), [List view and grid view](/windows/apps/design/controls/listview-and-gridview)

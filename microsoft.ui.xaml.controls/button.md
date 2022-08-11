@@ -97,5 +97,5 @@ The following example shows three buttons that respond to clicks in three differ
 
 ## -see-also
 
-[Buttons overview](/windows/uwp/controls-and-patterns/buttons), [Button styles and templates](/windows/apps/design/style/xaml-styles), [AppBarButton](appbarbutton.md), [CheckBox](checkbox.md), [HyperlinkButton](hyperlinkbutton.md), [RepeatButton](../microsoft.ui.xaml.controls.primitives/repeatbutton.md), [RadioButton](radiobutton.md), [ToggleSwitch](toggleswitch.md)
+[Buttons overview](/windows/uwp/controls-and-patterns/buttons), [AppBarButton](appbarbutton.md), [CheckBox](checkbox.md), [HyperlinkButton](hyperlinkbutton.md), [RepeatButton](../microsoft.ui.xaml.controls.primitives/repeatbutton.md), [RadioButton](radiobutton.md), [ToggleSwitch](toggleswitch.md)
 

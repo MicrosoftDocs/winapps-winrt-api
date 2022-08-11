@@ -107,4 +107,4 @@ public MainPage()
 <!--<auto_snippet sample_id="ComboBoxBoundEx" snippet_id="2"/>-->
 
 ## -see-also
-[Selector](../microsoft.ui.xaml.controls.primitives/selector.md), [ComboBox styles and templates](/windows/apps/design/style/xaml-styles), [ListBox](listbox.md), [Controls list](/windows/apps/design/controls/), [Controls by function](/windows/uwp/controls-and-patterns/controls-by-function)
+[Selector](../microsoft.ui.xaml.controls.primitives/selector.md), [ListBox](listbox.md), [Controls list](/windows/apps/design/controls/)

@@ -44,7 +44,7 @@ A Style is almost always defined in XAML as a resource in a [ResourceDictionary]
 
 A Style defined element in a [ResourceDictionary](resourcedictionary.md) is not required to have an [x:Key attribute](/windows/uwp/xaml-platform/x-key-attribute) or [x:Name attribute](/windows/uwp/xaml-platform/x-name-attribute), which is normally a requirement of being a XAML resource. A Style that's defined this way uses its [TargetType](style_targettype.md) property value as the implicit key and is known as an implicit style.
 
-For more info on how to use XAML resource dictionaries, see [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references).
+For more info on how to use XAML resource dictionaries, see [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary).
 
 ### Styles and templates
 
@@ -54,7 +54,7 @@ When a Style is used to define a control template, the [TargetType](style_target
 
 The [Template](../microsoft.ui.xaml.controls/control_template.md) setter defines the basic template UI definition for a control instance where that template is applied. It also contains the visual states for a control, and other state-based UI definitions such as default theme transitions. For a complex control such as [ListBox](../microsoft.ui.xaml.controls/listbox.md), the default template Style and the [ControlTemplate](../microsoft.ui.xaml.controls/controltemplate.md) within can have hundreds of lines of XAML. For more info on the role of Style in control templating scenarios, see [XAML Control templates](/windows/apps/design/style/xaml-control-templates).
 
-The template for a control often includes visual states that change the appearance of the control in response to logical states. For example, a [Button](../microsoft.ui.xaml.controls/button.md) can have a different visual appearance when it's pressed by applying a new visual state from its template, and all appearance changes can come from XAML not code. For more info on how visual states work and how to modify them or define states for custom controls, see [Storyboarded animations for visual states](/previous-versions/windows/apps/jj819808(v=win.10)) and [XAML Control templates](/windows/apps/design/style/xaml-control-templates).
+The template for a control often includes visual states that change the appearance of the control in response to logical states. For example, a [Button](../microsoft.ui.xaml.controls/button.md) can have a different visual appearance when it's pressed by applying a new visual state from its template, and all appearance changes can come from XAML not code. For more info on how visual states work and how to modify them or define states for custom controls, see [XAML Control templates](/windows/apps/design/style/xaml-control-templates).
 
 ### Styles and runtime behavior
 
@@ -156,4 +156,4 @@ This example creates a Style named InheritedStyle that is based on a Style named
 
 ## -see-also
 
-[DependencyObject](dependencyobject.md), [ControlTemplate](../microsoft.ui.xaml.controls/controltemplate.md), [Setter](setter.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references), [Styling controls](/windows/uwp/controls-and-patterns/styling-controls), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10))
+[DependencyObject](dependencyobject.md), [ControlTemplate](../microsoft.ui.xaml.controls/controltemplate.md), [Setter](setter.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary), [Styling controls](/windows/uwp/controls-and-patterns/styling-controls), [XAML Control templates](/windows/apps/design/style/xaml-control-templates)

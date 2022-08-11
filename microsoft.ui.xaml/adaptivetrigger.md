@@ -4,28 +4,28 @@
 ---
 
 <!-- Class syntax.
-public class AdaptiveTrigger : Windows.UI.Xaml.StateTriggerBase, Windows.UI.Xaml.IAdaptiveTrigger
+public class AdaptiveTrigger : Microsoft.UI.Xaml.StateTriggerBase, Microsoft.UI.Xaml.IAdaptiveTrigger
 -->
 
 # Microsoft.UI.Xaml.AdaptiveTrigger
 
 ## -description
+
 Represents a declarative rule that applies visual states based on window properties.
 
 ## -xaml-syntax
-```xaml
+
+``` xaml
 <AdaptiveTrigger .../>
 ```
 
-
 ## -remarks
+
 Use AdaptiveTriggers to create rules that automatically trigger a [VisualState](visualstate.md) change when the window is a specified height or width. When you use AdaptiveTriggers in your XAML markup, you don't need to handle the [Window.SizeChanged](window_sizechanged.md) event and call [VisualStateManager.GoToState](visualstatemanager_gotostate_51722231.md) in your code. Also, when you use AdaptiveTriggers in your [VisualStateManager](visualstatemanager.md), you can see the effects of these adaptive changes directly on the XAML design surface in Microsoft Visual Studio.
 
 You can use the [MinWindowWidth](adaptivetrigger_minwindowwidth.md) and [MinWindowHeight](adaptivetrigger_minwindowheight.md) properties either independently or in conjunction with each other. This XAML shows an example of using both properties together. The trigger indicates that the corresponding [VisualState](visualstate.md) is to be applied when the current window width is &gt;= 720 effective pixels AND the current window height is &gt;= 900 effective pixels.
 
-
-
-```xaml
+``` xaml
 <AdaptiveTrigger MinWindowWidth="720" MinWindowHeight="900"/>
 ```
 
@@ -34,7 +34,7 @@ You can use the [MinWindowWidth](adaptivetrigger_minwindowwidth.md) and [MinWind
 > [!TIP]
 > For more info, design guidance, and code examples, see [Responsive layouts with XAML](/windows/apps/design/layout/layouts-with-xaml).
 
-The following example shows how to use the [StateTriggers](visualstate_statetriggers.md) property with an AdaptiveTrigger to create a declarative rule in XAML markup based on window size. By default, the [StackPanel](../microsoft.ui.xaml.controls/stackpanel.md) orientation is **Vertical**. When the window width is &gt;= 720 effective pixels, the [VisualState](visualstate.md) change is triggered, and the [StackPanel](../microsoft.ui.xaml.controls/stackpanel.md) orientation is changed to **Horizontal**.
+The following example shows how to use the [StateTriggers](visualstate_statetriggers.md) property with an `AdaptiveTrigger` to create a declarative rule in XAML markup based on window size. By default, the [StackPanel](../microsoft.ui.xaml.controls/stackpanel.md) orientation is `Vertical`. When the window width is &gt;= 720 effective pixels, the [VisualState](visualstate.md) change is triggered, and the `StackPanel` orientation is changed to `Horizontal`.
 
 ```xaml
 <Page>
@@ -67,4 +67,5 @@ The following example shows how to use the [StateTriggers](visualstate_statetrig
 ```
 
 ## -see-also
+
 [StateTriggerBase](statetriggerbase.md), [VisualState](visualstate.md), [VisualState.StateTriggers](visualstate_statetriggers.md)

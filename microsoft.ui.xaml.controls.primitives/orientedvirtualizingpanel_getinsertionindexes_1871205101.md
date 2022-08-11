@@ -23,7 +23,6 @@ The index of the item before the specified point.
 The index of the item after the specified point.
 
 ## -remarks
-Available starting in Windows 10, version 1607.
 
 Call this method when handling a [DragOver](../microsoft.ui.xaml/uielement_dragover.md) event to return the indices of the two items between which the [DragOver](../microsoft.ui.xaml/uielement_dragover.md) is happening and where a potential drop and insertion would happen.
 

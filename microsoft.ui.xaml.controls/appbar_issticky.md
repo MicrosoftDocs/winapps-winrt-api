@@ -30,4 +30,4 @@ By default, app bars are dismissed when the user interacts with your app anywher
 [!code-xaml[IsStickyXAML](../microsoft.ui.xaml.controls/code/AppBarSample/CS/SnippetsPage.xaml#SnippetIsStickyXAML)]
 
 ## -see-also
-[Quickstart: Adding app bars](/previous-versions/windows/apps/hh781232(v=win.10))
+[Command bar](/windows/apps/design/controls/command-bar)

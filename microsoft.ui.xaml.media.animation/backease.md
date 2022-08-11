@@ -27,30 +27,16 @@ BackEase is one of the two easing functions that can produce a value outside of 
 
 You might get best results by just experimenting with the [Springiness](elasticease_springiness.md) and [EasingMode](easingfunctionbase_easingmode.md) properties until the animation is visually doing what you want for your animated property value scenario.
 
-An easing function can be applied to the **EasingFunction** properties of **From**/**To**/**By** animations, or to the **EasingFunction** properties of key-frame types used for the **Easing** variants of key-frame animations. For more info, see [Key-frame animations and easing function animations](/windows/uwp/graphics/key-frame-and-easing-function-animations).
+An easing function can be applied to the **EasingFunction** properties of **From**/**To**/**By** animations, or to the **EasingFunction** properties of key-frame types used for the **Easing** variants of key-frame animations. For more info, see [Key-frame animations and easing function animations](/windows/apps/design/motion/key-frame-and-easing-function-animations).
 
 ## -examples
 The following example applies a BackEase easing function to a [DoubleAnimation](doubleanimation.md) to create an animation that retracts slightly at the beginning and end of the animation.
 
-
-<!--  
-      <p xml:space="preserve">
-            <TRANSLATE_MANUALLY>
-              <externalLink xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
-                <linkText>Run this sample</linkText>
-                <linkUri>http://go.microsoft.com/fwlink/p/?linkid=139798&amp;sref=BackEase_scale</linkUri>
-              </externalLink>
-            </TRANSLATE_MANUALLY>
-          </p>-->
-
-
-
 [!code-xaml[BackEase_scale](../microsoft.ui.xaml.media.animation/code/BackEase_scale/csharp/Page.xaml#SnippetBackEase_scale)]
-
 
 [!code-csharp[BackEase_scale_code](../microsoft.ui.xaml.media.animation/code/BackEase_scale/csharp/Page.xaml.cs#SnippetBackEase_scale_code)]
 
 [!code-vb[BackEase_scale_code](../microsoft.ui.xaml.media.animation/code/BackEase_scale/vbnet/MainPage.xaml.vb#SnippetBackEase_scale_code)]
 
 ## -see-also
-[Storyboarded animations](/windows/uwp/graphics/storyboarded-animations), [PowerEase](powerease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ElasticEase](elasticease.md), [ExponentialEase](exponentialease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md)
+[Storyboarded animations](/windows/apps/design/motion/storyboarded-animations), [PowerEase](powerease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ElasticEase](elasticease.md), [ExponentialEase](exponentialease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md)

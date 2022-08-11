@@ -35,4 +35,4 @@ This table shows the resources used by the PivotItem control.
 ## -examples
 
 ## -see-also
-[ContentControl](contentcontrol.md), [PivotItem styles and templates](/windows/apps/design/style/xaml-styles)
+[ContentControl](contentcontrol.md)

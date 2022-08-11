@@ -34,4 +34,4 @@ The need to check the [Name](visualstate_name.md) of a [VisualStateGroup](visual
 ## -examples
 
 ## -see-also
-[Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10)), [x:Name attribute](/windows/uwp/xaml-platform/x-name-attribute), [VisualStateManager](visualstatemanager.md)
+[XAML Control templates](/windows/apps/design/style/xaml-control-templates), [x:Name attribute](/windows/uwp/xaml-platform/x-name-attribute), [VisualStateManager](visualstatemanager.md)

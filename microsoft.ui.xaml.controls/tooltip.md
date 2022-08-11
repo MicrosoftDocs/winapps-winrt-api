@@ -42,7 +42,7 @@ For design guidelines, see [Guidelines for tooltips](/windows/uwp/controls-and-p
 
 A ToolTip must be assigned to another UI element that is its owner. The [ToolTipService](tooltipservice.md) class provides static methods to display a ToolTip.
 
-+ In XAML, use the [ToolTipService.Tooltip](/windows/winui/api/microsoft.ui.xaml.controls.tooltipservice#xaml-attached-properties) attached property to assign the ToolTip to an owner.
++ In XAML, use the [ToolTipService.Tooltip](tooltipservice_tooltip.md) attached property to assign the ToolTip to an owner.
 ```xaml
 <Button Content="Submit" ToolTipService.ToolTip="Click to submit"/>
 ```
@@ -72,7 +72,7 @@ You can use any object as the [Content](contentcontrol_content.md) of a ToolTip.
 
 By default, a ToolTip is displayed centered above the pointer. The placement is not constrained by the app window, so the ToolTip might be displayed partially or completely outside of the app window bounds.
 
-If a ToolTip obscures the content it is referring to, you can adjust it's placement. Use the [Placement](tooltip_placement.md) property or [ToolTipService.Placement](/windows/winui/api/microsoft.ui.xaml.controls.tooltipservice#xaml-attached-properties) attached property to place the ToolTip above, below, left, or right of the pointer. You can set the [VerticalOffset](tooltip_verticaloffset.md) and [HorizontalOffset](tooltip_horizontaloffset.md) properties to change the distance between the pointer and the ToolTip.
+If a ToolTip obscures the content it is referring to, you can adjust it's placement. Use the [Placement](tooltip_placement.md) property or [ToolTipService.Placement](tooltipservice_placement.md) attached property to place the ToolTip above, below, left, or right of the pointer. You can set the [VerticalOffset](tooltip_verticaloffset.md) and [HorizontalOffset](tooltip_horizontaloffset.md) properties to change the distance between the pointer and the ToolTip.
 
 ### Control style and template
 
@@ -112,4 +112,4 @@ This example demonstrates basic tooltips and the properties for placement.
 [!code-xaml[1](../microsoft.ui.xaml.controls.primitives/code/System.Windows.Controls.ToolTip/csharp/Page.xaml#Snippet1)]
 
 ## -see-also
-[ContentControl](contentcontrol.md), [ToolTipService](tooltipservice.md), [Tooltips overview](/windows/apps/design/controls/tooltips), [ToolTip styles and templates](/windows/apps/design/style/xaml-styles), [XAML essential controls sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20essential%20controls%20sample)
+[ContentControl](contentcontrol.md), [ToolTipService](tooltipservice.md), [Tooltips overview](/windows/apps/design/controls/tooltips), [XAML essential controls sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20essential%20controls%20sample)

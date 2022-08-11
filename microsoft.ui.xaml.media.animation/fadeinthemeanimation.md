@@ -23,19 +23,6 @@ Represents the preconfigured opacity animation that applies to controls when the
 ## -examples
 The following example applies a FadeInThemeAnimation and [FadeOutThemeAnimation](fadeoutthemeanimation.md) to a rectangle.
 
-
-<!--  
-      <p xml:space="preserve">
-            <TRANSLATE_MANUALLY>
-              <externalLink xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
-                <linkText>Run this sample</linkText>
-                <linkUri>http://go.microsoft.com/fwlink/p/?linkid=139798&amp;sref=BackEase_scale</linkUri>
-              </externalLink>
-            </TRANSLATE_MANUALLY>
-          </p>-->
-
-
-
 [!code-xaml[FadeThemeAnimation](../microsoft.ui.xaml.media.animation/code/FadeInThemeAnimation/csharp/BlankPage.xaml#SnippetFadeThemeAnimation)]
 
 [!code-csharp[FadeThemeAnimation_code](../microsoft.ui.xaml.media.animation/code/FadeInThemeAnimation/csharp/BlankPage.xaml.cs#SnippetFadeThemeAnimation_code)]

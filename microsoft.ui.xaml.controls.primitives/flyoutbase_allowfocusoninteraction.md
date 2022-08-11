@@ -22,7 +22,6 @@ Gets or sets a value that indicates whether the element automatically gets focus
 **true** if the element gets focus when a user interacts with it; otherwise, **false**.
 
 ## -remarks
-Available starting in Windows 10, version 1607.
 
 ## -examples
 

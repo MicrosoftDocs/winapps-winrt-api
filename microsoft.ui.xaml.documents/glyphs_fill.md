@@ -38,4 +38,4 @@ Because the default is **null**, you almost always should define a value for Fil
 ## -examples
 
 ## -see-also
-[Use brushes](/windows/uwp/graphics/using-brushes)
+[XAML brushes](/windows/apps/design/style/brushes)

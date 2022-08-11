@@ -23,15 +23,6 @@ Note that setting the [Duration](timeline_duration.md) property has no effect on
 ## -examples
 The following example applies a [SineEase](sineease.md) easing function to a [DoubleAnimation](doubleanimation.md) to create a decelerating animation.
 
-<!--<p xml:space="preserve">
-            <TRANSLATE_MANUALLY>
-              <externalLink xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
-                <linkText>Run this sample</linkText>
-                <linkUri>http://go.microsoft.com/fwlink/p/?linkid=139798&amp;sref=SineEase</linkUri>
-              </externalLink>
-            </TRANSLATE_MANUALLY>
-          </p>-->
-
 ```xaml
 <!-- Example template of a custom control that supports swipe selection.  
      A SwipeBackThemeAnimation is run when the control goes to the Normal state. -->

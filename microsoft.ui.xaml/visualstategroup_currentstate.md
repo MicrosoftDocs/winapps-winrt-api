@@ -23,4 +23,4 @@ Because there are potentially multiple [VisualStateGroup](visualstategroup.md) s
 ## -examples
 
 ## -see-also
-[VisualState](visualstate.md), [GoToState](visualstatemanager_gotostate_51722231.md), [CurrentStateChanged](visualstategroup_currentstatechanged.md), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10))
+[VisualState](visualstate.md), [GoToState](visualstatemanager_gotostate_51722231.md), [CurrentStateChanged](visualstategroup_currentstatechanged.md), [XAML Control templates](/windows/apps/design/style/xaml-control-templates)

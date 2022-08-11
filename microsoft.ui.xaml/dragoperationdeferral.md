@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class DragOperationDeferral : Windows.UI.Xaml.IDragOperationDeferral
+public class DragOperationDeferral : Microsoft.UI.Xaml.IDragOperationDeferral
 -->
 
 # Microsoft.UI.Xaml.DragOperationDeferral
