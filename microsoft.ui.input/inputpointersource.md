@@ -93,17 +93,20 @@ It is also possible to receive a brand new in-contact pointer that was routed fr
 
 The following example shows how to configure a [SwapChainPanel](../microsoft.ui.xaml.controls/swapchainpanel.md) with [CreateCoreIndependentInputSource](../microsoft.ui.xaml.controls/swapchainpanel_createcoreindependentinputsource_467679991.md) and receive low-latency pen and touch input on a background thread through a [DispatcherQueueController](../microsoft.ui.dispatching/dispatcherqueuecontroller.md).
 
-```csharp
+```cpp
 void SetupBackgroundPenInput(SwapChainPanel swapChainPanel)
 {
     m_dispatcherQueueController = DispatcherQueueController::CreateOnDedicatedThread();
-
-    InputPointerSourceDeviceKinds deviceKind = (InputPointerSourceDeviceKinds)(
-        Microsoft::UI::Input::InputPointerSourceDeviceKinds::Touch |
-        Microsoft::UI::Input::InputPointerSourceDeviceKinds::Pen);
-    m_coreInput = swapChainPanel().CreateCoreIndependentInputSource(deviceKind);
-
-    m_coreInput.PointerMoved({ this, &DirectXPage::SwapChainPanel_OnPointerMoved });
+    
+    m_dispatcherQueueController.DispatcherQueue().TryEnqueue([this] {
+    
+        InputPointerSourceDeviceKinds deviceKind = (InputPointerSourceDeviceKinds)(
+            Microsoft::UI::Input::InputPointerSourceDeviceKinds::Touch |
+            Microsoft::UI::Input::InputPointerSourceDeviceKinds::Pen);
+        m_coreInput = swapChainPanel().CreateCoreIndependentInputSource(deviceKind);
+    
+        m_coreInput.PointerMoved({ this, &DirectXPage::SwapChainPanel_OnPointerMoved });
+        });
 }
 
 
@@ -116,7 +119,7 @@ void DirectXPage::SwapChainPanel_OnPointerPressed(InputPointerSource const& send
 
 This example shows how to configure the system hand cursor image to display when the cursor hovers over a SwapChainPanel:
 
-```csharp
+```cpp
 InputPointerSourceDeviceKinds deviceKind = (InputPointerSourceDeviceKinds)(
     Microsoft::UI::Input::InputPointerSourceDeviceKinds::Touch |
     Microsoft::UI::Input::InputPointerSourceDeviceKinds::Mouse |
