@@ -46,6 +46,8 @@
       "open_to_public_contributors": false,
       "apiPlatform": "dotnet",
       "breadcrumb_path": "/windows/windows-app-sdk/api/winrt/breadcrumb/toc.json",
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/winapps-winrt-api",
       "feedback_product_url": "https://github.com/microsoft/ProjectReunion/issues",
       "uhfHeaderId": "MSDocsHeader-WinDevCenter",
       "titleSuffix": "Windows App SDK",
