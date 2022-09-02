@@ -4,7 +4,7 @@
 ---
 
 <!-- Enumeration syntax
-public enum Windows.UI.Xaml.FlowDirection : int
+public enum Microsoft.UI.Xaml.FlowDirection : int
 -->
 
 # FlowDirection
@@ -15,9 +15,8 @@ Defines constants that specify the content flow direction for text and UI elemen
 
 ## -xaml-syntax
 
-```xaml
+``` xaml
 <object property="enumMemberName"/>
- 
 ```
 
 ## -enum-fields
@@ -32,7 +31,7 @@ Indicates that content should flow from right to left.
 
 ## -remarks
 
-The FlowDirection enumeration is used as a value by the [FrameworkElement.FlowDirection](frameworkelement_flowdirection.md) property. **LeftToRight** is the default value.
+The FlowDirection enumeration is used as a value by the [FrameworkElement.FlowDirection](frameworkelement_flowdirection.md) property. `LeftToRight` is the default value.
 
 [FrameworkElement.FlowDirection](frameworkelement_flowdirection.md) is interpreted differently for render purposes depending on which [FrameworkElement](frameworkelement.md) subclass is involved as the content or as a container. For more info, see [FrameworkElement.FlowDirection](frameworkelement_flowdirection.md).
 
