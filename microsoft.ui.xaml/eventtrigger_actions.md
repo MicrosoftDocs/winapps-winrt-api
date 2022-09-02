@@ -23,9 +23,9 @@ Gets the collection of [BeginStoryboard](../microsoft.ui.xaml.media.animation/be
 
 ## -xaml-values
 
-### oneOrMoreBeginStoryboards
-
-One or more BeginStoryboard object elements. Object elements defined here become members of the list that is the value of the Actions property, if you use code to examine that collection at run time.
+<dl><dt>oneOrMoreBeginStoryboards
+</dt><dd>oneOrMoreBeginStoryboards One or more BeginStoryboard object elements. Object elements defined here become members of the list that is the value of the Actions property, if you use code to examine that collection at run time.</dd>
+</dl>
 
 ## -property-value
 
