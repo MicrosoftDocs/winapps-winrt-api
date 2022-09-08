@@ -4,16 +4,18 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.DependencyProperty HeightProperty { get; }
+public Microsoft.UI.Xaml.DependencyProperty HeightProperty { get; }
 -->
 
 # Microsoft.UI.Xaml.FrameworkElement.HeightProperty
 
 ## -description
-Identifies the [Height](frameworkelement_height.md)  dependency property.
+
+Identifies the [Height](frameworkelement_height.md) dependency property.
 
 ## -property-value
-The identifier for the [Height](frameworkelement_height.md)  dependency property.
+
+The identifier for the [Height](frameworkelement_height.md) dependency property.
 
 ## -remarks
 

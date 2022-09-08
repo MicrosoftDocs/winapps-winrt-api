@@ -4,16 +4,18 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.DependencyProperty MinHeightProperty { get; }
+public Microsoft.UI.Xaml.DependencyProperty MinHeightProperty { get; }
 -->
 
 # Microsoft.UI.Xaml.FrameworkElement.MinHeightProperty
 
 ## -description
-Identifies the [MinHeight](frameworkelement_minheight.md)  dependency property.
+
+Identifies the [MinHeight](frameworkelement_minheight.md) dependency property.
 
 ## -property-value
-The identifier for the [MinHeight](frameworkelement_minheight.md)  dependency property.
+
+The identifier for the [MinHeight](frameworkelement_minheight.md) dependency property.
 
 ## -remarks
 

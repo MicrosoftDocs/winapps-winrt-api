@@ -4,7 +4,7 @@
 ---
 
 <!-- Enumeration syntax
-public enum Windows.UI.Xaml.FontVariants : int
+public enum Microsoft.UI.Xaml.FontVariants : int
 -->
 
 # FontVariants
@@ -14,6 +14,7 @@ public enum Windows.UI.Xaml.FontVariants : int
 Describes a font variant value for the [Typography.Variants](/windows/winui/api/microsoft.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -xaml-syntax
+
 ```xaml
 <object property="enumMemberName"/>
  
@@ -51,7 +52,7 @@ This enumeration is used by the [Typography.Variants](/windows/winui/api/microso
 
 Some fonts might support a subset of variant values, or ignore the setting completely.
 
-Some fonts might also algorithmically approximate a font form instead of supporting [Typography.Variants](/windows/winui/api/microsoft.ui.xaml.documents.typography#xaml-attached-properties). 
+Some fonts might also algorithmically approximate a font form instead of supporting [Typography.Variants](/windows/winui/api/microsoft.ui.xaml.documents.typography#xaml-attached-properties).
 
 ## -examples
 
