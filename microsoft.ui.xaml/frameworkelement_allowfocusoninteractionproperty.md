@@ -4,15 +4,17 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.DependencyProperty AllowFocusOnInteractionProperty { get; }
+public Microsoft.UI.Xaml.DependencyProperty AllowFocusOnInteractionProperty { get; }
 -->
 
 # Microsoft.UI.Xaml.FrameworkElement.AllowFocusOnInteractionProperty
 
 ## -description
+
 Identifies for the [AllowFocusOnInteraction](frameworkelement_allowfocusoninteraction.md) dependency property.
 
 ## -property-value
+
 The identifier for the [AllowFocusOnInteraction](frameworkelement_allowfocusoninteraction.md) dependency property.
 
 ## -remarks

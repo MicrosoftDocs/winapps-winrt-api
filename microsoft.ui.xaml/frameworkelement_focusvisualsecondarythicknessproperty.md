@@ -4,16 +4,18 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.DependencyProperty FocusVisualSecondaryThicknessProperty { get; }
+public Microsoft.UI.Xaml.DependencyProperty FocusVisualSecondaryThicknessProperty { get; }
 -->
 
 # Microsoft.UI.Xaml.FrameworkElement.FocusVisualSecondaryThicknessProperty
 
 ## -description
-Identifies the [FocusVisualSecondaryThickness](frameworkelement_focusvisualsecondarythickness.md)  dependency property.
+
+Identifies the [FocusVisualSecondaryThickness](frameworkelement_focusvisualsecondarythickness.md) dependency property.
 
 ## -property-value
-The identifier for the [FocusVisualSecondaryThickness](frameworkelement_focusvisualsecondarythickness.md)  dependency property.
+
+The identifier for the [FocusVisualSecondaryThickness](frameworkelement_focusvisualsecondarythickness.md) dependency property.
 
 ## -remarks
 

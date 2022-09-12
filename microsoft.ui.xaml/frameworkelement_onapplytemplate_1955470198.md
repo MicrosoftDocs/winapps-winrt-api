@@ -10,14 +10,16 @@ virtual protected void OnApplyTemplate()
 # Microsoft.UI.Xaml.FrameworkElement.OnApplyTemplate
 
 ## -description
+
 Invoked whenever application code or internal processes (such as a rebuilding layout pass) call [ApplyTemplate](../microsoft.ui.xaml.controls/control_applytemplate_1368990630.md). In simplest terms, this means the method is called just before a UI element displays in your app. Override this method to influence the default post-template logic of a class.
 
 ## -remarks
-Although OnApplyTemplate is a method defined by the [FrameworkElement](frameworkelement.md) class, the OnApplyTemplate behavior and the scenarios for overriding OnApplyTemplate are mainly relevant to a [Control](../microsoft.ui.xaml.controls/control.md) subclass. This is because the [Template](../microsoft.ui.xaml.controls/control_template.md) property that you typically define in a XAML file and the internal Windows Runtime logic that applies the templates are specifically for controls. Specialized template behavior also exists for [ContentPresenter](../microsoft.ui.xaml.controls/contentpresenter.md) and [ContentControl](../microsoft.ui.xaml.controls/contentcontrol.md).
+
+Although `OnApplyTemplate` is a method defined by the [FrameworkElement](frameworkelement.md) class, the `OnApplyTemplate` behavior and the scenarios for overriding `OnApplyTemplate` are mainly relevant to a [Control](../microsoft.ui.xaml.controls/control.md) subclass. This is because the [Template](../microsoft.ui.xaml.controls/control_template.md) property that you typically define in a XAML file and the internal Windows Runtime logic that applies the templates are specifically for controls. Specialized template behavior also exists for [ContentPresenter](../microsoft.ui.xaml.controls/contentpresenter.md) and [ContentControl](../microsoft.ui.xaml.controls/contentcontrol.md).
 
 ### Notes to implementers
 
-There is a base implementation of this method implemented as a Windows Runtime internal behavior, which provides some basic layout logic. You should always call the base implementation from your implementation. Failing to reference the base implementation might result in undesirable layout behavior. 
+There is a base implementation of this method implemented as a Windows Runtime internal behavior, which provides some basic layout logic. You should always call the base implementation from your implementation. Failing to reference the base implementation might result in undesirable layout behavior.
 <!--If deriving from Control or further subclasses, the Control implementation calls the FrameworkElement base. Therefore, this accesses the native-level implementation implicitly if you call the immediate base.-->
 
 Derived classes can use this method as a notification or entry point for the following scenarios:
@@ -32,13 +34,13 @@ OnApplyTemplate is often a more appropriate point to deal with adjustments to th
 <!--Query is out on this note, it came from Silverlight. My guess is still applies.-->
 
 ## -examples
-This example shows an OnApplyTemplate override defined by a custom control. The override is designed to account for callers potentially defining and applying their own control template through the template and style system. As part of its definition, the control attributes the named elements within a template that are required, such as "UpButton". Then OnApplyTemplate retrieves the object references based on this naming contract when the template is loaded, calling [GetTemplateChild](../microsoft.ui.xaml.controls/control_gettemplatechild_501346084.md). (The values being set, for example "UpButtonElement", refer to private fields defined at class-level so that other members of the class can reference that part as an object at run time.) Also, this example calls the private method `UpdateStates` (definition not shown). This is another common scenario for OnApplyTemplate: making sure that the visual state is set for the control's starting state, in this case by calling a private method that accounts for all of the control's defined states and calls [GoToState](visualstatemanager_gotostate_51722231.md) to set the appropriate state.
 
-
+This example shows an `OnApplyTemplate` override defined by a custom control. The override is designed to account for callers potentially defining and applying their own control template through the template and style system. As part of its definition, the control attributes the named elements within a template that are required, such as "UpButton". Then `OnApplyTemplate` retrieves the object references based on this naming contract when the template is loaded, calling [GetTemplateChild](../microsoft.ui.xaml.controls/control_gettemplatechild_501346084.md). (The values being set, for example "UpButtonElement", refer to private fields defined at class-level so that other members of the class can reference that part as an object at run time.) Also, this example calls the private method `UpdateStates` (definition not shown). This is another common scenario for `OnApplyTemplate`: making sure that the visual state is set for the control's starting state, in this case by calling a private method that accounts for all of the control's defined states and calls [GoToState](visualstatemanager_gotostate_51722231.md) to set the appropriate state.
 
 [!code-csharp[ApplyTemplate](../microsoft.ui.xaml/code/NumericUpDownCustomControl/csharp/NumericUpDownCustomControl.cs#SnippetApplyTemplate)]
 
 [!code-vb[ApplyTemplate](../microsoft.ui.xaml/code/NumericUpDownCustomControl/vbnet/NumericUpDown.vb#SnippetApplyTemplate)]
 
 ## -see-also
+
 [ControlTemplate](../microsoft.ui.xaml.controls/controltemplate.md), [GetTemplateChild](../microsoft.ui.xaml.controls/control_gettemplatechild_501346084.md), [Styling controls](/windows/uwp/controls-and-patterns/styling-controls)

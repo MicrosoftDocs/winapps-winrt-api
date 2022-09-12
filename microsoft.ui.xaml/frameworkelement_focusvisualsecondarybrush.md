@@ -4,15 +4,17 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.Media.Brush FocusVisualSecondaryBrush { get;  set; }
+public Microsoft.UI.Xaml.Media.Brush FocusVisualSecondaryBrush { get;  set; }
 -->
 
 # Microsoft.UI.Xaml.FrameworkElement.FocusVisualSecondaryBrush
 
 ## -description
+
 Gets or sets the brush used to draw the inner border of a `HighVisibility` or `Reveal` focus visual for a [FrameworkElement](frameworkelement.md).
 
 ## -property-value
+
 The brush used to draw the inner border of a [HighVisibility](focusvisualkind.md) focus visual.
 
 ## -remarks

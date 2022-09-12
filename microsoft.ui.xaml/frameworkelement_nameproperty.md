@@ -4,16 +4,18 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.DependencyProperty NameProperty { get; }
+public Microsoft.UI.Xaml.DependencyProperty NameProperty { get; }
 -->
 
 # Microsoft.UI.Xaml.FrameworkElement.NameProperty
 
 ## -description
-Identifies the [Name](frameworkelement_name.md)  dependency property.
+
+Identifies the [Name](frameworkelement_name.md) dependency property.
 
 ## -property-value
-The identifier for the [Name](frameworkelement_name.md)  dependency property.
+
+The identifier for the [Name](frameworkelement_name.md) dependency property.
 
 ## -remarks
 

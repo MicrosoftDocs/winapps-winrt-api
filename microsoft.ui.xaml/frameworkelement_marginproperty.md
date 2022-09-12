@@ -4,16 +4,18 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.DependencyProperty MarginProperty { get; }
+public Microsoft.UI.Xaml.DependencyProperty MarginProperty { get; }
 -->
 
 # Microsoft.UI.Xaml.FrameworkElement.MarginProperty
 
 ## -description
-Identifies the [Margin](frameworkelement_margin.md)  dependency property.
+
+Identifies the [Margin](frameworkelement_margin.md) dependency property.
 
 ## -property-value
-The [Margin](frameworkelement_margin.md)  dependency property identifier.
+
+The [Margin](frameworkelement_margin.md) dependency property identifier.
 
 ## -remarks
 

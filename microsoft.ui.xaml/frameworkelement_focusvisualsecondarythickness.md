@@ -4,7 +4,7 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.Thickness FocusVisualSecondaryThickness { get;  set; }
+public Microsoft.UI.Xaml.Thickness FocusVisualSecondaryThickness { get;  set; }
 -->
 
 # Microsoft.UI.Xaml.FrameworkElement.FocusVisualSecondaryThickness
@@ -15,7 +15,7 @@ Gets or sets the thickness of the inner border of a `HighVisibility` or `Reveal`
 
 ## -property-value
 
-The thickness of the inner border of a [HighVisibility](focusvisualkind.md) focus visual. The default value is 1.
+The thickness of the inner border of a [HighVisibility](focusvisualkind.md) focus visual. The default value is `1`.
 
 ## -remarks
 

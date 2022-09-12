@@ -4,16 +4,18 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.DependencyProperty FocusVisualPrimaryThicknessProperty { get; }
+public Microsoft.UI.Xaml.DependencyProperty FocusVisualPrimaryThicknessProperty { get; }
 -->
 
 # Microsoft.UI.Xaml.FrameworkElement.FocusVisualPrimaryThicknessProperty
 
 ## -description
-Identifies the [FocusVisualPrimaryThickness](frameworkelement_focusvisualprimarythickness.md)  dependency property.
+
+Identifies the [FocusVisualPrimaryThickness](frameworkelement_focusvisualprimarythickness.md) dependency property.
 
 ## -property-value
-The identifier for the [FocusVisualPrimaryThickness](frameworkelement_focusvisualprimarythickness.md)  dependency property.
+
+The identifier for the [FocusVisualPrimaryThickness](frameworkelement_focusvisualprimarythickness.md) dependency property.
 
 ## -remarks
 

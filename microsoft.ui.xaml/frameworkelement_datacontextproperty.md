@@ -4,15 +4,17 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.DependencyProperty DataContextProperty { get; }
+public Microsoft.UI.Xaml.DependencyProperty DataContextProperty { get; }
 -->
 
 # Microsoft.UI.Xaml.FrameworkElement.DataContextProperty
 
 ## -description
+
 Identifies the [DataContext](frameworkelement_datacontext.md)  dependency property.
 
 ## -property-value
+
 The [DataContext](frameworkelement_datacontext.md)  dependency property identifier.
 
 ## -remarks
