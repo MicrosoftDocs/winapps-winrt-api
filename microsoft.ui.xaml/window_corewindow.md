@@ -11,7 +11,7 @@ public Windows.UI.Core.CoreWindow CoreWindow { get; }
 
 ## -description
 
-For UWP apps, gets the [CoreWindow](https://docs.microsoft.com/uwp/api/Windows.UI.Core.CoreWindow) associated with this Window. Desktop apps always return null.
+For UWP apps, gets the [CoreWindow](/uwp/api/Windows.UI.Core.CoreWindow) associated with this Window. Desktop apps always return null.
 
 ## -property-value
 
