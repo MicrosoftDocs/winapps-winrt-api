@@ -17,7 +17,7 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <RichTextBlock Grid.Column="0" IsTextSelectionEnabled="True" TextAlignment="Justify" 
-                           OverflowContentTarget="{Binding ElementName=firstOverflowContainer}" 
+                           OverflowContentTarget="{x:Bind firstOverflowContainer}" 
                            TextIndent="12"
                            FontSize="12" FontFamily="Segoe UI" Foreground="#2a2a2a" Margin="20,0">
                 <Paragraph>
@@ -36,7 +36,7 @@
                 <!-- </SnippetInlineUIContainer> -->
             </RichTextBlock>
             <RichTextBlockOverflow x:Name="firstOverflowContainer" Grid.Column="1" Margin="20,0"
-                                   OverflowContentTarget="{Binding ElementName=secondOverflowContainer}"/>
+                                   OverflowContentTarget="{x:Bind secondOverflowContainer}"/>
             <RichTextBlockOverflow x:Name="secondOverflowContainer" Grid.Column="2" Margin="20,0"/>
         </Grid>
         <!-- </SnippetRichTextOverflow> -->
