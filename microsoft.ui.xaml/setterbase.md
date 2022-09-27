@@ -4,12 +4,13 @@
 ---
 
 <!-- Class syntax.
-public class SetterBase : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.ISetterBase
+public class SetterBase : Microsoft.UI.Xaml.DependencyObject, Microsoft.UI.Xaml.ISetterBase
 -->
 
 # Microsoft.UI.Xaml.SetterBase
 
 ## -description
+
 Represents the base class for value setters.
 
 ## -remarks
@@ -17,4 +18,5 @@ Represents the base class for value setters.
 ## -examples
 
 ## -see-also
+
 [DependencyObject](dependencyobject.md)

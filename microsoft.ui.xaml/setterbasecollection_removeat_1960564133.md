@@ -10,19 +10,21 @@ public void RemoveAt(System.UInt32 index)
 # Microsoft.UI.Xaml.SetterBaseCollection.RemoveAt
 
 ## -description
+
 Removes the item at the specified index.
 
 ## -parameters
+
 ### -param index
+
 The index position of the item to remove.
 
 ## -remarks
+
 If successful, calling this method reduces the collection size by one. Items with index values greater than the called index have their index values reduced by one.
 
-
-
 > [!NOTE]
-> The equivalent Microsoft .NET  API is [RemoveAt](setterbasecollection_removeat_1.md).
+> The equivalent Microsoft .NET API is [RemoveAt](/dotnet/api/system.collections.ilist.removeat).
 
 ## -examples
 

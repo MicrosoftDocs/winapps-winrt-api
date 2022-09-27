@@ -11,7 +11,7 @@ public bool Contains(Windows.Foundation.Rect target, Windows.Foundation.Point po
 
 ## -description
 
-Returns whether a given [Point](/uwp/api/windows.foundation.point) is within the bounds of a given [Rect](/uwp/api/windows.foundation.rect), for a shared coordinate reference. C# and Microsoft Visual Basic code should use [Rect.Contains](/dotnet/api/windows.foundation.rect.contains?view=dotnet-uwp-10.0&preserve-view=true) instead.
+Returns whether a given [Point](/uwp/api/windows.foundation.point) is within the bounds of a given [Rect](/uwp/api/windows.foundation.rect), for a shared coordinate reference. C# code should use [Rect.Contains](/dotnet/api/windows.foundation.rect.contains) instead.
 
 ## -parameters
 
@@ -25,7 +25,7 @@ The [Point](/uwp/api/windows.foundation.point) to check for containment.
 
 ## -returns
 
-**true** if *point* is within the *target* bounds; otherwise, **false**.
+`true` if *point* is within the *target* bounds; otherwise, `false`.
 
 ## -remarks
 

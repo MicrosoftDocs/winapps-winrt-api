@@ -4,19 +4,20 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.DependencyProperty Property { get;  set; }
+public Microsoft.UI.Xaml.DependencyProperty Property { get;  set; }
 -->
 
 # Microsoft.UI.Xaml.Setter.Property
 
 ## -description
+
 Gets or sets the property to apply the [Value](setter_value.md) to.
 
 ## -xaml-syntax
+
 ```xaml
 <Setter Property="propertyName"/>
 ```
-
 
 ## -xaml-values
 <dl><dt>propertyName</dt><dd>propertyNameA string that specifies the name of the property being set. This property must be a dependency property.</dd>
@@ -25,9 +26,10 @@ Gets or sets the property to apply the [Value](setter_value.md) to.
 A [DependencyProperty](dependencyproperty.md) to which the [Value](setter_value.md) will be applied. The default is **null**.
 
 ## -remarks
-You must specify both the Property and [Value](setter_value.md) properties on a [Setter](setter.md). Otherwise an exception is thrown (either a parse exception or runtime error, depending on whether the [Setter](setter.md) is created in XAML or modified in code).
 
-If you're accessing a [Setter](setter.md) instance using code, you cannot change the value of any property of a [Setter](setter.md) instance if the value of the [IsSealed](style_issealed.md) property on a parent [Style](style.md) is **true**. This is also reported by the [IsSealed](setterbase_issealed.md) property on an individual [Setter](setter.md). The system sets these properties to **true** when the runtime applies styles to UI elements and displays them in the UI. Attempting to change a sealed [Setter](setter.md) throws a runtime error.
+You must specify both the `Property` and [Value](setter_value.md) properties on a [Setter](setter.md). Otherwise an exception is thrown (either a parse exception or runtime error, depending on whether the [Setter](setter.md) is created in XAML or modified in code).
+
+If you're accessing a [Setter](setter.md) instance using code, you cannot change the value of any property of a [Setter](setter.md) instance if the value of the [IsSealed](style_issealed.md) property on a parent [Style](style.md) is `true`. This is also reported by the [IsSealed](setterbase_issealed.md) property on an individual [Setter](setter.md). The system sets these properties to `true` when the runtime applies styles to UI elements and displays them in the UI. Attempting to change a sealed [Setter](setter.md) throws a runtime error.
 
 You can use a [Setter](setter.md) to style an attached property. In this case the dependency property name is a qualified name in XAML that also names the attached property's defining type. For example, `<Setter Property="AutomationProperties.LiveSetting" Value="Polite" />` could be used to set the [AutomationProperties.LiveSetting](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property value within the style for any control or UI element.
 
