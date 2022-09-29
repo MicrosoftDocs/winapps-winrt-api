@@ -11,7 +11,7 @@ public Windows.ApplicationModel.Activation.LaunchActivatedEventArgs UWPLaunchAct
 
 ## -description
 
-Gets the [LaunchActivatedEventArgs](launchactivatedeventargs.md) for a UWP app. For Windows App SDK applications, this property is null.
+Gets the [LaunchActivatedEventArgs](launchactivatedeventargs.md) for a UWP app. For desktop applications, this property is null.
 
 ## -property-value
 
