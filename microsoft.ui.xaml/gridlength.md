@@ -80,7 +80,7 @@ Although you can specify a `GridLength` as an object element, you cannot specify
 
 ### Projection and members of GridLength
 
-If you are using C# or Visual C++ component extensions (C++/CX), then GridLength has non-data members available, and its data members are exposed as read-only properties, not fields. See [GridLength](/dotnet/api/windows.ui.xaml.gridlength) in the .NET API Browser.
+If you are using C#, then GridLength has non-data members available, and its data members are exposed as read-only properties, not fields. See [GridLength](/dotnet/api/windows.ui.xaml.gridlength) in the .NET API Browser.
 
 If you are programming with [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) or the [Windows Runtime C++ Template Library (WRL)](/cpp/windows/windows-runtime-cpp-template-library-wrl), then only the data member fields exist as members of `GridLength`, and you cannot use the utility methods or properties of the .NET projection. C++ code can access similar utility methods that exist on the [GridLengthHelper](gridlengthhelper.md) class.
 

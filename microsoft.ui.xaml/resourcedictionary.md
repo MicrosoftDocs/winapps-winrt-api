@@ -212,7 +212,6 @@ In practice, the vast majority of the resources defined in a `ResourceDictionary
 The API that your code uses to access the resources in a ResourceDictionary depends on which programming language you use:
 
 + For C# you use API that implement [IDictionary<TKey,TValue>](/dotnet/api/system.collections.generic.idictionary-2) and [IEnumerable<T>](/dotnet/api/system.collections.generic.ienumerable-1). For example, [TryGetValue](/dotnet/api/system.collections.generic.idictionary-2.trygetvalue) or the [Item](/dotnet/api/system.collections.generic.idictionary-2.item) indexer.
-+ For Visual C++ component extensions (C++/CX) you use API that implement [IMap<K,V>](/uwp/api/windows.foundation.collections.imap`2) and [IIterable<T>](/uwp/api/windows.foundation.collections.iiterable`1). For example, [Lookup](resourcedictionary_lookup_786690417.md).
 + API that aren't part of collection support, like [Source](resourcedictionary_source.md), are the same in all languages.
 
 For more info on how to use `ResourceDictionary` in code, see "Using a ResourceDictionary from code" section of [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary).

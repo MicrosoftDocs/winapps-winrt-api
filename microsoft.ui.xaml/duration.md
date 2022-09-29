@@ -113,7 +113,7 @@ The `Automatic` value applied in either XAML or code results in different behavi
 
 ### Projection and members of Duration
 
-If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or Visual C++ component extensions (C++/CX), then `Duration` has non-data members available, and its data members are exposed as read-write properties, not fields. `Duration` exposes several operators, including comparison operators. See [Duration](/dotnet/api/windows.ui.xaml.duration) in the .NET API Browser.
+If you are using C#, then `Duration` has non-data members available, and its data members are exposed as read-write properties, not fields. `Duration` exposes several operators, including comparison operators. See [Duration](/dotnet/api/windows.ui.xaml.duration) in the .NET API Browser.
 
 For Microsoft .NET, Duration exposes [TimeSpan.Parse](/dotnet/api/system.timespan.parse) for its [TimeSpan](/dotnet/api/windows.ui.xaml.duration.timespan) property, [Implicit](/dotnet/api/windows.ui.xaml.duration.op_implicit) and [UnaryPlus](/dotnet/api/windows.ui.xaml.duration.op_unaryplus) operators, and [Add](/dotnet/api/windows.ui.xaml.duration.add) and [Subtract](/dotnet/api/windows.ui.xaml.duration.subtract) methods. These aren't available from the structure in Visual C++ component extensions (C++/CX) but you can use equivalent [DurationHelper](durationhelper.md) methods for some of these.
 
