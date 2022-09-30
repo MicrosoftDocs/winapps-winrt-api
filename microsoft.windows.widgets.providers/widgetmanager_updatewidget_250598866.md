@@ -22,6 +22,19 @@ A <xref:Microsoft.Windows.Widgets.Providers.WidgetUpdateRequestOptions> object t
 
 ## -remarks
 
+Any variable not set in the **WidgetUpdateRequestOptions** class will not be updated. For example, if you are only interested in updating the widget's data but you want to keep the existing visual template and custom state, then by setting only the <xref:Microsoft.Windows.Widgets.Providers.WidgetUpdateRequestOptions.Data?displayProperty=nameWithType> property, the widget's data will be updated but the template and custom state will not be modified.
+
+**UpdateWidget** can also be used to clear any stored value iby setting an empty string for the value to be cleared. For example, if you want to clear the widget's stored custom state you can set the <xref:Microsoft.Windows.Widgets.Providers.WidgetUpdateRequestOptions.CustomState?displayProperty=nameWithType> property to an empty string, which will erase the stored custom state once UpdateWidget is called.
+
+Calling this function to update a widget that has been deleted, a widget not associated with your app, or using a widget ID that does not exist will result in the update being ignored.
+
+
+
+
+## -see-also
+
+## -examples
+
 The following code example demonstrates a typical usage of **UpdateWidget**. <xref:Microsoft.Windows.Widgets.Providers.WidgetManager.GetWidgetInfos?displayProperty=nameWithType> is called to get the list of <xref:Microsoft.Windows.Widgets.Providers.WidgetInfo> objects for the active widgets associated with the widget provider. For each widget, a visual template and data template are generated and passed to the **UpdateWidget** call in a **WidgetUpdateRequestOptions** object.
 
 ```cpp
@@ -62,9 +75,3 @@ class WidgetManagerOperations
     }
 }
 ```
-
-## -see-also
-
-## -examples
-
-
