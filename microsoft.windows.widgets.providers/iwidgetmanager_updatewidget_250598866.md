@@ -12,11 +12,17 @@ public void UpdateWidget (Microsoft.Windows.Widgets.Providers.WidgetUpdateReques
 
 ## -description
 
+Interface definition of the <xref:Microsoft.Windows.Widgets.Providers.WidgetManager.UpdateWidget(Microsoft.Windows.Widgets.Providers.WidgetUpdateRequestOptions)> method.
+
 ## -parameters
 
 ### -param widgetUpdateRequestOptions
 
+A **WidgetUpdateRequestOptions** object.
+
 ## -remarks
+
+The **IWidgetManager** interface is a part of the underlying implementation of the widget framework and is not intended to be used directly by app developers who are implementing widget providers.
 
 ## -see-also
 

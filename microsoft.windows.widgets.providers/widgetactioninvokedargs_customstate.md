@@ -12,9 +12,15 @@ public string CustomState { get; }
 
 ## -description
 
+Gets a string containing custom state for the widget associated with the action.
+
 ## -property-value
 
+A string containing custom state for the widget associated with the action.
+
 ## -remarks
+
+The custom state string is app-defined and is not used or validated by the widget host.
 
 ## -see-also
 

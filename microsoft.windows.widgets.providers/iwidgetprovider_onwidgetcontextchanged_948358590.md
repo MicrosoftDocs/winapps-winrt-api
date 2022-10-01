@@ -12,7 +12,7 @@ public void OnWidgetContextChanged (Microsoft.Windows.Widgets.Providers.WidgetCo
 
 ## -description
 
-Called when the context of the widget within the widget host changes.
+Called when the configuration of the widget within the widget host changes.
 
 ## -parameters
 
@@ -22,7 +22,7 @@ A <xref:Microsoft.Windows.Widgets.Providers.WidgetContextChangedArgs> object pro
 
 ## -remarks
 
-In the current release, this event is only raised when the user changes the size of a pinned widget.
+In the current release, this event is only raised when the user changes the size of an active widget.
 
 Objects passed into this callback method are only guaranteed to be valid within the callback. You should not store references to these objects because their behavior outside of the context of the callback is undefined.
 

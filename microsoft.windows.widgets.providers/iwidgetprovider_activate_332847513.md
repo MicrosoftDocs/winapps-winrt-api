@@ -18,7 +18,7 @@ Notifies the widget provider that the widget host is currently interested in rec
 
 ### -param widgetContext
 
-A <xref:Microsoft.Windows.Widgets.Providers.WidgetContext> object that identifies the widget that is being activated and provides context information.
+A <xref:Microsoft.Windows.Widgets.Providers.WidgetContext> object that identifies the widget that is being activated and provides configuration information.
 
 ## -remarks
 

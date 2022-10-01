@@ -12,9 +12,11 @@ public interface IWidgetManager
 
 ## -description
 
-The interface implemented by the <xref:Microsoft.Windows.Widgets.Providers.WidgetManager> class, which provides methods for querying, updating and deleting widgets.
+The interface that is implemented by the <xref:Microsoft.Windows.Widgets.Providers.WidgetManager> class, which provides methods for querying, updating and deleting widgets.
 
 ## -remarks
+
+This interface is a part of the underlying implementation of the widget framework and is not intended to be used directly by app developers who are implementing widget providers.
 
 ## -see-also
 

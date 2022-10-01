@@ -18,7 +18,7 @@ Notifies the widget provider that a new widget has been created, for example, wh
 
 ### -param widgetContext
 
-A <xref:Microsoft.Windows.Widgets.Providers.WidgetContext> object that identifies the widget that is being created and provides context information.
+A <xref:Microsoft.Windows.Widgets.Providers.WidgetContext> object that identifies the widget that is being created and provides information about the configuration of the widget.
 
 ## -remarks
 
