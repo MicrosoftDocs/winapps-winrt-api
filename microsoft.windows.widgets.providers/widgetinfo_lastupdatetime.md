@@ -12,7 +12,11 @@ public System.DateTimeOffset LastUpdateTime { get; }
 
 ## -description
 
+Gets the time that the widget was last updated. 
+
 ## -property-value
+
+The time that the widget was last updated. 
 
 ## -remarks
 
