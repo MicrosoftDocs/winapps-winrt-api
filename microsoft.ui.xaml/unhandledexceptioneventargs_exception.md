@@ -15,7 +15,7 @@ Gets the `HRESULT` code associated with the unhandled exception.
 
 ## -property-value
 
-The `HRESULT` code (for Visual C++ component extensions (C++/CX)), or a mapped common language runtime (CLR)  [System.Exception](/dotnet/api/system.exception?view=dotnet-uwp-10.0&preserve-view=true).
+The `HRESULT` code or a mapped common language runtime (CLR) [System.Exception](/dotnet/api/system.exception).
 
 ## -remarks
 
@@ -23,4 +23,4 @@ The `HRESULT` code (for Visual C++ component extensions (C++/CX)), or a mapped 
 
 ## -see-also
 
-[Exception Handling (C# Programming Guide)](/dotnet/csharp/fundamentals/exceptions/exception-handling), [Exceptions (C++/CX)](/cpp/cppcx/exceptions-c-cx)
+[Exception Handling (C# Programming Guide)](/dotnet/csharp/fundamentals/exceptions/exception-handling)

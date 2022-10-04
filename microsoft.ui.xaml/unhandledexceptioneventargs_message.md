@@ -25,4 +25,4 @@ The message is coming from info that's propagated by the original system or runt
 
 ## -see-also
 
-[UnhandledException](application_unhandledexception.md), [Exception Handling (C# Programming Guide)](/dotnet/csharp/fundamentals/exceptions/exception-handling), [Exceptions (C++/CX)](/cpp/cppcx/exceptions-c-cx)
+[UnhandledException](application_unhandledexception.md), [Exception Handling (C# Programming Guide)](/dotnet/csharp/fundamentals/exceptions/exception-handling)

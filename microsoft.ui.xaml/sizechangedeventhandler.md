@@ -3,20 +3,23 @@
 -api-type: winrt delegate
 ---
 <!-- Delegate syntax.
-public delegate void SizeChangedEventHandler(System.Object sender, Windows.UI.Xaml.SizeChangedEventArgs e)
+public delegate void SizeChangedEventHandler(System.Object sender, Microsoft.UI.Xaml.SizeChangedEventArgs e)
 -->
 # Microsoft.UI.Xaml.SizeChangedEventHandler
 
 ## -description
+
 Represents the method that will handle the [SizeChanged](frameworkelement_sizechanged.md) event.
 
 ## -parameters
+
 ### -param sender
+
 The object where the event handler is attached.
 
 ### -param e
-The event data.
 
+The event data.
 
 ## -remarks
 

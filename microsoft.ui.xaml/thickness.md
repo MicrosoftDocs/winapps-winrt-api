@@ -41,58 +41,58 @@ Describes the thickness of a frame around a rectangle. Four [Double](/dotnet/api
 
 ### -field Left
 
-The left side measure of the Thickness.
+The left side measure of the `Thickness`.
 
 ### -field Top
 
-The top edge measure of the Thickness.
+The top edge measure of the `Thickness`.
 
 ### -field Right
 
-The right side measure of the Thickness.
+The right side measure of the `Thickness`.
 
 ### -field Bottom
 
-The bottom edge measure of the Thickness.
+The bottom edge measure of the `Thickness`.
 
 ## -remarks
 
-Thickness values are generally used to set properties that affect the layout of the object where the property is set. Properties that use a Thickness value include:
+`Thickness` values are generally used to set properties that affect the layout of the object where the property is set. Properties that use a `Thickness` value include:
 
 + [FrameworkElement.Margin](frameworkelement_margin.md)
 + [Control.Padding](../microsoft.ui.xaml.controls/control_padding.md)
 + [Border.BorderThickness](../microsoft.ui.xaml.controls/border_borderthickness.md) and [Control.BorderThickness](../microsoft.ui.xaml.controls/control_borderthickness.md)
-+ Other **Margin** and **Padding** properties on classes that are not a [Control](../microsoft.ui.xaml.controls/control.md), for example [RichTextBlock.Padding](../microsoft.ui.xaml.controls/richtextblock_padding.md)
++ Other `Margin` and `Padding` properties on classes that are not a [Control](../microsoft.ui.xaml.controls/control.md), for example [RichTextBlock.Padding](../microsoft.ui.xaml.controls/richtextblock_padding.md)
 + [Image.NineGrid](../microsoft.ui.xaml.controls/image_ninegrid.md)
 + [Shape.StrokeThickness](../microsoft.ui.xaml.shapes/shape_strokethickness.md)
 + [ProgressBarTemplateSettings.EllipseOffset](../microsoft.ui.xaml.controls.primitives/progressbartemplatesettings_ellipseoffset.md)
 
-In XAML, you can specify Thickness values in several ways. If you specify four **Double** values, these represent the [Left](/uwp/api/windows.ui.xaml.thickness.left), [Top](/uwp/api/windows.ui.xaml.thickness.top), [Right](/uwp/api/windows.ui.xaml.thickness.right), and [Bottom](/uwp/api/windows.ui.xaml.thickness.bottom) sides, respectively, of the bounding rectangle. If you specify two values, these represent the **Left**, **Top** values, and also applies the same values to **Right** and **Bottom** such that the resulting Thickness is isometric horizontally and isometric vertically. You can also supply a single value, which applies a uniform value to all four sides of the bounding rectangle.
+In XAML, you can specify `Thickness` values in several ways. If you specify four `Double` values, these represent the [Left](/uwp/api/windows.ui.xaml.thickness.left), [Top](/uwp/api/windows.ui.xaml.thickness.top), [Right](/uwp/api/windows.ui.xaml.thickness.right), and [Bottom](/uwp/api/windows.ui.xaml.thickness.bottom) sides, respectively, of the bounding rectangle. If you specify two values, these represent the `Left`, `Top` values, and also applies the same values to `Right` and `Bottom` such that the resulting `Thickness` is isometric horizontally and isometric vertically. You can also supply a single value, which applies a uniform value to all four sides of the bounding rectangle.
 
-Values assigned from code do not have any behavior that can extrapolate values. If you set the value for a **Left** property or field, you do not automatically establish the same value for **Right**. All Thickness properties must be set discretely in code. You can use the [Thickness(Double)](/dotnet/api/windows.ui.xaml.thickness.-ctor?view=dotnet-uwp-10.0&preserve-view=true#Windows_UI_Xaml_Thickness__ctor_System_Double_) or [Thickness(Double,Double,Double,Double)](/dotnet/api/windows.ui.xaml.thickness.-ctor?view=dotnet-uwp-10.0&preserve-view=true#Windows_UI_Xaml_Thickness__ctor_System_Double_System_Double_System_Double_System_Double_) constructors rather than assigning values to properties.
+Values assigned from code do not have any behavior that can extrapolate values. If you set the value for a `Left` property or field, you do not automatically establish the same value for `Right`. All `Thickness` properties must be set discretely in code. You can use the [Thickness(Double)](/dotnet/api/windows.ui.xaml.thickness.-ctor#windows-ui-xaml-thickness-ctor(system-double)) or [Thickness(Double,Double,Double,Double)](/dotnet/api/windows.ui.xaml.thickness.-ctor#windows-ui-xaml-thickness-ctor(system-double-system-double-system-double-system-double)) constructors rather than assigning values to properties.
 
-Although the type of the data values of a Thickness is **Double**, you typically specify integer values.
+Although the type of the data values of a `Thickness` is `Double`, you typically specify integer values.
 
 ### Notes on XAML syntax
 
 A string that specifies three values does not cause a parser error, but only the first two values are interpreted, and any third value is ignored.
 
-Although you can specify a Thickness as an object element, you cannot specify the individual values such as **Top** as attributes of that object element. The XAML parser does not support setting XAML attribute values for this structure. Instead, you must specify the values as initialization text within the Thickness. Using the object element syntax for a Thickness is useful if you want to declare a keyed resource that can be used by multiple [Control](../microsoft.ui.xaml.controls/control.md) instances for their [Padding](../microsoft.ui.xaml.controls/control_padding.md). For more info on XAML initialization text, see [XAML syntax guide](/windows/uwp/xaml-platform/xaml-syntax-guide).
+Although you can specify a `Thickness` as an object element, you cannot specify the individual values such as `Top` as attributes of that object element. The XAML parser does not support setting XAML attribute values for this structure. Instead, you must specify the values as initialization text within the `Thickness`. Using the object element syntax for a `Thickness` is useful if you want to declare a keyed resource that can be used by multiple [Control](../microsoft.ui.xaml.controls/control.md) instances for their [Padding](../microsoft.ui.xaml.controls/control_padding.md). For more info on XAML initialization text, see [XAML syntax guide](/windows/uwp/xaml-platform/xaml-syntax-guide).
 
 You can use a space rather than a comma as the delimiter between values.
 
 ### Projection and members of Thickness
 
-If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or Visual C++ component extensions (C++/CX), then Thickness has non-data members available, and its data members are exposed as read-write properties, not fields. See [Thickness](/dotnet/api/windows.ui.xaml.thickness?view=dotnet-uwp-10.0&preserve-view=true) in the .NET API Browser.
+If you are using C#, then `Thickness` has non-data members available, and its data members are exposed as read-write properties, not fields. See [Thickness](/dotnet/api/windows.ui.xaml.thickness) in the .NET API documentation.
 
-If you are programming with [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) or the [Windows Runtime C++ Template Library (WRL)](/cpp/windows/windows-runtime-cpp-template-library-wrl), then only the data member fields exist as members of Thickness, and you cannot use the utility methods or properties of the .NET projection. C++ code can access similar utility methods that exist on the [ThicknessHelper](thicknesshelper.md) class.
+If you are programming with C++/WinRT or the [Windows Runtime C++ Template Library (WRL)](/cpp/windows/windows-runtime-cpp-template-library-wrl), then only the data member fields exist as members of `Thickness`, and you cannot use the utility methods or properties of the .NET projection. C++ code can access similar utility methods that exist on the [ThicknessHelper](thicknesshelper.md) class.
 
 This table shows the equivalent methods available in .NET and C++.
 
-| .NET ([Thickness](/dotnet/api/windows.ui.xaml.thickness?view=dotnet-uwp-10.0&preserve-view=true)) | C++ ([ThicknessHelper](thicknesshelper.md)) |
+| .NET ([Thickness](/dotnet/api/windows.ui.xaml.thickness)) | C++ ([ThicknessHelper](thicknesshelper.md)) |
 | ---- | --- |
-| [Thickness(Double)](/dotnet/api/windows.ui.xaml.gridlength.-ctor?view=dotnet-uwp-10.0&preserve-view=true#Windows_UI_Xaml_GridLength__ctor_System_Double_) | [FromUniformLength(Double)](thicknesshelper_fromuniformlength_155036416.md) |
-| [Thickness(Double, Double, Double, Double)](/dotnet/api/windows.ui.xaml.gridlength.-ctor?view=dotnet-uwp-10.0&preserve-view=true#Windows_UI_Xaml_GridLength__ctor_System_Double_Windows_UI_Xaml_GridUnitType_) | [FromLengths(Double, Double, Double, Double)](thicknesshelper_fromlengths_582957363.md) |
+| [Thickness(Double)](/dotnet/api/windows.ui.xaml.thickness.-ctor#windows-ui-xaml-thickness-ctor(system-double)) | [FromUniformLength(Double)](thicknesshelper_fromuniformlength_155036416.md) |
+| [Thickness(Double, Double, Double, Double)](/dotnet/api/windows.ui.xaml.thickness.-ctor#windows-ui-xaml-thickness-ctor(system-double-system-double-system-double-system-double)) | [FromLengths(Double, Double, Double, Double)](thicknesshelper_fromlengths_582957363.md) |
 
 ## -examples
 

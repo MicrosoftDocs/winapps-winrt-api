@@ -25,4 +25,4 @@ Do not routinely set this value to `true`, that is not always safe and may not g
 
 ## -see-also
 
-[UnhandledException](application_unhandledexception.md), [Exception Handling (C# Programming Guide)](/dotnet/csharp/fundamentals/exceptions/exception-handling), [Exceptions (C++/CX)](/cpp/cppcx/exceptions-c-cx)
+[UnhandledException](application_unhandledexception.md), [Exception Handling (C# Programming Guide)](/dotnet/csharp/fundamentals/exceptions/exception-handling)

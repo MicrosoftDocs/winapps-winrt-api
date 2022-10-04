@@ -4,7 +4,7 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.DependencyProperty CustomVisualStateManagerProperty { get; }
+public Microsoft.UI.Xaml.DependencyProperty CustomVisualStateManagerProperty { get; }
 -->
 
 # Microsoft.UI.Xaml.VisualStateManager.CustomVisualStateManagerProperty

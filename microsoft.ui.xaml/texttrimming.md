@@ -4,7 +4,7 @@
 ---
 
 <!-- Enumeration syntax
-public enum Windows.UI.Xaml.TextTrimming : int
+public enum Microsoft.UI.Xaml.TextTrimming : int
 -->
 
 # TextTrimming
@@ -25,9 +25,9 @@ Describes how text is trimmed when it overflows the edge of its containing box.
 
 Default.
 
-Text is truncated at a word boundary. 
+Text is truncated at a word boundary.
 
-No trim indicator is drawn and the [RichTextBlock](../microsoft.ui.xaml.controls/richtextblock.md)/[TextBlock](../microsoft.ui.xaml.controls/textblock.md) IsTextTrimmedChanged event does not fire.
+No trim indicator is drawn and the [RichTextBlock](../microsoft.ui.xaml.controls/richtextblock.md)/[TextBlock](../microsoft.ui.xaml.controls/textblock.md) `IsTextTrimmedChanged` event does not fire.
 
 ### -field CharacterEllipsis:1
 

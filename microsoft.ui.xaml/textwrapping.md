@@ -4,7 +4,7 @@
 ---
 
 <!-- Enumeration syntax
-public enum Windows.UI.Xaml.TextWrapping : int
+public enum Microsoft.UI.Xaml.TextWrapping : int
 -->
 
 # TextWrapping
@@ -35,7 +35,7 @@ Line-breaking occurs if the line overflows beyond the available block width. A l
 
 ## -remarks
 
-[TextBox](../microsoft.ui.xaml.controls/textbox.md) and [RichEditBox](../microsoft.ui.xaml.controls/richeditbox.md) don't support the **WrapWholeWords** value for their **TextWrapping** properties. If you try to use **WrapWholeWords** as a value for [TextBox.TextWrapping](../microsoft.ui.xaml.controls/textbox_textwrapping.md) or [RichEditBox.TextWrapping](../microsoft.ui.xaml.controls/richeditbox_textwrapping.md) an invalid argument exception is thrown.
+[TextBox](../microsoft.ui.xaml.controls/textbox.md) and [RichEditBox](../microsoft.ui.xaml.controls/richeditbox.md) don't support the `WrapWholeWords` value for their `TextWrapping` properties. If you try to use `WrapWholeWords` as a value for [TextBox.TextWrapping](../microsoft.ui.xaml.controls/textbox_textwrapping.md) or [RichEditBox.TextWrapping](../microsoft.ui.xaml.controls/richeditbox_textwrapping.md) an invalid argument exception is thrown.
 
 ## -examples
 

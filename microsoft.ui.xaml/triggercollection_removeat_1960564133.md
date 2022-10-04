@@ -10,15 +10,19 @@ public void RemoveAt(System.UInt32 index)
 # Microsoft.UI.Xaml.TriggerCollection.RemoveAt
 
 ## -description
+
 Removes the item at the specified index.
 
 ## -parameters
+
 ### -param index
+
 The index position of the item to remove.
 
 ## -remarks
+
 > [!NOTE]
-> The equivalent Microsoft .NET  API is [RemoveAt](triggercollection_removeat_1.md).
+> The equivalent Microsoft .NET API is [RemoveAt](/dotnet/api/system.collections.ilist.removeat).
 
 ## -examples
 

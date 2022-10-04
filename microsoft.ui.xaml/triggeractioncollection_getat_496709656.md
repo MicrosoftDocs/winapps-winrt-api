@@ -4,24 +4,29 @@
 ---
 
 <!-- Method syntax
-public Windows.UI.Xaml.TriggerAction GetAt(System.UInt32 index)
+public Microsoft.UI.Xaml.TriggerAction GetAt(System.UInt32 index)
 -->
 
 # Microsoft.UI.Xaml.TriggerActionCollection.GetAt
 
 ## -description
+
 Returns the item located at the specified index.
 
 ## -parameters
+
 ### -param index
+
 The integer index for the value to retrieve.
 
 ## -returns
+
 The [TriggerAction](triggeraction.md) value at the specified index.
 
 ## -remarks
+
 > [!NOTE]
-> The equivalent Microsoft .NET  API is [Item](triggeractioncollection_item.md) (the indexer).
+> The equivalent Microsoft .NET API is [Item[]](/dotnet/api/system.collections.ilist.item) (the indexer).
 
 ## -examples
 

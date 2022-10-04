@@ -4,29 +4,36 @@
 ---
 
 <!-- Method syntax
-public bool IndexOf(Windows.UI.Xaml.TriggerAction value, System.UInt32 index)
+public bool IndexOf(Microsoft.UI.Xaml.TriggerAction value, System.UInt32 index)
 -->
 
 # Microsoft.UI.Xaml.TriggerActionCollection.IndexOf
 
 ## -description
+
 Retrieves the index of the specified item.
 
 ## -parameters
+
 ### -param value
+
 The value to find in the collection.
 
 ### -param index
+
 The index of the item to find, if found.
 
 ## -returns
-**true** if an item with the specified value was found; otherwise, **false**.
+
+`true` if an item with the specified value was found; otherwise, `false`.
 
 ## -remarks
+
 > [!NOTE]
-> The equivalent Microsoft .NET  API is [IndexOf](triggeractioncollection_indexof_1.md).
+> The equivalent Microsoft .NET API is [IndexOf](/dotnet/api/system.collections.ilist.indexof).
 
 ## -examples
 
 ## -see-also
-[IndexOf](triggeractioncollection_indexof_1.md)
+
+[IndexOf](/dotnet/api/system.collections.ilist.indexof)
