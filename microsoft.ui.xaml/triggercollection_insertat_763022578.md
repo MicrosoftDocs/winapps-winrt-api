@@ -26,7 +26,7 @@ The value to set.
 ## -remarks
 
 > [!NOTE]
-> The equivalent Microsoft .NET API is [Insert](/dotnet/api/system.collections.ilist.insert).
+> The equivalent Microsoft .NET API is [Insert](/dotnet/api/system.collections.objectmodel.collection-1.insert).
 
 ## -examples
 

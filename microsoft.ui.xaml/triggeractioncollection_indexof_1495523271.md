@@ -30,10 +30,10 @@ The index of the item to find, if found.
 ## -remarks
 
 > [!NOTE]
-> The equivalent Microsoft .NET API is [IndexOf](/dotnet/api/system.collections.ilist.indexof).
+> The equivalent Microsoft .NET API is [IndexOf](/dotnet/api/system.collections.objectmodel.collection-1.indexof).
 
 ## -examples
 
 ## -see-also
 
-[IndexOf](/dotnet/api/system.collections.ilist.indexof)
+[IndexOf](/dotnet/api/system.collections.objectmodel.collection-1.indexof)

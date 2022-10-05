@@ -22,7 +22,7 @@ The new item to add.
 ## -remarks
 
 > [!NOTE]
-> The equivalent Microsoft .NET API is [Add](/dotnet/api/system.collections.ilist.add).
+> The equivalent Microsoft .NET API is [Add](/dotnet/api/system.collections.objectmodel.collection-1.add).
 
 ## -examples
 

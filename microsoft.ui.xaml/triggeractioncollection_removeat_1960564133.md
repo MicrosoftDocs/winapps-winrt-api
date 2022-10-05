@@ -22,10 +22,10 @@ The index of the item to remove.
 ## -remarks
 
 > [!NOTE]
-> The equivalent Microsoft .NET API is [RemoveAt](/dotnet/api/system.collections.ilist.removeat).
+> The equivalent Microsoft .NET API is [RemoveAt](/dotnet/api/system.collections.objectmodel.collection-1.removeat).
 
 ## -examples
 
 ## -see-also
 
-[RemoveAt](/dotnet/api/system.collections.ilist.removeat)
+[RemoveAt](/dotnet/api/system.collections.objectmodel.collection-1.removeat)

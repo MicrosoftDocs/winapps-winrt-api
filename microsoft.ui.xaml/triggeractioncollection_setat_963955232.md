@@ -26,7 +26,7 @@ The value to set.
 ## -remarks
 
 > [!NOTE]
-> The equivalent Microsoft .NET API is [Item[]](/dotnet/api/system.collections.ilist.item) (the indexer).
+> The equivalent Microsoft .NET API is [Item](/dotnet/api/system.collections.objectmodel.collection-1.item) (the indexer).
 
 ## -examples
 
