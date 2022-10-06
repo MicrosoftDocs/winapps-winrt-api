@@ -4,15 +4,17 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.DependencyProperty AccessKeyProperty { get; }
+public Microsoft.UI.Xaml.DependencyProperty AccessKeyProperty { get; }
 -->
 
 # Microsoft.UI.Xaml.UIElement.AccessKeyProperty
 
 ## -description
+
 Identifies for the [AccessKey](uielement_accesskey.md) dependency property.
 
 ## -property-value
+
 The identifier for the [AccessKey](uielement_accesskey.md) dependency property.
 
 ## -remarks
@@ -20,4 +22,5 @@ The identifier for the [AccessKey](uielement_accesskey.md) dependency property.
 ## -examples
 
 ## -see-also
+
 [Access keys](/windows/apps/design/input/access-keys)

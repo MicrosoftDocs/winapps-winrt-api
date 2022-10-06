@@ -4,7 +4,7 @@
 ---
 
 <!-- Event syntax
-public event Windows.Foundation.TypedEventHandler AccessKeyDisplayRequested<Windows.UI.Xaml.UIElement,  Windows.UI.Xaml.Input.AccessKeyDisplayRequestedEventArgs>
+public event Windows.Foundation.TypedEventHandler AccessKeyDisplayRequested<Microsoft.UI.Xaml.UIElement,  Microsoft.UI.Xaml.Input.AccessKeyDisplayRequestedEventArgs>
 -->
 
 # Microsoft.UI.Xaml.UIElement.AccessKeyDisplayRequested
@@ -23,7 +23,7 @@ Occurs when the user requests that access keys be displayed.
 
 This event notifies an element to show access key visuals.
 
-This event is not raised if the element is under an element with its [Visibility](uielement_visibility.md) property set to **Collapsed**.
+This event is not raised if the element is under an element with its [Visibility](uielement_visibility.md) property set to `Collapsed`.
 
 ## -examples
 

@@ -4,7 +4,7 @@
 ---
 
 <!-- Event syntax
-public event Windows.Foundation.TypedEventHandler AccessKeyInvoked<Windows.UI.Xaml.UIElement,  Windows.UI.Xaml.Input.AccessKeyInvokedEventArgs>
+public event Windows.Foundation.TypedEventHandler AccessKeyInvoked<Microsoft.UI.Xaml.UIElement,  Microsoft.UI.Xaml.Input.AccessKeyInvokedEventArgs>
 -->
 
 # Microsoft.UI.Xaml.UIElement.AccessKeyInvoked

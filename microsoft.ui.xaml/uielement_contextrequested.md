@@ -4,7 +4,7 @@
 ---
 
 <!-- Event syntax
-public event Windows.Foundation.TypedEventHandler ContextRequested<Windows.UI.Xaml.UIElement,  Windows.UI.Xaml.Input.ContextRequestedEventArgs>
+public event Windows.Foundation.TypedEventHandler ContextRequested<Microsoft.UI.Xaml.UIElement, Microsoft.UI.Xaml.Input.ContextRequestedEventArgs>
 -->
 
 # Microsoft.UI.Xaml.UIElement.ContextRequested
@@ -66,7 +66,7 @@ public sealed partial class MainPage : Page
 
     private void Color_ContextRequested(UIElement sender, ContextRequestedEventArgs args)
     {
-        Point point = new Point(0,0);
+        var point = new Point(0,0);
 
         if (args.TryGetPosition(sender, out point))
         {
