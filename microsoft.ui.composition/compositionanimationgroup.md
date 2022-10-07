@@ -76,4 +76,4 @@ class PropertyAnimation
 
 
 ## -see-also
-[CompositionObject](compositionobject.md), [IClosable](/uwp/api/windows.foundation.iclosable), [IIterable(CompositionAnimation)](/uwp/api/windows.foundation.collections.iiterable`1), [ICompositionAnimationBase](icompositionanimationbase.md)
+[CompositionObject](compositionobject.md), [IClosable](/uwp/api/windows.foundation.iclosable), [IIterable(CompositionAnimation)](/uwp/api/windows.foundation.collections.iiterable-1), [ICompositionAnimationBase](icompositionanimationbase.md)
