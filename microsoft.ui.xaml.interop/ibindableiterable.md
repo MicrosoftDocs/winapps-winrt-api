@@ -10,7 +10,7 @@ public interface IBindableIterable :
 # Microsoft.UI.Xaml.Interop.IBindableIterable
 
 ## -description
-Extends [IIterable](/uwp/api/windows.foundation.collections.iiterable`1) to enable data-binding infrastructure requirements.
+Extends [IIterable](/uwp/api/windows.foundation.collections.iiterable-1) to enable data-binding infrastructure requirements.
 
 
 

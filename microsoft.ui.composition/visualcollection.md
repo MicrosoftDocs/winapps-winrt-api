@@ -18,4 +18,4 @@ VisualCollections are ordered from bottom to top and iterating or enumerating th
 ## -examples
 
 ## -see-also
-[Composition Visual Tree Overview](/en-us/windows/uwp/composition/composition-visual-tree), [CompositionObject](compositionobject.md), [IClosable](/uwp/api/windows.foundation.iclosable), [IIterable(Visual)](/uwp/api/windows.foundation.collections.iiterable`1)
+[Composition Visual Tree Overview](/en-us/windows/uwp/composition/composition-visual-tree), [CompositionObject](compositionobject.md), [IClosable](/uwp/api/windows.foundation.iclosable), [IIterable(Visual)](/uwp/api/windows.foundation.collections.iiterable-1)

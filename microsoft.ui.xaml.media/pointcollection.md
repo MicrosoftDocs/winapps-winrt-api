@@ -30,4 +30,4 @@ A PointCollection is enumerable, so you can use language-specific syntax such as
 ## -examples
 
 ## -see-also
-[IVector&lt;T&gt;](/uwp/api/windows.foundation.collections.ivector`1), [IIterable<T>](/uwp/api/windows.foundation.collections.iiterable_t_), @T:System.Collections.Generic.IList`1
+[IVector&lt;T&gt;](/uwp/api/windows.foundation.collections.ivector-1), [IIterable<T>](/uwp/api/windows.foundation.collections.iiterable_t_), @T:System.Collections.Generic.IList`1

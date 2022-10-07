@@ -32,4 +32,4 @@ An ItemCollection is enumerable, so you can use language-specific syntax such as
 ## -examples
 
 ## -see-also
-[ItemsControl](itemscontrol.md), [IObservableVector&lt;T&gt;](/uwp/api/windows.foundation.collections.iobservablevector`1), [IVector&lt;T&gt;](/uwp/api/windows.foundation.collections.ivector`1), [IIterable<T>](/uwp/api/windows.foundation.collections.iiterable_t_), [IList<T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true)
+[ItemsControl](itemscontrol.md), [IObservableVector&lt;T&gt;](/uwp/api/windows.foundation.collections.iobservablevector-1), [IVector&lt;T&gt;](/uwp/api/windows.foundation.collections.ivector-1), [IIterable<T>](/uwp/api/windows.foundation.collections.iiterable_t_), [IList<T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true)
