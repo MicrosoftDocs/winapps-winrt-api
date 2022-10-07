@@ -10,7 +10,7 @@ public interface ISelectionItemProvider :
 # Microsoft.UI.Xaml.Automation.Provider.ISelectionItemProvider
 
 ## -description
-Exposes methods and properties to support access by a Microsoft UI Automation client to individual, selectable child controls of containers that implement [ISelectionProvider](iselectionprovider.md). Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](/uwp/api/windows.ui.xaml.automation.peers.automationpeer.getpattern(windows.ui.xaml.automation.peers.patterninterface)) call and [PatternInterface.SelectionItem](../microsoft.ui.xaml.automation.peers/patterninterface.md).
+Exposes methods and properties to support access by a Microsoft UI Automation client to individual, selectable child controls of containers that implement [ISelectionProvider](iselectionprovider.md). Implement this interface in order to support the capabilities that an automation client requests with a [AutomationPeer.GetPattern](../microsoft.ui.xaml.automation.peers/automationpeer_getpattern_1700082720.md) call and [PatternInterface.SelectionItem](../microsoft.ui.xaml.automation.peers/patterninterface.md).
 
 ## -remarks
 This pattern has guidelines and conventions that aren't fully documented here. For more info on what this pattern is for, see [SelectionItem Control Pattern](/windows/desktop/WinAuto/uiauto-implementingselectionitem). However, you don't need to follow the guidance regarding [IRawElementProviderFragmentRoot](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot), that is specific to COM provider implementations and the interface doesn't exist in the Windows Runtime automation provider API.
@@ -20,7 +20,7 @@ ISelectionItemProvider is implemented by these existing Windows Runtime classes:
 + [SelectorItemAutomationPeer](../microsoft.ui.xaml.automation.peers/selectoritemautomationpeer.md)
 
 
-Use [SelectionItemPatternIdentifiers](../microsoft.ui.xaml.automation/selectionitempatternidentifiers.md) if you want to reference the ISelectionItemProvider pattern properties from control code when you fire automation events or call [RaisePropertyChangedEvent](/uwp/api/windows.ui.xaml.automation.peers.automationpeer.raisepropertychangedevent(windows.ui.xaml.automation.automationproperty,system.object,system.object)).
+Use [SelectionItemPatternIdentifiers](../microsoft.ui.xaml.automation/selectionitempatternidentifiers.md) if you want to reference the ISelectionItemProvider pattern properties from control code when you fire automation events or call [AutomationPeer.RaisePropertyChangedEvent](../microsoft.ui.xaml.automation.peers/automationpeer_raisepropertychangedevent_482333374.md).
 
 ## -examples
 
