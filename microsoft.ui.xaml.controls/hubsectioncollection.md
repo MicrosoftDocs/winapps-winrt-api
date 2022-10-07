@@ -36,4 +36,4 @@ A HubSectionCollection is enumerable, so you can use language-specific syntax su
 ## -examples
 
 ## -see-also
-[Control](control.md), [Hub](hub.md), [HubSection](hubsection.md), [HubSectionHeaderClickEventArgs](hubsectionheaderclickeventargs.md), [ISemanticZoomInformation](isemanticzoominformation.md), [IVector(HubSection)](/uwp/api/windows.foundation.collections.ivector`1), [IIterable(HubSection)](/uwp/api/windows.foundation.collections.iiterable`1)
+[Control](control.md), [Hub](hub.md), [HubSection](hubsection.md), [HubSectionHeaderClickEventArgs](hubsectionheaderclickeventargs.md), [ISemanticZoomInformation](isemanticzoominformation.md), [IVector(HubSection)](/uwp/api/windows.foundation.collections.ivector-1), [IIterable(HubSection)](/uwp/api/windows.foundation.collections.iiterable-1)

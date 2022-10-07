@@ -22,7 +22,7 @@ Use the [IsPlaying](bitmapimage_isplaying.md) property along with the Play and [
 If your app runs on releases of Windows 10 prior to version 1607, you must use the [ApiInformation](/uwp/api/windows.foundation.metadata.apiinformation) class to check for the presence of this method before you use it. For more info, see [Version adaptive code: Use new APIs while maintaining compatibility with previous versions](/windows/uwp/debug-test-perf/version-adaptive-code).
 
 ## -examples
-Here's how to use the [ApiInformation.IsMethodPresent](/uwp/api/windows.foundation.metadata.apiinformation.ismethodpresent(system.string,system.string)) to check for the presence of the Play method before you call it.
+Here's how to use the [ApiInformation.IsMethodPresent](/uwp/api/windows.foundation.metadata.apiinformation.ismethodpresent) to check for the presence of the Play method before you call it.
 
 ```csharp
 if (ApiInformation.IsMethodPresent("Windows.UI.Xaml.Media.Imaging.BitmapImage", "Play"))

@@ -39,4 +39,4 @@ A UIElementCollection is enumerable, so you can use language-specific syntax suc
 ## -examples
 
 ## -see-also
-[Children](panel_children.md), [IVector&lt;T&gt;](/uwp/api/windows.foundation.collections.ivector`1), [IIterable&lt;T&gt;](/uwp/api/windows.foundation.collections.iiterable`1), [IList<T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true), [VisualTreeHelper](../microsoft.ui.xaml.media/visualtreehelper.md), [UIElement](../microsoft.ui.xaml/uielement.md)
+[Children](panel_children.md), [IVector&lt;T&gt;](/uwp/api/windows.foundation.collections.ivector-1), [IIterable&lt;T&gt;](/uwp/api/windows.foundation.collections.iiterable-1), [IList<T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true), [VisualTreeHelper](../microsoft.ui.xaml.media/visualtreehelper.md), [UIElement](../microsoft.ui.xaml/uielement.md)
