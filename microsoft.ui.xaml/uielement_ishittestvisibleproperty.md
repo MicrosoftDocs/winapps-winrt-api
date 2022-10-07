@@ -4,7 +4,7 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.DependencyProperty IsHitTestVisibleProperty { get; }
+public Microsoft.UI.Xaml.DependencyProperty IsHitTestVisibleProperty { get; }
 -->
 
 # Microsoft.UI.Xaml.UIElement.IsHitTestVisibleProperty
