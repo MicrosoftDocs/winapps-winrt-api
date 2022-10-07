@@ -4,15 +4,17 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.Media.Animation.TransitionCollection Transitions { get;  set; }
+public Microsoft.UI.Xaml.Media.Animation.TransitionCollection Transitions { get;  set; }
 -->
 
 # Microsoft.UI.Xaml.UIElement.Transitions
 
 ## -description
+
 Gets or sets the collection of [Transition](../microsoft.ui.xaml.media.animation/transition.md) style elements that apply to a [UIElement](uielement.md).
 
 ## -xaml-syntax
+
 ```xaml
 <uielement>
   <uielement.Transitions>
@@ -22,7 +24,6 @@ Gets or sets the collection of [Transition](../microsoft.ui.xaml.media.animation
   </uielement.Transitions>
 </uielement>
 ```
-
 
 ## -xaml-values
 <dl><dt>oneOrMoreTransitions</dt><dd>oneOrMoreTransitionsOne or more object elements instantiating types that are derived from the Transition base type. Typically there is only one of each type of transition included in the collection.</dd>
@@ -36,6 +37,7 @@ The strongly typed collection of [Transition](../microsoft.ui.xaml.media.animati
 > Prior to Windows 10, version 1809 (SDK 17763), the XAML syntax for properties that have a [TransitionCollection](../microsoft.ui.xaml.media.animation/transitioncollection.md) value requires that you declare an explicit [TransitionCollection](../microsoft.ui.xaml.media.animation/transitioncollection.md) object element as the value, and then provide object elements as child elements of [TransitionCollection](../microsoft.ui.xaml.media.animation/transitioncollection.md) for each of the transition animations you want to use. In Windows 10, version 1809 (SDK 17763) or later, [TransitionCollection](../microsoft.ui.xaml.media.animation/transitioncollection.md) supports the implicit collection usage, so you can omit the collection object element. For more info on implicit collections and XAML, see [XAML syntax guide](/windows/uwp/xaml-platform/xaml-syntax-guide).
 
 This is a short list of some of the possible types for transitions:
+
 + [AddDeleteThemeTransition](../microsoft.ui.xaml.media.animation/adddeletethemetransition.md)
 + [ContentThemeTransition](../microsoft.ui.xaml.media.animation/contentthemetransition.md)
 + [EdgeUIThemeTransition](../microsoft.ui.xaml.media.animation/edgeuithemetransition.md)
@@ -49,9 +51,9 @@ Specific classes that derive from [UIElement](uielement.md) sometimes have their
 Transition animations play a particular role in the UI design of your app. The basic idea is that when there is a change or transition, the animation draws the attention of the user to the change.
 <!-- For more info, see  Transition animations and theme animations.-->
 
-It's not common to set the value of the Transitions property directly on a [UIElement](uielement.md) that is a direct element of app UI. It's more common to have a transitions collection be a part of a visual state, template or style. In this case you use mechanisms such as [Setter](setter.md) of a [Style](style.md) to specify the Transitions property, and set the value using XAML-defined content that is typically stored as a XAML resource.
+It's not common to set the value of the `Transitions` property directly on a [UIElement](uielement.md) that is a direct element of app UI. It's more common to have a transitions collection be a part of a visual state, template or style. In this case you use mechanisms such as [Setter](setter.md) of a [Style](style.md) to specify the `Transitions` property, and set the value using XAML-defined content that is typically stored as a XAML resource.
 
-[VisualTransition](visualtransition.md) is not one of the types you put in the UIElement.Transitions collection. [VisualTransition](visualtransition.md) is specifically for animations in visual state groups, and is used by the [VisualStateGroup.Transitions](visualstategroup_transitions.md) property.
+[VisualTransition](visualtransition.md) is not one of the types you put in the `UIElement.Transitions` collection. `VisualTransition` is specifically for animations in visual state groups, and is used by the [VisualStateGroup.Transitions](visualstategroup_transitions.md) property.
 
 ## -examples
 
