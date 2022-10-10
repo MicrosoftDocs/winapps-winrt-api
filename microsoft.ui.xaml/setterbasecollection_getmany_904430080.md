@@ -30,10 +30,10 @@ The number of items returned.
 ## -remarks
 
 > [!NOTE]
-> The equivalent Microsoft .NET API is [CopyTo](/dotnet/api/system.collections.icollection.copyto).
+> The equivalent Microsoft .NET API is [CopyTo](/dotnet/api/system.collections.objectmodel.collection-1.copyto).
 
 ## -examples
 
 ## -see-also
 
-[CopyTo](/dotnet/api/system.collections.icollection.copyto)
+[CopyTo](/dotnet/api/system.collections.objectmodel.collection-1.copyto)

@@ -4,21 +4,25 @@
 ---
 
 <!-- Method syntax
-public void Append(Windows.UI.Xaml.TriggerAction value)
+public void Append(Microsoft.UI.Xaml.TriggerAction value)
 -->
 
 # Microsoft.UI.Xaml.TriggerActionCollection.Append
 
 ## -description
+
 Adds a new item to the collection.
 
 ## -parameters
+
 ### -param value
+
 The new item to add.
 
 ## -remarks
+
 > [!NOTE]
-> The equivalent Microsoft .NET  API is [Add](triggeractioncollection_add.md).
+> The equivalent Microsoft .NET API is [Add](/dotnet/api/system.collections.objectmodel.collection-1.add).
 
 ## -examples
 

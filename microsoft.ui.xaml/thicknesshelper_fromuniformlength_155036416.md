@@ -4,14 +4,14 @@
 ---
 
 <!-- Method syntax
-public Windows.UI.Xaml.Thickness FromUniformLength(System.Double uniformLength)
+public Microsoft.UI.Xaml.Thickness FromUniformLength(System.Double uniformLength)
 -->
 
 # Microsoft.UI.Xaml.ThicknessHelper.FromUniformLength
 
 ## -description
 
-Creates a new [Thickness](thickness.md) value using a uniform value for all the element values. C# and Microsoft Visual Basic code should use the [Thickness(Double)](/dotnet/api/windows.ui.xaml.gridlength.-ctor?view=dotnet-uwp-10.0&preserve-view=true#Windows_UI_Xaml_GridLength__ctor_System_Double_) constructor instead.
+Creates a new [Thickness](thickness.md) value using a uniform value for all the element values. C# code should use the [Thickness(Double)](/dotnet/api/windows.ui.xaml.thickness.-ctor#windows-ui-xaml-thickness-ctor(system-double)) constructor instead.
 
 ## -parameters
 

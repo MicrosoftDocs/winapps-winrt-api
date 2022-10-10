@@ -26,10 +26,10 @@ The [SetterBase](setterbase.md) value at the specified index.
 ## -remarks
 
 > [!NOTE]
-> The equivalent Microsoft .NET API is [Item[]](/dotnet/api/system.collections.ilist.item) (the indexer).
+> The equivalent Microsoft .NET API is [Item](/dotnet/api/system.collections.objectmodel.collection-1.item) (the indexer).
 
 ## -examples
 
 ## -see-also
 
-[Item[]](/dotnet/api/system.collections.ilist.item)
+[Item](/dotnet/api/system.collections.objectmodel.collection-1.item)

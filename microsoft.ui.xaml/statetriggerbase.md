@@ -4,12 +4,13 @@
 ---
 
 <!-- Class syntax.
-public class StateTriggerBase : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.IStateTriggerBase, Windows.UI.Xaml.IStateTriggerBaseProtected
+public class StateTriggerBase : Microsoft.UI.Xaml.DependencyObject, Microsoft.UI.Xaml.IStateTriggerBase, Microsoft.UI.Xaml.IStateTriggerBaseProtected
 -->
 
 # Microsoft.UI.Xaml.StateTriggerBase
 
 ## -description
+
 Represents the base class for state triggers.
 
 ## -remarks
@@ -17,4 +18,5 @@ Represents the base class for state triggers.
 ## -examples
 
 ## -see-also
+
 [StateTrigger](statetrigger.md), [AdaptiveTrigger](adaptivetrigger.md), [DependencyObject](dependencyobject.md)

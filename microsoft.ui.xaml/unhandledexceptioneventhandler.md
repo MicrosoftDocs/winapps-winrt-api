@@ -29,4 +29,4 @@ For more info on how to write a handler based on this delegate, see [Exception H
 
 ## -see-also
 
-[UnhandledException](application_unhandledexception.md), [UnhandledExceptionEventArgs](unhandledexceptioneventargs.md), [Exception Handling (C# Programming Guide)](/dotnet/csharp/fundamentals/exceptions/exception-handling), [Exceptions (C++/CX)](/cpp/cppcx/exceptions-c-cx)
+[UnhandledException](application_unhandledexception.md), [UnhandledExceptionEventArgs](unhandledexceptioneventargs.md), [Exception Handling (C# Programming Guide)](/dotnet/csharp/fundamentals/exceptions/exception-handling)

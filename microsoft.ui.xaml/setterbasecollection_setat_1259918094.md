@@ -28,10 +28,10 @@ The value to set.
 [InsertAt](setterbasecollection_insertat_977777534.md) expands the collection and moves all subsequent index items by one. In contrast, `SetAt` replaces the item at the index, and the collection count remains the same.
 
 > [!NOTE]
-> The equivalent Microsoft .NET API is [Item[]](/dotnet/api/system.collections.ilist.item) (the indexer).
+> The equivalent Microsoft .NET API is [Item](/dotnet/api/system.collections.objectmodel.collection-1.item) (the indexer).
 
 ## -examples
 
 ## -see-also
 
-[Item[]](/dotnet/api/system.collections.ilist.item)
+[Item](/dotnet/api/system.collections.objectmodel.collection-1.item)
