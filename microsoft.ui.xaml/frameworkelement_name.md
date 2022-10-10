@@ -37,7 +37,7 @@ Names must be unique in a XAML namescope. Generally, the XAML namescope is defin
 
 Setting `x:Name` or `Name` in the XAML that defines UI elements supports several major scenarios:
 
-+ **Animation targeting** To apply an animation to an object property, you must target a specific instance. You do that by setting the [Storyboard.TargetName](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard#xaml-attached-properties) attached property on any [Timeline](../microsoft.ui.xaml.media.animation/timeline.md). The value that you set here is the string that you assigned as the `x:Name` or `Name`. For more info, see [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations).
++ **Animation targeting** To apply an animation to an object property, you must target a specific instance. You do that by setting the [Storyboard.TargetName](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard) attached property on any [Timeline](../microsoft.ui.xaml.media.animation/timeline.md). The value that you set here is the string that you assigned as the `x:Name` or `Name`. For more info, see [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations).
 + **Parts of a control template** In order to support the visual state model and control initialization, control authors should specify `Name` values for the key parts of a templated control. For more info see [XAML Control templates](/windows/apps/design/style/xaml-control-templates).
 + **General run time interaction** For example, code within an event handler might handle an event on an object that provides the change UI, but the change to properties occurs on another nearby UI element. The easiest way to write code for this situation is to use the field reference generated from a `Name`.
 
@@ -65,7 +65,7 @@ Note that you can only set `Name` at run time for objects that are a [FrameworkE
 
 ## -examples
 
-This example gets a value for `Name` from an existing object, and uses that name to retarget an animation. You target an animation by setting the [Storyboard.TargetName](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard#xaml-attached-properties) attached property.
+This example gets a value for `Name` from an existing object, and uses that name to retarget an animation. You target an animation by setting the [Storyboard.TargetName](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard) attached property.
 
 [!code-csharp[Change_targetname_1_cs](../microsoft.ui.xaml/code/change_targetname_1/csharp/Page.xaml.cs#SnippetChange_targetname_1_cs)]
 
@@ -73,5 +73,5 @@ This example gets a value for `Name` from an existing object, and uses that name
 
 ## -see-also
 
-[x:Name attribute](/windows/uwp/xaml-platform/x-name-attribute), [FindName](frameworkelement_findname_634111277.md), [Storyboard.TargetName](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard#xaml-attached-properties), [XAML namescopes](/windows/uwp/xaml-platform/xaml-namescopes), [XAML overview](/windows/uwp/xaml-platform/xaml-overview)
+[x:Name attribute](/windows/uwp/xaml-platform/x-name-attribute), [FindName](frameworkelement_findname_634111277.md), [Storyboard.TargetName](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard), [XAML namescopes](/windows/uwp/xaml-platform/xaml-namescopes), [XAML overview](/windows/uwp/xaml-platform/xaml-overview)
 1b37-f1a8-44a4-bb8e-1d4de30e7823)
