@@ -11,7 +11,7 @@ public void Expand ();
 
 ## -description
 
-Expands the associated [Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer](treeviewitemdataautomationpeer.md).  
+Expands the associated [TreeViewItemDataAutomationPeer](treeviewitemdataautomationpeer.md).  
 
 ## -remarks
 
