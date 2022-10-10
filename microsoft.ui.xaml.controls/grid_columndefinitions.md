@@ -35,7 +35,7 @@ A list of [ColumnDefinition](columndefinition.md) objects defined on this instan
 
 ## -examples
 
-The following example creates a [Grid](grid.md) with two columns by using [Microsoft.UI.Xaml.Controls.Grid.ColumnDefinitions](grid_columndefinitions.md) [ColumnDefinition](columndefinition.md)s. You can do this using the new succinct syntax or the original syntax - both are accurate and produce the equivalent result. See examples of both below:
+The following example creates a [Grid](grid.md) with two columns by using [ColumnDefinition](columndefinition.md)s. You can do this using the new succinct syntax or the original syntax - both are accurate and produce the equivalent result. See examples of both below:
 
 Using new succinct syntax:
 

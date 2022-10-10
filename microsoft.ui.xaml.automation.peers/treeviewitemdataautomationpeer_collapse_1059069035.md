@@ -11,7 +11,7 @@ public void Collapse ();
 
 ## -description
 
-Collapses the associated [Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer](treeviewitemdataautomationpeer.md).
+Collapses the associated [TreeViewItemDataAutomationPeer](treeviewitemdataautomationpeer.md).
 
 ## -remarks
 
