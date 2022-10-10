@@ -67,4 +67,4 @@ When you specify a path value for the *path* parameter, you specify the string, 
 ## -examples
 
 ## -see-also
-[Storyboard.TargetProperty attached property](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard#xaml-attached-properties), [GetTargetProperty](storyboard_gettargetproperty_428014327.md), [SetTargetName](storyboard_settargetname_317263893.md), [Property-path syntax](/windows/uwp/xaml-platform/property-path-syntax), [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations)
+[Storyboard.TargetProperty attached property](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard), [GetTargetProperty](storyboard_gettargetproperty_428014327.md), [SetTargetName](storyboard_settargetname_317263893.md), [Property-path syntax](/windows/uwp/xaml-platform/property-path-syntax), [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations)

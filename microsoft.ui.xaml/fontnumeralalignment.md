@@ -11,7 +11,7 @@ public enum Microsoft.UI.Xaml.FontNumeralAlignment : int
 
 ## -description
 
-Describes the numeral alignment value for the [Typography.NumeralAlignment](/windows/winui/api/microsoft.ui.xaml.documents.typography#xaml-attached-properties) attached property.
+Describes the numeral alignment value for the [Typography.NumeralAlignment](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -xaml-syntax
 
@@ -36,7 +36,7 @@ Tabular alignment is used.
 
 ## -remarks
 
-This enumeration is used by the [Typography.NumeralAlignment](/windows/winui/api/microsoft.ui.xaml.documents.typography#xaml-attached-properties) attached property.
+This enumeration is used by the [Typography.NumeralAlignment](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -examples
 

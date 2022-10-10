@@ -11,7 +11,7 @@ public enum Microsoft.UI.Xaml.FontCapitals : int
 
 ## -description
 
-Describes the capital letter style value for the [Typography.Capitals](/windows/winui/api/microsoft.ui.xaml.documents.typography#xaml-attached-properties) attached property.
+Describes the capital letter style value for the [Typography.Capitals](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -xaml-syntax
 
@@ -52,7 +52,7 @@ Glyph forms are substituted with a typographic form specifically designed for ti
 
 ## -remarks
 
-This enumeration is used by the [Typography.Capitals](/windows/winui/api/microsoft.ui.xaml.documents.typography#xaml-attached-properties) attached property.
+This enumeration is used by the [Typography.Capitals](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -examples
 
