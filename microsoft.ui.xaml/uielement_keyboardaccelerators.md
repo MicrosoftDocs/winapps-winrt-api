@@ -20,20 +20,20 @@ Accelerators are typically assigned to buttons or menu items.
 
 ## -property-value
 
-The collection of [**KeyboardAccelerator**](/windows/winui/api/microsoft.ui.xaml.input.keyboardaccelerator) objects.
+The collection of [**KeyboardAccelerator**](../microsoft.ui.xaml.input/keyboardaccelerator.md) objects.
 
 ## -remarks
 
-As keyboard accelerators are not typically described directly in the UI of your UWP application, you can improve discoverability through [tooltips](../controls-and-patterns/tooltips.md), which display automatically when the user moves focus to, presses and holds, or hovers the mouse pointer over a control. The tooltip can identify whether a control has an associated keyboard accelerator and, if so, what the accelerator key combination is.
+As keyboard accelerators are not typically described directly in the UI of your application, you can improve discoverability through [tooltips](../controls-and-patterns/tooltips.md), which display automatically when the user moves focus to, presses and holds, or hovers the mouse pointer over a control. The tooltip can identify whether a control has an associated keyboard accelerator and, if so, what the accelerator key combination is.
 
 Windows 10, version 1703, introduced keyboard accelerator shortcuts. However, these shortcuts were not displayed with the UI of their corresponding controls.
 
-Starting with Windows 10, version 1803, when KeyboardAccelerators are declared, controls present the corresponding key combinations by default in a tooltip (unless they are associated with [MenuFlyoutItem](/uwp/api/Windows.UI.Xaml.Controls.MenuFlyoutItem) and [ToggleMenuFlyoutItem](/windows/winui/api/microsoft.ui.xaml.controls.togglemenuflyoutitem) objects).
+Starting with Windows 10, version 1803, when KeyboardAccelerators are declared, controls present the corresponding key combinations by default in a tooltip (unless they are associated with [MenuFlyoutItem](../microsoft.ui.xaml.controls/menuflyoutitem.md) and [ToggleMenuFlyoutItem](../microsoft.ui.xaml.controls/togglemenuflyoutitem.md) objects).
 
 > [!NOTE]
 > Specifying a tooltip overrides this behavior.
 
-For [MenuFlyoutItem](/windows/winui/api/microsoft.ui.xaml.controls.appbarbutton) and [ToggleMenuFlyoutItem](/windows/winui/api/microsoft.ui.xaml.controls.togglemenuflyoutitem)) objects, the keyboard accelerator is displayed with the flyout text.
+For [MenuFlyoutItem](../microsoft.ui.xaml.controls/appbarbutton.md) and [ToggleMenuFlyoutItem](../microsoft.ui.xaml.controls/togglemenuflyoutitem.md) objects, the keyboard accelerator is displayed with the flyout text.
 
 If a control has more than one accelerator defined, the first registered accelerator is presented.
 
@@ -47,7 +47,7 @@ By default, an accelerator has global scope. However, you can constrain scope us
 
 ## -examples
 
-Here we specify keyboard accelerators for a set of buttons (we specify a tooltip for Button1, which overrides the default keyboard accelerator display behavior).
+Here we specify keyboard accelerators for a set of buttons (we specify a tooltip for `Button1`, which overrides the default keyboard accelerator display behavior).
 
 ```xaml
 <StackPanel x:Name="Container" Grid.Row="0" Background="AliceBlue">
@@ -73,7 +73,7 @@ Here we specify keyboard accelerators for a set of buttons (we specify a tooltip
 </StackPanel>
 ```
 
-In this example, we specify keyboard accelerators for a set of MenuFlyoutItem and ToggleMenuFlyoutItem objects. The keyboard accelerator is displayed in the control's flyout.
+In this example, we specify keyboard accelerators for a set of `MenuFlyoutItem` and `ToggleMenuFlyoutItem` objects. The keyboard accelerator is displayed in the control's flyout.
 
 ```xaml
 <AppBarButton AccessKey="R" Icon="Refresh" Label="Refresh" IsAccessKeyScope="True">
@@ -97,7 +97,7 @@ In this example, we specify keyboard accelerators for a set of MenuFlyoutItem an
 </AppBarButton>
 ```
 
-Control the presentation behavior by using the [KeyboardAcceleratorPlacementMode](/uwp/api/windows.ui.xaml.uielement.KeyboardAcceleratorPlacementMode) property, which accepts two values: [Auto](/windows/winui/api/microsoft.ui.xaml.input.keyboardacceleratorplacementmode) or [Hidden](/windows/winui/api/microsoft.ui.xaml.input.keyboardacceleratorplacementmode).
+Control the presentation behavior by using the [KeyboardAcceleratorPlacementMode](uielement_keyboardacceleratorplacementmode.md) property, which accepts two values: [Auto](../microsoft.ui.xaml.input/keyboardacceleratorplacementmode.md) or [Hidden](../microsoft.ui.xaml.input/keyboardacceleratorplacementmode.md).
 
 ```xaml
 <Button Content="Save" Click="OnSave" KeyboardAcceleratorPlacementMode="Auto">
@@ -109,7 +109,7 @@ Control the presentation behavior by using the [KeyboardAcceleratorPlacementMode
 
 In some cases, you might need to present a tooltip relative to another element (typically a container object).
 
-Here, we show how to use the KeyboardAcceleratorPlacementTarget property to display the keyboard accelerator key combination for a Save button with the Grid container instead of the button.
+Here, we show how to use the `KeyboardAcceleratorPlacementTarget` property to display the keyboard accelerator key combination for a Save button with the `Grid` container instead of the button.
 
 ```xaml
 <Grid x:Name="Container" Padding="30">

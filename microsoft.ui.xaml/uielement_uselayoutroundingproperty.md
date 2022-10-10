@@ -4,15 +4,17 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.DependencyProperty UseLayoutRoundingProperty { get; }
+public Microsoft.UI.Xaml.DependencyProperty UseLayoutRoundingProperty { get; }
 -->
 
 # Microsoft.UI.Xaml.UIElement.UseLayoutRoundingProperty
 
 ## -description
+
 Identifies the [UseLayoutRounding](uielement_uselayoutrounding.md) dependency property.
 
 ## -property-value
+
 The identifier for the [UseLayoutRounding](uielement_uselayoutrounding.md) dependency property.
 
 ## -remarks

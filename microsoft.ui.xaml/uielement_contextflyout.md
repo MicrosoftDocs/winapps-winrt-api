@@ -4,16 +4,18 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.Controls.Primitives.FlyoutBase ContextFlyout { get;  set; }
+public Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase ContextFlyout { get;  set; }
 -->
 
 # Microsoft.UI.Xaml.UIElement.ContextFlyout
 
 ## -description
+
 Gets or sets the flyout associated with this element.
 
 ## -property-value
-The flyout associated with this element, if any; otherwise, **null**. The default is **null**.
+
+The flyout associated with this element, if any; otherwise, `null`. The default is `null`.
 
 ## -remarks
 

@@ -4,15 +4,17 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.DependencyProperty RenderTransformOriginProperty { get; }
+public Microsoft.UI.Xaml.DependencyProperty RenderTransformOriginProperty { get; }
 -->
 
 # Microsoft.UI.Xaml.UIElement.RenderTransformOriginProperty
 
 ## -description
+
 Identifies the [RenderTransformOrigin](uielement_rendertransformorigin.md) dependency property.
 
 ## -property-value
+
 The identifier for the [RenderTransformOrigin](uielement_rendertransformorigin.md) dependency property.
 
 ## -remarks
