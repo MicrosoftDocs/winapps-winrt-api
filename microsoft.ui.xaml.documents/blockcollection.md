@@ -24,4 +24,4 @@ You can iterate through a BlockCollection object in C# or Microsoft Visual Basic
 ## -examples
 
 ## -see-also
-[IVector&lt;T&gt;](/uwp/api/windows.foundation.collections.ivector`1), [IIterable&lt;T&gt;](/uwp/api/windows.foundation.collections.iiterable`1), [IList<T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true), [Block](block.md), [Blocks](../microsoft.ui.xaml.controls/richtextblock_blocks.md)
+[IVector&lt;T&gt;](/uwp/api/windows.foundation.collections.ivector-1), [IIterable&lt;T&gt;](/uwp/api/windows.foundation.collections.iiterable-1), [IList<T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true), [Block](block.md), [Blocks](../microsoft.ui.xaml.controls/richtextblock_blocks.md)

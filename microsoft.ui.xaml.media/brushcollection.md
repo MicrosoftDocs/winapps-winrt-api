@@ -24,4 +24,4 @@ A BrushCollection is enumerable, so you can use language-specific syntax such as
 ## -examples
 
 ## -see-also
-[IVector(Brush)](/uwp/api/windows.foundation.collections.ivector`1), [IIterable(Brush)](/uwp/api/windows.foundation.collections.iiterable`1)
+[IVector(Brush)](/uwp/api/windows.foundation.collections.ivector-1), [IIterable(Brush)](/uwp/api/windows.foundation.collections.iiterable-1)

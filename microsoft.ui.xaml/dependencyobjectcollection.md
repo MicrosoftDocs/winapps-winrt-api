@@ -30,4 +30,4 @@ A `DependencyObjectCollection` is enumerable, so you can use language-specific s
 
 ## -see-also
 
-[DependencyObject](dependencyobject.md), [IObservableVector(DependencyObject)](/uwp/api/windows.foundation.collections.iobservablevector`1), [IVector(DependencyObject)](/uwp/api/windows.foundation.collections.ivector`1), [IIterable(DependencyObject)](/uwp/api/windows.foundation.collections.iiterable`1), [IList<T>](/dotnet/api/system.collections.generic.ilist-1)
+[DependencyObject](dependencyobject.md), [IObservableVector(DependencyObject)](/uwp/api/windows.foundation.collections.iobservablevector-1), [IVector(DependencyObject)](/uwp/api/windows.foundation.collections.ivector-1), [IIterable(DependencyObject)](/uwp/api/windows.foundation.collections.iiterable-1), [IList<T>](/dotnet/api/system.collections.generic.ilist-1)

@@ -72,4 +72,4 @@ void SetupMultipleSourceInteractionTracker(Visual horizontalVisual, Visual verti
 
 
 ## -see-also
-[CompositionObject](../microsoft.ui.composition/compositionobject.md), [IClosable](/uwp/api/windows.foundation.iclosable), [IIterable(ICompositionInteractionSource)](/uwp/api/windows.foundation.collections.iiterable`1)
+[CompositionObject](../microsoft.ui.composition/compositionobject.md), [IClosable](/uwp/api/windows.foundation.iclosable), [IIterable(ICompositionInteractionSource)](/uwp/api/windows.foundation.collections.iiterable-1)

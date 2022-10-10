@@ -16,7 +16,7 @@ Returns any collection groups that are associated with the view.
 A vector collection of possible views.
 
 ## -remarks
-The CollectionGroups property is of type [IObservableVector<object>](/uwp/api/windows.foundation.collections.iobservablevector`1), but these objects should implement [ICollectionViewGroup](icollectionviewgroup.md).
+The CollectionGroups property is of type [IObservableVector<object>](/uwp/api/windows.foundation.collections.iobservablevector-1), but these objects should implement [ICollectionViewGroup](icollectionviewgroup.md).
 
 
 
