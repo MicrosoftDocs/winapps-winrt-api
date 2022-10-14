@@ -18,7 +18,7 @@ Represents an object that uses a [MediaPlayer](/uwp/api/windows.media.playback.m
 ## -xaml-syntax
 
 ```xaml
-<MediaPlayerElement .../>
+<MediaPlayerElement .../>
 ```
 
 ## -remarks
