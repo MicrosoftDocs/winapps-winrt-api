@@ -173,4 +173,4 @@ private void AppBarButton_PointerExited(object sender, PointerRoutedEventArgs e)
 
 ## -see-also
 
-[Animated icon overview](/windows/apps/design/controls/animated-icon), [AnimatedVisualPlayer](animatedvisualplayer.md), [VisualStateManager](../microsoft.ui.xaml/visualstatemanager.md), [Lottie-Windows](/windows/communitytoolkit/animations/lottie), [Interactive Segments on an Animation Timeline](/windows/communitytoolkit/animations/lottie-scenarios/segments) [IAnimatedVisual2](ianimatedvisual2.md)
+[Animated icon overview](/windows/apps/design/controls/animated-icon), [AnimatedVisualPlayer](animatedvisualplayer.md), [VisualStateManager](../microsoft.ui.xaml/visualstatemanager.md), [Lottie-Windows](/windows/communitytoolkit/animations/lottie), [Interactive Segments on an Animation Timeline](/windows/communitytoolkit/animations/lottie-scenarios/segments), [IAnimatedVisual](ianimatedvisual.md)

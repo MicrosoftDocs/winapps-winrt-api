@@ -31,11 +31,11 @@ The Application class encapsulates an app and provides the following services:
 
 The Application object is typically provided in the initial XAML for App.xaml. The default project templates in Visual Studio generate an `App` class that derives from Application and provides an entry point where you can add initialization code.
 
-The `App` class associates itself with the corresponding XAML by calling the generated `InitializeComponent` method in its constructor. You can add additional initialization code to the `App` constructor, but you will typically only add code to associate handlers to Application events. For other initialization code, you should override one or more initialization methods such as [OnLaunched](application_onlaunched_859642554.md).
+The `App` class associates itself with the corresponding XAML by calling the generated `InitializeComponent` method in its constructor. You can add additional initialization code to the `App` constructor, but you will typically only add code to associate handlers to Application events. For other initialization code, you should override one or more initialization methods such as [OnLaunched](application_onlaunched_1344752508.md).
 
 The system handles app lifetime by suspending your app whenever the user switches to another app or to the desktop, and resuming your app whenever the user switches back to it. However, the system can also terminate your app while it is suspended in order to free up resources. 
 
-For UWP apps, you should handle the [Suspending](application_suspending.md) event to save your app state in case of termination, and override the [OnLaunched](application_onlaunched_859642554.md) method to restore your app state. You should handle the [Resuming](application_resuming.md) event only if you need to refresh any displayed content that might have changed while the app is suspended. You do not need to restore other app state when the app resumes.
+For UWP apps, you should handle the [Suspending](application_suspending.md) event to save your app state in case of termination, and override the [OnLaunched](application_onlaunched_1344752508.md) method to restore your app state. You should handle the [Resuming](application_resuming.md) event only if you need to refresh any displayed content that might have changed while the app is suspended. You do not need to restore other app state when the app resumes.
 
 Because of its position in the application model, codegen, and activation sequence, Application has some restrictions on its XAML usage:
 
