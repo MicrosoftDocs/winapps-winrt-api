@@ -25,7 +25,7 @@ For Desktop apps, Window implements [IWindowNative](/windows/apps/winui/referenc
 
 For UWP apps, both the static [Application](application_application_1221375020.md) property and the static [Current](application_current.md) property return the Window object. From this object, an app can use the [Dispatcher](window_dispatcher.md) object or determine the size of the Window from the [Bounds](window_bounds.md) property.
 
-Typically, Window is used to set a [UIElement](uielement.md) to the [Content](window_content.md) that represents the app UI. This is usually done as part of app activation (for example in the [OnLaunched](application_onlaunched_859642554.md) override) and allows you to change the window content throughout the lifetime of the window.
+Typically, Window is used to set a [UIElement](uielement.md) to the [Content](window_content.md) that represents the app UI. This is usually done as part of app activation (for example in the [OnLaunched](application_onlaunched_1344752508.md) override) and allows you to change the window content throughout the lifetime of the window.
 
 Ensure you call [Activate](window_activate_1797342875.md) on any Window used on initial activation. If you use the default app templates from Microsoft Visual Studio, [Window.Activate](window_activate_1797342875.md) is included in the app.xaml code-behind file.
 

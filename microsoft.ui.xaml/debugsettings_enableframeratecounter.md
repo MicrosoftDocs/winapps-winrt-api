@@ -30,7 +30,7 @@ The format for the frame-rate counter displayed in the window chrome is:
 
 The *App fps* value is specifically reporting on the UI thread. There could be a much higher apparent refresh rate happening in your app that's related to the composition thread, but not to the UI thread. For more info on what each thread is responsible for, see [Performance best practices for Windows Store apps](/previous-versions/windows/apps/hh750313(v=win.10)).
 
-[OnLaunched](application_onlaunched_859642554.md) is a good place to change [DebugSettings](debugsettings.md) values. Another possibility is the `App()` constructor.
+[OnLaunched](application_onlaunched_1344752508.md) is a good place to change [DebugSettings](debugsettings.md) values. Another possibility is the `App()` constructor.
 
 ## -examples
 
