@@ -25,7 +25,7 @@ By default, the title bar shows the app's display name as the window title. The 
 
 In addition to the title bar, this string is used in other system UI such as the application switcher (Alt-Tab).
 
-In a Desktop app this is a wrapper for [SetWindowText](/windows/win32/api/winuser/nf-winuser-setwindowtextw).
+This is a wrapper for [SetWindowText](/windows/win32/api/winuser/nf-winuser-setwindowtextw).
 
 If [ExtendsContentIntoTitleBar](window_extendscontentintotitlebar.md) is set to `true`, this value is not displayed by the title bar.
 
