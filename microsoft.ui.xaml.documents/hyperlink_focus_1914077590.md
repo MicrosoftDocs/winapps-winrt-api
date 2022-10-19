@@ -20,11 +20,11 @@ Specifies how focus was set, as a value of the enumeration.
 **true** if focus was set to the hyperlink, or focus was already on the hyperlink. **false** if the hyperlink is not focusable.
 
 ## -remarks
-For more info, see [Control.Focus](/uwp/api/windows.ui.xaml.controls.control.focus(windows.ui.xaml.focusstate)).
+For more info, see [UIElement.Focus(Microsoft.UI.Xaml.FocusState)](uielement_focus_1914077590.md).
 
 
 ## -examples
 
 ## -see-also
-[Control.Focus](/uwp/api/windows.ui.xaml.controls.control.focus(windows.ui.xaml.focusstate)), [Hyperlink.GotFocus](hyperlink_gotfocus.md), [Hyperlink.LostFocus](hyperlink_lostfocus.md), [Keyboard interactions](/windows/uwp/input-and-devices/keyboard-interactions), [Keyboard accessibility](/windows/uwp/accessibility/keyboard-accessibility), [Touch keyboard sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/TouchKeyboard)
+[UIElement.Focus(Microsoft.UI.Xaml.FocusState)](uielement_focus_1914077590.md), [Hyperlink.GotFocus](hyperlink_gotfocus.md), [Hyperlink.LostFocus](hyperlink_lostfocus.md), [Keyboard interactions](/windows/uwp/input-and-devices/keyboard-interactions), [Keyboard accessibility](/windows/uwp/accessibility/keyboard-accessibility), [Touch keyboard sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/TouchKeyboard)
 

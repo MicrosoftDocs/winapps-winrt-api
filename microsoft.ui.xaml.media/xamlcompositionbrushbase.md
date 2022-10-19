@@ -10,14 +10,14 @@ public class XamlCompositionBrushBase : Brush, Brush
 # Microsoft.UI.Xaml.Media.XamlCompositionBrushBase
 
 ## -description
-Provides a base class used to create XAML brushes that paint an area with a [CompositionBrush](./../windows.ui.composition/compositionbrush.md).
+Provides a base class used to create XAML brushes that paint an area with a [CompositionBrush](../microsoft.ui.composition/compositionbrush.md).
 
 ## -remarks
 You can use XamlCompositionBrushBase to create custom brushes. 
 
 For example, it can be used to create a brush that applies [effects](/windows/uwp/composition/composition-effects) to XAML UIElements using a [CompositionEffectBrush](/uwp/api/Windows.UI.Composition.CompositionEffectBrush), or a [SceneLightingEffect](/uwp/api/Windows.UI.Composition.Effects.SceneLightingEffect) that controls the reflective properties of elements when being lit by a [XamlLight](xamllight.md), or a whole series of effects chained together to produce something more complex.
 
-When creating a brush, it's usually a good practice to delay creating a [CompositionBrush](./../windows.ui.composition/compositionbrush.md) and any related resources until the brush is being used. The [OnConnected](xamlcompositionbrushbase_onconnected_591765711.md) method is called when a brush is first used on screen to paint an element, so you can override [OnConnected](xamlcompositionbrushbase_onconnected_591765711.md) to safely create resources only when they're needed. This means you can create an instance of a brush in a ResourceDictionary then reference that brush resource later from other parts of UI definitions and only pay the cost of creating composition resources when the brush is actually in use.
+When creating a brush, it's usually a good practice to delay creating a [CompositionBrush](../microsoft.ui.composition/compositionbrush.md) and any related resources until the brush is being used. The [OnConnected](xamlcompositionbrushbase_onconnected_591765711.md) method is called when a brush is first used on screen to paint an element, so you can override [OnConnected](xamlcompositionbrushbase_onconnected_591765711.md) to safely create resources only when they're needed. This means you can create an instance of a brush in a ResourceDictionary then reference that brush resource later from other parts of UI definitions and only pay the cost of creating composition resources when the brush is actually in use.
 
 It's also a good practice to dispose of composition resources when they're no longer in use. The [OnDisconnected](xamlcompositionbrushbase_ondisconnected_510183142.md) method is called when a brush instance is no longer in use anywhere on the screen, so you can override [OnDisconnected](xamlcompositionbrushbase_ondisconnected_510183142.md) to safely dispose of resources. If the brush is later used again after being disconnected then [OnConnected](xamlcompositionbrushbase_onconnected_591765711.md) will be called again.
 
