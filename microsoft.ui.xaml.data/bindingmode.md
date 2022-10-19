@@ -34,7 +34,7 @@ For **OneWay** and **TwoWay** bindings, dynamic changes to the source don't auto
 
 For **TwoWay** bindings, changes to the target automatically propagate to the source, except if the binding target is the [Text](../microsoft.ui.xaml.controls/textbox_text.md) property. In that case, the update happens only when the [TextBox](../microsoft.ui.xaml.controls/textbox.md) loses focus.
 
-For **OneTime** and **OneWay** bindings, calls to [DependencyObject.SetValue](/uwp/api/windows.ui.xaml.dependencyobject.setvalue(windows.ui.xaml.dependencyproperty,system.object)) automatically change the target value and delete the binding.
+For **OneTime** and **OneWay** bindings, calls to [SetValue](../microsoft.ui.xaml/dependencyobject_setvalue_1212521140.md) automatically change the target value and delete the binding.
 
 ## -examples
 This example demonstrates how to set the binding mode in XAML.

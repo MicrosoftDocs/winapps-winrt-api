@@ -18,7 +18,7 @@ The identifier for the [RelativePanel.RightOf](relativepanel_rightof.md) XAML at
 ## -remarks
 This property is only an identifier for the property system, and isn't used in most app scenarios. In most cases you set the [RelativePanel.RightOf](relativepanel_rightof.md) XAML attached property in XAML and won't need this identifier.
 
-To access the [RelativePanel.RightOf](relativepanel_rightof.md) attached property in code, you can use the dependency property system, calling either [GetValue](/uwp/api/windows.ui.xaml.dependencyobject.getvalue(windows.ui.xaml.dependencyproperty)) or [SetValue](/uwp/api/windows.ui.xaml.dependencyobject.setvalue(windows.ui.xaml.dependencyproperty,system.object)) and passing RelativePanel.RightOfProperty as the dependency property identifier. Another way to get or set the value in code is to use [GetRightOf](relativepanel_getrightof_1703133891.md) and [SetRightOf](relativepanel_setrightof_544665481.md).
+To access the [RelativePanel.RightOf](relativepanel_rightof.md) attached property in code, you can use the dependency property system, calling either [GetValue](../microsoft.ui.xaml/dependencyobject_getvalue_229640130.md) or [SetValue](../microsoft.ui.xaml/dependencyobject_setvalue_1212521140.md) and passing RelativePanel.RightOfProperty as the dependency property identifier. Another way to get or set the value in code is to use [GetRightOf](relativepanel_getrightof_1703133891.md) and [SetRightOf](relativepanel_setrightof_544665481.md).
 
 ## -examples
 
