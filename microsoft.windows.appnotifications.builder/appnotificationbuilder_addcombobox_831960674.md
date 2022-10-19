@@ -12,7 +12,7 @@ public Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder AddComb
 
 ## -description
 
-Adds a combo box to the app notification.
+Adds a combo box to the XML payload for an app notification. 
 
 ## -parameters
 

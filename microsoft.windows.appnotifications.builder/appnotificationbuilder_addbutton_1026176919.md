@@ -34,7 +34,7 @@ For reference information about the XML schema for app notifications, see [App n
 
 ## -examples
 
-The following example demonstrates adding a button to an app notification.
+The following example demonstrates adding a button to the XML payload for an app notification. 
 
 ```csharp
 var builder = new AppNotificationBuilder()

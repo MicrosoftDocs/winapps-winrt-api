@@ -12,7 +12,7 @@ public Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder AddArgu
 
 ## -description
 
-Adds an argument composed of a key/value pair to an app notification. 
+Adds an argument composed of a key/value pair to the XML payload for an app notification. 
 
 ## -parameters
 
