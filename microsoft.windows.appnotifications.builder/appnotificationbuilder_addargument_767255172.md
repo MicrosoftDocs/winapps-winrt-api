@@ -30,7 +30,7 @@ Returns the **AppNotificationBuilder** instance so that additional method calls 
 
 ## -remarks
 
-App notification arguments added with this method are passed to the activated application when the user clicks on the notification. You can add multiple arguments to each notification. Retrieve the arguments added with this method by accessing the <xref:Microsoft.Windows.AppNotifications.AppNotificationActivatedEventArgs.Arguments?displayProperty=nameWithType> property.
+App notification arguments added with this method are passed to the activated application when the user clicks on the notification. You can add multiple arguments to each notification. Retrieve the arguments added with this method by accessing the [AppNotificationActivatedEventArgs.Arguments](xref:Microsoft.Windows.AppNotifications.AppNotificationActivatedEventArgs.Arguments) property.
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notificiation content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

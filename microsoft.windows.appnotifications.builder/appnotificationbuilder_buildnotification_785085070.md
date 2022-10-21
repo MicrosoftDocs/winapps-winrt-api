@@ -30,4 +30,13 @@ For reference information about the XML schema for app notifications, see [App n
 
 ## -examples
 
+The following example demonstrates building an **AppNotification** from an instance of **AppNotificationBuilder**. 
+
+```csharp
+var builder = new AppNotificationBuilder()
+                .AddText("Notification text.");
+
+AppNotificationManager.Default.Show(builder.BuildNotification());
+```
+
 

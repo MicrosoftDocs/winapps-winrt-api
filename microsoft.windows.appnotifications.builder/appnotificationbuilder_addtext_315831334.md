@@ -52,7 +52,7 @@ The resulting XML payload:
             <text>Notification text.</text>
         </binding>
     </visual>
-</toast>"
+</toast>
 ```
 
 

@@ -56,7 +56,7 @@ The resulting XML payload:
             <text hint-maxLines='2'>Notification text.</text>
         </binding>
     </visual>
-</toast>"
+</toast>
 ```
 
 

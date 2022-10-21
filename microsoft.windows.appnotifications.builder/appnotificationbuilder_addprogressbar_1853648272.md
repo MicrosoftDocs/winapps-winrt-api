@@ -67,7 +67,7 @@ The resulting XML payload:
             <progress title='{progressTitle}' status='{progressStatus}' value='{progressValue}' valueStringOverride='{progressValueString}'/>
         </binding>
     </visual>
-</toast>"
+</toast>
 ```
 
 
