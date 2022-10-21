@@ -51,7 +51,7 @@ If your app should use an active pen for text selection, you can override pen sc
 
 This  example shows how to:
 
-+ Register the events using the [AddHandler](/uwp/api/windows.ui.xaml.uielement.addhandler(windows.ui.xaml.routedevent,system.object,system.boolean)) method with the *handledEventsToo* parameter set to **true**.
++ Register the events using the [UIElement.AddHandler](../microsoft.ui.xaml/uielement_addhandler_1350394113.md) method with the *handledEventsToo* parameter set to **true**.
 + Check if the pointer device is a [Pen](/uwp/api/windows.devices.input.pointerdevicetype).
 + In the [PointerPressed](../microsoft.ui.xaml/uielement_pointerpressed.md) event handler, turn off system manipulation support in the ScrollViewer.
 + In the [PointerReleased](../microsoft.ui.xaml/uielement_pointerreleased.md) and [PointerCanceled](../microsoft.ui.xaml/uielement_pointercanceled.md) event handlers, turn back on system manipulation support.

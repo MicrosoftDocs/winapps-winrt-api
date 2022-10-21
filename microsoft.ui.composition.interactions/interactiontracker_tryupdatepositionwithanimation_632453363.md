@@ -22,7 +22,7 @@ The animation to apply to the [InteractionTracker](interactiontracker.md).
 Returns the request ID. On state transitions, the request which caused the change in state will be included in the args. These IDs will start at 1 and increase with each try call during the lifetime of the application.
 
 ## -remarks
-When creating the animation you want to update [InteractionTracker](interactiontracker.md) ’s position with, you do not need to call [StartAnimation](/uwp/api/windows.ui.composition.compositionobject.startanimation(system.string,windows.ui.composition.compositionanimation)). The system will take care of this behind the scenes once the animation is passed in via TryUpdatePositionWithAnimation.
+When creating the animation you want to update [InteractionTracker](interactiontracker.md) ’s position with, you do not need to call [Microsoft.UI.Composition.CompositionObject.StartAnimation](../microsoft.ui.composition/compositionobject_startanimation_394405412.md). The system will take care of this behind the scenes once the animation is passed in via TryUpdatePositionWithAnimation.
 
 When defining the animation that will animate [InteractionTracker](interactiontracker.md) ’s position, be sure to either use a [Vector3KeyFrameAnimation](../microsoft.ui.composition/vector3keyframeanimation.md) or an [ExpressionAnimation](../microsoft.ui.composition/expressionanimation.md) that resolves to a Vector3.
 

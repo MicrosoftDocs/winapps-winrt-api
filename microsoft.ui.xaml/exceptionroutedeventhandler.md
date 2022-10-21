@@ -27,4 +27,4 @@ The event data.
 
 ## -see-also
 
-[MediaFailed](../microsoft.ui.xaml.controls/mediaelement_mediafailed.md), [ImageFailed](../microsoft.ui.xaml.controls/image_imagefailed.md)
+[Windows.UI.Xaml.Controls.MediaElement.MediaFailed](/uwp/api/windows.ui.xaml.controls.mediaelement.mediafailed), [ImageFailed](../microsoft.ui.xaml.controls/image_imagefailed.md)

@@ -24,7 +24,7 @@ Other scenarios for `DispatcherTimer` include checking for state changes that do
 > [!TIP]
 > If you're migrating Microsoft Silverlight or Windows Presentation Foundation (WPF) code, the `DispatcherTimer` and the related **Dispatcher** was in a separate `System.Windows.Threading` namespace. There is no `Microsoft.UI.Xaml.Threading` namespace in the Windows Runtime, so this class is in [Microsoft.UI.Xaml](microsoft_ui_xaml.md).
 
-If you aren't doing anything with the UI thread in your `Tick` handlers and just need a timer, you could also use [ThreadPoolTimer](/uwp/api/windows.system.threading.threadpooltimer) instead. Also, for techniques like [ThreadPoolTimer](/uwp/api/windows.system.threading.threadpooltimer) or a .NET [Task](/dotnet/api/system.threading.tasks.task), you aren't totally isolated from the UI thread. You could still assign to the UI thread asynchronously using [CoreDispatcher.RunAsync](/uwp/api/windows.ui.core.coredispatcher.runasync(windows.ui.core.coredispatcherpriority,windows.ui.core.dispatchedhandler)).
+If you aren't doing anything with the UI thread in your `Tick` handlers and just need a timer, you could also use [ThreadPoolTimer](/uwp/api/windows.system.threading.threadpooltimer) instead. Also, for techniques like [ThreadPoolTimer](/uwp/api/windows.system.threading.threadpooltimer) or a .NET [Task](/dotnet/api/system.threading.tasks.task), you aren't totally isolated from the UI thread. You could still assign to the UI thread asynchronously using [RunAsync](/uwp/api/windows.ui.core.coredispatcher.runasync).
 
 ## -examples
 

@@ -19,11 +19,11 @@ Info about the animated transition.
 
 ## -remarks
 
-FrameNavigationOptions is used as a parameter of the [Frame.NavigateToType](/uwp/api/windows.ui.xaml.controls.frame.navigatetotype(windows.ui.xaml.interop.typename,system.object,windows.ui.xaml.navigation.framenavigationoptions)) method.
+FrameNavigationOptions is used as a parameter of the [Frame.NavigateToType](../microsoft.ui.xaml.controls/frame_navigatetotype_1537292032.md) method.
 
 ## -see-also
 
-[Frame.NavigateToType](/uwp/api/windows.ui.xaml.controls.frame.navigatetotype(windows.ui.xaml.interop.typename,system.object,windows.ui.xaml.navigation.framenavigationoptions))
+[Frame.NavigateToType](../microsoft.ui.xaml.controls/frame_navigatetotype_1537292032.md)
 
 ## -examples
 
