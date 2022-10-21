@@ -30,4 +30,4 @@ In order to support XAML processor access to the attached properties, and also t
 ## -examples
 
 ## -see-also
-[NavigationTransitionInfo](navigationtransitioninfo.md), [Frame.Navigate(Type, Object, NavigationTransitionInfo)](/uwp/api/windows.ui.xaml.controls.frame.navigate(windows.ui.xaml.interop.typename,system.object,windows.ui.xaml.media.animation.navigationtransitioninfo))
+[NavigationTransitionInfo](navigationtransitioninfo.md), [Frame.Navigate](../microsoft.ui.xaml.controls/frame_navigate_1557370995.md)

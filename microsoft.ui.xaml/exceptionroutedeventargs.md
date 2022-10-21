@@ -22,7 +22,7 @@ ExceptionRoutedEventArgs is the event data for several events that use the [Exce
 + [Image.ImageFailed](../microsoft.ui.xaml.controls/image_imagefailed.md)
 + [ImageBrush.ImageFailed](../microsoft.ui.xaml.media/imagebrush_imagefailed.md)
 + [BitmapImage.ImageFailed](../microsoft.ui.xaml.media.imaging/bitmapimage_imagefailed.md)
-+ [MediaElement.MediaFailed](../microsoft.ui.xaml.controls/mediaelement_mediafailed.md); for this event you can cast the event data to the more specific [MediaFailedRoutedEventArgs](mediafailedroutedeventargs.md) result.
++ [Windows.UI.Xaml.Controls.MediaElement.MediaFailed](/uwp/api/windows.ui.xaml.controls.mediaelement.mediafailed) (for this event you can cast the event data to the more specific [MediaFailedRoutedEventArgs](mediafailedroutedeventargs.md) result).
 
 ### **ExceptionRoutedEventArgs** derived classes
 
@@ -36,4 +36,4 @@ This example shows use of ExceptionRoutedEventArgs in a handler in order to get 
 
 ## -see-also
 
-[RoutedEventArgs](routedeventargs.md), [MediaFailed](../microsoft.ui.xaml.controls/mediaelement_mediafailed.md), [ImageFailed](../microsoft.ui.xaml.controls/image_imagefailed.md)
+[RoutedEventArgs](routedeventargs.md), [Windows.UI.Xaml.Controls.MediaElement.MediaFailed](/uwp/api/windows.ui.xaml.controls.mediaelement.mediafailed), [ImageFailed](../microsoft.ui.xaml.controls/image_imagefailed.md)
