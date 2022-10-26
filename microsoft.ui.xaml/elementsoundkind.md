@@ -36,9 +36,9 @@ The sound to play when a user navigates back.
 
 
 ## -remarks
-For more info, see [Sound in UWP apps](/windows/uwp/style/sound).
+For more info, see [Sound design guidance](/windows/apps/design/style/sound).
 
 ## -examples
 
 ## -see-also
-[Sound in UWP apps](/windows/uwp/style/sound), [ElementSoundPlayer.Play](elementsoundplayer_play_1734581726.md), [ElementSoundPlayer](elementsoundplayer.md)
+[Sound design guidance](/windows/apps/design/style/sound), [ElementSoundPlayer.Play](elementsoundplayer_play_1734581726.md), [ElementSoundPlayer](elementsoundplayer.md)

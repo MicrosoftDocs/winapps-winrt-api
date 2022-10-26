@@ -16,7 +16,7 @@ Occurs when [StartBringIntoView](uielement_startbringintoview_1818344798.md) is 
 ## -remarks
 
 > [!NOTE]
-> The framework may also raise the event in response to the element receiving focus via a keyboard or gamepad, or when an assistive technology executes the [IScrollItemProvider](../microsoft.ui.xaml.automation.provider/iscrollitemprovider.md)'s [ScrollIntoView](../microsoft.ui.xaml.automation.provider/iscrollitemprovider_scrollintoview_1265805467.md) method on the element's automation peer.
+> The framework may also raise the event in response to the element receiving focus via a keyboard or Xbox controller, or when an assistive technology executes the [IScrollItemProvider](../microsoft.ui.xaml.automation.provider/iscrollitemprovider.md)'s [ScrollIntoView](../microsoft.ui.xaml.automation.provider/iscrollitemprovider_scrollintoview_1265805467.md) method on the element's automation peer.
 
 This event enables a control to participate in the process of bringing an element into view.  It indicates to a parent control, such as a [ScrollViewer](../microsoft.ui.xaml.controls/scrollviewer.md), that the element which raised the event should be made visible within the scrollable region. Non-scrolling controls may use the event as a way to alter requests that originate from one of its children by modifying the event data ([BringIntoViewRequestedEventArgs](bringintoviewrequestedeventargs.md)). For example, you may listen to the event on a parent element to enlarge the [TargetRect](bringintoviewrequestedeventargs_targetrect.md) and ensure a minimum amount of padding is included when bringing any of its child elements into view.
 

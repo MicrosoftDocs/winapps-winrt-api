@@ -26,9 +26,9 @@ No sounds are played.
 ## -remarks
 This enumeration is used by the **ElementSoundMode** property on [Control](../microsoft.ui.xaml.controls/control_elementsoundmode.md), [FlyoutBase](../microsoft.ui.xaml.controls.primitives/flyoutbase_elementsoundmode.md), and [Hyperlink](../microsoft.ui.xaml.documents/hyperlink_elementsoundmode.md).
 
-For more info, see [Sound in UWP apps](/windows/uwp/style/sound).
+For more info, see [Sound design guidance](/windows/apps/design/style/sound).
 
 ## -examples
 
 ## -see-also
-[Sound in UWP apps](/windows/uwp/style/sound), [ElementSoundPlayer.State](elementsoundplayer_state.md), [ElementSoundPlayer](elementsoundplayer.md), [Control.ElementSoundMode](../microsoft.ui.xaml.controls/control_elementsoundmode.md), [FlyoutBase.ElementSoundMode](../microsoft.ui.xaml.controls.primitives/flyoutbase_elementsoundmode.md), [Hyperlink.ElementSoundMode](../microsoft.ui.xaml.documents/hyperlink_elementsoundmode.md)
+[Sound design guidance](/windows/apps/design/style/sound), [ElementSoundPlayer.State](elementsoundplayer_state.md), [ElementSoundPlayer](elementsoundplayer.md), [Control.ElementSoundMode](../microsoft.ui.xaml.controls/control_elementsoundmode.md), [FlyoutBase.ElementSoundMode](../microsoft.ui.xaml.controls.primitives/flyoutbase_elementsoundmode.md), [Hyperlink.ElementSoundMode](../microsoft.ui.xaml.documents/hyperlink_elementsoundmode.md)

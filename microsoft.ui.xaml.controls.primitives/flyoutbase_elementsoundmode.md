@@ -16,9 +16,9 @@ Gets or sets a value that specifies the control's preference for whether it play
 An enumeration value that specifies the control's preference for whether it plays sounds. The default is **Default**.
 
 ## -remarks
-For more info, see [Sound in UWP apps](/windows/uwp/style/sound).
+For more info, see [Sound design guidance](/windows/apps/design/style/sound).
 
 ## -examples
 
 ## -see-also
-[Sound in UWP apps](/windows/uwp/style/sound)
+[Sound design guidance](/windows/apps/design/style/sound)

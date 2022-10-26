@@ -17,7 +17,7 @@ Plays the specified sound.
 A value of the enumeration that specifies the sound to play.
 
 ## -remarks
-For more info, see [Sound in UWP apps](/windows/uwp/style/sound).
+For more info, see [Sound design guidance](/windows/apps/design/style/sound).
 
 ## -examples
 

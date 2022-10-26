@@ -29,7 +29,7 @@ Mouse input device.
 Keyboard input device.
 
 ### -field GameController:5
-Game controller/remote control input device.
+Xbox controller input device.
 
 ## -remarks
 
