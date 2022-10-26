@@ -59,10 +59,10 @@ Here we show how focus moves from A to B based on rectilinear distance.
 *Focus moves from A to B based on rectilinear distance*
 
 ## -remarks
-XY navigation is used to navigate a user interface (UI) with a gamepad, remote control, or keyboard directional arrows. For more info, see [Gamepad and remote control interactions](/windows/apps/design/input/gamepad-and-remote-interactions)
+XY navigation is used to navigate a user interface (UI) with an Xbox controller or keyboard directional arrows. For more info, see [Gamepad and remote control interactions](/windows/apps/design/input/gamepad-and-remote-interactions)
 
 ## -see-also
 
-[XYFocusNavigationStrategy](xyfocusnavigationstrategy.md), [Programmatic focus navigation](/windows/uwp/input-and-devices/focus-navigation-programmatic)
+[XYFocusNavigationStrategy](xyfocusnavigationstrategy.md), [Programmatic focus navigation](/windows/apps/design/input/focus-navigation-programmatic)
 
 ## -examples

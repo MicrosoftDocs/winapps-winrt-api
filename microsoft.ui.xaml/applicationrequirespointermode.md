@@ -11,7 +11,12 @@ public enum Microsoft.UI.Xaml.ApplicationRequiresPointerMode : int
 
 ## -description
 
-Specifies the interaction experiences for non-pointer devices such as an Xbox controller or remote control.
+> [!IMPORTANT]
+> **Do not use.**
+>
+> ApplicationRequiresPointerMode is not supported in the Windows App SDK.
+
+Specifies the interaction experiences for non-pointer devices such as a keyboard or Xbox controller.
 
 ## -enum-fields
 
@@ -28,5 +33,3 @@ A pointer-like interaction experience using a mouse cursor that can be freely mo
 ## -examples
 
 ## -see-also
-
-[Windows.UI.Xaml enumerations](windows_ui_xaml_enumerations.md), [RequiresPointerMode](application_requirespointermode.md)
