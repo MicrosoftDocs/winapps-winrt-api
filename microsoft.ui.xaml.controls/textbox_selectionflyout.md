@@ -7,7 +7,7 @@
 public FlyoutBase SelectionFlyout { get;  set; }
 -->
 
-# Windows.UI.Xaml.Controls.TextBox.SelectionFlyout
+# Microsoft.UI.Xaml.Controls.TextBox.SelectionFlyout
 
 ## -description
 
