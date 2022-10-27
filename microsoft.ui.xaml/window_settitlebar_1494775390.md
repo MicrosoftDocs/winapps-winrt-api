@@ -35,7 +35,7 @@ If you set [ExtendsContentIntoTitleBar](window_extendscontentintotitlebar.md) to
 
 Only a single element can be specified as the title bar. If multiple elements are required, they can be specified as child elements of a single container (such as a [Grid](../microsoft.ui.xaml.controls/grid.md) or [StackPanel](../microsoft.ui.xaml.controls/stackpanel.md)). If multiple elements are specified instead of a container, the last element specified is used.
 
-The custom title bar works best when it is the top-most child of the parent container of your app. Deep nesting the [UIElement](uielement.md) within the XAML tree might cause unpredictable layout behaviors. Adding right margin to the titlebar [UIElement](uielement.md) also affects its functionality and is not recommended. 
+The custom title bar works best when it is the top-most child of the parent container of your app. Deep nesting the [UIElement](uielement.md) within the XAML tree might cause unpredictable layout behaviors. Adding right margin to the titlebar [UIElement](uielement.md) also affects its functionality and is not recommended.
 
 For example:
 
@@ -81,7 +81,7 @@ This example shows how to override the default values in App.xaml.
 
 ## -examples
 
-This example shows how to extend the window's content area and replace the system title bar with a Grid that contains an icon and title text.
+This example shows how to extend the window's content area and replace the system title bar with a `Grid` that contains an icon and title text.
 
 ```xaml
 <Window ... >
@@ -122,4 +122,4 @@ public MainWindow()
 
 ## -see-also
 
-[ExtendsContentIntoTitleBar](window_extendscontentintotitlebar.md), [IWindowNative](/windows/apps/winui/reference/iwindownative)
+[ExtendsContentIntoTitleBar](window_extendscontentintotitlebar.md), [IWindowNative](/windows/windows-app-sdk/api/win32/microsoft.ui.xaml.window/nn-microsoft-ui-xaml-window-iwindownative)

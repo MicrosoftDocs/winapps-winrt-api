@@ -11,18 +11,18 @@ public Windows.UI.Core.CoreWindow CoreWindow { get; }
 
 ## -description
 
-For UWP apps, gets the [CoreWindow](https://docs.microsoft.com/uwp/api/Windows.UI.Core.CoreWindow) associated with this Window. Desktop apps always return null.
+Desktop apps always return `null` for this property.
 
 ## -property-value
 
-A **CoreWindow** object for UWP apps. Null for Desktop apps.
+Value is `null` for Desktop apps.
 
 ## -remarks
 
-The [Window](window.md) object implements [IWindowNative](/windows/apps/winui/reference/iwindownative), through which Desktop apps can get the underlying HWND of the Window.
+The [Window](window.md) object implements [IWindowNative](/windows/windows-app-sdk/api/win32/microsoft.ui.xaml.window/nn-microsoft-ui-xaml-window-iwindownative), through which Desktop apps can get the underlying HWND of the `Window`.
 
 ## -examples
 
 ## -see-also
 
-[IWindowNative](/windows/apps/winui/reference/iwindownative)
+[IWindowNative](/windows/windows-app-sdk/api/win32/microsoft.ui.xaml.window/nn-microsoft-ui-xaml-window-iwindownative)
