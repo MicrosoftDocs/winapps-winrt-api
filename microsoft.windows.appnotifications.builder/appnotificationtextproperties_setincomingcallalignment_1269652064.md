@@ -12,7 +12,11 @@ public Microsoft.Windows.AppNotifications.Builder.AppNotificationTextProperties 
 
 ## -description
 
+Sets a value specifying whether the associated text is displayed with incoming call alignment.
+
 ## -returns
+
+Returns the **AppNotificationTextProperties** instance so that additional method calls can be chained.
 
 ## -remarks
 

@@ -28,7 +28,7 @@ Returns the **AppNotificationBuilder** instance so that additional method calls 
 
 This method allows you to provide an consistent audio experience by specifying an audio event type, which uses standardized system sounds. You can specify a custom sound for an app notification by calling [SetAudioUri](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder.SetAudioUri(Windows.Foundation.Uri,Microsoft.Windows.AppNotifications.Builder.AppNotificationAudioLooping)).
 
-For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notificiation content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
+For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 
 For reference information about the XML schema for app notifications, see [App notification content schema](/windows/apps/design/shell/tiles-and-notifications/toast-schema).
 

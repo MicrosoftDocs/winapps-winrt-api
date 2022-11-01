@@ -26,7 +26,7 @@ Returns the **AppNotificationBuilder** instance so that additional method calls 
 
 ## -remarks
 
-The following screenshots illustrates the placement of the app logo override image.
+The following screenshot illustrates the placement of the app logo override image.
 
 :::image type="content" source="images/toast-content-applogooverride.png" alt-text="A screenshot of an app notification with an app logo override image.":::
 
@@ -36,7 +36,7 @@ Supported image file types include:
 - .jpg
 - .svg
 
-For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notificiation content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
+For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 
 For reference information about the XML schema for app notifications, see [App notification content schema](/windows/apps/design/shell/tiles-and-notifications/toast-schema).
 

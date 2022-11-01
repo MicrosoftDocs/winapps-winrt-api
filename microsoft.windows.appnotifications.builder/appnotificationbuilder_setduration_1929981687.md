@@ -26,7 +26,7 @@ Returns the **AppNotificationBuilder** instance so that additional method calls 
 
 ## -remarks
 
-For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notificiation content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
+For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 
 For reference information about the XML schema for app notifications, see [App notification content schema](/windows/apps/design/shell/tiles-and-notifications/toast-schema).
 
@@ -34,7 +34,7 @@ For reference information about the XML schema for app notifications, see [App n
 
 ## -examples
 
-The following example demonstrates setting an duration in the XML payload for an app notification.
+The following example demonstrates setting the duration in the XML payload for an app notification.
 
 ```csharp
 var builder = new AppNotificationBuilder()

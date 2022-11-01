@@ -12,11 +12,17 @@ public Microsoft.Windows.AppNotifications.Builder.AppNotificationTextProperties 
 
 ## -description
 
+Sets the maximum number of lines the associated text should span.
+
 ## -parameters
 
 ### -param value
 
+The maximum number of lines the associated text should span.
+
 ## -returns
+
+Returns the **AppNotificationTextProperties** instance so that additional method calls can be chained.
 
 ## -remarks
 

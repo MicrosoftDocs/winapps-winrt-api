@@ -12,7 +12,11 @@ public int MaxLines { get; set; }
 
 ## -description
 
+Gets or sets the maximum number of lines the associated text should span.
+
 ## -property-value
+
+The maximum number of lines.
 
 ## -remarks
 

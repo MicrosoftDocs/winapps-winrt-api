@@ -12,7 +12,11 @@ public string Language { get; set; }
 
 ## -description
 
+Gets or sets a value specifying the language of the associated text.
+
 ## -property-value
+
+A string containg an IETF language tag specifying the language of the associated text.
 
 ## -remarks
 

@@ -30,9 +30,9 @@ Returns the **AppNotificationBuilder** instance so that additional method calls 
 
 ## -remarks
 
-The following screenshots illustrates the placement of the inline image.
+The following screenshot illustrates the placement of the inline image.
 
-:::image type="content" source="images/toast-content-inline-image.png" alt-text="A screenshot of an app notification with a hero image.":::
+:::image type="content" source="images/toast-content-inline-image.png" alt-text="A screenshot of an app notification with an inline image.":::
 
 Supported image file types include:
 
@@ -40,7 +40,7 @@ Supported image file types include:
 - .jpg
 - .svg
 
-For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notificiation content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
+For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 
 For reference information about the XML schema for app notifications, see [App notification content schema](/windows/apps/design/shell/tiles-and-notifications/toast-schema).
 
@@ -53,9 +53,7 @@ The following example demonstrates setting an inline image in the XML payload fo
 ```csharp
 var builder = new AppNotificationBuilder()
     .AddText("Notification text.")
-    .SetInlineImage(new Uri("ms-appx:///Images/InlineImage.png"), AppNotificationImageCrop.Default);
-
-AppNotificationManager.Default.Show(builder.BuildNotification());
+    .SetInlineImage(new Uri("ms-appx:///Images/InlineImage.png"), AppNotificationImageCrop.Circle, "Alternate text");
 ```
 
 The resulting XML payload:
@@ -65,7 +63,7 @@ The resulting XML payload:
     <visual>
         <binding template='ToastGeneric'>
             <text>Notification text.</text>
-            <image src='ms-appx:///Images/HeroImage.png'/>
+            <image src='ms-appx:///Images/InlineImage.png' alt='Alternate text' hint-crop='circle'/>
         </binding>
     </visual>
 </toast>

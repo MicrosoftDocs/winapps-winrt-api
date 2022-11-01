@@ -12,11 +12,17 @@ public Microsoft.Windows.AppNotifications.Builder.AppNotificationTextProperties 
 
 ## -description
 
+Sets a value specifying the language of the associated text.
+
 ## -parameters
 
 ### -param value
 
+A string containg an IETF language tag specifying the language of the associated text.
+
 ## -returns
+
+Returns the **AppNotificationTextProperties** instance so that additional method calls can be chained.
 
 ## -remarks
 
