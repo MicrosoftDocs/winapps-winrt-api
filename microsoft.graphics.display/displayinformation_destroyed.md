@@ -11,6 +11,8 @@ public event Windows.Foundation.TypedEventHandler<Microsoft.Graphics.Display.Dis
 
 ## -description
 
+Raised when the [DisplayInformation](displayinformation.md) object is destroyed.
+
 ## -remarks
 
 ## -see-also
