@@ -9,7 +9,6 @@
 public enum DisplayHdrMetadataFormat
 -->
 
-
 ## -description
 
 Describes the HDR metadata format.

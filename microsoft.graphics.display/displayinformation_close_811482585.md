@@ -11,6 +11,8 @@
 
 ## -description
 
+Closes the **DisplayInformation** object, and releases system resources.
+
 ## -remarks
 
 ## -see-also

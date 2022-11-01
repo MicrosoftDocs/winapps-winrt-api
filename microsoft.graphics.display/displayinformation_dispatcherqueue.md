@@ -11,7 +11,11 @@ public Microsoft.UI.Dispatching.DispatcherQueue DispatcherQueue { get; }
 
 ## -description
 
+Gets the dispatcher queue associated with the [DisplayInformation](displayinformation.md) object.
+
 ## -property-value
+
+The dispatcher queue associated with the [DisplayInformation](displayinformation.md) object.
 
 ## -remarks
 
