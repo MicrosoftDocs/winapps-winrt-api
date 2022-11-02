@@ -13,6 +13,9 @@ public static Microsoft.Graphics.Display.DisplayInformation CreateForDisplayId (
 
 Creates a new [DisplayInformation](displayinformation.md) object for the specified [DisplayId](/windows/windows-app-sdk/api/winrt/microsoft.ui.displayid).
 
+> [!NOTE]
+> You must call this method from a thread that has a [Microsoft.UI.Dispatching.DispatcherQueue](/windows/windows-app-sdk/api/winrt/microsoft.ui.dispatching.dispatcherqueue) already running.
+
 ## -parameters
 
 ### -param displayId
