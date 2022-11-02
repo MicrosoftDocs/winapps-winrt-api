@@ -13,6 +13,9 @@ public static Microsoft.Graphics.Display.DisplayInformation CreateForWindowId (M
 
 Creates a new [DisplayInformation](displayinformation.md) object for the specified [WindowId](/windows/windows-app-sdk/api/winrt/microsoft.ui.windowid).
 
+> [!NOTE]
+> You must call this method from a thread that has a [Microsoft.UI.Dispatching.DispatcherQueue](/windows/windows-app-sdk/api/winrt/microsoft.ui.dispatching.dispatcherqueue) already running.
+
 ## -parameters
 
 ### -param windowId
