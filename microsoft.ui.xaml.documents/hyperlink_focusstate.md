@@ -16,7 +16,7 @@ Gets a value that specifies whether this hyperlink has focus, and the mode by wh
 A value of the enumeration. A value of **Unfocused** indicates that the hyperlink does not have focus.
 
 ## -remarks
-For more info, see [Control.FocusState](/uwp/api/windows.ui.xaml.controls.control.focusstate).
+For more info, see [UIElement.FocusState](../microsoft.ui.xaml/uielement_focusstate.md).
 
 ## -see-also
 

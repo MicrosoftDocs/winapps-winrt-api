@@ -44,7 +44,7 @@ If you use a Flyout with no focusable content-for example, with only text, as sh
 
 <img src="images/flyout-text.png" alt="Flyout control with text content" />
 
-By default, there are properties set on the [FlyoutPresenter](flyoutpresenter.md) that prevent it from receiving focus. This is the desired behavior when content inside the Flyout can receive focus. However, if the content inside the Flyout can't receive focus, you should update to the [FlyoutPresenterStyle](flyout_flyoutpresenterstyle.md) to let the [FlyoutPresenter](flyoutpresenter.md) receive focus instead. To do this, set [IsTabStop](control_istabstop.md) to **true** and [TabNavigation](control_tabnavigation.md) to **Cycle** on the flyout presenter style.
+By default, there are properties set on the [FlyoutPresenter](flyoutpresenter.md) that prevent it from receiving focus. This is the desired behavior when content inside the Flyout can receive focus. However, if the content inside the Flyout can't receive focus, you should update to the [FlyoutPresenterStyle](flyout_flyoutpresenterstyle.md) to let the [FlyoutPresenter](flyoutpresenter.md) receive focus instead. To do this, set [UIElement.IsTabStop](../microsoft.ui.xaml/uielement_istabstop.md) to **true** and [TabNavigation](control_tabnavigation.md) to **Cycle** on the flyout presenter style.
 
 This example shows how to let the [FlyoutPresenter](flyoutpresenter.md) receive focus so that the content is accessible.
 
