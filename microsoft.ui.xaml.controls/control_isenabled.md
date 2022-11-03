@@ -30,11 +30,11 @@ A control inherits the IsEnabled property from its parent control. For example, 
 
 How the control logic behaves when disabled is potentially different for each control. However, these behaviors will result in all controls when IsEnabled =**false**:
 + The control can't receive keyboard focus or be focused programmatically.
-+ The control does not appear in a tab sequence (any value for [TabIndex](control_tabindex.md) is ignored).
++ The control does not appear in a tab sequence (any value for [UIElement.TabIndex](../microsoft.ui.xaml/uielement_tabindex.md) is ignored).
 + A disabled control is still visible to hit testing. It can't handle any input events on itself. However, a disabled control can still source the input events, and input routed events can bubble to a parent where they can be handled.
 
 
 ## -examples
 
 ## -see-also
-[IsEnabledChanged](control_isenabledchanged.md), [IsTabStop](control_istabstop.md), [Visibility](../microsoft.ui.xaml/uielement_visibility.md)
+[IsEnabledChanged](control_isenabledchanged.md), [UIElement.IsTabStop](../microsoft.ui.xaml/uielement_istabstop.md), [Visibility](../microsoft.ui.xaml/uielement_visibility.md)
