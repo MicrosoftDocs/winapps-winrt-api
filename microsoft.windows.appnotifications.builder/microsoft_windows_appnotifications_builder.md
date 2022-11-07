@@ -23,4 +23,4 @@ For reference information about the XML schema for app notifications, see [App n
 
 ## -examples
 
-
+[App notifications overview](/windows/apps/windows-app-sdk/notifications/app-notifications/index)
