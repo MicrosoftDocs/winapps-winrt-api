@@ -31,7 +31,7 @@ For more info, see [Guidelines for panning](/windows/apps/design/input/guideline
 
 For XAML usage, IsVerticalScrollChainingEnabled can either be an attribute on an explicit [ScrollViewer](scrollviewer.md) element, or a **ScrollViewer.IsVerticalScrollChainingEnabled** attached property usage on an element that is a child of a control that supports scrollview implicitly in its template. 
 
-The ScrollViewer's chaining properties ([IsHorizontalScrollChainingEnabled](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.ishorizontalscrollchainingenabled),[IsVerticalScrollChainingEnabled](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.isverticalscrollchainingenabled), [IsZoomChainingEnabled](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.iszoomchainingenabled) ) do not apply when the control is in inertial mode. Because mouse wheel rotations are handled as **inertial manipulations**, chaining does not work.
+The ScrollViewer's chaining properties ([**IsHorizontalScrollChainingEnabled**](scrollviewer_ishorizontalscrollchainingenabled.md), **IsVerticalScrollChainingEnabled**, [**IsZoomChainingEnabled**](scrollviewer_iszoomchainingenabled.md)) do not apply when the control is in inertial mode. Because mouse wheel rotations are handled as **inertial manipulations**, chaining does not work.
 <!--May not work because there is no apparent templatebinding linkage in most of the generic templates.-->
 
 ## -examples
