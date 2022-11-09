@@ -12,13 +12,13 @@ public DataTemplateSelector MenuItemTemplateSelector { get;  set; }
 
 ## -description
 
-Gets or sets a reference to a custom [DataTemplateSelector](/uwp/api/windows.ui.xaml.controls.datatemplateselector) logic class. The [DataTemplateSelector](/uwp/api/windows.ui.xaml.controls.datatemplateselector) referenced by this property returns a template to apply to items.
+Gets or sets a reference to a custom [DataTemplateSelector](datatemplateselector.md) logic class. The [DataTemplateSelector](datatemplateselector.md) referenced by this property returns a template to apply to items.
 
 
 
 ## -property-value
 
-A reference to a custom [DataTemplateSelector](/uwp/api/windows.ui.xaml.controls.datatemplateselector) logic class.
+A reference to a custom [DataTemplateSelector](datatemplateselector.md) logic class.
 
 
 

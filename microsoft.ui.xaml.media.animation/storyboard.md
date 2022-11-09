@@ -26,7 +26,7 @@ Storyboard is an important class in the concept of *storyboarded animations*. Fo
 Storyboard is used for these properties:
 + [VisualState.Storyboard](../microsoft.ui.xaml/visualstate_storyboard.md)
 + [VisualTransition.Storyboard](../microsoft.ui.xaml/visualtransition_storyboard.md)
-+ [BeginStoryboard.Storyboard](beginstoryboard_storyboard_1221375020.md)
++ [BeginStoryboard.Storyboard](beginstoryboard_storyboard.md)
 
 
 These properties aren't the only place where a Storyboard is defined. The typical way that a Storyboard is used for a storyboarded animation is that the Storyboard is defined in a **Resources** collection (either [Application.Resources](../microsoft.ui.xaml/application_resources.md) or [FrameworkElement.Resources](../microsoft.ui.xaml/frameworkelement_resources.md), or possibly as a resource within a file such as Generic.xaml for a custom control). Whenever it's defined as a XAML resource, you should always assign an [x:Name attribute](/windows/uwp/xaml-platform/x-name-attribute) value to your Storyboard. You can then reference the name as a programming variable later in code-behind. You'll need this reference to actually run the animations that the Storyboard contains, by calling the [Begin](storyboard_begin_1621727531.md) method on that Storyboard instance. Storyboard also has other control methods such as [Stop](storyboard_stop_1201535524.md) that can control the animation thereafter.
