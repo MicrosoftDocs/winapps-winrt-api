@@ -40,4 +40,4 @@ You can't wire handlers for `UnhandledException` in XAML (on the [Application](a
 
 ## -see-also
 
-[UnhandledExceptionEventArgs](unhandledexceptioneventargs.md), [App lifecycle](/windows/uwp/launch-resume/app-lifecycle), [Exception Handling (C# Programming Guide)](/dotnet/csharp/fundamentals/exceptions/exception-handling), [Call asynchronous APIs in C# or Visual Basic](/windows/uwp/threading-async/call-asynchronous-apis-in-csharp-or-visual-basic), [Suspending](application_suspending.md), [Resuming](application_resuming.md)
+[UnhandledExceptionEventArgs](unhandledexceptioneventargs.md), [App lifecycle](/windows/uwp/launch-resume/app-lifecycle), [Exception Handling (C# Programming Guide)](/dotnet/csharp/fundamentals/exceptions/exception-handling), [Call asynchronous APIs in C# or Visual Basic](/windows/uwp/threading-async/call-asynchronous-apis-in-csharp-or-visual-basic)
