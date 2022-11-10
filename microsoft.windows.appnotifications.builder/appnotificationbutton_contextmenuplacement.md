@@ -41,6 +41,12 @@ var builder = new AppNotificationBuilder()
     .AddText("Notification text.")
     .AddButton(button);
 
+var builder = new AppNotificationBuilder()
+    .AddText("Notification text.")
+    .AddButton(new AppNotificationButton("More info")
+        .AddArgument("action", "info")
+        .SetContextMenuPlacement());
+
 AppNotificationManager.Default.Show(builder.BuildNotification());
 ```
 
