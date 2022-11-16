@@ -21,4 +21,4 @@ The tab count of a new instance can be nonzero; for example, Microsoft Word stor
 ## -examples
 
 ## -see-also
-[ITextDocument.DefaultTabStop](itextdocument_defaulttabstop.md), [ITextParagraphFormat.AddTab](itextparagraphformat_addtab_65465589.md), [ITextParagraphFormat.ClearAllTabs](itextparagraphformat_clearalltabs_28978480.md), [ITextParagraphFormat.DeleteTab](itextparagraphformat_deletetab_937922036.md), [ITextParagraphFormat.GetTab](itextparagraphformat_gettab_1204448608.md)
+[RichEditTextDocument.DefaultTabStop](richedittextdocument_defaulttabstop.md), [ITextParagraphFormat.AddTab](itextparagraphformat_addtab_65465589.md), [ITextParagraphFormat.ClearAllTabs](itextparagraphformat_clearalltabs_28978480.md), [ITextParagraphFormat.DeleteTab](itextparagraphformat_deletetab_937922036.md), [ITextParagraphFormat.GetTab](itextparagraphformat_gettab_1204448608.md)

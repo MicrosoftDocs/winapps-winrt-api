@@ -41,7 +41,7 @@ You can create custom animations to use as an animated icon in your app. Animati
 
 ## -see-also
 
-[Animated icon overview](/windows/apps/design/controls/animated-icon), [AnimatedIcon](animatedicon.md), [IAnimatedVisualSource.TryCreateAnimatedVisual](ianimatedvisualsource_trycreateanimatedvisual_646476001.md), [Microsoft.UI.Xaml.Controls.AnimatedVisuals](/windows/winui/api/microsoft.ui.xaml.controls.animatedvisuals)
+[Animated icon overview](/windows/apps/design/controls/animated-icon), [AnimatedIcon](animatedicon.md), [IAnimatedVisualSource.TryCreateAnimatedVisual(Compositor, Object)](ianimatedvisualsource_trycreateanimatedvisual_383899080.md), [Microsoft.UI.Xaml.Controls.AnimatedVisuals](/windows/winui/api/microsoft.ui.xaml.controls.animatedvisuals)
 
 ## -examples
 

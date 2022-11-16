@@ -23,6 +23,6 @@ WinUI provides animated visuals for some common icons in the [Microsoft.UI.Xaml.
 
 ## -see-also
 
-[IAnimatedVisualSource.TryCreateAnimatedVisual](ianimatedvisualsource_trycreateanimatedvisual_646476001.md)
+[IAnimatedVisualSource.TryCreateAnimatedVisual(Compositor, Object)](ianimatedvisualsource_trycreateanimatedvisual_383899080.md)
 
 ## -examples
