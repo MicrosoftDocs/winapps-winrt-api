@@ -21,4 +21,4 @@ The position of the tab to delete, in floating-point points.
 ## -examples
 
 ## -see-also
-[ITextDocument.DefaultTabStop](itextdocument_defaulttabstop.md), [ITextParagraphFormat.AddTab](itextparagraphformat_addtab_65465589.md), [ITextParagraphFormat.ClearAllTabs](itextparagraphformat_clearalltabs_28978480.md), [ITextParagraphFormat.GetTab](itextparagraphformat_gettab_1204448608.md), [ITextParagraphFormat.TabCount](itextparagraphformat_tabcount.md)
+[RichEditTextDocument.DefaultTabStop](richedittextdocument_defaulttabstop.md), [ITextParagraphFormat.AddTab](itextparagraphformat_addtab_65465589.md), [ITextParagraphFormat.ClearAllTabs](itextparagraphformat_clearalltabs_28978480.md), [ITextParagraphFormat.GetTab](itextparagraphformat_gettab_1204448608.md), [ITextParagraphFormat.TabCount](itextparagraphformat_tabcount.md)

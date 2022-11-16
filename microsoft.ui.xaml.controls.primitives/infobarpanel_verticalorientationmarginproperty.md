@@ -9,17 +9,16 @@
 public static Windows.UI.Xaml.DependencyProperty VerticalOrientationMarginProperty { get; }
 -->
 
-
 ## -description
-Gets the identifier for the [InfoBar.VerticalOrientationMargin](infobar_verticalorientationmargin.md) dependency property.
+
+Gets the identifier for the [InfoBarPanel.VerticalOrientationMargin](infobarpanel_verticalorientationmargin.md) dependency property.
 
 ## -property-value
-The identifier for the [InfoBar.VerticalOrientationMargin](infobar_verticalorientationmargin.md) dependency property.
+
+The identifier for the [InfoBarPanel.VerticalOrientationMargin](infobarpanel_verticalorientationmargin.md) dependency property.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

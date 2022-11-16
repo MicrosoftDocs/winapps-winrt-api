@@ -43,4 +43,4 @@ Vertical scrolling is disabled.
 ## -examples
 
 ## -see-also
-[ITextDocument.GetRangeFromPoint](itextdocument_getrangefrompoint_1531333045.md), [ITextRange.GetPoint](itextrange_getpoint_1713408117.md), [ITextRange.GetRect](itextrange_getrect_1741619324.md), [ITextRange.ScrollIntoView](itextrange_scrollintoview_1676362171.md), [ITextRange.SetPoint](itextrange_setpoint_2090960387.md)
+[RichEditTextDocument.GetRangeFromPoint](richedittextdocument_getrangefrompoint_1404822153.md), [ITextRange.GetPoint](itextrange_getpoint_1713408117.md), [ITextRange.GetRect](itextrange_getrect_1741619324.md), [ITextRange.ScrollIntoView](itextrange_scrollintoview_1676362171.md), [ITextRange.SetPoint](itextrange_setpoint_2090960387.md)

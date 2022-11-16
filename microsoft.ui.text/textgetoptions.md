@@ -47,4 +47,4 @@ If both UseLf and UseCrLf are used an invalid argument exception is thrown.
 ## -examples
 
 ## -see-also
-[ITextDocument.GetText](itextdocument_gettext_518428927.md), [ITextDocument.SaveToStream](itextdocument_savetostream_748724562.md), [ITextRange.GetTextViaStream](itextrange_gettextviastream_845329703.md), [ITextRange.SetTextViaStream](itextrange_settextviastream_634552345.md), [ITextRange.GetText](itextrange_gettext_2099646269.md)
+[RichEditTextDocument.GetText](richedittextdocument_gettext_2099646269.md), [RichEditTextDocument.SaveToStream](richedittextdocument_savetostream_1331705490.md), [ITextRange.GetTextViaStream](itextrange_gettextviastream_845329703.md), [ITextRange.SetTextViaStream](itextrange_settextviastream_634552345.md), [ITextRange.GetText](itextrange_gettext_2099646269.md)
