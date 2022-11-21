@@ -37,11 +37,12 @@ var button = new AppNotificationButton("More info")
     .AddArgument("action", "info");
 button.ContextMenuPlacement = true;
 
-var builder = new AppNotificationBuilder()
+var notification = new AppNotificationBuilder()
     .AddText("Notification text.")
-    .AddButton(button);
+    .AddButton(button)
+    .BuildNotification();
 
-AppNotificationManager.Default.Show(builder.BuildNotification());
+AppNotificationManager.Default.Show(notification);
 ```
 
 The resulting XML payload:

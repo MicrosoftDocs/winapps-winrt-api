@@ -29,12 +29,13 @@ For reference information about the XML schema for app notifications, see [App n
 The following example shows the usage of this method to add a button to an app notification.
 
 ```csharp
-var builder = new AppNotificationBuilder()
+var notification = new AppNotificationBuilder()
     .AddText("Notification text.")
     .AddButton(new AppNotificationButton()
-        .AddArgument("action", "reply"));
+        .AddArgument("action", "reply"))
+    .BuildNotification();
 
-AppNotificationManager.Default.Show(builder.BuildNotification());
+AppNotificationManager.Default.Show(notification);
 ```
 
 The resulting XML payload:

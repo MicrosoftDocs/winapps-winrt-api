@@ -59,12 +59,13 @@ For reference information about the XML schema for app notifications, see [App n
 The following example demonstrates setting an audio URI in the XML payload for an app notification.
 
 ```csharp
-var builder = new AppNotificationBuilder()
+var notification = new AppNotificationBuilder()
     .AddText("Notification text.")
-    .SetAudioUri(new Uri("ms-appx:///Audio/NotificationSound.mp3"));
+    .SetAudioUri(new Uri("ms-appx:///Audio/NotificationSound.mp3"))
+    .BuildNotification();
 
 
-AppNotificationManager.Default.Show(builder.BuildNotification());
+AppNotificationManager.Default.Show(notification);
 ```
 
 The resulting XML payload:

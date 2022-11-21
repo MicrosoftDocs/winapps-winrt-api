@@ -41,11 +41,12 @@ For reference information about the XML schema for app notifications, see [App n
 The following example demonstrates setting the custom time stamp in the XML payload for an app notification.
 
 ```csharp
-var builder = new AppNotificationBuilder()
+var notification = new AppNotificationBuilder()
     .AddText("Notification text.")
-    .SetTimeStamp(DateTimeOffset.Now);
+    .SetTimeStamp(DateTimeOffset.Now)
+    .BuildNotification();
 
-AppNotificationManager.Default.Show(builder.BuildNotification());
+AppNotificationManager.Default.Show(notification);
 ```
 
 The resulting XML payload:

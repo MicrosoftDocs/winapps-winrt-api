@@ -33,7 +33,7 @@ For reference information about the XML schema for app notifications, see [App n
 The following example demonstrates adding a progress bar to the XML payload for an app notification. 
 
 ```csharp
-var builder = new AppNotificationBuilder()
+var notification = new AppNotificationBuilder()
     .AddText("Downloading your weekly playlist...")
     .AddProgressBar(new AppNotificationProgressBar()
         .BindTitle()
@@ -41,15 +41,14 @@ var builder = new AppNotificationBuilder()
         .BindValue()
         .BindValueStringOverride())
         .SetTag(tagName)
-        .SetGroup(groupName);
+        .SetGroup(groupName))
+    .BuildNotification();
 
 var data = new AppNotificationProgressData (sequenceNumber /* Sequence number */);
 data.Title = "Retreiving files"; // Binds to {progressTitle} in xml payload
 data.Value = (double) currentFile / totalFiles; // Binds to {progressValue} in xml payload
 data.ValueStringOverride = String.Format("{0}/{1} files", currentFile, totalFiles); // Binds to {progressValueString} in xml payload
 data.Status = "Downloading..."; // Binds to {progressStatus} in xml payload
-
-var notification = builder.BuildNotification();
 
 notification.Progress = data;
 

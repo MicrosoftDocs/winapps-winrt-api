@@ -37,13 +37,14 @@ For reference information about the XML schema for app notifications, see [App n
 The following example demonstrates adding a button to the XML payload for an app notification. 
 
 ```csharp
-var builder = new AppNotificationBuilder()
+var notification = new AppNotificationBuilder()
     .AddText("Send a message.")
     .AddTextBox("textBox")
     .AddButton(new AppNotificationButton("Send")
-        .AddArgument("action", "sendMessage"));
+        .AddArgument("action", "sendMessage"))
+    .BuildNotification();
 
-AppNotificationManager.Default.Show(builder.BuildNotification());
+AppNotificationManager.Default.Show(notification);
 ```
 
 The resulting XML payload:

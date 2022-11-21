@@ -40,11 +40,12 @@ comboBox.Title = "Select an item:";
 comboBox.Items = new Dictionary<string, string> { { "id_one", "Item one" }, { "id_two", "Item two" } };
 comboBox.SelectedItem = "id_one";
 
-var builder = new AppNotificationBuilder()
+var notification = new AppNotificationBuilder()
     .AddText("Notification text.")
-    .AddComboBox(comboBox);
+    .AddComboBox(comboBox)
+    .BuildNotification();
 
-AppNotificationManager.Default.Show(builder.BuildNotification());
+AppNotificationManager.Default.Show(notification);
 ```
 
 The resulting XML payload if the urgent scenario is supported:

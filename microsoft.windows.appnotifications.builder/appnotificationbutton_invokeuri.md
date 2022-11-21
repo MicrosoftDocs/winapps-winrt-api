@@ -39,11 +39,12 @@ var button = new AppNotificationButton("Launch URI")
     .AddArgument("action", "info");
 button.InvokeUri = new Uri("https://learn.microsoft.com");
 
-var builder = new AppNotificationBuilder()
+var notification = new AppNotificationBuilder()
     .AddText("Notification text.")
-    .AddButton(button);
+    .AddButton(button)
+    .BuildNotification();
 
-AppNotificationManager.Default.Show(builder.BuildNotification());
+AppNotificationManager.Default.Show(notification);
 ```
 
 The resulting XML payload:

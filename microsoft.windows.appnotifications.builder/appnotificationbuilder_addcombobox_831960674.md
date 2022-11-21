@@ -39,15 +39,16 @@ For reference information about the XML schema for app notifications, see [App n
 The following example demonstrates adding a combo box to an app notification.
 
 ```csharp
-var builder = new AppNotificationBuilder()
+var notification = new AppNotificationBuilder()
     .AddText("Can you attend?")
     .AddComboBox(new AppNotificationComboBox("ComboBox")
         .AddItem("yes", "Going")
         .AddItem("maybe", "Maybe")
         .AddItem("no", "Decline")
-        .SetSelectedItem("yes"));
+        .SetSelectedItem("yes"))
+    .BuildNotification();
 
-AppNotificationManager.Default.Show(builder.BuildNotification());
+AppNotificationManager.Default.Show(notification);
 ```
 
 The resulting XML payload:

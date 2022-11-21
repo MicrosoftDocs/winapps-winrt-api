@@ -51,9 +51,12 @@ For reference information about the XML schema for app notifications, see [App n
 The following example demonstrates setting an inline image in the XML payload for an app notification. 
 
 ```csharp
-var builder = new AppNotificationBuilder()
+var notification = new AppNotificationBuilder()
     .AddText("Notification text.")
-    .SetInlineImage(new Uri("ms-appx:///Images/InlineImage.png"), AppNotificationImageCrop.Circle, "Alternate text");
+    .SetInlineImage(new Uri("ms-appx:///Images/InlineImage.png"), AppNotificationImageCrop.Circle, "Alternate text")
+    .BuildNotification();
+
+AppNotificationManager.Default.Show(notification);
 ```
 
 The resulting XML payload:

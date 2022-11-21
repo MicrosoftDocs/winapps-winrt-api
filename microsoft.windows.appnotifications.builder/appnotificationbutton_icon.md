@@ -47,11 +47,12 @@ var button = new AppNotificationButton("Reply")
     .AddArgument("action", "reply");
 button.Icon = new Uri("ms-appx:///Images/Reply.png");
 
-var builder = new AppNotificationBuilder()
+var notification = new AppNotificationBuilder()
     .AddText("Notification text.")
-    .AddButton(button);
+    .AddButton(button)
+    .BuildNotification();
 
-AppNotificationManager.Default.Show(builder.BuildNotification());
+AppNotificationManager.Default.Show(notification);
 ```
 
 The resulting XML payload:

@@ -40,11 +40,12 @@ For reference information about the XML schema for app notifications, see [App n
 The following example demonstrates setting the notification scenario in the XML payload for an app notification. 
 
 ```csharp
-var builder = new AppNotificationBuilder()
+var notification = new AppNotificationBuilder()
     .AddText("Notification text.")
-    .SetScenario(AppNotificationScenario.Reminder);
+    .SetScenario(AppNotificationScenario.Reminder)
+    .BuildNotification();
 
-AppNotificationManager.Default.Show(builder.BuildNotification());
+AppNotificationManager.Default.Show(notification);
 ```
 
 The resulting XML payload:

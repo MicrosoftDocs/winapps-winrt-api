@@ -47,11 +47,12 @@ For reference information about the XML schema for app notifications, see [App n
 The following example demonstrates setting an app logo override image in the XML payload for an app notification. 
 
 ```csharp
-var builder = new AppNotificationBuilder()
+var notification = new AppNotificationBuilder()
     .AddText("Notification text.")
-    .SetHeroImage(new Uri("ms-appx:///Images/HeroImage.png"));
+    .SetHeroImage(new Uri("ms-appx:///Images/HeroImage.png"))
+    .BuildNotification();
 
-AppNotificationManager.Default.Show(builder.BuildNotification());
+AppNotificationManager.Default.Show(notification);
 ```
 
 The resulting XML payload:

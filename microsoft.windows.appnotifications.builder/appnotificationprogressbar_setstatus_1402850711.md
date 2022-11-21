@@ -42,15 +42,16 @@ The following example illustrates how to set the **Status** property of an app n
 
 
 ```csharp
- var builder = new AppNotificationBuilder()
-               .AddText("Downloading your weekly playlist...")
-               .AddProgressBar(new AppNotificationProgressBar()
-                   .SetTitle("Progress bar title")
-                   .SetValue(.5)
-                   .SetStatus("Downloading...")
-                   .SetValueStringOverride("1/2 files downloaded"));
+ var notification = new AppNotificationBuilder()
+    .AddText("Downloading your weekly playlist...")
+    .AddProgressBar(new AppNotificationProgressBar()
+        .SetTitle("Progress bar title")
+        .SetValue(.5)
+        .SetStatus("Downloading...")
+        .SetValueStringOverride("1/2 files downloaded"))
+    .BuildNotification();
 
-            AppNotificationManager.Default.Show(builder.BuildNotification());
+AppNotificationManager.Default.Show(notification);
 ```
 
 The resulting XML payload:

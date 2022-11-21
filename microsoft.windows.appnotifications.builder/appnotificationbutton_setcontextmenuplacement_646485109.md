@@ -33,13 +33,14 @@ For reference information about the XML schema for app notifications, see [App n
 The following example demonstrates the use of this method to set the context menu placement for the app notification button.
 
 ```csharp
-var builder = new AppNotificationBuilder()
+var notification = new AppNotificationBuilder()
     .AddText("Notification text.")
     .AddButton(new AppNotificationButton("Reply")
         .AddArgument("action", "reply")
-        .SetContextMenuPlacement());
+        .SetContextMenuPlacement())
+    .BuildNotification();
 
-AppNotificationManager.Default.Show(builder.BuildNotification());
+AppNotificationManager.Default.Show(notification);
 ```
 
 The resulting XML payload if the urgent scenario is supported:

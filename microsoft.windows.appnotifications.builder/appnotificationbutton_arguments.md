@@ -40,11 +40,12 @@ var args = new Dictionary<string, string>() { { "action", "reply" }, { "arg2", "
 var button = new AppNotificationButton("Reply");
 button.Arguments = args;
 
-var builder = new AppNotificationBuilder()
+var notification = new AppNotificationBuilder()
     .AddText("Notification text.")
-    .AddButton(button);
+    .AddButton(button)
+    .BuildNotification();
 
-AppNotificationManager.Default.Show(builder.BuildNotification());
+AppNotificationManager.Default.Show(notification);
 ```
 
 The resulting XML payload:

@@ -39,11 +39,12 @@ For reference information about the XML schema for app notifications, see [App n
 The following example demonstrates setting the group for an app notification.
 
 ```csharp
-var builder = new AppNotificationBuilder()
+var notification = new AppNotificationBuilder()
     .AddText("Notification text.")
-    .SetGroup("Notification group");
+    .SetGroup("Notification group")
+    .BuildNotification();
 
-AppNotificationManager.Default.Show(builder.BuildNotification());
+AppNotificationManager.Default.Show(notification);
 ```
 
 The resulting XML payload:
