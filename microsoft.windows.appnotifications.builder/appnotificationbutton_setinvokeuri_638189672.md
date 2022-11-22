@@ -26,7 +26,9 @@ Returns the **AppNotificationButton** instance so that additional method calls c
 
 ## -remarks
 
-You can use the URI to launch a web site in the default browser or to launch an app that has a registered URI scheme. For more information on launching apps with URIs see, [Launch an app with a URI](/windows/uwp/launch-resume/launch-app-with-uri).
+You can use the URI to launch a web site in the default browser or to launch an app that has a registered URI scheme. For more information on launching apps with URIs see, [Launch an app with a URI](/windows/uwp/launch-resume/launch-app-with-uri). 
+
+After calling this method, calling [AddArgument](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton.AddArgument(System.String,System.String)) on the **AppNotificationButton** will throw an error. Also, you should set either the invoke URI or the [TargetAppId](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton.TargetAppId), but not both. If you do set both, the system will use the **TargetAppId**.
 
 You can also set the invoke URI for an app notification button with the [AppNotificationButton.InvokeUri](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton.InvokeUri) property.
 

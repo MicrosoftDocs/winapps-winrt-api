@@ -20,6 +20,8 @@ A string containing the PFN of the target app.
 
 ## -remarks
 
+You should set either the [InvokeUri](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton.InvokeUri) or the **TargetAppId**, but not both. If you do set both, the system will use the **TargetAppId**.
+
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 
 For reference information about the XML schema for app notifications, see [App notification content schema](/windows/apps/design/shell/tiles-and-notifications/toast-schema).
