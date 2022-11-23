@@ -32,7 +32,7 @@ For elements that have a [Brush](./brush.md), any non-**null** Brush is consider
 When the *includeAllElements* parameter is set to **true**, elements that don't produce ink are considered for hit-testing. In this case, as long as the element meets the spatial requirements (the rect intersects the element bounds), then it and its ancestors are included in the results.
 
 > [!NOTE]
-> Some special elements, like [SwapChainPanel](./../windows.ui.xaml.controls/swapchainpanel.md) and [MediaElement](./../windows.ui.xaml.controls/mediaelement.md), don’t have a brush but can still produce ink.
+> Some special elements, like [SwapChainPanel](./../windows.ui.xaml.controls/swapchainpanel.md) and [MediaPlayerElement](../microsoft.ui.xaml.controls/mediaplayerelement.md), don’t have a brush but can still produce ink.
 
 ## -examples
 Given this XAML UI:

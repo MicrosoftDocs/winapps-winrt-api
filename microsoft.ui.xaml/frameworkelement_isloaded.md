@@ -15,11 +15,10 @@ Gets a value that indicates whether the element has been added to the element tr
 
 ## -property-value
 
-**true** if the element has been added to the element tree and is ready for interaction; otherwise, **false**.
+`true` if the element has been added to the element tree and is ready for interaction; otherwise, `false`.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

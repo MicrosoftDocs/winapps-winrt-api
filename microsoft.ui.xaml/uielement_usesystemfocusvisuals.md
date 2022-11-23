@@ -15,15 +15,15 @@ Gets or sets a value that indicates whether the control uses focus visuals drawn
 
 ## -property-value
 
-True, if the control uses focus visuals drawn by the system. False, if the control uses focus visuals defined in the ControlTemplate. 
+True, if the control uses focus visuals drawn by the system. False, if the control uses focus visuals defined in the ControlTemplate.
 
 The default is false (see [Remarks](#-remarks)).
 
 ## -remarks
 
-This property is false by default so that a custom [ControlTemplate](../microsoft.ui.xaml.controls/controltemplate.md) that defines its own focus visuals works as expected. However, all XAML framework controls set this property to true in their [ControlTemplate](../microsoft.ui.xaml.controls/controltemplate.md) and use system drawn focus visuals.
+This property is false by default so that a custom [ControlTemplate](../microsoft.ui.xaml.controls/controltemplate.md) that defines its own focus visuals works as expected. However, all XAML framework controls set this property to true in their `ControlTemplate` and use system drawn focus visuals.
 
-To define custom focus visuals for a control, you need to provide a custom [ControlTemplate](../microsoft.ui.xaml.controls/controltemplate.md). In the [ControlTemplate](../microsoft.ui.xaml.controls/controltemplate.md), do the following:
+To define custom focus visuals for a control, you need to provide a custom [ControlTemplate](../microsoft.ui.xaml.controls/controltemplate.md). In the `ControlTemplate`, do the following:
 
 - If you're modifying a default [ControlTemplate](../microsoft.ui.xaml.controls/controltemplate.md), be sure to set the [UseSystemFocusVisuals](uielement_usesystemfocusvisuals.md) property to false to turn off the system focus visuals. When set to false, the focus states in the [VisualStateManager](visualstatemanager.md) are called.
 - Define a [VisualStateGroup](visualstategroup.md) for `FocusStates`.

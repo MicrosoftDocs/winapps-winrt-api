@@ -24,4 +24,4 @@ A ColorKeyFrameCollection is enumerable, so you can use language-specific syntax
 ## -examples
 
 ## -see-also
-[ColorAnimationUsingKeyFrames.KeyFrames](coloranimationusingkeyframes_keyframes.md), [IList<T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true), [IVector&lt;T&gt;](/uwp/api/windows.foundation.collections.ivector`1), [IIterable&lt;T&gt;](/uwp/api/windows.foundation.collections.iiterable`1)
+[ColorAnimationUsingKeyFrames.KeyFrames](coloranimationusingkeyframes_keyframes.md), [IList<T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true), [IVector&lt;T&gt;](/uwp/api/windows.foundation.collections.ivector-1), [IIterable&lt;T&gt;](/uwp/api/windows.foundation.collections.iiterable-1)

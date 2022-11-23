@@ -6,13 +6,13 @@
 # Microsoft.UI.Xaml.Controls.InfoBadgeTemplateSettings.IconElementProperty
 
 <!--
-public static Windows.UI.Xaml.DependencyProperty IconElementProperty { get; }
+public static Microsoft.UI.Xaml.DependencyProperty IconElementProperty { get; }
 -->
+
 
 ## -description
 
 Identifies the [InfoBadgeTemplateSettings.IconElement](infobadgetemplatesettings_iconelement.md) dependency property.
-
 ## -property-value
 
 The identifier for the [InfoBadgeTemplateSettings.IconElement](infobadgetemplatesettings_iconelement.md) dependency property.
@@ -22,3 +22,5 @@ The identifier for the [InfoBadgeTemplateSettings.IconElement](infobadgetemplate
 ## -see-also
 
 ## -examples
+
+

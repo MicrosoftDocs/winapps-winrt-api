@@ -4,27 +4,25 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.Window Current { get; }
+public Microsoft.UI.Xaml.Window Current { get; }
 -->
 
 # Microsoft.UI.Xaml.Window.Current
 
 ## -description
 
-For UWP apps, gets the window of the current thread. Desktop apps always return null.
+Desktop apps always return `null` for this property.
 
 ## -property-value
 
-The currently activated window for UWP apps. Null for Desktop apps.
+Value is `null` for Desktop apps.
 
 ## -remarks
 
-The value of this property depends on the thread from which it is called. If called from a UI thread of a UWP app, the value is the Window instance for that thread. On any other thread, the value is null.
-
-The [Window](window.md) object implements [IWindowNative](/windows/apps/winui/reference/iwindownative), through which Desktop apps can get the underlying HWND of the window.
+The [Window](window.md) object implements [IWindowNative](/windows/windows-app-sdk/api/win32/microsoft.ui.xaml.window/nn-microsoft-ui-xaml-window-iwindownative), through which Desktop apps can get the underlying HWND of the `Window`.
 
 ## -examples
 
 ## -see-also
 
-[IWindowNative](/windows/apps/winui/reference/iwindownative)
+[IWindowNative](/windows/windows-app-sdk/api/win32/microsoft.ui.xaml.window/nn-microsoft-ui-xaml-window-iwindownative)

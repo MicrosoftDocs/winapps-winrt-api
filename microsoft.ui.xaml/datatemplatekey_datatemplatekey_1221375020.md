@@ -10,6 +10,7 @@ public DataTemplateKey()
 # Microsoft.UI.Xaml.DataTemplateKey.DataTemplateKey
 
 ## -description
+
 Initializes a new instance of the [DataTemplateKey](datatemplatekey.md) class.
 
 ## -remarks
@@ -17,4 +18,5 @@ Initializes a new instance of the [DataTemplateKey](datatemplatekey.md) class.
 ## -examples
 
 ## -see-also
+
 [DataTemplateKey(Object)](datatemplatekey_datatemplatekey_365528641.md)

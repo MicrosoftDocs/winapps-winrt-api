@@ -6,13 +6,13 @@
 # Microsoft.UI.Xaml.Controls.InfoBadgeTemplateSettings.InfoBadgeCornerRadius
 
 <!--
-public Windows.UI.Xaml.CornerRadius InfoBadgeCornerRadius { get; set; }
+public Microsoft.UI.Xaml.CornerRadius InfoBadgeCornerRadius { get; set; }
 -->
+
 
 ## -description
 
 Gets or sets the corner radius for an [InfoBadge](infobadge.md).
-
 ## -property-value
 
 The corner radius.
@@ -22,3 +22,5 @@ The corner radius.
 ## -see-also
 
 ## -examples
+
+

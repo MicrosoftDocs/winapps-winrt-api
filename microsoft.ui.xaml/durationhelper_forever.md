@@ -4,14 +4,14 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.Duration Forever { get; }
+public Microsoft.UI.Xaml.Duration Forever { get; }
 -->
 
 # Microsoft.UI.Xaml.DurationHelper.Forever
 
 ## -description
 
- Returns a generated [Duration](duration.md) value that indicates a "Forever" [Duration](duration.md). C# and Microsoft Visual Basic code should use [Duration.Forever](/dotnet/api/windows.ui.xaml.duration.forever?view=dotnet-uwp-10.0&preserve-view=true) instead.
+ Returns a generated [Duration](duration.md) value that indicates a "Forever" [Duration](duration.md). C# and Microsoft Visual Basic code should use [Duration.Forever](/dotnet/api/windows.ui.xaml.duration.forever) instead.
 
 ## -property-value
 

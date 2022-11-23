@@ -4,7 +4,7 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.RoutedEvent PointerMovedEvent { get; }
+public Microsoft.UI.Xaml.RoutedEvent PointerMovedEvent { get; }
 -->
 
 # Microsoft.UI.Xaml.UIElement.PointerMovedEvent

@@ -9,10 +9,10 @@
 public int Value { get; set; }
 -->
 
+
 ## -description
 
 Gets or sets the integer to be displayed in a numeric [InfoBadge](infobadge.md).
-
 ## -property-value
 
 The integer to be displayed in a numeric [InfoBadge](infobadge.md). The defaults is -1.
@@ -28,3 +28,5 @@ The InfoBadge expands to accommodate large numbers. Ensure your layout accounts 
 [InfoBadge overview](/windows/apps/design/controls/info-badge)
 
 ## -examples
+
+

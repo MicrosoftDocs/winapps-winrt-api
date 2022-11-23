@@ -4,18 +4,21 @@
 ---
 
 <!-- Class syntax.
-public class MediaFailedRoutedEventArgs : Windows.UI.Xaml.ExceptionRoutedEventArgs, Windows.UI.Xaml.IMediaFailedRoutedEventArgs
+public class MediaFailedRoutedEventArgs : Microsoft.UI.Xaml.ExceptionRoutedEventArgs, Microsoft.UI.Xaml.IMediaFailedRoutedEventArgs
 -->
 
 # Microsoft.UI.Xaml.MediaFailedRoutedEventArgs
 
 ## -description
-Provides event data for media failed events.
+
+Provides event data for the [MediaElement.MediaFailed](/uwp/api/windows.ui.xaml.controls.mediaelement.mediafailed) event.
 
 ## -remarks
-MediaFailedRoutedEventArgs is the event data for the [MediaFailed](../microsoft.ui.xaml.controls/mediaelement_mediafailed.md) event. MediaFailedRoutedEventArgs extends [ExceptionRoutedEventArgs](exceptionroutedeventargs.md) by adding the [ErrorTrace](mediafailedroutedeventargs_errortrace.md) property. In a handler for [MediaFailed](../microsoft.ui.xaml.controls/mediaelement_mediafailed.md), cast the [ExceptionRoutedEventArgs](exceptionroutedeventargs.md) data as MediaFailedRoutedEventArgs so that you can use the [ErrorTrace](mediafailedroutedeventargs_errortrace.md) information. Otherwise, if you're only interested in the message, you can access [ErrorMessage](exceptionroutedeventargs_errormessage.md) without casting.
+
+`MediaFailedRoutedEventArgs` extends [ExceptionRoutedEventArgs](exceptionroutedeventargs.md) by adding the [ErrorTrace](mediafailedroutedeventargs_errortrace.md) property. In a handler for `MediaFailed`, cast the `ExceptionRoutedEventArgs` data as `MediaFailedRoutedEventArgs` so that you can use the `ErrorTrace` information. Otherwise, if you're only interested in the message, you can access [ErrorMessage](exceptionroutedeventargs_errormessage.md) without casting.
 
 ## -examples
 
 ## -see-also
-[ExceptionRoutedEventArgs](exceptionroutedeventargs.md), [MediaFailed](../microsoft.ui.xaml.controls/mediaelement_mediafailed.md)
+
+[ExceptionRoutedEventArgs](exceptionroutedeventargs.md), [Windows.UI.Xaml.Controls.MediaElement](/uwp/api/windows.ui.xaml.controls.mediaelement)

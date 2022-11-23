@@ -15,9 +15,9 @@ Provides event data for the [KeyUp](../microsoft.ui.xaml/uielement_keyup.md) and
 
 ## -remarks
 
-Button input is mapped to different key values for various devices, including gamepad and the Xbox One infrared remote.
+Button input is mapped to different key values for various devices, including Xbox controllers.
 
-This table provides the mapping detail for these devices.
+This table provides the mapping detail for an Xbox controller.
 
 <table>
    <tr><th>Button</th><th>[Key](keyroutedeventargs_key.md) value</th><th>[OriginalKey](keyroutedeventargs_originalkey.md) value</th></tr>

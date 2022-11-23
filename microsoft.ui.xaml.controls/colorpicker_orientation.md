@@ -6,18 +6,16 @@
 # Microsoft.UI.Xaml.Controls.ColorPicker.Orientation
 
 <!--
-public Windows.UI.Xaml.Controls.Orientation Orientation { get; set; }
+public Microsoft.UI.Xaml.Controls.Orientation Orientation { get; set; }
 -->
 
 
 ## -description
 
 Gets or sets the orientation of the editing controls in the [ColorPicker](colorpicker.md).
-
 ## -property-value
 
 The orientation of the editing controls in the ColorPicker. The default is [Vertical](orientation.md).
-
 ## -remarks
 
 When the `Orientation` property is set to `Horizontal`, the ColorPicker will **not** apply the [IsMoreButtonEnabled](colorpicker_ismorebuttonvisible.md) property. Instead, the text input fields will always be displayed to the side of the ColorPicker.

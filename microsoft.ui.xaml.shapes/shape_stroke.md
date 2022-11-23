@@ -38,4 +38,4 @@ A [Brush](../microsoft.ui.xaml.media/brush.md) that specifies how the [Shape](sh
 ## -examples
 
 ## -see-also
-[Fill](shape_fill.md), [Use brushes](/windows/uwp/graphics/using-brushes)
+[Fill](shape_fill.md), [XAML brushes](/windows/apps/design/style/brushes)

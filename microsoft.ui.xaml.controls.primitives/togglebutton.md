@@ -62,4 +62,4 @@ The following example shows how to create a three-state ToggleButton control.
 
 ## -see-also
 
-[ButtonBase](buttonbase.md), [ToggleButton styles and templates](/windows/apps/design/style/xaml-styles), [AppBarToggleButton](../microsoft.ui.xaml.automation.peers/appbartogglebuttonautomationpeer.md), [CheckBox](../microsoft.ui.xaml.controls/checkbox.md), [RadioButton](../microsoft.ui.xaml.controls/radiobutton.md)
+[ButtonBase](buttonbase.md), [AppBarToggleButton](../microsoft.ui.xaml.automation.peers/appbartogglebuttonautomationpeer.md), [CheckBox](../microsoft.ui.xaml.controls/checkbox.md), [RadioButton](../microsoft.ui.xaml.controls/radiobutton.md)

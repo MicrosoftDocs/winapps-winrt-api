@@ -21,8 +21,10 @@ The character repertoire.
 
 Character repertoires are typically scripts like Arabic and Latin, but there are also character repertoires for symbols and Emoji.
 
-To learn more about character repertoires, see [RichEdit Font Binding](/en-us/archive/blogs/murrays/richedit-font-binding).
+To learn more about character repertoires, see [RichEdit Font Binding](https://devblogs.microsoft.com/math-in-office/richedit-font-binding/).
 
 ## -examples
 
 ## -see-also
+
+[How to Use Font Binding in Rich Edit Controls](/windows/win32/controls/use-font-binding-in-rich-edit-controls)

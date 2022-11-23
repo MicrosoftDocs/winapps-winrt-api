@@ -10,13 +10,15 @@ public Windows.UI.Xaml.DependencyProperty StylisticAlternatesProperty { get; }
 # Microsoft.UI.Xaml.Documents.Typography.StylisticAlternatesProperty
 
 ## -description
-Identifies the [StylisticAlternates](/windows/winui/api/microsoft.ui.xaml.documents.typography#xaml-attached-properties) attached property.
+Identifies the [StylisticAlternates](typography_stylisticalternates.md) attached property.
 
 ## -property-value
-The identifier for the [StylisticAlternates](/windows/winui/api/microsoft.ui.xaml.documents.typography#xaml-attached-properties) attached property.
+The identifier for the [StylisticAlternates](typography_stylisticalternates.md) attached property.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
+[Typography.StylisticAlternates](typography_stylisticalternates.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

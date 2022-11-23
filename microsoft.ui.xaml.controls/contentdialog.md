@@ -420,4 +420,4 @@ private async void ShowSignInDialogButton_Click(object sender, RoutedEventArgs e
 
 
 ## -see-also
-[ContentControl](contentcontrol.md), [ContentDialog styles and templates](/windows/apps/design/style/xaml-styles), [Dialogs and flyouts](/windows/apps/design/controls/dialogs)
+[ContentControl](contentcontrol.md), [Dialogs and flyouts](/windows/apps/design/controls/dialogs)

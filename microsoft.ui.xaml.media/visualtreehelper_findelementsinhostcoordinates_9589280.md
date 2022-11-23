@@ -41,7 +41,7 @@ Sometimes you want to know whether a specific element exists within an area of t
 
 If the return value is empty, that means that the *subtree* element didn't exist in the area.
 
-If you are programming using C# or Microsoft Visual Basic, the return value type of this method is projected as an [IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0&preserve-view=true) generic collection that contains [UIElement](../microsoft.ui.xaml/uielement.md) items. If you are programming using Visual C++ component extensions (C++/CX), the return type of this method is [IIterable<UIElement>](/uwp/api/windows.foundation.collections.iiterable`1).
+If you are programming using C# or Microsoft Visual Basic, the return value type of this method is projected as an [IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0&preserve-view=true) generic collection that contains [UIElement](../microsoft.ui.xaml/uielement.md) items. If you are programming using Visual C++ component extensions (C++/CX), the return type of this method is [IIterable<UIElement>](/uwp/api/windows.foundation.collections.iiterable-1).
 
 ## -examples
 Given this XAML UI:

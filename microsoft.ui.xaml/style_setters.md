@@ -4,15 +4,17 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.SetterBaseCollection Setters { get; }
+public Microsoft.UI.Xaml.SetterBaseCollection Setters { get; }
 -->
 
 # Microsoft.UI.Xaml.Style.Setters
 
 ## -description
+
 Gets a collection of [Setter](setter.md) objects.
 
 ## -xaml-syntax
+
 ```xaml
 <Style ...>
   oneOrMoreSetters
@@ -24,7 +26,6 @@ Gets a collection of [Setter](setter.md) objects.
   </Style.Setters>
 </Style>
 ```
-
 
 ## -xaml-values
 <dl><dt>oneOrMoreSetters</dt><dd>oneOrMoreSettersOne or more object elements for objects that derive from SetterBase. Generally, these are Setter object elements.</dd>

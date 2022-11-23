@@ -156,4 +156,4 @@ This example creates the command bar shown in Remarks.
 
 ## -see-also
 
-[Guidelines for command bars](/windows/uwp/controls-and-patterns/app-bars), [CommandBar styles and templates](/windows/apps/design/style/xaml-styles), [Commanding sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlCommanding)
+[Guidelines for command bars](/windows/uwp/controls-and-patterns/app-bars), [Commanding sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlCommanding)

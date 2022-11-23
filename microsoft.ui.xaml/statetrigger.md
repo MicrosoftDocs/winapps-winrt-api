@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class StateTrigger : Windows.UI.Xaml.StateTriggerBase, Windows.UI.Xaml.IStateTrigger
+public class StateTrigger : Microsoft.UI.Xaml.StateTriggerBase, Microsoft.UI.Xaml.IStateTrigger
 -->
 
 # Microsoft.UI.Xaml.StateTrigger

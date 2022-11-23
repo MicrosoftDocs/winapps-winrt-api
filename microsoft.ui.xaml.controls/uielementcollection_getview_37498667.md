@@ -13,11 +13,11 @@ public Windows.Foundation.Collections.IVectorView<Windows.UI.Xaml.UIElement> Get
 Gets an immutable view into the collection.
 
 ## -returns
-An object representing the immutable collection view. This object implements [IVectorView<T>](/uwp/api/windows.foundation.collections.ivectorview`1) with a [UIElement](../microsoft.ui.xaml/uielement.md) constraint.
+An object representing the immutable collection view. This object implements [IVectorView<T>](/uwp/api/windows.foundation.collections.ivectorview-1) with a [UIElement](../microsoft.ui.xaml/uielement.md) constraint.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[IVectorView&lt;T&gt;](/uwp/api/windows.foundation.collections.ivectorview`1), [UIElement](../microsoft.ui.xaml/uielement.md)
+[IVectorView&lt;T&gt;](/uwp/api/windows.foundation.collections.ivectorview-1), [UIElement](../microsoft.ui.xaml/uielement.md)

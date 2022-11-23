@@ -1,0 +1,27 @@
+---
+-api-id: P:Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverBorderBrush
+-api-type: winrt property
+---
+
+# Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverBorderBrush
+
+<!--
+public Microsoft.UI.Xaml.Media.Brush PointerOverBorderBrush { get; set; }
+-->
+
+
+## -description
+
+Gets or sets the brush used to render the border of the list view item when the pointer is over it.
+
+## -property-value
+
+The brush used to render the border of the list view item when the pointer is over it.
+
+## -remarks
+
+## -see-also
+
+## -examples
+
+

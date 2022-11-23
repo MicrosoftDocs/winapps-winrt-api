@@ -6,17 +6,18 @@
 # Microsoft.UI.Xaml.Controls.ColorPicker.OrientationProperty
 
 <!--
-public static Windows.UI.Xaml.DependencyProperty OrientationProperty { get; }
+public static Microsoft.UI.Xaml.DependencyProperty OrientationProperty { get; }
 -->
 
 
 ## -description
 
-Identifies the [Orientation](colorpicker_orientation.md) dependency property.
+Identifies the Orientation dependency property.
+
 
 ## -property-value
 
-The identifier for the [Orientation](colorpicker_orientation.md) dependency property.
+The identifier for the Orientation dependency property.
 
 ## -remarks
 

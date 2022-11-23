@@ -44,4 +44,4 @@ A [Duration](../microsoft.ui.xaml/duration.md) value has a **TimeSpan** componen
 ## -examples
 
 ## -see-also
-[Storyboarded animations](/windows/uwp/graphics/storyboarded-animations)
+[Storyboarded animations](/windows/apps/design/motion/storyboarded-animations)

@@ -11,10 +11,10 @@ public static Windows.UI.Xaml.DependencyProperty HorizontalOrientationPaddingPro
 
 
 ## -description
-Gets the identifier for the [InfoBar.HorizontalOrientationPadding](infobar_horizontalorientationpadding.md) dependency property.
+Gets the identifier for the [InfoBarPanel.HorizontalOrientationPadding](infobarpanel_horizontalorientationpadding.md) dependency property.
 
 ## -property-value
-The identifier for the [InfoBar.HorizontalOrientationPadding](infobar_horizontalorientationpadding.md) dependency property.
+The identifier for the [InfoBarPanel.HorizontalOrientationPadding](infobarpanel_horizontalorientationpadding.md) dependency property.
 
 ## -remarks
 

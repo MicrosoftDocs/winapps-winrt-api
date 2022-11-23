@@ -4,12 +4,13 @@
 ---
 
 <!-- Event syntax
-public event Windows.UI.Xaml.VisualStateChangedEventHandler CurrentStateChanging
+public event Microsoft.UI.Xaml.VisualStateChangedEventHandler CurrentStateChanging
 -->
 
 # Microsoft.UI.Xaml.VisualStateGroup.CurrentStateChanging
 
 ## -description
+
 Occurs when a control begins changing into a different state.
 
 ## -remarks

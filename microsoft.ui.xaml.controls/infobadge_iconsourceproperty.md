@@ -6,13 +6,13 @@
 # Microsoft.UI.Xaml.Controls.InfoBadge.IconSourceProperty
 
 <!--
-public static Windows.UI.Xaml.DependencyProperty IconSourceProperty { get; }
+public static Microsoft.UI.Xaml.DependencyProperty IconSourceProperty { get; }
 -->
+
 
 ## -description
 
 Identifies the [InfoBadge.IconSource](infobadge_iconsource.md) dependency property.
-
 ## -property-value
 
 The identifier for the [InfoBadge.IconSource](infobadge_iconsource.md) dependency property.
@@ -24,3 +24,5 @@ The identifier for the [InfoBadge.IconSource](infobadge_iconsource.md) dependenc
 [InfoBadge overview](/windows/apps/design/controls/info-badge)
 
 ## -examples
+
+

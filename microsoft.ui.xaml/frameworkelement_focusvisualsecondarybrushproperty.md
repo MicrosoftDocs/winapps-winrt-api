@@ -4,16 +4,18 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.DependencyProperty FocusVisualSecondaryBrushProperty { get; }
+public Microsoft.UI.Xaml.DependencyProperty FocusVisualSecondaryBrushProperty { get; }
 -->
 
 # Microsoft.UI.Xaml.FrameworkElement.FocusVisualSecondaryBrushProperty
 
 ## -description
-Identifies the [FocusVisualSecondaryBrush](frameworkelement_focusvisualsecondarybrush.md)  dependency property.
+
+Identifies the [FocusVisualSecondaryBrush](frameworkelement_focusvisualsecondarybrush.md) dependency property.
 
 ## -property-value
-The identifier for the [FocusVisualSecondaryBrush](frameworkelement_focusvisualsecondarybrush.md)  dependency property.
+
+The identifier for the [FocusVisualSecondaryBrush](frameworkelement_focusvisualsecondarybrush.md) dependency property.
 
 ## -remarks
 

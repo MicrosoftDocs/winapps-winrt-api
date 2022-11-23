@@ -6,8 +6,9 @@
 # Microsoft.UI.Xaml.Controls.InfoBadge
 
 <!--
-public class InfoBadge : Windows.UI.Xaml.Controls.Control
+public class InfoBadge : Microsoft.UI.Xaml.Controls.Control
 -->
+
 
 ## -description
 
@@ -27,6 +28,6 @@ To hide the InfoBadge, set its [Opacity](../microsoft.ui.xaml/uielement_opacity.
 
 Here's an example of a simple InfoBadge that's set to display the number of unread emails:
 
-```xml
+```xaml
 <InfoBadge x:Name="emailInfoBadge" Value="{x:Bind numUnreadMail}"/>
 ```

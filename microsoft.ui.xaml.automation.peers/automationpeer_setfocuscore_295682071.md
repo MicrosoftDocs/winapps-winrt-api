@@ -18,4 +18,4 @@ The standard implementation uses [IsKeyboardFocusable](automationpeer_iskeyboard
 ## -examples
 
 ## -see-also
-[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Control.Focus](/uwp/api/windows.ui.xaml.controls.control.focus(windows.ui.xaml.focusstate)), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers), [Accessibility](/windows/uwp/accessibility/accessibility)
+[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [UIElement.Focus(Microsoft.UI.Xaml.FocusState)](uielement_focus_1914077590.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers), [Accessibility](/windows/uwp/accessibility/accessibility)

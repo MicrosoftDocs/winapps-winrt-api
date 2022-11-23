@@ -4,7 +4,7 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.Media.Brush FocusVisualPrimaryBrush { get;  set; }
+public Microsoft.UI.Xaml.Media.Brush FocusVisualPrimaryBrush { get;  set; }
 -->
 
 # Microsoft.UI.Xaml.FrameworkElement.FocusVisualPrimaryBrush

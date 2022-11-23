@@ -4,7 +4,7 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.Thickness FocusVisualMargin { get;  set; }
+public Microsoft.UI.Xaml.Thickness FocusVisualMargin { get;  set; }
 -->
 
 # Microsoft.UI.Xaml.FrameworkElement.FocusVisualMargin

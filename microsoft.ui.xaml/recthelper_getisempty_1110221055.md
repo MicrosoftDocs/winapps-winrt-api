@@ -11,7 +11,7 @@ public bool GetIsEmpty(Windows.Foundation.Rect target)
 
 ## -description
 
- Returns whether a specified [Rect](/uwp/api/windows.foundation.rect) is equivalent to an [Empty](recthelper_empty.md) [Rect](/uwp/api/windows.foundation.rect). C# and Microsoft Visual Basic code should use [Rect.IsEmpty](/dotnet/api/windows.foundation.rect.isempty?view=dotnet-uwp-10.0&preserve-view=true) instead.
+ Returns whether a specified [Rect](/uwp/api/windows.foundation.rect) is equivalent to an [Empty](recthelper_empty.md) [Rect](/uwp/api/windows.foundation.rect). C# code should use [Rect.IsEmpty](/dotnet/api/windows.foundation.rect.isempty) instead.
 
 ## -parameters
 
@@ -21,7 +21,7 @@ The [Rect](/uwp/api/windows.foundation.rect) to evaluate.
 
 ## -returns
 
- **true** if the specified [Rect](/uwp/api/windows.foundation.rect) is equivalent to an [Empty](recthelper_empty.md) [Rect](/uwp/api/windows.foundation.rect); otherwise, **false**.
+ `true` if the specified [Rect](/uwp/api/windows.foundation.rect) is equivalent to an [Empty](recthelper_empty.md) [Rect](/uwp/api/windows.foundation.rect); otherwise, `false`.
 
 ## -remarks
 

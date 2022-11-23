@@ -11,7 +11,7 @@ public class ElementFactoryRecycleArgs
 
 ## -description
 
-Represents the optional arguments to use when calling an implementation of the [RecycleElement](/uwp/api/windows.ui.xaml.ielementfactory.recycleelement) method of an [IElementFactory](/uwp/api/windows.ui.xaml.ielementfactory) object.
+Represents the optional arguments to use when calling an implementation of the [RecycleElement](/uwp/api/windows.ui.xaml.ielementfactory.recycleelement) method of an [IElementFactory](../microsoft.ui.xaml/ielementfactory.md) object.
 
 ## -remarks
 

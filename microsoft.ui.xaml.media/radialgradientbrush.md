@@ -43,7 +43,7 @@ If you look at the existing control template definitions for Windows Runtime XAM
 
 ## -see-also
 
-[Brush](/uwp/api/windows.ui.xaml.media.brush), [SolidColorBrush](/uwp/api/windows.ui.xaml.media.solidcolorbrush), [LinearGradientBrush](/uwp/api/windows.ui.xaml.media.lineargradientbrush), [GradientBrush](/uwp/api/windows.ui.xaml.media.gradientbrush), [GradientStop](/uwp/api/windows.ui.xaml.media.gradientstop), [Use brushes](/windows/uwp/graphics/using-brushes), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[Brush](/uwp/api/windows.ui.xaml.media.brush), [SolidColorBrush](/uwp/api/windows.ui.xaml.media.solidcolorbrush), [LinearGradientBrush](/uwp/api/windows.ui.xaml.media.lineargradientbrush), [GradientBrush](/uwp/api/windows.ui.xaml.media.gradientbrush), [GradientStop](/uwp/api/windows.ui.xaml.media.gradientstop), [XAML brushes](/windows/apps/design/style/brushes), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)
 
 ## -examples
 

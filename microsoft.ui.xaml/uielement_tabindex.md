@@ -11,11 +11,11 @@ public int TabIndex { get; set; }
 
 ## -description
 
-Gets or sets a value that determines the order in which elements receive focus when the user navigates through controls using the Tab key.
+Gets or sets a value that determines the order in which elements receive focus when the user navigates through controls using the _Tab_ key.
 
 ## -property-value
 
-A value that determines the order of logical navigation for a device. The default value is [MaxValue](/dotnet/api/system.int32.maxvalue?view=dotnet-uwp-10.0&preserve-view=true) with the tab order based on declaration order in the XAML or child collections.
+A value that determines the order of logical navigation for a device. The default value is [MaxValue](/dotnet/api/system.int32.maxvalue) with the tab order based on declaration order in the XAML or child collections.
 
 ## -remarks
 

@@ -4,7 +4,7 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.RoutedEvent TappedEvent { get; }
+public Microsoft.UI.Xaml.RoutedEvent TappedEvent { get; }
 -->
 
 # Microsoft.UI.Xaml.UIElement.TappedEvent

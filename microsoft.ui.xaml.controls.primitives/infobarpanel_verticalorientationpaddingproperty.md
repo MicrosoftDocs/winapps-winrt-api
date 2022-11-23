@@ -9,17 +9,16 @@
 public static Windows.UI.Xaml.DependencyProperty VerticalOrientationPaddingProperty { get; }
 -->
 
-
 ## -description
-Gets the identifier for the [InfoBar.VerticalOrientationPadding](infobar_verticalorientationpadding.md) dependency property.
+
+Gets the identifier for the [InfoBarPanel.VerticalOrientationPadding](infobarpanel_verticalorientationpadding.md) dependency property.
 
 ## -property-value
-The identifier for the [InfoBar.VerticalOrientationPadding](infobar_verticalorientationpadding.md) dependency property.
+
+The identifier for the [InfoBarPanel.VerticalOrientationPadding](infobarpanel_verticalorientationpadding.md) dependency property.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

@@ -10,6 +10,7 @@ public class TemplatePartAttribute : System.Attribute
 # Microsoft.UI.Xaml.TemplatePartAttribute
 
 ## -description
+
 Represents an attribute that is applied to the class definition to identify the types of the named parts that are used for templating.
 
 ## -remarks
@@ -17,4 +18,5 @@ Represents an attribute that is applied to the class definition to identify the 
 ## -examples
 
 ## -see-also
-[Attribute](/dotnet/api/system.attribute?view=dotnet-uwp-10.0&preserve-view=true), [Styling controls](/windows/uwp/controls-and-patterns/styling-controls), [Quickstart: control templates](/previous-versions/windows/apps/hh465374(v=win.10))
+
+[Attribute](/dotnet/api/system.attribute), [Styling controls](/windows/uwp/controls-and-patterns/styling-controls), [XAML Control templates](/windows/apps/design/style/xaml-control-templates)

@@ -4,16 +4,18 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.DependencyProperty MaxWidthProperty { get; }
+public Microsoft.UI.Xaml.DependencyProperty MaxWidthProperty { get; }
 -->
 
 # Microsoft.UI.Xaml.FrameworkElement.MaxWidthProperty
 
 ## -description
-Identifies the [MaxWidth](frameworkelement_maxwidth.md)  dependency property.
+
+Identifies the [MaxWidth](frameworkelement_maxwidth.md) dependency property.
 
 ## -property-value
-The identifier for the [MaxWidth](frameworkelement_maxwidth.md)  dependency property.
+
+The identifier for the [MaxWidth](frameworkelement_maxwidth.md) dependency property.
 
 ## -remarks
 

@@ -3,20 +3,23 @@
 -api-type: winrt delegate
 ---
 <!-- Delegate syntax.
-public delegate void RoutedEventHandler(System.Object sender, Windows.UI.Xaml.RoutedEventArgs e)
+public delegate void RoutedEventHandler(System.Object sender, Microsoft.UI.Xaml.RoutedEventArgs e)
 -->
 # Microsoft.UI.Xaml.RoutedEventHandler
 
 ## -description
+
 Represents the method that will handle routed events.
 
 ## -parameters
+
 ### -param sender
+
 The object where the event handler is attached.
 
 ### -param e
-The event data.
 
+The event data.
 
 ## -remarks
 

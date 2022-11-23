@@ -38,4 +38,4 @@ A [Brush](../microsoft.ui.xaml.media/brush.md) that paints/fills the shape inter
 ## -examples
 
 ## -see-also
-[Stroke](shape_stroke.md), [Use brushes](/windows/uwp/graphics/using-brushes)
+[Stroke](shape_stroke.md), [XAML brushes](/windows/apps/design/style/brushes)

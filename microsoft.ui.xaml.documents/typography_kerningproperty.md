@@ -10,13 +10,16 @@ public Windows.UI.Xaml.DependencyProperty KerningProperty { get; }
 # Microsoft.UI.Xaml.Documents.Typography.KerningProperty
 
 ## -description
-Identifies the [Kerning](/windows/winui/api/microsoft.ui.xaml.documents.typography#xaml-attached-properties) attached property.
+Identifies the [Kerning](typography_kerning.md) attached property.
+
 
 ## -property-value
-The identifier for the [Kerning](/windows/winui/api/microsoft.ui.xaml.documents.typography#xaml-attached-properties) attached property.
+The identifier for the [Kerning](typography_kerning.md) attached property.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
+[Typography.Kerning](typography_kerning.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

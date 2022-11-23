@@ -92,7 +92,7 @@ richTextBlock.Width = 200;
 paragraph.Inlines.Add(run);
 richTextBlock.Blocks.Add(paragraph);
 
-// Add the RichTextBlock to the visual tree (assumes stackPanel is decalred in XAML).
+// Add the RichTextBlock to the visual tree (assumes stackPanel is declared in XAML).
 stackPanel.Children.Add(richTextBlock);
 ```
 
@@ -120,9 +120,9 @@ Run run = new Run();
 
 // Customize some properties on the RichTextBlock.
 richTextBlock.IsTextSelectionEnabled = true;
-richTextBlock.SelectionHighlightColor = new SolidColorBrush(Windows.UI.Colors.Pink);
-richTextBlock.Foreground = new SolidColorBrush(Windows.UI.Colors.Blue);
-richTextBlock.FontWeight = Windows.UI.Text.FontWeights.Light;
+richTextBlock.SelectionHighlightColor = new SolidColorBrush(Colors.Pink);
+richTextBlock.Foreground = new SolidColorBrush(Colors.Blue);
+richTextBlock.FontWeight = FontWeights.Light;
 richTextBlock.FontFamily = new FontFamily("Arial");
 richTextBlock.FontStyle = Windows.UI.Text.FontStyle.Italic;
 run.Text = "This is some sample text to demonstrate some properties.";
@@ -131,7 +131,7 @@ run.Text = "This is some sample text to demonstrate some properties.";
 paragraph.Inlines.Add(run);
 richTextBlock.Blocks.Add(paragraph);
 
-// Add the RichTextBlock to the visual tree (assumes stackPanel is decalred in XAML).
+// Add the RichTextBlock to the visual tree (assumes stackPanel is declared in XAML).
 stackPanel.Children.Add(richTextBlock);
 ```
 
@@ -156,25 +156,25 @@ In code, you have to explicitly create each [Run](../microsoft.ui.xaml.documents
 ```csharp
 RichTextBlock richTextBlock = new RichTextBlock();
 richTextBlock.IsTextSelectionEnabled = true;
-richTextBlock.SelectionHighlightColor = new SolidColorBrush(Windows.UI.Colors.Pink);
+richTextBlock.SelectionHighlightColor = new SolidColorBrush(Colors.Pink);
 richTextBlock.FontFamily = new FontFamily("Arial");
 
 Paragraph paragraph = new Paragraph();
 Run run = new Run();
-run.Foreground = new SolidColorBrush(Windows.UI.Colors.Blue);
-run.FontWeight = Windows.UI.Text.FontWeights.Light;
+run.Foreground = new SolidColorBrush(Colors.Blue);
+run.FontWeight = FontWeights.Light;
 run.Text = "This is some";
 
 Span span = new Span();
-span.FontWeight = Windows.UI.Text.FontWeights.SemiBold;
+span.FontWeight = FontWeights.SemiBold;
 
 Run run1 = new Run();
 run1.FontStyle = Windows.UI.Text.FontStyle.Italic;
 run1.Text = " sample text to ";
 
 Run run2 = new Run();
-run2.Foreground = new SolidColorBrush(Windows.UI.Colors.Red);
-run2.Text = " demonstrate some properties";
+run2.Foreground = new SolidColorBrush(Colors.Red);
+run2.Text = "demonstrate some properties.";
 
 span.Inlines.Add(run1);
 span.Inlines.Add(run2);
@@ -182,7 +182,7 @@ paragraph.Inlines.Add(run);
 paragraph.Inlines.Add(span);
 richTextBlock.Blocks.Add(paragraph);
 
-// Add the RichTextBlock to the visual tree (assumes stackPanel is decalred in XAML).
+// Add the RichTextBlock to the visual tree (assumes stackPanel is declared in XAML).
 stackPanel.Children.Add(richTextBlock);
 ```
 

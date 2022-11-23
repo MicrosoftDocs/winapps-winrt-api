@@ -199,4 +199,4 @@ private void AutoSuggestBox_QuerySubmitted(AutoSuggestBox sender, AutoSuggestBox
 
 ## -see-also
 
-[ItemsControl](itemscontrol.md), [IItemContainerMapping](iitemcontainermapping.md), [AutoSuggestBox styles and templates](/windows/apps/design/style/xaml-styles), [AutoSuggestBox migration sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAutoSuggestBox), [Guidelines for auto-suggest boxes](/windows/apps/design/controls/auto-suggest-box), [Search and find-in-page](/windows/apps/design/controls/search)
+[ItemsControl](itemscontrol.md), [IItemContainerMapping](iitemcontainermapping.md), [AutoSuggestBox migration sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAutoSuggestBox), [Guidelines for auto-suggest boxes](/windows/apps/design/controls/auto-suggest-box), [Search and find-in-page](/windows/apps/design/controls/search)

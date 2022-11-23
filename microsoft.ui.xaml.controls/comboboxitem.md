@@ -78,4 +78,4 @@ This table shows the resources used by the ComboBoxItem control.
 
 ## -see-also
 
-[SelectorItem](../microsoft.ui.xaml.controls.primitives/selectoritem.md), [ComboBox](combobox.md), [ItemContainerStyle](itemscontrol_itemcontainerstyle.md), [ComboBoxItem styles and templates](/windows/apps/design/style/xaml-styles)
+[SelectorItem](../microsoft.ui.xaml.controls.primitives/selectoritem.md), [ComboBox](combobox.md), [ItemContainerStyle](itemscontrol_itemcontainerstyle.md)

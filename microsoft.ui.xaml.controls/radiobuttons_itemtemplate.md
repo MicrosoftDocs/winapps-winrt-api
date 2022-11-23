@@ -11,7 +11,7 @@ public object ItemTemplate { get; set; }
 
 ## -description
 
-Gets or sets the [DataTemplate](/uwp/api/windows.ui.xaml.datatemplate) used to display each item.
+Gets or sets the [DataTemplate](../microsoft.ui.xaml/datatemplate.md) used to display each item.
 
 ## -property-value
 

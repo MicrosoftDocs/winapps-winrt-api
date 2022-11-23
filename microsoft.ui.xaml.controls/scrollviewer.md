@@ -39,7 +39,7 @@ When a ScrollViewer part in a control exists, the host control often has built-i
 
 To make it possible for controls that include a ScrollViewer to influence some of the behavior and properties that are from within the ScrollViewer part, ScrollViewer defines a number of XAML attached properties that can be set in styles and used in template bindings.
 
-If you need to handle pointer events for a [UIElement](../microsoft.ui.xaml/uielement.md) in a scrollable view (such as a ScrollViewer), you must explicitly disable support for manipulation events on the element in the view by calling [UIElement.CancelDirectmanipulation()](../microsoft.ui.xaml/uielement_canceldirectmanipulations_1164631120.md). To re-enable manipulation events in the view, call [UIElement.TryStartDirectManipulation()](/uwp/api/windows.ui.xaml.uielement.trystartdirectmanipulation(windows.ui.xaml.input.pointer)).
+If you need to handle pointer events for a [UIElement](../microsoft.ui.xaml/uielement.md) in a scrollable view (such as a ScrollViewer), you must explicitly disable support for manipulation events on the element in the view by calling [UIElement.CancelDirectmanipulation()](../microsoft.ui.xaml/uielement_canceldirectmanipulations_1164631120.md). To re-enable manipulation events in the view, call [UIElement.TryStartDirectManipulation](../microsoft.ui.xaml/uielement_trystartdirectmanipulation_2108245083.md).
 
 ### Pen interaction
 
@@ -51,7 +51,7 @@ If your app should use an active pen for text selection, you can override pen sc
 
 This  example shows how to:
 
-+ Register the events using the [AddHandler](/uwp/api/windows.ui.xaml.uielement.addhandler(windows.ui.xaml.routedevent,system.object,system.boolean)) method with the *handledEventsToo* parameter set to **true**.
++ Register the events using the [UIElement.AddHandler](../microsoft.ui.xaml/uielement_addhandler_1350394113.md) method with the *handledEventsToo* parameter set to **true**.
 + Check if the pointer device is a [Pen](/uwp/api/windows.devices.input.pointerdevicetype).
 + In the [PointerPressed](../microsoft.ui.xaml/uielement_pointerpressed.md) event handler, turn off system manipulation support in the ScrollViewer.
 + In the [PointerReleased](../microsoft.ui.xaml/uielement_pointerreleased.md) and [PointerCanceled](../microsoft.ui.xaml/uielement_pointercanceled.md) event handlers, turn back on system manipulation support.
@@ -126,7 +126,7 @@ ScrollViewer defines the following XAML attached properties:
 
 These XAML attached properties are intended for cases where the ScrollViewer is implicit, such as when the ScrollViewer exists in the default template for a [ListView](listview.md) or [GridView](gridview.md), and you want to be able to influence the scrolling behavior of the control without accessing template parts. For cases where a ScrollViewer is explicit in your XAML, as is shown in the example code in the Examples section, you don't need to use attached property syntax. Just use attribute syntax, for example `<ScrollViewer ZoomMode="Enabled" />`.
 
-In order to support XAML processor access to the attached properties, and also to expose equivalent get and set operations to code, each XAML attached property has a pair of **Get** and **Set** accessor methods. For example, the [GetHorizontalScrollMode](scrollviewer_gethorizontalscrollmode_1266449452.md) and [SetHorizontalScrollMode](scrollviewer_sethorizontalscrollmode_463563719.md) methods support and provide the equivalent code-only support for [ScrollViewer.HorizontalScrollMode](scrollviewer_horizontalscrollmode.md). Alternatively, you can use the dependency property system to get or set the value of the attached property. Call [GetValue](/uwp/api/windows.ui.xaml.dependencyobject.getvalue(windows.ui.xaml.dependencyproperty)) or [SetValue](/uwp/api/windows.ui.xaml.dependencyobject.setvalue(windows.ui.xaml.dependencyproperty,system.object)), passing the arguments of the dependency property identifier to set, and a reference to the target object on which to get or set the value.
+In order to support XAML processor access to the attached properties, and also to expose equivalent get and set operations to code, each XAML attached property has a pair of **Get** and **Set** accessor methods. For example, the [GetHorizontalScrollMode](scrollviewer_gethorizontalscrollmode_1266449452.md) and [SetHorizontalScrollMode](scrollviewer_sethorizontalscrollmode_463563719.md) methods support and provide the equivalent code-only support for [ScrollViewer.HorizontalScrollMode](scrollviewer_horizontalscrollmode.md). Alternatively, you can use the dependency property system to get or set the value of the attached property. Call [GetValue](../microsoft.ui.xaml/dependencyobject_getvalue_229640130.md) or [SetValue](../microsoft.ui.xaml/dependencyobject_setvalue_1212521140.md), passing the arguments of the dependency property identifier to set, and a reference to the target object on which to get or set the value.
 
 ### Control style and template
 

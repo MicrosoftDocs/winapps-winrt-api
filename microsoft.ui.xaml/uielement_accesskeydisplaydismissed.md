@@ -4,7 +4,7 @@
 ---
 
 <!-- Event syntax
-public event Windows.Foundation.TypedEventHandler AccessKeyDisplayDismissed<Windows.UI.Xaml.UIElement,  Windows.UI.Xaml.Input.AccessKeyDisplayDismissedEventArgs>
+public event Windows.Foundation.TypedEventHandler AccessKeyDisplayDismissed<Microsoft.UI.Xaml.UIElement,  Microsoft.UI.Xaml.Input.AccessKeyDisplayDismissedEventArgs>
 -->
 
 # Microsoft.UI.Xaml.UIElement.AccessKeyDisplayDismissed

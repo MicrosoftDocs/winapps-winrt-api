@@ -30,7 +30,6 @@ FrameworkElementAutomationPeer is the parent class for several immediately deriv
 
 + [AppBarAutomationPeer](appbarautomationpeer.md)
 + [ButtonBaseAutomationPeer](buttonbaseautomationpeer.md)
-+ [CaptureElementAutomationPeer](captureelementautomationpeer.md)
 + [ComboBoxItemAutomationPeer](comboboxitemautomationpeer.md)
 + [DatePickerAutomationPeer](datepickerautomationpeer.md)
 + [FlipViewItemAutomationPeer](flipviewitemautomationpeer.md)

@@ -10,10 +10,12 @@ public bool AllowFocusWhenDisabled { get;  set; }
 # Microsoft.UI.Xaml.FrameworkElement.AllowFocusWhenDisabled
 
 ## -description
+
 Gets or sets whether a disabled control can receive focus.
 
 ## -property-value
-**true** if a disabled control can receive focus; otherwise, **false**.
+
+`true` if a disabled control can receive focus; otherwise, `false`.
 
 ## -remarks
 

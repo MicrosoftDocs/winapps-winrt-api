@@ -4,7 +4,7 @@
 ---
 
 <!-- Event syntax
-public event Windows.UI.Xaml.Input.PointerEventHandler PointerCanceled
+public event Microsoft.UI.Xaml.Input.PointerEventHandler PointerCanceled
 -->
 
 # Microsoft.UI.Xaml.UIElement.PointerCanceled
@@ -29,15 +29,15 @@ Some of the reasons why you might get a PointerCanceled occurrence are:
 + The number of simultaneous contacts exceeded the number supported by the device
 
 > > [!IMPORTANT]
-> PointerCanceled might fire instead of [PointerReleased](uielement_pointerreleased.md). Don't rely on [PointerPressed](uielement_pointerpressed.md) and [PointerReleased](uielement_pointerreleased.md) events always occurring in pairs. To function properly, your app must listen for and handle all events that represent the possible conclusions to a **Press** action, and that includes PointerCanceled.
+> `PointerCanceled` might fire instead of [PointerReleased](uielement_pointerreleased.md). Don't rely on [PointerPressed](uielement_pointerpressed.md) and `PointerReleased` events always occurring in pairs. To function properly, your app must listen for and handle all events that represent the possible conclusions to a **Press** action, and that includes `PointerCanceled`.
 
-If PointerCanceled fires, any pointer captures by that pointer are released. For more info on pointer capture, see [CapturePointer](uielement_capturepointer_1027273898.md).
+If `PointerCanceled` fires, any pointer captures by that pointer are released. For more info on pointer capture, see [CapturePointer](uielement_capturepointer_1027273898.md).
 
-When handling a PointerCanceled event, anticipate that some of the event data normally available for a pointer event won't be meaningful in the [PointerRoutedEventArgs](../microsoft.ui.xaml.input/pointerroutedeventargs.md) object you get through your handler. For example, the [Microsoft.UI.Input.PointerPoint.Position](../microsoft.ui.input/pointerpoint_position.md) of the pointer is invalid because the pointer no longer exists.
+When handling a `PointerCanceled` event, anticipate that some of the event data normally available for a pointer event won't be meaningful in the [PointerRoutedEventArgs](../microsoft.ui.xaml.input/pointerroutedeventargs.md) object you get through your handler. For example, the [Microsoft.UI.Input.PointerPoint.Position](../microsoft.ui.input/pointerpoint_position.md) of the pointer is invalid because the pointer no longer exists.
 
-PointerCanceled is a routed event. For more info on the routed event concept, see [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview).
+`PointerCanceled` is a routed event. For more info on the routed event concept, see [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview).
 
-PointerCanceled supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked [Handled](../microsoft.ui.xaml.input/pointerroutedeventargs_handled.md). See [AddHandler](uielement_addhandler_1350394113.md).
+`PointerCanceled` supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked [Handled](../microsoft.ui.xaml.input/pointerroutedeventargs_handled.md). See [AddHandler](uielement_addhandler_1350394113.md).
 
 ## -examples
 

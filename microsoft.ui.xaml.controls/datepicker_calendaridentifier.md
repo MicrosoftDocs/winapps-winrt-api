@@ -20,6 +20,7 @@ Gets or sets the calendar system to use.
 ## -xaml-values
 <dl><dt>calendarSystem</dt><dd>calendarSystemThe name of the calendar system to use. See Remarks.</dd>
 </dl>
+
 ## -property-value
 The calendar system to use.
 

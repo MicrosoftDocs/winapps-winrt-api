@@ -18,7 +18,7 @@ Provides an object source type for the [Image.Source](../microsoft.ui.xaml.contr
 
 ImageSource and [BitmapSource](../microsoft.ui.xaml.media.imaging/bitmapsource.md) are intermediate base classes for [BitmapImage](../microsoft.ui.xaml.media.imaging/bitmapimage.md). For more info on how to create an image source to use for [Image.Source](../microsoft.ui.xaml.controls/image_source.md) and [ImageBrush.ImageSource](imagebrush_imagesource.md), see [Image and ImageBrush](/windows/uwp/controls-and-patterns/images-imagebrushes) and [BitmapImage](../microsoft.ui.xaml.media.imaging/bitmapimage.md).
 
-The [ImageSource](imagebrush_imagesource.md) type is also the value to use for the [MediaElement.PosterSource](../microsoft.ui.xaml.controls/mediaelement_postersource.md) property.
+The [ImageSource](imagebrush_imagesource.md) type is also the value to use for the [Windows.UI.Xaml.Controls.MediaElement.PosterSource](/uwp/api/windows.ui.xaml.controls.mediaelement.postersource) property.
 
 ### **ImageSource** derived classes
 

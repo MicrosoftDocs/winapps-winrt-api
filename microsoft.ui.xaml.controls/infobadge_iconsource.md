@@ -9,10 +9,10 @@
 public Microsoft.UI.Xaml.Controls.IconSource IconSource { get; set; }
 -->
 
+
 ## -description
 
 Gets or sets the icon to be used in an InfoBadge.
-
 ## -property-value
 
 The icon to be used in an InfoBadge. The default is null.
@@ -24,3 +24,5 @@ The icon to be used in an InfoBadge. The default is null.
 [InfoBadge overview](/windows/apps/design/controls/info-badge)
 
 ## -examples
+
+

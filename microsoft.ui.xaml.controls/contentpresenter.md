@@ -93,4 +93,4 @@ This example shows a typical placement of a ContentPresenter object element as p
 
 
 ## -see-also
-[ContentControl](contentcontrol.md), [FrameworkElement](../microsoft.ui.xaml/frameworkelement.md), [ItemsPresenter](itemspresenter.md), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10))
+[ContentControl](contentcontrol.md), [FrameworkElement](../microsoft.ui.xaml/frameworkelement.md), [ItemsPresenter](itemspresenter.md), [XAML Control templates](/windows/apps/design/style/xaml-control-templates)

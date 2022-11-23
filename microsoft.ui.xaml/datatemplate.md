@@ -4,32 +4,33 @@
 ---
 
 <!-- Class syntax.
-public class DataTemplate : Windows.UI.Xaml.FrameworkTemplate, Windows.UI.Xaml.IDataTemplate
+public class DataTemplate : Microsoft.UI.Xaml.FrameworkTemplate, Microsoft.UI.Xaml.IDataTemplate
 -->
 
 # Microsoft.UI.Xaml.DataTemplate
 
 ## -description
+
 Describes the visual structure of a data object. Use data binding for specific elements in the template that display the data values.
 
 ## -xaml-syntax
-```xaml
+
+``` xaml
 <DataTemplate ...>
   templateContent
 </DataTemplate>
- 
-
 ```
 
-
 ## -remarks
-A DataTemplate object is used as the value for these properties:
+
+A `DataTemplate` object is used as the value for these properties:
+
 + [ItemsControl.ItemTemplate](../microsoft.ui.xaml.controls/itemscontrol_itemtemplate.md) (which is inherited by various items controls such as [ListView](../microsoft.ui.xaml.controls/listview.md), [GridView](../microsoft.ui.xaml.controls/gridview.md), [ListBox](../microsoft.ui.xaml.controls/listbox.md))
 + [ContentControl.ContentTemplate](../microsoft.ui.xaml.controls/contentcontrol_contenttemplate.md) (which is inherited by various content controls such as [Button](../microsoft.ui.xaml.controls/button.md), [Frame](../microsoft.ui.xaml.controls/frame.md), [SettingsFlyout](/uwp/api/windows.ui.xaml.controls.settingsflyout))
-+ **HeaderTemplate** and **FooterTemplate** properties of various items control classes
++ `HeaderTemplate` and `FooterTemplate` properties of various items control classes
 + [ItemsPresenter.HeaderTemplate](../microsoft.ui.xaml.controls/itemspresenter_headertemplate.md) and [ItemsPresenter.FooterTemplate](../microsoft.ui.xaml.controls/itemspresenter_footertemplate.md)
-+ **HeaderTemplate** and **FooterTemplate** properties of text controls such as [RichEditBox](../microsoft.ui.xaml.controls/richeditbox.md), [TextBox](../microsoft.ui.xaml.controls/textbox.md)
-+ **HeaderTemplate** property of controls such as [ComboBox](../microsoft.ui.xaml.controls/combobox.md), [DatePicker](../microsoft.ui.xaml.controls/datepicker.md), [Hub](../microsoft.ui.xaml.controls/hub.md), [HubSection](../microsoft.ui.xaml.controls/hubsection.md), [Pivot](../microsoft.ui.xaml.controls/pivot.md), [Slider](../microsoft.ui.xaml.controls/slider.md), [TimePicker](../microsoft.ui.xaml.controls/timepicker.md), [ToggleSwitch](../microsoft.ui.xaml.controls/toggleswitch.md); some of these also have **FooterTemplate**
++ `HeaderTemplate` and `FooterTemplate` properties of text controls such as [RichEditBox](../microsoft.ui.xaml.controls/richeditbox.md), [TextBox](../microsoft.ui.xaml.controls/textbox.md)
++ `HeaderTemplate` property of controls such as [ComboBox](../microsoft.ui.xaml.controls/combobox.md), [DatePicker](../microsoft.ui.xaml.controls/datepicker.md), [Hub](../microsoft.ui.xaml.controls/hub.md), [HubSection](../microsoft.ui.xaml.controls/hubsection.md), [Pivot](../microsoft.ui.xaml.controls/pivot.md), [Slider](../microsoft.ui.xaml.controls/slider.md), [TimePicker](../microsoft.ui.xaml.controls/timepicker.md), [ToggleSwitch](../microsoft.ui.xaml.controls/toggleswitch.md); some of these also have `FooterTemplate`
 
 You typically use a DataTemplate to specify the visual representation of your data. DataTemplate objects are particularly useful when you are binding an [ItemsControl](../microsoft.ui.xaml.controls/itemscontrol.md) such as a [ListBox](../microsoft.ui.xaml.controls/listbox.md) to an entire collection. Without specific instructions, a [ListBox](../microsoft.ui.xaml.controls/listbox.md) displays the string representation of the objects in a collection. Use a DataTemplate to define the appearance of each of your data objects. The content of your DataTemplate becomes the visual structure of your data objects.
 
@@ -51,23 +52,18 @@ In order to support XAML processor access to the attached properties, and also t
 
 | Attached property | Description |
 | - | - |
-| ExtensionInstance | Gets or sets an extension instance that defines helper methods for phased rendering of a data template.<ul><li>Type: <a href="/uwp/api/windows.ui.xaml.idatatemplateextension">IDataTemplateExtension</a></li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.datatemplate.extensioninstanceproperty">ExtensionInstanceProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.datatemplate.getextensioninstance">GetExtensionInstance</a>, <a href="/uwp/api/windows.ui.xaml.datatemplate.setextensioninstance">SetExtensionInstance</a></li></ul> |
+| ExtensionInstance | Gets or sets an extension instance that defines helper methods for phased rendering of a data template.<ul><li>Type: <a href="/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.idatatemplateextension">IDataTemplateExtension</a></li><li>Identifier field: <a href="/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.datatemplate.extensioninstanceproperty">ExtensionInstanceProperty</a></li><li>Accessor methods: <a href="/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.datatemplate.getextensioninstance">GetExtensionInstance</a>, <a href="/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.datatemplate.setextensioninstance">SetExtensionInstance</a></li></ul> |
 
 ## -examples
+
 The following example uses a DataTemplate to display the items of a [ListBox](../microsoft.ui.xaml.controls/listbox.md). In this example, the [ListBox](../microsoft.ui.xaml.controls/listbox.md) is bound to a collection of `Customer` objects. The DataTemplate contains [TextBlock](../microsoft.ui.xaml.controls/textblock.md) controls that bind to the `FirstName`, `LastName`, and `Address` properties. For more info on data binding, see [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth).
-
-
-
 
 [!code-xaml[Snippet4_XAML](../microsoft.ui.xaml.data/code/System.Windows.Controls.ListBoxEx/csharp/Page.xaml#Snippet4_XAML)]
 
-
-
-
 [!code-csharp[Snippet101_CS](../microsoft.ui.xaml.data/code/System.Windows.Controls.ListBoxEx/csharp/Page.xaml.cs#Snippet101_CS)]
-
 
 [!code-vb[Snippet101_VB](../microsoft.ui.xaml.data/code/System.Windows.Controls.ListBoxEx/vbnet/Page.xaml.vb#Snippet101_VB)]
 
 ## -see-also
-[FrameworkTemplate](frameworktemplate.md), [ItemsControl.ItemTemplate](../microsoft.ui.xaml.controls/itemscontrol_itemtemplate.md), [ContentControl.ContentTemplate](../microsoft.ui.xaml.controls/contentcontrol_contenttemplate.md), [DataTemplateSelector](../microsoft.ui.xaml.controls/datatemplateselector.md), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+
+[FrameworkTemplate](frameworktemplate.md), [ItemsControl.ItemTemplate](../microsoft.ui.xaml.controls/itemscontrol_itemtemplate.md), [ContentControl.ContentTemplate](../microsoft.ui.xaml.controls/contentcontrol_contenttemplate.md), [DataTemplateSelector](../microsoft.ui.xaml.controls/datatemplateselector.md), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)

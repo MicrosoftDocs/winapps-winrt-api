@@ -49,7 +49,7 @@ The maximum rendered size of a XAML visual tree is restricted by the maximum dim
 ### XAML visuals and **RenderTargetBitmap** capture capabilities
 
 There are a few scenarios for XAML-composed visual content that you can't capture to a [RenderTargetBitmap](rendertargetbitmap.md):
-+ Video content in a [MediaElement](../microsoft.ui.xaml.controls/mediaelement.md) or [CaptureElement](../microsoft.ui.xaml.controls/captureelement.md) can't be captured using [RenderTargetBitmap](rendertargetbitmap.md). That includes capturing frames from within video content.
++ Video content in a [MediaPlayerElement](../microsoft.ui.xaml.controls/mediaplayerelement.md) can't be captured using [RenderTargetBitmap](rendertargetbitmap.md). That includes capturing frames from within video content.
 + Custom Microsoft DirectX content (your own swap chain) inside a [SwapChainBackgroundPanel](../microsoft.ui.xaml.controls/swapchainbackgroundpanel.md) or [SwapChainPanel](../microsoft.ui.xaml.controls/swapchainpanel.md) can't be captured using [RenderTargetBitmap](rendertargetbitmap.md).
 + Content that's in the tree but with its [Visibility](../microsoft.ui.xaml/uielement_visibility.md) set to **Collapsed** won't be captured.
 + Content that's not directly connected to the XAML visual tree and the content of the main window won't be captured. This includes [Popup](../microsoft.ui.xaml.controls.primitives/popup.md) content, which is considered to be like a sub-window.

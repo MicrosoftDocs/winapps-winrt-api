@@ -6,13 +6,13 @@
 # Microsoft.UI.Xaml.Controls.InfoBadge.ValueProperty
 
 <!--
-public static Windows.UI.Xaml.DependencyProperty ValueProperty { get; }
+public static Microsoft.UI.Xaml.DependencyProperty ValueProperty { get; }
 -->
+
 
 ## -description
 
 Identifies the [InfoBadge.Value](infobadge_value.md) dependency property.
-
 ## -property-value
 
 The identifier for the [InfoBadge.Value](infobadge_value.md) dependency property.
@@ -24,3 +24,5 @@ The identifier for the [InfoBadge.Value](infobadge_value.md) dependency property
 [InfoBadge overview](/windows/apps/design/controls/info-badge)
 
 ## -examples
+
+

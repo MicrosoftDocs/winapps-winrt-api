@@ -4,15 +4,17 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.RoutedEvent DropEvent { get; }
+public Microsoft.UI.Xaml.RoutedEvent DropEvent { get; }
 -->
 
 # Microsoft.UI.Xaml.UIElement.DropEvent
 
 ## -description
+
 Gets the identifier for the [Drop](uielement_drop.md) routed event.
 
 ## -property-value
+
 The identifier for the [Drop](uielement_drop.md) routed event.
 
 ## -remarks

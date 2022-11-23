@@ -4,16 +4,18 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.DependencyProperty FocusVisualPrimaryBrushProperty { get; }
+public Microsoft.UI.Xaml.DependencyProperty FocusVisualPrimaryBrushProperty { get; }
 -->
 
 # Microsoft.UI.Xaml.FrameworkElement.FocusVisualPrimaryBrushProperty
 
 ## -description
-Identifies the [FocusVisualPrimaryBrush](frameworkelement_focusvisualprimarybrush.md)  dependency property.
+
+Identifies the [FocusVisualPrimaryBrush](frameworkelement_focusvisualprimarybrush.md) dependency property.
 
 ## -property-value
-The identifier for the [FocusVisualPrimaryBrush](frameworkelement_focusvisualprimarybrush.md)  dependency property.
+
+The identifier for the [FocusVisualPrimaryBrush](frameworkelement_focusvisualprimarybrush.md) dependency property.
 
 ## -remarks
 

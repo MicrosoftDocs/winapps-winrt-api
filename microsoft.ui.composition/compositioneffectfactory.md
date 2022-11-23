@@ -10,10 +10,10 @@ public class CompositionEffectFactory : Windows.UI.Composition.CompositionObject
 # Microsoft.UI.Composition.CompositionEffectFactory
 
 ## -description
-Creates a composition object that contains a [Win2D](https://microsoft.github.io/Win2D/html/Introduction.htm) effect description format in the [Microsoft.Graphics.Canvas.Effects](https://microsoft.github.io/Win2D/html/N_Microsoft_Graphics_Canvas_Effects.htm) namespace.
+Creates a composition object that contains a [Win2D](https://microsoft.github.io/Win2D/html/Introduction.htm) effect description format in the **Microsoft.Graphics.Canvas.Effects** namespace ([WinAppSDK (WinUI 3)](https://microsoft.github.io/Win2D/WinUI3/html/N_Microsoft_Graphics_Canvas_Effects.htm) / [UWP (WinUI 2)](https://microsoft.github.io/Win2D/WinUI2/html/N_Microsoft_Graphics_Canvas_Effects.htm)).
 
 > [!NOTE]
-> Effects that are not supported are marked as [NoComposition] in the [Win2D API Reference](https://microsoft.github.io/Win2D/html/APIReference.htm) for effects namespace.
+> Effects that are not supported are marked as [NoComposition] in the [Win2D API Reference](https://microsoft.github.io/Win2D/html/Introduction.htm) for effects namespace.
 
 ## -remarks
 

@@ -30,7 +30,7 @@ Arrow keys cannot be used for 2D directional navigation.
 ## -remarks
 This enumeration is used by the [UIElement.XYFocusKeyboardNavigation](../microsoft.ui.xaml/uielement_xyfocuskeyboardnavigation.md) property.
 
-2D directional navigation is used to navigate a user interface (UI) with a gamepad, remote control, or keyboard directional arrows. For more info, see [Gamepad and remote control interactions](/apps/design/input/gamepad-and-remote-interactions) and [UIElement.XYFocusKeyboardNavigation](../microsoft.ui.xaml/uielement_xyfocuskeyboardnavigation.md).
+2D directional navigation is used to navigate a user interface (UI) with an Xbox controller or keyboard directional arrows. For more info, see [Gamepad and remote control interactions](/windows/apps/design/input/gamepad-and-remote-interactions) and [UIElement.XYFocusKeyboardNavigation](../microsoft.ui.xaml/uielement_xyfocuskeyboardnavigation.md).
 
 ## -see-also
 

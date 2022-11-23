@@ -4,15 +4,17 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.UIElement Content { get;  set; }
+public Microsoft.UI.Xaml.UIElement Content { get;  set; }
 -->
 
 # Microsoft.UI.Xaml.Window.Content
 
 ## -description
+
 Gets or sets the visual root of an application window.
 
 ## -property-value
+
 The visual root of an application window.
 
 ## -remarks

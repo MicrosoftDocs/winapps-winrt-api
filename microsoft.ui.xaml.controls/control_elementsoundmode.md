@@ -27,7 +27,7 @@ A value of the enumeration that specifies a control's preference for whether sou
 ## -remarks
 Set the ElementSoundMode property to override the global [ElementSoundPlayer](../microsoft.ui.xaml/elementsoundplayer.md) setting for a specific control.
 
-For more info about using this property, see [Sound in UWP apps](/windows/uwp/style/sound).
+For more info about using this property, see [Sound design guidance](/windows/apps/design/style/sound).
 
 ### Version compatibility
 
@@ -51,4 +51,4 @@ To avoid exceptions when your app runs on previous versions of Windows 10, do n
 ## -examples
 
 ## -see-also
-[ElementSoundPlayer](../microsoft.ui.xaml/elementsoundplayer.md), [Sound in UWP apps](/windows/uwp/style/sound)
+[ElementSoundPlayer](../microsoft.ui.xaml/elementsoundplayer.md), [Sound design guidance](/windows/apps/design/style/sound)

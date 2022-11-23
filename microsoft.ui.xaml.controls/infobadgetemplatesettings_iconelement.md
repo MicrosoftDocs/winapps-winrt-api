@@ -6,13 +6,13 @@
 # Microsoft.UI.Xaml.Controls.InfoBadgeTemplateSettings.IconElement
 
 <!--
-public Windows.UI.Xaml.Controls.IconElement IconElement { get; set; }
+public Microsoft.UI.Xaml.Controls.IconElement IconElement { get; set; }
 -->
+
 
 ## -description
 
 Gets or sets the icon element for an [InfoBadge](infobadge.md).
-
 ## -property-value
 
 The icon element.
@@ -22,3 +22,5 @@ The icon element.
 ## -see-also
 
 ## -examples
+
+

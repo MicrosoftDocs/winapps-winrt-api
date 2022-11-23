@@ -45,4 +45,4 @@ MenuFlyout.ShowAt(null, new Point(x, y));
 
 ## -see-also
 
-[FlyoutBase.ShowAt](/uwp/api/windows.ui.xaml.controls.primitives.flyoutbase.showat(windows.ui.xaml.frameworkelement))
+[FlyoutBase.ShowAt](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.primitives.flyoutbase.showat)

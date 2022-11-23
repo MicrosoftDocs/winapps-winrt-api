@@ -42,7 +42,7 @@ Starting in Windows 10, performance improvements were made to TextBlock that de
 
 ### Built-in text styles
 
-You can use Windows 10 text styles that ship with the platform to align the style of your text with the text used in the system. Here's how to use built-in styles to align with the Windows 10 type ramp. For more info, see [XAML theme resources](/windows/uwp/controls-and-patterns/xaml-theme-resources).
+You can use Windows 10 text styles that ship with the platform to align the style of your text with the text used in the system. Here's how to use built-in styles to align with the Windows 10 type ramp. For more info, see [XAML theme resources](/windows/apps/design/style/xaml-theme-resources).
 
 ```xaml
 <TextBlock Text="Header" Style="{StaticResource HeaderTextBlockStyle}"/>
@@ -226,4 +226,4 @@ The rendered text looks like this:
 
 ## -see-also
 
-[Text block overview](/windows/apps/design/controls/text-block), [RichTextBlock](richtextblock.md), [TextBox](textbox.md), [Controls list](/windows/apps/design/controls/), [Controls by function](/windows/uwp/controls-and-patterns/controls-by-function)
+[Text block overview](/windows/apps/design/controls/text-block), [RichTextBlock](richtextblock.md), [TextBox](textbox.md), [Controls list](/windows/apps/design/controls/)

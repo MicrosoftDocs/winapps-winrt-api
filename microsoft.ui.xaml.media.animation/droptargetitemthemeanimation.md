@@ -24,16 +24,6 @@ Note that setting the [Duration](timeline_duration.md) property has no effect on
 ## -examples
 The following is an example of a template for a custom control that supports an animation for when it is dropped on the screen.
 
-
-<!--<p xml:space="preserve">
-            <TRANSLATE_MANUALLY>
-              <externalLink xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
-                <linkText>Run this sample</linkText>
-                <linkUri>http://go.microsoft.com/fwlink/p/?linkid=139798&amp;sref=SineEase</linkUri>
-              </externalLink>
-            </TRANSLATE_MANUALLY>
-          </p>-->
-
 ```xaml
 <Style x:Key="ListViewItemStyle1" TargetType="ListViewItem">
     <Setter Property="Template">

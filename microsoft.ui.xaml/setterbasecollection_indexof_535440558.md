@@ -4,27 +4,33 @@
 ---
 
 <!-- Method syntax
-public bool IndexOf(Windows.UI.Xaml.SetterBase value, System.UInt32 index)
+public bool IndexOf(Microsoft.UI.Xaml.SetterBase value, System.UInt32 index)
 -->
 
 # Microsoft.UI.Xaml.SetterBaseCollection.IndexOf
 
 ## -description
+
 Retrieves the index of the specified item.
 
 ## -parameters
+
 ### -param value
+
 The value to find in the collection.
 
 ### -param index
+
 The index of the item to find, if found.
 
 ## -returns
-**true** if an item with the specified value was found; otherwise, **false**.
+
+`true` if an item with the specified value was found; otherwise, `false`.
 
 ## -remarks
+
 > [!NOTE]
-> The equivalent Microsoft .NET  API is [IndexOf](setterbasecollection_indexof_1.md).
+> The equivalent Microsoft .NET API is [IndexOf](/dotnet/api/system.collections.objectmodel.collection-1.indexof).
 
 ## -examples
 

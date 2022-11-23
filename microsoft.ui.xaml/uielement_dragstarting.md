@@ -4,7 +4,7 @@
 ---
 
 <!-- Event syntax
-public event Windows.Foundation.TypedEventHandler DragStarting<Windows.UI.Xaml.UIElement,  Windows.UI.Xaml.DragStartingEventArgs>
+public event Windows.Foundation.TypedEventHandler DragStarting<Microsoft.UI.Xaml.UIElement,  Microsoft.UI.Xaml.DragStartingEventArgs>
 -->
 
 # Microsoft.UI.Xaml.UIElement.DragStarting
@@ -27,4 +27,4 @@ DragStarting is a routed event. For more info on the routed event concept, see [
 
 ## -see-also
 
-[DragStartingEventArgs](dragstartingeventargs.md), [Drag and drop sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop)
+[DragStartingEventArgs](dragstartingeventargs.md), [Drag and drop sample (UWP)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop)

@@ -11,7 +11,7 @@ public class Grid : Windows.UI.Xaml.Controls.Panel, Windows.UI.Xaml.Controls.IGr
 
 ## -description
 
-Defines a flexible grid area that consists of columns and rows. Child elements of the Grid are measured and arranged according to their row/column assignments (set by using [Grid.Row](/windows/winui/api/microsoft.ui.xaml.controls.grid#xaml-attached-properties) and [Grid.Column](/windows/winui/api/microsoft.ui.xaml.controls.grid#xaml-attached-properties) attached properties) and other logic.
+Defines a flexible grid area that consists of columns and rows. Child elements of the Grid are measured and arranged according to their row/column assignments (set by using [Grid.Row](grid_row.md) and [Grid.Column](grid_column.md) attached properties) and other logic.
 
 ## -xaml-syntax
 
@@ -32,7 +32,7 @@ Grid is a layout panel that supports arranging child elements in rows and column
 
 <img alt="Grid layout panel" src="images/controls/Grid.png" />
 
-You typically define layout behavior for a Grid in XAML by providing one or more [RowDefinition](rowdefinition.md) elements as the value of [Grid.RowDefinitions](grid_rowdefinitions.md), and one or more [ColumnDefinition](columndefinition.md) elements as the value of [Grid.ColumnDefinitions](grid_columndefinitions.md). Then, you apply the [Grid.Row](/windows/winui/api/microsoft.ui.xaml.controls.grid#xaml-attached-properties) and [Grid.Column](/windows/winui/api/microsoft.ui.xaml.controls.grid#xaml-attached-properties) attached properties to each of the element children of the Grid, to indicate which row/column combination is used to position that element within the parent Grid.
+You typically define layout behavior for a Grid in XAML by providing one or more [RowDefinition](rowdefinition.md) elements as the value of [Grid.RowDefinitions](grid_rowdefinitions.md), and one or more [ColumnDefinition](columndefinition.md) elements as the value of [Grid.ColumnDefinitions](grid_columndefinitions.md). Then, you apply the [Grid.Row](grid_row.md) and [Grid.Column](grid_column.md) attached properties to each of the element children of the Grid, to indicate which row/column combination is used to position that element within the parent Grid.
 
 To set the height of rows and the width of columns, you set [RowDefinition.Height](rowdefinition_height.md) for each [RowDefinition](rowdefinition.md) and [ColumnDefinition.Width](columndefinition_width.md) for each [ColumnDefinition](columndefinition.md). [ColumnDefinition.Width](columndefinition_width.md) and [RowDefinition.Height](rowdefinition_height.md) are the respective content properties of [ColumnDefinition](columndefinition.md) and [RowDefinition](rowdefinition.md).
 
@@ -46,7 +46,7 @@ If you need to add more details in your Grid definition, such as providing a row
 
 [!code-xaml[GridSample1OldSyntax](../microsoft.ui.xaml.controls/code/UpdatedGridSamples/MainPage.xaml#SnippetGridSample1OldSyntax)]
 
-To indicate that an element child should span multiple rows or multiple columns in the Grid, you can apply the [Grid.RowSpan](/windows/winui/api/microsoft.ui.xaml.controls.grid#xaml-attached-properties) or [Grid.ColumnSpan](/windows/winui/api/microsoft.ui.xaml.controls.grid#xaml-attached-properties) attached properties to child elements of a Grid.
+To indicate that an element child should span multiple rows or multiple columns in the Grid, you can apply the [Grid.RowSpan](grid_rowspan.md) or [Grid.ColumnSpan](grid_columnspan.md) attached properties to child elements of a Grid.
 
 By default, a Grid contains one row and one column.
 
@@ -80,7 +80,7 @@ Grid is the parent class for [SwapChainPanel](swapchainpanel.md) and [SwapChainB
 
 Grid is the host service class for several [XAML attached properties](/windows/uwp/xaml-platform/attached-properties-overview). These attached properties enable child elements to report how they should be positioned in their Grid parent.
 
-In order to support XAML processor access to the attached properties, and also to expose equivalent _get_ and _set_ operations to code, each XAML attached property has a pair of Get and Set accessor methods. Another way to get or set the value in code is to use the dependency property system, calling either [GetValue](/uwp/api/windows.ui.xaml.dependencyobject.getvalue(windows.ui.xaml.dependencyproperty)) or [SetValue](/uwp/api/windows.ui.xaml.dependencyobject.setvalue(windows.ui.xaml.dependencyproperty,system.object)) and passing the identifier field as the dependency property identifier.
+In order to support XAML processor access to the attached properties, and also to expose equivalent _get_ and _set_ operations to code, each XAML attached property has a pair of Get and Set accessor methods. Another way to get or set the value in code is to use the dependency property system, calling either [GetValue](../microsoft.ui.xaml/dependencyobject_getvalue_229640130.md) or [SetValue](../microsoft.ui.xaml/dependencyobject_setvalue_1212521140.md) and passing the identifier field as the dependency property identifier.
 
 | Attached property | Description |
 | - | - |
@@ -106,4 +106,4 @@ This XAML example shows how to design a layout by using a Grid.
 [!code-csharp[GridCsharpSample1](../microsoft.ui.xaml.controls/code/UpdatedGridSamples/MainPage.xaml.cs#SnippetGridCsharpSample1)]
 
 ## -see-also
-[Panel](panel.md), [Grid.Row](/windows/winui/api/microsoft.ui.xaml.controls.grid#xaml-attached-properties), [Grid.Column](/windows/winui/api/microsoft.ui.xaml.controls.grid#xaml-attached-properties), [Define layouts](/windows/uwp/layout/layouts-with-xaml), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview), [Canvas](canvas.md), [StackPanel](stackpanel.md), [VariableSizedWrapGrid](variablesizedwrapgrid.md), [WrapGrid](wrapgrid.md), [Controls list](/windows/apps/design/controls/), [Controls by function](/windows/uwp/controls-and-patterns/controls-by-function)
+[Panel](panel.md), [Grid.Row](grid_row.md), [Grid.Column](grid_column.md), [Define layouts](/windows/uwp/layout/layouts-with-xaml), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview), [Canvas](canvas.md), [StackPanel](stackpanel.md), [VariableSizedWrapGrid](variablesizedwrapgrid.md), [WrapGrid](wrapgrid.md), [Controls list](/windows/apps/design/controls/)

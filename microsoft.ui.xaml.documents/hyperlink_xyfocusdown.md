@@ -10,13 +10,16 @@ public Windows.UI.Xaml.DependencyObject XYFocusDown { get;  set; }
 # Microsoft.UI.Xaml.Documents.Hyperlink.XYFocusDown
 
 ## -description
+
 Gets or sets the object that gets focus when a user presses the Directional Pad (DPAD) down.
 
 ## -property-value
+
 The object that gets focus when a user presses the Directional Pad (DPAD).
 
 ## -remarks
-This property is supported only on the Xbox device family, and only when using a game pad or remote control. The property is ignored otherwise.
+
+This property is supported only when using an Xbox controller. The property is ignored otherwise.
 
 ## -examples
 

@@ -4,7 +4,7 @@
 ---
 
 <!-- Method syntax
-public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.VisualStateGroup> GetVisualStateGroups(Windows.UI.Xaml.FrameworkElement obj)
+public Windows.Foundation.Collections.IVector<Microsoft.UI.Xaml.VisualStateGroup> GetVisualStateGroups(Microsoft.UI.Xaml.FrameworkElement obj)
 -->
 
 # Microsoft.UI.Xaml.VisualStateManager.GetVisualStateGroups

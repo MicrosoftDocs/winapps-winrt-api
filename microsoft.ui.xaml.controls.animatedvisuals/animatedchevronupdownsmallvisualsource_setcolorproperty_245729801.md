@@ -10,7 +10,7 @@ public void SetColorProperty (string propertyName, Windows.UI.Color value);
 -->
 ## -description
 
-Sets the color of the animated visual for an [AnimatedIcon](AnimatedIcon.md).
+Sets the color of the animated visual for an [AnimatedIcon](../microsoft.ui.xaml.controls/AnimatedIcon.md).
 
 ## -parameters
 

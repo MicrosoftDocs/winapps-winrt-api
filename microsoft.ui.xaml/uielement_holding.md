@@ -4,7 +4,7 @@
 ---
 
 <!-- Event syntax
-public event Windows.UI.Xaml.Input.HoldingEventHandler Holding
+public event Microsoft.UI.Xaml.Input.HoldingEventHandler Holding
 -->
 
 # Microsoft.UI.Xaml.UIElement.Holding

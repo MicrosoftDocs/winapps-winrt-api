@@ -43,4 +43,4 @@ The [BorderThickness](control_borderthickness.md) value must be greater than 0 i
 ## -examples
 
 ## -see-also
-[Border](border.md), [Use brushes](/windows/uwp/graphics/using-brushes)
+[Border](border.md), [XAML brushes](/windows/apps/design/style/brushes)

@@ -10,10 +10,12 @@ public bool Visible { get; }
 # Microsoft.UI.Xaml.Window.Visible
 
 ## -description
+
 Gets a value that reports whether the window is visible.
 
 ## -property-value
-**true** if the window is visible; **false** if the window is not visible.
+
+`true` if the window is visible; `false` if the window is not visible.
 
 ## -remarks
 
