@@ -15,7 +15,7 @@ public static Microsoft.Windows.ApplicationModel.WindowsAppRuntime.DeploymentRes
 Checks the status of the Windows App SDK runtime referenced by the current package, and attempts to register any missing Windows App SDK packages that can be registered, while applying the options supplied.
 
 > [!IMPORTANT]
-> Your app should call **DeploymentManager.Initialize** during startup.
+> Your app should call **DeploymentManager.Initialize** during startup. For more info, see [Call the Deployment API](/windows/apps/windows-app-sdk/deploy-packaged-apps#call-the-deployment-api).
 
 ## -parameters
 
