@@ -14,6 +14,9 @@ public static class DeploymentManager
 
 Provides access to deployment information for the Windows App SDK runtime.
 
+> [!IMPORTANT]
+> Your app should call [DeploymentManager.Initialize](/windows/windows-app-sdk/api/winrt/Microsoft.Windows.ApplicationModel.WindowsAppRuntime.DeploymentManager.Initialize) during startup.
+
 ## -remarks
 
 ## -see-also
