@@ -20,7 +20,6 @@ The integer index for the value to retrieve.
 The [UIElement](../microsoft.ui.xaml/uielement.md) value at the specified index.
 
 ## -remarks
-If you are programming using C# or Microsoft Visual Basic, see [Item (indexer)](/uwp/api/windows.ui.xaml.controls.uielementcollection.item).
 
 ## -examples
 

@@ -30,7 +30,7 @@ Use snap points grouped farther from the orientation edge.
 
 
 ## -remarks
-This enumeration is used as a value by [ScrollViewer.HorizontalSnapPointsAlignment](../microsoft.ui.xaml.controls/scrollviewer_horizontalsnappointsalignment.md) and [ScrollViewer.VerticalSnapPointsAlignment](../microsoft.ui.xaml.controls/scrollviewer_verticalsnappointsalignment.md). It's also used as a parameter type for [IScrollSnapPointsInfo.GetIrregularSnapPoints](iscrollsnappointsinfo_getirregularsnappoints_49277403.md) and [IScrollSnapPointsInfo.GetRegularSnapPoints](iscrollsnappointsinfo_getregularsnappoints_227309818.md), and implementations of those methods on types, such as [StackPanel.GetIrregularSnapPoints](/uwp/api/windows.ui.xaml.controls.stackpanel.getirregularsnappoints(windows.ui.xaml.controls.orientation,windows.ui.xaml.controls.primitives.snappointsalignment)).
+This enumeration is used as a value by [ScrollViewer.HorizontalSnapPointsAlignment](../microsoft.ui.xaml.controls/scrollviewer_horizontalsnappointsalignment.md) and [ScrollViewer.VerticalSnapPointsAlignment](../microsoft.ui.xaml.controls/scrollviewer_verticalsnappointsalignment.md). It's also used as a parameter type for [IScrollSnapPointsInfo.GetIrregularSnapPoints](iscrollsnappointsinfo_getirregularsnappoints_49277403.md) and [IScrollSnapPointsInfo.GetRegularSnapPoints](iscrollsnappointsinfo_getregularsnappoints_227309818.md), and implementations of those methods on types, such as [StackPanel.GetIrregularSnapPoints](../microsoft.ui.xaml.controls/stackpanel_getirregularsnappoints_49277403.md).
 
 For a vertically oriented element, **Near** is the top and **Far** is the bottom. For a horizontally oriented element, **Near** is left and **Far** is right.
 

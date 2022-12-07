@@ -17,7 +17,7 @@ Implements a data structure for describing a property as a path below another pr
 
 The main reason you might work with a `PropertyPath` object is to clone existing binding properties and use them somewhere else:
 
-+ Get the [Path](propertypath_path_1221375020.md) from an existing binding ([Binding.Path](../microsoft.ui.xaml.data/binding_path.md)).
++ Get the [Path](propertypath_path.md) from an existing binding ([Binding.Path](../microsoft.ui.xaml.data/binding_path.md)).
 + Use that string value to construct a new `PropertyPath`.
 + Create a new [Binding](../microsoft.ui.xaml.data/binding.md). Use the new `PropertyPath` for its [Binding.Path](../microsoft.ui.xaml.data/binding_path.md) (and probably adjust some other properties too).
 + Apply the new [Binding](../microsoft.ui.xaml.data/binding.md) to a different object-property combination, using [SetBinding](frameworkelement_setbinding_632680108.md).

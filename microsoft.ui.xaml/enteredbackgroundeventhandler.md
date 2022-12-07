@@ -10,7 +10,7 @@ public delegate void EnteredBackgroundEventHandler(System.Object sender, Windows
 
 ## -description
 
-The handler for the [Application.EnteredBackground](application_enteredbackground.md) event.
+The handler for the Application.EnteredBackground event.
 
 ## -parameters
 

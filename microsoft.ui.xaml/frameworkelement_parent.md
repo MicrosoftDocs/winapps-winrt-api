@@ -32,4 +32,4 @@ Generally, you can conceive of the object tree of a Windows App SDK app using C+
 
 ## -see-also
 
-[Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml), [XAML overview](/windows/uwp/xaml-platform/xaml-overview), [VisualTreeHelper.GetParent](/uwp/api/windows.ui.xaml.media.visualtreehelper.getparent(windows.ui.xaml.dependencyobject))
+[Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml), [XAML overview](/windows/uwp/xaml-platform/xaml-overview), [VisualTreeHelper.GetParent](../microsoft.ui.xaml.media/visualtreehelper_getparent_739882505.md)

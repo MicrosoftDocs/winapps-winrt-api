@@ -37,7 +37,7 @@ For touch actions and also for interaction-specific or manipulation events that 
 
 `DoubleTapped` supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked **Handled**. See [AddHandler](uielement_addhandler_1350394113.md).
 
-Specific Windows Runtime controls may have class-based handling for the `DoubleTapped` input event. If so, the control probably has an override for the method [OnDoubleTapped](/uwp/api/windows.ui.xaml.controls.control.ondoubletapped(windows.ui.xaml.input.doubletappedroutedeventargs)). Typically the event is marked handled by the class handler, and the `DoubleTapped` event is not raised for handling by any user code handlers on that control. For more info on how class-based handling for events works, see [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview).
+Specific Windows Runtime controls may have class-based handling for the `DoubleTapped` input event. If so, the control probably has an override for the method [OnDoubleTapped](../microsoft.ui.xaml.controls/control_ondoubletapped_1580764600.md). Typically the event is marked handled by the class handler, and the `DoubleTapped` event is not raised for handling by any user code handlers on that control. For more info on how class-based handling for events works, see [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview).
 
 ## -examples
 

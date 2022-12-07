@@ -30,7 +30,7 @@ The index of the item to find, if found.
 ## -remarks
 
 > [!NOTE]
-> The equivalent Microsoft .NET API is [IndexOf](dependencyobjectcollection_indexof_1.md), or [Contains](dependencyobjectcollection_contains.md) if you want a Boolean return value that indicates that the value exists.
+> The equivalent Microsoft .NET API is `IndexOf`, or `Contains` if you want a Boolean return value that indicates that the value exists.
 
 ## -examples
 

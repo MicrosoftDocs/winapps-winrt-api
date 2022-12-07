@@ -26,7 +26,7 @@ The [DependencyObject](dependencyobject.md) value at the specified index.
 ## -remarks
 
 > [!NOTE]
-> The equivalent Microsoft .NET API is [Item](dependencyobjectcollection_item.md) (the indexer).
+> The equivalent Microsoft .NET API is `Item(indexer)`.
 
 ## -examples
 

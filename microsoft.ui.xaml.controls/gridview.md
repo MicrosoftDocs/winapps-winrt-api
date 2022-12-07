@@ -59,11 +59,8 @@ If you populate the GridView by setting the [ItemsSource](itemscontrol_itemssour
 
 If you use the GridView to display large sets of data, see [Optimize ListView and GridView](/windows/uwp/debug-test-perf/optimize-gridview-and-listview) for tips to maintain a smooth and responsive user experience.
 
-> <div id="main">
-> <strong>Windows 10, version 1709 (SDK 16299) - Behavior change</strong>
-> </div>
-> By default, instead of performing selection, an active pen now scrolls/pans a list in UWP apps (like touch, touchpad, and passive pen).
-> If your app depends on the previous behavior, you can override pen scrolling and revert to the previous behavior. See the <a Scroll​Viewer href="scrollviewer.md">ScrollViewer</a> class reference for details.
+> [!NOTE]
+> By default, instead of performing selection, an active pen scrolls/pans a list (like touch, touchpad, and passive pen). If your app should use an active pen for text selection, you can override the pen scrolling behavior. See the Pen interaction section of the [Scroll​Viewer](scrollviewer.md) class reference for details.
 
 By default, a user can select a single item in a GridView. You can set the [SelectionMode](listviewbase_selectionmode.md) property to a [ListViewSelectionMode](listviewselectionmode.md) enumeration value to allow multi-selection or to disable selection. You can also change the GridView interaction mode to make items respond to a user click like a button instead of being selected.
 

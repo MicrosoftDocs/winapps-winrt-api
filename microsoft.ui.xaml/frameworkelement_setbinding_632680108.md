@@ -25,7 +25,7 @@ The binding to use for the property.
 
 ## -remarks
 
-This method is a convenience method that calls [BindingOperations.SetBinding](/uwp/api/windows.ui.xaml.data.bindingoperations.setbinding(windows.ui.xaml.dependencyobject,windows.ui.xaml.dependencyproperty,windows.ui.xaml.data.bindingbase)), passing the current instance as the `target` parameter.
+This method is a convenience method that calls [BindingOperations.SetBinding](../microsoft.ui.xaml.data/bindingoperations_setbinding_214736356.md), passing the current instance as the `target` parameter.
 
 The type of the `binding` parameter is [BindingBase](../microsoft.ui.xaml.data/bindingbase.md) for compatibility reasons, but in the Windows Runtime you always pass a [Binding](../microsoft.ui.xaml.data/binding.md) instance. `Binding` is derived from `BindingBase`.
 
@@ -40,7 +40,7 @@ Whether a binding created from code will be able to use an acting data context d
 
 ### Binding to attached properties
 
-You can put data bindings on any attached properties that a target object supports. Technically an [DependencyObject](dependencyobject.md) supports all the possible attached properties, but you'd usually only set a binding on an attached property that's relevant to that object or your scenario. For example you would set a binding on [Grid.Row](/windows/winui/api/microsoft.ui.xaml.controls.grid#xaml-attached-properties) only if you anticipate that the target element has a [Grid](../microsoft.ui.xaml.controls/grid.md) parent that will use that info. Specify the *dp* parameter as the dependency property identifier that exists on the attached property's owner class (for the `Grid.Row` example, that identifier is [Grid.RowProperty](../microsoft.ui.xaml.controls/grid_rowproperty.md)). You won't find that identifier on the target because it's an attached property. For more info on attached properties, see [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview).
+You can put data bindings on any attached properties that a target object supports. Technically an [DependencyObject](dependencyobject.md) supports all the possible attached properties, but you'd usually only set a binding on an attached property that's relevant to that object or your scenario. For example you would set a binding on [Grid.Row](../microsoft.ui.xaml.controls/grid_row.md) only if you anticipate that the target element has a [Grid](../microsoft.ui.xaml.controls/grid.md) parent that will use that info. Specify the *dp* parameter as the dependency property identifier that exists on the attached property's owner class (for the `Grid.Row` example, that identifier is [Grid.RowProperty](../microsoft.ui.xaml.controls/grid_rowproperty.md)). You won't find that identifier on the target because it's an attached property. For more info on attached properties, see [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview).
 
 ## -examples
 

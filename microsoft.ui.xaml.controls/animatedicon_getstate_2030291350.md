@@ -26,7 +26,7 @@ The current value of the [AnimatedIcon.State](animatedicon_state.md) attached pr
 
 ## -remarks
 
-You will typically not need to use `GetState` and [SetState](animatedicon_setstate_1565283236.md), you will just set the [AnimatedIcon.State](animatedicon_state.md) attached property.
+You will typically not need to use `GetState` and [SetState](animatedicon_setstate_905954998.md), you will just set the [AnimatedIcon.State](animatedicon_state.md) attached property.
 
 ## -see-also
 

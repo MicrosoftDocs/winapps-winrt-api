@@ -26,7 +26,7 @@ Use a `DatePicker` to let a user enter a date value. The user picks the date usi
 
 For more info, design guidance, and code examples, see [Date picker](/windows/apps/design/controls/date-picker).
 
-The `DatePicker` supports each of the calendar systems supported by Windows. These calendars are specified in the [Windows.Globalization.CalendarIdentifiers](../windows.globalization/calendaridentifiers.md) class. The `DatePicker` uses the correct calendar for your app's default language, or you can set the [CalendarIdentifier](datepicker_calendaridentifier.md) property to use a specific calendar system.
+The `DatePicker` supports each of the calendar systems supported by Windows. These calendars are specified in the [Windows.Globalization.CalendarIdentifiers](/uwp/api/windows.globalization.calendaridentifiers) class. The `DatePicker` uses the correct calendar for your app's default language, or you can set the [CalendarIdentifier](datepicker_calendaridentifier.md) property to use a specific calendar system.
 
 ### Formatting the date picker
 
@@ -136,4 +136,4 @@ DatePicker birthDatePicker = new DatePicker()
 
 ## -see-also
 
-[Date picker](/windows/apps/design/controls/date-picker), [Windows.Globalization.CalendarIdentifiers](../windows.globalization/calendaridentifiers.md), [System.DateTimeOffset (C#/VB)](/dotnet/api/system.datetimeoffset?view=dotnet-uwp-10.0&preserve-view=true), [Windows::Foundation::DateTime (C++)](/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime), [Windows.Globalization.Calendar](../windows.globalization/calendar.md), [TimePicker](timepicker.md), [Controls list](/windows/apps/design/controls/)
+[Date picker](/windows/apps/design/controls/date-picker), [Windows.Globalization.CalendarIdentifiers](/uwp/api/windows.globalization.calendaridentifiers), [System.DateTimeOffset (C#/VB)](/dotnet/api/system.datetimeoffset?view=dotnet-uwp-10.0&preserve-view=true), [Windows::Foundation::DateTime (C++)](/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime), [Windows.Globalization.Calendar](/uwp/api/windows.globalization.calendar), [TimePicker](timepicker.md), [Controls list](/windows/apps/design/controls/)

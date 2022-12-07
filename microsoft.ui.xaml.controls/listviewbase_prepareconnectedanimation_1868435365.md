@@ -28,7 +28,7 @@ The animation with the specified key.
 ## -remarks
 
 ## -see-also
-[ConnectedAnimationService.PrepareToAnimate](./../windows.ui.xaml.media.animation/connectedanimationservice_preparetoanimate_910589761.md)
+[ConnectedAnimationService.PrepareToAnimate](../microsoft.ui.xaml.media.animation/connectedanimationservice_preparetoanimate_951212773.md)
 
 ## -examples
 

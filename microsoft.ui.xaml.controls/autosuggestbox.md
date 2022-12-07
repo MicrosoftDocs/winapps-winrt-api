@@ -79,7 +79,7 @@ See [Auto-suggest accessibility](/windows/apps/design/accessibility/accessible-t
 
 ## Pen input
 
-Starting with Windows 10, version 1803, XAML text input boxes feature embedded support for pen input using [Windows Ink](../input/pen-and-stylus-interactions.md). When a user taps into a text input box using a Windows pen, the text box transforms to let the user write directly into it with a pen, rather than opening a separate input panel.
+XAML text input boxes feature embedded support for pen input using [Windows Ink](/windows/apps/design/input/pen-and-stylus-interactions). When a user taps into a text input box using a Windows pen, the text box transforms to let the user write directly into it with a pen, rather than opening a separate input panel.
 
 You can configure the handwriting view of the AutoSuggestBox through its TextBox control, as we show here.
 
@@ -153,8 +153,6 @@ This table shows the resources used by the AutoSuggestBox control. Resources tha
 
 > The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery)
 
-To see a complete working example of AutoSuggestBox, see the [AutoSuggestBox migration sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAutoSuggestBox?amp;amp;clcid=0x409).
-
 The following code demonstrates a simple AutoSuggestBox with required event handlers.
 
 ```xaml
@@ -199,4 +197,4 @@ private void AutoSuggestBox_QuerySubmitted(AutoSuggestBox sender, AutoSuggestBox
 
 ## -see-also
 
-[ItemsControl](itemscontrol.md), [IItemContainerMapping](iitemcontainermapping.md), [AutoSuggestBox migration sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAutoSuggestBox), [Guidelines for auto-suggest boxes](/windows/apps/design/controls/auto-suggest-box), [Search and find-in-page](/windows/apps/design/controls/search)
+[ItemsControl](itemscontrol.md), [IItemContainerMapping](iitemcontainermapping.md), [Guidelines for auto-suggest boxes](/windows/apps/design/controls/auto-suggest-box)

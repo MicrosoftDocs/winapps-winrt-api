@@ -23,6 +23,6 @@ For more info, see the remarks for the [IScrollAnchorProvider](../microsoft.ui.x
 
 ## -see-also
 
-[IScrollAnchorProvider](../microsoft.ui.xaml.controls/iscrollanchorprovider.md), [IScrollAnchorProvider.RegisterAnchorCandidate](/uwp/api/windows.ui.xaml.controls.iscrollanchorprovider.registeranchorcandidate(windows.ui.xaml.uielement)), [IScrollAnchorProvider.UnregisterAnchorCandidate](/uwp/api/windows.ui.xaml.controls.iscrollanchorprovider.unregisteranchorcandidate(windows.ui.xaml.uielement))
+[IScrollAnchorProvider](../microsoft.ui.xaml.controls/iscrollanchorprovider.md), [IScrollAnchorProvider.RegisterAnchorCandidate](../microsoft.ui.xaml.controls/iscrollanchorprovider_registeranchorcandidate_1915074492.md), [IScrollAnchorProvider.UnregisterAnchorCandidate](../microsoft.ui.xaml.controls/iscrollanchorprovider_unregisteranchorcandidate_1598248032.md)
 
 ## -examples

@@ -32,7 +32,7 @@ Represents a container with two views; one view for the main content and another
 > [!TIP]
 > For more info, design guidance, and code examples, see [Split view](/windows/apps/design/controls/split-view).
 
-The SplitView control presents two areas of content: a [Pane](splitview_pane.md) and the main [Content](splitview_content.md). You typically use a SplitView to create a top-level navigation experience that adapts to different screen widths following the [nav pane pattern](/windows/uwp/controls-and-patterns/nav-pane) or the [master/details pattern](/windows/apps/design/controls/master-details), but it's not strictly limited to use for navigation.
+The SplitView control presents two areas of content: a [Pane](splitview_pane.md) and the main [Content](splitview_content.md). You typically use a SplitView to create a top-level navigation experience that adapts to different screen widths following the [nav pane pattern](/windows/uwp/controls-and-patterns/nav-pane) or the [list/details pattern](/windows/apps/design/controls/list-details), but it's not strictly limited to use for navigation.
 
 The XAML for this SplitView is shown in the Examples section.
 

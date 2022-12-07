@@ -33,7 +33,7 @@ The association between a particular control type and the key/name of the implic
 
 The visual state model is a technique where you modify just a few of the properties defined in a control's template. You change property values in order to provide visual feedback to the user that indicates what the control is doing and hints at further UI interactions that are possible. The controls are modified by applying zero-duration or short-duration storyboarded animations to some of the properties in the template. You also can define short-duration animations that apply for the transitions between states.
 
-The visual states themselves are defined as part of the control template. Each visual state has a name, so that the control logic can invoke the [GoToState](/uwp/api/windows.ui.xaml.visualstatemanager.gotostate(windows.ui.xaml.controls.control,system.string,system.boolean)) method that loads up each visual state when it's needed for a particular logic state. Visual states are declared within visual state groups, so that visual states that are exclusive to each other can ensure that only one such state is active at a time. As soon as another visual state from the same group is loaded, the animations for the previous state stop being applied, but animations in another group might still be running and applying their changes and visual behavior. For example, a control might have a visual indicator for keyboard focus and a visual indicator for pointer-over. Because these are UI modes that can be adjusted independently of each other and can happen at the same time, they're each defined in a different visual state group.
+The visual states themselves are defined as part of the control template. Each visual state has a name, so that the control logic can invoke the [GoToState](../microsoft.ui.xaml/visualstatemanager_gotostate_51722231.md) method that loads up each visual state when it's needed for a particular logic state. Visual states are declared within visual state groups, so that visual states that are exclusive to each other can ensure that only one such state is active at a time. As soon as another visual state from the same group is loaded, the animations for the previous state stop being applied, but animations in another group might still be running and applying their changes and visual behavior. For example, a control might have a visual indicator for keyboard focus and a visual indicator for pointer-over. Because these are UI modes that can be adjusted independently of each other and can happen at the same time, they're each defined in a different visual state group.
 
 Because it's defined in XAML as part of the control template, you can change the visual state behavior for any XAML control that you use in your UI. However, the logic is still based on the control expecting to find certain visual state groups and named visual states within. So you have to be very careful that you're providing the correctly named and structured visual states that are showing all aspects of a control's behavior to the user. Visual states are briefly introduced in [Control templates](/windows/apps/design/style/xaml-control-templates).
 
@@ -85,29 +85,6 @@ Control defines several properties that are relevant to presentation of text. Th
 Obviously, not every control is intended to display text within it. For example, setting [FontFamily](control_fontfamily.md) on an [AppBarSeparator](appbarseparator.md) is legal but has absolutely no effect. The reason that Control defines these properties at the base class level is to make it easy for control templates to use [{TemplateBinding} markup extension](/windows/uwp/xaml-platform/templatebinding-markup-extension) to apply top-level text properties to one or more text element parts that exist within the template. For example, if you look at the control template for a [DatePicker](datepicker.md), you'll see that the root is a container and more deeply within that container are several [ComboBox](combobox.md) parts that actually take the text input. Each of these uses statements like `FontWeight="{TemplateBinding FontWeight}"` to have the top-level [FontWeight](control_fontweight.md) as set on a [DatePicker](datepicker.md) be used by various parts within.
 
 Text properties on Control also inherit implicitly for a control that has a [ContentPresenter](contentpresenter.md) within it that displays text. For example, if you set [FontSize](control_fontsize.md) on a [Button](button.md), there's no explicit [{TemplateBinding} markup extension](/windows/uwp/xaml-platform/templatebinding-markup-extension) in its template or [ContentPresenter](contentpresenter.md) part that controls what the template does with a top-level [FontSize](control_fontsize.md) value. But the [Control.FontSize](control_fontsize.md) value is implicitly inherited by [ContentPresenter.FontSize](contentpresenter_fontsize.md) based on the context within the template's definition, so the text within the [Button](button.md) will be presented using the [Control.FontSize](control_fontsize.md) you set.
-
-### **Control** derived classes
-
-**Control** is the parent class for these immediately derived control classes. Some of these are practical controls. Others are intermediate base classes for various controls that share characteristics.
-
-+ [AppBarSeparator](appbarseparator.md)
-+ [ContentControl](contentcontrol.md)
-+ [DatePicker](datepicker.md)
-+ [Hub](hub.md)
-+ [HubSection](hubsection.md)
-+ [ItemsControl](itemscontrol.md)
-+ [MenuFlyoutItemBase](menuflyoutitembase.md)
-+ [PasswordBox](passwordbox.md)
-+ [ProgressRing](progressring.md)
-+ [RangeBase](../microsoft.ui.xaml.controls.primitives/rangebase.md)
-+ [RichEditBox](richeditbox.md)
-+ [SearchBox](searchbox.md)
-+ [SemanticZoom](semanticzoom.md)
-+ [TextBox](textbox.md)
-+ [Thumb](../microsoft.ui.xaml.controls.primitives/thumb.md)
-+ [TimePicker](timepicker.md)
-+ [ToggleSwitch](toggleswitch.md)
-+ [UserControl](usercontrol.md)
 
 ### XAML attached properties
 

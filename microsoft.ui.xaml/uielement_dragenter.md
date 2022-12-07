@@ -23,7 +23,7 @@ Occurs when the input system reports an underlying drag event with this element 
 
 For a `DragEnter` event to occur, the value of [AllowDrop](uielement_allowdrop.md) on the current [UIElement](uielement.md) and on the event source must be `true`. Otherwise, consider using [PointerEntered](uielement_pointerentered.md).
 
-You can initiate a drag-drop action on any [UIElement](uielement.md) by calling the [StartDragAsync](uielement_startdragasync_369751260.md) method. Once the action is initiated, any `UIElement` in the app can potentially be a drop target so long as [AllowDrop](uielement_allowdrop.md) is `true` on that element. Any elements that the drag-drop action passes over can handle DragEnter, [DragLeave](uielement_dragleave.md) or [DragOver](uielement_dragover.md).
+You can initiate a drag-drop action on any [UIElement](uielement.md) by calling the [StartDragAsync](uielement_startdragasync_1540288469.md) method. Once the action is initiated, any `UIElement` in the app can potentially be a drop target so long as [AllowDrop](uielement_allowdrop.md) is `true` on that element. Any elements that the drag-drop action passes over can handle DragEnter, [DragLeave](uielement_dragleave.md) or [DragOver](uielement_dragover.md).
 
 `DragEnter` is a routed event. For more info on the routed event concept, see [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview).
 

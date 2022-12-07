@@ -76,7 +76,7 @@ This table shows the resources used by the Button control.
 ## -examples
 
 > [!TIP]
-> For more info, design guidance, and code examples, see [Button](/windows/apps/design/controls/button).
+> For more info, design guidance, and code examples, see [Button](/windows/apps/design/controls/buttons).
 
 > [!div class="nextstepaction"]
 > [Open the WinUI 3 Gallery app and see the Button in action](winui3gallery:/item/Button).

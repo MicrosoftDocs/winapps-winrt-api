@@ -28,7 +28,7 @@ True, if check states are enabled. Otherwise, false. The default is true.
 
 ## -see-also
 
-[GetAreCheckStatesEnabled(Windows.UI.Xaml.Controls.MenuFlyoutSubItem)](radiomenuflyoutitem_getarecheckstatesenabled_572499044.md)
+[GetAreCheckStatesEnabled](radiomenuflyoutitem_getarecheckstatesenabled_2145887058.md)
 
 ## -examples
 

@@ -21,9 +21,9 @@ The value, if an item with the specified key exists. Use the **HasKey** method t
 
 ## -remarks
 > [!NOTE]
-> The equivalent Microsoft .NET  API is the [Item](resourcedictionary_item.md) indexer.
+> The equivalent Microsoft .NET  API is the [Item](/dotnet/api/system.windows.resourcedictionary.item) indexer.
 
 ## -examples
 
 ## -see-also
-@P:System.Collections.Generic.IDictionary`2.Item(`0), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)
+[Item](/dotnet/api/system.windows.resourcedictionary.item), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)

@@ -17,9 +17,9 @@ The number of elements contained in the collection.
 
 ## -remarks
 > [!NOTE]
-> The equivalent Microsoft .NET  API is [Count](resourcedictionary_count.md).
+> The equivalent Microsoft .NET  API is [Count](/dotnet/api/system.windows.resourcedictionary.count).
 
 ## -examples
 
 ## -see-also
-[Count](resourcedictionary_count.md), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)
+[Count](/dotnet/api/system.windows.resourcedictionary.count), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)

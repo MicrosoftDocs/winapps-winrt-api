@@ -34,6 +34,4 @@ Math mode might change formatting (fonts), context menus, and other aspects of t
 
 ## -see-also
 
-[SetMathMode](richedittextdocument_setmathmode_1252391682.md)
-
 ## -examples

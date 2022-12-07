@@ -149,7 +149,7 @@ You can handle the [ImageOpened](image_imageopened.md) event if there are any ti
 
 We saw previously that the XAML parser interprets a relative Uniform Resource Identifier (URI) using the base Uniform Resource Identifier (URI) of the XAML page that is being parsed. To achieve the same result in code, you can construct a **Uri** using one of the constructors that creates a Uniform Resource Identifier (URI) by combining an absolute base and then a relative path within that location. For the first parameter, call [BaseUri](../microsoft.ui.xaml/frameworkelement_baseuri.md) on [Page](page.md) where the [Image](image.md) is loaded. (You can also call [BaseUri](../microsoft.ui.xaml/frameworkelement_baseuri.md) on the [Image](image.md) instance where you are setting the source, or another element on the page. See the Caution below.) This creates a Uniform Resource Identifier (URI) with the **ms-appx:** scheme and adds the path that is part of the XAML page's location. For the second parameter, pass the relative Uniform Resource Identifier (URI) string that describes the source image location.
 
-In C# or Microsoft Visual Basic, the **Uri** type is projected as [System.Uri](/dotnet/api/system.uri?view=dotnet-uwp-10.0&preserve-view=true), so use the [System.Uri(Uri, String)](/dotnet/api/system.uri?view=dotnet-uwp-10.0&preserve-view=true) constructor that takes a string as the second parameter. In Visual C++ component extensions (C++/CX) use [Uri(String,String)](/uwp/api/windows.foundation.uri.-ctor(system.string)).
+In C# or Microsoft Visual Basic, the **Uri** type is projected as [System.Uri](/dotnet/api/system.uri?view=dotnet-uwp-10.0&preserve-view=true), so use the [System.Uri(Uri, String)](/dotnet/api/system.uri?view=dotnet-uwp-10.0&preserve-view=true) constructor that takes a string as the second parameter. In Visual C++ component extensions (C++/CX) use [Uri(String,String)](/uwp/api/windows.foundation.uri.-ctor#windows-foundation-uri-ctor(system-string-system-string)).
 
 ```xaml
 <Image x:Name="capturedPhoto"/>
@@ -335,7 +335,7 @@ private async void GetPhotoButton_Click(object sender, RoutedEventArgs e)
 }
 ```
 
-This example shows how to programmatically access an image file from the Pictures library and set it as the Source of an [Image](image.md) control. To access the content of the Pictures library programmatically, call [StorageFolder.GetFilesAsync](/uwp/api/windows.storage.storagefolder.getfilesasync(windows.storage.search.commonfilequery)). Remember that you need to specify a capability to access the Pictures library programmatically.
+This example shows how to programmatically access an image file from the Pictures library and set it as the Source of an [Image](image.md) control. To access the content of the Pictures library programmatically, call [StorageFolder.GetFilesAsync](/uwp/api/windows.storage.storagefolder.getfilesasync). Remember that you need to specify a capability to access the Pictures library programmatically.
 
 ```csharp
 protected async override void OnNavigatedTo(NavigationEventArgs e)

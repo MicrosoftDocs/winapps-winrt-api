@@ -80,7 +80,7 @@ As mentioned above, the two most commonly used properties of the InteractionTrac
 
 ### Directing Input to the InteractionTracker
 
-After being configured, InteractionTracker still requires one last step to actually receive touch input and respond. Please see the documentation on VisualInteractionSource.[TryRedirectForManipulation](visualinteractionsource_tryredirectformanipulation_1406704629.md) for more information on configuring incoming input to flow into the InteractionTracker.
+After being configured, InteractionTracker still requires one last step to actually receive touch input and respond. Please see the documentation on VisualInteractionSource.[TryRedirectForManipulation](visualinteractionsource_tryredirectformanipulation_505381116.md) for more information on configuring incoming input to flow into the InteractionTracker.
 
 ## -examples
 

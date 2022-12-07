@@ -25,7 +25,7 @@ Enabling `FailFastOnErrors` lets you find errors earlier, with potentially more 
 
 The Visual Studio managed code debugger does not break on FailFast errors. You should select the **Mixed** debugger type in Microsoft Visual Studio on the **Debug** page of the project designer.
 
-This property is ignored when code is running in a designer (when [DesignMode.DesignModeEnabled](/windows.applicationmodel/designmode_designmodeenabled.md) is `true`).
+This property is ignored when code is running in a designer.
 
 When `FailFastOnErrors` is enabled, the `Application.UnhandledException` event is not raised.
 

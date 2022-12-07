@@ -24,9 +24,9 @@ The object value for the resource to insert.
 
 ## -remarks
 > [!NOTE]
-> The equivalent Microsoft .NET  API is [Add](resourcedictionary_add_2.md).
+> The equivalent Microsoft .NET  API is [Add](/dotnet/api/system.windows.resourcedictionary.add).
 
 ## -examples
 
 ## -see-also
-[Add](resourcedictionary_add_2.md), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)
+[Add](/dotnet/api/system.windows.resourcedictionary.add), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)

@@ -57,9 +57,9 @@ For Windows 8, items added to the items lists programmatically at run-time some
 
 Starting with Windows 8.1, items added to items lists programmatically at run-time will fill rows in expected ways, starting a new row only when row-column limits are exceeded.
 
-This behavior difference usually has no effect on the layout the user sees, because the items control that contains the WrapGrid is ultimately controlling the layout. But the difference can be detected if you are using coordinate-relative techniques to check the layout within the WrapGrid. For instance, you might see coordinate differences if you are calling [TransformToVisual](/uwp/api/windows.ui.xaml.uielement.transformtovisual(windows.ui.xaml.uielement)) or [VisualTreeHelper](../microsoft.ui.xaml.media/visualtreehelper.md)  API, with the WrapGrid as the "relative-to" element.
+This behavior difference usually has no effect on the layout the user sees, because the items control that contains the WrapGrid is ultimately controlling the layout. But the difference can be detected if you are using coordinate-relative techniques to check the layout within the WrapGrid. For instance, you might see coordinate differences if you are calling [TransformToVisual](../microsoft.ui.xaml/uielement_transformtovisual_1462136892.md) or [VisualTreeHelper](../microsoft.ui.xaml.media/visualtreehelper.md)  API, with the WrapGrid as the "relative-to" element.
 
-If you migrate your app code from Windows 8 to Windows 8.1, and you're doing advanced layout verification with [TransformToVisual](/uwp/api/windows.ui.xaml.uielement.transformtovisual(windows.ui.xaml.uielement)) or [VisualTreeHelper](../microsoft.ui.xaml.media/visualtreehelper.md) within a WrapGrid you may want to account for this behavior change.
+If you migrate your app code from Windows 8 to Windows 8.1, and you're doing advanced layout verification with [TransformToVisual](../microsoft.ui.xaml/uielement_transformtovisual_1462136892.md) or [VisualTreeHelper](../microsoft.ui.xaml.media/visualtreehelper.md) within a WrapGrid you may want to account for this behavior change.
 
 Apps that were compiled for Windows 8 but running on Windows 8.1 continue to use the Windows 8 behavior.
 

@@ -26,9 +26,9 @@ The calendar system to use.
 
 ## -remarks
 
-The `DatePicker` supports each of the calendar systems supported by Windows. These calendars are specified in the [Windows.Globalization.CalendarIdentifiers](../windows.globalization/calendaridentifiers.md) class. The `DatePicker` uses the correct calendar for your app's default language, or you can set the `CalendarIdentifier` property to use a specific calendar system.
+The `DatePicker` supports each of the calendar systems supported by Windows. These calendars are specified in the [Windows.Globalization.CalendarIdentifiers](/uwp/api/windows.globalization.calendaridentifiers) class. The `DatePicker` uses the correct calendar for your app's default language, or you can set the `CalendarIdentifier` property to use a specific calendar system.
 
-To set the `CalendarIdentifier` in XAML, use the identifier string. To set it in code, use the corresponding [CalendarIdentifiers](../windows.globalization/calendaridentifiers.md) property. See the Examples section.
+To set the `CalendarIdentifier` in XAML, use the identifier string. To set it in code, use the corresponding [CalendarIdentifiers](/uwp/api/windows.globalization.calendaridentifiers) property. See the Examples section.
 
 This table lists the supported calendar systems. See the [CalendarIdentifiers](/uwp/api/windows.globalization.calendaridentifiers) documentation for more information about each calendar system.
 
@@ -66,4 +66,4 @@ julianDatePicker.CalendarIdentifier = Windows.Globalization.CalendarIdentifiers.
 
 ## -see-also
 
-[CalendarIdentifiers](../windows.globalization/calendaridentifiers.md), [DateTimeFormatter.Calendar](../windows.globalization.datetimeformatting/datetimeformatter_calendar.md), [Date picker](/windows/apps/design/controls/date-picker)
+[CalendarIdentifiers](/uwp/api/windows.globalization.calendaridentifiers), [DateTimeFormatter.Calendar](/uwp/api/windows.globalization.datetimeformatting.datetimeformatter.calendar), [Date picker](/windows/apps/design/controls/date-picker)

@@ -143,7 +143,7 @@ The resulting TextBox looks like this.
 
 ### Pen input
 
-Starting with Windows 10, version 1803, XAML text input boxes feature embedded support for pen input using [Windows Ink](../input/pen-and-stylus-interactions.md). When a user taps into a text input box using a Windows pen, the text box transforms to let the user write directly into it with a pen, rather than opening a separate input panel.
+XAML text input boxes feature embedded support for pen input using [Windows Ink](/windows/apps/design/input/pen-and-stylus-interactions). When a user taps into a text input box using a Windows pen, the text box transforms to let the user write directly into it with a pen, rather than opening a separate input panel.
 
 <img src="images/controls/handwritingview-inksuggestion1.gif" alt="Text box with ink and suggestions" />
 
@@ -251,4 +251,4 @@ private void Button_Click(object sender, RoutedEventArgs e)
 
 ## -see-also
 
-[Text box overview](/windows/apps/design/controls/text-box), [How to use input scope to change the touch keyboard](/windows/apps/design/input/use-input-scope-to-change-the-touch-keyboard), [XAML text editing sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20text%20editing%20sample), [Guidelines for spell checking](/windows/uwp/controls-and-patterns/spell-checking-and-prediction), [PasswordBox](passwordbox.md), [RichEditBox](richeditbox.md), [RichTextBlock](richtextblock.md), [SearchBox](searchbox.md), [Controls list](/windows/apps/design/controls/), [Touch keyboard text input sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=690716)
+[Text box overview](/windows/apps/design/controls/text-box), [How to use input scope to change the touch keyboard](/windows/apps/design/input/use-input-scope-to-change-the-touch-keyboard), [XAML text editing sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20text%20editing%20sample), [Guidelines for spell checking](/windows/uwp/controls-and-patterns/spell-checking-and-prediction), [PasswordBox](passwordbox.md), [RichEditBox](richeditbox.md), [RichTextBlock](richtextblock.md), [Controls list](/windows/apps/design/controls/), [Touch keyboard text input sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=690716)

@@ -65,7 +65,6 @@ The bottom edge measure of the `Thickness`.
 + Other `Margin` and `Padding` properties on classes that are not a [Control](../microsoft.ui.xaml.controls/control.md), for example [RichTextBlock.Padding](../microsoft.ui.xaml.controls/richtextblock_padding.md)
 + [Image.NineGrid](../microsoft.ui.xaml.controls/image_ninegrid.md)
 + [Shape.StrokeThickness](../microsoft.ui.xaml.shapes/shape_strokethickness.md)
-+ [ProgressBarTemplateSettings.EllipseOffset](../microsoft.ui.xaml.controls.primitives/progressbartemplatesettings_ellipseoffset.md)
 
 In XAML, you can specify `Thickness` values in several ways. If you specify four `Double` values, these represent the [Left](/uwp/api/windows.ui.xaml.thickness.left), [Top](/uwp/api/windows.ui.xaml.thickness.top), [Right](/uwp/api/windows.ui.xaml.thickness.right), and [Bottom](/uwp/api/windows.ui.xaml.thickness.bottom) sides, respectively, of the bounding rectangle. If you specify two values, these represent the `Left`, `Top` values, and also applies the same values to `Right` and `Bottom` such that the resulting `Thickness` is isometric horizontally and isometric vertically. You can also supply a single value, which applies a uniform value to all four sides of the bounding rectangle.
 

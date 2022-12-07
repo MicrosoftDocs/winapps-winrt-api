@@ -34,7 +34,7 @@ StackPanel is a layout panel that arranges child elements into a single line tha
 
 By default, StackPanel stacks items vertically from top to bottom in the order they are declared. You can set the [Orientation](stackpanel_orientation.md) property to **Horizontal** to stack items from left to right.
 
-You can insert items into a StackPanel at a specific location using the [Insert](uielementcollection_insert.md) method in code-behind.
+You can insert items into a StackPanel at a specific location using the [InsertAt](uielementcollection_insertat_1200105662.md) method in code-behind.
 
 ### Border properties
 
@@ -68,4 +68,3 @@ The following example shows how to create a StackPanel of items.
 
 ## -see-also
 [Panel](panel.md), [IScrollSnapPointsInfo](../microsoft.ui.xaml.controls.primitives/iscrollsnappointsinfo.md), [Define layouts](/windows/uwp/layout/layouts-with-xaml), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding), [Canvas](canvas.md), [Grid](grid.md), [ItemsStackPanel](itemsstackpanel.md), [VariableSizedWrapGrid](variablesizedwrapgrid.md), [VirtualizingStackPanel](virtualizingstackpanel.md), [Controls list](/windows/apps/design/controls/)
-347b-91d6-4659-91f2-80ecf7bbb596)

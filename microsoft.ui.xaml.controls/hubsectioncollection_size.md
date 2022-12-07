@@ -16,7 +16,7 @@ Gets the size (count) of the collection.
 The count of items in the collection.
 
 ## -remarks
-If you are programming using C# or Microsoft Visual Basic, use the [Count](hubsectioncollection_count.md) property.
+If you are programming using C# or Microsoft Visual Basic, use the `Count` property.
 
 ## -examples
 
