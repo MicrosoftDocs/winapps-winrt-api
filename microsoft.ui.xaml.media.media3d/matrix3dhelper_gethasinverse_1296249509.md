@@ -10,7 +10,7 @@ public bool GetHasInverse(Windows.UI.Xaml.Media.Media3D.Matrix3D target)
 # Microsoft.UI.Xaml.Media.Media3D.Matrix3DHelper.GetHasInverse
 
 ## -description
-Returns whether the provided [Matrix3D](matrix3d.md) is invertible. C# and Microsoft Visual Basic code should use [HasInverse](matrix3d_hasinverse.md) instead.
+Returns whether the provided [Matrix3D](matrix3d.md) is invertible. C# and Microsoft Visual Basic code should use [HasInverse](/dotnet/api/system.windows.media.media3d.matrix3d.hasinverse?view=dotnet-uwp-10.0) instead.
 
 ## -parameters
 ### -param target
