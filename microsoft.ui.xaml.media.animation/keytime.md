@@ -42,9 +42,9 @@ You cannot declare a KeyTime as a shareable object in a [ResourceDictionary](../
 
 ### Projection and members of KeyTime
 
-If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or Visual C++ component extensions (C++/CX), then KeyTime has some utility methods, and its data member [TimeSpan](keytime_timespan.md) is exposed as a read-only property, not a field.
+If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or Visual C++ component extensions (C++/CX), then KeyTime has some utility methods, and its data member [TimeSpan](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.media.animation.keytime.timespan?view=windows-app-sdk-0.8) is exposed as a read-only property, not a field.
 
-For Microsoft .NET, [Duration](../microsoft.ui.xaml/duration.md) exposes [TimeSpan.Parse](/dotnet/api/system.timespan.parse?view=dotnet-uwp-10.0&preserve-view=true) for its [TimeSpan](../windows.ui.xaml/duration_timespan.md), a [FromTimeSpan](keytime_fromtimespan.md) method, and an [Implicit](../windows.ui.xaml/duration_op_implicit.md) operator. These aren't available from the structure in Visual C++ component extensions (C++/CX) but you can use [KeyTimeHelper.FromTimeSpan](keytimehelper_fromtimespan_845885131.md).
+For Microsoft .NET, [Duration](../microsoft.ui.xaml/duration.md) exposes [TimeSpan.Parse](/dotnet/api/system.timespan.parse?view=dotnet-uwp-10.0&preserve-view=true) for its [TimeSpan](/dotnet/api/windows.ui.xaml.duration.timespan?view=dotnet-uwp-10.0) and an [Implicit](/dotnet/api/windows.ui.xaml.duration.op_implicit?view=dotnet-uwp-10.0&preserve-view=true) operator. If you need to create a `Duration` value in code you can call the [Duration](duration_duration.md) constructor and provide the `System.TimeSpan` argument by calling [TimeSpan.Parse](/dotnet/api/system.timespan.parse) with an _hours_:_minutes_:_seconds_ string. These aren't available from the structure in Visual C++ component extensions (C++/CX) but you can use [KeyTimeHelper.FromTimeSpan](keytimehelper_fromtimespan_845885131.md). 
 
 If you are programming with C++ using the Windows Runtime Template Library (WRL), then only the data member field **TimeSpan** exists as a member of KeyTime. WRL code can access [FromTimeSpan](keytimehelper_fromtimespan_845885131.md) as it exists on the [KeyTimeHelper](keytimehelper.md) class.
 
