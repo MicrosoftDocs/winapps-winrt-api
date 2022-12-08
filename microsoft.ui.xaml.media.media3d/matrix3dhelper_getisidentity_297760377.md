@@ -10,7 +10,7 @@ public bool GetIsIdentity(Windows.UI.Xaml.Media.Media3D.Matrix3D target)
 # Microsoft.UI.Xaml.Media.Media3D.Matrix3DHelper.GetIsIdentity
 
 ## -description
-Returns whether the provided [Matrix3D](matrix3d.md) represents an **Identity** transform. C# and Microsoft Visual Basic code should use [IsIdentity](matrix3d_isidentity.md) instead.
+Returns whether the provided [Matrix3D](matrix3d.md) represents an **Identity** transform. C# and Microsoft Visual Basic code should use [IsIdentity](/dotnet/api/system.windows.media.media3d.matrix3d.isidentity?view=dotnet-uwp-10.0) instead.
 
 ## -parameters
 ### -param target

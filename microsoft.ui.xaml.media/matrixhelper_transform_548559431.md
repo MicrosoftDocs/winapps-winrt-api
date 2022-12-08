@@ -10,7 +10,7 @@ public Windows.Foundation.Point Transform(Windows.UI.Xaml.Media.Matrix target, W
 # Microsoft.UI.Xaml.Media.MatrixHelper.Transform
 
 ## -description
-Transforms a provided [Matrix](matrix.md) using a [Point](/uwp/api/windows.foundation.point) input, and returns a [Point](/uwp/api/windows.foundation.point) result. C# and Microsoft Visual Basic code should use [Transform](matrix_transform.md) instead.
+Transforms a provided [Matrix](matrix.md) using a [Point](/uwp/api/windows.foundation.point) input, and returns a [Point](/uwp/api/windows.foundation.point) result. C# and Microsoft Visual Basic code should use [Transform](/dotnet/api/system.windows.media.matrix.transform?view=dotnet-uwp-10.0) instead.
 
 ## -parameters
 ### -param target

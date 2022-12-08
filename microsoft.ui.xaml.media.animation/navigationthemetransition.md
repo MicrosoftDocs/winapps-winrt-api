@@ -71,7 +71,7 @@ void AlbumsListView_ItemClick(object sender, ItemClickEventArgs e)
 
 ```
 
-In addition, you can use the [Frame.GoBack(NavigationTransitionInfo)](/uwp/api/windows.ui.xaml.controls.frame.goback(windows.ui.xaml.media.animation.navigationtransitioninfo)) to play a specific transition when navigating back in the [Frame](../microsoft.ui.xaml.controls/frame.md) back stack. This can be useful when you modify navigation behavior dynamically based on screen size; for example, in a responsive master/detail scenario. For more examples, see the [XAML master/detail sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlMasterDetail).
+In addition, you can use the [Frame.GoBack(NavigationTransitionInfo)](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.frame.goback?view=windows-app-sdk-0.8#microsoft-ui-xaml-controls-frame-goback(microsoft-ui-xaml-media-animation-navigationtransitioninfo)) to play a specific transition when navigating back in the [Frame](../microsoft.ui.xaml.controls/frame.md) back stack. This can be useful when you modify navigation behavior dynamically based on screen size; for example, in a responsive master/detail scenario. For more examples, see the [XAML master/detail sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlMasterDetail).
 
 ### SuppressNavigationTransitionInfo
 
@@ -95,4 +95,4 @@ Frame.Navigate(typeof(MainPage), null, new SuppressNavigationTransitionInfo());
 
 ## -see-also
 
-[Transition](transition.md), [EntranceNavigationTransitionInfo](entrancenavigationtransitioninfo.md), [DrillInNavigationTransitionInfo](drillinnavigationtransitioninfo.md), [SuppressNavigationTransitionInfo](suppressnavigationtransitioninfo.md), [Frame.Navigate](../microsoft.ui.xaml.controls/frame_navigate_1557370995.md), [Frame.GoBack(NavigationTransitionInfo)](/uwp/api/windows.ui.xaml.controls.frame.goback(windows.ui.xaml.media.animation.navigationtransitioninfo)), [XAML Master/detail sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlMasterDetail)
+[Transition](transition.md), [EntranceNavigationTransitionInfo](entrancenavigationtransitioninfo.md), [DrillInNavigationTransitionInfo](drillinnavigationtransitioninfo.md), [SuppressNavigationTransitionInfo](suppressnavigationtransitioninfo.md), [Frame.Navigate](../microsoft.ui.xaml.controls/frame_navigate_1557370995.md), [Frame.GoBack(NavigationTransitionInfo)](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.frame.goback?view=windows-app-sdk-0.8#microsoft-ui-xaml-controls-frame-goback(microsoft-ui-xaml-media-animation-navigationtransitioninfo)), [XAML Master/detail sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlMasterDetail)
