@@ -25,6 +25,8 @@ Call this method to replace the system title bar with a custom title bar UI for 
 
 The rectangular area occupied by the specified element acts as the title bar for pointer purposes, even if the element is blocked by another element, or the element is transparent.
 
+If you want to place interactive elements in the title bar area, you can reduce the width of the UIElement set as title bar so that it only covers the right side of title bar region. As a result, the remaining left side will not act as the title bar, and thus, can receive pointer input. This area can host text boxes, buttons, and other interactive controls. Currently, it is not possible to have interactive elements hosted in between the drag region and caption controls region.
+
 ## Extend content into title bar
 
 To specify a custom title bar, you must set [ExtendsContentIntoTitleBar](window_extendscontentintotitlebar.md) to `true` to hide the default system title bar. If `ExtendsContentIntoTitleBar` is `false`, the call to `SetTitleBar` does not have any effect. Your custom title bar element is shown in the body of your app window as an ordinary UI element and does not get the title bar behaviors.
@@ -78,6 +80,7 @@ This example shows how to override the default values in App.xaml.
     </ResourceDictionary>
 </Application.Resources>
 ```
+This will paint the new colors over any content of the custom title bar, excluding the caption buttons. If you want to avoid that, you can set `WindowCaptionBackground` to `Transparent` and modify the `Background` property of the `UIElement` set as the title bar to get the desired results, without it overwriting any contents on it.
 
 ## -examples
 
