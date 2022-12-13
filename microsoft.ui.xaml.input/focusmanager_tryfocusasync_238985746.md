@@ -21,7 +21,7 @@ The object on which to set focus.
 
 ### -param value
 
-One of the values from the [FocusState](/windows/winui/api/microsoft.ui.xaml.focusstate) enumeration that specify how an element can obtain focus.
+One of the values from the [FocusState](../microsoft.ui.xaml/focusstate.md) enumeration that specify how an element can obtain focus.
 
 ## -returns
 

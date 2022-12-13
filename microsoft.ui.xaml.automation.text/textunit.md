@@ -34,11 +34,12 @@ Specifies that the text unit is one document-specific page in length.
 ### -field Document:6
 Specifies that the text unit is an entire document in length.
 
-
 ## -remarks
-TextUnit defines an input for the [Move](/uwp/api/windows.ui.text.itextrange.move(windows.ui.text.textrangeunit,system.int32)) method and related methods of the **TextRange** automation control pattern. [ITextRangeProvider](../microsoft.ui.xaml.automation.provider/itextrangeprovider.md) is the definition interface if you want to support the **TextRange** automation pattern as part of a Windows Runtime custom control. For more info, see [ITextRangeProvider](../microsoft.ui.xaml.automation.provider/itextrangeprovider.md) or [Text and TextRange Control Patterns](/windows/desktop/WinAuto/uiauto-implementingtextandtextrange).
+
+TextUnit defines an input for the [Microsoft.UI.Text.ITextRange.Move](../microsoft.ui.text/itextrange_move_557494925.md) method and related methods of the **TextRange** automation control pattern. [ITextRangeProvider](../microsoft.ui.xaml.automation.provider/itextrangeprovider.md) is the definition interface if you want to support the **TextRange** automation pattern as part of a Windows Runtime custom control. For more info, see [ITextRangeProvider](../microsoft.ui.xaml.automation.provider/itextrangeprovider.md) or [Text and TextRange Control Patterns](/windows/desktop/WinAuto/uiauto-implementingtextandtextrange).
 
 ## -examples
 
 ## -see-also
+
 [ITextRangeProvider](../microsoft.ui.xaml.automation.provider/itextrangeprovider.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers)

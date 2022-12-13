@@ -10,9 +10,11 @@ public class FrameworkElementAutomationPeer : Windows.UI.Xaml.Automation.Peers.A
 # Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer
 
 ## -description
+
 Exposes [FrameworkElement](../microsoft.ui.xaml/frameworkelement.md) derived types (including all controls) to Microsoft UI Automation.
 
 ## -remarks
+
 There is no "ControlAutomationPeer" class. FrameworkElementAutomationPeer serves as implementation for all basic [Control](../microsoft.ui.xaml.controls/control.md) class scenarios that involve Microsoft UI Automation. This includes behavior that does not necessarily appear as a public API exposure, such as the practical implementations of many of the **Core** methods from [AutomationPeer](automationpeer.md).
 
 FrameworkElementAutomationPeer includes extensive base implementation of peer behavior that other peers can use to report information that comes from owner classes at the [UIElement](../microsoft.ui.xaml/uielement.md) and [FrameworkElement](../microsoft.ui.xaml/frameworkelement.md) level. For more info, see the "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers).
@@ -42,7 +44,7 @@ FrameworkElementAutomationPeer is the parent class for several immediately deriv
 + [ListBoxItemAutomationPeer](listboxitemautomationpeer.md)
 + [ListViewBaseHeaderItemAutomationPeer](listviewbaseheaderitemautomationpeer.md)
 + [ListViewItemAutomationPeer](listviewitemautomationpeer.md)
-+ [MediaElementAutomationPeer](mediaelementautomationpeer.md)
++ [MediaPlayerElementAutomationPeer](mediaplayerelementautomationpeer.md)
 + [MenuFlyoutItemAutomationPeer](menuflyoutitemautomationpeer.md)
 + [PasswordBoxAutomationPeer](passwordboxautomationpeer.md)
 + [ProgressRingAutomationPeer](progressringautomationpeer.md)
@@ -51,9 +53,7 @@ FrameworkElementAutomationPeer is the parent class for several immediately deriv
 + [RichTextBlockAutomationPeer](richtextblockautomationpeer.md)
 + [RichTextBlockOverflowAutomation](richtextblockoverflowautomationpeer.md)
 + [ScrollViewerAutomationPeer](scrollviewerautomationpeer.md)
-+ [SearchBoxAutomationPeer](searchboxautomationpeer.md)
 + [SemanticZoomAutomationPeer](semanticzoomautomationpeer.md)
-+ [SettingsFlyoutAutomationPeer](settingsflyoutautomationpeer.md)
 + [TextBlockAutomationPeer](textblockautomationpeer.md)
 + [TextBoxAutomationPeer](textboxautomationpeer.md)
 + [ThumbAutomationPeer](thumbautomationpeer.md)
@@ -62,6 +62,7 @@ FrameworkElementAutomationPeer is the parent class for several immediately deriv
 + [ToggleSwitchAutomationPeer](toggleswitchautomationpeer.md)
 
 ## -examples
+
 This example shows the basic subclass requirements for deriving a peer from FrameworkElementAutomationPeer and supporting at least one control pattern.
 
 This code is an excerpt from the [XAML accessibility sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/XAML%20accessibility%20sample).
@@ -250,4 +251,5 @@ End Class
 ```
 
 ## -see-also
+
 [FrameworkElement](../microsoft.ui.xaml/frameworkelement.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers), [AutomationPeer](automationpeer.md), [Code samples for resolving common programmatic accessibility issues in Windows desktop apps](/accessibility-tools-docs/)

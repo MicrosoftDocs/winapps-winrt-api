@@ -10,14 +10,17 @@ public void AutomationProperties.SetCulture(DependencyObject element, Int32 valu
 # Microsoft.UI.Xaml.Automation.AutomationProperties.SetCulture
 
 ## -description
-Sets the value of the [CultureProperty](automationproperties_cultureproperty.md) attached property for the specified [DependencyObject](/windows/winui/api/microsoft.ui.xaml.dependencyobject).  
+
+Sets the value of the [CultureProperty](automationproperties_cultureproperty.md) attached property for the specified [DependencyObject](../microsoft.ui.xaml/dependencyobject.md).  
 
 ## -parameters
 
 ### -param element
-The [DependencyObject](/windows/winui/api/microsoft.ui.xaml.dependencyobject) for which to set the culture property.  
+
+The [DependencyObject](../microsoft.ui.xaml/dependencyobject.md) for which to set the culture property.  
 
 ### -param value
+
 The value of the culture property to set for the specified *element*.  
 
 ## -remarks
@@ -25,4 +28,3 @@ The value of the culture property to set for the specified *element*.
 ## -see-also
 
 ## -examples
-

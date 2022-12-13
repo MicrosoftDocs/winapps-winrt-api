@@ -21,7 +21,6 @@ Gets or sets a value indicating whether the [ICommand](icommand.md) that raised 
 
 ## -see-also
 
-[CanExecuteRequested](icommand_canexecuterequested.md)
+[ICommand.CanExecute](icommand_canexecute_508446764.md)
 
 ## -examples
-

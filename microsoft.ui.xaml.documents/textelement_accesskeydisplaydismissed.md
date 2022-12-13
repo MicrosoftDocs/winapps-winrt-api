@@ -10,12 +10,13 @@ public event TypedEventHandler AccessKeyDisplayDismissed<TextElement, AccessKeyD
 # Microsoft.UI.Xaml.Documents.TextElement.AccessKeyDisplayDismissed
 
 ## -description
+
 Occurs when the access key sequence is complete to notify controls that they should hide access key visuals.
 
 ## -remarks
 
 ## -see-also
-[UIElement.AccessKeyDisplayDismissed](./../windows.ui.xaml/uielement_accesskeydisplaydismissed.md)
+
+[UIElement.AccessKeyDisplayDismissed](../microsoft.ui.xaml/uielement_accesskeydisplaydismissed.md)
 
 ## -examples
-
