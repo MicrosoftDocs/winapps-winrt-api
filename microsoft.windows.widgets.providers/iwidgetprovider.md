@@ -21,7 +21,7 @@ This interface be implemented as an Out-of-process COM Server. The lifetime of a
 Objects passed into the callback methods of the **IWidgetProvider** interface are only guaranteed to be valid within the callback. You should not store references to these objects because their behavior outside of the context of the callback is undefined.
 
 
-For an overview of Windows Widgets, see [Widgets overview](windows/apps/design/widgets/). For information about developing a widget provider, see [Widget service providers](/windows/apps/develop/widgets/widget-service-providers).
+For an overview of Windows Widgets, see [Widgets overview](/windows/apps/design/widgets/). For information about developing a widget provider, see [Widget service providers](/windows/apps/develop/widgets/widget-service-providers).
 
 ## -see-also
 
