@@ -29,35 +29,9 @@ You can specify the look of the GridViewItem by setting the [GridView](gridview.
 
 ### Control style and template
 
-You can modify the default [Style](../microsoft.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
+You can modify the default [Style](../microsoft.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [XAML styles](/windows/apps/design/style/xaml-styles). XAML also includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. Modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/apps/design/style/xaml-styles#lightweight-styling) section of the [XAML styles](/windows/apps/design/style/xaml-styles) article.
 
-Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](/windows/uwp/controls-and-patterns/styling-controls) article.
-
-This table shows the resources used by the GridViewItem control.
-
-<table>
-   <tr><th>Resource key</th><th>Description</th></tr>
-   <tr><td>GridViewItemForeground</td><td>Text color at rest</td></tr>
-   <tr><td>GridViewItemForegroundPointerOver</td><td>Text color on hover</td></tr>
-   <tr><td>GridViewItemForegroundPressed</td><td>Text color when pressed</td></tr>
-   <tr><td>GridViewItemBackground</td><td>Background color at rest</td></tr>
-   <tr><td>GridViewItemBackgroundPointerOver</td><td>Background color on hover</td></tr>
-   <tr><td>GridViewItemBackgroundPressed</td><td>Background color when pressed</td></tr>
-   <tr><td>GridViewItemBackgroundSelected</td><td>Background color when selected</td></tr>
-   <tr><td>GridViewItemBackgroundSelectedPointerOver</td><td>Background color on hover and selected</td></tr>
-   <tr><td>GridViewItemBackgroundSelectedPressed</td><td>Background color when pressed and selected</td></tr>
-   <tr><td>GridViewItemFocusVisualPrimaryBrush</td><td>Focus indicator color when focused</td></tr>
-   <tr><td>GridViewItemFocusVisualSecondaryBrush</td><td>Secondary focus indicator color when focused</td></tr>
-   <tr><td>GridViewItemFocusBorderBrush</td><td>Border color when focused</td></tr>
-   <tr><td>GridViewItemFocusSecondaryBorderBrush</td><td>Secondary border color when focused</td></tr>
-   <tr><td>GridViewItemCheckBrush</td><td>Check mark color on selected item</td></tr>
-   <tr><td>GridViewItemCheckBoxBrush</td><td>Checkmark box color on selected item</td></tr>
-   <tr><td>GridViewItemDragBackground</td><td>Item background color when being dragged</td></tr>
-   <tr><td>GridViewItemDragForeground</td><td>Item foreground color when being dragged</td></tr>
-   <tr><td>GridViewItemPlaceholderBackground</td><td>Background color of item placeholder</td></tr>
-   <tr><td>GridViewItemSelectionCheckMarkVisualEnabled</td><td>Boolean that specifies whether checkmark visual is shown</td></tr>
-   <tr><td>GridViewItemCheckMode</td><td>Specifies how checkmark is shown ("Overlay" or "Inline")</td></tr>
-</table>
+The resources for this control are listed in the [ThemeDictionaries](/windows/apps/design/style/xaml-theme-resources) section of the [GridViewItem_themeresources.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/GridViewItem_themeresources.xaml) file on GitHub. The `ResourceKey` value for each `StaticResource` references a brush and color in the [Common_themeresources_any.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/Common_themeresources_any.xaml) file.
 
 > **Windows 8.1**
 > To assign a custom value based on the data item to the [AutomationProperties.Name](../microsoft.ui.xaml.automation/automationproperties_name.md) attached property, you must bind to the item container's [Content](contentcontrol_content.md) property. For example, assume you have a `Customer` data item that has a `Name` property and you want to use the `Customer.Name` property as the [AutomationProperties.Name](../microsoft.ui.xaml.automation/automationproperties_name.md) value.
