@@ -20,7 +20,7 @@ Specifies the state of the [Holding](gesturerecognizer_holding.md) event.
 A single contact has been detected and a time threshold is crossed without the contact being lifted, another contact detected, or another gesture started.
 
 > [!NOTE]
-> The press and hold time threshold can be set in the **Hardware and Sound** control panel.
+> The press and hold time threshold can be set from the **Hardware and Sound** control panel.
 
 ### -field Completed: 1
 
