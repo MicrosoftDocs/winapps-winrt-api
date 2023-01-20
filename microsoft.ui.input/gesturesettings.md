@@ -34,6 +34,7 @@ Enable support for the double-tap gesture.
 - Touch: double tap
 - Mouse: left button double click
 - Pen/stylus: double tap
+
 This gesture can be used to select a word or open a file or folder.
 
 ### -field Hold: 4
@@ -42,6 +43,7 @@ Enable support for the press and hold gesture (from a single touch or pen/stylus
 
 - Touch: press and hold
 - Pen/stylus: press and hold
+
 This gesture can be used to display a context menu.
 
 ### -field HoldWithMouse: 8
@@ -55,6 +57,7 @@ Enable support for a right-tap interaction. The [RightTapped](gesturerecognizer_
 - Touch: press and hold
 - Mouse: press and hold, right button click
 - Pen/stylus: press and hold, tap with barrel button pressed
+
 This gesture can be used to display a context menu.
 
 ### -field Drag: 32
