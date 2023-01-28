@@ -11,7 +11,7 @@ public class AppBar : Windows.UI.Xaml.Controls.ContentControl, Windows.UI.Xaml.C
 
 ## -description
 
-Represents the container control that holds app UI components for commanding and experiences. For Windows 10, see Remarks.
+Represents the container control that holds app UI components for commanding and experiences.
 
 ## -xaml-syntax
 
@@ -26,49 +26,12 @@ Represents the container control that holds app UI components for commanding and
 ## -remarks
 
 > [!IMPORTANT]
-> You should use the AppBar only when you are upgrading a Universal Windows 8 app that uses the AppBar, and need to minimize changes. For new apps in Windows 10, we recommend using the [CommandBar](commandbar.md) control instead.
-
-An app bar is a UI element that's typically used to present commands and tools to the user, but can also be used for navigation. An app bar can appear at the top of the page, at the bottom of the page, or both. By default, its shown in a minimal state. Its content is shown or hidden when the user presses the ellipsis [***], or performs a right-click that is not otherwise handled by the app.
-
-Here's an app bar in it's minimal state.
-
-<img alt="A closed app bar control" src="images/AppBar_Closed_10.png" />
-
-Here's the app bar when it's open.
-
-<img alt="An open app bar control" src="images/AppBar_Open_10.png" />
+> `AppBar` is the base class for [CommandBar](commandbar.md), which provides greater functionality. We recommend using the [CommandBar](commandbar.md) control in your apps instead of `AppBar`.
 
 You can open and close the app bar programmatically by setting the [IsOpen](appbar_isopen.md) property. You can use the [Opening](appbar_opening.md), [Opened](appbar_opened.md), [Closing](appbar_closing.md), and [Closed](appbar_closed.md) events to respond to the app bar being opened or closed.
 
 By default, the app bar is dismissed (closed) when the user interacts with the app anywhere outside of the app bar. Closing the app bar this way is called *light dismiss*. You can control how the app bar is dismissed by setting the [IsSticky](appbar_issticky.md) property. When the app bar is *sticky*, it's not closed by a *light dismiss* gesture. The app bar remains visible until the user right clicks or presses the ellipsis [***].
 
-To add an app bar in Extensible Application Markup Language (XAML), you assign an AppBar control to a [Page](page.md)'s [TopAppBar](page_topappbar.md) or [BottomAppBar](page_bottomappbar.md) property. A single app bar can be shared across multiple pages. You can add and remove commands programmatically based on the page context.
-
-## -examples
-
-This example shows a top app bar with a group of navigation buttons and a search box.
-
-```xaml
-<Page.TopAppBar>
-    <AppBar>
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-            <StackPanel Orientation="Horizontal">
-                <Button Content="Home" Width="140" Height="80" Click="AppBarButton_Click"/>
-                <Button Content="Page 1" Width="140" Height="80" Click="AppBarButton_Click"/>
-                <Button Content="Page 2" Width="140" Height="80" Click="AppBarButton_Click"/>
-            </StackPanel>
-            <AutoSuggestBox Grid.Column="1" Width="300" Height="50" HorizontalAlignment="Right"/>
-        </Grid>
-    </AppBar>
-</Page.TopAppBar>
-```
-
-<!--<auto_snippet sample_id="BasicControlSnippets" snippet_id="BasicAppBarXAML"/>-->
-
 ## -see-also
 
-[Command bar](/windows/apps/design/controls/command-bar), [AppBarButton](appbarbutton.md), [CommandBar](commandbar.md), [Commanding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlCommanding)
+[Command bar](/windows/apps/design/controls/command-bar), [AppBarButton](appbarbutton.md), [CommandBar](commandbar.md)

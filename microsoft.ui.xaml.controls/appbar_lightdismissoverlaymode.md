@@ -26,9 +26,9 @@ A value of the enumeration that specifies whether the area outside of a light-di
 
 ## -remarks
 
-Transient UI, such as a [MenuFlyout](menuflyout.md) or secondary menu in a command bar, closes when you click or tap outside of it. This is called light-dismiss. "Overlay" refers to the area outside of a light-dismiss UI.
+Transient UI, such as an open command bar, closes when you click or tap outside of it. This is called light-dismiss. "Overlay" refers to the area outside of a light-dismiss UI.
 
-By default, the "overlay" is not darkened.
+By default, the "overlay" is not darkened. Setting `LightDismissOverlayMode` to `On` will cause other UI to be darkened when the app bar is open. This is true even if the [IsSticky](appbar_issticky.md) property is set to `true` to prevent light-dismiss behavior.
 
 ## -examples
 
