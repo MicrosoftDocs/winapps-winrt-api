@@ -10,7 +10,7 @@ public Style SecondaryButtonStyle { get;  set; }
 # Microsoft.UI.Xaml.Controls.ContentDialog.SecondaryButtonStyle
 
 ## -description
-Gets or sets the [Style](./../windows.ui.xaml/style.md) to apply to the dialog's secondary button. 
+Gets or sets the style to apply to the dialog's secondary button.
 
 ## -xaml-syntax
 ```xaml

@@ -37,24 +37,6 @@ Rather than using a literal string, a ContentControl might use a reference to a 
 
 Instead of text, a ContentControl might also display a single element for its own visual root, but using some container or panel so that there can be further UI compositing within. For example, if you really wanted to, you could declare a [StackPanel](stackpanel.md) for adaptive layout within a [Button](button.md) as its [Content](contentcontrol_content.md), and then the [Button](button.md) would appear to have multiple UI child elements that are children of the [StackPanel](stackpanel.md).
 
-### **ContentControl** derived classes
-
-ContentControl is the parent class for these immediately derived control classes:
-
-+ [AppBar](appbar.md)
-+ [ButtonBase](../microsoft.ui.xaml.controls.primitives/buttonbase.md)
-+ [FlyoutPresenter](flyoutpresenter.md)
-+ [Frame](frame.md)
-+ [GroupItem](groupitem.md)
-+ [ListViewBaseHeaderItem](listviewbaseheaderitem.md)
-+ [ScrollViewer](scrollviewer.md)
-+ [SelectorItem](../microsoft.ui.xaml.controls.primitives/selectoritem.md)
-+ [SettingsFlyout](settingsflyout.md)
-+ [ToolTip](tooltip.md)
-
-> [!NOTE]
-> [Page](page.md) is a [UserControl](usercontrol.md), not a ContentControl. [ListView](listview.md) and [GridView](gridview.md) (and others) descend from [ItemsControl](itemscontrol.md).
-
 ## -examples
 
 The following example shows how to set different types of content for two [Button](button.md) controls and a [CheckBox](checkbox.md), which inherit from ContentControl.

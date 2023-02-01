@@ -44,7 +44,7 @@ These steps outline how to add a **Page** to a WinUI 3 project, and navigate to 
 
 1. In Visual Studio, create a new C# project from the **Blank App, Packaged (WinUI 3 in Desktop)** project template. Add a new item to the project (**WinUI** > **Blank Page (WinUI 3)**) named `MainPage.xaml`.
 
-1. Then, in `App.xaml.cs`, edit the [OnLaunched](/windows/winui/api/microsoft.ui.xaml.application.onlaunched) method override so that it looks like the code listing below. The code shows how the content of the app's main window is set to a new [Frame](frame.md), which is then navigated to the **MainPage** that you just added.
+1. Then, in `App.xaml.cs`, edit the [OnLaunched](../microsoft.ui.xaml/application_onlaunched_1344752508.md) method override so that it looks like the code listing below. The code shows how the content of the app's main window is set to a new [Frame](frame.md), which is then navigated to the **MainPage** that you just added.
 
 ```csharp
 protected override void OnLaunched(Microsoft.UI.Xaml.LaunchActivatedEventArgs args)

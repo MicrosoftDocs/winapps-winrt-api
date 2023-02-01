@@ -10,7 +10,7 @@ public Style CloseButtonStyle { get;  set; }
 # Microsoft.UI.Xaml.Controls.ContentDialog.CloseButtonStyle
 
 ## -description
-Gets or sets the [Style](./../windows.ui.xaml/style.md) to apply to the dialog's close button. 
+Gets or sets the style to apply to the dialog's close button.
 
 ## -xaml-syntax
 ```xaml

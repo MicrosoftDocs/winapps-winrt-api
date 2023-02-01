@@ -26,7 +26,7 @@ Gets or sets a value that describes how an [MediaPlayerPresenter](mediaplayerpre
 
 ## -property-value
 
-A value of the [Stretch](../windows.ui.xaml.media/stretch.md) enumeration that specifies how the source visual media is rendered. The default value is `Uniform`.
+A value of the [Stretch](../microsoft.ui.xaml.media/stretch.md) enumeration that specifies how the source visual media is rendered. The default value is `Uniform`.
 
 ## -remarks
 

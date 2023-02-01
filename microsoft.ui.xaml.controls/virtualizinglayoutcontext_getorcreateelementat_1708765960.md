@@ -31,7 +31,7 @@ A UIElement that represents the data item.
 
 This method calls [GetOrCreateElementAtCore(System.Int32,Microsoft.UI.Xaml.Controls.ElementRealizationOptions)](virtualizinglayoutcontext_getorcreateelementatcore_440237553.md), which must be implemented in a derived class.
 
-When you request an element for the specified index, you can optionally specify whether to suppress automatic recycling of the retrieved element or force creation of a new element. Elements retrieved with automatic recycling suppressed (**SuppressAutoRecycle**) are ignored by the automatic recycling logic that clears realized elements that were not retrieved as part of the current layout pass. You must explicitly recycle these elements by passing them to the [RecycleElement](virtualizinglayoutcontext_recycleelement_37257770.md) method to avoid memory leaks.
+When you request an element for the specified index, you can optionally specify whether to suppress automatic recycling of the retrieved element or force creation of a new element. Elements retrieved with automatic recycling suppressed (**SuppressAutoRecycle**) are ignored by the automatic recycling logic that clears realized elements that were not retrieved as part of the current layout pass. You must explicitly recycle these elements by passing them to the [RecycleElement](virtualizinglayoutcontext_recycleelement_2059235077.md) method to avoid memory leaks.
 
 These options are intended for more advanced layouts that choose to explicitly manage the realization and recycling of elements as a performance optimization.
 

@@ -11,7 +11,7 @@ public void DataTemplate.RecycleElement(ElementFactoryRecycleArgs args)
 
 ## -description
 
-Recycles a [UIElement](../microsoft.ui.xaml/uielement.md) that was previously retrieved using [GetElement](datatemplate_getelement_445960756.md).
+Recycles a [UIElement](uielement.md) that was previously retrieved using [GetElement](datatemplate_getelement_445960756.md).
 
 ## -parameters
 
@@ -36,10 +36,10 @@ Specifying the [Parent](elementfactoryrecycleargs_parent.md) is not required whe
 >
 > If you're creating a custom virtualizing control from scratch or calling RecycleElement in one-off scenarios then be aware it is your responsibility to exclude recycled elements from the tab order and the tree of automation peers.
 >
-> You can override [GetChildrenInTabFocusOrder](uielement_getchildrenintabfocusorder_1610735643) and provide the subset of realized elements the framework should use for Tab focus. Similarly, the automation peer for the control should override its [GetChildrenCore](../windows.ui.xaml.automation.peers/automationpeer_getchildrencore_766641859) and exclude recycled elements.
+> You can override [GetChildrenInTabFocusOrder](uielement_getchildrenintabfocusorder_1610735643.md) and provide the subset of realized elements the framework should use for Tab focus. Similarly, the automation peer for the control should override its [GetChildrenCore](../microsoft.ui.xaml.automation.peers/automationpeer_getchildrencore_766641859.md) and exclude recycled elements.
 
 ## -see-also
 
-[IElementFactory](ielementfactory.md), [DataTemplate.GetElement](datatemplate_getelement_445960756.md), [DataTemplateSelector.GetElement](../microsoft.ui.xaml.controls/datatemplateselector_getelement_445960756.md), [DataTemplateSelector.RecycleElement](../microsoft.ui.xaml.controls/datatemplateselector_recycleelement_1220951169.md), [ElementFactoryGetArgs](elementfactorygetargs.md), [ElementFactoryRecycleArgs](elementfactoryrecycleargs.md), [UIElement.GetChildrenInTabFocusOrder](/windows/winui/api/microsoft.ui.xaml.uielement.getchildrenintabfocusorder), [AutomationPeer.GetChildrenCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getchildrencore)
+[IElementFactory](ielementfactory.md), [DataTemplate.GetElement](datatemplate_getelement_445960756.md), [DataTemplateSelector.GetElement](../microsoft.ui.xaml.controls/datatemplateselector_getelement_445960756.md), [DataTemplateSelector.RecycleElement](../microsoft.ui.xaml.controls/datatemplateselector_recycleelement_1220951169.md), [ElementFactoryGetArgs](elementfactorygetargs.md), [ElementFactoryRecycleArgs](elementfactoryrecycleargs.md), [UIElement.GetChildrenInTabFocusOrder](uielement_getchildrenintabfocusorder_1610735643.md), [AutomationPeer.GetChildrenCore](../microsoft.ui.xaml.automation.peers/automationpeer_getchildrencore_766641859.md)
 
 ## -examples

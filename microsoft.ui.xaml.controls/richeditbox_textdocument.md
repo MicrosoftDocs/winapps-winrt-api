@@ -19,7 +19,7 @@ An object that enables access to the text object model.
 
 ## -remarks
 
-The TextDocument property is equivalent to the [Document](richeditbox_document.md) property except for the type. The Document property is of type [ITextDocument](/windows.ui.text/itextdocument.md), and can be type cast to RichEditTextDocument. The TextDocument property, on the other hand, is already typed as RichEditTextDocument, so no type cast is necessary.
+The TextDocument property is equivalent to the [Document](richeditbox_document.md) property.
 
 
 ## -see-also

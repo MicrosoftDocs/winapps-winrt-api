@@ -17,7 +17,7 @@ Gets the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) instance use
 The [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) instance used to render media.
 
 ## -remarks
-You can use the [SetMediaPlayer](mediaplayerelement_setmediaplayer_932380017.md) method to change the underlying [MediaPlayer](../windows.media.playback/mediaplayer.md) instance. Changing the [MediaPlayer](../windows.media.playback/mediaplayer.md) can cause non-trivial side effects because it can change other properties of the [MediaPlayerElement](mediaplayerelement.md).
+You can use the [SetMediaPlayer](mediaplayerelement_setmediaplayer_932380017.md) method to change the underlying [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) instance. Changing the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) can cause non-trivial side effects because it can change other properties of the [MediaPlayerElement](mediaplayerelement.md).
 ## -see-also
 
 ## -examples

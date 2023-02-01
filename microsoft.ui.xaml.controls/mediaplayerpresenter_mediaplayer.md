@@ -12,11 +12,11 @@ public Windows.Media.Playback.MediaPlayer MediaPlayer { get; set; }
 
 ## -description
 
-Gets or sets the [MediaPlayer](../windows.media.playback/mediaplayer.md) instance used to render media.
+Gets or sets the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) instance used to render media.
 
 ## -property-value
 
-The [MediaPlayer](../windows.media.playback/mediaplayer.md) instance used to render media.
+The [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) instance used to render media.
 
 ## -remarks
 

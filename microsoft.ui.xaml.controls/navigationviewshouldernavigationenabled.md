@@ -16,7 +16,7 @@ Defines constants that specify when Xbox controller bumpers can be used to navig
 
 ### -field WhenSelectionFollowsFocus:0
 
-Xbox controller bumpers navigate the top-level navigation items when the [SelectionFollowsFocus](/uwp/api/windows.ui.xaml.controls.navigationview.selectionfollowfocus) property is **Enabled**.
+Xbox controller bumpers navigate the top-level navigation items when the [SelectionFollowsFocus](navigationview_selectionfollowsfocus.md) property is **Enabled**.
 
 ### -field Never:2
 

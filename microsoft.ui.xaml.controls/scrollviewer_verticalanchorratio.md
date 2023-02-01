@@ -11,7 +11,7 @@ public double VerticalAnchorRatio { get;  set; }
 
 ## -description
 
-Determines the vertical position of the ScrollViewer's *anchor point* with respect to the viewport. By default, the ScrollViewer selects an element as its [CurrentAnchor](iscrollanchorprovider_currentanchor) by identifying the element in its viewport nearest to the anchor point.
+Determines the vertical position of the ScrollViewer's *anchor point* with respect to the viewport. By default, the ScrollViewer selects an element as its [CurrentAnchor](iscrollanchorprovider_currentanchor.md) by identifying the element in its viewport nearest to the anchor point.
 
 ## -property-value
 

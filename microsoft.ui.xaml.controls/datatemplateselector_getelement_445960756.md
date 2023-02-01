@@ -25,10 +25,10 @@ An instance of the root [UIElement](../microsoft.ui.xaml/uielement.md) declared 
 
 ## -remarks
 
-For more info, see the remarks for the [DataTemplate.GetElement](/uwp/api/windows.ui.xaml.datatemplate.getelement(windows.ui.xaml.elementfactorygetargs)) method.
+For more info, see the remarks for the [DataTemplate.GetElement](../microsoft.ui.xaml/datatemplate_getelement_445960756.md) method.
 
 ## -see-also
 
-[IElementFactory](ielementfactory.md), [DataTemplate.GetElement](../microsoft.ui.xaml/datatemplate_getelement_445960756.md), [DataTemplate.RecycleElement](../microsoft.ui.xaml/datatemplate_recycleelement_1220951169.md), [DataTemplateSelector.RecycleElement](datatemplateselector_recycleelement_1220951169.md)
+[IElementFactory](../microsoft.ui.xaml/ielementfactory.md), [DataTemplate.GetElement](../microsoft.ui.xaml/datatemplate_getelement_445960756.md), [DataTemplate.RecycleElement](../microsoft.ui.xaml/datatemplate_recycleelement_1220951169.md), [DataTemplateSelector.RecycleElement](datatemplateselector_recycleelement_1220951169.md)
 
 ## -examples

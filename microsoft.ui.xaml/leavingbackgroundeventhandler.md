@@ -9,7 +9,7 @@ public delegate void LeavingBackgroundEventHandler(System.Object sender, Windows
 
 ## -description
 
-The handler for the [Application.LeavingBackground](application_leavingbackground.md) event.
+The handler for the Application.LeavingBackground event.
 
 ## -parameters
 

@@ -22,7 +22,7 @@ The new item to add.
 ## -remarks
 
 > [!NOTE]
-> The equivalent Microsoft .NET API is [Add](dependencyobjectcollection_add.md).
+> The equivalent Microsoft .NET API is `Add`.
 
 ## -examples
 

@@ -32,7 +32,7 @@ This method does two things:
 
 ## -see-also
 
-[GetElementIndex](itemsrepeater_getelementindex_553435906.md), [TryGetElement](itemsrepeater_trygetelement_2086043841.md)
+[GetElementIndex](itemsrepeater_getelementindex_1484336685.md), [TryGetElement](itemsrepeater_trygetelement_2086043841.md)
 
 ## -examples
 

@@ -35,7 +35,7 @@ The type of the object that you set the **ItemsSource** property to must impleme
 |.NET|C++/WinRT|C++/CX|
 |-|-|-|
 |[IEnumerable\<Object\>](/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0&preserve-view=true)|[IVector](/uwp/api/windows.foundation.collections.ivector_t_)\<[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\>|[IIterable](/uwp/api/windows.foundation.collections.iiterable_t_)\<[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\>|
-|[IEnumerable](/dotnet/api/system.collections.ienumerable?view=dotnet-uwp-10.0&preserve-view=true)|[IBindableObservableVector](/windows/winui/api/microsoft.ui.xaml.interop.ibindableobservablevector)|[IBindableIterable](/windows/winui/api/microsoft.ui.xaml.interop.ibindableiterable)|
+|[IEnumerable](/dotnet/api/system.collections.ienumerable?view=dotnet-uwp-10.0&preserve-view=true)|[IBindableObservableVector](../microsoft.ui.xaml.interop/ibindableobservablevector.md)|[IBindableIterable](../microsoft.ui.xaml.interop/ibindableiterable.md)|
 
 The **ItemsControl** can provide better performance if the **ItemsSource** property value also implements a random-access list interface.
 
@@ -43,8 +43,8 @@ The **ItemsControl** can provide better performance if the **ItemsSource** prope
 |-|-|-|
 |[IList\<Object\>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true)|[IVector](/uwp/api/windows.foundation.collections.ivector_t_)\<[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\>|[IVector](/uwp/api/windows.foundation.collections.ivector_t_)\<[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\>|
 |[IReadOnlyCollection\<Object\>](/dotnet/api/system.collections.generic.ireadonlylist-1?view=dotnet-uwp-10.0&preserve-view=true)|[IVector](/uwp/api/windows.foundation.collections.ivector_t_)\<[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\>|[IVectorView](/uwp/api/windows.foundation.collections.ivectorview_t_)\<[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\>|
-|[IList](/dotnet/api/system.collections.ilist?view=dotnet-uwp-10.0&preserve-view=true)|[IBindableObservableVector](/windows/winui/api/microsoft.ui.xaml.interop.ibindableobservablevector)|[IBindableVector](/windows/winui/api/microsoft.ui.xaml.interop.ibindablevector)|
-|[IList](/dotnet/api/system.collections.ilist?view=dotnet-uwp-10.0&preserve-view=true)|[IBindableObservableVector](/windows/winui/api/microsoft.ui.xaml.interop.ibindableobservablevector)|[IBindableVectorView](/windows/winui/api/microsoft.ui.xaml.interop.ibindablevectorview)|
+|[IList](/dotnet/api/system.collections.ilist?view=dotnet-uwp-10.0&preserve-view=true)|[IBindableObservableVector](../microsoft.ui.xaml.interop/ibindableobservablevector.md)|[IBindableVector](../microsoft.ui.xaml.interop/ibindablevector.md)|
+|[IList](/dotnet/api/system.collections.ilist?view=dotnet-uwp-10.0&preserve-view=true)|[IBindableObservableVector](../microsoft.ui.xaml.interop/ibindableobservablevector.md)|[IBindableVectorView](../microsoft.ui.xaml.interop/ibindablevectorview.md)|
 ||||
 
 The **ItemsControl** can raise collection-changed notification events if the **ItemsSource** property value also implements a collection-changed notification interface.

@@ -47,7 +47,7 @@ The representation of the state to transition to.
 
 This API is part of the scenario of defining a custom [VisualStateManager](visualstatemanager.md) behavior. Overriding `GoToStateCore` changes the state behavior in your custom class behavior.
 
-To reference your custom [VisualStateManager](visualstatemanager.md) class, set the value of the [VisualStateManager.CustomVisualStateManager](/windows/winui/api/microsoft.ui.xaml.visualstatemanager#xaml-attached-properties) attached property within any control template where you want to use the custom `VisualStateManager` class behavior. You typically create an instance of the custom `VisualStateManager` class through default XAML construction in [Application.Resources](application_resources.md). Then the `VisualStateManager.CustomVisualStateManager` attached property is set using a [{StaticResource} markup extension](/windows/uwp/xaml-platform/staticresource-markup-extension) reference to the key of the custom `VisualStateManager` resource.
+To reference your custom [VisualStateManager](visualstatemanager.md) class, set the value of the [VisualStateManager.CustomVisualStateManager](visualstatemanager_customvisualstatemanager.md) attached property within any control template where you want to use the custom `VisualStateManager` class behavior. You typically create an instance of the custom `VisualStateManager` class through default XAML construction in [Application.Resources](application_resources.md). Then the `VisualStateManager.CustomVisualStateManager` attached property is set using a [{StaticResource} markup extension](/windows/uwp/xaml-platform/staticresource-markup-extension) reference to the key of the custom `VisualStateManager` resource.
 
 ### Notes to inheritors
 

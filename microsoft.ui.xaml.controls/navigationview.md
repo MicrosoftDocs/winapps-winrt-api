@@ -68,8 +68,17 @@ private void NavigationView_Loaded(object sender, RoutedEventArgs e)
     }
 }
 ```
+
 ### Specific keyboarding guidelines
+
 NavigationView supports hierarchy and nested items, which slightly changes the expected keyboarding behavior. For more information on keyboarding within a hierarchical NavigationView, see the [hierarchical NavigationView guidelines documentation](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/navigationview#hierarchical-navigation).
+
+### Control style and template
+
+You can modify the default [Style](../microsoft.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [XAML styles](/windows/apps/design/style/xaml-styles). XAML also includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. Modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/apps/design/style/xaml-styles#lightweight-styling) section of the [XAML styles](/windows/apps/design/style/xaml-styles) article.
+
+The resources for this control are listed in the [ThemeDictionaries](/windows/apps/design/style/xaml-theme-resources) section of the [NavigationView_rs2_themeresources.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/NavigationView/NavigationView_rs2_themeresources.xaml) file on GitHub. The `ResourceKey` value for each `StaticResource` references a brush and color in the [Common_themeresources_any.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/Common_themeresources_any.xaml) file.
+
 ## -see-also
 
 [Guidelines for navigation view](/windows/uwp/controls-and-patterns/navigationview), [Back button in NavigationView](/windows/apps/design/basics/navigation-history-and-backwards-navigation)

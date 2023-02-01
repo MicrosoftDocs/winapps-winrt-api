@@ -10,7 +10,7 @@ public Windows.UI.Xaml.Media.Media3D.Matrix3D FromElements(System.Double m11, Sy
 # Microsoft.UI.Xaml.Media.Media3D.Matrix3DHelper.FromElements
 
 ## -description
-Defines a new [Matrix3D](matrix3d.md) value, using element values for each of the possible values of a [Matrix3D](matrix3d.md) structure. C# and Microsoft Visual Basic code should use [Matrix3D](matrix3d_matrix3d_1.md) constructor instead.
+Defines a new [Matrix3D](matrix3d.md) value, using element values for each of the possible values of a [Matrix3D](matrix3d.md) structure. C# and Microsoft Visual Basic code should use [Matrix3D](/dotnet/api/system.windows.media.media3d.matrix3d.-ctor?view=dotnet-uwp-10.0) constructor instead.
 
 ## -parameters
 ### -param m11

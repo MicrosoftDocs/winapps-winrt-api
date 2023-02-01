@@ -40,7 +40,7 @@ The [INavigate](inavigate.md) interface is mainly infrastructure. It's not expec
 
 > The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery).
 
-The following code example is from the Blank App template in Microsoft Visual Studio. This code shows how an [OnLaunched](/uwp/api/windows.ui.xaml.application.onlaunched(windows.applicationmodel.activation.launchactivatedeventargs)) method override initializes the app window. If the app is resuming after being suspended, then the window might already be initialized. If not, this code sets the app window to a new Frame, then navigates the frame to the default initial page.
+The following code example is from the Blank App template in Microsoft Visual Studio. This code shows how an [OnLaunched](../microsoft.ui.xaml/application_onlaunched_1344752508.md) method override initializes the app window. If the app is resuming after being suspended, then the window might already be initialized. If not, this code sets the app window to a new Frame, then navigates the frame to the default initial page.
 
 ```csharp
 protected override void OnLaunched(LaunchActivatedEventArgs e)

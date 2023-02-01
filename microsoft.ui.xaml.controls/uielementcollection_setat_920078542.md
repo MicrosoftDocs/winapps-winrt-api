@@ -20,7 +20,6 @@ The index at which to set the value.
 The value to set.
 
 ## -remarks
-If you are programming using C# or Microsoft Visual Basic, see [Item (indexer)](/uwp/api/windows.ui.xaml.controls.uielementcollection.item).
 
 ## -examples
 

@@ -17,7 +17,7 @@ Sets the value of the [Storyboard.TargetName](storyboard_targetname.md) XAML att
 The target element to set the value for.
 
 ### -param name
-The [Storyboard.TargetName](storyboard_targetname.md) value of the target element to set. This should correspond to an existing [Name](../windows.ui.xaml/frameworkelement_name.md) or **x:Name** value on the UI element that the animation targets.
+The [Storyboard.TargetName](storyboard_targetname.md) value of the target element to set. This should correspond to an existing [Name](../microsoft.ui.xaml/frameworkelement_name.md) or **x:Name** value on the UI element that the animation targets.
 
 ## -remarks
 

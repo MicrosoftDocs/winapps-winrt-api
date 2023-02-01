@@ -31,12 +31,8 @@ For non-pointer input devices, focus is moved between controls through a variety
 
 RequiresPointer is supported only when using an Xbox controller. The property is ignored otherwise.
 
-[RequiresPointerMode](../microsoft.ui.xaml/application_requirespointermode.md) sets mouse mode at the application level.
-
 For more info, see the [Mouse mode](/windows/uwp/input-and-devices/designing-for-tv) section of [Designing for Xbox and TV](/windows/uwp/input-and-devices/designing-for-tv).
 
 ## -examples
 
 ## -see-also
-
-[RequiresPointerMode](../microsoft.ui.xaml/application_requirespointermode.md)

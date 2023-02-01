@@ -12,7 +12,7 @@ public class MediaPlayerPresenter : Microsoft.UI.Xaml.FrameworkElement
 
 ## -description
 
-Represents an object that displays a [MediaPlayer](../windows.media.playback/mediaplayer.md).
+Represents an object that displays a [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer).
 
 
 ## -xaml-syntax

@@ -26,7 +26,7 @@ Use a `DatePicker` to let a user enter a date value. The user picks the date usi
 
 For more info, design guidance, and code examples, see [Date picker](/windows/apps/design/controls/date-picker).
 
-The `DatePicker` supports each of the calendar systems supported by Windows. These calendars are specified in the [Windows.Globalization.CalendarIdentifiers](../windows.globalization/calendaridentifiers.md) class. The `DatePicker` uses the correct calendar for your app's default language, or you can set the [CalendarIdentifier](datepicker_calendaridentifier.md) property to use a specific calendar system.
+The `DatePicker` supports each of the calendar systems supported by Windows. These calendars are specified in the [Windows.Globalization.CalendarIdentifiers](/uwp/api/windows.globalization.calendaridentifiers) class. The `DatePicker` uses the correct calendar for your app's default language, or you can set the [CalendarIdentifier](datepicker_calendaridentifier.md) property to use a specific calendar system.
 
 ### Formatting the date picker
 
@@ -74,42 +74,9 @@ The date objects used in a DatePicker have a different representation depending 
 
 ### Control style and template
 
-You can modify the default [Style](../microsoft.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
+You can modify the default [Style](../microsoft.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [XAML styles](/windows/apps/design/style/xaml-styles). XAML also includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. Modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/apps/design/style/xaml-styles#lightweight-styling) section of the [XAML styles](/windows/apps/design/style/xaml-styles) article.
 
-Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/uwp/controls-and-patterns/styling-controls#lightweight-styling) section of the [Styling controls](/windows/uwp/controls-and-patterns/styling-controls) article.
-
-This table shows the resources used by the DatePicker control.
-
-<table>
-   <tr><th>Resource key</th><th>Description</th></tr>
-   <tr><td>DatePickerSpacerFill</td><td>Spacer color</td></tr>
-   <tr><td>DatePickerSpacerFillDisabled</td><td>Spacer color when disabled</td></tr>
-   <tr><td>DatePickerHeaderForeground</td><td>Header text color</td></tr>
-   <tr><td>DatePickerHeaderForegroundDisabled</td><td>Header text color when disabled</td></tr>
-   <tr><td>DatePickerButtonForeground</td><td>Button text color</td></tr>
-   <tr><td>DatePickerButtonForegroundPointerOver</td><td>Button text color on hover</td></tr>
-   <tr><td>DatePickerButtonForegroundPressed</td><td>Button text color when pressed</td></tr>
-   <tr><td>DatePickerButtonForegroundDisabled</td><td>Button text color when disabled</td></tr>
-   <tr><td>DatePickerButtonForegroundFocused</td><td>Button text color when focused</td></tr>
-   <tr><td>DatePickerButtonBackground</td><td>Button background color at rest</td></tr>
-   <tr><td>DatePickerButtonBackgroundPointerOver</td><td>Button background color on hover</td></tr>
-   <tr><td>DatePickerButtonBackgroundPressed</td><td>Button background color when pressed</td></tr>
-   <tr><td>DatePickerButtonBackgroundDisabled</td><td>Button background color when disabled</td></tr>
-   <tr><td>DatePickerButtonBackgroundFocused</td><td>Button background color when focused</td></tr>
-   <tr><td>DatePickerButtonBorderBrush</td><td>Button border color at rest</td></tr>
-   <tr><td>DatePickerButtonBorderBrushPointerOver</td><td>Button border color on hover</td></tr>
-   <tr><td>DatePickerButtonBorderBrushPressed</td><td>Button border color when pressed</td></tr>
-   <tr><td>DatePickerButtonBorderBrushDisabled</td><td>Button border color when disabled</td></tr>
-   <tr><td>DateTimePickerFlyoutButtonForegroundPointerOver</td><td>Flyout button foreground color on hover</td></tr>
-   <tr><td>DateTimePickerFlyoutButtonForegroundPressed</td><td>Flyout button foreground color when pressed</td></tr>
-   <tr><td>DateTimePickerFlyoutButtonBackground</td><td>Flyout button background color at rest</td></tr>
-   <tr><td>DateTimePickerFlyoutButtonBackgroundPointerOver</td><td>Flyout button background color on hover</td></tr>
-   <tr><td>DateTimePickerFlyoutButtonBackgroundPressed</td><td>Flyout button background color when pressed</td></tr>
-   <tr><td>DateTimePickerFlyoutButtonBorderBrush</td><td>Flyout button border color at rest</td></tr>
-   <tr><td>DateTimePickerFlyoutButtonBorderBrushPointerOver</td><td>Flyout button border color on hover</td></tr>
-   <tr><td>DateTimePickerFlyoutButtonBorderBrushPressed</td><td>Flyout button border color when pressed</td></tr>
-</table>
-
+The resources for this control are listed in the [ThemeDictionaries](/windows/apps/design/style/xaml-theme-resources) section of the [DatePicker_themeresources.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/DatePicker_themeresources.xaml) file on GitHub. The `ResourceKey` value for each `StaticResource` references a brush and color in the [Common_themeresources_any.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/Common_themeresources_any.xaml) file.
 ## -examples
 
 > [!TIP]
@@ -136,4 +103,4 @@ DatePicker birthDatePicker = new DatePicker()
 
 ## -see-also
 
-[Date picker](/windows/apps/design/controls/date-picker), [Windows.Globalization.CalendarIdentifiers](../windows.globalization/calendaridentifiers.md), [System.DateTimeOffset (C#/VB)](/dotnet/api/system.datetimeoffset?view=dotnet-uwp-10.0&preserve-view=true), [Windows::Foundation::DateTime (C++)](/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime), [Windows.Globalization.Calendar](../windows.globalization/calendar.md), [TimePicker](timepicker.md), [Controls list](/windows/apps/design/controls/)
+[Date picker](/windows/apps/design/controls/date-picker), [Windows.Globalization.CalendarIdentifiers](/uwp/api/windows.globalization.calendaridentifiers), [System.DateTimeOffset (C#/VB)](/dotnet/api/system.datetimeoffset?view=dotnet-uwp-10.0&preserve-view=true), [Windows::Foundation::DateTime (C++)](/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime), [Windows.Globalization.Calendar](/uwp/api/windows.globalization.calendar), [TimePicker](timepicker.md), [Controls list](/windows/apps/design/controls/)

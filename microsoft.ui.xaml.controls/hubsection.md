@@ -27,23 +27,6 @@ You put the content of your [Hub](hub.md) in various HubSection elements. Like t
 
 You don't add content directly to a hub section; instead, you define the content of your HubSection in a [DataTemplate](../microsoft.ui.xaml/datatemplate.md). Content can be defined inline, or bound to a data source. Any valid XAML can be used in a hub section.
 
-### Control style and template
-
-You can modify the default [Style](../microsoft.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
-
-Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](/windows/uwp/controls-and-patterns/styling-controls) article.
-
-This table shows the resources used by the HubSection control.
-
-<table>
-   <tr><th>Resource key</th><th>Description</th></tr>
-   <tr><td>HubSectionHeaderForeground</td><td>Header text color</td></tr>
-   <tr><td>HubSectionHeaderButtonForeground</td><td>Button icon color at rest</td></tr>
-   <tr><td>HubSectionHeaderButtonForegroundPointerOver</td><td>Button icon color on hover</td></tr>
-   <tr><td>HubSectionHeaderButtonForegroundPressed</td><td>Button icon color when pressed</td></tr>
-   <tr><td>HubSectionHeaderButtonForegroundDisabled</td><td>Button icon color when disabled</td></tr>
-</table>
-
 ## -examples
 This example shows the basic XAML used to create a [Hub](hub.md) with 3 HubSection s.
 

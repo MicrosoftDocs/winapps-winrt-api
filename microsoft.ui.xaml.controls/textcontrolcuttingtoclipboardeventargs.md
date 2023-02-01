@@ -19,7 +19,7 @@ Provides event data for the **CuttingToClipboard** event.
 
 ## -see-also
 
-[TextBox.CuttingToClipboard](/windows/winui/api/microsoft.ui.xaml.controls.textbox.cuttingtoclipboard), [RichEditBox.CuttingToClipboard](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.cuttingtoclipboard)
+[TextBox.CuttingToClipboard](textbox_cuttingtoclipboard.md), [RichEditBox.CuttingToClipboard](richeditbox_cuttingtoclipboard.md)
 
 ## -examples
 

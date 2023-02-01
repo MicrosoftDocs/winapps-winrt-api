@@ -28,7 +28,7 @@ The name of the element in the ItemTemplate that provides the animated visual.
 ## -remarks
 
 ## -see-also
-[ConnectedAnimation.TryStart](./../windows.ui.xaml.media.animation/connectedanimation_trystart_323048605.md)
+[ConnectedAnimation.TryStart](../microsoft.ui.xaml.media.animation/connectedanimation_trystart_1808054706.md)
 
 ## -examples
 

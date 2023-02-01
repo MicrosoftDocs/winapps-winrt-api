@@ -17,7 +17,7 @@ Provides event data for the **IsTextTrimmedChanged** event.
 
 ## -see-also
 
-[TextBlock.IsTextTrimmed](/windows/winui/api/microsoft.ui.xaml.controls.textblock.istexttrimmed), [TextBlock.IsTextTrimmedChanged](/windows/winui/api/microsoft.ui.xaml.controls.textblock.istexttrimmedchanged), [RichTextBlock.IsTextTrimmed](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.istexttrimmed), [RichTextBlock.IsTextTrimmedChanged](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.istexttrimmedchanged), [RichTextBlockOverflow.IsTextTrimmed](/windows/winui/api/microsoft.ui.xaml.controls.richtextblockoverflow.istexttrimmed), [RichTextBlockOverflow.IsTextTrimmedChanged](/windows/winui/api/microsoft.ui.xaml.controls.richtextblockoverflow.istexttrimmedchanged)
+[TextBlock.IsTextTrimmed](textblock_istexttrimmed.md), [TextBlock.IsTextTrimmedChanged](textblock_istexttrimmedchanged.md), [RichTextBlock.IsTextTrimmed](richtextblock_istexttrimmed.md), [RichTextBlock.IsTextTrimmedChanged](richtextblock_istexttrimmedchanged.md), [RichTextBlockOverflow.IsTextTrimmed](richtextblockoverflow_istexttrimmed.md), [RichTextBlockOverflow.IsTextTrimmedChanged](richtextblockoverflow_istexttrimmedchanged.md)
 
 ## -examples
 

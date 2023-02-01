@@ -26,7 +26,7 @@ The value of the [AnimatedIcon.State](animatedicon_state.md) attached property o
 
 ## -remarks
 
-You will typically not need to use [GetState](animatedicon_getstate_296770696.md) and `SetState`, you will just set the [AnimatedIcon.State](animatedicon_state.md) attached property.
+You will typically not need to use [GetState](animatedicon_getstate_2030291350.md) and `SetState`, you will just set the [AnimatedIcon.State](animatedicon_state.md) attached property.
 
 ## -see-also
 

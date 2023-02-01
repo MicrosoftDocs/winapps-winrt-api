@@ -28,7 +28,7 @@ When in `Horizontal` mode and the text input fields are in use, there will be a 
 
 ## -see-also
 
-[ColorPicker](colorpicker.md), [Orientation](orientation.md), [ColorPicker overview](/windows/apps/design/controls/colorpicker)
+[ColorPicker](colorpicker.md), [Orientation](orientation.md), [ColorPicker overview](/windows/apps/design/controls/color-picker)
 
 ## -examples
 

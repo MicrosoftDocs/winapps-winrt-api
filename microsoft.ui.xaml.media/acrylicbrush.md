@@ -16,7 +16,7 @@ Paints an area with a semi-transparent material that uses multiple effects inclu
 
 ## -see-also
 
-[AcrylicBackgroundSource](acrylicbackgroundsource.md), [Acrylic material overview](/windows/apps/design/style/acrylic)
+[Acrylic material overview](/windows/apps/design/style/acrylic)
 
 ## -examples
 

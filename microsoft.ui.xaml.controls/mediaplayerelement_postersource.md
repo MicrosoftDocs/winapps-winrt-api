@@ -21,7 +21,7 @@ Gets or sets the image source that is used for a placeholder image during [Media
 
 
 ## -property-value
-An image source for a transition [ImageBrush](../windows.ui.xaml.media/imagebrush.md) that is applied to the [MediaPlayerElement](mediaplayerelement.md) content area.
+An image source for a transition [ImageBrush](../microsoft.ui.xaml.media/imagebrush.md) that is applied to the [MediaPlayerElement](mediaplayerelement.md) content area.
 
 ## -remarks
 A PosterSource is an image, such as a album cover or movie poster, that is displayed in place of video. It provides your [MediaPlayerElement](mediaplayerelement.md) with a visual representation before the media is loaded, or when the media is audio only.

@@ -19,7 +19,7 @@ The new item to add.
 ## -remarks
 To add an item to a position in the collection that's not at the collection end, use [InsertAt](hubsectioncollection_insertat_504446638.md).
 
-If you are programming using C# or Microsoft Visual Basic, the equivalent method is [Add](hubsectioncollection_add.md).
+If you are programming using C# or Microsoft Visual Basic, the equivalent method is `Add`.
 
 ## -examples
 

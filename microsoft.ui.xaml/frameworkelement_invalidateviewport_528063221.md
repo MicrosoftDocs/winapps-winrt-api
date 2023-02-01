@@ -19,7 +19,7 @@ The [UIElement](uielement.md) must have previously been registered with the fram
 
 ## -see-also
 
-[FrameworkElement.EffectiveViewportChanged](/windows/winui/api/microsoft.ui.xaml.frameworkelement.effectiveviewportchanged), [UIElement.RegisterAsScrollPort](/uwp/api/windows.ui.xaml.uielement.registerasscrollport)
+[FrameworkElement.EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md), [UIElement.RegisterAsScrollPort](uielement_registerasscrollport_1539448450.md)
 
 ## -examples
 

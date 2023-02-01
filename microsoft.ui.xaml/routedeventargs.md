@@ -52,8 +52,6 @@ If you're familiar with Windows Presentation Foundation (WPF), you might know th
 + [PointerRoutedEventArgs](../microsoft.ui.xaml.input/pointerroutedeventargs.md)
 + [RightTappedRoutedEventArgs](../microsoft.ui.xaml.input/righttappedroutedeventargs.md)
 + [TappedRoutedEventArgs](../microsoft.ui.xaml.input/tappedroutedeventargs.md)
-+ [RateChangedRoutedEventArgs](../microsoft.ui.xaml.media/ratechangedroutedeventargs.md)
-+ [TimelineMarkerRoutedEventArgs](../microsoft.ui.xaml.media/timelinemarkerroutedeventargs.md)
 
 ## -examples
 

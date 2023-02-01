@@ -92,7 +92,7 @@ If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or in
 If you are programming with C++ using the Windows Runtime Template Library (WRL), then only the data member fields exist as members of Matrix, and you cannot use the utility methods or properties listed in the members table. WRL code can access similar utility methods that exist on the [MatrixHelper](matrixhelper.md) class.
 
 ## -examples
-This example XAML defines a Matrix that provides data for a [MatrixTransform](matrixtransform.md) applied to a rectangular shape. In this case, the matrix combines an offset ([OffsetX](matrix_offsetx.md) and [OffsetY](matrix_offsety.md)) and a skew ([M12](matrix_m12.md)). Note that this same effect could have been produced by combining a [TranslateTransform](translatetransform.md) and a [SkewTransform](skewtransform.md). Whether to use a single Matrix or combinations of discrete transforms is a matter of coding style; the results are identical.
+This example XAML defines a Matrix that provides data for a [MatrixTransform](matrixtransform.md) applied to a rectangular shape. In this case, the matrix combines an offset ([OffsetX](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.media.matrix.offsetx) and [OffsetY](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.media.matrix.offsety) and a skew ([M12](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.media.matrix.m12). Note that this same effect could have been produced by combining a [TranslateTransform](translatetransform.md) and a [SkewTransform](skewtransform.md). Whether to use a single Matrix or combinations of discrete transforms is a matter of coding style; the results are identical.
 
 
 
