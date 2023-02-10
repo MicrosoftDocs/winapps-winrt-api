@@ -21,9 +21,7 @@ Displays content on top of existing content, within the bounds of the applicatio
 
 ## -remarks
 
-Do not use a Popup if a [Flyout](../microsoft.ui.xaml.controls/flyout.md), [MenuFlyout](../microsoft.ui.xaml.controls/menuflyout.md), [ToolTip](../microsoft.ui.xaml.controls/tooltip.md) or [ContentDialog](../microsoft.ui.xaml.controls/contentdialog.md) ([MessageDialog](/uwp/api/windows.ui.popups.messagedialog) for a Windows 8 app) is more appropriate.
-
-<!--For more info, see Displaying popups. (Add this when the topic is created.)-->
+Do not use a Popup if a [Flyout](../microsoft.ui.xaml.controls/flyout.md), [MenuFlyout](../microsoft.ui.xaml.controls/menuflyout.md), [ToolTip](../microsoft.ui.xaml.controls/tooltip.md), or [ContentDialog](../microsoft.ui.xaml.controls/contentdialog.md) is more appropriate.
 
 Popup is a general purpose container for hosting [UIElement](../microsoft.ui.xaml/uielement.md)s on top of existing content. You typically use a Popup to temporarily display content that accomplishes a particular task. The Popup does not have a default visual template. Instead, you must set the content yourself by specifying a single [Child](popup_child.md) element as content. You can define the Popup content inline, but it's common to define the content as a [UserControl](../microsoft.ui.xaml.controls/usercontrol.md), and then set the [UserControl](../microsoft.ui.xaml.controls/usercontrol.md) as the [Child](popup_child.md) of the Popup.
 

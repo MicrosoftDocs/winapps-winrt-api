@@ -25,10 +25,9 @@ Gets or sets the Segoe MDL2 Assets glyph used as the icon content.
 A named constant of the numeration that specifies the Segoe MDL2 Assets glyph to use.
 
 ## -remarks
-> **Windows 8/8.1**
-> On Windows 8, the standard glyphs are provided by the Segoe UI Symbol font.
 
 ## -examples
+
 ```xaml
 
 <AppBarButton Label="Accept">

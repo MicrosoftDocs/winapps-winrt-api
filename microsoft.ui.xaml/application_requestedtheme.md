@@ -37,14 +37,6 @@ Although the app can't switch the themes at run-time, the user can (starting wit
 
 The resources that are theme-specific are typically defined in a separate resource dictionary in XAML. This resource dictionary comes from the [ThemeDictionaries](resourcedictionary_themedictionaries.md) property of the primary [ResourceDictionary](resourcedictionary.md) that is used for control templates. The default system resource dictionary for theme-specific resources is named ThemeResources.xaml. This file is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\<SDK version>\Generic folder from a Windows Software Development Kit (SDK) installation.
 
-### Notes for Windows 8
-
-(This section applies only to apps for Windows 8, not UWP apps for Windows 10.)
-
-By default your app runs using the "Dark" theme (in the themeresources.xaml file, the key name for the "Dark" resources is "Default").
-
-On Windows, setting RequestedTheme to [ElementTheme.Default](elementtheme.md) will always result in "Dark" being the theme. On Windows Phone, using the [ElementTheme.Default](elementtheme.md) value will result in a query for the system theme, as set by the user.
-
 ## -examples
 
 This example shows how to save the requested theme in local app settings, and then retrieve and apply it when the app is restarted.

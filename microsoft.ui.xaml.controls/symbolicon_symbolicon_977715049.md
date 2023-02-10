@@ -17,8 +17,6 @@ Initializes a new instance of the [SymbolIcon](symbolicon.md) class using the sp
 A named constant of the enumeration that specifies the Segoe MDL2 Assets glyph to use. The default is **null**.
 
 ## -remarks
-> **Windows 8/8.1**
-> On Windows 8, the standard glyphs are provided by the Segoe UI Symbol font.
 
 ## -examples
 

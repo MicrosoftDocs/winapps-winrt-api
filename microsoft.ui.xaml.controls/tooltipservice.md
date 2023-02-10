@@ -24,13 +24,6 @@ If a [ToolTip](tooltip.md) obscures the content it is referring to, you can adju
 
 If there is no explicit PlacementTarget, the placement target for a tooltip is the element that specifies a value for its TooltipService.ToolTip attached property value. Any Placement value (either as an attached property or as an attribute on an explicit ToolTip element) applies to that target.
 
-### Notes for previous versions
-
-> **Windows 8.x**
->   [ToolTip](tooltip.md) is intended only for use in Windows. The [ToolTip](tooltip.md) type is available in Windows Phone projects for compatibility with universal project templates, but the [ToolTip](tooltip.md) is not shown in the Windows Phone  UI.
->
->   [ToolTip](tooltip.md) is displayed only within the bounds of the app window. It's placement might be adjusted to stay within those bounds.
-
 ### XAML attached properties
 
 ToolTipService is the host service class for several [XAML attached properties](/windows/uwp/xaml-platform/attached-properties-overview).

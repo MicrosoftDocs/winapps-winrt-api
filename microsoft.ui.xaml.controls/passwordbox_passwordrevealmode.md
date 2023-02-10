@@ -10,40 +10,38 @@ public Windows.UI.Xaml.Controls.PasswordRevealMode PasswordRevealMode { get;  se
 # Microsoft.UI.Xaml.Controls.PasswordBox.PasswordRevealMode
 
 ## -description
+
 Gets or sets a value that specifies whether the password is always, never, or optionally obscured.
 
 ## -property-value
+
 A value of the enumeration that specifies whether the password is always, never, or optionally obscured. The default is **Peek**.
 
 ## -remarks
-PasswordRevealMode replaces [IsPasswordRevealButtonEnabled](passwordbox_ispasswordrevealbuttonenabled.md) to give you more options for how the user is able to view their password. The [IsPasswordRevealButtonEnabled](passwordbox_ispasswordrevealbuttonenabled.md) property is ignored.
 
 To change the character used to obscure the password, set the [PasswordChar](passwordbox_passwordchar.md) property.
+
+> [!NOTE]
+> PasswordRevealMode replaces [IsPasswordRevealButtonEnabled](passwordbox_ispasswordrevealbuttonenabled.md) to give you more options for how the user is able to view their password. The [IsPasswordRevealButtonEnabled](passwordbox_ispasswordrevealbuttonenabled.md) property is ignored.
 
 ### Peek mode
 
 By default, the password reveal button (or "peek" button) is shown. The user must continuously press the button to view the password, so that a high level of security is maintained.
 
+The value of this property is not the only factor that determines whether a password reveal button is visible to the user. Other factors include whether the control is displayed above a minimum width, whether the [PasswordBox](passwordbox.md) has focus, and whether the text entry field contains at least one character. For security reasons the password reveal button is shown only when the [PasswordBox](passwordbox.md) receives focus for the first time and a character is entered. If the [PasswordBox](passwordbox.md) loses focus and then regains focus, the reveal button is not shown again unless the password is cleared and character entry starts over.
+
 <img src="images/PasswordBox_Revealed.png" alt="A password box with the password shown." />
-
-The value of this property is not the only factor that determines whether a password reveal button is visible to the user. Other factors include whether the control is displayed above a minimum width, whether the [PasswordBox](passwordbox.md) has focus, and whether the text entry field contains at least one character. Note that due to security reasons the password reveal button is shown only when the [PasswordBox](passwordbox.md) receives focus for the first time and a character is entered. If the [PasswordBox](passwordbox.md) loses focus and then regains focus, the reveal button is not shown again unless the password is cleared and character entry starts over.
-
-> [!NOTE]
-> Prior to Windows 10, the password reveal button was not shown by default. If the security of your app requires that the password is always obscured, be sure to set PasswordRevealMode to **Hidden**.
-
-
 
 ### Hidden and Visible modes
 
-The other [PasswordRevealMode](passwordrevealmode.md) enumeration values, **Hidden** and **Visible**, hide the password reveal button and let you programmatically manage whether the password is obscured.
+The other [PasswordRevealMode](passwordrevealmode.md) enumeration values, `Hidden` and `Visible`, hide the password reveal button and let you programmatically manage whether the password is obscured.
 
-To always obscure the password, set PasswordRevealMode to **Hidden**. Unless you need the password to be always obscured, you can provide a custom UI to let the user toggle the PasswordRevealMode between **Hidden** and **Visible**.
-
-In previous versions of Windows Phone, [PasswordBox](passwordbox.md) used a [CheckBox](checkbox.md) to toggle whether the password was obscured. You can create a similar UI for your app, as shown in the example. You can also use other controls, like [ToggleButton](../microsoft.ui.xaml.controls.primitives/togglebutton.md), to let the user switch modes.
+To always obscure the password, set `PasswordRevealMode` to `Hidden`. Unless you need the password to be always obscured, you can provide a custom UI to let the user toggle the `PasswordRevealMode` between `Hidden` and `Visible`. See the Examples section to see how to use a [CheckBox](checkbox.md) to toggle whether or not the password is obscured. You can also use other controls, like [ToggleButton](../microsoft.ui.xaml.controls.primitives/togglebutton.md), to let the user switch modes.
 
 <img src="images/PasswordBox_CustomReveal.png" alt="A password box with a custom reveal toggle." />
 
 ## -examples
+
 This example shows how to use a [CheckBox](checkbox.md) to let a user switch the reveal mode of a [PasswordBox](passwordbox.md).
 
 ```xaml
@@ -81,7 +79,6 @@ Private Sub CheckBox_Changed(sender As Object, e As RoutedEventArgs)
 End Sub
 ```
 
-
-
 ## -see-also
+
 [PasswordRevealMode](passwordrevealmode.md)

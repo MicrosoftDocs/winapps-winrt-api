@@ -612,20 +612,13 @@ E72D <img alt="Share icon" src="images/segoe-mdl/e72d.png" />
 E990 <img alt="Xbox icon" src="images/segoe-mdl/e990.png" />
 
 ## -remarks
+
 The Symbol enumeration is typically used to set the value of the [AppBarButton.Icon](appbarbutton_icon.md) property or the [SymbolIcon.Symbol](symbolicon_symbol.md) property. For more info and examples, see the documentation for [AppBarButton](appbarbutton.md) and [SymbolIcon](symbolicon.md).
 
 If you would like to use a glyph from the **Segoe MDL2 Assets** font that is not included in the Symbol enum, then use a [FontIcon](fonticon.md).
 
-### Notes for previous versions
-
-> **Universal Windows 8 app**
-> For Universal Windows 8 app, the standard glyphs are provided by the Segoe UI Symbol font. See [AppBar button style images](/previous-versions/windows/apps/jj841127(v=win.10)) to see these glyphs.
-
 ## -examples
 
 ## -see-also
-[Guidelines for Segoe MDL2 icons](/windows/uwp/style/segoe-ui-symbol-font), [Quickstart: Adding app bar buttons (Windows 8)](/previous-versions/windows/apps/jj662743(v=win.10))
 
-
-
-
+[Guidelines for Segoe MDL2 icons](/windows/uwp/style/segoe-ui-symbol-font), [Command bar](/windows/apps/design/controls/command-bar)

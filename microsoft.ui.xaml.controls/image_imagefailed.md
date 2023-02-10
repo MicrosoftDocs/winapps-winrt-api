@@ -45,19 +45,9 @@ private void Image_ImageFailed(object sender, ExceptionRoutedEventArgs e) {
 }
 ```
 
+### Image resources
 
-
-
-<!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 459121-->
-### Windows 8 behavior
-
-For Windows 8, resources can use a resource qualifier pattern to load different resources depending on device-specific scaling. However, resources aren't automatically reloaded if the scaling factor changes while the app is running. In this case apps would have to take care of reloading resources, by handling the [DpiChanged](/uwp/api/windows.graphics.display.displayinformation.dpichanged) event (or the deprecated [LogicalDpiChanged](/uwp/api/windows.graphics.display.displayproperties.logicaldpichanged) event) and using [ResourceManager](/uwp/api/windows.applicationmodel.resources.core.resourcemanager)  API to manually reload the resource that's appropriate for the new scaling factor. Starting with Windows 8.1, any resource that was originally retrieved for your app is automatically re-evaluated if the scaling factor changes while the app is running. In addition, when that resource is the image source for an [Image](image.md) object, then one of the source-load events ([ImageOpened](image_imageopened.md) or ImageFailed) is fired as a result of the system's action of requesting the new resource and then applying it to the [Image](image.md). The scenario where a run-time scale change might happen is if the user moves your app to a different monitor when more than one is available.
-
-
-<!--Hopefully the behavior is to NOT throw ImageFailed and show no image if there was a good image for one scaling but not a qualified one for another. That would be Bad. Investigate later.-->
-If you migrate your app code from Windows 8 to Windows 8.1 you may want to account for this behavior change, because it results in [ImageOpened](image_imageopened.md) or ImageFailed events that happen at run-time when the scale change is handled, even in cases where the [Source](image_source.md) is set in XAML. Also, if you did have code that handled [DpiChanged](/uwp/api/windows.graphics.display.displayinformation.dpichanged)/[LogicalDpiChanged](/uwp/api/windows.graphics.display.displayproperties.logicaldpichanged) and reset the resources, you should examine whether that code is still needed given the new Windows 8.1 automatic reload behavior.
-
-Apps that were compiled for Windows 8 but running on Windows 8.1 continue to use the Windows 8 behavior.
+Resources can use a resource qualifier pattern to load different resources depending on device-specific scaling. Any resource that was originally retrieved for your app is automatically re-evaluated if the scaling factor changes while the app is running. In addition, when that resource is the image source for an [Image](image.md) object, then one of the source-load events ([ImageOpened](image_imageopened.md) or ImageFailed) is fired as a result of the system's action of requesting the new resource and then applying it to the [Image](image.md). The scenario where a run-time scale change might happen is if the user moves your app to a different monitor when more than one is available. As a result, [ImageOpened](image_imageopened.md) or ImageFailed events can happen at run-time when the scale change is handled, even in cases where the [Source](image_source.md) is set in XAML.
 
 ## -examples
 

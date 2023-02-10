@@ -35,26 +35,6 @@ However, there are cases where it is not possible or practical to give an object
 
 Traversing the tree downwards (away from the root) multiple levels can be done using [GetChildrenCount](visualtreehelper_getchildrencount_935443003.md) for nonzero values and then [GetChild](visualtreehelper_getchild_277630530.md) to request a specific index. You might have to use **try/catch** techniques or the equivalent if you are trying to cast elements as specific [UIElement](../microsoft.ui.xaml/uielement.md) subtypes. Generally the VisualTreeHelper  API return elements as a [DependencyObject](../microsoft.ui.xaml/dependencyobject.md) and you will need to cast it in order to do anything useful (even for as simple an operation as checking its **Name** value).
 
-### Windows 8 behavior
-
-<!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 462593-->
-### UI threading
-
-Windows 8 permitted VisualTreeHelper function calls that were referencing objects on the wrong (not the current) UI thread. Starting with Windows 8.1, the function throws an exception if it's not being called from the current UI thread. Accounting for this new behavior should be a very uncommon app migration scenario; it's difficult to get UI elements across threads in the first place.
-
-Apps that were compiled for Windows 8 but running on Windows 8.1 use the Windows 8.1 behavior, and will throw specifically on the VisualTreeHelper function call rather than on any downstream app code that uses a cross-thread object.
-
-<!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 461907-->
-### App UI for On-Screen Keyboard
-
-Windows 8 had an internally implemented logic that would associate a [ScrollViewer](../microsoft.ui.xaml.controls/scrollviewer.md) with the overall app UI whenever the user invokes the On-Screen Keyboard. This On-Screen Keyboard is a specific accessibility feature that users request through the Ease of Access Center. It's not the same as the soft keyboard that can appear in app UI for text input controls, if the system detects no keyboard device. What the internal [ScrollViewer](../microsoft.ui.xaml.controls/scrollviewer.md) does here is to make it possible to scroll the area where the app is, if scrolling it is forced because the keyboard is taking UI space.
-
-Starting with Windows 8.1, the system still has UI/layout behavior when the On-Screen Keyboard appears, but it no longer uses this internally created [ScrollViewer](../microsoft.ui.xaml.controls/scrollviewer.md). Instead it uses a dedicated internal control that app code can't change or inspect.
-
-Most aspects of this behavior change don't affect apps at all. However, your app might have anticipated this behavior, by providing an implicit [Style](../microsoft.ui.xaml/style.md) for [ScrollViewer](../microsoft.ui.xaml.controls/scrollviewer.md) that's meant to change the layout, or by walking the tree with VisualTreeHelper to find this internally created [ScrollViewer](../microsoft.ui.xaml.controls/scrollviewer.md) and alter it at run-time. For an app that is compiled for Windows 8.1 that code won't be useful.
-
-Apps that were compiled for Windows 8 but running on Windows 8.1 continue to use the Windows 8 behavior.
-
 ## -examples
 Here's an example of a utility function that can copy a list of child elements of a particular type from within a visual tree. It uses the basic traversal methods [GetChildrenCount](visualtreehelper_getchildrencount_935443003.md) and [GetChild](visualtreehelper_getchild_277630530.md). It uses recursion so that elements can be found no matter what level of nesting within intermediate containers exists. It also uses an **IsSubclassOf** extension method from [System.Reflection](/dotnet/api/system.reflection?view=dotnet-uwp-10.0&preserve-view=true) that extends the type comparison to consider subtypes as a match for a [Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true).
 

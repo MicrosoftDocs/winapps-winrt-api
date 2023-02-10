@@ -34,25 +34,15 @@ Use a [Flyout](flyout.md) control to display single items and a MenuFlyout contr
 
 A MenuFlyout control can be used as the value of the [Button.Flyout](button_flyout.md) property. This is usually set in XAML as part of a UI definition of the page. [Button](button.md) is the only control that has a dedicated **Flyout** property. When set as [Button.Flyout](button_flyout.md), the MenuFlyout displays when the button is tapped or otherwise invoked.
 
-To associate a MenuFlyout with other controls, use the [ContextFlyout](../microsoft.ui.xaml/uielement_contextflyout.md) property that's available on any UIElement.
+To associate a MenuFlyout with other controls as a content menu, use the [ContextFlyout](../microsoft.ui.xaml/uielement_contextflyout.md) property that's available on any UIElement.
+
+You can use the [FlyoutBase.AttachedFlyout](../microsoft.ui.xaml.controls.primitives/flyoutbase_attachedflyout.md) attached property to associate a MenuFlyout with other controls as a regular menu. When a MenuFlyout is assigned to other UI elements using [FlyoutBase.AttachedFlyout](../microsoft.ui.xaml.controls.primitives/flyoutbase_attachedflyout.md), you must call either the [ShowAt](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.primitives.flyoutbase.showat) method or the static [ShowAttachedFlyout](../microsoft.ui.xaml.controls.primitives/flyoutbase_showattachedflyout_197558112.md) method to display the flyout.
 
 ### Control style and template
 
 You can modify the default [Style](../microsoft.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [XAML styles](/windows/apps/design/style/xaml-styles). XAML also includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. Modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/apps/design/style/xaml-styles#lightweight-styling) section of the [XAML styles](/windows/apps/design/style/xaml-styles) article.
 
 The resources for this control are listed in the [ThemeDictionaries](/windows/apps/design/style/xaml-theme-resources) section of the [MenuFlyout_themeresources.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/MenuFlyout_themeresources.xaml) file on GitHub. The `ResourceKey` value for each `StaticResource` references a brush and color in the [Common_themeresources_any.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/Common_themeresources_any.xaml) file.
-
-## Notes for previous versions
-
-> [!NOTE]
-> The ContextFlyout property is not available prior to the Windows 10 Anniversary Update (SDK version 14393). For earlier versions, use the [FlyoutBase.AttachedFlyout](../microsoft.ui.xaml.controls.primitives/flyoutbase_attachedflyout.md) attached property.
-
-You can use the [FlyoutBase.AttachedFlyout](../microsoft.ui.xaml.controls.primitives/flyoutbase_attachedflyout.md) attached property to associate a MenuFlyout with other controls. When a MenuFlyout is assigned to other UI elements using [FlyoutBase.AttachedFlyout](../microsoft.ui.xaml.controls.primitives/flyoutbase_attachedflyout.md), you must call either the [ShowAt](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.primitives.flyoutbase.showat) method or the static [ShowAttachedFlyout](../microsoft.ui.xaml.controls.primitives/flyoutbase_showattachedflyout_197558112.md) method to display the flyout.
-
-In addition to the members listed above, there are other members of the base class [FlyoutBase](../microsoft.ui.xaml.controls.primitives/flyoutbase.md) that are often used in typical MenuFlyout scenarios:
-
-+ [FlyoutBase.AttachedFlyout](../microsoft.ui.xaml.controls.primitives/flyoutbase_attachedflyout.md): an attached property that associates a MenuFlyout with a particular UI element (this can be any [FrameworkElement](../microsoft.ui.xaml/frameworkelement.md) derived class).
-+ [ShowAttachedFlyout](../microsoft.ui.xaml.controls.primitives/flyoutbase_showattachedflyout_197558112.md): a static method that can determine whether a flyout is already associated with a UI element through a [FlyoutBase.AttachedFlyout](../microsoft.ui.xaml.controls.primitives/flyoutbase_attachedflyout.md) usage. If so, the method calls [ShowAt](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.primitives.flyoutbase.showat) internally, using the [FrameworkElement](../microsoft.ui.xaml/frameworkelement.md) that you specified.
 
 ## -examples
 
