@@ -10,7 +10,7 @@ public object LoadWithInitialTemplateValidation(System.String xaml)
 # Microsoft.UI.Xaml.Markup.XamlReader.LoadWithInitialTemplateValidation
 
 ## -description
-Parses a well-formed XAML fragment creates a corresponding object tree, and returns the root of the object tree. Also performs load-time validation of any linked templates.
+Parses a well-formed XAML fragment and creates a corresponding object tree, and returns the root of the object tree. Also performs load-time validation of any linked templates.
 
 ## -parameters
 ### -param xaml
