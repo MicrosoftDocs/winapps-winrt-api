@@ -27,6 +27,6 @@ This method is typically created automatically when a project is created. You ca
 
 ## -examples
 
-Use OnLaunched to create the main window and pass it the first command line argument.
+Use `OnLaunched` to create the main window and pass it the first command line argument.
 
 [!code-csharp[DesktopOnLaunchedSample](../microsoft.ui.xaml/code/Application_OnLaunchedSample/MainPage.xaml.cs#SnippetDesktopOnLaunchedSample)]

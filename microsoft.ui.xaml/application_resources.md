@@ -37,13 +37,16 @@ A [ResourceDictionary](resourcedictionary.md) object that contains zero or more 
 
 The resource dictionary model in the Windows Runtime supports many of the XAML resource concepts you may be familiar with if you have created applications using Windows Presentation Foundation (WPF) or .NET MAUI. For more info, see [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary).
 
-The resources you define in the [ResourceDictionary](resourcedictionary.md) that fills the `Application.Resources` property element are available for retrieval from any page of your app. This is advantageous if many of your app's pages are all using the same resource. For example, if you have a [SolidColorBrush](../microsoft.ui.xaml.media/solidcolorbrush.md) resource that you're using for color schemes in your app's UI, and that color is used on most of your pages, it makes sense to declare that [SolidColorBrush](../microsoft.ui.xaml.media/solidcolorbrush.md) in the `Application.Resources` used for `Application.Resources`.
+The resources you define in the [ResourceDictionary](resourcedictionary.md) that fills the `Application.Resources` property element are available for retrieval from any page of your app. This is advantageous if many of your app's pages are all using the same resource. For example, if you have a [SolidColorBrush](../microsoft.ui.xaml.media/solidcolorbrush.md) resource that you're using for color schemes in your app's UI, and that color is used on most of your pages, it makes sense to declare that [SolidColorBrush](../microsoft.ui.xaml.media/solidcolorbrush.md) in the `Application.Resources`.
 
 When you add resources to `Application.Resources`, add them either before or after any existing `ResourceDictionary.MergedResources`. The rules of XAML don't allow you to put content on both sides of a property element tag. For more info, see [XAML syntax guide](/windows/uwp/xaml-platform/xaml-syntax-guide).
 
+> [!TIP]
+> If you use a resource on many pages throughout your app, then storing it in App.xaml is a good practice, and avoids duplication. But App.xaml is parsed at app startup so any resource that is used in only one page (unless that page is the initial page) should be put into the page's local resources. For more info, see [Optimize your XAML markup](/windows/uwp/debug-test-perf/optimize-xaml-loading).
+
 ## -examples
 
-This example shows how to declare an app-specific resource (this one creates a common converter class instance that comes from starting templates). Then it adds an [Application.MergedDictionaries](resourcedictionary_mergeddictionaries.md) property element with [ResourceDictionary](resourcedictionary.md) elements within, each referencing a XAML file by **URI** as the [Source](resourcedictionary_source.md).
+This example shows how to declare an app-specific resource (this one creates a common converter class instance). Then it adds an [Application.MergedDictionaries](resourcedictionary_mergeddictionaries.md) property element with [ResourceDictionary](resourcedictionary.md) elements within, each referencing a XAML file by **URI** as the [Source](resourcedictionary_source.md).
 
 ```xaml
 <Application.Resources>
