@@ -11,11 +11,11 @@ public bool IsConstrainedToRootBounds { get; }
 
 ## -description
 
-Gets a value that indicates whether the popup is shown within the bounds of the XAML root.
+Gets a value that indicates whether the popup is shown within the bounds of the XAML root. This property is always **true** for Windows App SDK apps.
 
 ## -property-value
 
-**true** if the popup is shown within the bounds of the XAML root; otherwise, **false**.
+**true** if the popup is shown within the bounds of the XAML root; otherwise, **false**. This value is always **true** for Windows App SDK apps.
 
 ## -remarks
 
@@ -23,7 +23,7 @@ For more info, see [ShouldConstrainToRootBounds](popup_shouldconstraintorootboun
 
 ## -see-also
 
-[ShouldConstrainToRootBounds](popup_shouldconstraintorootbounds.md), [FlyoutBase.IsConstrainedToRootBounds](flyoutbase_isconstrainedtorootbounds.md)
+[ShouldConstrainToRootBounds](popup_shouldconstraintorootbounds.md), [FlyoutBase IsConstrainedToRootBounds](flyoutbase_isconstrainedtorootbounds.md)
 
 ## -examples
 
