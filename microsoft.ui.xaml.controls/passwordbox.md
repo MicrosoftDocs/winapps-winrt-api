@@ -54,15 +54,6 @@ The resources for this control are listed in the [ThemeDictionaries](/windows/ap
 
 This control also uses resources from the [TextBox_themeresources.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/TextBox_themeresources.xaml) file. Resources that start with `TextControl` are shared by [TextBox](textbox.md), `PasswordBox`, [RichEditBox](richeditbox.md), and [AutoSuggestBox](autosuggestbox.md). Changes to these resources will affect all four controls.
 
-### Notes for previous versions
-
-> **Windows 8.x**
-> Use the [IsPasswordRevealButtonEnabled](passwordbox_ispasswordrevealbuttonenabled.md) property to specify whether the user can see the password, or see only the masking characters.
-
-In Windows, the user reveals the password by pressing and holding a button in the text entry box. The password is automatically hidden when the user stops pressing the button.
-
-In Windows Phone, the user reveals the password by checking a checkbox, so the password can stay shown while the user in entering it. (For more info on implementing this behavior in Universal Windows Platform (UWP) apps, see [PasswordRevealMode](passwordbox_passwordrevealmode.md).)
-
 ## -examples
 
 > [!TIP]

@@ -17,12 +17,6 @@ Called before the [ManipulationStarting](../microsoft.ui.xaml/uielement_manipula
 Event data for the event.
 
 ## -remarks
-<!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 458026-->
-### Windows 8 behavior
-
-Windows 8 had an issue with firing this event if multiple gestures happened in a short period of time. For example, Windows 8 might only fire [ManipulationStarting](../microsoft.ui.xaml/uielement_manipulationstarting.md) for the first gesture and not the second. The issue is fixed starting with Windows 8.1; multiple starting gestures processed by the input system each fire a distinct [ManipulationStarting](../microsoft.ui.xaml/uielement_manipulationstarting.md) event.
-
-Apps that were compiled for Windows 8 but running on Windows 8.1 continue to use the Windows 8 behavior.
 
 ## -examples
 

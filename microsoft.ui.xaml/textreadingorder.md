@@ -23,11 +23,11 @@ Provides a value for `TextReadingOrder` properties.
 
 ### -field Default:0
 
-Do not detect flow direction from content. Use [FlowDirection](flowdirection.md) value (if any) for reading order decisions. (Windows 8.1 only. See Remarks.)
+Do not detect flow direction from content. Use [FlowDirection](flowdirection.md) value (if any) for reading order decisions. (Do not use. See Remarks.)
 
 ### -field UseFlowDirection:0
 
-Do not detect flow direction from content. Use [FlowDirection](flowdirection.md) value (if any) for reading order decisions. (Windows 10 only. See Remarks.)
+Do not detect flow direction from content. Use [FlowDirection](flowdirection.md) value (if any) for reading order decisions. (See Remarks.)
 
 ### -field DetectFromContent:1
 
@@ -38,7 +38,7 @@ Detect flow direction from text content. For bidirectional text, text containers
 > [!IMPORTANT]
 > The enumeration value `0` has the constant name `UseFlowDirection`, and is not the default value of `TextReadingOrder` properties. All Windows 10 and later text controls set the default value of `TextReadingOrder` to `DetectFromContent`.
 >
-> In Windows 8.1 UWP apps, the value `0` had the constant name `Default`. Do not use this in your apps on Windows 10 and later.
+> In Windows 8.1 UWP apps, the value `0` had the constant name `Default`. It is included here for compatibility when migrating UWP apps to Windows App SDK. Do not use this in your apps on Windows 10 and later, use `UseFlowDirection` instead.
 
 The `TextReadingOrder` property influences the reading order (left-to-right or right-to-left) of individual UI elements that contain bidirectional text. In Windows text controls this property has the default value of `DetectFromContent` so that content can be detected dynamically, rather than using the [FlowDirection](frameworkelement_flowdirection.md) property on a content parent. The `DetectFromContent` logic uses the first strong character in each paragraph to determine the reading direction for the paragraph, based on the [Unicode Bidirectional Algorithm, P2](https://www.unicode.org/reports/tr9/#P2).
 
@@ -52,4 +52,4 @@ Unlike `FlowDirection` and its logic, the reading order logic for `DetectFromCon
 
 ## -see-also
 
-[FlowDirection](flowdirection.md), [PasswordBox.TextReadingOrder](../microsoft.ui.xaml.controls/passwordbox_textreadingorder.md), [RichEditBox.TextReadingOrder](../microsoft.ui.xaml.controls/richeditbox_textreadingorder.md), [RichTextBlock.TextReadingOrder](../microsoft.ui.xaml.controls/richtextblock_textreadingorder.md), [TextBlock.TextReadingOrder](../microsoft.ui.xaml.controls/textblock_textreadingorder.md), [TextBox.TextReadingOrder](../microsoft.ui.xaml.controls/textbox_textreadingorder.md), [How to support bidirectional UI](/previous-versions/windows/apps/jj712703(v=win.10))
+[FlowDirection](flowdirection.md), [NumberBox.TextReadingOrder](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.numberbox.textreadingorder), [PasswordBox.TextReadingOrder](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.passwordbox.textreadingorder), [RichEditBox.TextReadingOrder](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.richeditbox.textreadingorder), [RichTextBlock.TextReadingOrder](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.richtextblock.textreadingorder), [TextBlock.TextReadingOrder](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.textblock.textreadingorder), [TextBox.TextReadingOrder](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.textbox.textreadingorder), [How to support bidirectional UI](/previous-versions/windows/apps/jj712703(v=win.10))

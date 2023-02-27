@@ -23,11 +23,10 @@ Height of the drawing area in pixels.
 **true** if the area should render opaque. **false** to render with possible alpha transparency.
 
 ## -remarks
-<!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 464445-->
-### Windows 8 behavior
 
-Windows 8 validates that *pixelWidth* and *pixelHeight* are under 100 million (100,000,000). Starting with Windows 8.1 the validation limit is 17 million (17,000,000) in each dimension. > [!NOTE]
-> Other factors might impact how much content can be rendered in a single [VirtualSurfaceImageSource](virtualsurfaceimagesource.md). For example, placing a [VirtualSurfaceImageSource](virtualsurfaceimagesource.md) in a [ScrollViewer](../microsoft.ui.xaml.controls/scrollviewer.md) might further reduce the effective size based on the [ScrollViewer](../microsoft.ui.xaml.controls/scrollviewer.md)'s limits.
+Windows validates that *pixelWidth* and *pixelHeight* are under 17 million (17,000,000).
+
+Other factors might impact how much content can be rendered in a single [VirtualSurfaceImageSource](virtualsurfaceimagesource.md). For example, placing a [VirtualSurfaceImageSource](virtualsurfaceimagesource.md) in a [ScrollViewer](../microsoft.ui.xaml.controls/scrollviewer.md) might further reduce the effective size based on the [ScrollViewer](../microsoft.ui.xaml.controls/scrollviewer.md)'s limits.
 
 ## -examples
 

@@ -80,13 +80,6 @@ You can modify the default [Style](../microsoft.ui.xaml/style.md) and [ControlTe
 
 The resources for this control are listed in the [ThemeDictionaries](/windows/apps/design/style/xaml-theme-resources) section of the [ToolTip_rs5_themeresources.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/ToolTip_rs5_themeresources.xaml) file on GitHub. The `ResourceKey` value for each `StaticResource` references a brush and color in the [Common_themeresources_any.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/Common_themeresources_any.xaml) file.
 
-### Notes for previous versions
-
-> **Windows 8.x**
->   ToolTip is intended only for use in Windows. The ToolTip type is available in Windows Phone projects for compatibility with universal project templates, but the ToolTip is not shown in the Windows Phone  UI.
-
-   ToolTip is displayed only within the bounds of the app window. It's placement might be adjusted to stay within those bounds.
-
 ## -examples
 
 > [!TIP]

@@ -11,19 +11,19 @@ public Microsoft.UI.Xaml.FocusVisualKind FocusVisualKind { get;  set; }
 
 ## -description
 
-Gets or sets the type of visual feedback that an app can use to indicate the UI element with focus.
-
-> This property is valid only for input devices that can generate key events, such as a keyboard or Xbox controller.
+Gets or sets the type of visual feedback that an app can use to indicate the UI element that has focus.
 
 ## -property-value
 
-The type of visual feedback used to indicate the UI element with focus. The default value is [HighVisibility](focusvisualkind.md).
+The type of visual feedback used to indicate the UI element that has focus. The default value is [HighVisibility](focusvisualkind.md).
 
 ## -remarks
 
+> This property is valid only for input devices that can generate key events, such as a keyboard or Xbox controller.
+
 [HighVisibility](focusvisualkind.md) focus visuals are rendered with an outer (primary) and inner (secondary) border.
 
-For more info:
+For more info, see:
 
 + [FocusVisualPrimaryBrush](frameworkelement_focusvisualprimarybrush.md)
 + [FocusVisualSecondaryBrush](frameworkelement_focusvisualsecondarybrush.md)

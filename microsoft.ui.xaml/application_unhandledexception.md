@@ -19,7 +19,7 @@ The `UnhandledException` event is used to notify the app about exceptions encoun
 
 For example, if the Windows Runtime invokes app code like an event handler, and the app code throws an exception and does not catch it, the exception will propagate back to the Windows Runtime. The Windows Runtime will then fire the `UnhandledException` event to notify the app of this exception.
 
-Handling exceptions in an UnhandledException is just one of many techniques that can be used both for debugging and for run-time exception handling and possible recovery. For more info about the full set of techniques you might use for debugging and error handling, see [Exception Handling (C# Programming Guide)](/dotnet/csharp/fundamentals/exceptions/exception-handling).
+Handling exceptions in an `UnhandledException` is just one of many techniques that can be used both for debugging and for run-time exception handling and possible recovery. For more info about the full set of techniques you might use for debugging and error handling, see [Exception Handling (C# Programming Guide)](/dotnet/csharp/fundamentals/exceptions/exception-handling).
 
 Note that this event will only fire when there is no longer any possibility that app code can catch an exception. For example, imagine that an app event handler calls a Windows Runtime  API that in turn invokes a callback. If the inner app code throws an exception and does not catch it, the exception will propagate through the Windows Runtime back to the outer layer of app code, which is given a chance to catch it. The `UnhandledException` event is fired only when there are no more opportunities for app code to catch an exception through normal propagation.
 
@@ -40,4 +40,4 @@ You can't wire handlers for `UnhandledException` in XAML (on the [Application](a
 
 ## -see-also
 
-[UnhandledExceptionEventArgs](unhandledexceptioneventargs.md), [App lifecycle](/windows/uwp/launch-resume/app-lifecycle), [Exception Handling (C# Programming Guide)](/dotnet/csharp/fundamentals/exceptions/exception-handling), [Call asynchronous APIs in C# or Visual Basic](/windows/uwp/threading-async/call-asynchronous-apis-in-csharp-or-visual-basic)
+[UnhandledExceptionEventArgs](unhandledexceptioneventargs.md), [Exception Handling (C# Programming Guide)](/dotnet/csharp/fundamentals/exceptions/exception-handling), [Call asynchronous APIs in C# or Visual Basic](/windows/uwp/threading-async/call-asynchronous-apis-in-csharp-or-visual-basic)
