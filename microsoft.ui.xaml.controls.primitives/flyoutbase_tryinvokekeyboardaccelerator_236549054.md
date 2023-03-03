@@ -14,7 +14,7 @@ Attempts to invoke a keyboard shortcut (accelerator).
 
 ## -parameters
 ### -param args
-The [ProcessKeyboardAcceleratorEventArgs](..\microsoft.ui.xaml.input\processkeyboardacceleratoreventargs.md).
+The `ProcessKeyboardAcceleratorEventArgs`.
 
 ## -remarks
 Call this method in the [OnProcessKeyboardAccelerators](flyoutbase_onprocesskeyboardaccelerators_490218500.md) override when an accelerator is invoked and you want to influence the default accelerator handling.

@@ -258,8 +258,6 @@ Tifinagh
 
 Character repertoires are typically scripts like Arabic and Latin, but there are also character repertoires for symbols and Emoji.
 
-To learn more about character repertoires, see [RichEdit Font Binding](/en-us/archive/blogs/murrays/richedit-font-binding).
-
 ## -examples
 
 ## -see-also
