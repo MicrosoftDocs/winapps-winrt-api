@@ -22,6 +22,6 @@ The caller of this function must have administrative privileges if the package d
 
 ## -see-also
 
-[Create](/windows/windows-app-sdk/api/winrt/microsoft.windows.applicationmodel.dynamicdependency.packagedependency.create), [CreateForSystem](packagedependency_createforsystem_879672097.md), [Use the dynamic dependency API to reference framework packages at run time](/windows/apps/desktop/modernize/framework-packages/use-the-dynamic-dependency-api)
+[Create](/windows/windows-app-sdk/api/winrt/microsoft.windows.applicationmodel.dynamicdependency.packagedependency.create), [CreateForSystem](packagedependency_createforsystem_879672097.md), [Use the dynamic dependency API to reference MSIX packages at run time](/windows/apps/desktop/modernize/framework-packages/use-the-dynamic-dependency-api)
 
 ## -examples
