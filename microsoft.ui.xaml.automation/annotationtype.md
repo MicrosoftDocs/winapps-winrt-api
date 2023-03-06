@@ -82,13 +82,10 @@ A data validation error.
 ### -field CircularReferenceError:60022
 A circular reference error.
 
-
 ## -remarks
 This enumeration is used as an input value to the [GetAnnotationTypes](../microsoft.ui.xaml.automation.provider/ispreadsheetitemprovider_getannotationtypes_911639376.md) method.
 
 The values in AnnotationType parallel the values in the [Annotation Type Identifiers](/windows/desktop/WinAuto/uiauto-annotation-type-identifiers) constants.
-
-<!--The descriptions in this topic are adapted or taken directly from http://msdn.microsoft.com/library/windows/desktop/hh448743(v=vs.85).aspx-->
 
 ## -examples
 
