@@ -39,9 +39,7 @@ In contrast, a touch point is only detectable if a finger is touching the surfac
 
 Mouse input is associated with a single pointer assigned when mouse input is first detected, and all mouse-initiated interactions have the same [PointerId](../microsoft.ui.input/pointerpoint_pointerid.md). Clicking a mouse button (left, wheel, or right) creates a secondary association between the pointer and that button through the [PointerPressed](uielement_pointerpressed.md) event. The [PointerReleased](uielement_pointerreleased.md) event is fired only when that same mouse button is released (no other button can be associated with the pointer until this event is complete). Because of this exclusive association, other mouse button clicks are routed through the `PointerMoved` event. You can test the mouse button state when handling this event, as shown in this example:
 
-[!code-csharp[PointerMoved](../microsoft.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
-
-[!code-csharp[PointerMoved](../microsoft.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
+:::code language="csharp" source="../microsoft.ui.xaml.input/code/PointerInput/csharp/MainWindow.xaml.cs" id="SnippetPointerMoved":::
 
 Some applications, such as games, need to track relative mouse movements for specific functionality (for example, a virtual trackball or the viewing camera) and don't use the system cursor or absolute screen coordinates. For details on hiding the mouse cursor and ignoring absolute mouse data, see [Relative mouse movement and CoreWindow](/en-us/windows/uwp/gaming/relative-mouse-movement).
 
