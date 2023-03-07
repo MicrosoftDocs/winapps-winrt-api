@@ -27,9 +27,7 @@ Use a handler based on [PointerEventHandler](../microsoft.ui.xaml.input/pointere
 
 Mouse input is associated with a single pointer assigned when mouse input is first detected. Clicking a mouse button (left, wheel, or right) creates a secondary association between the pointer and that button through the `PointerPressed` event. The [PointerReleased](uielement_pointerreleased.md) event is fired only when that same mouse button is released (no other button can be associated with the pointer until this event is complete). Because of this exclusive association, other mouse button clicks are routed through the [PointerMoved](uielement_pointermoved.md) event. You can test the mouse button state when handling this event, as shown in the following example.
 
-[!code-csharp[PointerMoved](../microsoft.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
-
-[!code-csharp[PointerMoved](../microsoft.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
+:::code language="csharp" source="../microsoft.ui.xaml.input/code/PointerInput/csharp/MainWindow.xaml.cs" id="SnippetPointerMoved":::
 
 Pointer events from a mouse input device generally have the same [PointerId](../microsoft.ui.input/pointerpoint_pointerid.md) in the event details for the lifetime of the app.
 
