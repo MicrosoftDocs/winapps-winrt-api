@@ -13,7 +13,7 @@ Provides APIs for implementing a widget provider for Windows Widgets.
 
 ## -remarks
 
-<xref:Microsoft.Windows.Widgets.Providers.IWidgetProvider> is the interface that must be implemented by widget providers in order to receive callback notifications for widget lifecycle events. This interface be implemented as an Out-of-process COM Server. 
+<xref:Microsoft.Windows.Widgets.Providers.IWidgetProvider> is the interface that must be implemented by widget providers in order to receive callback notifications for widget lifecycle events. This interface must be implemented as an Out-of-process COM Server. 
 
 The <xref:Microsoft.Windows.Widgets.Providers.WidgetManager> class provides methods for updating, querying, and deleting widgets.
 
