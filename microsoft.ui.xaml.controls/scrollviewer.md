@@ -134,27 +134,15 @@ You can modify the default [Style](../microsoft.ui.xaml/style.md) and [ControlTe
 
 The resources for this control are listed in the [ThemeDictionaries](/windows/apps/design/style/xaml-theme-resources) section of the [ScrollViewer_themeresources.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/ScrollViewer_themeresources.xaml) and [ScrollBar_themeresources.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/ScrollBar_themeresources.xaml) files on GitHub. The `ResourceKey` value for each `StaticResource` references a brush and color in the [Common_themeresources_any.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/Common_themeresources_any.xaml) file.
 
-
-<!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 462116-->
-### Windows 8 behavior
-
 ### Gesture handling by track pad devices
-For Windows 8, track pad device gestures that were input-handled by a ScrollViewer control part were interpreted as mouse wheel input, and thus would fire a [PointerWheelChanged](../microsoft.ui.xaml/uielement_pointerwheelchanged.md) event. Starting with Windows 8.1, ScrollViewer uses an underlying manipulation logic that interprets track pad gestures as actions that the ScrollViewer responds to, and thus the gesture is considered handled by the control and the [PointerWheelChanged](../microsoft.ui.xaml/uielement_pointerwheelchanged.md) event is not fired anymore.
 
-If you migrate your app code from Windows 8 to Windows 8.1 you may want to account for this behavior change, because it results in [PointerWheelChanged](../microsoft.ui.xaml/uielement_pointerwheelchanged.md) being fired in fewer cases. Also, the behavior that's now built-in to ScrollViewer may be duplicating what your handler would have done.
+Touchpad input and gestures do not trigger [PointerWheelChanged](../microsoft.ui.xaml/uielement_pointerwheelchanged.md) events on a [ScrollViewer](scrollviewer.md) control. These gestures are handled internally by the [ScrollViewer](scrollviewer.md) control.
 
-Apps that were compiled for Windows 8 but running on Windows 8.1 continue to use the Windows 8 behavior.
-
-<!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 461907-->
 ### App UI for On-Screen Keyboard
 
-Windows 8 had an internally implemented logic that would associate a ScrollViewer with the overall app UI whenever the user invokes the On-Screen Keyboard. This On-Screen Keyboard is a specific accessibility feature that users request through the Ease of Access Center. It's not the same as the soft keyboard that can appear in app UI for text input controls, if the system detects no keyboard device. What the internal ScrollViewer does here is to make it possible to scroll the area where the app is, if scrolling it is forced because the keyboard is taking UI space.
+The On-Screen Keyboard (OSK) is an accessibility feature that users can enable on demand (Settings -> Accessibility -> Keyboard or Windows+Ctrl+O). It is not the same as the *soft keyboard* that can appear in app UI to support text input controls when the system doesn't detect the presence of a keyboard.
 
-Starting with Windows 8.1, the system still has UI/layout behavior when the On-Screen Keyboard appears, but it no longer uses this internally created ScrollViewer. Instead it uses a dedicated internal control that app code can't change or inspect.
-
-Most aspects of this behavior change don't affect apps at all. However, your app might have anticipated this behavior, by providing an implicit [Style](../microsoft.ui.xaml/style.md) for ScrollViewer that's meant to change the layout, or by walking the tree with [VisualTreeHelper](../microsoft.ui.xaml.media/visualtreehelper.md) to find this internally created ScrollViewer and alter it at run-time. For an app that is compiled for Windows 8.1 that code won't be useful.
-
-Apps that were compiled for Windows 8 but running on Windows 8.1 continue to use the Windows 8 behavior.
+When the OSK appears, the system adjusts app UI/layout behavior and provides scrolling as required. This system scrolling behavior is not exposed to your app.
 
 ## -examples
 
