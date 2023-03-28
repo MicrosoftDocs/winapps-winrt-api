@@ -11,7 +11,7 @@ public float GetLeft(Windows.Foundation.Rect target)
 
 ## -description
 
-Gets a "Left" value for the specified [Rect](/uwp/api/windows.foundation.rect). So long as `Width` is positive, "Left" is evaluated as `X`. C# code should use [Rect.Left](/dotnet/api/windows.foundation.rect.left) instead.
+Gets a "Left" value for the specified [Rect](/uwp/api/windows.foundation.rect). So long as the `Rect` is not the [Empty](recthelper_empty.md) `Rect`, "Left" is evaluated as `X`. C# code should use [Rect.Left](/dotnet/api/windows.foundation.rect.left) instead.
 
 ## -parameters
 

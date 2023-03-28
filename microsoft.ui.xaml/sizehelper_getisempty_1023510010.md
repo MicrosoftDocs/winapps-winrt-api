@@ -25,6 +25,8 @@ The [Size](/uwp/api/windows.foundation.size) to evaluate.
 
 ## -remarks
 
+Do not use this method to test for zero area; a size with zero area is not necessarily the [Empty](sizehelper_empty.md) size. For more information, see the [Empty](sizehelper_empty.md) property.
+
 ## -examples
 
 ## -see-also

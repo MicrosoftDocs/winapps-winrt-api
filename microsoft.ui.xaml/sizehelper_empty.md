@@ -11,11 +11,11 @@ public Windows.Foundation.Size Empty { get; }
 
 ## -description
 
-Gets a static [Size](/uwp/api/windows.foundation.size) value where the `Size` has no height or width (all values 0). C# code should use [Size.Empty](/dotnet/api/windows.foundation.size.empty) instead.
+Gets a static [Size](/uwp/api/windows.foundation.size) value where the `Size` has no height or width. C# code should use [Size.Empty](/dotnet/api/windows.foundation.size.empty) instead.
 
 ## -property-value
 
-A [Size](/uwp/api/windows.foundation.size) with all values as 0.
+A [Size](/uwp/api/windows.foundation.size) with `Width` and `Height` set to negative infinity.
 
 ## -remarks
 

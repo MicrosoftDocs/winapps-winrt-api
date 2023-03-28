@@ -11,7 +11,7 @@ public float GetRight(Windows.Foundation.Rect target)
 
 ## -description
 
-Gets a "Right" value for the specified [Rect](/uwp/api/windows.foundation.rect). So long as `Width` is positive, "Right" is evaluated as `X` + `Width`. C# code should use [Rect.Right](/dotnet/api/windows.foundation.rect.right) instead.
+Gets a "Right" value for the specified [Rect](/uwp/api/windows.foundation.rect). So long as the `Rect` is not the [Empty](recthelper_empty.md) `Rect`, "Right" is evaluated as `X` + `Width`. C# code should use [Rect.Right](/dotnet/api/windows.foundation.rect.right) instead.
 
 ## -parameters
 
