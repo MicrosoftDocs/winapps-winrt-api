@@ -14,7 +14,7 @@ Called just before a keyboard shortcut (accelerator) is processed in your app. I
 
 ## -parameters
 ### -param args
-The [ProcessKeyboardAcceleratorEventArgs](..\microsoft.ui.xaml.input\processkeyboardacceleratoreventargs.md).
+The `ProcessKeyboardAcceleratorEventArgs`.
 
 ## -remarks
 

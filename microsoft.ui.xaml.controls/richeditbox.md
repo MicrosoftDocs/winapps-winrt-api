@@ -58,7 +58,7 @@ This control also uses resources from the [TextBox_themeresources.xaml](https://
 > The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery)
 
 
-This example shows how to use the [ITextDocument.SetText](/uwp/api/windows.ui.text.itextdocument.settext(windows.ui.text.textsetoptions,system.string)) method to programmatically add text to a RichEditBox.
+This example shows how to use the [ITextDocument.SetText](/uwp/api/windows.ui.text.itextdocument.settext) method to programmatically add text to a RichEditBox.
 
 ```xaml
 <RichEditBox x:Name="richEditBox" Width="500" Header="Notes"/>

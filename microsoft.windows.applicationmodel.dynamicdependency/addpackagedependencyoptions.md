@@ -18,6 +18,6 @@ Defines options that can be applied when adding a run-time reference to a framew
 
 ## -see-also
 
-[PackageDependency.Add](packagedependency_add_1022868492.md), [Use the dynamic dependency API to reference framework packages at run time](/windows/apps/desktop/modernize/framework-packages/use-the-dynamic-dependency-api)
+[PackageDependency.Add](packagedependency_add_1022868492.md), [Use the dynamic dependency API to reference MSIX packages at run time](/windows/apps/desktop/modernize/framework-packages/use-the-dynamic-dependency-api)
 
 ## -examples

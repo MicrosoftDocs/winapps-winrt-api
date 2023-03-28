@@ -18,7 +18,7 @@ Defines criteria that can be applied when creating an install-time reference to 
 
 ## -see-also
 
-[PackageDependency.Create](packagedependency_create_1812482144.md), [Use the dynamic dependency API to reference framework packages at run time](/windows/apps/desktop/modernize/framework-packages/use-the-dynamic-dependency-api)
+[PackageDependency.Create](packagedependency_create_1812482144.md), [Use the dynamic dependency API to reference MSIX packages at run time](/windows/apps/desktop/modernize/framework-packages/use-the-dynamic-dependency-api)
 
 ## -examples
 

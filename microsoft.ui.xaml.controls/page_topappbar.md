@@ -10,9 +10,11 @@ public Windows.UI.Xaml.Controls.AppBar TopAppBar { get;  set; }
 # Microsoft.UI.Xaml.Controls.Page.TopAppBar
 
 ## -description
-Gets a reference to an [AppBar](appbar.md) displayed at the top of the page, if any.
+
+Gets or sets the [AppBar](appbar.md) displayed in a dedicated area at the top of the page.
 
 ## -xaml-syntax
+
 ```xaml
 <Page ...>
   <Page.TopAppBar>
@@ -21,15 +23,22 @@ Gets a reference to an [AppBar](appbar.md) displayed at the top of the page, if 
 </Page>
 ```
 
-
 ## -property-value
-A reference to an [AppBar](appbar.md) displayed at the top of the page, or **null**.
+
+A reference to an [AppBar](appbar.md) displayed at the top of the page, if any; otherwise, `null`.
 
 ## -remarks
+
+> [!NOTE]
+> For apps in Windows 10 or later, placing commands in the `TopAppBar` and `BottomAppBar` is not recommended.
+>
+> - For the latest guidance regarding general app commands, see [Command bar](/windows/apps/design/controls/command-bar).
+> - For the latest guidance regarding navigation commands, see [Navigation design basics for Windows apps](/windows/apps/design/basics/navigation-basics).
+
 In XAML, make sure you specify the `Page.TopAppBar` property element in the same area as other property elements that may already be defined, like `Page.BottomAppBar` or `Page.Resources`. The XAML language enforces that you can't mix the property elements between the XAML content that is setting [Content](usercontrol_content.md), such as the typical root [Grid](grid.md) element. For more info on XAML syntax, see [XAML syntax guide](/windows/uwp/xaml-platform/xaml-syntax-guide).
 
 ## -examples
-For example code that adds an [AppBar](appbar.md) to a page, see [Quickstart: adding app bars](/previous-versions/windows/apps/hh781230(v=win.10)) or [How to share an app bar across pages](/previous-versions/windows/apps/jj150604(v=win.10)). For a complete sample that uses many of the [Page](page.md) and [Frame](frame.md) features together, see [XAML Navigation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlNavigation).
 
 ## -see-also
-[AppBar](appbar.md), [Quickstart: adding app bars](/previous-versions/windows/apps/hh781230(v=win.10))
+
+[Command bar](/windows/apps/design/controls/command-bar), [Navigation design basics for Windows apps](/windows/apps/design/basics/navigation-basics)
