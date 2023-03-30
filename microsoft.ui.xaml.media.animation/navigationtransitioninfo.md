@@ -10,17 +10,19 @@ public class NavigationTransitionInfo : Windows.UI.Xaml.DependencyObject, Window
 # Microsoft.UI.Xaml.Media.Animation.NavigationTransitionInfo
 
 ## -description
+
 Provides parameter info for the [Frame.Navigate](../microsoft.ui.xaml.controls/frame_navigate_1557370995.md) method. Controls how the transition animation runs during the navigation action.
 
 ## -remarks
-Navigation transition animations can be any of the *TransitionInfo types. For UWP apps, we recommend using the following page transitions:
+
+Navigation transition animations can be any of the *TransitionInfo types. We recommend using the following page transitions:
+
 - [EntranceNavigationTransitionInfo](entrancenavigationtransitioninfo.md)
 - [DrillInNavigationTransitionInfo](drillinnavigationtransitioninfo.md)
 - [SuppressNavigationTransitionInfo](suppressnavigationtransitioninfo.md)
 
-> For Windows Phone 8.x apps, several derived types ([CommonNavigationTransitionInfo](commonnavigationtransitioninfo.md), [ContinuumNavigationTransitionInfo](continuumnavigationtransitioninfo.md), [SlideNavigationTransitionInfo](slidenavigationtransitioninfo.md)) can be used in XAML to fill the [NavigationThemeTransition.DefaultNavigationTransitionInfo](navigationthemetransition_defaultnavigationtransitioninfo.md) property.
-
 ## -examples
+
 ```xaml
 <Frame x:Name="myFrame">
     <Frame.ContentTransitions>
@@ -32,19 +34,19 @@ Navigation transition animations can be any of the *TransitionInfo types. For UW
 ```
 
 ```csharp
-// Play the default animation
+// Play the default animation.
 myFrame.Navigate(typeof(Page2), null);
 
-// Explicitly play the page refresh animation
+// Explicitly play the page refresh animation.
 myFrame.Navigate(typeof(Page2), null, new EntranceNavigationTransitionInfo());
 
-// Play the drill in animation
+// Play the drill in animation.
 myFrame.Navigate(typeof(Page2), null, new DrillInNavigationTransitionInfo());
 
-// Suppress the default animation
+// Suppress the default animation.
 myFrame.Navigate(typeof(Page2), null, new SuppressNavigationTransitionInfo());
 ```
 
-
 ## -see-also
-[DependencyObject](../microsoft.ui.xaml/dependencyobject.md), [Frame.Navigate](/uwp/api/windows.ui.xaml.controls.frame.navigate)
+
+[DependencyObject](../microsoft.ui.xaml/dependencyobject.md), [Frame.Navigate](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.frame.navigate)
