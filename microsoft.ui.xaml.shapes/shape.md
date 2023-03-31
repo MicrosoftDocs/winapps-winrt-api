@@ -32,7 +32,15 @@ Shape is the parent class for several immediately derived classes that define pr
 Of these, [Rectangle](rectangle.md), [Path](path.md) and [Ellipse](ellipse.md) are probably the most commonly used. [Rectangle](rectangle.md) is often used as part of control composition for drawing a focus rectangle. [Path](path.md) is used for control glyphs, and also for [PathIcon](../microsoft.ui.xaml.controls/pathicon.md) content. [Ellipse](ellipse.md) is used for control compositions that include a circle, particularly in progress controls.
 
 ## -examples
-For example code of how to use Shape derived classes such as [Rectangle](rectangle.md) and [Path](path.md), see [XAML vector-based drawing sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20vector-based%20drawing%20sample).
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Draw shapes](/windows/apps/design/controls/shapes).
+
+> [!div class="nextstepaction"]
+> [Open the WinUI 3 Gallery app and see Shape features in action](winui3gallery://item/Shape).
+
+> The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery)
 
 ## -see-also
+
 [FrameworkElement](../microsoft.ui.xaml/frameworkelement.md), [XAML vector-based drawing sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20vector-based%20drawing%20sample), [Draw shapes](/windows/uwp/graphics/drawing-shapes)

@@ -15,7 +15,7 @@ Gets or sets a value that describes how an animated visual should be stretched t
 
 ## -property-value
 
-A value that describes how an animated visual should be stretched to fill the destination rectangle. The default is [Uniform](/uwp/api/windows.ui.xaml.media.stretch).
+A value that describes how an animated visual should be stretched to fill the destination rectangle. The default is [Uniform](../microsoft.ui.xaml.media/stretch.md).
 
 ## -remarks
 
