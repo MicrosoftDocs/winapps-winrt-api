@@ -17,8 +17,8 @@ Draws a polygon, which is a connected series of lines that form a closed shape.
 <Polygon .../>
 ```
 
-
 ## -remarks
+
 The Polygon object is similar to the [Polyline](polyline.md) object, except that Polygon must be a closed shape.
 
 You define the shape by adding vertices to the [Points](polygon_points.md) collection. For example, two points could form a line, three points could form a triangle, and four points could form a quadrilateral.
@@ -28,6 +28,7 @@ The [FillRule](polygon_fillrule.md) property specifies how the interior area of 
 You can set the [Fill](shape_fill.md) property to give the shape a background fill, like a solid color, gradient, or image. You can set the [Stroke](shape_stroke.md) and other related stroke properties to specify the look of the shape's outline.
 
 ## -examples
+
 This example shows how to use a Polygon to create a triangle.
 
 ```xaml
@@ -51,7 +52,14 @@ This example shows how to use a Polygon to create a triangle.
 </Canvas>
 ```
 
+> [!TIP]
+> For more info, design guidance, and code examples, see [Draw shapes](/windows/apps/design/controls/shapes).
 
+> [!div class="nextstepaction"]
+> [Open the WinUI 3 Gallery app and see Shape features in action](winui3gallery:/item/Shape).
+
+> The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery)
 
 ## -see-also
+
 [Shape](shape.md), [XAML vector-based drawing sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20vector-based%20drawing%20sample), [Draw shapes](/windows/uwp/graphics/drawing-shapes)

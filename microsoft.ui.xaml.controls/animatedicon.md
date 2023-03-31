@@ -74,13 +74,13 @@ To make the `AnimatedIcon` respond to user interaction, you need to set the [Ani
 
 |Event  |State  |
 |---------|---------|
-|[PointerEntered](/uwp/api/windows.ui.xaml.uielement.pointerentered)   | "`PointerOver`" |
-|[PointerPressed](/uwp/api/windows.ui.xaml.uielement.pointerpressed)   | "`Pressed`" |
-|[PointerReleased](/uwp/api/windows.ui.xaml.uielement.pointerreleased) | "`Normal`" |
-|[PointerExited](/uwp/api/windows.ui.xaml.uielement.pointerexited)     | "`Normal`" |
+|[UIElement.PointerEntered](../microsoft.ui.xaml/uielement_pointerentered.md)   | "`PointerOver`" |
+|[UIElement.PointerPressed](../microsoft.ui.xaml/uielement_pointerpressed.md)   | "`Pressed`" |
+|[UIElement.PointerReleased](../microsoft.ui.xaml/uielement_pointerreleased.md) | "`Normal`" |
+|[UIElement.PointerExited](../microsoft.ui.xaml/uielement_pointerexited.md)     | "`Normal`" |
 
 > [!TIP]
-> If you place the `AnimatedIcon` inside a [Button](/uwp/api/windows.ui.xaml.controls.button) or other control that has a [Click](/uwp/api/windows.ui.xaml.controls.primitives.buttonbase.click) event, the `PointerPressed` and `PointerReleased` events are marked as [Handled](/uwp/api/windows.ui.xaml.input.pointerroutedeventargs.handled). To handle these events on a button, use the [AddHandler](/uwp/api/windows.ui.xaml.uielement.addhandler) method to connect your event handler and specify `handledEventsToo` as `true`. Use [RemoveHandler](/uwp/api/windows.ui.xaml.uielement.removehandler) to disconnect the event handler.
+> If you place the `AnimatedIcon` inside a [Button](button.md) or other control that has a [Click](../microsoft.ui.xaml.controls.primitives/buttonbase_click.md) event, the `PointerPressed` and `PointerReleased` events are marked as [PointerRoutedEventArgs.Handled](../microsoft.ui.xaml.input/pointerroutedeventargs_handled.md). To handle these events on a button, use the [UIElement.AddHandler](../microsoft.ui.xaml/uielement_addhandler_1350394113.md) method to connect your event handler and specify `handledEventsToo` as `true`. Use [UIElement.RemoveHandler](../microsoft.ui.xaml/uielement_removehandler_159066471.md) to disconnect the event handler.
 
 See the Examples section for sample code that demonstrates these event handlers.
 
@@ -102,11 +102,11 @@ In order to support XAML processor access to the attached properties, and also t
 
 ### Add an AnimatedIcon to a button
 
-This example demonstrates a back button that displays a back arrow icon that animates when pointer events occur.
+This example demonstrates a back button with a back arrow icon that animates when pointer events occur.
 
 - The [AnimatedBackVisualSource](../microsoft.ui.xaml.controls.animatedvisuals/animatedbackvisualsource.md) is a back-arrow animation provided by WinUI.
 - The [FallbackIconSource](animatedicon_fallbackiconsource.md) is used when animations can't be played.
-- The [AddHandler](/uwp/api/windows.ui.xaml.uielement.addhandler) method with `handledEventsToo` set to `true` is used for events that the button marks as [Handled](/uwp/api/windows.ui.xaml.input.pointerroutedeventargs.handled).
+- The [UIElement.AddHandler](../microsoft.ui.xaml/uielement_addhandler_1350394113.md) method with `handledEventsToo` set to `true` is used for events that the button marks as [PointerRoutedEventArgs.Handled](../microsoft.ui.xaml.input/pointerroutedeventargs_handled.md).
 
 ```xaml
 <!-- 

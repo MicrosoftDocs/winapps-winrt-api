@@ -17,11 +17,12 @@ Draws a straight line between two points.
 <Line .../>
 ```
 
-
 ## -remarks
+
 Set the [Stroke](shape_stroke.md) to specify the color of the line. Set the [StrokeThickness](shape_strokethickness.md) property to specify the thickness of the line.
 
 ## -examples
+
 This example shows how to use the Line class to create three lines.
 
 ```xaml
@@ -52,7 +53,14 @@ This example shows how to use the Line class to create three lines.
 </Canvas>
 ```
 
+> [!TIP]
+> For more info, design guidance, and code examples, see [Draw shapes](/windows/apps/design/controls/shapes).
 
+> [!div class="nextstepaction"]
+> [Open the WinUI 3 Gallery app and see Shape features in action](winui3gallery:/item/Shape).
+
+> The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery)
 
 ## -see-also
+
 [Shape](shape.md), [XAML vector-based drawing sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20vector-based%20drawing%20sample), [Draw shapes](/windows/uwp/graphics/drawing-shapes)

@@ -16,7 +16,7 @@ Represents a shareable object used to create an icon that displays and controls 
 ## -remarks
 
 > [!NOTE]
-> `AnimatedIconSource` is similar to [AnimatedIcon](animatedicon.md). However, because it is not a [FrameworkElement](/uwp/api/windows.ui.xaml.frameworkelement), it can be shared.
+> `AnimatedIconSource` is similar to [AnimatedIcon](animatedicon.md). However, because it is not a [FrameworkElement](../microsoft.ui.xaml/frameworkelement.md), it can be shared.
 
 You don't set the state directly on an `AnimatedIconSource`. Instead, set the [AnimatedIcon.State](animatedicon_state.md) attached property on an ancestor element of the `AnimatedIconSource`.
 
