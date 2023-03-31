@@ -11,6 +11,11 @@ public bool EnableFrameRateCounter { get;  set; }
 
 ## -description
 
+> [!CAUTION]
+> Use of this property is unsupported at this time and will result in an exception.
+> 
+> See https://github.com/microsoft/microsoft-ui-xaml/issues/2835
+
 Gets or sets a value that indicates whether to display frame-rate and per-frame CPU usage info. These display as an overlay of counters in the window chrome while the app runs.
 
 ## -property-value
