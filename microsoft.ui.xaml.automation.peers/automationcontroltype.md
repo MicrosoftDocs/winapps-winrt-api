@@ -113,7 +113,7 @@ A split button, which is a button that performs a default action and can also ex
 A window frame, which contains child objects.
 
 ### -field Pane:33
-A pane control.
+A pane control. 
 
 ### -field Header:34
 A header control, which is a container for the labels of rows and columns of information.
@@ -128,14 +128,16 @@ A table.
 The caption bar on a window.
 
 ### -field Separator:38
-A separator, which creates a visual division in controls such as menus and toolbars.
+A separator, which creates a visual division within controls such as menus and toolbars.
 
 ### -field SemanticZoom:39
 A semantic zoom control.
 
 ### -field AppBar:40
-**Introduced in .** An app bar control ([AppBar](../microsoft.ui.xaml.controls/appbar.md)).
+A container control that holds app UI components for commanding and experiences.
 
+### -field FlipView: 41
+An items control that displays one item at a time, and enables "flip" behavior for traversing its collection of items.
 
 ## -remarks
 
