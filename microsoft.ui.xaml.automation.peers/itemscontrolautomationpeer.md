@@ -24,7 +24,7 @@ ItemsControlAutomationPeer has overrides of **Core** methods such that the assoc
 + [GetChildren](automationpeer_getchildren_555647254.md) has an extensive implementation that returns the item peers and is used by all the derived peers.
 The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers).
 
-> For Windows Phone 8.x apps, ItemsControlAutomationPeer has methods that support creating item-specific automation peers for data items. See [CreateItemAutomationPeer](itemscontrolautomationpeer_createitemautomationpeer_1938957340.md) and [OnCreateItemAutomationPeer](itemscontrolautomationpeer_oncreateitemautomationpeer_1507723118.md).
+
 
 ### **ItemsControlAutomationPeer** derived classes
 
