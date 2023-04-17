@@ -23,7 +23,7 @@ The [CompositionObject](compositionobject.md) value.
 By setting a reference to a [CompositionObject](compositionobject.md), an [ExpressionAnimation](expressionanimation.md) can refer to any animatable property on that [CompositionObject](compositionobject.md). The [CompositionObject](compositionobject.md)'s current property value in the [Compositor](compositor.md) will be used when calculating the value of the expression. See the remarks section of [ExpressionAnimation](expressionanimation.md) for additional information.
 
 ## -examples
-The sample below outlines how to use an [ExpressionAnimation](expressionanimation.md) to create a parallax effect between a background and foreground visual. This type of animation can be seen on the Windows Start Screen and Windows Phone Hub UIs.
+The sample below outlines how to use an [ExpressionAnimation](expressionanimation.md) to create a parallax effect between a background and foreground visual. This type of animation can be seen on the Windows 10 Start Menu.
 
 ```csharp
 
