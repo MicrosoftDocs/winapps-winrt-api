@@ -35,7 +35,7 @@ An Image can display these image file formats:
 + Scalable Vector Graphics (SVG)
 
 > [!NOTE]
-> Icon files supported on Windows only. Not supported on Windows Phone 8.1
+> Icon files supported on Windows only.
 
 Starting in Windows 10, version 1607, the Image element supports animated Graphics Interchange Format (GIF) images. When you use a [BitmapImage](../microsoft.ui.xaml.media.imaging/bitmapimage.md) as the image [Source](image_source.md), you can access [BitmapImage](../microsoft.ui.xaml.media.imaging/bitmapimage.md)  API to control playback of the animated Graphics Interchange Format (GIF) image. For more info, see the Remarks on the [BitmapImage](../microsoft.ui.xaml.media.imaging/bitmapimage.md) class page.
 
