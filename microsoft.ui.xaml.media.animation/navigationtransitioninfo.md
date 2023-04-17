@@ -18,8 +18,6 @@ Navigation transition animations can be any of the *TransitionInfo types. For UW
 - [DrillInNavigationTransitionInfo](drillinnavigationtransitioninfo.md)
 - [SuppressNavigationTransitionInfo](suppressnavigationtransitioninfo.md)
 
-> For Windows Phone 8.x apps, several derived types ([CommonNavigationTransitionInfo](commonnavigationtransitioninfo.md), [ContinuumNavigationTransitionInfo](continuumnavigationtransitioninfo.md), [SlideNavigationTransitionInfo](slidenavigationtransitioninfo.md)) can be used in XAML to fill the [NavigationThemeTransition.DefaultNavigationTransitionInfo](navigationthemetransition_defaultnavigationtransitioninfo.md) property.
-
 ## -examples
 ```xaml
 <Frame x:Name="myFrame">
