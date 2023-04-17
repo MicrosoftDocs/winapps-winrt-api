@@ -15,7 +15,7 @@ Gets or sets a value that indicates the control [tooltip](../microsoft.ui.xaml.c
 
 ## -property-value
 
-The control tooltip displays the accelerator key combination.
+The control tooltip that displays the accelerator key combination.
 
 ## -remarks
 
