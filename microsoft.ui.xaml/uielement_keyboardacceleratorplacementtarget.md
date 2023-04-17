@@ -19,7 +19,7 @@ The control tooltip that displays the accelerator key combination.
 
 ## -remarks
 
-Use the [KeyboardAcceleratorPlacementMode](uielement_keyboardacceleratorplacementmode.md) property to specify whether the control tooltip displays the key combination for it's associated keyboard accelerator.
+Use the [KeyboardAcceleratorPlacementMode](uielement_keyboardacceleratorplacementmode.md) property to specify whether the control tooltip displays the key combination for its associated keyboard accelerator.
 
 ## -examples
 
