@@ -17,8 +17,6 @@ Pastes text from the Clipboard into the text range.
 The clipboard format to use in the paste operation. Zero represents the best format, which usually is Rich Text Format (RTF), but CF_UNICODETEXT and other formats are also possible. The default value is zero.
 
 ## -remarks
-> [!NOTE]
-> On Windows Phone, this method throws an exception. Programmatic access to the clipboard is not supported on Windows Phone.
 
 ## -examples
 
