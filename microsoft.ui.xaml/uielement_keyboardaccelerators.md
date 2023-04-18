@@ -26,7 +26,7 @@ The collection of **[KeyboardAccelerator]**(../microsoft.ui.xaml.input/keyboarda
 
 As keyboard accelerators are not typically described directly in the UI of your application, you can improve discoverability through [tooltips](/windows/apps/design/controls/tooltips), which display automatically when the user moves focus to, presses and holds, or hovers the mouse pointer over a control. The tooltip can identify whether a control has an associated keyboard accelerator and, if so, what the accelerator key combination is.
 
-Windows 10 build 1703 and later, introduced keyboard accelerator shortcuts. However, these shortcuts were not displayed with the UI of their corresponding controls.
+Windows 10 build 1703 and later introduced keyboard accelerator shortcuts. However, these shortcuts were not displayed with the UI of their corresponding controls.
 
 Starting with Windows 10 build 1803 and later, when KeyboardAccelerators are declared, controls present the corresponding key combinations by default in a tooltip (unless they are associated with [MenuFlyoutItem](../microsoft.ui.xaml.controls/menuflyoutitem.md) and [ToggleMenuFlyoutItem](../microsoft.ui.xaml.controls/togglemenuflyoutitem.md) objects).
 
