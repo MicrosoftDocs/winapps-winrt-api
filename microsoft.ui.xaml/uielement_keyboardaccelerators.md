@@ -20,7 +20,7 @@ Accelerators are typically assigned to buttons or menu items.
 
 ## -property-value
 
-The collection of **[KeyboardAccelerator]**(../microsoft.ui.xaml.input/keyboardaccelerator.md) objects.
+The collection of [KeyboardAccelerator](../microsoft.ui.xaml.input/keyboardaccelerator.md) objects.
 
 ## -remarks
 
