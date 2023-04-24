@@ -89,27 +89,27 @@ The app was activated as the lock screen.
 
 ### -field PickerReturned:1000
 
-Windows Phone only. The app was activated after the completion of a picker.
+Not supported. The app was activated after the completion of a picker.
 
 ### -field WalletAction:1001
 
-Windows Phone only. The app was activated to perform a Wallet operation.
+Not supported. The app was activated to perform a Wallet operation.
 
 ### -field PickFileContinuation:1002
 
-Windows Phone only. The app was activated after the app was suspended for a file picker operation.
+Not supported. The app was activated after the app was suspended for a file picker operation.
 
 ### -field PickSaveFileContinuation:1003
 
-Windows Phone only. The app was activated after the app was suspended for a file save picker operation.
+Not supported. The app was activated after the app was suspended for a file save picker operation.
 
 ### -field PickFolderContinuation:1004
 
-Windows Phone only. The app was activated after the app was suspended for a folder picker operation.
+Not supported. The app was activated after the app was suspended for a folder picker operation.
 
 ### -field WebAuthenticationBrokerContinuation:1005
 
-Windows Phone only. The app was activated after the app was suspended for a web authentication broker operation.
+Not supported. The app was activated after the app was suspended for a web authentication broker operation.
 
 ### -field WebAccountProvider:1006
 
@@ -200,5 +200,3 @@ This enum is used by the [Kind](appactivationarguments_kind.md) property.
 [Kind](appactivationarguments_kind.md), [ActivationRegistrationManager](activationregistrationmanager.md), [Rich activation with the app lifecycle API](/windows/apps/windows-app-sdk/applifecycle/applifecycle-rich-activation)
 
 ## -examples
-
-
