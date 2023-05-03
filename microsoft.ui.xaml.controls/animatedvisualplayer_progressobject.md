@@ -19,7 +19,7 @@ A CompositionObject that is animated along with the progress of the AnimatedVisu
 
 ## -remarks
 
-This is exposed to support advanced scenarios where other [CompositionObject](/uwp/api/windows.ui.composition.compositionobject)s are animated at the same rate as the AnimatedVisualPlayer. To bind a property to the progress of this player, use an [ExpressionAnimation](/uwp/api/windows.ui.composition.expressionanimation) with an expression that references a scalar property named "Progress" on this object.
+Supports advanced scenarios where another [CompositionObject](../microsoft.ui.composition/compositionobject.md) is animated at the same rate as the AnimatedVisualPlayer. To bind a property to the progress of this player, use an [ExpressionAnimation](../microsoft.ui.composition/expressionanimation.md) that references a scalar property named "Progress" on this object.
 
 ## -see-also
 

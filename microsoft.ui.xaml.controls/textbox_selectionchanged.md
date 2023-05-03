@@ -25,4 +25,4 @@ Occurs when the text selection has changed.
 
 ## -see-also
 
-[RoutedEventHandler](../microsoft.ui.xaml/routedeventhandler.md), [Events and routed events overview](../../windows/uwp/xaml-platform/events-and-routed-events-overview)
+[RoutedEventHandler](../microsoft.ui.xaml/routedeventhandler.md), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview)

@@ -29,7 +29,7 @@ An item is _realized_ when a UIElement has been prepared to display it. Requesti
 
 ## -see-also
 
-[GetOrCreateElement](itemsrepeater_getorcreateelement_982168620.md), [GetElementIndex](itemsrepeater_getelementindex_553435906.md)
+[GetOrCreateElement](itemsrepeater_getorcreateelement_982168620.md), [GetElementIndex](itemsrepeater_getelementindex_1484336685.md)
 
 ## -examples
 

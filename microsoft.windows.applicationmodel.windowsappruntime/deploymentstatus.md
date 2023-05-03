@@ -32,6 +32,10 @@ A package install is required in order for the Windows App SDK runtime to be in 
 
 The installation of a package for the Windows App SDK runtime failed.
 
+### -field PackageRepairFailed: 4
+
+The repair of a package for the Windows App SDK runtime failed.
+
 ## -remarks
 
 ## -see-also

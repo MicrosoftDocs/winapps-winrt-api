@@ -12,7 +12,7 @@ public static void SetState (Microsoft.UI.Xaml.DependencyObject object, string v
 
 ## -description
 
-Specifies the value of the [AnimatedIcon.State](animatedicon_state.md) attached property for the specified [DependencyObject](/uwp/api/windows.ui.xaml.dependencyobject).
+Specifies the value of the [AnimatedIcon.State](animatedicon_state.md) attached property for the specified [DependencyObject](../microsoft.ui.xaml/dependencyobject.md).
 
 ## -parameters
 

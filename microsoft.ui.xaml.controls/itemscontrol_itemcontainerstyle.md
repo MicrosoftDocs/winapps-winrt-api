@@ -10,7 +10,7 @@ public Windows.UI.Xaml.Style ItemContainerStyle { get;  set; }
 # Microsoft.UI.Xaml.Controls.ItemsControl.ItemContainerStyle
 
 ## -description
-Gets or sets the style that is used when rendering the item containers for an [ItemsControl](itemscontrol). 
+Gets or sets the style that is used when rendering the item containers for an [ItemsControl](itemscontrol.md).
 
 
 ## -xaml-syntax

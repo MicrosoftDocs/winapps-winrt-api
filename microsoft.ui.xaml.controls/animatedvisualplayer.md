@@ -15,7 +15,7 @@ An element that displays and controls an [IAnimatedVisual](/windows/winui/api/mi
 
 ## -remarks
 
-The AnimatedVisualPlayer hosts and controls playback of an animated [Visual](/uwp/api/Windows.UI.Composition.Visual) tree, integrating custom motion graphic content with XAML UI. For instance, the AnimatedVisualPlayer is used to display and control [Lottie](https://aka.ms/lottiedocs) animations.
+The AnimatedVisualPlayer hosts and controls playback of an animated [Visual](../microsoft.ui.composition/visual.md) tree, integrating custom motion graphic content with XAML UI. For instance, the AnimatedVisualPlayer is used to display and control [Lottie](https://aka.ms/lottiedocs) animations.
 
 ## -see-also
 

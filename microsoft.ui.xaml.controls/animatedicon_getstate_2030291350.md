@@ -12,7 +12,7 @@ public static string GetState (Microsoft.UI.Xaml.DependencyObject object);
 
 ## -description
 
-Retrieves the value of the [AnimatedIcon.State](animatedicon_state.md) attached property for the specified [DependencyObject](/uwp/api/windows.ui.xaml.dependencyobject).
+Retrieves the value of the [AnimatedIcon.State](animatedicon_state.md) attached property for the specified [DependencyObject](../microsoft.ui.xaml/dependencyobject.md).
 
 ## -parameters
 
