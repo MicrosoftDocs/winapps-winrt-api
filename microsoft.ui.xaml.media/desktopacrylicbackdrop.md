@@ -9,23 +9,36 @@
 public class DesktopAcrylicBackdrop : Microsoft.UI.Xaml.Media.SystemBackdrop
 -->
 
-
 ## -description
 
-Use this class to set a backdrop on a **Window**, **Popup**, or **FlyoutBase** (such as a **Flyout** or **MenuFlyout**).
+Represents a system backdrop that applies Acrylic material to a supported XAML surface, such as a `Window`.
 
 ## -remarks
 
+You can use `DesktopAcrylicBackdrop` to apply [Acrylic material](/windows/apps/design/style/acrylic) to an object that implements the [ICompositionSupportsSystemBackdrop](../microsoft.ui.composition/icompositionsupportssystembackdrop.md) interface, typically a XAML [Window](../microsoft.ui.xaml/window.md).
+
 ## -see-also
+
+[Acrylic material](/windows/apps/design/style/acrylic), [DesktopAcrylicController](../microsoft.ui.composition.systembackdrops/desktopacryliccontroller.md), [SystemBackdrop](systembackdrop.md), [Window.SystemBackdrop](../microsoft.ui.xaml/window_systembackdrop.md), [MicaBackdrop](micabackdrop.md)
 
 ## -examples
 
 ```xaml
-<Window x:Class="MyApp.MainWindow">
+<Window
+    ... >
 
     <Window.SystemBackdrop>
-        <MicaBackdrop MicaKind="BaseAlt"/>
+        <DesktopAcrylicBackdrop/>
     </Window.SystemBackdrop>
 
 </Window>
+```
+
+```csharp
+public MainWindow()
+{
+    this.InitializeComponent();
+
+    SystemBackdrop = new DesktopAcrylicBackdrop();
+}
 ```

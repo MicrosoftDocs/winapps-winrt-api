@@ -12,7 +12,7 @@ protected SystemBackdrop ();
 
 ## -description
 
-Initializes a new instance of the **SystemBackdrop** class.
+Initializes a new instance of the `SystemBackdrop` class.
 
 ## -remarks
 

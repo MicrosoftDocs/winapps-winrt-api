@@ -12,7 +12,7 @@ public MicaBackdrop ();
 
 ## -description
 
-Initializes a new instance of the **MicaBackdrop** class.
+Initializes a new instance of the `MicaBackdrop` class.
 
 ## -remarks
 
