@@ -19,14 +19,20 @@ Invoked when the application is launched. Override this method to perform applic
 
 ## -remarks
 
-This method is typically created automatically when a project is created. You can then modify it or remove it.
-
 ## -see-also
 
 [LaunchActivatedEventArgs](launchactivatedeventargs.md)
 
 ## -examples
 
-Use `OnLaunched` to create the main window and pass it the first command line argument.
+Use `OnLaunched` to create and activate the main window. (This code is provided by the Visual Studio project templates when you create a WinUI 3 app.)
 
-[!code-csharp[DesktopOnLaunchedSample](../microsoft.ui.xaml/code/Application_OnLaunchedSample/MainPage.xaml.cs#SnippetDesktopOnLaunchedSample)]
+```csharp
+private Window m_window;
+
+protected override void OnLaunched(Microsoft.UI.Xaml.LaunchActivatedEventArgs args)
+{
+    m_window = new MainWindow();
+    m_window.Activate();
+}
+```
