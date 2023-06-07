@@ -39,6 +39,9 @@ public MainWindow()
 }
 ```
 
+> [!NOTE]
+> The XAML version is only available for Windows App SDK 1.3.1 and upper.
+
 ```xaml
 <Window
     ...
