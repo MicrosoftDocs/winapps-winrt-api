@@ -31,15 +31,23 @@ If [ExtendsContentIntoTitleBar](window_extendscontentintotitlebar.md) is set to 
 
 ## -examples
 
-> [!CAUTION]
-> `Title` shows in the XAML IntelliSense for `Window`, but setting it in XAML causes an error. Set this property in code instead.
-
 ```csharp
 public MainWindow()
 {
     InitializeComponent();
     Title = "App title";
 }
+```
+
+> [!NOTE]
+> The XAML version is only available for Windows App SDK 1.3.1 and upper.
+
+```xaml
+<Window
+    ...
+    Title="App title">
+    ...
+</Window>
 ```
 
 ## -see-also
