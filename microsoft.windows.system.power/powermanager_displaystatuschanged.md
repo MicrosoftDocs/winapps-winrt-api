@@ -9,10 +9,9 @@
 public static event System.EventHandler<object> DisplayStatusChanged;
 -->
 
-
 ## -description
 
-Raised when the status of the display that is associated with the app's session.
+Raised when the status of the display that is associated with the app's session has changed.
 
 ## -remarks
 
@@ -23,5 +22,3 @@ To get the current status of the display in response to this event, use the [Dis
 [DisplayStatus property](powermanager_displaystatus.md), [DisplayStatus enum](displaystatus.md), [Power management with the app lifecycle API](/windows/apps/windows-app-sdk/applifecycle/applifecycle-power)
 
 ## -examples
-
-
