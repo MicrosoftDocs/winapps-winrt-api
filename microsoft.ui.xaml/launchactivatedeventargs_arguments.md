@@ -13,14 +13,19 @@ public string Arguments { get; }
 
 Gets the arguments that are passed to the application during launch.
 
-> [!IMPORTANT]
-> This property is not supported and always returns `null`.
-
 ## -property-value
 
-The arguments that are passed to the application during launch.
+Always an empty string in desktop apps.
 
 ## -remarks
+
+> [!IMPORTANT]
+> This property is not used and always returns an empty string.
+
+You can retrieve command-line arguments for the current process by calling:
+
+- [C#] <xref:System.Environment.GetCommandLineArgs?displayProperty=nameWithType> (requires full trust to execute)
+- [C++] <xref:NF:processenv.GetCommandLineA>
 
 ## -see-also
 

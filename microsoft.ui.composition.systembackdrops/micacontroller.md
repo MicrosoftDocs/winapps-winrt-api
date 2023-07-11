@@ -19,6 +19,6 @@ This class encapsulates both the rendering of the system backdrop material as we
 
 ## -see-also
 
-[Materials](/windows/apps/design/signature-experiences/materials), [Mica](/windows/apps/design/style/mica), [ISystemBackdropController](isystembackdropcontroller.md)
+[Materials](/windows/apps/design/signature-experiences/materials), [Mica](/windows/apps/design/style/mica), [ISystemBackdropController](isystembackdropcontroller.md), [MicaBackdrop](../microsoft.ui.xaml.media/micabackdrop.md)
 
 ## -examples

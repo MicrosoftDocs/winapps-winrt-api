@@ -11,11 +11,11 @@ public bool IsNavigationStackEnabled { get;  set; }
 
 ## -description
 
-Gets or sets a value that indicates whether navigation is recorded in the Frame's ForwardStack or BackStack.
+Gets or sets a value that indicates whether navigation is recorded in the `Frame`'s `ForwardStack` or `BackStack`.
 
 ## -property-value
 
-**true** if navigation is recorded in the Frame's ForwardStack or BackStack; otherwise, **false**. The default is **true**.
+`true` if navigation is recorded in the `Frame`'s `ForwardStack` or `BackStack`; otherwise, `false`. The default is `true`.
 
 ## -remarks
 

@@ -63,7 +63,7 @@
         "winapps-api-build/**.yml": ["csharp","cppwinrt"]
       },
       "author": {
-        "microsoft.applicationmodel.resources*.yml": "hickeys",
+        "microsoft.applicationmodel.resources*.yml": "alvinashcraft",
         "microsoft.foundation*.yml": "hickeys",
         "microsoft.graphics.directx": "stevewhims",
         "microsoft.ui*.yml": "jwmsft",
@@ -93,10 +93,10 @@
         "microsoft.ui.xaml.input*.yml": "karl-bridge-microsoft",
         "microsoft.ui.xaml.interop*.yml": "stevewhims",
         "microsoft.ui.xaml.markup*.yml": "jwmsft",
-        "microsoft.ui.xaml.media*.yml": "drewbatgit",
-        "microsoft.ui.xaml.media.animation*.yml": "drewbatgit",
-        "microsoft.ui.xaml.media.imaging*.yml": "drewbatgit",
-        "microsoft.ui.xaml.media.media3d*.yml": "drewbatgit",
+        "microsoft.ui.xaml.media*.yml": "jwmsft",
+        "microsoft.ui.xaml.media.animation*.yml": "jwmsft",
+        "microsoft.ui.xaml.media.imaging*.yml": "jwmsft",
+        "microsoft.ui.xaml.media.media3d*.yml": "jwmsft",
         "microsoft.ui.xaml.navigation*.yml": "jwmsft",
         "microsoft.ui.xaml.printing*.yml": "hickeys",
         "microsoft.ui.xaml.resources*.yml": "karl-bridge-microsoft",
@@ -105,14 +105,14 @@
         "microsoft.windows.applicationmodel.dynamicdependency*.yml": "stevewhims",
         "microsoft.windows.applicationmodel.resources*.yml": "karl-bridge-microsoft",
         "microsoft.windows.applicationmodel.windowsappruntime*.yml": "stevewhims",
-        "microsoft.windows.applifecycle*.yml": "hickeys",
+        "microsoft.windows.applifecycle*.yml": "alvinashcraft",
         "microsoft.windows.appnotifications*.yml": "drewbatgit",
         "microsoft.windows.pushnotifications*.yml": "drewbatgit",
-        "microsoft.windows.system.power*.yml": "hickeys"
+        "microsoft.windows.system.power*.yml": "alvinashcraft"
       },
       "ms.author":
       {
-        "microsoft.applicationmodel.resources*.yml": "hickeys",
+        "microsoft.applicationmodel.resources*.yml": "aashcraft",
         "microsoft.foundation*.yml": "hickeys",
         "microsoft.graphics.directx": "stwhi",
         "microsoft.ui*.yml": "jimwalk",
@@ -142,10 +142,10 @@
         "microsoft.ui.xaml.input*.yml": "kbridge",
         "microsoft.ui.xaml.interop*.yml": "stwhi",
         "microsoft.ui.xaml.markup*.yml": "jimwalk",
-        "microsoft.ui.xaml.media*.yml": "drewbat",
-        "microsoft.ui.xaml.media.animation*.yml": "drewbat",
-        "microsoft.ui.xaml.media.imaging*.yml": "drewbat",
-        "microsoft.ui.xaml.media.media3d*.yml": "drewbat",
+        "microsoft.ui.xaml.media*.yml": "jimwalk",
+        "microsoft.ui.xaml.media.animation*.yml": "jimwalk",
+        "microsoft.ui.xaml.media.imaging*.yml": "jimwalk",
+        "microsoft.ui.xaml.media.media3d*.yml": "jimwalk",
         "microsoft.ui.xaml.navigation*.yml": "jimwalk",
         "microsoft.ui.xaml.printing*.yml": "hickeys",
         "microsoft.ui.xaml.resources*.yml": "kbridge",
@@ -154,10 +154,10 @@
         "microsoft.windows.applicationmodel.dynamicdependency*.yml": "stwhi",
         "microsoft.windows.applicationmodel.resources*.yml": "kbridge",
         "microsoft.windows.applicationmodel.windowsappruntime*.yml": "stwhi",
-        "microsoft.windows.applifecycle*.yml": "hickeys",
+        "microsoft.windows.applifecycle*.yml": "aashcraft",
         "microsoft.windows.appnotifications*.yml": "drewbat",
         "microsoft.windows.pushnotifications*.yml": "drewbat",
-        "microsoft.windows.system.power*.yml": "hickeys"
+        "microsoft.windows.system.power*.yml": "aashcraft"
       }	
     },
     "template": [],

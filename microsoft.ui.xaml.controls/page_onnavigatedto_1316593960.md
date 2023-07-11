@@ -21,7 +21,7 @@ Event data that can be examined by overriding code. The event data is representa
 
 ## -remarks
 
-Unlike in prior XAML platforms, the `OnNavigatedTo` method is called before the visual tree is loaded. This has the following implications:
+The `OnNavigatedTo` method is called before the visual tree is loaded. This has the following implications:
 
 + You cannot access a valid [Parent](../microsoft.ui.xaml/frameworkelement_parent.md) property value from an override of `OnNavigatedTo`. If you need to access the [Parent](../microsoft.ui.xaml/frameworkelement_parent.md) property, do so in a [Loaded](../microsoft.ui.xaml/frameworkelement_loaded.md) event handler.
 + You cannot use `OnNavigatedTo` for element manipulation or state change of controls on the destination page. Instead, attach a [Loaded](../microsoft.ui.xaml/frameworkelement_loaded.md) event handler at the root of the newly loaded page's content, and perform any element manipulations, state changes, event wiring and so on in the [Loaded](../microsoft.ui.xaml/frameworkelement_loaded.md) event handler.
