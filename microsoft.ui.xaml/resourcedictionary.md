@@ -39,8 +39,6 @@ This XAML shows the use of a [FrameworkElement.Resources](frameworkelement_resou
 
 The [Style](frameworkelement_style.md) as shown does not actually apply any styling to the [TextBlock](../microsoft.ui.xaml.controls/textblock.md), but you can add `Style` properties in Microsoft Visual Studio. You can then use the `Style` resource as often as you like on the page to enforce uniformity.
 
-You can use Microsoft Visual Studio to create resource dictionaries. This example was created with these steps: put a [TextBlock](../microsoft.ui.xaml.controls/textblock.md) on the design surface, right click, choose **Edit Style / Create Empty**, then **"This document"** to define the new resource in `Page.Resources`.
-
 ```xaml
 <Page
     x:Class="ResourceDictionary_example.MainPage"
