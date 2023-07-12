@@ -31,6 +31,6 @@ The window was activated by a pointer interaction.
 
 ## -see-also
 
-<xref:Microsoft.UI.Xaml.WindowActivatedEventArgs.WindowActivationState?displayProperty=nameWithType>
+[WindowActivatedEventArgs.WindowActivationState](windowactivatedeventargs_windowactivationstate.md)
 
 ## -examples
