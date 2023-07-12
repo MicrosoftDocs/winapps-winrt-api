@@ -64,7 +64,7 @@
       },
       "author": {
         "microsoft.applicationmodel.resources*.yml": "alvinashcraft",
-        "microsoft.foundation*.yml": "hickeys",
+        "microsoft.foundation*.yml": "alvinashcraft",
         "microsoft.graphics.directx": "stevewhims",
         "microsoft.ui*.yml": "jwmsft",
         "microsoft.ui.composition*.yml": "jwmsft",
@@ -98,7 +98,7 @@
         "microsoft.ui.xaml.media.imaging*.yml": "jwmsft",
         "microsoft.ui.xaml.media.media3d*.yml": "jwmsft",
         "microsoft.ui.xaml.navigation*.yml": "jwmsft",
-        "microsoft.ui.xaml.printing*.yml": "hickeys",
+        "microsoft.ui.xaml.printing*.yml": "jwmsft",
         "microsoft.ui.xaml.resources*.yml": "karl-bridge-microsoft",
         "microsoft.ui.xaml.shapes*.yml": "jwmsft",
         "microsoft.ui.xaml.xamltypeinfo*.yml": "jwmsft",
@@ -113,7 +113,7 @@
       "ms.author":
       {
         "microsoft.applicationmodel.resources*.yml": "aashcraft",
-        "microsoft.foundation*.yml": "hickeys",
+        "microsoft.foundation*.yml": "aashcraft",
         "microsoft.graphics.directx": "stwhi",
         "microsoft.ui*.yml": "jimwalk",
         "microsoft.ui.composition*.yml": "jimwalk",
@@ -147,7 +147,7 @@
         "microsoft.ui.xaml.media.imaging*.yml": "jimwalk",
         "microsoft.ui.xaml.media.media3d*.yml": "jimwalk",
         "microsoft.ui.xaml.navigation*.yml": "jimwalk",
-        "microsoft.ui.xaml.printing*.yml": "hickeys",
+        "microsoft.ui.xaml.printing*.yml": "jimwalk",
         "microsoft.ui.xaml.resources*.yml": "kbridge",
         "microsoft.ui.xaml.shapes*.yml": "jimwalk",
         "microsoft.ui.xaml.xamltypeinfo*.yml": "jimwalk",
