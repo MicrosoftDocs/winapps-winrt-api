@@ -31,6 +31,6 @@ The window is activated.
 
 ## -see-also
 
-<xref:Microsoft.UI.Input.InputActivationListener.State?displayProperty=nameWithType>
+[InputActivationListener.State](inputactivationlistener_state.md)
 
 ## -examples
