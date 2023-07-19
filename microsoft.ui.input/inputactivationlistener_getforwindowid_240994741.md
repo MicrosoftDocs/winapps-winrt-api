@@ -35,6 +35,6 @@ In all cases there can only be a single <xref:Microsoft.UI.Input.InputActivation
 
 ## -see-also
 
-<xref:Microsoft.UI.Input.InputActivationListenerActivationChangedEventArgs>
+[InputActivationListenerActivationChangedEventArgs](inputactivationlisteneractivationchangedeventargs.md)
 
 ## -examples

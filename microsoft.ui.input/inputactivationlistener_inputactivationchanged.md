@@ -17,6 +17,6 @@ Occurs when the activation state of the associated window changes.
 
 ## -see-also
 
-<xref:Microsoft.UI.Input.InputActivationListenerActivationChangedEventArgs>
+[InputActivationListenerActivationChangedEventArgs](inputactivationlisteneractivationchangedeventargs.md)
 
 ## -examples

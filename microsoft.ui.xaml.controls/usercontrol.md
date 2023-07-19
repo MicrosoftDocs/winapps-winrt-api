@@ -44,6 +44,5 @@ The following examples demonstrate creating a UserControl and using it multiple 
 [!code-xaml[3](../microsoft.ui.xaml.controls.primitives/code/UserControlSnippets/csharp/Page.xaml#Snippet3)]
 
 ## -see-also
-[Control](control.md)
- -see-also
+
 [Control](control.md)
