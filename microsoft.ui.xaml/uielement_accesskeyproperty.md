@@ -23,4 +23,4 @@ The identifier for the [AccessKey](uielement_accesskey.md) dependency property.
 
 ## -see-also
 
-[Access keys](/windows/apps/design/input/access-keys)
+[Access keys guidelines](/windows/apps/design/input/access-keys)

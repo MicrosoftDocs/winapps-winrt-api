@@ -17,4 +17,4 @@ Provides event data for the [AccessKeyDisplayRequested](../microsoft.ui.xaml/uie
 ## -examples
 
 ## -see-also
-[Access keys](/windows/apps/design/input/access-keys)
+[Access keys guidelines](/windows/apps/design/input/access-keys)

@@ -17,4 +17,4 @@ Initializes a new instance of the [AccessKeyInvokedEventArgs](accesskeyinvokedev
 ## -examples
 
 ## -see-also
-[Access keys](/windows/apps/design/input/access-keys)
+[Access keys guidelines](/windows/apps/design/input/access-keys)

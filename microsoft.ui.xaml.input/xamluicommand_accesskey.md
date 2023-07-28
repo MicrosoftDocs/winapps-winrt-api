@@ -21,6 +21,6 @@ The access key (mnemonic) for this element.
 
 ## -see-also
 
-[AccessKey](../microsoft.ui.xaml/uielement_accesskey.md), [Access keys](/windows/apps/design/input/access-keys), [StandardUICommand](standarduicommand.md), [Commanding basics](/windows/uwp/layout/commanding-basics), [Commanding in Windows apps using StandardUICommand, XamlUICommand, and ICommand](/windows/apps/design/controls/commanding)
+[AccessKey](../microsoft.ui.xaml/uielement_accesskey.md), [Access keys guidelines](/windows/apps/design/input/access-keys), [StandardUICommand](standarduicommand.md), [Commanding basics](/windows/uwp/layout/commanding-basics), [Commanding in Windows apps using StandardUICommand, XamlUICommand, and ICommand](/windows/apps/design/controls/commanding)
 
 ## -examples
