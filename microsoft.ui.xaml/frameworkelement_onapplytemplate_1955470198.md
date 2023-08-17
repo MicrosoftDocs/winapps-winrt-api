@@ -39,8 +39,6 @@ This example shows an `OnApplyTemplate` override defined by a custom control. Th
 
 [!code-csharp[ApplyTemplate](../microsoft.ui.xaml/code/NumericUpDownCustomControl/csharp/NumericUpDownCustomControl.cs#SnippetApplyTemplate)]
 
-[!code-vb[ApplyTemplate](../microsoft.ui.xaml/code/NumericUpDownCustomControl/vbnet/NumericUpDown.vb#SnippetApplyTemplate)]
-
 ## -see-also
 
 [ControlTemplate](../microsoft.ui.xaml.controls/controltemplate.md), [GetTemplateChild](../microsoft.ui.xaml.controls/control_gettemplatechild_501346084.md), [Styling controls](/windows/uwp/controls-and-patterns/styling-controls)

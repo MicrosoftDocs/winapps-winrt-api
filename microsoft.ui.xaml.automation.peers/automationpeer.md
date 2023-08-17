@@ -37,16 +37,6 @@ if (AutomationPeer.ListenerExists(AutomationEvents.PropertyChanged))
 
 ```
 
-```vbnet
-If AutomationPeer.ListenerExists(AutomationEvents.PropertyChanged) Then
-    Dim peer As MyAutomationPeer = _
-    TryCast(FrameworkElementAutomationPeer.FromElement(myCtrl), MyAutomationPeer)
-    If peer IsNot Nothing Then
-        peer.RaisePropertyChangedEvent(RangeValuePatternIdentifiers.ValueProperty, CDbl(oldValue), CDbl(newValue))
-    End If
-End If
-```
-
 ### **AutomationPeer** derived classes
 
 AutomationPeer is in the hierarchy for all the existing peers for the Windows Runtime controls and related UI classes.

@@ -168,8 +168,6 @@ namespace winrt::MyColorsApp::implementation
 
 [!code-csharp[DataContext](../microsoft.ui.xaml.controls.primitives/code/Binding_Simple/csharp/Page.xaml.cs#SnippetDataContext)]
 
-[!code-vb[DataContext](../microsoft.ui.xaml.controls.primitives/code/Binding_Simple/vbnet/BlankPage.xaml.vb#SnippetDataContext)]
-
 ## -see-also
 
 [Binding](../microsoft.ui.xaml.data/binding.md), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth), [ObservableCollection<T>](/dotnet/api/system.collections.objectmodel.observablecollection-1?view=dotnet-uwp-10.0&preserve-view=true)

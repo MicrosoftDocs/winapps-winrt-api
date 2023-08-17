@@ -35,8 +35,6 @@ This XAML example uses the [ColorAnimationUsingKeyFrames](coloranimationusingkey
 
 [!code-csharp[Coloranimationusingkeyframes_cs](../microsoft.ui.xaml.media.animation/code/coloranimationusingkeyframes/csharp/Page.xaml.cs#SnippetColoranimationusingkeyframes_cs)]
 
-[!code-vb[Coloranimationusingkeyframes_cs](../microsoft.ui.xaml.media.animation/code/coloranimationusingkeyframes/vbnet/Page.xaml.vb#SnippetColoranimationusingkeyframes_cs)]
-
 ## -see-also
 [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations), [Key-frame animations and easing function animations](/windows/apps/design/motion/key-frame-and-easing-function-animations), [ColorKeyFrame](colorkeyframe.md), [ColorAnimationUsingKeyFrames](coloranimationusingkeyframes.md), [ColorKeyFrameCollection](colorkeyframecollection.md), [KeyTime](colorkeyframe_keytime.md), [Value](colorkeyframe_value.md),
 [KeyTime](colorkeyframe_keytime.md), [Value](colorkeyframe_value.md)

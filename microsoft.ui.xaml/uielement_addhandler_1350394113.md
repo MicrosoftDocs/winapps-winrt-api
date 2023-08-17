@@ -83,8 +83,6 @@ This example shows the basic syntax for wiring an event handler with `AddHandler
 
 [!code-csharp[AddHandler](../microsoft.ui.xaml/code/BaseElementEvents/csharp/BasicPage1.xaml.cs#SnippetAddHandler)]
 
-[!code-vb[AddHandler](../microsoft.ui.xaml/code/BaseElementEvents/vbnet/MainPage.xaml.vb#SnippetAddHandler)]
-
 ## -see-also
 
 [RemoveHandler](uielement_removehandler_159066471.md), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview), [Handle pointer input](/windows/apps/design/input/handle-pointer-input)

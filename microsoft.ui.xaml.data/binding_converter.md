@@ -42,8 +42,6 @@ To use your converter in a binding, first create an instance of your converter c
 
 [!code-csharp[1](../microsoft.ui.xaml.controls.primitives/code/Binding_Collection/csharp/DataConverter.cs#Snippet1)]
 
-[!code-vb[1](../microsoft.ui.xaml.controls.primitives/code/Binding_Collection/vbnet/DataConverter.vb#Snippet1)]
-
 ## -see-also
 [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)
 b4f1-6caf-4128-a61a-4e400b149011)

@@ -47,7 +47,5 @@ The following example shows how to use the PointAnimation to animate the [Center
 
 [!code-csharp[Pointanimation_cs](../microsoft.ui.xaml/code/pointanimation/csharp/Page.xaml.cs#SnippetPointanimation_cs)]
 
-[!code-vb[Pointanimation_cs](../microsoft.ui.xaml/code/pointanimation/vbnet/Page.xaml.vb#SnippetPointanimation_cs)]
-
 ## -see-also
 [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations), [XAML animation sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20animation%20library%20sample), [Timeline](timeline.md), [Point](/uwp/api/windows.foundation.point), [PointAnimationUsingKeyFrames](pointanimationusingkeyframes.md), [PointAnimationUsingKeyFrames](pointanimationusingkeyframes.md)

@@ -45,8 +45,6 @@ This example shows a [PropertyChangedCallback](propertychangedcallback.md) imple
 
 [!code-csharp[ValueChangedCallback](../microsoft.ui.xaml/code/NumericUpDownCustomControl/csharp/NumericUpDownCustomControl.cs#SnippetValueChangedCallback)]
 
-[!code-vb[ValueChangedCallback](../microsoft.ui.xaml/code/NumericUpDownCustomControl/vbnet/NumericUpDown.vb#SnippetValueChangedCallback)]
-
 ## -see-also
 
 [PropertyChangedCallback](propertychangedcallback.md), [PropertyMetadata](propertymetadata.md), [DependencyObject](dependencyobject.md), [DependencyProperty](dependencyproperty.md), [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

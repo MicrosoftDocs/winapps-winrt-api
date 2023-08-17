@@ -66,19 +66,13 @@ One code scenario where you might encounter `DependencyObject`-related threading
 
 This example defines a class that derives from `DependencyObject`, and defines an attached property along with the identifier field. The scenario for this class is that it is a service class that declares an attached property that other UI elements can set in XAML The service potentially acts on the attached property values on those UI elements at run time.
 
-[!code-csharp[DOMain](../microsoft.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDOMain)]
+[!code-csharp[DOMain](../microsoft.ui.xaml/code/DOandDPExamples/csharp/Class1.cs#SnippetDOMain)]
 
-[!code-vb[DOMain](../microsoft.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDOMain)]
-
-[!code-csharp[DOCheckClear](../microsoft.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDOCheckClear)]
-
-[!code-vb[DOCheckClear](../microsoft.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDOCheckClear)]
+[!code-csharp[DOCheckClear](../microsoft.ui.xaml/code/DOandDPExamples/csharp/Class1.cs#SnippetDOCheckClear)]
 
 This example shows a simple dependency property declaration. A call to [GetValue](dependencyobject_getvalue_229640130.md) constitutes the entirety of the `get` accessor implementation for the property wrapper of the new dependency property. A call to [SetValue](dependencyobject_setvalue_1212521140.md) constitutes the entirety of the `set` accessor implementation. For more examples, see [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties).
 
-[!code-csharp[DOSimpleDP](../microsoft.ui.xaml/code/DOandDP/csharp/Class1.cs#DOSimpleDP)]
-
-[!code-vb[DOSimpleDP](../microsoft.ui.xaml/code/DOandDP/vbnet/Class1.vb#DOSimpleDP)]
+[!code-csharp[DOSimpleDP](../microsoft.ui.xaml/code/DOandDPExamples/csharp/Class1.cs#DOSimpleDP)]
 
 ## -see-also
 

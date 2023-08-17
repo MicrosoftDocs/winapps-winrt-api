@@ -46,16 +46,10 @@ The following example shows how to use **DoubleAnimation** to create a rectangle
 
 [!code-csharp[Doubleanimation_cs](../microsoft.ui.xaml.media.animation/code/doubleanimation/csharp/Page.xaml.cs#SnippetDoubleanimation_cs)]
 
-[!code-vb[Doubleanimation_cs](../microsoft.ui.xaml.media.animation/code/doubleanimation/vbnet/Page.xaml.vb#SnippetDoubleanimation_cs)]
-
 [!code-xaml[Doubleanimation](../microsoft.ui.xaml.media.animation/code/doubleanimationusingkeyframes/csharp/Page.xaml#SnippetDoubleanimationUsingKeyFrames)]
 
 
 [!code-csharp[Doubleanimation](../microsoft.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/csharp/Page.xaml.cs#SnippetDoubleanimationUsingKeyframes2)]
-
-[!code-vb[Doubleanimation](../microsoft.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/vbnet/Page.xaml.vb#SnippetDoubleanimationUsingKeyframes2)]
-
-
 
 ## -see-also
 [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations), [XAML animation sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20animation%20library%20sample), [Timeline](timeline.md), [DoubleAnimationUsingKeyFrames](doubleanimationusingkeyframes.md), [Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true)

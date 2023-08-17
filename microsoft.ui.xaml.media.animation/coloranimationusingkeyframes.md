@@ -34,8 +34,6 @@ The following example uses the ColorAnimationUsingKeyFrames class to animate the
 
 [!code-csharp[Coloranimationusingkeyframes_cs](../microsoft.ui.xaml.media.animation/code/coloranimationusingkeyframes/csharp/Page.xaml.cs#SnippetColoranimationusingkeyframes_cs)]
 
-[!code-vb[Coloranimationusingkeyframes_cs](../microsoft.ui.xaml.media.animation/code/coloranimationusingkeyframes/vbnet/Page.xaml.vb#SnippetColoranimationusingkeyframes_cs)]
-
 ## -see-also
 [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations)
 p://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a)

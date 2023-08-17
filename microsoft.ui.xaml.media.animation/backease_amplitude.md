@@ -30,6 +30,4 @@ The following example applies a [BackEase](backease.md) easing function to a [Do
 
 [!code-csharp[BackEase_scale_code](../microsoft.ui.xaml.media.animation/code/BackEase_scale/csharp/Page.xaml.cs#SnippetBackEase_scale_code)]
 
-[!code-vb[BackEase_scale_code](../microsoft.ui.xaml.media.animation/code/BackEase_scale/vbnet/MainPage.xaml.vb#SnippetBackEase_scale_code)]
-
 ## -see-also

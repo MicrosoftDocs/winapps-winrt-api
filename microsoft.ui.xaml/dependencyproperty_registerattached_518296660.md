@@ -41,9 +41,7 @@ A dependency property identifier that should be used to set the value of a publi
 
 This example defines a class that derives from [DependencyObject](dependencyobject.md), and defines an attached property along with the identifier field. The scenario for this class is that it is a service class that declares an attached property that other UI elements can set in XAML, and the service potentially acts on the attached property values on those UI elements at run time. For more examples, see [Custom attached properties](/windows/uwp/xaml-platform/custom-attached-properties).
 
-[!code-csharp[DOMain](../microsoft.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDOMain)]
-
-[!code-vb[DOMain](../microsoft.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDOMain)]
+[!code-csharp[DOMain](../microsoft.ui.xaml/code/DOandDPExamples/csharp/Class1.cs#SnippetDOMain)]
 
 ## -see-also
 

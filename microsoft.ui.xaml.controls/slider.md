@@ -65,7 +65,5 @@ The following code example shows several slider controls and how to handle the [
 
 [!code-csharp[11](../microsoft.ui.xaml.data/code/System.Windows.Controls.Extended.SliderSL/csharp/Page.xaml.cs#Snippet11)]
 
-[!code-vb[11](../microsoft.ui.xaml.data/code/System.Windows.Controls.Extended.SliderSL/vbnet/Page.xaml.vb#Snippet11)]
-
 ## -see-also
 [Sliders overview](/windows/uwp/controls-and-patterns/slider), [RangeBase](../microsoft.ui.xaml.controls.primitives/rangebase.md), [ComboBox](combobox.md), [ListBox](listbox.md), [Controls list](/windows/apps/design/controls/)

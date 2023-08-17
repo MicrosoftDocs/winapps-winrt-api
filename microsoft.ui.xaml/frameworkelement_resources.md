@@ -57,8 +57,6 @@ Using XAML resource definitions and resource references is the typical way to us
 
 [!code-csharp[ResourceProceduralGet](../microsoft.ui.xaml/code/PropertiesOvwSupport/csharp/page3.xaml.cs#SnippetResourceProceduralGet)]
 
-[!code-vb[ResourceProceduralGet](../microsoft.ui.xaml/code/PropertiesOvwSupport/vbnet/page3.xaml.vb#SnippetResourceProceduralGet)]
-
 ```xaml
 <Page.Resources>
 ...

@@ -51,8 +51,6 @@ The following example shows how to use ColorAnimation to animate the background 
 
 [!code-csharp[Coloranimation_cs](../microsoft.ui.xaml.media.animation/code/coloranimation/csharp/Page.xaml.cs#SnippetColoranimation_cs)]
 
-[!code-vb[Coloranimation_cs](../microsoft.ui.xaml.media.animation/code/coloranimation/vbnet/Page.xaml.vb#SnippetColoranimation_cs)]
-
 ```xaml
 Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)"
 ```
@@ -65,8 +63,6 @@ Alternatively, you could explicitly create the [SolidColorBrush](../microsoft.ui
 
 
 [!code-csharp[Coloranimation_direct_targeting_cs](../microsoft.ui.xaml.media.animation/code/coloranimation_direct_targeting/csharp/Page.xaml.cs#SnippetColoranimation_direct_targeting_cs)]
-
-[!code-vb[Coloranimation_direct_targeting_cs](../microsoft.ui.xaml.media.animation/code/coloranimation_direct_targeting/vbnet/Page.xaml.vb#SnippetColoranimation_direct_targeting_cs)]
 
 ## -see-also
 [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations), [XAML animation sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20animation%20library%20sample), [Timeline](timeline.md), [SolidColorBrush](../microsoft.ui.xaml.media/solidcolorbrush.md), [LinearGradientBrush](../microsoft.ui.xaml.media/lineargradientbrush.md), [Color](/uwp/api/windows.ui.color), [Colors](../microsoft.ui/colors.md), [LinearGradientBrush](../microsoft.ui.xaml.media/lineargradientbrush.md), [Color](/uwp/api/windows.ui.color), [Colors](../microsoft.ui/colors.md)

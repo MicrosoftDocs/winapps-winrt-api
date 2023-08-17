@@ -71,8 +71,6 @@ This example sets `Margin` in code as part of a larger scenario of creating a UI
 
 [!code-csharp[GridClassCode](../microsoft.ui.xaml/code/GridReferenceSample/csharp/Page.xaml.cs#SnippetGridClassCode)]
 
-[!code-vb[GridClassCode](../microsoft.ui.xaml/code/GridReferenceSample/vbnet/Page.xaml.vb#SnippetGridClassCode)]
-
 ## -see-also
 
 [Thickness](thickness.md), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml)

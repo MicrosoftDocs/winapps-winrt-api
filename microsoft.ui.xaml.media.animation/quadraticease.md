@@ -32,7 +32,5 @@ The following example applies a QuadraticEase easing function to a [DoubleAnimat
 
 [!code-csharp[QuadraticEase_code](../microsoft.ui.xaml.media.animation/code/QuadraticEase/csharp/Page.xaml.cs#SnippetQuadraticEase_code)]
 
-[!code-vb[QuadraticEase_code](../microsoft.ui.xaml.media.animation/code/QuadraticEase/vbnet/MainPage.xaml.vb#SnippetQuadraticEase_code)]
-
 ## -see-also
 [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations), [Key-frame animations and easing function animations](/windows/apps/design/motion/key-frame-and-easing-function-animations), [PowerEase](powerease.md), [BackEase](backease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ElasticEase](elasticease.md), [ExponentialEase](exponentialease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md)

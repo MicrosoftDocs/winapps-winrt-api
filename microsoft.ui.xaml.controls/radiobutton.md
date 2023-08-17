@@ -57,8 +57,6 @@ The following example shows three radio buttons. The first two radio buttons are
 
 [!code-csharp[11](../microsoft.ui.xaml.data/code/System.Windows.Controls.RadioButtonEx/csharp/Page.xaml.cs#Snippet11)]
 
-[!code-vb[11](../microsoft.ui.xaml.data/code/System.Windows.Controls.RadioButtonEx/vbnet/Page.xaml.vb#Snippet11)]
-
 ## -see-also
 [Radio buttons overview](/windows/uwp/controls-and-patterns/radio-button), [ToggleButton](../microsoft.ui.xaml.controls.primitives/togglebutton.md), [CheckBox](checkbox.md), [ToggleSwitch](toggleswitch.md), [Controls list](/windows/apps/design/controls/)
 p://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)

@@ -101,8 +101,6 @@ This example demonstrates control logic that uses the GoToState method to transi
 
 [!code-csharp[UpdateStates](../microsoft.ui.xaml/code/NumericUpDownCustomControl/csharp/NumericUpDownCustomControl.cs#SnippetUpdateStates)]
 
-[!code-vb[UpdateStates](../microsoft.ui.xaml/code/NumericUpDownCustomControl/vbnet/NumericUpDown.vb#SnippetUpdateStates)]
-
 [!code-xaml[NUDTemplate](../microsoft.ui.xaml/code/NumericUpDownCustomControl/csharp/themes/Generic.xaml#SnippetNUDTemplate)]
 
 ## -see-also

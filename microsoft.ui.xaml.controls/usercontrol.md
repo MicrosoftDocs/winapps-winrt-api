@@ -34,8 +34,6 @@ The following examples demonstrate creating a UserControl and using it multiple 
 
 [!code-csharp[2](../microsoft.ui.xaml.controls.primitives/code/UserControlSnippets/csharp/NameReporter.xaml.cs#Snippet2)]
 
-[!code-vb[2](../microsoft.ui.xaml.controls.primitives/code/UserControlSnippets/vbnet/NameReporter.xaml.vb#Snippet2)]
-
 > [!NOTE]
 > The `src` prefix in this XAML references the app itself and the `UserControlExample` code namespace within it. That is where the `NameReporter` control is defined. For more info on XAML prefixes, see [XAML namespaces and namespace mapping](/windows/uwp/xaml-platform/xaml-namespaces-and-namespace-mapping).
 

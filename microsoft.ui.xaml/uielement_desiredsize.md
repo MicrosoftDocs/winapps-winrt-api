@@ -29,8 +29,6 @@ This example queries DesiredSize as part of the child iteration for an [ArrangeO
 
 [!code-csharp[2](../microsoft.ui.xaml.controls.primitives/code/BlockPanel/csharp/BlankPage.xaml.cs#Snippet2)]
 
-[!code-vb[2](../microsoft.ui.xaml.controls.primitives/code/BlockPanel/vbnet/BlankPage.xaml.vb#Snippet2)]
-
 ## -see-also
 [ArrangeOverride](frameworkelement_arrangeoverride_1795048387.md), [MeasureOverride](frameworkelement_measureoverride_1586581644.md), [Arrange](uielement_arrange_958316931.md), [Measure](uielement_measure_1722732750.md)
 , [Measure](uielement_measure_1722732750.md)

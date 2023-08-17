@@ -21,7 +21,5 @@ The following code example shows scenario 4 from the [Input sample](https://gith
 
 [!code-csharp[Scenario4Code](../microsoft.ui.xaml/code/input/csharp/Scenario4.xaml.cs#SnippetScenario4Code)]
 
-[!code-vb[Scenario4Code](../microsoft.ui.xaml/code/input/vbnet/Scenario4.xaml.vb#SnippetScenario4Code)]
-
 ## -see-also
 [RoutedEventArgs](../microsoft.ui.xaml/routedeventargs.md)

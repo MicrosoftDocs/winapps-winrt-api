@@ -47,13 +47,5 @@ if (itemGridView->SelectionMode == ListViewSelectionMode::Multiple ||
 }
 ```
 
-```vbnet
-If itemGridView.SelectionMode = ListViewSelectionMode.Multiple OrElse
-   itemGridView.SelectionMode = ListViewSelectionMode.Extended Then
-
-   itemGridView.SelectAll()
-End If
-```
-
 ## -see-also
 [SelectedRanges](listviewbase_selectedranges.md), [SelectRange](listviewbase_selectrange_118136163.md), [DeselectRange](listviewbase_deselectrange_183074056.md), [ItemIndexRange](../microsoft.ui.xaml.data/itemindexrange.md)

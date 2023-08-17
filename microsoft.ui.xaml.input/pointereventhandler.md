@@ -41,7 +41,4 @@ The following code example shows scenario 2 from the [Input sample](https://gith
 
 [!code-csharp[Scenario2Code](../microsoft.ui.xaml/code/input/csharp/Scenario2.xaml.cs#SnippetScenario2Code)]
 
-[!code-vb[Scenario2Code](../microsoft.ui.xaml/code/input/vbnet/Scenario2.xaml.vb#SnippetScenario2Code)]
-
-
 ## -see-also

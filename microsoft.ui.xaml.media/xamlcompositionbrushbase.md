@@ -89,63 +89,6 @@ public sealed class BackdropBlurBrush : XamlCompositionBrushBase
 }
 ```
 
-```vb
-Public NotInheritable Class BackdropBlurBrush
-    Inherits XamlCompositionBrushBase
-
-    Public Shared ReadOnly BlurAmountProperty As DependencyProperty = DependencyProperty.Register(
-            "BlurAmount",
-            GetType(Double),
-            GetType(BackdropBlurBrush),
-            New PropertyMetadata(0.0, New PropertyChangedCallback(AddressOf OnBlurAmountChanged)
-            )
-        )
-
-    Public Property BlurAmount As Double
-        Get
-            Return DirectCast(GetValue(BlurAmountProperty), Double)
-        End Get
-        Set
-            SetValue(BlurAmountProperty, Value)
-        End Set
-    End Property
-
-    Private Shared Sub OnBlurAmountChanged(d As DependencyObject, e As DependencyPropertyChangedEventArgs)
-        Dim brush = DirectCast(d, BackdropBlurBrush)
-        ' Unbox And set a New blur amount if the CompositionBrush exists.
-        brush.CompositionBrush?.Properties.InsertScalar("Blur.BlurAmount", Convert.ToSingle(DirectCast(e.NewValue, Double)))
-    End Sub
-
-    Protected Overrides Sub OnConnected()
-        If Me.CompositionBrush Is Nothing Then
-
-            Dim backdrop As CompositionBackdropBrush = Window.Current.Compositor.CreateBackdropBrush()
-
-            ' Use a Win2D blur affect applied to a CompositionBackdropBrush.
-            Dim graphicsEffect As GaussianBlurEffect = New GaussianBlurEffect()
-            graphicsEffect.Name = "Blur"
-            graphicsEffect.BlurAmount = Me.BlurAmount
-            graphicsEffect.Source = New CompositionEffectSourceParameter("backdrop")
-
-            Dim effectFactory As CompositionEffectFactory = Window.Current.Compositor.CreateEffectFactory(graphicsEffect, New String() {"Blur.BlurAmount"})
-            Dim effectBrush As CompositionEffectBrush = effectFactory.CreateBrush()
-
-            effectBrush.SetSourceParameter("backdrop", backdrop)
-
-            CompositionBrush = effectBrush
-        End If
-    End Sub
-
-    Protected Overrides Sub OnDisconnected()
-        ' Dispose of composition resources when no longer in use.
-        If CompositionBrush IsNot Nothing Then
-            CompositionBrush.Dispose()
-            CompositionBrush = Nothing
-        End If
-    End Sub
-End Class
-```
-
 For the [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) code example below, you'll need to add a **Midl File (.idl)** file to your project.
 
 ```idl

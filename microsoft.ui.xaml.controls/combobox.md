@@ -59,7 +59,6 @@ The following example demonstrates binding a ComboBox to a collection of [FontFa
           ItemsSource="{x:Bind fonts}" DisplayMemberPath="Source"/>
 ```
 
-<!--<auto_snippet sample_id="ComboBoxBoundEx" snippet_id="1"/>-->
 ```csharp
 ObservableCollection<FontFamily> fonts = new ObservableCollection<FontFamily>();
 
@@ -72,9 +71,6 @@ public MainPage()
 }
 
 ```
-
-
-<!--<auto_snippet sample_id="ComboBoxBoundEx" snippet_id="2"/>-->
 
 ## -see-also
 [Selector](../microsoft.ui.xaml.controls.primitives/selector.md), [ListBox](listbox.md), [Controls list](/windows/apps/design/controls/)

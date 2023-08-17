@@ -35,14 +35,6 @@ public CustomControl1()
 }
 ```
 
-+ For a control that has its logic written in Microsoft Visual Basic, the value of DefaultStyleKey should be an instance of [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true). Typically you set this value in the default constructor:
-
-```vbnet
-Public Sub New()
-    Me.DefaultStyleKey = GetType(CustomControl1)
-End Sub
-```
-
 ```cppwinrt
 CustomControl1::CustomControl1() // public: in the header.
 {

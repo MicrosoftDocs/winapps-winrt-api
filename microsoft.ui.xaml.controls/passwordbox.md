@@ -89,16 +89,5 @@ private void passwordBox_PasswordChanged(object sender, RoutedEventArgs e)
 }
 ```
 
-```vbnet
-
-Private Sub passwordBox_PasswordChanged(sender As Object, e As RoutedEventArgs)
-    If passwordBox.Password = "Password" Then
-        statusText.Text = "'Password' is not allowed as a password."
-    Else
-        statusText.Text = String.Empty
-    End If
-End Sub
-```
-
 ## -see-also
 [Password box overview](/windows/apps/design/controls/password-box), [TextBox](textbox.md), [Controls list](/windows/apps/design/controls/)

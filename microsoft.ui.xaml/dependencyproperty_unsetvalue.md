@@ -38,9 +38,7 @@ The sentinel value for an unset value.
 
 This example checks for an existing local value with [ReadLocalValue](dependencyobject_readlocalvalue_1526948202.md). If there is a local value, as indicated by not returning `UnsetValue`, then the existing local value is removed by calling [ClearValue](dependencyobject_clearvalue_171358816.md).
 
-[!code-csharp[DOCheckClear](../microsoft.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDOCheckClear)]
-
-[!code-vb[DOCheckClear](../microsoft.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDOCheckClear)]
+[!code-csharp[DOCheckClear](../microsoft.ui.xaml/code/DOandDPExamples/csharp/Class1.cs#SnippetDOCheckClear)]
 
 ## -see-also
 
