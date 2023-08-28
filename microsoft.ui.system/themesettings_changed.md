@@ -15,9 +15,9 @@ This event is raised when one of the [ThemeSettings](themesettings.md) object's 
 
 ## -remarks
 
-The **Changed** event will only be raised while the [ThemeSettings](themesettings.md) object is alive. Developers must ensure that applications keep a reference to the object as long as they want to receive the event.
+The **Changed** event is only raised while the [ThemeSettings](themesettings.md) object is alive. Developers must ensure that applications keep a reference to the object as long as they want to receive the event.
 
-The **Changed** event will only be raised as long as the window represented by [WindowId](../microsoft.ui/windowid.md) is alive (has not yet received [WM_NCDESTROY](/windows/win32/winmsg/wm-ncdestroy)).
+The **Changed** event is only raised for as long as the window represented by [WindowId](../microsoft.ui/windowid.md) is alive (has not yet received [WM_NCDESTROY](/windows/win32/winmsg/wm-ncdestroy)).
 
 ## -see-also
 
