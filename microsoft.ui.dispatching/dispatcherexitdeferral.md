@@ -12,10 +12,10 @@ public sealed class DispatcherExitDeferral
 
 ## -description
 
+Represents an object that your app can use to defer a [DispatcherQueue](./dispatcherqueue.md) from exiting.
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

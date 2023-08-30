@@ -12,10 +12,10 @@ public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Dispatching.Dispa
 
 ## -description
 
+Raised when either [ShutdownQueue](./dispatcherqueuecontroller_shutdownqueue_1224442331.md) or [ShutdownQueueAsync](./dispatcherqueuecontroller_shutdownqueueasync_542547627.md) is called. For a full list of the events raised, and in what order, see the Remarks for [ShutdownQueueAsync](./dispatcherqueuecontroller_shutdownqueueasync_542547627.md).
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

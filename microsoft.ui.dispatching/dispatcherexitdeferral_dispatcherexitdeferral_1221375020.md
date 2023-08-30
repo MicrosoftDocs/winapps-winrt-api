@@ -12,10 +12,10 @@ public DispatcherExitDeferral ();
 
 ## -description
 
+Creates a new instance of [DispatcherExitDeferral](./dispatcherexitdeferral.md).
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

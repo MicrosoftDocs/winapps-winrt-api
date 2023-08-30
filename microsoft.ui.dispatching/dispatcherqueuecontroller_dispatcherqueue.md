@@ -11,11 +11,11 @@ public Microsoft.UI.Dispatching.DispatcherQueue DispatcherQueue { get; }
 
 ## -description
 
-Gets the [DispatcherQueue](dispatcherqueue.md) associated with this DispatcherQueueController.
+Gets the [DispatcherQueue](dispatcherqueue.md) that's associated with this [DispatcherQueueController](./dispatcherqueuecontroller.md).
 
 ## -property-value
 
-The DispatcherQueue instance that you use to queue tasks that run on a thread.
+The **DispatcherQueue** that's associated with this **DispatcherQueueController**, if there is one; otherwise, `null`.
 
 ## -remarks
 

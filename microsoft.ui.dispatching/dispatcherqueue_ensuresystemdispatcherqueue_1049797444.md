@@ -12,10 +12,10 @@ public void EnsureSystemDispatcherQueue ();
 
 ## -description
 
+Causes the **Microsoft.UI.Dispatching.DispatcherQueue** to manage the shutdown of the *system* DispatcherQueue (**Windows.System.DispatcherQueue**) from the same thread.
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
