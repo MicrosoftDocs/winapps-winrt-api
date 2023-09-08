@@ -25,4 +25,4 @@ The source element must have it's [IsAccessKeyScope](uielement_isaccesskeyscope.
 
 ## -see-also
 
-[Access keys](/windows/apps/design/input/access-keys)
+[Access keys guidelines](/windows/apps/design/input/access-keys)

@@ -48,8 +48,6 @@ This example establishes a binding to a dependency property on an object by call
 
 [!code-csharp[BindingObject](../microsoft.ui.xaml/code/BindingInCode/csharp/Page.xaml.cs#SnippetBindingObject)]
 
-[!code-vb[BindingObject](../microsoft.ui.xaml/code/BindingInCode/vbnet/BlankPage.xaml.vb#SnippetBindingObject)]
-
 ## -see-also
 
 [Binding](../microsoft.ui.xaml.data/binding.md), [BindingOperations](../microsoft.ui.xaml.data/bindingoperations.md), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

@@ -10,9 +10,11 @@ public Windows.UI.Xaml.DataTemplate TitleTemplate { get;  set; }
 # Microsoft.UI.Xaml.Controls.ContentDialog.TitleTemplate
 
 ## -description
+
 Gets or sets the title template.
 
 ## -xaml-syntax
+
 ```xaml
 <ContentDialog>
   <ContentDialog.TitleTemplate>
@@ -23,12 +25,14 @@ Gets or sets the title template.
 <ContentDialog TitleTemplate="resourceReferenceToDataTemplate"/>
 ```
 
-
 ## -xaml-values
+
 <dl><dt>singleDataTemplate</dt><dd>singleDataTemplateA single DataTemplate object element.</dd>
 <dt>resourceReferenceToDataTemplate</dt><dd>resourceReferenceToDataTemplateA resource reference to an existing DataTemplate from a resources collection. The resource reference must specify the desired DataTemplate by key through a {StaticResource} markup extension usage.</dd>
 </dl>
+
 ## -property-value
+
 The title template.
 
 ## -remarks

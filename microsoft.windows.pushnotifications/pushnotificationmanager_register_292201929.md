@@ -9,11 +9,12 @@
 public void Register ();
 -->
 
-
 ## -description
 
 Registers the app to receive [PushReceived](xref:Microsoft.Windows.PushNotifications.PushNotificationManager.PushReceived) events when incoming notifications are received.
 
+> [!NOTE]
+> The **PushNotificationManager** class has a dependency on the [Singleton package](/windows/apps/windows-app-sdk/deployment-architecture#singleton-package). Because of that dependency, there are certain considerations to be aware of if you're calling these APIs from a [self-contained app](/windows/apps/package-and-deploy/deploy-overview). For more info, and specifics, see [Dependencies on additional MSIX packages](/windows/apps/package-and-deploy/self-contained-deploy/deploy-self-contained-apps#dependencies-on-additional-msix-packages).
 
 ## -remarks
 
@@ -23,9 +24,6 @@ To ensure that the **PushReceived** event handler is called within the process o
 
 Before your app terminates, call [Unregister](xref:Microsoft.Windows.PushNotifications.PushNotificationManager.Unregister) or [UnregisterAll](xref:Microsoft.Windows.PushNotifications.PushNotificationManager.UnregisterAll).
 
-
 ## -see-also
 
 ## -examples
-
-

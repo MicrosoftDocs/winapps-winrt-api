@@ -37,8 +37,6 @@ This example shows how you would use `Arrange` within an [ArrangeOverride](frame
 
 [!code-csharp[2](../microsoft.ui.xaml.controls.primitives/code/BlockPanel/csharp/BlankPage.xaml.cs#Snippet2)]
 
-[!code-vb[2](../microsoft.ui.xaml.controls.primitives/code/BlockPanel/vbnet/BlankPage.xaml.vb#Snippet2)]
-
 ## -see-also
 
 [ArrangeOverride](frameworkelement_arrangeoverride_1795048387.md), [MeasureOverride](frameworkelement_measureoverride_1586581644.md)

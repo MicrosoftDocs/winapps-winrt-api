@@ -11,13 +11,11 @@ public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Dispatching.Dispa
 
 ## -description
 
-Occurs before the [DispatcherQueue](dispatcherqueue.md) initiates an exit from its event loop.
+Raised when either [ShutdownQueue](./dispatcherqueuecontroller_shutdownqueue_1224442331.md) or [ShutdownQueueAsync](./dispatcherqueuecontroller_shutdownqueueasync_542547627.md) is called. For a full list of the events raised, and in what order, see the Remarks for [ShutdownQueueAsync](./dispatcherqueuecontroller_shutdownqueueasync_542547627.md).
 
 ## -remarks
 
-The event is fired on the thread running the DispatcherQueue event loop.
-
-This event fires before the DispatcherQueue initiates the exit from the event loop. Event handlers for this event can queue work from within the handler. The event handler can take a deferral and continue to post work to the DispatcherQueue until the deferral completes. Once the deferral completes, no new work will be accepted by the DispatcherQueue.
+**ShutdownStarting** is raised *before* the event loop exits. The handler for this event can take a deferral, and can continue to post work until the deferral completes. Once the deferral completes, the **DispatcherQueue** no longer accepts work, and [DispatcherQueue.TryEnqueue](./dispatcherqueue_tryenqueue_530434839.md) returns `false`.
 
 ## -see-also
 

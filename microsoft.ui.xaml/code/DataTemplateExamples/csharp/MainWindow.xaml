@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="DataTemplateExamples.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DataTemplateExamples"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid RowDefinitions="*,*">
+<!--<Snippet1_XAML> -->
+<Grid>
+    <Grid.Resources>
+        <local:Customers x:Key="customers"/>
+    </Grid.Resources>
+
+    <ListView ItemsSource="{StaticResource customers}" 
+       Width="350" Margin="0,4,0,8">
+        <ListView.ItemTemplate>
+            <DataTemplate x:DataType="local:Customer">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{x:Bind LastName}"/>
+                        <TextBlock Text="," Margin="0,0,2,0"/>
+                        <TextBlock Text="{x:Bind FirstName}"/>
+                    </StackPanel>
+                    <TextBlock Text="{x:Bind Address}" Margin="8,0,0,2"/>
+                </StackPanel>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</Grid>
+<!--</Snippet1_XAML> -->
+
+        <Grid Grid.Row="1">
+<!--<Snippet2_XAML>-->
+ <StackPanel x:Name="rootStackPanel">
+     <StackPanel.Resources>
+         <DataTemplate x:Key="oddNumberTemplate">
+             <Grid>
+                 <Rectangle Stroke="Purple" StrokeThickness="4"/>
+                 <TextBlock HorizontalAlignment="Center" 
+                            VerticalAlignment="Center" 
+                            FontSize="24" Foreground="Blue" 
+                            FontWeight="Bold"/>
+             </Grid>
+         </DataTemplate>
+
+         <DataTemplate x:Key="evenNumberTemplate">
+             <Grid>
+                 <Ellipse Stroke="Green" StrokeThickness="4"/>
+                 <TextBlock HorizontalAlignment="Center" 
+                            VerticalAlignment="Center" 
+                            FontSize="24" Foreground="Red" 
+                            FontWeight="Bold"  />
+             </Grid>
+         </DataTemplate>
+     </StackPanel.Resources>
+
+     <ListView x:Name="numberList" 
+               SelectionChanged="ListView_SelectionChanged" 
+               HorizontalAlignment="Center">
+         <ListViewItem Content="1"/>
+         <ListViewItem Content="2"/>
+         <ListViewItem Content="3"/>
+         <ListViewItem Content="4"/>
+         <ListViewItem Content="5"/>
+         <ListViewItem Content="6"/>
+         <ListViewItem Content="7"/>
+         <ListViewItem Content="8"/>
+         <ListViewItem Content="9"/>
+         <ListViewItem Content="10"/>
+     </ListView>
+
+     <Border x:Name="selectedItemDisplay" 
+             Width="50" Height="50"/>
+ </StackPanel>
+ <!--</Snippet2_XAML>-->
+
+        </Grid>
+    </Grid>
+</Window>

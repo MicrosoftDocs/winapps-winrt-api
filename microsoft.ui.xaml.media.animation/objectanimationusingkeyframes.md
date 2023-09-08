@@ -31,7 +31,5 @@ The following example uses the ObjectAnimationUsingKeyFrames class to animate th
 
 [!code-csharp[Objectanimationusingkeyframes_cs](../microsoft.ui.xaml.media.animation/code/objectanimationusingkeyframes/csharp/Page.xaml.cs#SnippetObjectanimationusingkeyframes_cs)]
 
-[!code-vb[Objectanimationusingkeyframes_cs](../microsoft.ui.xaml.media.animation/code/objectanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetObjectanimationusingkeyframes_cs)]
-
 ## -see-also
 [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations), [Timeline](timeline.md), [ObjectKeyFrame](objectkeyframe.md), [Timeline](timeline.md), [ObjectKeyFrame](objectkeyframe.md)

@@ -27,4 +27,4 @@ If the [AutomationProperties.AccessKey](/windows/windows-app-sdk/api/winrt/micro
 
 ## -see-also
 
-[Access keys](/windows/apps/design/input/access-keys)
+[Access keys guidelines](/windows/apps/design/input/access-keys)

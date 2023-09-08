@@ -48,17 +48,5 @@ if (AutomationPeer.ListenerExists(AutomationEvents.PropertyChanged))
 
 ```
 
-```vbnet
-If AutomationPeer.ListenerExists(AutomationEvents.PropertyChanged) Then
-    Dim peer As MyDownAutomationPeer = _
-    TryCast(FrameworkElementAutomationPeer.FromElement(myCtrl), MyAutomationPeer)
-    If peer IsNot Nothing Then
-        peer.RaisePropertyChangedEvent(RangeValuePatternIdentifiers.ValueProperty, CDbl(oldValue), CDbl(newValue))
-    End If
-End If
-```
-
-
-
 ## -see-also
 [CreatePeerForElement](frameworkelementautomationpeer_createpeerforelement_865701770.md)

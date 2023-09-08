@@ -32,6 +32,5 @@ The following example shows how you can use the TextWrapping property in XAML.
 
 
 [!code-xaml[ScrollBarXAML](../microsoft.ui.xaml.controls.primitives/code/TextBoxSnippet2/csharp/Page.xaml#SnippetScrollBarXAML)]
-<!--<auto_snippet sample_id="TextBoxSnippet3" snippet_id="ScrollBarCode"/>-->
 
 ## -see-also

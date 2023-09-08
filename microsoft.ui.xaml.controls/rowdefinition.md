@@ -27,7 +27,6 @@ The following example uses three [ColumnDefinitions](grid_columndefinitions.md) 
 
 
 [!code-xaml[ColumnDefinitionClassXAML](../microsoft.ui.xaml.controls/code/ColumnDefinitionClassXAMLSample/csharp/Page.xaml#SnippetColumnDefinitionClassXAML)]
-<!-- <auto_snippet sample_id="ColumnDefinitionClassCodeSample" snippet_id="ColumnDefinitionClassCode"/> -->
 
 ## -see-also
 [DependencyObject](../microsoft.ui.xaml/dependencyobject.md)

@@ -32,7 +32,5 @@ This XAML example shows how to use key frames that have easing functions associa
 
 [!code-csharp[EasingFunctionDoubleKeyFrame_code](../microsoft.ui.xaml.media.animation/code/EasingFunctionDoubleKeyFrame/csharp/Page.xaml.cs#SnippetEasingFunctionDoubleKeyFrame_code)]
 
-[!code-vb[EasingFunctionDoubleKeyFrame_code](../microsoft.ui.xaml.media.animation/code/EasingFunctionDoubleKeyFrame/vbnet/MainPage.xaml.vb#SnippetEasingFunctionDoubleKeyFrame_code)]
-
 ## -see-also
 [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations), [Key-frame animations and easing function animations](/windows/apps/design/motion/key-frame-and-easing-function-animations), [XAML animation sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20animation%20library%20sample), [DoubleKeyFrame](doublekeyframe.md), [EasingColorKeyFrame](easingcolorkeyframe.md), [EasingPointKeyFrame](easingpointkeyframe.md), [KeyTime](doublekeyframe_keytime.md), [Value](doublekeyframe_value.md)

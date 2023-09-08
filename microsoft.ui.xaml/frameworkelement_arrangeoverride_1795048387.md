@@ -39,8 +39,6 @@ This example implements ArrangeOverride to customize the "Arrange" pass logic fo
 
 [!code-csharp[2](../microsoft.ui.xaml.controls.primitives/code/BlockPanel/csharp/BlankPage.xaml.cs#Snippet2)]
 
-[!code-vb[2](../microsoft.ui.xaml.controls.primitives/code/BlockPanel/vbnet/BlankPage.xaml.vb#Snippet2)]
-
 ## -see-also
 [Arrange](uielement_arrange_958316931.md), [MeasureOverride](frameworkelement_measureoverride_1586581644.md), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml)
 4162-1c9c-48f4-8a94-34976fb17079)

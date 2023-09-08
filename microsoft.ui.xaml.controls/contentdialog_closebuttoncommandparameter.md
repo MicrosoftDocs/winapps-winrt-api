@@ -10,9 +10,11 @@ public object CloseButtonCommandParameter { get;  set; }
 # Microsoft.UI.Xaml.Controls.ContentDialog.CloseButtonCommandParameter
 
 ## -description
+
 Gets or sets the parameter to pass to the command for the close button.
 
 ## -xaml-syntax
+
 ```xaml
 <ContentDialog>
   <ContentDialog.CloseButtonCommandParameter>
@@ -24,7 +26,8 @@ Gets or sets the parameter to pass to the command for the close button.
 ```
 
 ## -property-value
-The parameter to pass to the command for the close button. The default is **null.**
+
+The parameter to pass to the command for the close button. The default is `null`.
 
 ## -remarks
 

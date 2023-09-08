@@ -36,9 +36,7 @@ There are two methods that can instantiate a `PropertyMetadata` instance: a cons
 
 This example calls the [PropertyMetadata(Object)](propertymetadata_propertymetadata_365528641.md) constructor, which creates a `PropertyMetadata` that reports a default value for a [DependencyProperty](dependencyproperty.md). The `PropertyMetadata` is then used for an attached property registration when [RegisterAttached](dependencyproperty_registerattached_518296660.md) is called.
 
-[!code-csharp[DOMain](../microsoft.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDOMain)]
-
-[!code-vb[DOMain](../microsoft.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDOMain)]
+[!code-csharp[DOMain](../microsoft.ui.xaml/code/DOandDPExamples/csharp/Class1.cs#SnippetDOMain)]
 
 ## -see-also
 

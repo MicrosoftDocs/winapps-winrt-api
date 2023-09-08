@@ -67,8 +67,6 @@ The following example shows two check box controls. The first check box demonstr
 
 [!code-csharp[11](../microsoft.ui.xaml.data/code/System.Windows.Controls.CheckBoxEx/csharp/Page.xaml.cs#Snippet11)]
 
-[!code-vb[11](../microsoft.ui.xaml.data/code/System.Windows.Controls.CheckBoxEx/vbnet/Page.xaml.vb#Snippet11)]
-
 <img alt="The 3 states of a check box" src="images/CheckBox_3State.png" />
 
 ```xaml

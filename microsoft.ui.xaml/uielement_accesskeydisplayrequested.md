@@ -29,4 +29,4 @@ This event is not raised if the element is under an element with its [Visibility
 
 ## -see-also
 
-[AccessKeyDisplayDismissedEventArgs](../microsoft.ui.xaml.input/accesskeydisplayrequestedeventargs.md), [Access keys](/windows/apps/design/input/access-keys)
+[AccessKeyDisplayDismissedEventArgs](../microsoft.ui.xaml.input/accesskeydisplayrequestedeventargs.md), [Access keys guidelines](/windows/apps/design/input/access-keys)

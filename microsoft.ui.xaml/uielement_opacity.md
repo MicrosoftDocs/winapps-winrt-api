@@ -41,8 +41,6 @@ This example uses a [Storyboard](../microsoft.ui.xaml.media.animation/storyboard
 
 [!code-xaml[Animation_ovw_intro](../microsoft.ui.xaml/code/animation_ovw_intro/csharp/Page.xaml#SnippetAnimation_ovw_intro)]
 
-[!code-vb[Animation_ovw_intro](../microsoft.ui.xaml/code/animation_ovw_intro/vbnet/Page.xaml.vb#SnippetAnimation_ovw_intro_code)]
-
 ## -see-also
 
 [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview)

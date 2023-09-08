@@ -22,7 +22,7 @@ Gets or sets the style to apply to the dialog's primary button.
 </dl>
 
 ## -property-value
-The applied style for the button, if present; otherwise, **null**. 
+The applied style for the button, if present; otherwise, `null`.
 
 ## -remarks
 

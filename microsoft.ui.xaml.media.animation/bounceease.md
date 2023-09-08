@@ -35,7 +35,5 @@ The following example applies a BounceEase easing function to a [DoubleAnimation
 
 [!code-csharp[BounceEase_code](../microsoft.ui.xaml.media.animation/code/BounceEase/csharp/Page.xaml.cs#SnippetBounceEase_code)]
 
-[!code-vb[BounceEase_code](../microsoft.ui.xaml.media.animation/code/BounceEase/vbnet/MainPage.xaml.vb#SnippetBounceEase_code)]
-
 ## -see-also
 [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations), [Key-frame animations and easing function animations](/windows/apps/design/motion/key-frame-and-easing-function-animations), [EasingFunctionBase](easingfunctionbase.md), [PowerEase](powerease.md), [BackEase](backease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ElasticEase](elasticease.md), [ExponentialEase](exponentialease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md)

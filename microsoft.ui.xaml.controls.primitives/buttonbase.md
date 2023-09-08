@@ -33,8 +33,6 @@ The following example demonstrates handling the [Click](buttonbase_click.md) eve
 
 [!code-csharp[41](../microsoft.ui.xaml/code/System.Windows.Controls.ButtonClickEx/csharp/Page.xaml.cs#Snippet41)]
 
-[!code-vb[41](../microsoft.ui.xaml/code/System.Windows.Controls.ButtonClickEx/vbnet/Page.xaml.vb#Snippet41)]
-
 ## -see-also
 [ContentControl](../microsoft.ui.xaml.controls/contentcontrol.md)
 lso

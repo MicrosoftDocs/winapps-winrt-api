@@ -48,7 +48,7 @@ The Key Tip is not shown.
 This enumeration is used by the [UIElement.KeyTipPlacementMode](../microsoft.ui.xaml/uielement_keytipplacementmode.md) property.
 
 ## -see-also
-[UIElement.KeyTipPlacementMode](../microsoft.ui.xaml/uielement_keytipplacementmode.md), [Access keys](/windows/apps/design/input/access-keys)
+[UIElement.KeyTipPlacementMode](../microsoft.ui.xaml/uielement_keytipplacementmode.md), [Access keys guidelines](/windows/apps/design/input/access-keys)
 
 ## -examples
 

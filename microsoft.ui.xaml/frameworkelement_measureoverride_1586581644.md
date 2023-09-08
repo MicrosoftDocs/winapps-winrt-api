@@ -44,8 +44,6 @@ This example implements `MeasureOverride` to customize the "Measure" pass logic 
 
 [!code-csharp[1](../microsoft.ui.xaml.controls.primitives/code/BlockPanel/csharp/BlankPage.xaml.cs#Snippet1)]
 
-[!code-vb[1](../microsoft.ui.xaml.controls.primitives/code/BlockPanel/vbnet/BlankPage.xaml.vb#Snippet1)]
-
 ## -see-also
 
 [Measure](uielement_measure_1722732750.md), [ArrangeOverride](frameworkelement_arrangeoverride_1795048387.md), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml)

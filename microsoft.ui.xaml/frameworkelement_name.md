@@ -69,8 +69,6 @@ This example gets a value for `Name` from an existing object, and uses that name
 
 [!code-csharp[Change_targetname_1_cs](../microsoft.ui.xaml/code/change_targetname_1/csharp/Page.xaml.cs#SnippetChange_targetname_1_cs)]
 
-[!code-vb[Change_targetname_1_cs](../microsoft.ui.xaml/code/change_targetname_1/vbnet/Page.xaml.vb#SnippetChange_targetname_1_cs)]
-
 ## -see-also
 
 [x:Name attribute](/windows/uwp/xaml-platform/x-name-attribute), [FindName](frameworkelement_findname_634111277.md), [Storyboard.TargetName](../microsoft.ui.xaml.media.animation/storyboard_targetname.md), [XAML namescopes](/windows/uwp/xaml-platform/xaml-namescopes), [XAML overview](/windows/uwp/xaml-platform/xaml-overview)

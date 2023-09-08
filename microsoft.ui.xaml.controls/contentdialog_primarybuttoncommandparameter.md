@@ -25,7 +25,7 @@ Gets or sets the parameter to pass to the command for the primary button.
 
 
 ## -property-value
-The parameter to pass to the command for the primary button. The default is null.
+The parameter to pass to the command for the primary button. The default is `null`.
 
 ## -remarks
 

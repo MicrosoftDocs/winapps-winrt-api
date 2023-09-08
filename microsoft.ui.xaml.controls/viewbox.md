@@ -41,7 +41,5 @@ The following example shows what happens when you change the [StretchDirection](
 
 [!code-csharp[ViewBoxCode](../microsoft.ui.xaml/code/ViewBoxSnippet/csharp/MainPage.xaml.cs#SnippetViewBoxCode)]
 
-[!code-vb[ViewBoxCode](../microsoft.ui.xaml/code/ViewBoxSnippet/vbnet/MainPage.xaml.vb#SnippetViewBoxCode)]
-
 ## -see-also
 [FrameworkElement](../microsoft.ui.xaml/frameworkelement.md)
