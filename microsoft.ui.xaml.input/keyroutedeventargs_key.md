@@ -11,7 +11,7 @@ public Windows.System.VirtualKey Key { get; }
 
 ## -description
 
-Gets the [virtual key](/uwp/api/windows.system.virtualkey) associated with the event.
+Gets the [virtual-key](/uwp/api/windows.system.virtualkey) associated with the event.
 
 Depending on the input device, this can be a mapped value. For raw, unmapped event data, see the [OriginalKey](keyroutedeventargs_originalkey.md) property.
 

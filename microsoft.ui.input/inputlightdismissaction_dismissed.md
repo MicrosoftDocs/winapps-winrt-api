@@ -25,4 +25,6 @@ Examples of actions that trigger the [Dismissed](inputlightdismissaction_dismiss
 
 ## -see-also
 
+[InputLightDismissEventArgs](inputlightdismisseventargs.md)
+
 ## -examples

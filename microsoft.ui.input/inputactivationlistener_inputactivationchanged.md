@@ -11,12 +11,12 @@ public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Input.InputActiva
 
 ## -description
 
-Occurs when the activation state of the associated window changes.
+Occurs when the input activation state of the associated object changes.
 
 ## -remarks
 
 ## -see-also
 
-<xref:Microsoft.UI.Input.InputActivationListenerActivationChangedEventArgs>
+[InputActivationListenerActivationChangedEventArgs](inputactivationlisteneractivationchangedeventargs.md), [Window](../microsoft.ui.xaml/window.md), [ContentIsland](../microsoft.ui.content/contentisland.md)
 
 ## -examples

@@ -11,14 +11,16 @@ public Microsoft.UI.Input.InputActivationState State { get; }
 
 ## -description
 
-Gets the activation state of the window.
+Gets the activation state of the object.
 
 ## -property-value
 
-The activation state of the window.
+The activation state of the object.
 
 ## -remarks
 
 ## -see-also
+
+[Window](../microsoft.ui.xaml/window.md), [ContentIsland](../microsoft.ui.content/contentisland.md)
 
 ## -examples
