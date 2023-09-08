@@ -9,13 +9,12 @@
 public class ContentCoordinateConverter
 -->
 
-
 ## -description
+
+Converts between an object's local coordinate space and screen coordinates.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
