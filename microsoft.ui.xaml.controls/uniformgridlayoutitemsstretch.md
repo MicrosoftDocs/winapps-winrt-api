@@ -11,7 +11,7 @@ public enum UniformGridLayoutItemsStretch
 
 ## -description
 
-Defines constants that specify how items are sized to fill the available space.
+Defines constants that specify how items are sized to fill the available space in a [UniformGridLayout](uniformgridlayout.md).
 
 ## -enum-fields
 
