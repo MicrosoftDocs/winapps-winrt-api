@@ -21,7 +21,7 @@ The virtual-key for which the state is returned.
 
 ## -returns
 
-The flags indicating the current state of the supplied virtual-key at the time of the current input message.
+The flags indicating the state of the supplied virtual-key at the time of the input message currently being processed
 
 > [!NOTE]
 > All keys support the `Locked` state (not just the standard **Caps Lock** and **Num Lock** keys).

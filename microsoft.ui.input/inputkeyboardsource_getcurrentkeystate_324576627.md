@@ -21,7 +21,7 @@ The virtual-key for which the state is returned.
 
 ## -returns
 
-The flags indicating the current state of the supplied virtual-key currently reported by the keyboard device.
+The flags indicating the state of the supplied virtual-key at the current time
 
 ## -remarks
 
