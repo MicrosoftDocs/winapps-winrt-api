@@ -24,6 +24,6 @@ A [ContentIsland](../microsoft.ui.content/contentisland.md) can receive focus th
 
 ## -see-also
 
-[TrySetFocus](inputfocuscontroller_trysetfocus_432736152.md), [InputFocusController.HasFocus](inputfocuscontroller_hasfocus.md), [InputFocusController.LostFocus](inputfocuscontroller_lostfocus.md)
+[InputFocusController.TrySetFocus](inputfocuscontroller_trysetfocus_432736152.md), [InputFocusController.HasFocus](inputfocuscontroller_hasfocus.md), [InputFocusController.LostFocus](inputfocuscontroller_lostfocus.md)
 
 ## -examples

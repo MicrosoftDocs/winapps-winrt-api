@@ -38,7 +38,7 @@ void OnClick(PointerPoint clickLocation)
     {
         InputFocusController focusController = InputFocusController.GetForIsland(myIsland);
 
-        if (!focusController.HasFocus)
+        if (!focusController.HasFocus())
         {
             bool nowHasFocus = focusController.TrySetFocus();
 
