@@ -11,7 +11,7 @@ public Microsoft.UI.Input.VirtualKeyStates GetKeyState (Windows.System.VirtualKe
 
 ## -description
 
-Get the state of the supplied virtual-key at the time of the current input message.
+Retrieves the state of the supplied virtual-key at the time of the input message currently being processed (which could be in the past, if the input queue contains unprocessed messages).
 
 ## -parameters
 
