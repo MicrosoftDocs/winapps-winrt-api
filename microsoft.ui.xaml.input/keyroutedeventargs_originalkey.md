@@ -11,7 +11,7 @@ public Windows.System.VirtualKey OriginalKey { get; }
 
 ## -description
 
-Gets the original, unmapped [virtual key](/uwp/api/windows.system.virtualkey) associated with the event.
+Gets the original, unmapped [virtual-key](/uwp/api/windows.system.virtualkey) associated with the event.
 
 Depending on the input device, the input button might be mapped to a different key value. For the mapped event value, see the [Key](keyroutedeventargs_key.md) property.
 
