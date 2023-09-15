@@ -9,13 +9,12 @@
 public sealed class ContentEnvironmentSettingChangedEventArgs
 -->
 
-
 ## -description
+
+Contains event data for the [ContentIslandEnvironment.SettingChanged](contentislandenvironment_settingchanged.md) event.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
