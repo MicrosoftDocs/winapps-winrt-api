@@ -9,15 +9,16 @@
 public ulong Id { get; }
 -->
 
-
 ## -description
 
+Gets the unique identifier for this <xref:Microsoft.UI.Content.ContentIsland>.
+
 ## -property-value
+
+The unique identifier for this <xref:Microsoft.UI.Content.ContentIsland>.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
