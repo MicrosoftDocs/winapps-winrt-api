@@ -11,7 +11,7 @@ public class ContentIsland : Microsoft.UI.Composition.ICompositionSupportsSystem
 
 ## -description
 
-A <xref:Microsoft.UI.Content.ContentIsland> is a self-contained *child window* (with independent input, output, layout, and accessibility handling) that is confined to the client area of its parent <xref:Microsoft.UI.Content.ContentSite>.
+A self-contained *child window* (with independent input, output, layout, and accessibility handling) that is confined to the client area of its parent <xref:Microsoft.UI.Content.ContentSite>.
 
 ## -remarks
 

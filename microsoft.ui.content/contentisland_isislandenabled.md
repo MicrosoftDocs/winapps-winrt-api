@@ -11,7 +11,7 @@ public bool IsIslandEnabled { get; set; }
 
 ## -description
 
-Gets whether this <xref:Microsoft.UI.Content.ContentIsland> can receive input.
+Gets or sets whether this <xref:Microsoft.UI.Content.ContentIsland> can receive input.
 
 ## -property-value
 

@@ -9,15 +9,18 @@
 public bool DidRasterizationScaleChange { get; }
 -->
 
-
 ## -description
 
+Gets whether the <xref:Microsoft.UI.Content.ContentIsland> rasterization scale changed.
+
 ## -property-value
+
+True, if the <xref:Microsoft.UI.Content.ContentIsland> rasterization scale changed; otherwise, false.
 
 ## -remarks
 
 ## -see-also
 
+[ContentIsland.RasterizationScale](contentisland_rasterizationscale.md)
+
 ## -examples
-
-
