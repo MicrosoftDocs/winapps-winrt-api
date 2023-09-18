@@ -11,10 +11,12 @@ public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Content.ContentIs
 
 ## -description
 
-Occurs when a <xref:Windows.UI.UIAutomation.Core.RemoteAutomationWindow.AutomationProvider?displayProperty=nameWithType> is requested for this <xref:Microsoft.UI.Content.ContentIsland>.
+Occurs when an automtion provider is requested for this <xref:Microsoft.UI.Content.ContentIsland>.
 
 ## -remarks
 
 ## -see-also
+
+[ContentIslandAutomationProviderRequestedEventArgs](contentislandautomationproviderrequestedeventargs.md)
 
 ## -examples
