@@ -11,9 +11,11 @@ public event Microsoft.UI.ClosableNotifierHandler FrameworkClosed;
 
 ## -description
 
-This event is meant for framework developers to subscribe to. It is raised before the Closed event.
+Occurs when a framework closes.
 
 ## -remarks
+
+This event is intended for framework developers. It is raised before a <xref:Microsoft.UI.Content.ContentIsland.Closed> event.
 
 ## -see-also
 

@@ -9,13 +9,14 @@
 // This member is not implemented in C#
 -->
 
-
 ## -description
+
+Closes the <xref:Microsoft.UI.Content.ContentIsland>.
 
 ## -remarks
 
 ## -see-also
 
+[Microsoft.UI.Content.ContentIsland.Closed](contentisland_closed.md)
+
 ## -examples
-
-
