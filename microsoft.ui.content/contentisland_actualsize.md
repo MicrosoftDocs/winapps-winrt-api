@@ -9,15 +9,16 @@
 public System.Numerics.Vector2 ActualSize { get; }
 -->
 
-
 ## -description
 
+Gets the logical size of the <xref:Microsoft.UI.Content.ContentIsland>, as determined by the <xref:Microsoft.UI.Content.ContentSite>.
+
 ## -property-value
+
+The logical size of the <xref:Microsoft.UI.Content.ContentIsland>, as determined by the <xref:Microsoft.UI.Content.ContentSite>.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
