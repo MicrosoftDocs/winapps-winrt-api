@@ -12,7 +12,11 @@ public static Microsoft.UI.Xaml.DependencyProperty TabGeometryProperty { get; }
 
 ## -description
 
+Identifies the [TabGeometry](tabviewitemtemplatesettings_tabgeometry.md) dependency property.
+
 ## -property-value
+
+The identifier for the [TabGeometry](tabviewitemtemplatesettings_tabgeometry.md) dependency property.
 
 ## -remarks
 

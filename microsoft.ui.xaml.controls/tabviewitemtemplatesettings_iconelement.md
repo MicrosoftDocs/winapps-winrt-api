@@ -11,9 +11,11 @@ public Windows.UI.Xaml.Controls.IconElement IconElement { get; set; }
 
 ## -description
 
-Gets an object that provides calculated values that can be referenced as {TemplateBinding} markup extension sources when defining templates for a TabViewItem control.
+Gets or sets the icon used in a TabViewItem control.
 
 ## -property-value
+
+The icon used in a TabViewItem control.
 
 ## -remarks
 
