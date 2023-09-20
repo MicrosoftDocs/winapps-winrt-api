@@ -16,6 +16,8 @@ public float RasterizationScale { get; }
 
 ## -remarks
 
+The rasterization scale is the combination of the monitor DPI scale and text scaling set by the user.
+
 ## -see-also
 
 ## -examples
