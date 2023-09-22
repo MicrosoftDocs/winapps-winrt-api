@@ -21,4 +21,6 @@ True, if this <xref:Microsoft.UI.Content.ContentIsland> is closed; otherwise, fa
 
 ## -see-also
 
+[ContentIsland.Close](contentisland_close_811482585.md), [ContentIsland.Closed](contentisland_closed.md)
+
 ## -examples

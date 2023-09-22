@@ -11,7 +11,7 @@ public enum ContentLayoutDirection
 
 ## -description
 
-Specifies the supported layout directions of a <xref:Microsoft.UI.Content.ContentSite>.
+Specifies the supported layout direction for reading order and text alignment of a <xref:Microsoft.UI.Content.ContentSite>.
 
 ## -enum-fields
 

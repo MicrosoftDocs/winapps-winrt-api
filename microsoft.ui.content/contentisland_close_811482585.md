@@ -17,6 +17,6 @@ Closes the <xref:Microsoft.UI.Content.ContentIsland>.
 
 ## -see-also
 
-[Microsoft.UI.Content.ContentIsland.Closed](contentisland_closed.md)
+[ContentIsland.Closed](contentisland_closed.md), [ContentIsland.IsClosed](contentisland_isclosed.md)
 
 ## -examples

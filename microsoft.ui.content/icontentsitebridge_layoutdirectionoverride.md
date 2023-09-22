@@ -11,7 +11,7 @@ public System.Nullable<Microsoft.UI.Content.ContentLayoutDirection> LayoutDirect
 
 ## -description
 
-Gets or sets the layout direction used by a <xref:Microsoft.UI.Content.ContentSite>.
+Gets or sets the layout direction for reading order and text alignment used by a <xref:Microsoft.UI.Content.ContentSite>.
 
 ## -property-value
 

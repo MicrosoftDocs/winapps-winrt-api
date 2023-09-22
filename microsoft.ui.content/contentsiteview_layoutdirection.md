@@ -11,7 +11,7 @@ public Microsoft.UI.Content.ContentLayoutDirection LayoutDirection { get; }
 
 ## -description
 
-Gets the LayoutDirection (LeftToRight or RightToLeft) reported by the <xref:Microsoft.UI.Content.ContentSite>.
+Gets the LayoutDirection (LeftToRight or RightToLeft) for reading order and text alignment reported by the <xref:Microsoft.UI.Content.ContentSite>.
 
 ## -property-value
 

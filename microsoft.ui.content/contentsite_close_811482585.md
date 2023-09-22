@@ -9,13 +9,14 @@
 // This member is not implemented in C#
 -->
 
-
 ## -description
+
+Closes this <xref:Microsoft.UI.Content.ContentSite>.
 
 ## -remarks
 
 ## -see-also
 
+[ContentSite.Closed](contentsite_closed.md), [ContentSite.IsClosed](contentsite_isclosed.md)
+
 ## -examples
-
-

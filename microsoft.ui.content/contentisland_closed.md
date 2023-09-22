@@ -19,4 +19,6 @@ This event is intended for application developers. It is raised after a <xref:Mi
 
 ## -see-also
 
+[ContentIsland.Close](contentisland_close_811482585.md), [ContentIsland.IsClosed](contentisland_isclosed.md)
+
 ## -examples

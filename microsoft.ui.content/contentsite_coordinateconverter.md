@@ -9,15 +9,16 @@
 public Microsoft.UI.Content.ContentCoordinateConverter CoordinateConverter { get; }
 -->
 
-
 ## -description
 
+Gets a <xref:Microsoft.UI.Content.ContentCoordinateConverter> to converts between a local coordinate space and the system screen coordinates.
+
 ## -property-value
+
+A <xref:Microsoft.UI.Content.ContentCoordinateConverter> to converts between a local coordinate space and the system screen coordinates.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
