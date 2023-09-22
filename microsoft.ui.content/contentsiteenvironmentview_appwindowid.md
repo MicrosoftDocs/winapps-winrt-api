@@ -9,15 +9,16 @@
 public Microsoft.UI.WindowId AppWindowId { get; }
 -->
 
-
 ## -description
 
+Gets the ID of the top-level Win32 HWND.
+
 ## -property-value
+
+The ID of the top-level Win32 HWND.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
