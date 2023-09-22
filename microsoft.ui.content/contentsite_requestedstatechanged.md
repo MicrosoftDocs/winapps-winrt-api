@@ -15,7 +15,7 @@ Occurs when a <xref:Microsoft.UI.Content.ContentIsland> makes a new request to i
 
 ## -remarks
 
-The ContentSite owner (<xref:Microsoft.UI.Content.DesktopSiteBridge>) can examine local properties (such as <xref:Microsoft.UI.Content.ContentSite.RequestedSize>), decide policy, and then configure information (such as ActualSize) to send to the ContentIsland.
+The <xref:Microsoft.UI.Content.ContentSite> owner (<xref:Microsoft.UI.Content.DesktopSiteBridge>) can examine local properties (such as <xref:Microsoft.UI.Content.ContentSite.RequestedSize>), decide policy, and then configure information (such as <xref:Microsoft.UI.Content.ContentSite.ActualSize>) to send to the <xref:Microsoft.UI.Content.ContentIsland>.
 
 ## -see-also
 
