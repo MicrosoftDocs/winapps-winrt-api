@@ -9,19 +9,24 @@
 public enum ContentLayoutDirection
 -->
 
-
 ## -description
+
+Specifies the supported layout direction for reading order and text alignment of a <xref:Microsoft.UI.Content.ContentSite>.
 
 ## -enum-fields
 
 ### -field LeftToRight: 0
 
+Left to right layout direction.
+
 ### -field RightToLeft: 1
+
+Right to left layout direction.
 
 ## -remarks
 
 ## -see-also
 
+[ContentIsland.LayoutDirection](contentisland_layoutdirection.md), [ContentSite.LayoutDirection](contentsite_layoutdirection.md)
+
 ## -examples
-
-

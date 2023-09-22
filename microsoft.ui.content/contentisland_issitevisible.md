@@ -9,15 +9,16 @@
 public bool IsSiteVisible { get; }
 -->
 
-
 ## -description
 
+Gets whether the associated <xref:Microsoft.UI.Content.ContentSite> is visible.
+
 ## -property-value
+
+True, if the associated <xref:Microsoft.UI.Content.ContentSite> is visible; otherwise, false.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

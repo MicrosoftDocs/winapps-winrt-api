@@ -11,7 +11,7 @@ public class ContentCoordinateConverter
 
 ## -description
 
-Converts between an object's local coordinate space and screen coordinates.
+Converts between a local coordinate space and the system screen coordinates.
 
 ## -remarks
 

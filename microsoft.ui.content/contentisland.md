@@ -11,11 +11,11 @@ public class ContentIsland : Microsoft.UI.Composition.ICompositionSupportsSystem
 
 ## -description
 
-A [**ContentIsland**](contentisland.md) is a self-contained *child window* (with independent input, output, layout, and accessibility handling) that is confined to the client area of its parent [**ContentSite**](contentsite.md).
+A self-contained *child window* (with independent input, output, layout, and accessibility handling) that is confined to the client area of its parent <xref:Microsoft.UI.Content.ContentSite>.
 
 ## -remarks
 
-A [**ContentIsland**](contentisland.md) is typically used to divide the [**ContentSite**](contentsite.md) into separate functional areas (similar to a [WS_CHILD style HWND](https://docs.microsoft.com/en-us/windows/win32/winmsg/window-features#child-windows)) with [Composition](../microsoft.ui.composition/microsoft_ui_composition.md)-based animations, rendering effects and interactive manipulations.
+A <xref:Microsoft.UI.Content.ContentIsland> is typically used to divide the <xref:Microsoft.UI.Content.ContentSite> into separate functional areas (similar to a [WS_CHILD style HWND](https://docs.microsoft.com/en-us/windows/win32/winmsg/window-features#child-windows)) with <xref:Microsoft.UI.Composition>-based animations, rendering effects and interactive manipulations.
 
 ## -see-also
 

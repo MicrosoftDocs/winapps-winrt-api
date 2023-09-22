@@ -9,15 +9,16 @@
 public Windows.Graphics.SizeInt32 ClientSize { get; }
 -->
 
-
 ## -description
 
+Gets the parent Win32 HWND client size.
+
 ## -property-value
+
+The parent Win32 HWND client size.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

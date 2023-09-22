@@ -9,13 +9,12 @@
 public sealed class ContentIslandAutomationProviderRequestedEventArgs
 -->
 
-
 ## -description
+
+Contains event data for the <xref:Microsoft.UI.Content.ContentIsland.AutomationProviderRequested> event.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

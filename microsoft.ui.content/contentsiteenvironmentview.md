@@ -9,13 +9,12 @@
 public class ContentSiteEnvironmentView
 -->
 
-
 ## -description
+
+Provides access to a read-only view of <xref:Microsoft.UI.Content.ContentSiteEnvironment> properties.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

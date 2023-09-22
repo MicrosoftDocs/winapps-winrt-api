@@ -9,10 +9,13 @@
 public bool DidLayoutDirectionChange { get; }
 -->
 
-
 ## -description
 
+Gets whether the <xref:Microsoft.UI.Content.ContentIsland> layout direction changed.
+
 ## -property-value
+
+True, if the <xref:Microsoft.UI.Content.ContentIsland> layout direction changed; otherwise, false.
 
 ## -remarks
 
@@ -20,4 +23,4 @@ public bool DidLayoutDirectionChange { get; }
 
 ## -examples
 
-
+[ContentIsland.LayoutDirection](contentisland_layoutdirection.md)

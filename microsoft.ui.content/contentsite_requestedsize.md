@@ -9,15 +9,18 @@
 public System.Numerics.Vector2 RequestedSize { get; }
 -->
 
-
 ## -description
+
+Gets the logical requested size from the associated <xref:Microsoft.UI.Content.ContentIsland>.
 
 ## -property-value
 
 ## -remarks
 
+The <xref:Microsoft.UI.Content.IContentSiteBridge> integrates with the <xref:Microsoft.UI.Content.ContentSite> layout policies to decide the <xref:Microsoft.UI.Content.ContentSite.ActualSize> to return to the <xref:Microsoft.UI.Content.ContentIsland>.
+
 ## -see-also
 
+[Microsoft.UI.Content.ContentIsland.RequestSize(Windows.Foundation.Numerics.Vector2)](contentisland_requestsize_901131848.md), [ContentSiteRequestedStateChangedEventArgs](contentsiterequestedstatechangedeventargs.md)
+
 ## -examples
-
-

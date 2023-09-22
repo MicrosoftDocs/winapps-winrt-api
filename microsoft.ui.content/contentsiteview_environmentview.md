@@ -9,15 +9,16 @@
 public Microsoft.UI.Content.ContentSiteEnvironmentView EnvironmentView { get; }
 -->
 
-
 ## -description
 
+Gets the <xref:Microsoft.UI.Content.ContentSiteEnvironmentView?displayProperty=nameWithType> for this <xref:Microsoft.UI.Content.ContentSiteView>.
+
 ## -property-value
+
+The <xref:Microsoft.UI.Content.ContentSiteEnvironmentView?displayProperty=nameWithType> for this <xref:Microsoft.UI.Content.ContentSiteView>.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
