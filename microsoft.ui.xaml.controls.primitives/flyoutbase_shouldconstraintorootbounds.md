@@ -11,15 +11,15 @@ public bool ShouldConstrainToRootBounds { get;  set; }
 
 ## -description
 
-Gets or sets a value that indicates whether the flyout should be shown within the bounds of the XAML root. This property is ignored in Windows App SDK apps.
+Gets or sets a value that indicates whether the flyout should be shown within the bounds of the XAML root.
 
 ## -property-value
 
-**true** if the flyout should be shown within the bounds of the XAML root; otherwise, **false**. This value is ignored in Windows App SDK apps.
+**true** if the flyout should be shown within the bounds of the XAML root; otherwise, **false**.
 
 ## -remarks
 
-This property does not have an effect in Windows App SDK apps. The [IsConstrainedToRootBounds](flyoutbase_isconstrainedtorootbounds.md) property is always **true**.
+This property is supported in Windows App SDK apps as of version 1.4. Before that the [IsConstrainedToRootBounds](flyoutbase_isconstrainedtorootbounds.md) property is always **true**.
 
 ## -see-also
 
