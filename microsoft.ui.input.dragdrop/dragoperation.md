@@ -9,13 +9,12 @@
 public sealed class DragOperation : System.IDisposable
 -->
 
-
 ## -description
+
+Manages the overall drag and drop operation.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

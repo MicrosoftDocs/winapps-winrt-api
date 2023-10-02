@@ -11,7 +11,7 @@ public sealed class DragDropManager : System.IDisposable
 
 ## -description
 
-Manages the drag and drop process between objects.
+Manages the drag and drop operation between objects.
 
 ## -remarks
 

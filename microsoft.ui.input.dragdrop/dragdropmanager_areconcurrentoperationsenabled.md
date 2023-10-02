@@ -11,7 +11,7 @@ public bool AreConcurrentOperationsEnabled { get; set; }
 
 ## -description
 
-Gets or sets whether concurrent drag and drop operations are enabled.
+Gets or sets whether the <xref:Microsoft.UI.Input.DragDrop.DragDropManager> can handle multiple drag and drop operations concurrently.
 
 ## -property-value
 

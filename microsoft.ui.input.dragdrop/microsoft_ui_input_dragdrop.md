@@ -11,7 +11,7 @@ Provides support for the pointer-based, direct manipulation of an object (or dat
 
 ## -remarks
 
-Drag and drop is an intuitive way for users to transfer and exchange data (such as text, images, ) within an application or between applications.
+Drag and drop is an intuitive way for users to transfer and exchange data (such as text, images, URLs, files, bytes, and strings) within an application or between applications.
 
 ## -see-also
 

@@ -9,13 +9,12 @@
 public sealed class DragInfo
 -->
 
-
 ## -description
+
+Provides information about the drag and drop operation.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
