@@ -16,6 +16,8 @@ This interface is implemented by Windows widget providers to receive callbacks f
 
 ## -remarks
 
+The Windows Widgets Board supports the widget error reporting APIs starting with Windows 11, Build 26900.
+
 ## -see-also
 
 ## -examples
