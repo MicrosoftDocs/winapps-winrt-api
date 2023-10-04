@@ -9,13 +9,12 @@
 public DragOperation ();
 -->
 
-
 ## -description
+
+Initializes a new instance of the <xref:Microsoft.UI.Input.DragDrop.DragOperation> class.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

@@ -9,13 +9,14 @@
 public sealed class DragUIOverride
 -->
 
-
 ## -description
+
+Provides the visual representation of the data being dragged during a drag-and-drop operation, including feedback from the drop target.
 
 ## -remarks
 
 ## -see-also
 
+[IDropOperationTarget.EnterAsync(Microsoft.UI.Input.DragDrop.DragInfo,Microsoft.UI.Input.DragDrop.DragUIOverride)](idropoperationtarget_enterasync_496262549.md), [IDropOperationTarget.OverAsync(Microsoft.UI.Input.DragDrop.DragInfo,Microsoft.UI.Input.DragDrop.DragUIOverride)](idropoperationtarget_overasync_258889443.md)
+
 ## -examples
-
-

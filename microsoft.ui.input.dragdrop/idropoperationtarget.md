@@ -9,13 +9,14 @@
 public interface IDropOperationTarget
 -->
 
-
 ## -description
+
+Provides methods that support dragging and dropping of content.
 
 ## -remarks
 
 ## -see-also
 
+[DragUIOverride](draguioverride.md), [DropOperationTargetRequestedEventArgs.SetTarget(Microsoft.UI.Input.DragDrop.IDropOperationTarget)](dropoperationtargetrequestedeventargs_settarget_1757065104.md)
+
 ## -examples
-
-

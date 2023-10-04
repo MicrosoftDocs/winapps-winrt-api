@@ -11,17 +11,17 @@ public enum DragUIContentMode
 
 ## -description
 
-Specifies the UI override modes when dragging an object.
+Specifies the ways a UI visual can be provided when dragging an object.
 
 ## -enum-fields
 
 ### -field Auto: 0
 
-Specifies UI visual will be provided synchronously.
+Specifies the UI visual will be provided synchronously.
 
 ### -field Deferred: 1
 
-Specifies UI visual will be provided with an asynchronous task.
+Specifies the UI visual will be provided with an asynchronous task.
 
 ## -remarks
 

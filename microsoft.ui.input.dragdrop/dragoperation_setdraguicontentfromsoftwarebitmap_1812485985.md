@@ -11,7 +11,7 @@ public void SetDragUIContentFromSoftwareBitmap (Windows.Graphics.Imaging.Softwar
 
 ## -description
 
-Specifies that a bitmap image should be used as a custom drag visual (displayed at the specified offset from the input pointer) during the drag and drop operation.
+Specifies that the specified bitmap image should be used as a custom drag visual (displayed at the specified offset from the input pointer) during the drag and drop operation.
 
 ## -parameters
 

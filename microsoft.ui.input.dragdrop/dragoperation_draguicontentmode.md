@@ -11,11 +11,11 @@ public Microsoft.UI.Input.DragDrop.DragUIContentMode DragUIContentMode { get; se
 
 ## -description
 
-Gets or sets the UI override mode when dragging an object.
+Gets or sets how the UI visual is provided when dragging an object.
 
 ## -property-value
 
-The UI override mode when dragging an object.
+How the UI visual is provided when dragging an object.
 
 ## -remarks
 

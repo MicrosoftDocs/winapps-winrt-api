@@ -9,7 +9,6 @@
 public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.DataTransfer.DataPackageOperation> OverAsync (Microsoft.UI.Input.DragDrop.DragInfo dragInfo, Microsoft.UI.Input.DragDrop.DragUIOverride dragUIOverride);
 -->
 
-
 ## -description
 
 ## -parameters
@@ -25,5 +24,3 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.DataTransfer.
 ## -see-also
 
 ## -examples
-
-

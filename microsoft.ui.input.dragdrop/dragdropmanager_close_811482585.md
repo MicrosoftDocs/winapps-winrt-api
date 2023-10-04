@@ -11,7 +11,7 @@
 
 ## -description
 
-Releases system resources that are used by the <xref:Microsoft.UI.Input.DragDrop.DragDropManager>.
+Releases system resources used by the <xref:Microsoft.UI.Input.DragDrop.DragDropManager>.
 
 ## -remarks
 
