@@ -11,10 +11,10 @@ public sealed class DropOperationTargetRequestedEventArgs
 
 ## -description
 
+Contains event data for the [DragDropManager.TargetRequested](dragdropmanager_targetrequested.md) event.
+
 ## -remarks
 
 ## -see-also
-
-[DragDropManager.TargetRequested](dragdropmanager_targetrequested.md)
 
 ## -examples

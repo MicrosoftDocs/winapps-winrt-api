@@ -11,13 +11,21 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.DataTransfer.
 
 ## -description
 
+Called when an object is dragged over the drop target area.
+
 ## -parameters
 
 ### -param dragInfo
 
+Info about the drag and drop operation.
+
 ### -param dragUIOverride
 
+The visual representation of the object being dragged.
+
 ## -returns
+
+When this method completes, it returns a bitwise combination of data package operations.
 
 ## -remarks
 

@@ -11,7 +11,7 @@ public sealed class DragUIOverride
 
 ## -description
 
-Provides the visual representation of the data being dragged during a drag-and-drop operation, including feedback from the drop target.
+Provides the visual representation of the content being dragged during a drag-and-drop operation, including feedback from the drop target.
 
 ## -remarks
 

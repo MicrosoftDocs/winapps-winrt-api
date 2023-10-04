@@ -11,7 +11,7 @@ public Windows.ApplicationModel.DataTransfer.DataPackageOperation AllowedOperati
 
 ## -description
 
-Gets or sets the operation to perform on the content being dragged.
+Gets or sets the a bitwise combination of zero or more actions to perform on the content being dragged.
 
 ## -property-value
 

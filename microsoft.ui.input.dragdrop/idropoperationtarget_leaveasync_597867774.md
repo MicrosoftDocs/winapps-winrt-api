@@ -9,19 +9,22 @@
 public Windows.Foundation.IAsyncAction LeaveAsync (Microsoft.UI.Input.DragDrop.DragInfo dragInfo);
 -->
 
-
 ## -description
+
+Called when an object is dragged from the drop target area.
 
 ## -parameters
 
 ### -param dragInfo
 
+Info about the drag and drop operation.
+
 ## -returns
+
+Returns an asynchronous action with no result object.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

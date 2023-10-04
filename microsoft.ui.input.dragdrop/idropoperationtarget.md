@@ -11,7 +11,7 @@ public interface IDropOperationTarget
 
 ## -description
 
-Provides methods that support dragging and dropping of content.
+Provides methods required by a drop target in a drag and drop operation.
 
 ## -remarks
 
