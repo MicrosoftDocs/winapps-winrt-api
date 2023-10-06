@@ -15,7 +15,7 @@ Gets or sets the a bitwise combination of zero or more actions to perform on the
 
 ## -property-value
 
-The operation to perform on the content being dragged.
+The bitwise combination of zero or more actions to perform on the content being dragged.
 
 ## -remarks
 
