@@ -9,15 +9,12 @@
 public event Windows.Foundation.TypedEventHandler<Microsoft.Windows.ApplicationModel.Resources.ResourceManager,Microsoft.Windows.ApplicationModel.Resources.ResourceNotFoundEventArgs> ResourceNotFound;
 -->
 
-
 ## -description
 
-Event that fires when an attempt to get a resource fails because the specified resource was not found.
+Occurs when an attempt to get a resource fails because the specified resource was not found.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

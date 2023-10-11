@@ -9,7 +9,6 @@
 public sealed class ResourceManager
 -->
 
-
 ## -description
 
 Provides access to app resource maps and more advanced resource functionality.
@@ -18,6 +17,6 @@ Provides access to app resource maps and more advanced resource functionality.
 
 ## -see-also
 
+[IResourceManager](iresourcemanager.md)
+
 ## -examples
-
-

@@ -1,9 +1,9 @@
 ---
--api-id: P:Microsoft.Windows.ApplicationModel.Resources.ResourceContext.QualifierValues
+-api-id: P:Microsoft.Windows.ApplicationModel.Resources.IResourceContext.QualifierValues
 -api-type: winrt property
 ---
 
-# Microsoft.Windows.ApplicationModel.Resources.ResourceContext.QualifierValues
+# Microsoft.Windows.ApplicationModel.Resources.IResourceContext.QualifierValues
 
 <!--
 public System.Collections.Generic.IDictionary<string,string> QualifierValues { get; }
@@ -35,5 +35,7 @@ The map of qualifiers used to map a qualifier name to a qualifier value. The qua
 ## -remarks
 
 ## -see-also
+
+[ResourceContext.QualifierValues](resourcecontext_qualifiervalues.md)
 
 ## -examples
