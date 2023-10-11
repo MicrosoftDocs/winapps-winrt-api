@@ -1,9 +1,9 @@
 ---
--api-id: P:Microsoft.Windows.ApplicationModel.Resources.ResourceManager.MainResourceMap
+-api-id: P:Microsoft.Windows.ApplicationModel.Resources.IResourceManager.MainResourceMap
 -api-type: winrt property
 ---
 
-# Microsoft.Windows.ApplicationModel.Resources.ResourceManager.MainResourceMap
+# Microsoft.Windows.ApplicationModel.Resources.IResourceManager.MainResourceMap
 
 <!--
 public Microsoft.Windows.ApplicationModel.Resources.ResourceMap MainResourceMap { get; }
@@ -20,5 +20,7 @@ The [ResourceMap](resourcemap.md).
 ## -remarks
 
 ## -see-also
+
+[ResourceManager.MainResourceMap](resourcemanager_mainresourcemap.md)
 
 ## -examples
