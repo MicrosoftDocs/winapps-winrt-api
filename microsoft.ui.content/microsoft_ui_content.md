@@ -7,11 +7,13 @@
 
 ## -description
 
-Provides support for defining the structure of interactive content in a Windows app through [ContentSite](contentsite.md) (parent) and [ContentIsland](contentisland.md) (child) objects using composition-based animations, rendering effects, user input and interactions, accessibility representation, and host state changes.
+Provides support for defining the structure of interactive content in a Windows app through <xref:Microsoft.UI.Content.ContentSite> (parent) and <xref:Microsoft.UI.Content.ContentIsland> (child) objects using composition-based animations, rendering effects, user input and interactions, accessibility representation, and host state changes.
 
 ## -remarks
 
-A [ContentIsland](contentisland.md) is a self-contained *child window* (with independent input, output, layout, and accessibility handling) that is confined to the client area of its parent [ContentSite](contentsite.md). The [ContentIsland](contentisland.md) is typically used to divide the [ContentSite](contentsite.md) into separate functional areas (similar to a [WS_CHILD style HWND](https://docs.microsoft.com/en-us/windows/win32/winmsg/window-features#child-windows)) with [Composition](../microsoft.ui.composition/microsoft_ui_composition.md)-based animations, rendering effects and interactive manipulations.
+A <xref:Microsoft.UI.Content.ContentIsland> is a self-contained piece of content with independent input, output, layout, and accessibility that is connected to a parent <xref:Microsoft.UI.Content.ContentSite>. The <xref:Microsoft.UI.Content.ContentIsland> supports <xref:Microsoft.UI.Composition>-based animations, rendering effects, and interactive manipulations.
+
+These self-contained pieces of content can be composed into a "scene". Conceptually they are equivalent to [*child windows*](/windows/win32/winmsg/window-features#child-windows) because they allow the scene to be subdivided.
 
 ## -see-also
 
