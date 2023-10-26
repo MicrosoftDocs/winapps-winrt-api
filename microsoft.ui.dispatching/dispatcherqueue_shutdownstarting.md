@@ -15,8 +15,16 @@ Raised when either [ShutdownQueue](./dispatcherqueuecontroller_shutdownqueue_122
 
 ## -remarks
 
-**ShutdownStarting** is raised *before* the event loop exits. The handler for this event can take a deferral, and can continue to post work until the deferral completes. Once the deferral completes, the **DispatcherQueue** no longer accepts work, and [DispatcherQueue.TryEnqueue](./dispatcherqueue_tryenqueue_530434839.md) returns `false`.
+The **ShutdownStarting** event is raised from the event loop thread *before* the event loop exits. The handler for this event can take a deferral, and can continue to post work until the deferral completes. Once the deferral completes, the **DispatcherQueue** no longer accepts work, and [DispatcherQueue.TryEnqueue](./dispatcherqueue_tryenqueue_530434839.md) returns `false`.
 
 ## -see-also
 
 ## -examples
+
+```csharp
+// Invoked after the DispatcherQueue event loop exits.
+_dispatcherQueue.ShutdownCompleted += (s, e) =>
+{
+    // clean up state
+};
+```
