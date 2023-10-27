@@ -11,7 +11,7 @@ public Microsoft.UI.Xaml.DependencyObject XYFocusRight { get; set; }
 
 ## -description
 
-Gets or sets the object that gets focus when a user presses right on the Directional Pad (D-pad) of an Xbox controller.
+Gets or sets the object that gets focus when a user presses right on the Directional Pad (D-pad) of a game controller.
 
 ## -property-value
 
