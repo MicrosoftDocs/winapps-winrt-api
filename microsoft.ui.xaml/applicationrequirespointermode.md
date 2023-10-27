@@ -16,7 +16,7 @@ public enum Microsoft.UI.Xaml.ApplicationRequiresPointerMode : int
 >
 > ApplicationRequiresPointerMode is not supported in the Windows App SDK.
 
-Specifies the interaction experiences for non-pointer devices such as a keyboard or Xbox controller.
+Specifies the interaction experiences for non-pointer devices such as a keyboard or game controller.
 
 ## -enum-fields
 

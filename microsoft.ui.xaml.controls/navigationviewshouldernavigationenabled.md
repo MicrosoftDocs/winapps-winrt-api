@@ -10,21 +10,21 @@ public enum NavigationViewShoulderNavigationEnabled : int
 
 ## -description
 
-Defines constants that specify when Xbox controller bumpers can be used to navigate the top-level navigation items in a NavigationView.
+Defines constants that specify when game controller bumpers can be used to navigate the top-level navigation items in a NavigationView.
 
 ## -enum-fields
 
 ### -field WhenSelectionFollowsFocus:0
 
-Xbox controller bumpers navigate the top-level navigation items when the [SelectionFollowsFocus](navigationview_selectionfollowsfocus.md) property is **Enabled**.
+Game controller bumpers navigate the top-level navigation items when the [SelectionFollowsFocus](navigationview_selectionfollowsfocus.md) property is **Enabled**.
 
 ### -field Never:2
 
-Xbox controller bumpers never navigate the top-level navigation items.
+Game controller bumpers never navigate the top-level navigation items.
 
 ### -field Always:1
 
-Xbox controller bumpers always navigate the top-level navigation items.
+Game controller bumpers always navigate the top-level navigation items.
 
 ## -remarks
 
