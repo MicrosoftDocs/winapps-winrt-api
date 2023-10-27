@@ -19,7 +19,9 @@ The [DispatcherQueue](dispatcherqueue.md) on the calling thread.
 
 ## -remarks
 
-You can access the created DispatcherQueue through [DispatcherQueueController.DispatcherQueue](dispatcherqueuecontroller_dispatcherqueue.md).
+You can access the created **DispatcherQueue** through [DispatcherQueueController.DispatcherQueue](dispatcherqueuecontroller_dispatcherqueue.md).
+
+So that the dispatcher queue can dispatch tasks, the current thread must pump messages. Before the current thread exits, it must call [DispatcherQueueController.ShutdownQueueAsync](./dispatcherqueuecontroller_shutdownqueueasync_542547627.md), and continue pumping messages until the **IAsyncAction** completes; or else call [DispatcherQueueController.ShutdownQueue](./dispatcherqueuecontroller_shutdownqueue_1224442331.md), which doesn't return until the queue is shut down.
 
 ## -see-also
 

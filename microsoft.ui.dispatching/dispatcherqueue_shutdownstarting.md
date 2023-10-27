@@ -22,9 +22,14 @@ The **ShutdownStarting** event is raised from the event loop thread *before* the
 ## -examples
 
 ```csharp
-// Invoked after the DispatcherQueue event loop exits.
-_dispatcherQueue.ShutdownCompleted += (s, e) =>
+_dispatcherQueue.ShutdownStarting += (s, e) =>
 {
-    // clean up state
+    // Queue is shutting down, do this last operation to  
+    // update state before the dispatcher loop exits
+    _queue.TryEnqueue(
+        () =>
+        {
+            // clean up state
+        });
 };
 ```
