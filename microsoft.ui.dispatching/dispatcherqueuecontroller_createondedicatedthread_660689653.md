@@ -19,6 +19,7 @@ The [DispatcherQueue](dispatcherqueue.md) that you can use to run tasks on a ded
 
 ## -remarks
 
+This method creates a thread, and associates a <a href="/uwp/api/windows.system.dispatcherqueue">DispatcherQueue</a> with that thread. A [DispatcherQueue](dispatcherqueue.md) is created, and associated with the current thread. 
 You can access the created **DispatcherQueue** via [DispatcherQueueController.DispatcherQueue](./dispatcherqueuecontroller_dispatcherqueue.md).
 
 The created **DispatcherQueue** continues running on its dedicated thread until explicitly shut down. To avoid thread and memory leaks, when you're finished with the **DispatcherQueue** call [DispatcherQueueController.ShutdownQueue](./dispatcherqueuecontroller_shutdownqueue_1224442331.md) or [DispatcherQueueController.ShutdownQueueAsync](./dispatcherqueuecontroller_shutdownqueueasync_542547627.md).
