@@ -12,15 +12,15 @@ public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Xaml.Controls.Lin
 
 ## -description
 
-Occurs whenever items that had been locked into specific lines through [LockItemToLine](linedflowlayout_lockitemtoline_1703557441.md) method calls are unlocked again.
+Occurs whenever items that had been locked into specific lines through calls to the [LockItemToLine](linedflowlayout_lockitemtoline_1703557441.md) method are unlocked again.
 
 ## -remarks
 
 Locked items become unlocked again and trigger this event when:
 
-- the available width for the `LinedFlowLayout` changed.
-- the `ItemsSource` data source has changed. For example an item is added, removed or resized.
-- the `ActualLineHeight` property changed.
+- the available width for the [LinedFlowLayout](linedflowlayout.md) changed.
+- the [ItemsSource](itemsview_itemssource.md) data has changed. For example an item is added, removed, or resized.
+- the [ActualLineHeight](linedflowlayout_actuallineheight.md) property changed.
 
 ## -see-also
 

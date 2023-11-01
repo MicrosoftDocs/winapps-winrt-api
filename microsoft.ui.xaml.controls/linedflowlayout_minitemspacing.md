@@ -20,8 +20,16 @@ The minimum space (in pixels) between items on the horizontal axis. The default 
 
 ## -remarks
 
+The spacing may exceed this minimum value when [ItemsStretch](linedflowlayout_itemsstretch.md) is set to `None` and [ItemsJustification](linedflowlayout_itemsjustification.md) is set to `SpaceEvenly`, `SpaceAround`, or `SpaceBetween`.
+
 ## -see-also
 
 ## -examples
 
-
+```xaml
+<ItemsView ItemsSource="{x:Bind Photos}">
+    <ItemsView.Layout>
+        <LinedFlowLayout MinItemSpacing="6"/>
+    </ItemsView.Layout>
+</ItemsView>
+```

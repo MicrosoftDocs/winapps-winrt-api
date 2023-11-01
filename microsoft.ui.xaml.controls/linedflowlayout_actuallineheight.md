@@ -20,9 +20,9 @@ The effective fixed height of the lines.
 
 ## -remarks
 
-The `LineHeight` property may be set to its default `NaN` value, therefore, you can use the `ActualLineHeight` property get the effective height of the lines. That fallback value is based on the desired size (`UIElement.DesiredSize`) of the item at index 0.
+If the [LineHeight](linedflowlayout_lineheight.md) property is set to its default `Double.NaN` value, the line height is based on the desired size (`UIElement.DesiredSize`) of the item at index 0. In this case, you can use the `ActualLineHeight` property to get the effective height of the lines.
 
-Returns 0.0 when the `LinedFlowLayout`'s consuming `ItemsRepeater` has not been loaded or has not yet been involved in a layout pass that renders the UI.
+ LinedFlowLayout is used with the [ItemsView.Layout](itemsview_layout.md) or [ItemsRepeater.Layout](itemsrepeater_layout.md) properties. When the control for which this LinedFlowLayout provides layout has not been loaded or has not yet been involved in a layout pass that renders the UI, this property value is 0.0.
 
 ## -see-also
 
