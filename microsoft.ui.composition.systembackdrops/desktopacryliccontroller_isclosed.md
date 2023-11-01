@@ -22,7 +22,7 @@ Gets a value that indicates whether the object is closed (disposed).
 
 ## -see-also
 
-[IClosableNotifier](iclosablenotifier.md)
+[IClosableNotifier](../microsoft.ui/iclosablenotifier.md)
 
 ## -examples
 

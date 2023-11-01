@@ -15,9 +15,6 @@ Provides infrastructure support for event wiring and build actions.
 
 ## -remarks
 
-> **Windows 10**
-> Apps compiled by the XAML compiler for Windows 10 implement [IComponentConnector2](icomponentconnector2.md). Apps will fall back to IComponentConnector for compatibility if necessary.
-
 Unless you are substantially extending the capabilities of a XAML framework or XAML design tools, you probably won't need to generate or implement IComponentConnector. The remainder of the remarks here are intended to orient you to the purpose of IComponentConnector in the [Application](../microsoft.ui.xaml/application.md)-based app model and to explain the role of IComponentConnector in the generated code that Microsoft Visual Studio infrastructure creates as part of a typical XAML project.
 
 By default, when you add a XAML page to a UWP app project in Microsoft Visual Studio, its **BuildAction** is **Page**. When you build the project, all project items with that build action are processed, and code files that match the programming language choice of the project are generated. The generated code files all contain the string ".g" in their name and can be observed in the obj folder of the project after compilation. The generated files implement one part of the partial class definition that the [Application](../microsoft.ui.xaml/application.md)-based app model uses to connect XAML and code aspects of an app definition. The process of generating partial classes from XAML is sometimes referred to as *markup compilation.*

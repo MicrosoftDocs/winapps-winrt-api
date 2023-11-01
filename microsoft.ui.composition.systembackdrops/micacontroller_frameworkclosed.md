@@ -18,7 +18,7 @@ Occurs when the object has been closed (disposed), before the [Closed](desktopac
 
 ## -see-also
 
-[IClosableNotifier](iclosablenotifier.md)
+[IClosableNotifier](../microsoft.ui/iclosablenotifier.md)
 
 ## -examples
 

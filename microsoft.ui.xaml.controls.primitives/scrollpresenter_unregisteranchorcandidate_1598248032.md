@@ -18,7 +18,7 @@ Unregisters a [UIElement](../microsoft.ui.xaml/uielement.md) as a potential scro
 
 ### -param element
 
-A [UIElement](../microsoft.ui.xaml/uielement.md) within the subtree of the [ScrollView](scrollview.md).
+A [UIElement](../microsoft.ui.xaml/uielement.md) within the subtree of the [ScrollView](../microsoft.ui.xaml.controls/scrollview.md).
 
 ## -remarks
 
