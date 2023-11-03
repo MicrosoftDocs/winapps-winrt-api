@@ -16,7 +16,7 @@ Represents the base animation class.
 
 This is the base class for [ExpressionAnimation](expressionanimation.md) and [KeyFrameAnimation](keyframeanimation.md).
 
-Use the [CompostionObject.StartAnimation](compositionobject_startanimation_394405412.md) and [CompostionObject.StopAnimation](compositionobject_stopanimation_1075337060.md) methods to start and stop the animation.
+Use the [CompositionObject.StartAnimation](compositionobject_startanimation_394405412.md) and [CompositionObject.StopAnimation](compositionobject_stopanimation_1075337060.md) methods to start and stop the animation.
 
 Value parameters (as opposed to reference parameters which are set using [SetReferenceParameter](compositionanimation_setreferenceparameter_1113449737.md)) are copied and "embedded" into an expression at the time [CompositionObject.StartAnimation](compositionobject_startanimation_394405412.md) is called. Changing the value of the variable after [CompositionObject.StartAnimation](compositionobject_startanimation_394405412.md) is called will not affect the value of the [ExpressionAnimation](expressionanimation.md). See the remarks section of [ExpressionAnimation](expressionanimation.md) for additional information.
 
