@@ -25,24 +25,24 @@ Call this method to replace the system title bar with a custom title bar UI for 
 
 The rectangular area occupied by the specified element acts as the title bar for pointer purposes, even if the element is blocked by another element, or the element is transparent.
 
-If you want to place interactive elements in the title bar area, you can use [InputNonClientPointerSource](https://learn.microsoft.com/en-us/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputnonclientpointersource) apis. Refer to the [Titlebar](https://github.com/microsoft/WinUI-Gallery/blob/main/WinUIGallery/ControlPages/TitleBarPage.xaml.cs) sample in [WinUI Gallery](https://github.com/microsoft/WinUI-Gallery) for an example. 
+If you want to place interactive elements in the title bar area, you can use [InputNonClientPointerSource](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputnonclientpointersource) APIs. Refer to the [Titlebar](https://github.com/microsoft/WinUI-Gallery/blob/main/WinUIGallery/ControlPages/TitleBarPage.xaml.cs) page in the [WinUI Gallery](https://github.com/microsoft/WinUI-Gallery) sample for an example. 
 
 ## Extend content into title bar
 
 To specify a custom title bar, you must set [ExtendsContentIntoTitleBar](window_extendscontentintotitlebar.md) to `true` to hide the default system title bar. If `ExtendsContentIntoTitleBar` is `false`, the call to `SetTitleBar` does not have any effect. Your custom title bar element is shown in the body of your app window as an ordinary UI element and does not get the title bar behaviors.
 
-If you set [ExtendsContentIntoTitleBar](window_extendscontentintotitlebar.md) to `true` but do not call `SetTitleBar` (same as calling `SetTitlebar` with a **null** argument), a default custom title bar will provided. This default title bar is direct replacement of system title bar in position, width and height, and most common use of this feature. If one wants a specialized title bar, they can call [SetTitleBar](window_settitlebar_1494775390.md) with a [`UIElement`](uielement.md) and get a title bar area on that `UIElement`'s position, width and height.
-That `UIElement` can be hosted anywhere within the contents of the app, not just the non-client area.
+If you set [ExtendsContentIntoTitleBar](window_extendscontentintotitlebar.md) to `true` but do not call `SetTitleBar` (or call `SetTitlebar` with a `null` argument), a default custom title bar is provided. This default title bar is a direct replacement of the system title bar in position, width, and height. If you want a specialized title bar, you can call [SetTitleBar](window_settitlebar_1494775390.md) with a [`UIElement`](uielement.md) and get a title bar area on that `UIElement`'s position, width, and height. That `UIElement` can be hosted anywhere within the contents of the app, not just the non-client area.
 
 ## Title bar element
 
 Only a single element can be specified as the title bar. If multiple elements are required, they can be specified as child elements of a single container (such as a [Grid](../microsoft.ui.xaml.controls/grid.md) or [StackPanel](../microsoft.ui.xaml.controls/stackpanel.md)). 
 
-The custom title bar works best when it is not deep nested within the app. Deep nesting the [UIElement](uielement.md) within the XAML tree can cause unpredictable layout behaviors. The title bar will always be a of rectangular shape. In case of non-rectangular `UIElement`, its rectangular bounding rectangle will be used for dimensions of the title bar.
+The custom title bar works best when it is not deep nested within the app. Deep nesting the [UIElement](uielement.md) within the XAML tree can cause unpredictable layout behaviors. The title bar will always be a of rectangular shape. In case of a non-rectangular `UIElement`, its rectangular bounding rectangle will be used for dimensions of the title bar.
 
 ## Colors
-Custom title bar uses [AppWindow title bar](https://learn.microsoft.com/en-us/windows/windows-app-sdk/api/winrt/microsoft.ui.windowing.appwindowtitlebar) underneath, for its implementation. As a result, one can use AppWindowTitleBar theming apis for colors like [`ButtonBackgroundColor`](https://learn.microsoft.com/en-us/windows/windows-app-sdk/api/winrt/microsoft.ui.windowing.appwindowtitlebar.buttonbackgroundcolor), [`ButtonForegroundColor`](https://learn.microsoft.com/en-us/windows/windows-app-sdk/api/winrt/microsoft.ui.windowing.appwindowtitlebar.buttonforegroundcolor) etc.
-The earlier resource based theming (like `WindowCaptionBackground`) is deprecated and doesn't have any effect.
+A custom title bar uses an [AppWindow title bar](/windows/windows-app-sdk/api/winrt/microsoft.ui.windowing.appwindowtitlebar) for its implementation. As a result, you can use AppWindowTitleBar theming APIs for colors like [`ButtonBackgroundColor`](/windows/windows-app-sdk/api/winrt/microsoft.ui.windowing.appwindowtitlebar.buttonbackgroundcolor), [`ButtonForegroundColor`](/windows/windows-app-sdk/api/winrt/microsoft.ui.windowing.appwindowtitlebar.buttonforegroundcolor), etc.
+
+The resource based theming used in earlier versions (like `WindowCaptionBackground`) is deprecated and doesn't have any effect.
 
 ## -examples
 
