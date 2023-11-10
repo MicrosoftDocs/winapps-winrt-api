@@ -9,17 +9,18 @@
 public XamlSourceFocusNavigationResult (bool focusMoved);
 -->
 
-
 ## -description
+
+Initializes a new [XamlSourceFocusNavigationResult](xamlsourcefocusnavigationresult.md) object.
 
 ## -parameters
 
 ### -param focusMoved
+
+True, if the focus successfully moved to the [DesktopWindowXamlSource](desktopwindowxamlsource.md) object; otherwise, false.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

@@ -9,13 +9,12 @@
 public sealed class XamlSourceFocusNavigationRequest
 -->
 
-
 ## -description
+
+Provides information about a focus request for a [DesktopWindowXamlSource](desktopwindowxamlsource.md) object.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

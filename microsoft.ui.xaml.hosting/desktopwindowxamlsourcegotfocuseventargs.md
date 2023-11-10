@@ -9,13 +9,12 @@
 public sealed class DesktopWindowXamlSourceGotFocusEventArgs
 -->
 
-
 ## -description
+
+Provides event data for the [GotFocus](desktopwindowxamlsource_gotfocus.md) event.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
