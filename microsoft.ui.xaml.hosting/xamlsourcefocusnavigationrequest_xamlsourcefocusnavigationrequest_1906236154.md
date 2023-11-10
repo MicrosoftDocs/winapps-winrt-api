@@ -9,17 +9,18 @@
 public XamlSourceFocusNavigationRequest (Microsoft.UI.Xaml.Hosting.XamlSourceFocusNavigationReason reason);
 -->
 
-
 ## -description
+
+Initializes a new instance of a [XamlSourceFocusNavigationRequest](xamlsourcefocusnavigationrequest.md) object for the the specified navigation request reason.
 
 ## -parameters
 
 ### -param reason
+
+The reason for the navigation request.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

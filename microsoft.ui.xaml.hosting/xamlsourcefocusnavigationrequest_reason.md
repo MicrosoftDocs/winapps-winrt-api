@@ -9,7 +9,6 @@
 public Microsoft.UI.Xaml.Hosting.XamlSourceFocusNavigationReason Reason { get; }
 -->
 
-
 ## -description
 
 ## -property-value
@@ -19,5 +18,3 @@ public Microsoft.UI.Xaml.Hosting.XamlSourceFocusNavigationReason Reason { get; }
 ## -see-also
 
 ## -examples
-
-

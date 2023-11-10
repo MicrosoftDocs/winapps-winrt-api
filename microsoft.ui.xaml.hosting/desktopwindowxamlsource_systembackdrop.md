@@ -9,15 +9,16 @@
 public Microsoft.UI.Xaml.Media.SystemBackdrop SystemBackdrop { get; set; }
 -->
 
-
 ## -description
 
+Gets or sets the system backdrop used to render materials like Mica and Acrylic.
+
 ## -property-value
+
+The system backdrop used to render materials like Mica and Acrylic.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

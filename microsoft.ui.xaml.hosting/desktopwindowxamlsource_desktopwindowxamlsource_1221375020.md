@@ -9,13 +9,12 @@
 public DesktopWindowXamlSource ();
 -->
 
-
 ## -description
+
+Initializes a new instance of the [DesktopWindowXamlSource](desktopwindowxamlsource.md) class.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
