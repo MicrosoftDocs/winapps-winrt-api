@@ -35,6 +35,6 @@ Rounds up to the smallest integer greater than or equal to the provided floating
 
 ## -see-also
 
-[ContentCoordinateConverter.ConvertLocalToScreen](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentcoordinateconverter.convertlocaltoscreen)
+[ContentCoordinateConverter.ConvertLocalToScreen](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentcoordinateconverter.convertlocaltoscreen(windows-foundation-point()-microsoft-ui-content-contentcoordinateroundingmode))
 
 ## -examples
