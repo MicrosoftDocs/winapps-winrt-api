@@ -59,6 +59,6 @@ The input passthrough area.
 
 ## -see-also
 
-[x](./inputnonclientpointersource_setregionrects_173201787.md)
+[x](./inputnonclientpointersource_setregionrects_173201787.md), [x](./inputnonclientpointersource_getregionrects_2047411245.md), [x](./inputnonclientpointersource_clearregionrects_825586773.md), [x](./inputnonclientpointersource_clearallregionrects_1259679153.md), [x](./nonclientpointereventargs_regionkind.md), [x](./nonclientregionschangedeventargs_changedregions.md)
 
 ## -examples
