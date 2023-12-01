@@ -59,6 +59,6 @@ The input passthrough area.
 
 ## -see-also
 
-[InputNonClientPointerSource.SetRegionRects](./inputnonclientpointersource_setregionrects_173201787.md)
+[x](./inputnonclientpointersource_setregionrects_173201787.md)
 
 ## -examples
