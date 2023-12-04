@@ -59,6 +59,6 @@ The input passthrough area.
 
 ## -see-also
 
-[InputNonClientPointerSource.SetRegionRects(Microsoft.UI.Input.NonClientRegionKind,Windows.Graphics.RectInt32[])](inputnonclientpointersource_setregionrects_173201787.md), [InputNonClientPointerSource.GetRegionRects(Microsoft.UI.Input.NonClientRegionKind)](inputnonclientpointersource_getregionrects_2047411245.md), [InputNonClientPointerSource.ClearRegionRects(Microsoft.UI.Input.NonClientRegionKind)](inputnonclientpointersource_clearregionrects_825586773.md), [NonClientPointerEventArgs.RegionKind](nonclientpointereventargs_regionkind.md), [NonClientRegionsChangedEventArgs.ChangedRegions](nonclientregionschangedeventargs_changedregions.md)
+[x](./inputnonclientpointersource_setregionrects_173201787.md), [x](./inputnonclientpointersource_getregionrects_2047411245.md), [x](./inputnonclientpointersource_clearregionrects_825586773.md), [x](./inputnonclientpointersource_clearallregionrects_1259679153.md), [x](./nonclientpointereventargs_regionkind.md), [x](./nonclientregionschangedeventargs_changedregions.md)
 
 ## -examples
