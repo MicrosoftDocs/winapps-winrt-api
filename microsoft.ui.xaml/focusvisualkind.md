@@ -11,7 +11,7 @@ public enum Microsoft.UI.Xaml.FocusVisualKind : int
 
 ## -description
 
-Specifies the visual feedback used to indicate the UI element with focus when navigating with a keyboard or Xbox controller.
+Specifies the visual feedback used to indicate the UI element with focus when navigating with a keyboard or game controller.
 
 ## -enum-fields
 

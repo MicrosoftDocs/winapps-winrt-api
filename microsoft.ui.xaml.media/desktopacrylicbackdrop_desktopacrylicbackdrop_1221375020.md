@@ -9,10 +9,9 @@
 public DesktopAcrylicBackdrop ();
 -->
 
-
 ## -description
 
-Initializes a new instance of the **DesktopAcrylicBackdrop** class.
+Initializes a new instance of the `DesktopAcrylicBackdrop` class.
 
 ## -remarks
 

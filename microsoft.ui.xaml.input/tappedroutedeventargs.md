@@ -104,24 +104,5 @@ void target_Tapped(object sender, TappedRoutedEventArgs e)
 }
 ```
 
-```vb
-Public Sub New()
-    Me.InitializeComponent()
-    AddHandler pressedTarget.PointerPressed, New PointerEventHandler(AddressOf target_PointerPressed)
-    AddHandler pressedTarget.PointerReleased, New PointerEventHandler(AddressOf target_PointerReleased)
-    AddHandler enterExitTarget.PointerEntered, New PointerEventHandler(AddressOf target_PointerEntered)
-    AddHandler enterExitTarget.PointerExited, New PointerEventHandler(AddressOf target_PointerExited)
-    AddHandler tapTarget.Tapped, New TappedEventHandler(AddressOf target_Tapped)
-    AddHandler tapTarget.DoubleTapped, New DoubleTappedEventHandler(AddressOf target_DoubleTapped)
-    AddHandler holdTarget.Holding, New HoldingEventHandler(AddressOf target_Holding)
-    AddHandler holdTarget.RightTapped, New RightTappedEventHandler(AddressOf target_RightTapped)
-End Sub
-
-Sub target_Tapped(sender As Object, e As TappedRoutedEventArgs)
-    tapTarget.Background = New SolidColorBrush(Windows.UI.Colors.DeepSkyBlue)
-    tapTargetText.Text = "Tapped"
-End Sub
-```
-
 ## -see-also
 [RoutedEventArgs](../microsoft.ui.xaml/routedeventargs.md), [Basic input sample](https://github.com/Microsoft/Windows-universal-samples/tree/fe8567faf2efdea3672c2ba642ba7b925ff6467e/Samples/BasicInput)

@@ -34,7 +34,7 @@ The slider controls the Alpha channel.
 
 ## -see-also
 
-[ColorSpectrum](../microsoft.ui.xaml.controls.primitives/colorspectrum.md), [Color picker](https://docs.microsoft.com/windows/uwp/controls-and-patterns/color-picker)
+[ColorSpectrum](../microsoft.ui.xaml.controls.primitives/colorspectrum.md), [Color picker](/windows/uwp/controls-and-patterns/color-picker)
 
 ## -examples
 

@@ -29,9 +29,7 @@ A property metadata object.
 
 This example implements a utility method that reports the default value of a given dependency property as it exists in [FrameworkElement](frameworkelement.md), based on the default value registered and stored in the metadata.
 
-[!code-csharp[DPGetMetadata](../microsoft.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDPGetMetadata)]
-
-[!code-vb[DPGetMetadata](../microsoft.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDPGetMetadata)]
+[!code-csharp[DPGetMetadata](../microsoft.ui.xaml/code/DOandDPExamples/csharp/Class1.cs#SnippetDPGetMetadata)]
 
 ## -see-also
 

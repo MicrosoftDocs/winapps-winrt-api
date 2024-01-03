@@ -7,7 +7,7 @@
 
 ## -description
 
-Provides a basic type for cross-framework input integration and interoperation. At this time, this includes an interface and support type that expose pen device input.
+Provides a basic type for cross-framework input integration and inter-operation. At this time, this includes an interface and support type that expose pen device input.
 
 ## -remarks
 

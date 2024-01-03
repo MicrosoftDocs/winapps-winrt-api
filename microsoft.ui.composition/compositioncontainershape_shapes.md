@@ -11,11 +11,11 @@ public CompositionShapeCollection Shapes { get; }
 
 ## -description
 
-Gets the collection of CompostionShapes in this container.
+Gets the collection of CompositionShapes in this container.
 
 ## -property-value
 
-The collection of CompostionShapes in this container.
+The collection of CompositionShapes in this container.
 
 ## -remarks
 

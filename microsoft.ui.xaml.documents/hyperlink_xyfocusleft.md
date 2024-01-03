@@ -19,7 +19,7 @@ The object that gets focus when a user presses the Directional Pad (DPAD).
 
 ## -remarks
 
-This property is supported only when using an Xbox controller. The property is ignored otherwise.
+This property is supported only when using a game controller. The property is ignored otherwise.
 
 ## -examples
 

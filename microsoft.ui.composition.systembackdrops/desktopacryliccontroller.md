@@ -21,6 +21,6 @@ Background acrylic reveals the desktop wallpaper and other windows that are behi
 
 ## -see-also
 
-[Materials](/windows/apps/design/signature-experiences/materials), [Acrylic](/windows/apps/design/style/acrylic), [ISystemBackdropController](isystembackdropcontroller.md)
+[Materials](/windows/apps/design/signature-experiences/materials), [Acrylic](/windows/apps/design/style/acrylic), [ISystemBackdropController](isystembackdropcontroller.md), [DesktopAcrylicBackdrop](../microsoft.ui.xaml.media/desktopacrylicbackdrop.md)
 
 ## -examples

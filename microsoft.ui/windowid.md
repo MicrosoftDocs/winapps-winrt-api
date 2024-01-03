@@ -13,8 +13,6 @@ public struct WindowId
 
 Defines an identifier for a top-level window.
 
-For more info, and code examples, see [Manage app windows](/windows/apps/windows-app-sdk/windowing/windowing-overview).
-
 ## -struct-fields
 
 ### -field Value
@@ -22,6 +20,8 @@ For more info, and code examples, see [Manage app windows](/windows/apps/windows
 The identifier for a top-level window.
 
 ## -remarks
+
+For more info, and code examples, see [Manage app windows](/windows/apps/windows-app-sdk/windowing/windowing-overview).
 
 ## -examples
 

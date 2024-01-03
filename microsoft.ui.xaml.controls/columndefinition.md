@@ -26,7 +26,6 @@ The following example uses three ColumnDefinitionand three [RowDefinition](rowde
 
 
 [!code-xaml[ColumnDefinitionClassXAML](../microsoft.ui.xaml.controls/code/ColumnDefinitionClassXAMLSample/csharp/Page.xaml#SnippetColumnDefinitionClassXAML)]
-<!--<auto_snippet sample_id="ColumnDefinitionClassCodeSample" snippet_id="ColumnDefinitionClassCode"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>-->
 
 ## -see-also
 [DependencyObject](../microsoft.ui.xaml/dependencyobject.md), [Grid](grid.md), [RowDefinition](rowdefinition.md), [ColumnDefinitions](grid_columndefinitions.md), [RowDefinitions](grid_rowdefinitions.md)

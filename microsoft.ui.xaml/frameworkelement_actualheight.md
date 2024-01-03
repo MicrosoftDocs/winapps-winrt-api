@@ -36,8 +36,6 @@ This example shows a common scenario where you use the ActualHeight of one or mo
 
 [!code-csharp[FEActualHeight](../microsoft.ui.xaml/code/BaseElementEvents/csharp/PageWithAppBar.xaml.cs#SnippetFEActualHeight)]
 
-[!code-vb[FEActualHeight](../microsoft.ui.xaml/code/BaseElementEvents/vbnet/PageWithAppBar.xaml.vb#SnippetFEActualHeight)]
-
 ## -see-also
 
 [ActualWidth](frameworkelement_actualwidth.md), [Height](frameworkelement_height.md), [SizeChanged](frameworkelement_sizechanged.md)

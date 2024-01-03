@@ -72,9 +72,7 @@ There are several methods that are utility methods for the Windows Runtime prope
 
 This example shows a basic usage where a `DependencyProperty` is established as a public static member of a class. This is done by calling [Register](dependencyproperty_register_928563513.md) and storing the return value as a member of the class. For more examples, see [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties).
 
-[!code-csharp[DOSimpleDP](../microsoft.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDOSimpleDP)]
-
-[!code-vb[DOSimpleDP](../microsoft.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDOSimpleDP)]
+[!code-csharp[DOSimpleDP](../microsoft.ui.xaml/code/DOandDPExamples/csharp/Class1.cs#SnippetDOSimpleDP)]
 
 > A Visual C++ component extensions (C++/CX) example isn't shown here because it must be factored completely differently than the Microsoft .NET examples, and involves several different code files. See examples in [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties).
 

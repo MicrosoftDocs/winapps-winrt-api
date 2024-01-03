@@ -11,17 +11,15 @@ public bool IsRepeating { get; set; }
 
 ## -description
 
-Gets or sets whether the timer is repeating.
+Gets or sets a value that indicates whether the timer is repeating.
 
 ## -property-value
 
-**True** indicates that the timer fires every **DispatcherQueueTimer.Interval**.
-
-**False** indicates that the timer fires once, after **DispatcherQueueTimer.Interval** elapses.
+`true` to indicate that the timer fires every **DispatcherQueueTimer.Interval**; `false` to indicate that the timer fires once, after **DispatcherQueueTimer.Interval** elapses. The default is `true`.
 
 ## -remarks
 
-If you change the **IsRepeating** value while the timer is running, the timer will restart with the new value.
+If you change the `IsRepeating` value while the timer is running, the timer will restart with the new value.
 
 ## -see-also
 

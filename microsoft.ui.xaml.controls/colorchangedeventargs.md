@@ -16,7 +16,7 @@ Provides event data for a ColorChanged event (see [ColorPicker.ColorChanged](col
 
 ## -see-also
 
-[Color picker](https://docs.microsoft.com/windows/uwp/controls-and-patterns/color-picker)
+[Color picker](/windows/uwp/controls-and-patterns/color-picker)
 
 ## -examples
 

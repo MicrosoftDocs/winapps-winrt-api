@@ -9,14 +9,13 @@
 public static Microsoft.UI.Xaml.DependencyProperty KindProperty { get; }
 -->
 
-
 ## -description
 
-Identifies the **Kind** dependency property.
+Identifies the `Kind` dependency property.
 
 ## -property-value
 
-The identifier for the **Kind** dependency property.
+The identifier for the `Kind` dependency property.
 
 ## -remarks
 

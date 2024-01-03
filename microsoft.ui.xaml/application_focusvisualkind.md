@@ -19,7 +19,7 @@ The type of visual feedback used to indicate the UI element that has focus. The 
 
 ## -remarks
 
-> This property is valid only for input devices that can generate key events, such as a keyboard or Xbox controller.
+> This property is valid only for input devices that can generate key events, such as a keyboard or game controller.
 
 [HighVisibility](focusvisualkind.md) focus visuals are rendered with an outer (primary) and inner (secondary) border.
 

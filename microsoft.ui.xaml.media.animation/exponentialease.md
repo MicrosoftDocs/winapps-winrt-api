@@ -34,7 +34,5 @@ This XAML example applies a ExponentialEase easing function to a [DoubleAnimatio
 
 [!code-csharp[ExponentialEase_code](../microsoft.ui.xaml.media.animation/code/ExponentialEase/csharp/Page.xaml.cs#SnippetExponentialEase_code)]
 
-[!code-vb[ExponentialEase_code](../microsoft.ui.xaml.media.animation/code/ExponentialEase/vbnet/MainPage.xaml.vb#SnippetExponentialEase_code)]
-
 ## -see-also
 [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations), [Key-frame animations and easing function animations](/windows/apps/design/motion/key-frame-and-easing-function-animations), [EasingFunctionBase](easingfunctionbase.md), [PowerEase](powerease.md), [BackEase](backease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ElasticEase](elasticease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md)

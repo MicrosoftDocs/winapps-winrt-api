@@ -65,9 +65,5 @@ private void Decrease_Click(object sender, RoutedEventArgs e)
 }
 ```
 
-
-<!--<auto_snippet sample_id="System.Windows.Controls.RepeatButtonEx" snippet_id="1"/>
-        <auto_snippet sample_id="System.Windows.Controls.RepeatButtonEx" snippet_id="11"/>-->
-
 ## -see-also
 [ButtonBase](buttonbase.md)

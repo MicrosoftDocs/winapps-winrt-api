@@ -32,7 +32,5 @@ This XAML example applies a QuinticEase easing function to a [DoubleAnimation](d
 
 [!code-csharp[QuinticEase_code](../microsoft.ui.xaml.media.animation/code/QuinticEase/csharp/Page.xaml.cs#SnippetQuinticEase_code)]
 
-[!code-vb[QuinticEase_code](../microsoft.ui.xaml.media.animation/code/QuinticEase/vbnet/MainPage.xaml.vb#SnippetQuinticEase_code)]
-
 ## -see-also
 [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations), [Key-frame animations and easing function animations](/windows/apps/design/motion/key-frame-and-easing-function-animations), [PowerEase](powerease.md), [BackEase](backease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ElasticEase](elasticease.md), [ExponentialEase](exponentialease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [SineEase](sineease.md), [QuarticEase](quarticease.md), [SineEase](sineease.md)

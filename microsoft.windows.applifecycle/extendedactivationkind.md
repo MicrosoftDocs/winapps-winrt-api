@@ -161,7 +161,7 @@ The app was activated because the user is printing to a printer that has a Print
 
 ### -field GameUIProvider:1019
 
-The app was activated because it was launched by the OS due to a game's request for Xbox-specific UI.
+The app was activated because it was launched by the OS due to a request for game-specific UI.
 
 ### -field StartupTask:1020
 

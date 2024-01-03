@@ -34,7 +34,5 @@ This XAML example applies a PowerEase easing function with a [Power](powerease_p
 
 [!code-csharp[PowerEase_code](../microsoft.ui.xaml.media.animation/code/PowerEase/csharp/Page.xaml.cs#SnippetPowerEase_code)]
 
-[!code-vb[PowerEase_code](../microsoft.ui.xaml.media.animation/code/PowerEase/vbnet/MainPage.xaml.vb#SnippetPowerEase_code)]
-
 ## -see-also
 [Storyboarded animations](/windows/apps/design/motion/storyboarded-animations), [Key-frame animations and easing function animations](/windows/apps/design/motion/key-frame-and-easing-function-animations), [BackEase](backease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ElasticEase](elasticease.md), [ExponentialEase](exponentialease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md)

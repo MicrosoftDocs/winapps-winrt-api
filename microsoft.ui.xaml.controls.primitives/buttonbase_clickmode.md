@@ -44,8 +44,6 @@ The following example shows three buttons that respond to clicks in three differ
 
 [!code-csharp[11](../microsoft.ui.xaml.data/code/System.Windows.Controls.ButtonClickModeSL/csharp/Page.xaml.cs#Snippet11)]
 
-[!code-vb[11](../microsoft.ui.xaml.data/code/System.Windows.Controls.ButtonClickModeSL/vbnet/Page.xaml.vb#Snippet11)]
-
 ## -see-also
 [Button](../microsoft.ui.xaml.controls/button.md)
 

@@ -12,7 +12,11 @@ public Microsoft.UI.Xaml.Controls.InfoBadge InfoBadge { get; set; }
 
 ## -description
 
+Gets or sets the informational badge shown on a `NavigationView` item.
+
 ## -property-value
+
+The informational badge shown on a `NavigationView` item.
 
 ## -remarks
 

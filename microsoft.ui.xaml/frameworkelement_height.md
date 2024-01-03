@@ -66,8 +66,6 @@ This example shows a simple property set of a UI element that is created at run 
 
 [!code-csharp[21](../microsoft.ui.xaml.data/code/ControlTasks/csharp/Page.xaml.cs#Snippet21)]
 
-[!code-vb[21](../microsoft.ui.xaml.data/code/ControlTasks/vbnet/Page.xaml.vb#Snippet21)]
-
 ## -see-also
 
 [Width](frameworkelement_width.md), [ActualHeight](frameworkelement_actualheight.md), [MinHeight](frameworkelement_minheight.md), [MaxHeight](frameworkelement_maxheight.md), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding)

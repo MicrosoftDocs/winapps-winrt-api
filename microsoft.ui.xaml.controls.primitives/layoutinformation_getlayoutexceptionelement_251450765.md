@@ -10,13 +10,17 @@ public Windows.UI.Xaml.UIElement GetLayoutExceptionElement(System.Object dispatc
 # Microsoft.UI.Xaml.Controls.Primitives.LayoutInformation.GetLayoutExceptionElement
 
 ## -description
+
 Returns the element that was being processed by the layout system at the moment of an unhandled exception.
 
 ## -parameters
+
 ### -param dispatcher
-The *dispatcher* object that defines the scope of the operation. Direct support for "Dispatcher" type does not exist yet.
+
+The *dispatcher* object that defines the scope of the operation.
 
 ## -returns
+
 The element being processed at the time of an unhandled exception.
 
 ## -remarks

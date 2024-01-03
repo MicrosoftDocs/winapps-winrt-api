@@ -37,6 +37,8 @@ Items are aligned with the start of the row or column, with extra space at the e
 
 ### -field SpaceEvenly
 
+Items are aligned so that extra space is added evenly before and after each item.
+
 ## -remarks
 
 This enumeration provides values for the [UniformGridLayout.ItemsJustification](uniformgridlayout_itemsjustification.md) property.

@@ -18,7 +18,7 @@ The core of ExpressionAnimations allows a developer to define a mathematical equ
 
 For a detailed walkthrough of using Composition ExpressionAnimation, check out the [Animations Overview document](/windows/uwp/graphics/composition-animation).
 
-Use the [CompostionObject.StartAnimation](compositionobject_startanimation_394405412.md) and [CompostionObject.StopAnimation](compositionobject_stopanimation_1075337060.md) methods to start and stop the animation.
+Use the [CompositionObject.StartAnimation](compositionobject_startanimation_394405412.md) and [CompositionObject.StopAnimation](compositionobject_stopanimation_1075337060.md) methods to start and stop the animation.
 
 ### So why are Expression Animations useful?
 

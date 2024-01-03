@@ -21,7 +21,7 @@ All the [CompositionAnimation](compositionanimation.md)s in CompositionAnimation
 
 If CompositionAnimationGroup is changed while iterating the animations in the group, an InvalidOperationException will be thrown.
 
-Use the [CompostionObject.StartAnimationGroup](compositionobject_startanimationgroup_1756471033.md) and [CompostionObject.StopAnimationGroup](compositionobject_stopanimationgroup_1347139553.md) methods to start and stop the animation group.
+Use the [CompositionObject.StartAnimationGroup](compositionobject_startanimationgroup_1756471033.md) and [CompositionObject.StopAnimationGroup](compositionobject_stopanimationgroup_1347139553.md) methods to start and stop the animation group.
 
 ## -examples
 Implicit Animations usage of Animation Group

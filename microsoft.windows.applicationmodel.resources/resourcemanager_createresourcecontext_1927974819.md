@@ -9,7 +9,6 @@
 public Microsoft.Windows.ApplicationModel.Resources.ResourceContext CreateResourceContext ();
 -->
 
-
 ## -description
 
 Creates a [ResourceContext](resourcecontext.md) with the default settings.
@@ -23,5 +22,3 @@ A [ResourceContext](resourcecontext.md).
 ## -see-also
 
 ## -examples
-
-

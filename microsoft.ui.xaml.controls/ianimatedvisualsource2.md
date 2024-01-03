@@ -11,7 +11,7 @@ public interface IAnimatedVisualSource2 : Microsoft.UI.Xaml.Controls.IAnimatedVi
 
 ## -description
 
- An animated [Visual](/uwp/api/windows.ui.composition.visual) that can be used by other objects, such as an [AnimatedIcon](animatedicon.md).
+ An animated [Visual](/uwp/api/windows.ui.composition.visual) that can be used by other objects, such as an [AnimatedIcon](animatedicon.md). Extends [IAnimatedVisualSource](ianimatedvisualsource.md)
 
 ## -remarks
 

@@ -20,7 +20,7 @@ An object that contains the activation type and the data payload, or `null`. See
 
 ## -remarks
 
-The [AppActivationArguments](/windows/windows-app-sdk/api/winrt/microsoft.windows.applifecycle.appactivationarguments) object returned is limited to those activation kinds that are supported in the Windows App SDK. As of version 1.0 Stable, those are **Launch**, **File**, **Protocol**, and **StartupTask**. For other activation kinds, **GetActivatedEventArgs** returns `null`.
+The [AppActivationArguments](/windows/windows-app-sdk/api/winrt/microsoft.windows.applifecycle.appactivationarguments) object returned is limited to those activation kinds that are supported in the Windows App SDK. As of version 1.0, those are **Launch**, **File**, **Protocol**, and **StartupTask**. For other activation kinds, **GetActivatedEventArgs** returns `null`.
 
 ## -see-also
 

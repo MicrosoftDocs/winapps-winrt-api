@@ -60,8 +60,6 @@ The following example shows how to implement the Convert method using the *param
 
 [!code-csharp[2](../microsoft.ui.xaml.controls.primitives/code/DataBindingConverterParameterEx/csharp/Page.xaml.cs#Snippet2)]
 
-[!code-vb[2](../microsoft.ui.xaml.controls.primitives/code/DataBindingConverterParameterEx/vbnet/Page.xaml.vb#Snippet2)]
-
 ## -see-also
 [ConvertBack](ivalueconverter_convertback_2106225504.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)
 

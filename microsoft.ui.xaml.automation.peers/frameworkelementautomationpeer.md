@@ -218,38 +218,6 @@ struct MediaContainerAP : MediaContainerAPT<MediaContainerAP>
 // pattern implementation omitted
 ```
 
-```vbnet
-    Public Class MediaContainerAP
-        Inherits FrameworkElementAutomationPeer
-        Implements IRangeValueProvider
-        Implements IToggleProvider
-' nondefault ctors omitted ...
-
-        Protected Overrides Function GetPatternCore(patternInterface__1 As PatternInterface) As Object
-            If patternInterface__1 = PatternInterface.RangeValue Then
-                Return Me
-            ElseIf patternInterface__1 = PatternInterface.Toggle Then
-                Return Me
-            End If
-            Return Nothing
-        End Function
-
-
-        Protected Overrides Function GetAutomationControlTypeCore() As AutomationControlType
-            Return AutomationControlType.Group
-        End Function
-        
-        Protected Overrides Function GetLocalizedControlTypeCore() as String
-            Return "Video"
-        End Function
-        
-        Protected Overrides Function GetClassNameCore() As String
-            Return "MediaElementContainer"
-        End Function
-' pattern implementation omitted ...
-End Class
-```
-
 ## -see-also
 
 [FrameworkElement](../microsoft.ui.xaml/frameworkelement.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers), [AutomationPeer](automationpeer.md), [Code samples for resolving common programmatic accessibility issues in Windows desktop apps](/accessibility-tools-docs/)

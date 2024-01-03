@@ -10,9 +10,11 @@ public object SecondaryButtonCommandParameter { get;  set; }
 # Microsoft.UI.Xaml.Controls.ContentDialog.SecondaryButtonCommandParameter
 
 ## -description
+
 Gets or sets the parameter to pass to the command for the secondary button.
 
 ## -xaml-syntax
+
 ```xaml
 <ContentDialog>
   <ContentDialog.SecondaryButtonCommandParameter>
@@ -23,9 +25,9 @@ Gets or sets the parameter to pass to the command for the secondary button.
 <ContentDialog SecondaryButtonCommandParameter="objectAsString"/>
 ```
 
-
 ## -property-value
-The command parameter for the secondary button. The default is null.
+
+The command parameter for the secondary button. The default is `null`.
 
 ## -remarks
 

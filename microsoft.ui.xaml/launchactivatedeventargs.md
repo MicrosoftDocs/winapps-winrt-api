@@ -11,11 +11,13 @@ public sealed class LaunchActivatedEventArgs
 
 ## -description
 
-Contains the window's launch state information returned by the [Application.OnLaunched](application_onlaunched_1344752508.md) event.
+Provides event information for the [Application.OnLaunched](application_onlaunched_1344752508.md) event.
 
 ## -remarks
 
-Command-line arguments for the current process can be retrieved by calling:
+The `Arguments` and `UWPLaunchActivatedEventArgs` properties are not supported in Windows App SDK apps.
+
+You can retrieve command-line arguments for the current process by calling:
 
 - [C#] <xref:System.Environment.GetCommandLineArgs?displayProperty=nameWithType> (requires full trust to execute)
 - [C++] <xref:NF:processenv.GetCommandLineA>

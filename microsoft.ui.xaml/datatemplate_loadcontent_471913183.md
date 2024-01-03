@@ -23,12 +23,10 @@ When you call LoadContent, the [UIElement](uielement.md) objects in the [DataTem
 
 ## -examples
 
-The following examples demonstrate using the LoadContent method to change the appearance of a [Border](../microsoft.ui.xaml.controls/border.md) at run time. The example creates a [ListBox](../microsoft.ui.xaml.controls/listbox.md) that contains the numbers 1 through 10. When the user selects an item in the [ListBox](../microsoft.ui.xaml.controls/listbox.md), the [Border](../microsoft.ui.xaml.controls/border.md) displays the selected number. If the user selects an even number, the number is red and has a green circle around it. If the user selects an odd number, the number is blue and has a purple square around it.
+The following examples demonstrate using the LoadContent method to change the appearance of a [Border](../microsoft.ui.xaml.controls/border.md) at run time. The example creates a [ListView](../microsoft.ui.xaml.controls/listview.md) that contains the numbers 1 through 10. When the user selects an item in the [ListView](../microsoft.ui.xaml.controls/listview.md), the [Border](../microsoft.ui.xaml.controls/border.md) displays the selected number. If the user selects an even number, the number is red and has a green circle around it. If the user selects an odd number, the number is blue and has a purple square around it.
 
-[!code-xaml[Snippet1_XAML](../microsoft.ui.xaml.controls.primitives/code/DataTemplateSelectionSnippets/csharp/Page.xaml#Snippet1_XAML)]
+[!code-xaml[Snippet2_XAML](../microsoft.ui.xaml/code/DataTemplateExamples/csharp/MainWindow.xaml#Snippet2_XAML)]
 
-[!code-csharp[Snippet2_CS](../microsoft.ui.xaml.controls.primitives/code/DataTemplateSelectionSnippets/csharp/Page.xaml.cs#Snippet2_CS)]
-
-[!code-vb[Snippet2_VB](../microsoft.ui.xaml.controls.primitives/code/DataTemplateSelectionSnippets/vbnet/Page.xaml.vb#Snippet2_VB)]
+[!code-csharp[Snippet2_CS](../microsoft.ui.xaml/code/DataTemplateExamples/csharp/MainWindow.xaml.cs#Snippet2_CS)]
 
 ## -see-also

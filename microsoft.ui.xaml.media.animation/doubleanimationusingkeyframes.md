@@ -32,8 +32,6 @@ The following example moves a rectangle across a screen. The example uses the **
 
 [!code-xaml[Doubleanimationusingkeyframes2](../microsoft.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/csharp/Page.xaml#SnippetDoubleanimationusingkeyframes2_cs)]
 
-[!code-vb[Doubleanimationusingkeyframes2](../microsoft.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/vbnet/Page.xaml.vb#SnippetDoubleanimationusingkeyframes2)]
-
 [!code-csharp[SnippetDoubleanimationusingkeyframes2](../microsoft.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/csharp/Page.xaml.cs#SnippetDoubleanimationusingkeyframes2)]
 
 ## -see-also

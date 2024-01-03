@@ -68,17 +68,6 @@ private void CheckBox_Changed(object sender, RoutedEventArgs e)
 }
 ```
 
-```vbnet
-
-Private Sub CheckBox_Changed(sender As Object, e As RoutedEventArgs)
-    If revealModeCheckBox.IsChecked = True Then
-        passwordBox1.PasswordRevealMode = PasswordRevealMode.Visible
-    Else
-        passwordBox1.PasswordRevealMode = PasswordRevealMode.Hidden
-    End If
-End Sub
-```
-
 ## -see-also
 
 [PasswordRevealMode](passwordrevealmode.md)

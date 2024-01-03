@@ -38,12 +38,4 @@ if (listBox->SelectionMode != SelectionMode::Single)
 }
 ```
 
-```vbnet
-If listBox.SelectionMode <> SelectionMode.Single Then
-    listBox.SelectAll()
-End If
-```
-
-
-
 ## -see-also

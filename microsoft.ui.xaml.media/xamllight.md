@@ -37,7 +37,7 @@ When creating a XamlLight, it's usually a good practice to delay creating a [Com
 It's also a good practice to dispose of composition resources when they're no longer in use. The [OnDisconnected](xamllight_ondisconnected_1949383343.md) method is called when a XamlLight instance is no longer in use anywhere on the screen, so you can override [OnDisconnected](xamllight_ondisconnected_1949383343.md) to safely dispose of resources. If the XamlLight is later used again after being disconnected then [OnConnected](xamllight_onconnected_1226595460.md) will be called again.
 
 > [!WARNING]
-> On Windows 10 Creators Update (SDK 15063), CompositionLight can't be accessed after Dispose is called, so setting it to **null** after calling Dispose causes an error. To work around this issue, you can save the CompositionLight to a temporary variable and call Dispose on that after you set CompositionLight to null. `var temp = CompostionLight; CompositionLight = null; temp.Dispose();`
+> On Windows 10 Creators Update (SDK 15063), CompositionLight can't be accessed after Dispose is called, so setting it to **null** after calling Dispose causes an error. To work around this issue, you can save the CompositionLight to a temporary variable and call Dispose on that after you set CompositionLight to null. `var temp = CompositionLight; CompositionLight = null; temp.Dispose();`
 > This issue is fixed in later versions of the SDK. See [Version adaptive apps](/windows/uwp/debug-test-perf/version-adaptive-apps) for info about how to target different SDK versions.
 
 ## -examples

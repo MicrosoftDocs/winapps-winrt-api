@@ -41,8 +41,6 @@ It also shows code for capturing the pointer initially, and a pattern for tracki
 
 [!code-csharp[Scenario2Code](../microsoft.ui.xaml/code/input/csharp/Scenario2.xaml.cs#SnippetScenario2Code)]
 
-[!code-vb[Scenario2Code](../microsoft.ui.xaml/code/input/vbnet/Scenario2.xaml.vb#SnippetScenario2Code)]
-
 ## -see-also
 
 [Microsoft.UI.Xaml.UIElement.ReleasePointerCaptures](uielement_releasepointercaptures_190109337.md), [CapturePointer](uielement_capturepointer_1027273898.md), [PointerReleased](uielement_pointerreleased.md), [PointerCaptureLost](uielement_pointercapturelost.md), [Relative mouse movement and CoreWindow](/en-us/windows/uwp/gaming/relative-mouse-movement), [Input sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample)

@@ -11,11 +11,11 @@ public class DependencyObject : Microsoft.UI.Xaml.IDependencyObject, Microsoft.U
 
 ## -description
 
-Represents an object that participates in the dependency property system. `DependencyObject` is the immediate base class of many important UI-related classes, such as [UIElement](uielement.md), [Geometry](../microsoft.ui.xaml.media/geometry.md), [FrameworkTemplate](frameworktemplate.md), [Style](style.md), and [ResourceDictionary](resourcedictionary.md). For more info on how `DependencyObject` supports dependency properties, see [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview).
+Represents an object that participates in the dependency property system.
 
 ## -remarks
 
-The `DependencyObject` class enables dependency property system services on its many derived classes. For more info about the dependency property concept, see [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview).
+The `DependencyObject` class enables dependency property system services on its many derived classes, and is the immediate base class of many important UI-related classes, such as [UIElement](uielement.md), [Geometry](../microsoft.ui.xaml.media/geometry.md), [FrameworkTemplate](frameworktemplate.md), [Style](style.md), and [ResourceDictionary](resourcedictionary.md). For more info on how `DependencyObject` supports dependency properties, see [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview).
 
 The dependency property system's primary function is to compute the values of properties, and to provide system notification about values that have changed. Another key class that participates in the dependency property system is [DependencyProperty](dependencyproperty.md). [DependencyProperty](dependencyproperty.md) enables the registration of dependency properties into the property system, whereas `DependencyObject` as a base class enables objects to use and set the dependency properties.
 
@@ -28,7 +28,7 @@ Here are some notable services and characteristics that DependencyObject provide
 + `Get` and `Set` utility methods for values of any dependency properties that exist on a `DependencyObject`. You use these when defining custom dependency property _wrappers_ and can also use them from app code as an alternative to using existing _wrapper_ properties.
 + Advanced-scenario utility for examining metadata or property values (for example [GetAnimationBaseValue](dependencyobject_getanimationbasevalue_1955567622.md)).
 + Enforcement of thread affinity to the main UI thread of the Windows Runtime for all `DependencyObject` instances.
-+ The [Dispatcher](dependencyobject_dispatcher.md) property for advanced threading scenarios. Getting the `Dispatcher` value provides a reference to a [CoreDispatcher](/uwp/api/windows.ui.core.coredispatcher) object. With the `CoreDispatcher`, a worker thread can run code that use a DependencyObject but is not on the UI thread, because the `CoreDispatcher` can defer the execution to an asynchronous operation that won't block or otherwise interfere with the UI thread. See "`DependencyObject` and threading" section below.
++ The [DispatcherQueue](dependencyobject_dispatcherqueue.md) property for advanced threading scenarios. The `DispatcherQueue` lets a worker thread run code that uses a `DependencyObject` but is not on the UI thread, because it can defer the execution to an asynchronous operation that won't block or otherwise interfere with the UI thread. See "`DependencyObject` and threading" section below.
 + Basic data binding and styling support, by enabling properties to be set as expressions to be evaluated at some later point in an object's lifetime. These concepts are explained in more detail in [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview). See also [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth).
 
 ### **DependencyObject** and threading
@@ -38,9 +38,9 @@ All `DependencyObject` instances must be created on the UI thread that is associ
 + Code that uses API from two `DependencyObject` instances will always be run on the same thread, which is always the UI thread. You don't typically run into threading issues in this scenario.
 + Code that is not running on the main UI thread cannot access a `DependencyObject` directly because a `DependencyObject` has thread affinity to the UI thread only. Only code that runs on the UI thread can change or even read the value of a dependency property. For example a worker thread that you've initiated with a .NET [Task](/dotnet/api/system.threading.tasks.task) or an explicit [ThreadPool](/uwp/api/windows.system.threading.threadpool) thread won't be able to read dependency properties or call other APIs.
 
-You aren't completely blocked from using a `DependencyObject` from a worker thread. But you must get a [CoreDispatcher](/uwp/api/windows.ui.core.coredispatcher) object (the value of [DependencyObject.Dispatcher](dependencyobject_dispatcher.md)) from a DependencyObject in order to get across the deliberate separation between the app UI thread and any other threads running on the system. The `CoreDispatcher` exposes the [RunAsync](/uwp/api/windows.ui.core.coredispatcher.runasync) method. Call `RunAsync` to run your awaitable code (an [IAsyncAction](/uwp/api/windows.foundation.iasyncaction)). If it's simple code you can use a lambda expression, otherwise you can implement as a delegate ([DispatchedHandler](/uwp/api/windows.ui.core.dispatchedhandler)). The system determines a time that your code can be run. Because it's enabling access across threads, `DependencyObject.Dispatcher` is the only instance API of `DependencyObject` or any of its subclasses that can be accessed from a non-UI thread without throwing a cross-thread exception. All other `DependencyObject` APIs throw an exception if you attempt to call them from a worker thread or any other non-UI thread.
+You aren't completely blocked from using a `DependencyObject` from a worker thread. But you must get a [DispatcherQueue](../microsoft.ui.dispatching/dispatcherqueue.md) object (the value of [DependencyObject.DispatcherQueue](dependencyobject_dispatcherqueue.md)) from a `DependencyObject` in order to get across the deliberate separation between the app UI thread and any other threads running on the system. The `DispatcherQueue` exposes the [TryEnqueue](/windows/windows-app-sdk/api/winrt/microsoft.ui.dispatching.dispatcherqueue.tryenqueue) method to run your awaitable code. Because it's enabling access across threads, `DependencyObject.DispatcherQueue` is the only instance API of `DependencyObject` or any of its subclasses that can be accessed from a non-UI thread without throwing a cross-thread exception. All other `DependencyObject` APIs throw an exception if you attempt to call them from a worker thread or any other non-UI thread.
 
-Threading issues can usually be avoided in typical UI code. However, devices aren't usually associated with the UI thread. If you are using info obtained from a device to update the UI in real-time, you often must get a [CoreDispatcher](/uwp/api/windows.ui.core.coredispatcher) so that you can update the UI. Services are another case where the code you use to access the service might not be running on the UI thread.
+Threading issues can usually be avoided in typical UI code. However, devices aren't usually associated with the UI thread. If you are using info obtained from a device to update the UI in real-time, you often must get a `DispatcherQueue` so that you can update the UI. Services are another case where the code you use to access the service might not be running on the UI thread.
 
 One code scenario where you might encounter `DependencyObject`-related threading issues if you are defining your own `DependencyObject` types and you attempt to use them for data sources, or other scenarios where a `DependencyObject` isn't necessarily appropriate (because the object is not directly related to the UI). For example, you might be attempting perf optimizations with background threads or other worker threads that are changing values of the objects prior to presentation, or in response to a device, service or other external input. Evaluate whether you really need dependency properties for your scenario; maybe standard properties are adequate.
 
@@ -66,19 +66,13 @@ One code scenario where you might encounter `DependencyObject`-related threading
 
 This example defines a class that derives from `DependencyObject`, and defines an attached property along with the identifier field. The scenario for this class is that it is a service class that declares an attached property that other UI elements can set in XAML The service potentially acts on the attached property values on those UI elements at run time.
 
-[!code-csharp[DOMain](../microsoft.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDOMain)]
+[!code-csharp[DOMain](../microsoft.ui.xaml/code/DOandDPExamples/csharp/Class1.cs#SnippetDOMain)]
 
-[!code-vb[DOMain](../microsoft.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDOMain)]
-
-[!code-csharp[DOCheckClear](../microsoft.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDOCheckClear)]
-
-[!code-vb[DOCheckClear](../microsoft.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDOCheckClear)]
+[!code-csharp[DOCheckClear](../microsoft.ui.xaml/code/DOandDPExamples/csharp/Class1.cs#SnippetDOCheckClear)]
 
 This example shows a simple dependency property declaration. A call to [GetValue](dependencyobject_getvalue_229640130.md) constitutes the entirety of the `get` accessor implementation for the property wrapper of the new dependency property. A call to [SetValue](dependencyobject_setvalue_1212521140.md) constitutes the entirety of the `set` accessor implementation. For more examples, see [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties).
 
-[!code-csharp[DOSimpleDP](../microsoft.ui.xaml/code/DOandDP/csharp/Class1.cs#DOSimpleDP)]
-
-[!code-vb[DOSimpleDP](../microsoft.ui.xaml/code/DOandDP/vbnet/Class1.vb#DOSimpleDP)]
+[!code-csharp[DOSimpleDP](../microsoft.ui.xaml/code/DOandDPExamples/csharp/Class1.cs#DOSimpleDP)]
 
 ## -see-also
 

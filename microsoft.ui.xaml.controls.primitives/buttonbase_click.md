@@ -30,7 +30,5 @@ The following example demonstrates handling the Click event and setting the [IsE
 
 [!code-csharp[41](../microsoft.ui.xaml/code/System.Windows.Controls.ButtonClickEx/csharp/Page.xaml.cs#Snippet41)]
 
-[!code-vb[41](../microsoft.ui.xaml/code/System.Windows.Controls.ButtonClickEx/vbnet/Page.xaml.vb#Snippet41)]
-
 ## -see-also
 [Button](../microsoft.ui.xaml.controls/button.md)

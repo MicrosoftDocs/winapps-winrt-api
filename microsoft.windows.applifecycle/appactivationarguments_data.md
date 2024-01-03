@@ -9,7 +9,6 @@
 public object Data { get; }
 -->
 
-
 ## -description
 
 Gets the data payload for a registered activation.
@@ -24,10 +23,15 @@ The value of this property has one of the following data types, depending on the
 
 | Activation kind | Data type |
 |-----------------|-----------------------|
+| `Launch` | [ILaunchActivatedEventArge](/uwp/api/windows.applicationmodel.activation.ilaunchactivatedeventargs) |
 | `File` | [IFileActivatedEventArgs](/uwp/api/windows.applicationmodel.activation.ifileactivatedeventargs) |
 | `Protocol` | [IProtocolActivatedEventArgs](/uwp/api/windows.applicationmodel.activation.iprotocolactivatedeventargs) |
 | `StartupTask` | [IStartupTaskActivatedEventArgs](/uwp/api/windows.applicationmodel.activation.istartuptaskactivatedeventargs) |
 
+The **Kind** is limited to those activation kinds that are supported in the Windows App SDK. Currently, those are **Launch**, **File**, **Protocol**, and **StartupTask**.
+
 ## -see-also
+
+[Kind](appactivationarguments_kind.md)
 
 ## -examples

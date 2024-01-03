@@ -29,6 +29,4 @@ This example uses BaseUri in an event handler that resets an image source to a b
 
 [!code-csharp[FEBaseUri](../microsoft.ui.xaml/code/BaseElementEvents/csharp/PageWithAppBar.xaml.cs#SnippetFEBaseUri)]
 
-[!code-vb[FEBaseUri](../microsoft.ui.xaml/code/BaseElementEvents/vbnet/PageWithAppBar.xaml.vb#SnippetFEBaseUri)]
-
 ## -see-also

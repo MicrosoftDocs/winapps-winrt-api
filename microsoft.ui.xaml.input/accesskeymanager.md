@@ -10,6 +10,7 @@ public class AccessKeyManager : Microsoft.UI.Xaml.Input.IAccessKeyManager
 # Microsoft.UI.Xaml.Input.AccessKeyManager
 
 ## -description
+
 A helper class that enables access keys (mnemonics) for XAML user interfaces.
 
 ## -remarks
@@ -17,4 +18,5 @@ A helper class that enables access keys (mnemonics) for XAML user interfaces.
 ## -examples
 
 ## -see-also
-[Access keys](/windows/apps/design/input/access-keys)
+
+[Access keys guidelines](/windows/apps/design/input/access-keys)

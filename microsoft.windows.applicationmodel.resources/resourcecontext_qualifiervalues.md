@@ -9,14 +9,13 @@
 public System.Collections.Generic.IDictionary<string,string> QualifierValues { get; }
 -->
 
-
 ## -description
 
 Gets a map of all supported qualifiers, indexed by name.
 
 ## -property-value
 
-The map of qualifiers, which you use to map a qualifier name to a qualifier value. The qualifier value returned represents the current setting. Here is a reference table of all the possible qualifier values that can be returned. See Tailor your resources for language, scale, high contrast, and other qualifiers for an explanation of the general concept of qualifiers, how to use them, and the purpose of each of the qualifier names.
+The map of qualifiers used to map a qualifier name to a qualifier value. The qualifier value returned represents the current setting. Here is a reference table of all the possible qualifier values that can be returned. See [Tailor your resources for language, scale, high contrast, and other qualifiers](/windows/apps/windows-app-sdk/mrtcore/tailor-resources-lang-scale-contrast) for an explanation of the general concept of qualifiers, how to use them, and the purpose of each of the qualifier names.
 
 | Qualifier name                | Qualifier values |
 |-------------------------------|------------------|
@@ -38,5 +37,3 @@ The map of qualifiers, which you use to map a qualifier name to a qualifier valu
 ## -see-also
 
 ## -examples
-
-

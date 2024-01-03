@@ -32,60 +32,92 @@ Represents a dialog box that can be customized to contain checkboxes, hyperlinks
 
 Use a ContentDialog to request input from the user, or to show information in a modal dialog. You can add a ContentDialog to an app page using code or XAML, or you can create a custom dialog class that's derived from ContentDialog. Both ways are shown in the examples section of this topic.
 
+### Title
+
 Use the [Title](contentdialog_title.md) property to put a title on the dialog. To add a complex title element with more than simple text, you can use the [TitleTemplate](contentdialog_titletemplate.md) property.
+
+### Command buttons
 
 The ContentDialog has 3 built-in buttons that describe the actions that the user may take in response to the dialog's prompt. All dialogs should have a safe, non-destructive action. Dialogs may also optionally contain one or two specific "do it" actions in response to the prompt.  
 
-Use the [CloseButtonText](contentdialog_closebuttontext.md) and property to set the display text for the safe, non-destructive button. The dialog's close button will also be invoked when the user performs a Cancel action, like pressing the ESC key or pressing the system back button.
 Use the [PrimaryButtonText](contentdialog_primarybuttontext.md) and [SecondaryButtonText](contentdialog_secondarybuttontext.md) properties to display responses to the main question or action posed by the dialog.
 
-The [CloseButtonText](contentdialog_closebuttontext.md) property is not available prior to Windows 10, version 1703. If your app's 'minimum platform version' setting in Microsoft Visual Studio is less than the 'introduced version' shown in the Requirements block later in this page, you should use the [SecondaryButtonText](contentdialog_secondarybuttontext.md) property instead. For more info, see [Version adaptive code](/windows/uwp/debug-test-perf/version-adaptive-code).
+Use the [CloseButtonText](contentdialog_closebuttontext.md) property to set the display text for the safe, non-destructive button. The dialog's close button is also invoked when the user performs a _Cancel_ action, like pressing the ESC key or pressing the system back button.
 
-To show the dialog, call the [ShowAsync](contentdialog_showasync_606257163.md) method. Use the result of this method to determine which of the buttons was clicked, if any button was clicked. If the user presses ESC, the system back arrow, or Gamepad B, the result of this method will be None.
+You may optionally choose to differentiate one of the three buttons as the dialog's default button. Use the [DefaultButton](contentdialog_defaultbutton.md) property to differentiate one of the buttons. This button will receive the Accent Button visual treatment, respond to the ENTER key automatically, and receive focus when the dialog is opened unless the dialog's content contains focusable elements.
 
-You may optionally choose to differentiate one of the three buttons as the dialog's default button. Use the [DefaultButton](contentdialog_defaultbutton.md) property to differentiate one of the buttons. This button will receive the Accent Button visual treatment, respond to the ENTER key automatically, and receive focus when the Dialog is opened unless the dialog's content contains focusable elements.
+### Show the dialog and use it's result
 
-You may wish to do some work before the dialog closes (for example, to verify that the user entered into form fields before submitting a request). You have two ways to do work before the dialog closes. You can handle the [PrimaryButtonClick](contentdialog_primarybuttonclick.md), [SecondaryButtonClick](contentdialog_secondarybuttonclick.md), or [CloseButtonClick](contentdialog_closebuttonclick.md) events to get the user's response when the user presses a button and verify the state of the dialog before it closes. You can also handle the [Closing](contentdialog_closing.md) event to do work before the dialog closes.
+To show the dialog, call the [ShowAsync](contentdialog_showasync_606257163.md) method. Use the [ContentDialogResult](contentdialogresult.md) returned by this method to determine which of the buttons was clicked, if any. If the user presses ESC, the system back arrow, or Gamepad B, the result of this method will be `None`.
 
-Only one ContentDialog can be shown at a time. To chain together more than one ContentDialog, handle the [Closing](contentdialog_closing.md) event of the first ContentDialog. In the [Closing](contentdialog_closing.md) event handler, call [ShowAsync](contentdialog_showasync_606257163.md) on the second dialog to show it.
+### Set the XamlRoot
 
-## ContentDialog in AppWindow or Xaml Islands
+When you show a ContentDialog, you need to manually set the [XamlRoot](../microsoft.ui.xaml/uielement_xamlroot.md) of the dialog to the root of the XAML host. To do so, set the ContentDialog's XamlRoot property to the same XamlRoot as an element already in the  XAML tree.
 
-> NOTE: This section applies only to apps that target Windows 10, version 1903 or later. AppWindow and XAML Islands are not available in earlier versions. For more info about versioning, see [Version adaptive apps](/windows/uwp/debug-test-perf/version-adaptive-apps).
+If the ContentDialog is shown from a [Page](page.md), you can set the ContentDialog's XamlRoot property to the XamlRoot of the Page (
+`XamlRoot = this.XamlRoot`).
 
-By default, content dialogs display modally relative to the root [ApplicationView](/uwp/api/windows.ui.viewmanagement.applicationview). When you use ContentDialog inside of either an [AppWindow](/uwp/api/windows.ui.windowmanagement.appwindow) or a [XAML Island](/windows/apps/desktop/modernize/xaml-islands), you need to manually set the [XamlRoot](../microsoft.ui.xaml/uielement_xamlroot.md) on the dialog to the root of the XAML host.
+[Window](../microsoft.ui.xaml/window.md) doesn't have a XamlRoot property, so if the dialog is shown from a Window, set the dialog's XamlRoot property to that of the Window's root content element, as shown here.
 
-To do so, set the ContentDialog's XamlRoot property to the same XamlRoot as an element already in the AppWindow or XAML Island, as shown here.
+```xaml
+<Window
+    ... >
+    <Grid x:Name="rootPanel">
+    
+    </Grid>
+</Window>
+``````
 
 ```csharp
 private async void DisplayNoWifiDialog()
 {
     ContentDialog noWifiDialog = new ContentDialog
     {
+        XamlRoot = rootPanel.XamlRoot,
         Title = "No wifi connection",
         Content = "Check your connection and try again.",
         CloseButtonText = "Ok"
     };
 
-    // Use this code to associate the dialog to the appropriate AppWindow by setting
-    // the dialog's XamlRoot to the same XamlRoot as an element that is already present in the AppWindow.
-    if (ApiInformation.IsApiContractPresent("Windows.Foundation.UniversalApiContract", 8))
-    {
-        noWifiDialog.XamlRoot = elementAlreadyInMyAppWindow.XamlRoot;
-    }
-
     ContentDialogResult result = await noWifiDialog.ShowAsync();
 }
 ```
 
+### Close the dialog
+
+You may wish to do some work before the dialog closes (for example, to verify that the user entered data into form fields before submitting a request). You have two ways to do work before the dialog closes. You can handle the [PrimaryButtonClick](contentdialog_primarybuttonclick.md), [SecondaryButtonClick](contentdialog_secondarybuttonclick.md), or [CloseButtonClick](contentdialog_closebuttonclick.md) events to get the user's response when the user presses a button and verify the state of the dialog before it closes. You can also handle the [Closing](contentdialog_closing.md) event to do work before the dialog closes.
+
+Only one ContentDialog can be shown at a time. To chain together more than one ContentDialog, handle the [Closing](contentdialog_closing.md) event of the first ContentDialog. In the [Closing](contentdialog_closing.md) event handler, call [ShowAsync](contentdialog_showasync_606257163.md) on the second dialog to show it.
+
 > [!WARNING]
-> There can only be one ContentDialog open per thread at a time. Attempting to open two ContentDialogs will throw an exception, even if they are attempting to open in separate AppWindows.
+> There can only be one ContentDialog open per thread at a time. Attempting to open two ContentDialogs will throw an exception, even if they are attempting to open in separate app windows.
+
+### Derived controls with WinUI styles
+
+If you derive a custom control from an existing XAML control, it will not get the WinUI styles by default. To apply the WinUI styles:
+
+- Create a new [Style](../microsoft.ui.xaml/style.md) with its [TargetType](../microsoft.ui.xaml/style_targettype.md) set to your custom control.
+- Base the Style on the default style of the control you derived from.
+
+One common scenario for this is to derive a new control from ContentDialog. This example shows how to create a new Style that applies `DefaultContentDialogStyle` to your custom dialog.
+
+```xaml
+<ContentDialog
+    x:Class="ExampleApp.SignInContentDialog"
+    ... >
+    <ContentDialog.Resources>
+        <Style TargetType="local:SignInContentDialog" 
+               BasedOn="{StaticResource DefaultContentDialogStyle}"/>
+    </ContentDialog.Resources> 
+    <!-- CONTENT -->
+</ContentDialog>
+```
 
 ### Control style and template
 
-You can modify the default [Style](../microsoft.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [XAML styles](/windows/apps/design/style/xaml-styles). XAML also includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. Modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/apps/design/style/xaml-styles#lightweight-styling) section of the [XAML styles](/windows/apps/design/style/xaml-styles) article.
+You can modify the default [Style](../microsoft.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [XAML styles](/windows/apps/design/style/xaml-styles). The default style, template, and resources that define the look of the control are included in the `generic.xaml` file. For design purposes, `generic.xaml` is installed with the Windows App SDK NuGet package. By default, this location is `\Users\<username>\.nuget\packages\microsoft.windowsappsdk\<version>\lib\uap10.0\Microsoft.UI\Themes\generic.xaml`. Styles and resources from different versions of the SDK might have different values.
 
-The resources for this control are listed in the [ThemeDictionaries](/windows/apps/design/style/xaml-theme-resources) section of the [ContentDialog_themeresources.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/ContentDialog_themeresources.xaml) file on GitHub. The `ResourceKey` value for each `StaticResource` references a brush and color in the [Common_themeresources_any.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/Common_themeresources_any.xaml) file.
+XAML also includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. Modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/apps/design/style/xaml-styles#lightweight-styling) section of the [XAML styles](/windows/apps/design/style/xaml-styles) article.
 
 ## -examples
 
@@ -99,11 +131,15 @@ The resources for this control are listed in the [ThemeDictionaries](/windows/ap
 
 This example shows how to create and show a simple ContentDialog in code.
 
+> [!IMPORTANT]
+> This example assumes the dialog is shown from a [Page](page.md). To show the dialog from a [Window](../microsoft.ui.xaml/window.md), see the **Set the XamlRoot** section of the Remarks.
+
 ```csharp
 private async void DisplayNoWifiDialog()
 {
     ContentDialog noWifiDialog = new ContentDialog()
     {
+        XamlRoot = this.XamlRoot,
         Title = "No wifi connection",
         Content = "Check connection and try again.",
         CloseButtonText = "Ok"
@@ -115,7 +151,7 @@ private async void DisplayNoWifiDialog()
 
 This example shows how to create a ContentDialog in the XAML of an app page. Even though the dialog is defined in the app page, it's not shown until you call [ShowAsync](contentdialog_showasync_606257163.md) in your code.
 
-Here, the [IsPrimaryButtonEnabled](contentdialog_isprimarybuttonenabled.md) property is set to **false**. The primary button is enabled in code when the user checks the [CheckBox](checkbox.md) to confirm their age.
+Here, the [IsPrimaryButtonEnabled](contentdialog_isprimarybuttonenabled.md) property is set to `false`. The primary button is enabled in code when the user checks the [CheckBox](checkbox.md) to confirm their age.
 
 The [TitleTemplate](contentdialog_titletemplate.md) property is used to create a title that includes both a logo and text.
 
@@ -152,6 +188,7 @@ The [TitleTemplate](contentdialog_titletemplate.md) property is used to create a
 ```csharp
 private async void ShowTermsOfUseContentDialogButton_Click(object sender, RoutedEventArgs e)
 {
+    termsOfUseContentDialog.XamlRoot = this.XamlRoot;
     ContentDialogResult result = await termsOfUseContentDialog.ShowAsync();
     if (result == ContentDialogResult.Primary)
     {
@@ -181,16 +218,14 @@ private void ConfirmAgeCheckBox_Unchecked(object sender, RoutedEventArgs e)
 }
 ```
 
-This example shows how to create and use a custom dialog (`SignInContentDialog`) derived from ContentDialog.
+This example shows how to create and use a more complex custom dialog (`SignInContentDialog`) derived from ContentDialog. Also see the [Derived controls with WinUI styles](#derived_controls_with_winui_styles) section of this article.
 
 ```xaml
-
-<!-- SignInContentDialog.xaml -->
 <ContentDialog
-    x:Class="ExampleApp.SignInContentDialog"
+    x:Class="ContentDialog_WinUI3.SignInContentDialog"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:ExampleApp"
+    xmlns:local="using:ContentDialog_WinUI3"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
@@ -201,31 +236,19 @@ This example shows how to create and use a custom dialog (`SignInContentDialog`)
     CloseButtonClick="ContentDialog_CloseButtonClick">
 
     <ContentDialog.Resources>
-    <!-- These flyouts or used for confirmation when the user changes
-         the option to save their user name. -->
-        <Flyout x:Key="DiscardNameFlyout" Closed="Flyout_Closed">
-            <StackPanel>
-                <TextBlock Text="Discard user name?"/>
-                <Button Content="Discard" Click="DiscardButton_Click"/>
-            </StackPanel>
-        </Flyout>
-        <Flyout x:Key="SaveNameFlyout" Closed="Flyout_Closed">
-            <StackPanel>
-                <TextBlock Text="Save user name?"/>
-                <Button Content="Save" Click="SaveButton_Click"/>
-            </StackPanel>
-        </Flyout>
+        <Style TargetType="local:SignInContentDialog" BasedOn="{StaticResource DefaultContentDialogStyle}"/>
     </ContentDialog.Resources>
 
     <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
-        <TextBox Name="userNameTextBox" Header="User name"/>
-        <PasswordBox Name="passwordTextBox" Header="Password" IsPasswordRevealButtonEnabled="True"/>
+        <TextBox Name="userNameTextBox" Header="User name"
+                 TextChanged="UserNameTextBox_TextChanged"/>
+        <PasswordBox Name="passwordTextBox" Header="Password" IsPasswordRevealButtonEnabled="True"
+                     PasswordChanged="PasswordTextBox_PasswordChanged"/>
         <CheckBox Name="saveUserNameCheckBox" Content="Save user name"/>
-
-        <TextBlock x:Name="errorTextBlock" Style="{StaticResource ControlContextualInfoTextBlockStyle}"/>
+        <InfoBar x:Name="errorInfoBar" Severity="Error" IsOpen="False" IsClosable="False"/>
 
         <!-- Content body -->
-        <TextBlock Name="body" Style="{StaticResource MessageDialogContentStyle}" TextWrapping="Wrap">
+        <TextBlock Name="body" Style="{StaticResource BodyTextBlockStyle}" TextWrapping="Wrap">
             <TextBlock.Text>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -236,14 +259,11 @@ This example shows how to create and use a custom dialog (`SignInContentDialog`)
 ```
 
 ```csharp
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
+using System.Threading.Tasks;
 
-// SignInContentDialog.xaml.cs
-using System;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-
-namespace ExampleApp
+namespace ContentDialog_WinUI3
 {
     public enum SignInResult
     {
@@ -264,35 +284,46 @@ namespace ExampleApp
             this.Closing += SignInContentDialog_Closing;
         }
 
-        private void ContentDialog_PrimaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
+        private async void ContentDialog_PrimaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
         {
-            // Ensure the user name and password fields aren't empty. If a required field
-            // is empty, set args.Cancel = true to keep the dialog open.
-            if (string.IsNullOrEmpty(userNameTextBox.Text))
+            // Ensure the user name and password fields aren't empty. If a required
+            // field is empty, set args.Cancel = true to keep the dialog open.
+              if (string.IsNullOrEmpty(userNameTextBox.Text))
             {
-                args.Cancel = true;
-                errorTextBlock.Text = "User name is required.";
+                errorInfoBar.Message = "User name is required.";
+                errorInfoBar.IsOpen = true;
             }
             else if (string.IsNullOrEmpty(passwordTextBox.Password))
             {
-                args.Cancel = true;
-                errorTextBlock.Text = "Password is required.";
+                errorInfoBar.Message = "Password is required.";
+                errorInfoBar.IsOpen = true;
             }
+            args.Cancel = errorInfoBar.IsOpen;
 
             // If you're performing async operations in the button click handler,
             // get a deferral before you await the operation. Then, complete the
             // deferral when the async operation is complete.
+            if (args.Cancel == false) 
+            {
+                ContentDialogButtonClickDeferral deferral = args.GetDeferral();
+                if (await SimulateAsyncSignInOperation())
+                {
+                    this.Result = SignInResult.SignInOK;
+                }
+                else
+                {
+                    this.Result = SignInResult.SignInFail;
+                }
+                deferral.Complete();
+            }
+        }
 
-            ContentDialogButtonClickDeferral deferral = args.GetDeferral();    
-            if (await SomeAsyncSignInOperation())
-            {
-                this.Result = SignInResult.SignInOK;
-            }
-            else
-            {
-                this.Result = SignInResult.SignInFail;
-            }
-            deferral.Complete();
+        private async Task<bool> SimulateAsyncSignInOperation()
+        {
+            // return true to simulate sign-in success.
+            return true;
+            // return false to simulate sign-in failure.
+            /// return false;
         }
 
         private void ContentDialog_CloseButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
@@ -306,10 +337,10 @@ namespace ExampleApp
             this.Result = SignInResult.Nothing;
 
             // If the user name is saved, get it and populate the user name field.
-            Windows.Storage.ApplicationDataContainer roamingSettings = Windows.Storage.ApplicationData.Current.RoamingSettings;
-            if (roamingSettings.Values.ContainsKey("userName"))
+            Windows.Storage.ApplicationDataContainer localSettings = Windows.Storage.ApplicationData.Current.LocalSettings;
+            if (localSettings.Values.ContainsKey("userName"))
             {
-                userNameTextBox.Text = roamingSettings.Values["userName"].ToString();
+                userNameTextBox.Text = localSettings.Values["userName"].ToString();
                 saveUserNameCheckBox.IsChecked = true;
             }
         }
@@ -328,69 +359,53 @@ namespace ExampleApp
                     ClearUserName();
                 }
             }
-
-            // If the user entered a name and checked or cleared the 'save user name' checkbox, then clicked the back arrow,
-            // confirm if it was their intention to save or clear the user name without signing in.
-            if (this.Result == SignInResult.Nothing && !string.IsNullOrEmpty(userNameTextBox.Text))
-            {
-                if (saveUserNameCheckBox.IsChecked == false)
-                {
-                    args.Cancel = true;
-                    FlyoutBase.SetAttachedFlyout(this, (FlyoutBase)this.Resources["DiscardNameFlyout"]);
-                    FlyoutBase.ShowAttachedFlyout(this);
-                }
-                else if (saveUserNameCheckBox.IsChecked == true && !string.IsNullOrEmpty(userNameTextBox.Text))
-                {
-                    args.Cancel = true;
-                    FlyoutBase.SetAttachedFlyout(this, (FlyoutBase)this.Resources["SaveNameFlyout"]);
-                    FlyoutBase.ShowAttachedFlyout(this);
-                }
-            }
         }
 
         private void SaveUserName()
         {
-            Windows.Storage.ApplicationDataContainer roamingSettings = Windows.Storage.ApplicationData.Current.RoamingSettings;
-            roamingSettings.Values["userName"] = userNameTextBox.Text;
+            Windows.Storage.ApplicationDataContainer localSettings = Windows.Storage.ApplicationData.Current.LocalSettings;
+            localSettings.Values["userName"] = userNameTextBox.Text;
         }
 
         private void ClearUserName()
         {
-            Windows.Storage.ApplicationDataContainer roamingSettings = Windows.Storage.ApplicationData.Current.RoamingSettings;
-            roamingSettings.Values["userName"] = null;
+            Windows.Storage.ApplicationDataContainer localSettings = Windows.Storage.ApplicationData.Current.LocalSettings;
+            localSettings.Values["userName"] = null;
             userNameTextBox.Text = string.Empty;
         }
 
-        // Handle the button clicks from the flyouts.
-        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        private void UserNameTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            SaveUserName();
-            FlyoutBase.GetAttachedFlyout(this).Hide();
+            // Clear the error if the user name field isn't empty.
+            if (!string.IsNullOrEmpty(userNameTextBox.Text))
+            {
+                errorInfoBar.Message = string.Empty;
+                errorInfoBar.IsOpen = false;
+            }
         }
 
-        private void DiscardButton_Click(object sender, RoutedEventArgs e)
+        private void PasswordTextBox_PasswordChanged(object sender, RoutedEventArgs e)
         {
-            ClearUserName();
-            FlyoutBase.GetAttachedFlyout(this).Hide();
-        }
-
-        // When the flyout closes, hide the sign in dialog, too.
-        private void Flyout_Closed(object sender, object e)
-        {
-            this.Hide();
+            // Clear the error if the password field isn't empty.
+            if (!string.IsNullOrEmpty(passwordTextBox.Password))
+            {
+                errorInfoBar.Message = string.Empty;
+                errorInfoBar.IsOpen = false;
+            }
         }
     }
 }
-
 ```
 
-Here's code that shows the `SignInContentDialog` and uses it's custom `SignInResult`.
+Here's code that shows the `SignInContentDialog` and uses its custom `SignInResult`.
 
-```csharp
-
+```xaml
 private async void ShowSignInDialogButton_Click(object sender, RoutedEventArgs e)
 {
-    SignInContentDialog signInDialog = new SignInContentDialog();
+    SignInContentDialog signInDialog = new SignInContentDialog()
+    {
+        XamlRoot = rootPanel.XamlRoot
+    };
     await signInDialog.ShowAsync();
 
     if (signInDialog.Result == SignInResult.SignInOK)
@@ -403,12 +418,11 @@ private async void ShowSignInDialogButton_Click(object sender, RoutedEventArgs e
     }
     else if (signInDialog.Result == SignInResult.SignInCancel)
     {
-        // Sign in was cancelled by the user.
+        // Sign in was cancelled by the user. 
     }
 }
 ```
 
-
-
 ## -see-also
+
 [ContentControl](contentcontrol.md), [Dialogs and flyouts](/windows/apps/design/controls/dialogs-and-flyouts)

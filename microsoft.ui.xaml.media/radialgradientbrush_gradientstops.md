@@ -14,10 +14,10 @@ public Windows.Foundation.Collections.IObservableVector<Windows.UI.Xaml.Media.Gr
 Gets or sets the brush's gradient stops.
 
 ## -property-value
-A collection of [GradientStop](https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.gradientstop) objects that define the gradient.
+A collection of [GradientStop](/uwp/api/windows.ui.xaml.media.gradientstop) objects that define the gradient.
 
 ## -remarks
-The default is an empty [GradientStopCollection](https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.gradientstopcollection).
+The default is an empty [GradientStopCollection](/uwp/api/windows.ui.xaml.media.gradientstopcollection).
 
 ## -see-also
 

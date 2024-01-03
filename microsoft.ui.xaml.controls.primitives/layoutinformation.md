@@ -23,7 +23,4 @@ The following example shows how to use [GetLayoutSlot](layoutinformation_getlayo
 
 [!code-csharp[2](../microsoft.ui.xaml.controls.primitives/code/GetLayoutInfo/csharp/Page.xaml.cs#Snippet2)]
 
-[!code-vb[2](../microsoft.ui.xaml.controls.primitives/code/GetLayoutInfo/vbnet/Page.xaml.vb#Snippet2)]
-
-
 ## -see-also

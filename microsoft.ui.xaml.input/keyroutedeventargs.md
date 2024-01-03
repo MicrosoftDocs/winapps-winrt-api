@@ -15,9 +15,9 @@ Provides event data for the [KeyUp](../microsoft.ui.xaml/uielement_keyup.md) and
 
 ## -remarks
 
-Button input is mapped to different key values for various devices, including Xbox controllers.
+Button input is mapped to different key values for various devices, including game controllers.
 
-This table provides the mapping detail for an Xbox controller.
+This table provides the mapping detail for a game controller.
 
 <table>
    <tr><th>Button</th><th>[Key](keyroutedeventargs_key.md) value</th><th>[OriginalKey](keyroutedeventargs_originalkey.md) value</th></tr>

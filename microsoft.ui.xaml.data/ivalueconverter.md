@@ -24,8 +24,6 @@ The following example shows how to implement the IValueConverter interface and u
 
 [!code-csharp[2](../microsoft.ui.xaml.controls.primitives/code/DataBindingConverterParameterEx/csharp/Page.xaml.cs#Snippet2)]
 
-[!code-vb[2](../microsoft.ui.xaml.controls.primitives/code/DataBindingConverterParameterEx/vbnet/Page.xaml.vb#Snippet2)]
-
 ## -remarks
 You can create a class that allows you to convert the format of your data between the source and the target by inheriting from IValueConverter. For example, you might want to have a list of colors that you store as **RGBA** values, but display them with color names in the UI. By implementing [Convert](ivalueconverter_convert_101701969.md) and [ConvertBack](ivalueconverter_convertback_2106225504.md), you can change the format of the data values as they are passed between the target and source by the binding engine.
 You should always implement [Convert](ivalueconverter_convert_101701969.md) with a functional implementation, but it's fairly common to implement [ConvertBack](ivalueconverter_convertback_2106225504.md) so that it reports a not-implemented exception. You only need a [ConvertBack](ivalueconverter_convertback_2106225504.md) method in your converter if you are using the converter for two-way bindings, or using XAML for serialization.

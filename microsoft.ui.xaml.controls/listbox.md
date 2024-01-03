@@ -91,20 +91,5 @@ public BlankPage()
 }
 ```
 
-```vbnet
-
-Dim fonts As New ObservableCollection(of FontFamily) 
-
-Public Sub New()
-    MyBase.New()
-    InitializeComponent()    
-    fonts.Add(New FontFamily("Arial"))
-    fonts.Add(New FontFamily("Courier New"))
-    fonts.Add(New FontFamily("Times New Roman"))
-End Sub
-```
-
-
-
 ## -see-also
 [Selector](../microsoft.ui.xaml.controls.primitives/selector.md), [ItemsControl](itemscontrol.md), [ListBoxItem](listboxitem.md), [ComboBox](combobox.md), [Controls list](/windows/apps/design/controls/)

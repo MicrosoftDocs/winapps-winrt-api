@@ -26,7 +26,7 @@ The <xref:Microsoft.Windows.Widgets.Providers.IWidgetProvider.Deactivate(System.
 
 **Activate** and **Deactivate** are called on a per-widget basis. Note that the time window between **Activate** and **Deactivate** may be small, so it's recommended that you try to make your widget update code path as quick as possible.
 
-Note that when a widget is first created, as indicated by a call to <xref:Microsoft.Windows.Widgets.Providers.IWidgetProvider.CreateWidget(Microsoft.Windows.Widgets.Providers.WidgetContext>, it is in the active state.
+Note that when a widget is first created, as indicated by a call to <xref:Microsoft.Windows.Widgets.Providers.IWidgetProvider.CreateWidget(Microsoft.Windows.Widgets.Providers.WidgetContext)>, it is in the active state.
 
 Objects passed into this callback method are only guaranteed to be valid within the callback. You should not store references to these objects because their behavior outside of the context of the callback is undefined.
 

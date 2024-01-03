@@ -6,7 +6,8 @@
 # Microsoft.UI.Xaml.Hosting
 
 ## -description
-Provides services that are relevant for XAML design surfaces that are hosted in a larger application.
+
+Provides services relevant to XAML design surfaces hosted in a larger application.
 
 ## -remarks
 
