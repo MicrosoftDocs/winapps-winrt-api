@@ -11,11 +11,11 @@ public class ApplicationInitializationCallbackParams : Microsoft.UI.Xaml.IApplic
 
 ## -description
 
-A class that developers should derive from in order to pass information for a custom initialization sequence, in cases where both an [Application](application.md) subclass is present and the entry point [Start](application_start_1265583819.md) call is adjusted to pass the information.
+Represents an object to pass information for a custom initialization sequence. (Obsolete)
 
 ## -remarks
 
-This class is used as a custom information source for an [ApplicationInitializationCallback](applicationinitializationcallback.md) implementation. The basic `ApplicationInitializationCallbackParams` does not have any unique members. Your subclass should add any members you need for initialization information.
+The Windows App SDK version of this class is `sealed` and does not support inheritance. The basic `ApplicationInitializationCallbackParams` does not have any unique members.
 
 ## -examples
 
