@@ -43,6 +43,7 @@
       ]
     },
     "globalMetadata": {
+      "adobe-target": true,
       "open_to_public_contributors": false,
       "apiPlatform": "dotnet",
       "breadcrumb_path": "/windows/windows-app-sdk/api/winrt/breadcrumb/toc.json",
