@@ -55,8 +55,8 @@
       "author": "GrantMeStrength",
       "ms.author": "jken",
       "extendBreadcrumb": true,
-      "ms.prod": "reunion",
-      "ms.technology": "reunion-reference",
+      "ms.service": "windows-app-sdk",
+      "ms.subservice": "reunion-reference",
       "ms.topic": "managed-reference"
     },
     "fileMetadata": {
