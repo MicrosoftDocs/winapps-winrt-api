@@ -26,16 +26,17 @@ Represents a text control that makes suggestions to users as they enter text usi
 
 Use an AutoSuggestBox to provide a list of suggestions for a user to select from as they type.
 
-By default, the text entry box doesn't have a query button shown. You can set the [QueryIcon](autosuggestbox_queryicon.md) property to add a button with the specified icon on the right side of the text box. For example, to make the AutoSuggestBox look like a typical search box, add a 'find' icon, like this.
+By default, the text entry box doesn't have a query button shown. You can set the [QueryIcon](autosuggestbox_queryicon.md) property to add a button with the specified icon on the right side of the text box. For example, to make the AutoSuggestBox look like a typical search box, add a 'Find' icon, like this.
 
 ```xaml
 <AutoSuggestBox QueryIcon="Find"/>
 ```
 
-Here's an AutoSuggestBox with a 'find' icon. The suggestion list shows suggested results based on the user's entry.
+Here's an AutoSuggestBox with a 'Find' icon. The suggestion list shows suggested results based on the user's entry.
 
 <img src="images/controls/AutoSuggestBox_Open.png" alt="An auto suggest box with an icon and suggestions" />
-To use an AutoSuggestBox, you need to respond to 3 user actions.
+
+To use an AutoSuggestBox, you need to respond to 3 user actions:
 
 + Text changed - When the user enters text, update the suggestion list.
 + Suggestion chosen - When the user chooses a suggestion in the suggestion list, update the text box.
@@ -48,7 +49,7 @@ The [TextChanged](autosuggestbox_textchanged.md) event occurs whenever the conte
 To control how items are displayed in the suggestion list, you can use [DisplayMemberPath](itemscontrol_displaymemberpath.md) or [ItemTemplate](itemscontrol_itemtemplate.md).
 
 + To display the text of a single property of your data item, set the [DisplayMemberPath](itemscontrol_displaymemberpath.md) property to choose which property from your object to display in the suggestion list.
-+ To define a custom look for each item in the list, use the [ItemTemplate](itemscontrol_itemtemplate.md) property .
++ To define a custom look for each item in the list, use the [ItemTemplate](itemscontrol_itemtemplate.md) property.
 
 ### Suggestion chosen
 
@@ -75,6 +76,7 @@ If you are using an assistive technology, such as [Narrator](https://support.mic
 + Know how many suggestions are available
 + Be able to move Narrator focus to the list
 + Be able to Navigate through a suggestion with all other reading modes
+
 See [Auto-suggest accessibility](/windows/apps/design/accessibility/accessible-text-requirements#auto-suggest-accessibility) for more information.
 
 ## Pen input
