@@ -25,6 +25,6 @@ Represents a container with two views that size and position content in the avai
 > For more info, design guidance, and code examples, see [Two pane view](/windows/apps/design/controls/two-pane-view).
 
 > [!div class="nextstepaction"]
-> [Open the WinUI 3 Gallery app and see the TwoPaneView in action](winui3gallery:/item/TwoPaneView).
+> [Open the WinUI 3 Gallery app and see the TwoPaneView in action](winui3gallery:/item/TwoPaneView)
 
 > The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery)

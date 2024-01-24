@@ -79,7 +79,7 @@ List controls that derive from [Selector](../microsoft.ui.xaml.controls.primitiv
 > For more info, design guidance, and code examples, see [List view and grid view](/windows/apps/design/controls/listview-and-gridview).
 
 > [!div class="nextstepaction"]
-> [Open the WinUI 3 Gallery app and see the ListView in action](winui3gallery:/item/ListView).
+> [Open the WinUI 3 Gallery app and see the ListView in action](winui3gallery:/item/ListView)
 
 > The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery).
 

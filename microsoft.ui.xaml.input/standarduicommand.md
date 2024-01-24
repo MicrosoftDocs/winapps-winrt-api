@@ -48,6 +48,6 @@ The platform provides the following set of commands.
 > For more info, design guidance, and code examples, see [Commanding basics](/windows/uwp/layout/commanding-basics).
 
 > [!div class="nextstepaction"]
-> [Open the WinUI 3 Gallery app and see the StandardUICommand in action](winui3gallery:/item/StandardUICommand).
+> [Open the WinUI 3 Gallery app and see the StandardUICommand in action](winui3gallery:/item/StandardUICommand)
 
 > The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery).
