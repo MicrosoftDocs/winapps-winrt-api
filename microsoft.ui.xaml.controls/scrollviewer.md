@@ -150,7 +150,7 @@ When the OSK appears, the system adjusts app UI/layout behavior and provides scr
 > For more info, design guidance, and code examples, see [Scroll viewer controls](/windows/apps/design/controls/scroll-controls).
 
 > [!div class="nextstepaction"]
-> [Open the WinUI 3 Gallery app and see the ScrollViewer in action](winui3gallery:/item/ScrollViewer).
+> [Open the WinUI 3 Gallery app and see the ScrollViewer in action](winui3gallery:/item/ScrollViewer)
 
 > The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery).
 
