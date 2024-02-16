@@ -11,7 +11,11 @@ public Microsoft.UI.Xaml.Hosting.XamlSourceFocusNavigationReason Reason { get; }
 
 ## -description
 
+Gets how a [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) got focus in a desktop application that uses a [DesktopWindowXamlSource](desktopwindowxamlsource.md) object to host XAML-based UI.
+
 ## -property-value
+
+How a [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) got focus in a desktop application that uses a [DesktopWindowXamlSource](desktopwindowxamlsource.md) object to host XAML-based UI.
 
 ## -remarks
 
