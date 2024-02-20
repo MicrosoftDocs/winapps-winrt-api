@@ -5,9 +5,9 @@
 
 # Microsoft.Windows.Widgets
 
-Provides APIs related to Windows Widgets.
-
 ## -description
+
+Provides APIs related to Windows widgets.
 
 ## -remarks
 
