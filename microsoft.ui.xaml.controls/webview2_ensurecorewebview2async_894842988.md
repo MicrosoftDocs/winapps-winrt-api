@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncAction EnsureCoreWebView2Async ();
 
 ## -description
 
-Explicitly trigger initialization of the control's CoreWebView2.
+Explicitly triggers initialization of the control's CoreWebView2.
 
 ## -returns
 
