@@ -17,7 +17,7 @@ Gets the `DisplayArea` for the specified `WindowId`.
 
 ### -param windowId
 
-The identifer of the window for which to get the `DisplayArea`.
+The identifier of the window for which to get the `DisplayArea`.
 
 ### -param displayAreaFallback
 

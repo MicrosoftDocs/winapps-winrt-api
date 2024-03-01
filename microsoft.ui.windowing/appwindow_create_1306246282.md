@@ -30,7 +30,7 @@ A new app window with the specified configuration.
 
 ## -remarks
 
-To make this window an owned window, pass the [Id](appwindow_id.md) of the window you want to be its owner to the `ownerWindowsId` parameter. The `OwnerWindowId` must be a [WindowId](/uwp/api/windows.ui.windowid) from the same process as the window that has the configuration applied to it.
+To make this window an owned window, pass the [Id](appwindow_id.md) of the window you want to be its owner to the `ownerWindowId` parameter. The `ownerWindowId` must be a [WindowId](/uwp/api/windows.ui.windowid) from the same process as the window that has the configuration applied to it.
 
 ContextMenu, Dialog, and ToolWindow configurations require this property to be set when the window is created in order to be applied successfully.
 
