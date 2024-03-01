@@ -33,6 +33,9 @@ The Popup can host input controls. When hosting input controls like [TextBox](..
 
 The Popup doesn't fire [RoutedEvents](../microsoft.ui.xaml/routedevent.md), for example KeyDown and PointerPressed. You can wire an event handler for these [RoutedEvents](../microsoft.ui.xaml/routedevent.md) on the child of the Popup.
 
+> [!NOTE]
+> When used with [XAML Islands](/windows/apps/desktop/modernize/xaml-islands) ([DesktopWindowXamlSource](../microsoft.ui.xaml.hosting/desktopwindowxamlsource.md)): By default, this control is automatically constrained within the _[work area](../microsoft.ui.windowing/displayarea_workarea.md)_ of its display. To change this behavior, set the [DesktopWindowXamlSource.ShouldConstrainPopupsToWorkArea](../microsoft.ui.xaml.hosting/desktopwindowxamlsource_shouldconstrainpopupstoworkarea.md) property of the XAML island that contains this control.
+
 ## -examples
 
 This example shows a simple Popup with content defined inline.

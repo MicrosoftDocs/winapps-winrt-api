@@ -36,6 +36,9 @@ You populate the ComboBox by adding objects directly to the [Items](itemscontrol
 
 If you need to handle pointer events for a [UIElement](../microsoft.ui.xaml/uielement.md) in a scrollable view (such as a ScrollViewer), you must explicitly disable support for manipulation events on the element in the view by calling [UIElement.CancelDirectmanipulation()](../microsoft.ui.xaml/uielement_canceldirectmanipulations_1164631120.md). To re-enable manipulation events in the view, call [UIElement.TryStartDirectManipulation](../microsoft.ui.xaml/uielement_trystartdirectmanipulation_2108245083.md).
 
+> [!NOTE]
+> When used with [XAML Islands](/windows/apps/desktop/modernize/xaml-islands) ([DesktopWindowXamlSource](../microsoft.ui.xaml.hosting/desktopwindowxamlsource.md)): By default, this control is automatically constrained within the _[work area](../microsoft.ui.windowing/displayarea_workarea.md)_ of its display. To change this behavior, set the [DesktopWindowXamlSource.ShouldConstrainPopupsToWorkArea](../microsoft.ui.xaml.hosting/desktopwindowxamlsource_shouldconstrainpopupstoworkarea.md) property of the XAML island that contains this control.
+
 ### Control style and template
 
 You can modify the default [Style](../microsoft.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [XAML styles](/windows/apps/design/style/xaml-styles). The default style, template, and resources that define the look of the control are included in the `generic.xaml` file. For design purposes, `generic.xaml` is installed with the Windows App SDK NuGet package. By default, this location is `\Users\<username>\.nuget\packages\microsoft.windowsappsdk\<version>\lib\uap10.0\Microsoft.UI\Themes\generic.xaml`. Styles and resources from different versions of the SDK might have different values.
