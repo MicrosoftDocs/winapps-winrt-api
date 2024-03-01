@@ -9,15 +9,16 @@
 public Microsoft.UI.Input.FocusNavigationRequest Request { get; }
 -->
 
-
 ## -description
 
+Gets the details for focus navigation event.
+
 ## -property-value
+
+The details for focus navigation event.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
