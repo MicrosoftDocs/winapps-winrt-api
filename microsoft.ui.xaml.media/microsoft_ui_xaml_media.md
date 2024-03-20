@@ -13,9 +13,6 @@ namespace Microsoft.UI.Xaml.Media
 
 Provides brushes, basic media support, and graphics primitives.
 
-> [!NOTE]
-> This namespace requires the **Microsoft.UI.Xaml.Controls** NuGet package, a part of the [Microsoft Windows UI Library](https://aka.ms/winui-docs).
-
 ## -remarks
 
 ## -see-also

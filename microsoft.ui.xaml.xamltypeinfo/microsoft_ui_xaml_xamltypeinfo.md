@@ -13,9 +13,6 @@ namespace Microsoft.UI.Xaml.XamlTypeInfo
 
 Provides support for the XAML schema.
 
-> [!NOTE]
-> This namespace requires the **Microsoft.UI.Xaml.Controls** NuGet package, a part of the [Microsoft Windows UI Library](https://aka.ms/winui-docs).
-
 ## -remarks
 
 ## -see-also
