@@ -19,7 +19,7 @@ A value or bitwise combination of values that specifies which operations can be 
 
 ## -remarks
 
-This value is set in the [DragEnter](../microsoft.ui.xaml/uielement_dragenter.md) or [DragOver](../microsoft.ui.xaml/uielement_dragover.md) event of the `UIElement` that is a potential drop target of the drag and drop operation. It notifies the drag source of what operations it can accept, if any, for the [DataPackage](/uwp/api/windows.applicationmodel.datatransfer.datapackage) that is being dragged.
+This value is set in the [DragEnter](uielement_dragenter.md) or [DragOver](uielement_dragover.md) event of the `UIElement` that is a potential drop target of the drag and drop operation. It notifies the drag source of what operations it can accept, if any, for the [DataPackage](/uwp/api/windows.applicationmodel.datatransfer.datapackage) that is being dragged.
 
 For more info about data operations, see the [DataPackageOperation](/uwp/api/windows.applicationmodel.datatransfer.datapackageoperation) enumeration.
 

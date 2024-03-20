@@ -19,7 +19,7 @@ A value or bitwise combination of values that specifies which operations are all
 
 ## -remarks
 
-This value is set in the [UIElement.DragStarting](uielement_dragstarting.md) event handler. It can then be read from the [DragEventArgs.AllowedOperations](drageventargs_allowedoperations.md) property in the [DragEnter](../microsoft.ui.xaml/uielement_dragenter.md) and [DragOver](../microsoft.ui.xaml/uielement_dragover.md) events of the `UIElement` that is a potential drop target of the drag and drop operation. It notifies the target which data package operations (none, move, copy, and/or link) are allowed by the source.
+This value is set in the [UIElement.DragStarting](uielement_dragstarting.md) event handler. It can then be read from the [DragEventArgs.AllowedOperations](drageventargs_allowedoperations.md) property in the [DragEnter](uielement_dragenter.md) and [DragOver](uielement_dragover.md) events of the `UIElement` that is a potential drop target of the drag and drop operation. It notifies the target which data package operations (none, move, copy, and/or link) are allowed by the source.
 
 For more info about the allowed data operations, see the [DataPackageOperation](/uwp/api/windows.applicationmodel.datatransfer.datapackageoperation) enumeration.
 
