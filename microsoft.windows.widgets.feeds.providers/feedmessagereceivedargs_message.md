@@ -12,7 +12,7 @@ public string Message { get; }
 
 ## -description
 
-Gets a string containing the contents of the message that was posted from the feed's content using the `window.postMessage` JavaScript method
+Gets a string containing the contents of the message that was posted from the feed's content using the [window.chrome.webview.postMessage](/microsoft-edge/webview2/reference/javascript/webview) JavaScript method
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public sealed class FeedResourceRequestedArgs
 
 ## -description
 
-Provides data for the [FeedResourceRequestedArgs](xref:Microsoft.Windows.Widgets.Feeds.Providers.IFeedResourceProvider.OnResourceRequested(Microsoft.Windows.Widgets.Feeds.Providers.FeedResourceRequestedArgs)) event which is raised when the feed's content requests a resource that matches the web request filter string for a feed in the *WebRequestFilter* attribute of the **Definition** element in the provider's package manifest file.
+Provides data for the [FeedResourceRequestedArgs](xref:Microsoft.Windows.Widgets.Feeds.Providers.IFeedResourceProvider.OnResourceRequested(Microsoft.Windows.Widgets.Feeds.Providers.FeedResourceRequestedArgs)) event which is raised when the feed's content requests a resource that matches the web request filter string for a feed in the *WebRequestFilter* attribute of the **Definition** element in the provider's package manifest file. For more information, see [Feed provider package manifest XML format](/windows/apps/develop/feeds/feed-provider-manifest).
 
 ## -remarks
 

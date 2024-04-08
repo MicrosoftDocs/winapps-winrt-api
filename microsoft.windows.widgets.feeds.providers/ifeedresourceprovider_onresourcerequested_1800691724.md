@@ -12,7 +12,7 @@ public void OnResourceRequested (Microsoft.Windows.Widgets.Feeds.Providers.FeedR
 
 ## -description
 
-Raised when the feed's content requests a resource that matches the web request filter string for a feed in the *WebRequestFilter* attribute of the **Definition** element in the provider's package manifest file.
+Raised when the feed's content requests a resource that matches the web request filter string for a feed in the *WebRequestFilter* attribute of the **Definition** element in the provider's package manifest file. For more information, see [Feed provider package manifest XML format](/windows/apps/develop/feeds/feed-provider-manifest).
 
 ## -parameters
 

@@ -12,7 +12,7 @@ public void OnMessageReceived (Microsoft.Windows.Widgets.Feeds.Providers.FeedMes
 
 ## -description
 
-Raised when the feed's content posts a message using the `window.postMessage` JavaScript method.
+Raised when the feed's content posts a message using the [window.chrome.webview.postMessage](/microsoft-edge/webview2/reference/javascript/webview) JavaScript method.
 
 ## -parameters
 
@@ -22,7 +22,7 @@ A [FeedMessageReceivedArgs](xref:Microsoft.Windows.Widgets.Feeds.Providers.FeedM
 
 ## -remarks
 
-The calls to `window.postMessage` in the feed content must use a `targetOrigin` that matches the origin of the feed registration, specified in the *ContentUri* attribute of the **Definition** element in the provider's package manifest file. For more information see [Feed provider package manifest XML format](/windows/apps/develop/feeds/feed-provider-manifest).
+The calls to [window.chrome.webview.postMessage](/microsoft-edge/webview2/reference/javascript/webview) in the feed content must use a `targetOrigin` that matches the origin of the feed registration, specified in the *ContentUri* attribute of the **Definition** element in the provider's package manifest file. For more information see [Feed provider package manifest XML format](/windows/apps/develop/feeds/feed-provider-manifest).
 
 ## -see-also
 
