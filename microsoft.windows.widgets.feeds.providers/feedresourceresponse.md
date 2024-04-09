@@ -1,0 +1,29 @@
+---
+-api-id: T:Microsoft.Windows.Widgets.Feeds.Providers.FeedResourceResponse
+-api-type: winrt class
+---
+
+# Microsoft.Windows.Widgets.Feeds.Providers.FeedResourceResponse
+
+<!--
+public sealed class FeedResourceResponse
+-->
+
+
+## -description
+
+Represents a response to a resource request received through an implementation of [IFeedResourceProvider.OnResourceRequested](xref:Microsoft.Windows.Widgets.Feeds.Providers.IFeedResourceProvider.OnResourceRequested(Microsoft.Windows.Widgets.Feeds.Providers.FeedResourceRequestedArgs)).
+
+## -remarks
+
+Feed providers can access the resource request through the [FeedResourceRequestedArgs.Request](Microsoft.Windows.Widgets.Feeds.Providers.FeedResourceRequestedArgs.Request) property and set the [FeedResourceRequestedArgs.Response](Microsoft.Windows.Widgets.Feeds.Providers.FeedResourceRequestedArgs.Request) property to a [FeedResourceResponse](xref:Microsoft.Windows.Widgets.Feeds.Providers.FeedResourceResponse) that contains a stream to the resource and then return.
+
+If the evaluation or the resource is not immediately available, the provider should request a deferral by calling [FeedResourceRequestedArgs.GetDeferral](Microsoft.Windows.Widgets.Feeds.Providers.FeedResourceRequestedArgs.GetDeferral), initiate a background task, and complete the deferral when the resource is available.
+
+If the provider returns the [OnResourceRequested](xref:Microsoft.Windows.Widgets.Feeds.Providers.IFeedResourceProvider.OnResourceRequested(Microsoft.Windows.Widgets.Feeds.Providers.FeedResourceRequestedArgs)) call without setting the **FeedResourceRequestedArgs.Response** property, a web fetch will be made. When returning without a **FeedResourceResponse**, the provider may modify the [Headers](xref:Microsoft.Windows.Widgets.Feeds.Providers.FeedResourceResponse.Headers) collection which will then be used by the web fetch.
+
+## -see-also
+
+## -examples
+
+
