@@ -24,11 +24,11 @@ The JSON string returned by this property uses the following format:
 
 ```json
 {
-    "host": "dashboard.microsoft.com",
-    "version": "1.0",
-    "eventKind": "interaction",
-    "interactionKind": "titleLink",
-    "url": "https://www.contoso.com"
+"host": "dashboard.microsoft.com",
+"version": "1.0",
+"feedId": "{feedDefinitionId}",
+"eventKind": "visibility",
+"visibilityKind": "visible"
 }
 ```
 
