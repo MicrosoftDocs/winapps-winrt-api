@@ -34,16 +34,10 @@ An Image can display these image file formats:
 + icons (ICO)
 + Scalable Vector Graphics (SVG)
 
-Starting in Windows 10, version 1607, the Image element supports animated Graphics Interchange Format (GIF) images. When you use a [BitmapImage](../microsoft.ui.xaml.media.imaging/bitmapimage.md) as the image [Source](image_source.md), you can access [BitmapImage](../microsoft.ui.xaml.media.imaging/bitmapimage.md)  API to control playback of the animated Graphics Interchange Format (GIF) image. For more info, see the Remarks on the [BitmapImage](../microsoft.ui.xaml.media.imaging/bitmapimage.md) class page.
+The Image element supports animated Graphics Interchange Format (GIF) images. When you use a [BitmapImage](../microsoft.ui.xaml.media.imaging/bitmapimage.md) as the image [Source](image_source.md), you can access [BitmapImage](../microsoft.ui.xaml.media.imaging/bitmapimage.md) APIs to control playback of the animated Graphics Interchange Format (GIF) image. For more info, see the Remarks on the [BitmapImage](../microsoft.ui.xaml.media.imaging/bitmapimage.md) class page.
 
-> [!NOTE]
-> Animated Graphics Interchange Format (GIF) support is available when your app is compiled for Windows 10, version 1607 and running on version 1607 (or later). When your app is compiled for or runs on previous versions, the first frame of the Graphics Interchange Format (GIF) is shown, but it is not animated.
-
-Starting in Windows 10, version 1703, the Image element supports static Scalable Vector Graphics (SVG) images through [SvgImageSource](../microsoft.ui.xaml.media.imaging/svgimagesource.md). **SvgImageSource** supports secure static mode from the SVG specification and does not support animations or interactions. 
+The Image element supports static Scalable Vector Graphics (SVG) images through [SvgImageSource](../microsoft.ui.xaml.media.imaging/svgimagesource.md). **SvgImageSource** supports secure static mode from the SVG specification and does not support animations or interactions. 
 Direct2D supplies the underlying SVG rendering support and for more info on specific SVG element and attribute support, see [SVG Support](/windows/desktop/Direct2D/svg-support). To learn more about how to insert a SVG in your app, visit the [SvgImageSource](../microsoft.ui.xaml.media.imaging/svgimagesource.md) class page.
-
-> [!NOTE]
-> Scalable Vector Graphics (SVG) support is available when your app is compiled for Windows 10, version 1703 and running on version 1703 (or later). When your app is compiled for or runs on previous versions, the SVG image will not be shown.
 
 ### Setting Image.Source
 
@@ -68,7 +62,7 @@ You can also use image source files that aren't part of the app, for example ima
 If you create an Image object using code, call the default constructor, then set the [Image.Source](image_source.md) property. Setting the [Image.Source](image_source.md) property requires an instance of the [BitmapImage](../microsoft.ui.xaml.media.imaging/bitmapimage.md) class, which you also must construct. If your image source is a file referenced by Uniform Resource Identifier (URI), use the [BitmapImage](../microsoft.ui.xaml.media.imaging/bitmapimage_bitmapimage_843413386.md) constructor that takes a Uniform Resource Identifier (URI) parameter. When you reference local content, you must include the **ms-appx:** scheme in the absolute Uniform Resource Identifier (URI) that you use as the [BitmapImage](../microsoft.ui.xaml.media.imaging/bitmapimage_bitmapimage_843413386.md) constructor parameter. In code, you don't get the processing shortcuts for combining relative Uniform Resource Identifier (URI) parts and the **ms-appx:** scheme that happens automatically if you specify [Source](image_source.md) as a XAML attribute. Instead you must explicitly construct an absolute Uniform Resource Identifier (URI) with the appropriate scheme. You typically use the **ms-appx:** scheme for an image file that's packaged as part of your app.
 
 > [!TIP]
-> If you're using C# or Microsoft Visual Basic, you can get the [BaseUri](../microsoft.ui.xaml/frameworkelement_baseuri.md) property of the Image, and pass that as the *baseUri* parameter for [System.Uri](/dotnet/api/system.uri?view=dotnet-uwp-10.0&preserve-view=true) constructors that combine a Uniform Resource Identifier (URI) base location and a relative path within that location.
+> If you're using C#, you can get the [BaseUri](../microsoft.ui.xaml/frameworkelement_baseuri.md) property of the Image, and pass that as the *baseUri* parameter for [System.Uri](/dotnet/api/system.uri?view=dotnet-uwp-10.0&preserve-view=true) constructors that combine a Uniform Resource Identifier (URI) base location and a relative path within that location.
 
 Here's an example of setting [Image.Source](image_source.md) in C#. In this example, the Image object was created in XAML but doesn't have a source or any other property values; instead these values are provided at run-time when the Image is loaded from XAML.
 
@@ -165,7 +159,7 @@ Using the [NineGrid](image_ninegrid.md) technique is another option for sizing i
 
 ### **Image** source files and scaling
 
-You should create your image sources at several recommended sizes, to ensure that your app looks great when Windows 8 scales it. When specifying a [Source](image_source.md) for an Image, you can use a naming convention for resources that will use the correct resource for device-specific scaling factors. This is determined by the app automatically at run-time. For specifics of the naming conventions to use and more info, see [Quickstart: Using file or image resources](/previous-versions/windows/apps/hh965325(v=win.10)).
+You should create your image sources at several recommended sizes, to ensure that your app looks great when Windows scales it. When specifying a [Source](image_source.md) for an Image, you can use a naming convention for resources that will use the correct resource for device-specific scaling factors. This is determined by the app automatically at run-time. For specifics of the naming conventions to use and more info, see [Quickstart: Using file or image resources](/previous-versions/windows/apps/hh965325(v=win.10)).
 
 For more info on how to design images properly for scaling, see [UX guidelines for layout and scaling](https://developer.microsoft.com/windows/apps/design).
 
