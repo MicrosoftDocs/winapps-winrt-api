@@ -67,7 +67,7 @@
       "author": {
         "microsoft.applicationmodel.resources*.yml": "alvinashcraft",
         "microsoft.foundation*.yml": "alvinashcraft",
-        "microsoft.graphics.directx": "stevewhims",
+        "microsoft.graphics.directx*": "stevewhims",
         "microsoft.ui*.yml": "jwmsft",
         "microsoft.ui.composition*.yml": "jwmsft",
         "microsoft.ui.composition.core*.yml": "jwmsft",
