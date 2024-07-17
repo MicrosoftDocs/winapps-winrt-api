@@ -65,7 +65,7 @@
         "winapps-api-build/**.yml": ["csharp","cppwinrt"]
       },
       "author": {
-        "microsoft.applicationmodel.resources*.yml": "alvinashcraft",
+        "microsoft.applicationmodel.resources": "alvinashcraft",
         "microsoft.foundation*.yml": "alvinashcraft",
         "microsoft.graphics.directx*.yml": "stevewhims",
         "microsoft.ui*.yml": "jwmsft",
@@ -116,7 +116,7 @@
       },
       "ms.author":
       {
-        "microsoft.applicationmodel.resources*.yml": "aashcraft",
+        "microsoft.applicationmodel.resources": "aashcraft",
         "microsoft.foundation*.yml": "aashcraft",
         "microsoft.graphics.directx*.yml": "stwhi",
         "microsoft.ui*.yml": "jimwalk",
