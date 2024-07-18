@@ -66,8 +66,7 @@
       },
       "author": {
         "microsoft.applicationmodel.resources": "alvinashcraft",
-        "microsoft.foundation*.yml": "alvinashcraft",
-        "microsoft.graphics.directx*.yml": "stevewhims",
+        "microsoft.graphics*": "stevewhims",
         "microsoft.ui*.yml": "jwmsft",
         "microsoft.ui.composition*.yml": "jwmsft",
         "microsoft.ui.composition.core*.yml": "jwmsft",
@@ -117,8 +116,7 @@
       "ms.author":
       {
         "microsoft.applicationmodel.resources": "aashcraft",
-        "microsoft.foundation*.yml": "aashcraft",
-        "microsoft.graphics.directx*.yml": "stwhi",
+        "microsoft.graphics*": "stwhi",
         "microsoft.ui*.yml": "jimwalk",
         "microsoft.ui.composition*.yml": "jimwalk",
         "microsoft.ui.composition.core*.yml": "jimwalk",
