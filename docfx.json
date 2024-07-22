@@ -8,7 +8,7 @@
       {
         "files": [
           "**/*.md",
-          "**/*"
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -62,7 +62,7 @@
     },
     "fileMetadata": {
       "langs": {
-        "winapps-api-build/**": ["csharp","cppwinrt"]
+        "winapps-api-build/**.yml": ["csharp","cppwinrt"]
       },
       "author": {
         "microsoft.applicationmodel.resources": "alvinashcraft",
