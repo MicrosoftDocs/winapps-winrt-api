@@ -86,7 +86,7 @@
         "microsoft.ui.xaml.*drag*": "karl-bridge-microsoft",
         "microsoft.ui.xaml.*drop*": "karl-bridge-microsoft",
         "microsoft.ui.xaml.*focus*": "karl-bridge-microsoft",
-        "microsoft.ui.xaml.*focus*": "karl-bridge-microsoft",
+        "microsoft.ui.xaml.*text*": "karl-bridge-microsoft",
         "microsoft.ui.xaml.uielement_accesskey*": "karl-bridge-microsoft",
         "microsoft.ui.xaml.controls*": "jwmsft",
         "microsoft.ui.xaml.data*": "jwmsft",
