@@ -17,8 +17,6 @@ public class UIElement : Microsoft.UI.Xaml.DependencyObject, Microsoft.UI.Xaml.I
 
 `UIElement` is a base element: it's a class that many other Windows Runtime classes inherit from in order to support the XAML UI element model. Properties, methods and events that `UIElement` defines are inherited by hundreds of other Windows Runtime classes.
 
-Although `UIElement` defines the events for focus reporting ([GotFocus](uielement_gotfocus.md), [LostFocus](uielement_lostfocus.md)), `UIElement` does not define an API for programmatically setting the focus. This capability is defined by the [Control](../microsoft.ui.xaml.controls/control.md) class.
-
 `UIElement` does not expose a public constructor. Typically, you don't derive classes from either `UIElement` or [FrameworkElement](frameworkelement.md) directly. More typically used base classes for derived custom classes are these classes:
 
 + Specific controls that are not sealed (for example, [TextBox](../microsoft.ui.xaml.controls/textbox.md))
