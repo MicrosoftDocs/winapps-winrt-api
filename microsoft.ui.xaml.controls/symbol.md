@@ -10,615 +10,617 @@ public enum Windows.UI.Xaml.Controls.Symbol : int
 # Symbol
 
 ## -description
-Defines constants that specify a glyph from the **Segoe MDL2 Assets** font to use as the content of a [SymbolIcon](symbolicon.md).
+Defines constants that specify a glyph from the font defined by the `SymbolThemeFontFamily` resource.
 
 ## -xaml-syntax
 ```xaml
 <SymbolIcon Symbol="enumMemberName"/>
 ```
 
-
 ## -enum-fields
 
 ### -field Previous:57600
-E100 <img alt="Previous icon" src="images/segoe-mdl/e100.png" align="top" />
+E892 &nbsp;&nbsp;<img alt="Previous icon" src="images/segoe-fluent-icons/e892.png" align="top" />
 
 ### -field Next:57601
-E101 <img alt="Next icon" src="images/segoe-mdl/e101.png" />
+E893 &nbsp;&nbsp;<img alt="Next icon" src="images/segoe-fluent-icons/e893.png" />
 
 ### -field Play:57602
-E102 <img alt="Play icon" src="images/segoe-mdl/e102.png" />
+E768 &nbsp;&nbsp;<img alt="Play icon" src="images/segoe-fluent-icons/e768.png" />
 
 ### -field Pause:57603
-E103 <img alt="Pause icon" src="images/segoe-mdl/e103.png" />
+E769 &nbsp;&nbsp;<img alt="Pause icon" src="images/segoe-fluent-icons/e769.png" />
 
 ### -field Edit:57604
-E104 <img alt="Edit icon" src="images/segoe-mdl/e104.png" />
+E70F &nbsp;&nbsp;<img alt="Edit icon" src="images/segoe-fluent-icons/e70f.png" />
 
 ### -field Save:57605
-E105 <img alt="Save icon" src="images/segoe-mdl/e105.png" />
+E74E &nbsp;&nbsp;<img alt="Save icon" src="images/segoe-fluent-icons/e74e.png" />
 
 ### -field Clear:57606
-E106 <img alt="Clear icon" src="images/segoe-mdl/e106.png" />
+E894 &nbsp;&nbsp;<img alt="Clear icon" src="images/segoe-fluent-icons/e894.png" />
 
 ### -field Delete:57607
-E107 <img alt="Delete icon" src="images/segoe-mdl/e107.png" />
+E74D &nbsp;&nbsp;<img alt="Delete icon" src="images/segoe-fluent-icons/e74d.png" />
 
 ### -field Remove:57608
-E108 <img alt="Remove icon" src="images/segoe-mdl/e108.png" />
+E738 &nbsp;&nbsp;<img alt="Remove icon" src="images/segoe-fluent-icons/e738.png" />
 
 ### -field Add:57609
-E109 <img alt="Add icon" src="images/segoe-mdl/e109.png" />
+E710 &nbsp;&nbsp;<img alt="Add icon" src="images/segoe-fluent-icons/e710.png" />
 
 ### -field Cancel:57610
-E10A <img alt="Cancel icon" src="images/segoe-mdl/e10a.png" />
+E711 &nbsp;&nbsp;<img alt="Cancel icon" src="images/segoe-fluent-icons/e711.png" />
 
 ### -field Accept:57611
-E10B <img alt="Accept icon" src="images/segoe-mdl/e10b.png" />
+E8FB &nbsp;&nbsp;<img alt="Accept icon" src="images/segoe-fluent-icons/e8fb.png" />
 
 ### -field More:57612
-E10C <img alt="More icon" src="images/segoe-mdl/e10c.png" />
+E712 &nbsp;&nbsp;<img alt="More icon" src="images/segoe-fluent-icons/e712.png" />
 
 ### -field Redo:57613
-E10D <img alt="Redo icon" src="images/segoe-mdl/e10d.png" />
+E7A6 &nbsp;&nbsp;<img alt="Redo icon" src="images/segoe-fluent-icons/e7a6.png" />
 
 ### -field Undo:57614
-E10E <img alt="Undo icon" src="images/segoe-mdl/e10e.png" />
+E7A7 &nbsp;&nbsp;<img alt="Undo icon" src="images/segoe-fluent-icons/e7a7.png" />
 
 ### -field Home:57615
-E10F <img alt="Home icon" src="images/segoe-mdl/e10f.png" />
+E80F &nbsp;&nbsp;<img alt="Home icon" src="images/segoe-fluent-icons/e80f.png" />
 
 ### -field Up:57616
-E110 <img alt="Up icon" src="images/segoe-mdl/e110.png" />
+E74A &nbsp;&nbsp;<img alt="Up icon" src="images/segoe-fluent-icons/e74a.png" />
 
 ### -field Forward:57617
-E111 <img alt="Forward icon" src="images/segoe-mdl/e111.png" />
+E72A &nbsp;&nbsp;<img alt="Forward icon" src="images/segoe-fluent-icons/e72a.png" />
 
 ### -field Back:57618
-E112 <img alt="Back icon" src="images/segoe-mdl/e112.png" />
+E72B &nbsp;&nbsp;<img alt="Back icon" src="images/segoe-fluent-icons/e72b.png" />
 
 ### -field Favorite:57619
-E113 <img alt="Favorite icon" src="images/segoe-mdl/e113.png" />
+E734 &nbsp;&nbsp;<img alt="Favorite icon" src="images/segoe-fluent-icons/e734.png" />
 
 ### -field Camera:57620
-E114 <img alt="Camera icon" src="images/segoe-mdl/e114.png" />
+E722 &nbsp;&nbsp;<img alt="Camera icon" src="images/segoe-fluent-icons/e722.png" />
 
 ### -field Setting:57621
-E115 <img alt="Setting icon" src="images/segoe-mdl/e115.png" />
+E713 &nbsp;&nbsp;<img alt="Setting icon" src="images/segoe-fluent-icons/e713.png" />
 
 ### -field Video:57622
-E116 <img alt="Video icon" src="images/segoe-mdl/e116.png" />
+E714 &nbsp;&nbsp;<img alt="Video icon" src="images/segoe-fluent-icons/e714.png" />
 
 ### -field Sync:57623
-E117 <img alt="Sync icon" src="images/segoe-mdl/e117.png" />
+E895 &nbsp;&nbsp;<img alt="Sync icon" src="images/segoe-fluent-icons/e895.png" />
 
 ### -field Download:57624
-E118 <img alt="Download icon" src="images/segoe-mdl/e118.png" />
+E896 &nbsp;&nbsp;<img alt="Download icon" src="images/segoe-fluent-icons/e896.png" />
 
 ### -field Mail:57625
-E119 <img alt="Mail icon" src="images/segoe-mdl/e119.png" />
+E715 &nbsp;&nbsp;<img alt="Mail icon" src="images/segoe-fluent-icons/e715.png" />
 
 ### -field Find:57626
-E11A <img alt="Find icon" src="images/segoe-mdl/e11a.png" />
+E721 &nbsp;&nbsp;<img alt="Find icon" src="images/segoe-fluent-icons/e721.png" />
 
 ### -field Help:57627
-E11B <img alt="Help icon" src="images/segoe-mdl/e11b.png" />
+E897 &nbsp;&nbsp;<img alt="Help icon" src="images/segoe-fluent-icons/e897.png" />
 
 ### -field Upload:57628
-E11C <img alt="Upload icon" src="images/segoe-mdl/e11c.png" />
+E898 &nbsp;&nbsp;<img alt="Upload icon" src="images/segoe-fluent-icons/e898.png" />
 
 ### -field Emoji:57629
-E11D <img alt="Emoji icon" src="images/segoe-mdl/e11d.png" />
+E899 &nbsp;&nbsp;<img alt="Emoji icon" src="images/segoe-fluent-icons/e899.png" />
 
 ### -field TwoPage:57630
-E11E <img alt="Two Page icon" src="images/segoe-mdl/e11e.png" />
+E89A &nbsp;&nbsp;<img alt="Two Page icon" src="images/segoe-fluent-icons/e89a.png" />
 
 ### -field LeaveChat:57631
-E11F <img alt="Leave Chat icon" src="images/segoe-mdl/e11f.png" />
+E89B &nbsp;&nbsp;<img alt="Leave Chat icon" src="images/segoe-fluent-icons/e89b.png" />
 
 ### -field MailForward:57632
-E120 <img alt="Mail Forward icon" src="images/segoe-mdl/e120.png" />
+E89C &nbsp;&nbsp;<img alt="Mail Forward icon" src="images/segoe-fluent-icons/e89c.png" />
 
 ### -field Clock:57633
-E121 <img alt="Clock icon" src="images/segoe-mdl/e121.png" />
+E823 &nbsp;&nbsp;<img alt="Clock icon" src="images/segoe-fluent-icons/e823.png" />
 
 ### -field Send:57634
-E122 <img alt="Send icon" src="images/segoe-mdl/e122.png" />
+E724 &nbsp;&nbsp;<img alt="Send icon" src="images/segoe-fluent-icons/e724.png" />
 
 ### -field Crop:57635
-E123 <img alt="Crop icon" src="images/segoe-mdl/e123.png" />
+E7A8 &nbsp;&nbsp;<img alt="Crop icon" src="images/segoe-fluent-icons/e7a8.png" />
 
 ### -field RotateCamera:57636
-E124 <img alt="Rotate Camera icon" src="images/segoe-mdl/e124.png" />
+E89E &nbsp;&nbsp;<img alt="Rotate Camera icon" src="images/segoe-fluent-icons/e89e.png" />
 
 ### -field People:57637
-E125 <img alt="People icon" src="images/segoe-mdl/e125.png" />
+E716 &nbsp;&nbsp;<img alt="People icon" src="images/segoe-fluent-icons/e716.png" />
 
 ### -field OpenPane:57638
-E126 <img alt="Open Pane icon" src="images/segoe-mdl/e126.png" />
+E8A0 &nbsp;&nbsp;<img alt="Open Pane icon" src="images/segoe-fluent-icons/e8a0.png" />
 
 ### -field ClosePane:57639
-E127 <img alt="Close Pane icon" src="images/segoe-mdl/e127.png" />
+E89F &nbsp;&nbsp;<img alt="Close Pane icon" src="images/segoe-fluent-icons/e89f.png" />
 
 ### -field World:57640
-E128 <img alt="World icon" src="images/segoe-mdl/e128.png" />
+E909 &nbsp;&nbsp;<img alt="World icon" src="images/segoe-fluent-icons/e909.png" />
 
 ### -field Flag:57641
-E129 <img alt="Flag icon" src="images/segoe-mdl/e129.png" />
+E7C1 &nbsp;&nbsp;<img alt="Flag icon" src="images/segoe-fluent-icons/e7c1.png" />
 
 ### -field PreviewLink:57642
-E12A <img alt="Preview Link icon" src="images/segoe-mdl/e12a.png" />
+E8A1 &nbsp;&nbsp;<img alt="Preview Link icon" src="images/segoe-fluent-icons/e8a1.png" />
 
 ### -field Globe:57643
-E12B <img alt="Globe icon" src="images/segoe-mdl/e12b.png" />
+E774 &nbsp;&nbsp;<img alt="Globe icon" src="images/segoe-fluent-icons/e774.png" />
 
 ### -field Trim:57644
-E12C <img alt="Trim icon" src="images/segoe-mdl/e12c.png" />
+E78A &nbsp;&nbsp;<img alt="Trim icon" src="images/segoe-fluent-icons/e78a.png" />
 
 ### -field AttachCamera:57645
-E12D <img alt="Attach Camera icon" src="images/segoe-mdl/e12d.png" />
+E8A2 &nbsp;&nbsp;<img alt="Attach Camera icon" src="images/segoe-fluent-icons/e8a2.png" />
 
 ### -field ZoomIn:57646
-E12E <img alt="Zoom In icon" src="images/segoe-mdl/e12e.png" />
+E8A3 &nbsp;&nbsp;<img alt="Zoom In icon" src="images/segoe-fluent-icons/e8a3.png" />
 
 ### -field Bookmarks:57647
-E12F <img alt="Bookmarks icon" src="images/segoe-mdl/e12f.png" />
+E8A4 &nbsp;&nbsp;<img alt="Bookmarks icon" src="images/segoe-fluent-icons/e8a4.png" />
 
 ### -field Document:57648
-E130 <img alt="Document icon" src="images/segoe-mdl/e130.png" />
+E8A5 &nbsp;&nbsp;<img alt="Document icon" src="images/segoe-fluent-icons/e8a5.png" />
 
 ### -field ProtectedDocument:57649
-E131 <img alt="Protected Document icon" src="images/segoe-mdl/e131.png" />
+E8A6 &nbsp;&nbsp;<img alt="Protected Document icon" src="images/segoe-fluent-icons/e8a6.png" />
 
 ### -field Page:57650
-E132 <img alt="Page icon" src="images/segoe-mdl/e132.png" />
+E729 &nbsp;&nbsp;<img alt="Page icon" src="images/segoe-fluent-icons/e729.png" />
 
 ### -field Bullets:57651
-E133 <img alt="Bullets icon" src="images/segoe-mdl/e133.png" />
+E8FD &nbsp;&nbsp;<img alt="Bullets icon" src="images/segoe-fluent-icons/e8fd.png" />
 
 ### -field Comment:57652
-E134 <img alt="Comment icon" src="images/segoe-mdl/e134.png" />
+E90A &nbsp;&nbsp;<img alt="Comment icon" src="images/segoe-fluent-icons/e90a.png" />
 
 ### -field MailFilled:57653
-E135 <img alt="Mail Filled icon" src="images/segoe-mdl/e135.png" />
+E8A8 &nbsp;&nbsp;<img alt="Mail Filled icon" src="images/segoe-fluent-icons/e8a8.png" />
 
 ### -field ContactInfo:57654
-E136 <img alt="Contact Info icon" src="images/segoe-mdl/e136.png" />
+E779 &nbsp;&nbsp;<img alt="Contact Info icon" src="images/segoe-fluent-icons/e779.png" />
 
 ### -field HangUp:57655
-E137 <img alt="Hang Up icon" src="images/segoe-mdl/e137.png" />
+E778 &nbsp;&nbsp;<img alt="Hang Up icon" src="images/segoe-fluent-icons/e778.png" />
 
 ### -field ViewAll:57656
-E138 <img alt="View All icon" src="images/segoe-mdl/e138.png" />
-
+E8A9 &nbsp;&nbsp;<img alt="View All icon" src="images/segoe-fluent-icons/e8a9.png" />F
 ### -field MapPin:57657
-E139 <img alt="Map Pin icon" src="images/segoe-mdl/e139.png" />
+E7B7 &nbsp;&nbsp;<img alt="Map Pin icon" src="images/segoe-fluent-icons/e7b7.png" />
 
 ### -field Phone:57658
-E13A <img alt="Phone icon" src="images/segoe-mdl/e13a.png" />
+E717 &nbsp;&nbsp;<img alt="Phone icon" src="images/segoe-fluent-icons/e717.png" />
 
 ### -field VideoChat:57659
-E13B <img alt="Video Chat icon" src="images/segoe-mdl/e13b.png" />
+E8AA &nbsp;&nbsp;<img alt="Video Chat icon" src="images/segoe-fluent-icons/e8aa.png" />
 
 ### -field Switch:57660
-E13C <img alt="Switch icon" src="images/segoe-mdl/e13c.png" />
+E8AB &nbsp;&nbsp;<img alt="Switch icon" src="images/segoe-fluent-icons/e8ab.png" />
 
 ### -field Contact:57661
-E13D <img alt="Contact icon" src="images/segoe-mdl/e13d.png" />
+E77B &nbsp;&nbsp;<img alt="Contact icon" src="images/segoe-fluent-icons/e77b.png" />
 
 ### -field Rename:57662
-E13E <img alt="Rename icon" src="images/segoe-mdl/e13e.png" />
+E8AC &nbsp;&nbsp;<img alt="Rename icon" src="images/segoe-fluent-icons/e8ac.png" />
 
 ### -field Pin:57665
-E141 <img alt="Pin icon" src="images/segoe-mdl/e141.png" />
+E718 &nbsp;&nbsp;<img alt="Pin icon" src="images/segoe-fluent-icons/e718.png" />
 
 ### -field MusicInfo:57666
-E142 <img alt="Music Info icon" src="images/segoe-mdl/e142.png" />
+E90B &nbsp;&nbsp;<img alt="Music Info icon" src="images/segoe-fluent-icons/e90b.png" />
 
 ### -field Go:57667
-E143 <img alt="Go icon" src="images/segoe-mdl/e143.png" />
+E8AD &nbsp;&nbsp;<img alt="Go icon" src="images/segoe-fluent-icons/e8ad.png" />
 
 ### -field Keyboard:57668
-E144 <img alt="Keyboard icon" src="images/segoe-mdl/e144.png" />
+E765 &nbsp;&nbsp;<img alt="Keyboard icon" src="images/segoe-fluent-icons/e765.png" />
 
 ### -field DockLeft:57669
-E145 <img alt="Dock Left icon" src="images/segoe-mdl/e145.png" />
+E90C &nbsp;&nbsp;<img alt="Dock Left icon" src="images/segoe-fluent-icons/e90c.png" />
 
 ### -field DockRight:57670
-E146 <img alt="Dock Right icon" src="images/segoe-mdl/e146.png" />
+E90D &nbsp;&nbsp;<img alt="Dock Right icon" src="images/segoe-fluent-icons/e90d.png" />
 
 ### -field DockBottom:57671
-E147 <img alt="Dock Bottom icon" src="images/segoe-mdl/e147.png" />
+E90E &nbsp;&nbsp;<img alt="Dock Bottom icon" src="images/segoe-fluent-icons/e90e.png" />
 
 ### -field Remote:57672
-E148 <img alt="Remote icon" src="images/segoe-mdl/e148.png" />
+E8AF &nbsp;&nbsp;<img alt="Remote icon" src="images/segoe-fluent-icons/e8af.png" />
 
 ### -field Refresh:57673
-E149 <img alt="Refresh icon" src="images/segoe-mdl/e149.png" />
+E72C &nbsp;&nbsp;<img alt="Refresh icon" src="images/segoe-fluent-icons/e72c.png" />
 
 ### -field Rotate:57674
-E14A <img alt="Rotate icon" src="images/segoe-mdl/e14a.png" />
+E7AD &nbsp;&nbsp;<img alt="Rotate icon" src="images/segoe-fluent-icons/e7ad.png" />
 
 ### -field Shuffle:57675
-E14B <img alt="Shuffle icon" src="images/segoe-mdl/e14b.png" />
+E8B1 &nbsp;&nbsp;<img alt="Shuffle icon" src="images/segoe-fluent-icons/e8b1.png" />
 
 ### -field List:57676
-E14C <img alt="List icon" src="images/segoe-mdl/e14c.png" />
+EA37 &nbsp;&nbsp;<img alt="List icon" src="images/segoe-fluent-icons/ea37.png" />
 
 ### -field Shop:57677
-E14D <img alt="Shop icon" src="images/segoe-mdl/e14d.png" />
+E719 &nbsp;&nbsp;<img alt="Shop icon" src="images/segoe-fluent-icons/e719.png" />
 
 ### -field SelectAll:57678
-E14E <img alt="Select All icon" src="images/segoe-mdl/e14e.png" />
+E8B3 &nbsp;&nbsp;<img alt="Select All icon" src="images/segoe-fluent-icons/e8b3.png" />
 
 ### -field Orientation:57679
-E14F <img alt="Orientation icon" src="images/segoe-mdl/e14f.png" />
+E8B4 &nbsp;&nbsp;<img alt="Orientation icon" src="images/segoe-fluent-icons/e8b4.png" />
 
 ### -field Import:57680
-E150 <img alt="Import icon" src="images/segoe-mdl/e150.png" />
+E8B5 &nbsp;&nbsp;<img alt="Import icon" src="images/segoe-fluent-icons/e8b5.png" />
 
 ### -field ImportAll:57681
-E151 <img alt="Import All icon" src="images/segoe-mdl/e151.png" />
+E8B6 &nbsp;&nbsp;<img alt="Import All icon" src="images/segoe-fluent-icons/e8b6.png" />
 
 ### -field BrowsePhotos:57685
-E155 <img alt="Browse Photos icon" src="images/segoe-mdl/e155.png" />
+E7C5 &nbsp;&nbsp;<img alt="Browse Photos icon" src="images/segoe-fluent-icons/e7c5.png" />
 
 ### -field WebCam:57686
-E156 <img alt="Web Cam icon" src="images/segoe-mdl/e156.png" />
+E8B8 &nbsp;&nbsp;<img alt="Web Cam icon" src="images/segoe-fluent-icons/e8b8.png" />
 
 ### -field Pictures:57688
-E158 <img alt="Pictures icon" src="images/segoe-mdl/e158.png" />
+E8B9 &nbsp;&nbsp;<img alt="Pictures icon" src="images/segoe-fluent-icons/e8b9.png" />
 
 ### -field SaveLocal:57689
-E159 <img alt="Save Local icon" src="images/segoe-mdl/e159.png" />
+E78C &nbsp;&nbsp;<img alt="Save Local icon" src="images/segoe-fluent-icons/e78c.png" />
 
 ### -field Caption:57690
-E15A <img alt="Caption icon" src="images/segoe-mdl/e15a.png" />
+E8BA &nbsp;&nbsp;<img alt="Caption icon" src="images/segoe-fluent-icons/e8ba.png" />
 
 ### -field Stop:57691
-E15B <img alt="Stop icon" src="images/segoe-mdl/e15b.png" />
+E71A &nbsp;&nbsp;<img alt="Stop icon" src="images/segoe-fluent-icons/e71a.png" />
 
 ### -field ShowResults:57692
-E15C <img alt="Show Results icon" src="images/segoe-mdl/e15c.png" />
+E8BC &nbsp;&nbsp;<img alt="Show Results icon" src="images/segoe-fluent-icons/e8bc.png" />
 
 ### -field Volume:57693
-E15D <img alt="Volume icon" src="images/segoe-mdl/e15d.png" />
+E767 &nbsp;&nbsp;<img alt="Volume icon" src="images/segoe-fluent-icons/e767.png" />
 
 ### -field Repair:57694
-E15E <img alt="Repair icon" src="images/segoe-mdl/e15e.png" />
+E90F &nbsp;&nbsp;<img alt="Repair icon" src="images/segoe-fluent-icons/e90f.png" />
 
 ### -field Message:57695
-E15F <img alt="Message icon" src="images/segoe-mdl/e15f.png" />
+E8BD &nbsp;&nbsp;<img alt="Message icon" src="images/segoe-fluent-icons/e8bd.png" />
 
 ### -field Page2:57696
-E160 <img alt="Page2 icon" src="images/segoe-mdl/e160.png" />
+E7C3 &nbsp;&nbsp;<img alt="Page2 icon" src="images/segoe-fluent-icons/e7c3.png" />
 
 ### -field CalendarDay:57697
-E161 <img alt="Calendar Day icon" src="images/segoe-mdl/e161.png" />
+E8BF &nbsp;&nbsp;<img alt="Calendar Day icon" src="images/segoe-fluent-icons/e8bf.png" />
 
 ### -field CalendarWeek:57698
-E162 <img alt="Calendar Week icon" src="images/segoe-mdl/e162.png" />
+E8C0 &nbsp;&nbsp;<img alt="Calendar Week icon" src="images/segoe-fluent-icons/e8c0.png" />
 
 ### -field Calendar:57699
-E163 <img alt="Calendar icon" src="images/segoe-mdl/e163.png" />
+E787 &nbsp;&nbsp;<img alt="Calendar icon" src="images/segoe-fluent-icons/e787.png" />
 
 ### -field Character:57700
-E164 <img alt="Character icon" src="images/segoe-mdl/e164.png" />
+E8C1 &nbsp;&nbsp;<img alt="Character icon" src="images/segoe-fluent-icons/e8c1.png" />
 
 ### -field MailReplyAll:57701
-E165 <img alt="Mail Reply All icon" src="images/segoe-mdl/e165.png" />
+E8C2 &nbsp;&nbsp;<img alt="Mail Reply All icon" src="images/segoe-fluent-icons/e8c2.png" />
 
 ### -field Read:57702
-E166 <img alt="Read icon" src="images/segoe-mdl/e166.png" />
+E8C3 &nbsp;&nbsp;<img alt="Read icon" src="images/segoe-fluent-icons/e8c3.png" />
 
 ### -field Link:57703
-E167 <img alt="Link icon" src="images/segoe-mdl/e167.png" />
+E71B &nbsp;&nbsp;<img alt="Link icon" src="images/segoe-fluent-icons/e71b.png" />
 
 ### -field Account:57704
-E168 <img alt="Account icon" src="images/segoe-mdl/e168.png" />
+E910 &nbsp;&nbsp;<img alt="Account icon" src="images/segoe-fluent-icons/e910.png" />
 
 ### -field ShowBcc:57705
-E169 <img alt="Show BCC icon" src="images/segoe-mdl/e169.png" />
+E8C4 &nbsp;&nbsp;<img alt="Show BCC icon" src="images/segoe-fluent-icons/e8c4.png" />
 
 ### -field HideBcc:57706
-E16A <img alt="Hide BCC icon" src="images/segoe-mdl/e16a.png" />
+E8C5 &nbsp;&nbsp;<img alt="Hide BCC icon" src="images/segoe-fluent-icons/e8c5.png" />
 
 ### -field Cut:57707
-E16B <img alt="Cut icon" src="images/segoe-mdl/e16b.png" />
+E8C6 &nbsp;&nbsp;<img alt="Cut icon" src="images/segoe-fluent-icons/e8c6.png" />
 
 ### -field Attach:57708
-E16C <img alt="Attach icon" src="images/segoe-mdl/e16c.png" />
+E723 &nbsp;&nbsp;<img alt="Attach icon" src="images/segoe-fluent-icons/e723.png" />
 
 ### -field Paste:57709
-E16D <img alt="Paste icon" src="images/segoe-mdl/e16d.png" />
+E77F &nbsp;&nbsp;<img alt="Paste icon" src="images/segoe-fluent-icons/e77f.png" />
 
 ### -field Filter:57710
-E16E <img alt="Filter icon" src="images/segoe-mdl/e16e.png" />
+E71C &nbsp;&nbsp;<img alt="Filter icon" src="images/segoe-fluent-icons/e71c.png" />
 
 ### -field Copy:57711
-E16F <img alt="Copy icon" src="images/segoe-mdl/e16f.png" />
+E8C8 &nbsp;&nbsp;<img alt="Copy icon" src="images/segoe-fluent-icons/e8c8.png" />
 
 ### -field Emoji2:57712
-E170 <img alt="Emoji 2 icon" src="images/segoe-mdl/e170.png" />
+E76E &nbsp;&nbsp;<img alt="Emoji 2 icon" src="images/segoe-fluent-icons/e76e.png" />
 
 ### -field Important:57713
-E171 <img alt="Important icon" src="images/segoe-mdl/e171.png" />
+E8C9 &nbsp;&nbsp;<img alt="Important icon" src="images/segoe-fluent-icons/e8c9.png" />
 
 ### -field MailReply:57714
-E172 <img alt="Mail Reply icon" src="images/segoe-mdl/e172.png" />
+E8CA &nbsp;&nbsp;<img alt="Mail Reply icon" src="images/segoe-fluent-icons/e8ca.png" />
 
 ### -field SlideShow:57715
-E173 <img alt="Slide Show icon" src="images/segoe-mdl/e173.png" />
+E786 &nbsp;&nbsp;<img alt="Slide Show icon" src="images/segoe-fluent-icons/e786.png" />
 
 ### -field Sort:57716
-E174 <img alt="Sort icon" src="images/segoe-mdl/e174.png" />
+E8CB &nbsp;&nbsp;<img alt="Sort icon" src="images/segoe-fluent-icons/e8cb.png" />
 
 ### -field Manage:57720
-E178 <img alt="Manage icon" src="images/segoe-mdl/e178.png" />
+E912 &nbsp;&nbsp;<img alt="Manage icon" src="images/segoe-fluent-icons/e912.png" />
 
 ### -field AllApps:57721
-E179 <img alt="All Apps icon" src="images/segoe-mdl/e179.png" />
+E71D &nbsp;&nbsp;<img alt="All Apps icon" src="images/segoe-fluent-icons/e71d.png" />
 
 ### -field DisconnectDrive:57722
-E17A <img alt="Disconnect Drive icon" src="images/segoe-mdl/e17a.png" />
+E8CD &nbsp;&nbsp;<img alt="Disconnect Drive icon" src="images/segoe-fluent-icons/e8cd.png" />
 
 ### -field MapDrive:57723
-E17B <img alt="Map Drive icon" src="images/segoe-mdl/e17b.png" />
+E8CE &nbsp;&nbsp;<img alt="Map Drive icon" src="images/segoe-fluent-icons/e8ce.png" />
 
 ### -field NewWindow:57724
-E17C <img alt="New Window icon" src="images/segoe-mdl/e17c.png" />
+E78B &nbsp;&nbsp;<img alt="New Window icon" src="images/segoe-fluent-icons/e78b.png" />
 
 ### -field OpenWith:57725
-E17D <img alt="Open With icon" src="images/segoe-mdl/e17d.png" />
+E7AC &nbsp;&nbsp;<img alt="Open With icon" src="images/segoe-fluent-icons/e7ac.png" />
 
 ### -field ContactPresence:57729
-E181 <img alt="Contact Presence icon" src="images/segoe-mdl/e181.png" />
+E8CF &nbsp;&nbsp;<img alt="Contact Presence icon" src="images/segoe-fluent-icons/e8cf.png" />
 
 ### -field Priority:57730
-E182 <img alt="Priority icon" src="images/segoe-mdl/e182.png" />
+E8D0 &nbsp;&nbsp;<img alt="Priority icon" src="images/segoe-fluent-icons/e8d0.png" />
 
 ### -field GoToToday:57732
-E184 <img alt="Go To Today icon" src="images/segoe-mdl/e184.png" />
+E8D1 &nbsp;&nbsp;<img alt="Go To Today icon" src="images/segoe-fluent-icons/e8d1.png" />
 
 ### -field Font:57733
-E185 <img alt="Font icon" src="images/segoe-mdl/e185.png" />
+E8D2 &nbsp;&nbsp;<img alt="Font icon" src="images/segoe-fluent-icons/e8d2.png" />
 
 ### -field FontColor:57734
-E186 <img alt="Font Color icon" src="images/segoe-mdl/e186.png" />
+E8D3 &nbsp;&nbsp;<img alt="Font Color icon" src="images/segoe-fluent-icons/e8d3.png" />
 
 ### -field Contact2:57735
-E187 <img alt="Contact 2 icon" src="images/segoe-mdl/e187.png" />
+E8D4 &nbsp;&nbsp;<img alt="Contact 2 icon" src="images/segoe-fluent-icons/e8d4.png" />
 
 ### -field Folder:57736
-E188 <img alt="Folder icon" src="images/segoe-mdl/e188.png" />
+E8B7 &nbsp;&nbsp;<img alt="Folder icon" src="images/segoe-fluent-icons/e8b7.png" />
 
 ### -field Audio:57737
-E189 <img alt="Audio icon" src="images/segoe-mdl/e189.png" />
+E8D6 &nbsp;&nbsp;<img alt="Audio icon" src="images/segoe-fluent-icons/e8d6.png" />
 
 ### -field Placeholder:57738
-E18A <img alt="Placeholder icon" src="images/segoe-mdl/e18a.png" />
+E18A &nbsp;&nbsp;<img alt="Placeholder icon" src="images/segoe-fluent-icons/e18a.png" />
 
 ### -field View:57739
-E18B <img alt="View icon" src="images/segoe-mdl/e18b.png" />
+E890 &nbsp;&nbsp;<img alt="View icon" src="images/segoe-fluent-icons/e890.png" />
 
 ### -field SetLockScreen:57740
-E18C <img alt="Set Lock Screen icon" src="images/segoe-mdl/e18c.png" />
+E7B5 &nbsp;&nbsp;<img alt="Set Lock Screen icon" src="images/segoe-fluent-icons/e7b5.png" />
 
 ### -field SetTile:57741
-E18D <img alt="Set Tile icon" src="images/segoe-mdl/e18d.png" />
+E97B &nbsp;&nbsp;<img alt="Set Tile icon" src="images/segoe-fluent-icons/e97b.png" />
 
 ### -field ClosedCaption:57744
-E190 <img alt="Closed Caption icon" src="images/segoe-mdl/e190.png" />
+E7F0 &nbsp;&nbsp;<img alt="Closed Caption icon" src="images/segoe-fluent-icons/e7f0.png" />
 
 ### -field StopSlideShow:57745
-E191 <img alt="Stop Slide Show icon" src="images/segoe-mdl/e191.png" />
+E620 &nbsp;&nbsp;<img alt="Stop Slide Show icon" src="images/segoe-fluent-icons/e620.png" />
 
 ### -field Permissions:57746
-E192 <img alt="Permissions icon" src="images/segoe-mdl/e192.png" />
+E8D7 &nbsp;&nbsp;<img alt="Permissions icon" src="images/segoe-fluent-icons/e8d7.png" />
 
 ### -field Highlight:57747
-E193 <img alt="Highlight icon" src="images/segoe-mdl/e193.png" />
+E7E6 &nbsp;&nbsp;<img alt="Highlight icon" src="images/segoe-fluent-icons/e7e6.png" />
 
 ### -field DisableUpdates:57748
-E194 <img alt="Disable Updates icon" src="images/segoe-mdl/e194.png" />
+E8D8 &nbsp;&nbsp;<img alt="Disable Updates icon" src="images/segoe-fluent-icons/e8d8.png" />
 
 ### -field UnFavorite:57749
-E195 <img alt="Unfavorite icon" src="images/segoe-mdl/e195.png" />
+E8D9 &nbsp;&nbsp;<img alt="Unfavorite icon" src="images/segoe-fluent-icons/e8d9.png" />
 
 ### -field UnPin:57750
-E196 <img alt="UnPin icon" src="images/segoe-mdl/e196.png" />
+E77A &nbsp;&nbsp;<img alt="UnPin icon" src="images/segoe-fluent-icons/e77a.png" />
 
 ### -field OpenLocal:57751
-E197 <img alt="Open Local icon" src="images/segoe-mdl/e197.png" />
+E8DA &nbsp;&nbsp;<img alt="Open Local icon" src="images/segoe-fluent-icons/e8da.png" />
 
 ### -field Mute:57752
-E198 <img alt="Mute icon" src="images/segoe-mdl/e198.png" />
+E74F &nbsp;&nbsp;<img alt="Mute icon" src="images/segoe-fluent-icons/e74f.png" />
 
 ### -field Italic:57753
-E199 <img alt="Italic icon" src="images/segoe-mdl/e199.png" />
+E8DB &nbsp;&nbsp;<img alt="Italic icon" src="images/segoe-fluent-icons/e8db.png" />
 
 ### -field Underline:57754
-E19A <img alt="Underline icon" src="images/segoe-mdl/e19a.png" />
+E8DC &nbsp;&nbsp;<img alt="Underline icon" src="images/segoe-fluent-icons/e8dc.png" />
 
 ### -field Bold:57755
-E19B <img alt="Bold icon" src="images/segoe-mdl/e19b.png" />
+E8DD &nbsp;&nbsp;<img alt="Bold icon" src="images/segoe-fluent-icons/e8dd.png" />
 
 ### -field MoveToFolder:57756
-E19C <img alt="Move To Folder icon" src="images/segoe-mdl/e19c.png" />
+E8DE &nbsp;&nbsp;<img alt="Move To Folder icon" src="images/segoe-fluent-icons/e8de.png" />
 
 ### -field LikeDislike:57757
-E19D <img alt="Like Dislike icon" src="images/segoe-mdl/e19d.png" />
+E8DF &nbsp;&nbsp;<img alt="Like Dislike icon" src="images/segoe-fluent-icons/e8df.png" />
 
 ### -field Dislike:57758
-E19E <img alt="Dislike icon" src="images/segoe-mdl/e19e.png" />
+E8E0 &nbsp;&nbsp;<img alt="Dislike icon" src="images/segoe-fluent-icons/e8e0.png" />
 
 ### -field Like:57759
-E19F <img alt="Like icon" src="images/segoe-mdl/e19f.png" />
+E8E1 &nbsp;&nbsp;<img alt="Like icon" src="images/segoe-fluent-icons/e8e1.png" />
 
 ### -field AlignRight:57760
-E1A0 <img alt="Align Right icon" src="images/segoe-mdl/e1a0.png" />
+E8E2 &nbsp;&nbsp;<img alt="Align Right icon" src="images/segoe-fluent-icons/e8e2.png" />
 
 ### -field AlignCenter:57761
-E1A1 <img alt="Align Center icon" src="images/segoe-mdl/e1a1.png" />
+E8E3 &nbsp;&nbsp;<img alt="Align Center icon" src="images/segoe-fluent-icons/e8e3.png" />
 
 ### -field AlignLeft:57762
-E1A2 <img alt="Align Left icon" src="images/segoe-mdl/e1a2.png" />
+E8E4 &nbsp;&nbsp;<img alt="Align Left icon" src="images/segoe-fluent-icons/e8e4.png" />
 
 ### -field Zoom:57763
-E1A3 <img alt="Zoom icon" src="images/segoe-mdl/e1a3.png" />
+E71E &nbsp;&nbsp;<img alt="Zoom icon" src="images/segoe-fluent-icons/e71e.png" />
 
 ### -field ZoomOut:57764
-E1A4 <img alt="Zoom Out icon" src="images/segoe-mdl/e1a4.png" />
+E71F &nbsp;&nbsp;<img alt="Zoom Out icon" src="images/segoe-fluent-icons/e71f.png" />
 
 ### -field OpenFile:57765
-E1A5 <img alt="Open File icon" src="images/segoe-mdl/e1a5.png" />
+E8E5 &nbsp;&nbsp;<img alt="Open File icon" src="images/segoe-fluent-icons/e8e5.png" />
 
 ### -field OtherUser:57766
-E1A6 <img alt="Other User icon" src="images/segoe-mdl/e1a6.png" />
+E7EE &nbsp;&nbsp;<img alt="Other User icon" src="images/segoe-fluent-icons/e7ee.png" />
 
 ### -field Admin:57767
-E1A7 <img alt="Admin icon" src="images/segoe-mdl/e1a7.png" />
+E7EF &nbsp;&nbsp;<img alt="Admin icon" src="images/segoe-fluent-icons/e7ef.png" />
 
 ### -field Street:57795
-E1C3 <img alt="Street icon" src="images/segoe-mdl/e1c3.png" />
+E913 &nbsp;&nbsp;<img alt="Street icon" src="images/segoe-fluent-icons/e913.png" />
 
 ### -field Map:57796
-E1C4 <img alt="Map icon" src="images/segoe-mdl/e1c4.png" />
+E707 &nbsp;&nbsp;<img alt="Map icon" src="images/segoe-fluent-icons/e707.png" />
 
 ### -field ClearSelection:57797
-E1C5 <img alt="Clear Selection icon" src="images/segoe-mdl/e1c5.png" />
+E8E6 &nbsp;&nbsp;<img alt="Clear Selection icon" src="images/segoe-fluent-icons/e8e6.png" />
 
 ### -field FontDecrease:57798
-E1C6 <img alt="Font Decrease icon" src="images/segoe-mdl/e1c6.png" />
+E8E7 &nbsp;&nbsp;<img alt="Font Decrease icon" src="images/segoe-fluent-icons/e8e7.png" />
 
 ### -field FontIncrease:57799
-E1C7 <img alt="Font Increase icon" src="images/segoe-mdl/e1c7.png" />
+E8E8 &nbsp;&nbsp;<img alt="Font Increase icon" src="images/segoe-fluent-icons/e8e8.png" />
 
 ### -field FontSize:57800
-E1C8 <img alt="Font Size icon" src="images/segoe-mdl/e1c8.png" />
+E8E9 &nbsp;&nbsp;<img alt="Font Size icon" src="images/segoe-fluent-icons/e8e9.png" />
 
 ### -field CellPhone:57801
-E1C9 <img alt="Cell Phone icon" src="images/segoe-mdl/e1c9.png" />
+E8EA &nbsp;&nbsp;<img alt="Cell Phone icon" src="images/segoe-fluent-icons/e8ea.png" />
 
 ### -field ReShare:57802
-E1CA <img alt="Reshare icon" src="images/segoe-mdl/e1ca.png" />
+E8EB &nbsp;&nbsp;<img alt="Reshare icon" src="images/segoe-fluent-icons/e8eb.png" />
 
 ### -field Tag:57803
-E1CB <img alt="Tag icon" src="images/segoe-mdl/e1cb.png" />
+E8EC &nbsp;&nbsp;<img alt="Tag icon" src="images/segoe-fluent-icons/e8ec.png" />
 
 ### -field RepeatOne:57804
-E1CC <img alt="Repeat 1 icon" src="images/segoe-mdl/e1cc.png" />
+E8ED &nbsp;&nbsp;<img alt="Repeat 1 icon" src="images/segoe-fluent-icons/e8ed.png" />
 
 ### -field RepeatAll:57805
-E1CD <img alt="Repeat All icon" src="images/segoe-mdl/e1cd.png" />
+E8EE &nbsp;&nbsp;<img alt="Repeat All icon" src="images/segoe-fluent-icons/e8ee.png" />
 
 ### -field OutlineStar:57806
-E1CE <img alt="Outline Star icon" src="images/segoe-mdl/e1ce.png" />
+E734 &nbsp;&nbsp;<img alt="Outline Star icon" src="images/segoe-fluent-icons/e734.png" />
 
 ### -field SolidStar:57807
-E1CF <img alt="Solid Star icon" src="images/segoe-mdl/e1cf.png" />
+E735 &nbsp;&nbsp;<img alt="Solid Star icon" src="images/segoe-fluent-icons/e735.png" />
 
 ### -field Calculator:57808
-E1D0 <img alt="Calculator icon" src="images/segoe-mdl/e1d0.png" />
+E8EF &nbsp;&nbsp;<img alt="Calculator icon" src="images/segoe-fluent-icons/e8ef.png" />
 
 ### -field Directions:57809
-E1D1 <img alt="Directions icon" src="images/segoe-mdl/e1d1.png" />
+E8F0 &nbsp;&nbsp;<img alt="Directions icon" src="images/segoe-fluent-icons/e8f0.png" />
 
 ### -field Target:57810
-E1D2 <img alt="Target icon" src="images/segoe-mdl/e1d2.png" />
+F5F0
 
 ### -field Library:57811
-E1D3 <img alt="Library icon" src="images/segoe-mdl/e1d3.png" />
+E8F1 &nbsp;&nbsp;<img alt="Library icon" src="images/segoe-fluent-icons/e8f1.png" />
 
 ### -field PhoneBook:57812
-E1D4 <img alt="Phone Book icon" src="images/segoe-mdl/e1d4.png" />
+E780 &nbsp;&nbsp;<img alt="Phone Book icon" src="images/segoe-fluent-icons/e780.png" />
 
 ### -field Memo:57813
-E1D5 <img alt="Memo icon" src="images/segoe-mdl/e1d5.png" />
+E77C &nbsp;&nbsp;<img alt="Memo icon" src="images/segoe-fluent-icons/e77c.png" />
 
 ### -field Microphone:57814
-E1D6 <img alt="Microphone icon" src="images/segoe-mdl/e1d6.png" />
+E720 &nbsp;&nbsp;<img alt="Microphone icon" src="images/segoe-fluent-icons/e720.png" />
 
 ### -field PostUpdate:57815
-E1D7 <img alt="Post Update icon" src="images/segoe-mdl/e1d7.png" />
+E8F3 &nbsp;&nbsp;<img alt="Post Update icon" src="images/segoe-fluent-icons/e8f3.png" />
 
 ### -field BackToWindow:57816
-E1D8 <img alt="Back To Window icon" src="images/segoe-mdl/e1d8.png" />
+E73F &nbsp;&nbsp;<img alt="Back To Window icon" src="images/segoe-fluent-icons/e73f.png" />
 
 ### -field FullScreen:57817
-E1D9 <img alt="Full Screen icon" src="images/segoe-mdl/e1d9.png" />
+E8F3 &nbsp;&nbsp;<img alt="Full Screen icon" src="images/segoe-fluent-icons/e8f3.png" />
 
 ### -field NewFolder:57818
-E1DA <img alt="New Folder icon" src="images/segoe-mdl/e1da.png" />
+E8F4 &nbsp;&nbsp;<img alt="New Folder icon" src="images/segoe-fluent-icons/e8f4.png" />
 
 ### -field CalendarReply:57819
-E1DB <img alt="Calendar Reply icon" src="images/segoe-mdl/e1db.png" />
+E8F5 &nbsp;&nbsp;<img alt="Calendar Reply icon" src="images/segoe-fluent-icons/e8f5.png" />
 
 ### -field UnSyncFolder:57821
-E1DD <img alt="Unsync Folder icon" src="images/segoe-mdl/e1dd.png" />
+E8F6 &nbsp;&nbsp;<img alt="Unsync Folder icon" src="images/segoe-fluent-icons/e8f6.png" />
 
 ### -field ReportHacked:57822
-E1DE <img alt="Report Hacked icon" src="images/segoe-mdl/e1de.png" />
+E730 &nbsp;&nbsp;<img alt="Report Hacked icon" src="images/segoe-fluent-icons/e730.png" />
 
 ### -field SyncFolder:57823
-E1DF <img alt="Sync Folder icon" src="images/segoe-mdl/e1df.png" />
+E8F7 &nbsp;&nbsp;<img alt="Sync Folder icon" src="images/segoe-fluent-icons/e8f7.png" />
 
 ### -field BlockContact:57824
-E1E0 <img alt="Block Contact icon" src="images/segoe-mdl/e1e0.png" />
+E8F8 &nbsp;&nbsp;<img alt="Block Contact icon" src="images/segoe-fluent-icons/e8f8.png" />
 
 ### -field SwitchApps:57825
-E1E1 <img alt="Switch Apps  icon" src="images/segoe-mdl/e1e1.png" />
+E8F9 &nbsp;&nbsp;<img alt="Switch Apps  icon" src="images/segoe-fluent-icons/e8f9.png" />
 
 ### -field AddFriend:57826
-E1E2 <img alt="Add Friend icon" src="images/segoe-mdl/e1e2.png" />
+E8FA &nbsp;&nbsp;<img alt="Add Friend icon" src="images/segoe-fluent-icons/e8fa.png" />
 
 ### -field TouchPointer:57827
-E1E3 <img alt="Touch Pointer icon" src="images/segoe-mdl/e1e3.png" />
+E7C9 &nbsp;&nbsp;<img alt="Touch Pointer icon" src="images/segoe-fluent-icons/e7c9.png" />
 
 ### -field GoToStart:57828
-E1E4 <img alt="Go To Start icon" src="images/segoe-mdl/e1e4.png" />
+E8FC &nbsp;&nbsp;<img alt="Go To Start icon" src="images/segoe-fluent-icons/e8fc.png" />
 
 ### -field ZeroBars:57829
-E1E5 <img alt="Zero Bars icon" src="images/segoe-mdl/e1e5.png" />
+E904 &nbsp;&nbsp;<img alt="Zero Bars icon" src="images/segoe-fluent-icons/e904.png" />
 
 ### -field OneBar:57830
-E1E6 <img alt="One Bar icon" src="images/segoe-mdl/e1e6.png" />
+E905 &nbsp;&nbsp;<img alt="One Bar icon" src="images/segoe-fluent-icons/e905.png" />
 
 ### -field TwoBars:57831
-E1E7 <img alt="Two Bars icon" src="images/segoe-mdl/e1e7.png" />
+E906 &nbsp;&nbsp;<img alt="Two Bars icon" src="images/segoe-fluent-icons/e906.png" />
 
 ### -field ThreeBars:57832
-E1E8 <img alt="Three Bars icon" src="images/segoe-mdl/e1e8.png" />
+E907 &nbsp;&nbsp;<img alt="Three Bars icon" src="images/segoe-fluent-icons/e907.png" />
 
 ### -field FourBars:57833
-E1E9 <img alt="Four Bars icon" src="images/segoe-mdl/e1e9.png" />
+E908 &nbsp;&nbsp;<img alt="Four Bars icon" src="images/segoe-fluent-icons/e908.png" />
 
 ### -field Scan:58004
-E294 <img alt="Scan icon" src="images/segoe-mdl/e294.png" />
+E8FE &nbsp;&nbsp;<img alt="Scan icon" src="images/segoe-fluent-icons/e8fe.png" />
 
 ### -field Preview:58005
-E295 <img alt="Preview icon" src="images/segoe-mdl/e295.png" />
+E8FF &nbsp;&nbsp;<img alt="Preview icon" src="images/segoe-fluent-icons/e8ff.png" />
 
 ### -field GlobalNavigationButton:59136
-E700 <img alt="GlobalNav icon" src="images/segoe-mdl/e700.png" />
+E700 &nbsp;&nbsp;<img alt="GlobalNav icon" src="images/segoe-fluent-icons/e700.png" />
 
 ### -field Print:59209
-E749 <img alt="Print icon" src="images/segoe-mdl/e749.png" />
+E749 &nbsp;&nbsp;<img alt="Print icon" src="images/segoe-fluent-icons/e749.png" />
 
 ### -field Share:59181
-E72D <img alt="Share icon" src="images/segoe-mdl/e72d.png" />
+E72D &nbsp;&nbsp;<img alt="Share icon" src="images/segoe-fluent-icons/e72d.png" />
 
 ### -field XboxOneConsole:59792
-E990 <img alt="Xbox icon" src="images/segoe-mdl/e990.png" />
+E990 &nbsp;&nbsp;<img alt="Xbox icon" src="images/segoe-fluent-icons/e990.png" />
 
 ## -remarks
 
-The Symbol enumeration is typically used to set the value of the [AppBarButton.Icon](appbarbutton_icon.md) property or the [SymbolIcon.Symbol](symbolicon_symbol.md) property. For more info and examples, see the documentation for [AppBarButton](appbarbutton.md) and [SymbolIcon](symbolicon.md).
+The Symbol enumeration is typically used to set the value of the [AppBarButton.Icon](appbarbutton_icon.md) property or the [SymbolIcon.Symbol](symbolicon_symbol.md) property. If you would like to use a glyph from the Segoe Fluent Icon font that is not included in the Symbol enum, use a [FontIcon](fonticon.md). For more info and examples, see [Icons in Windows apps](/windows/apps/design/style/icons).
 
-If you would like to use a glyph from the **Segoe MDL2 Assets** font that is not included in the Symbol enum, then use a [FontIcon](fonticon.md).
+> [!TIP]
+> Rather than specifying a FontFamily directly, XAML controls use the font family defined by the `SymbolThemeFontFamily` XAML theme resource. By default, this resource uses the [Segoe Fluent Icon](/windows/apps/design/style/segoe-fluent-icons-font) font. If your app is run on Windows 10, version 20H2 or earlier, the Segoe Fluent Icon font is not available and the `SymbolThemeFontFamily` resource falls back to the [Segoe MDL2 Assets](/windows/apps/design/style/segoe-ui-symbol-font) font instead.
+
+> [!IMPORTANT]
+> Windows App SDK 1.4 and earlier use glyph codes in the E1xx range, which are the same as those used by the [Windows.UI.Xaml.Controls.Symbol](/uwp/api/windows.ui.xaml.controls.symbol) enum for UWP. In Windows App SDK 1.5 and later, these glyph codes are remapped to use the newer codes shown on this page.
 
 ## -examples
 
 ## -see-also
 
-[Guidelines for Segoe MDL2 icons](/windows/uwp/style/segoe-ui-symbol-font), [Command bar](/windows/apps/design/controls/command-bar)
+[Icons in Windows apps](/windows/apps/design/style/icons), [Segoe Fluent Icon](/windows/apps/design/style/segoe-fluent-icons-font), [Command bar](/windows/apps/design/controls/command-bar), [AppBarButton](appbarbutton.md), [SymbolIcon](symbolicon.md)
