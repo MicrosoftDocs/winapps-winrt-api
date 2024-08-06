@@ -21,9 +21,13 @@ The element to unload.
 
 ## -remarks
 
+This method supports functionality provided by the [x:Load attribute](/windows/uwp/xaml-platform/x-load-attribute). Calling this method with an element that is not marked with the `x:Load` attribute will cause an error.
+
+For more information and examples, see [Unloading elements](/windows/uwp/xaml-platform/x-load-attribute#unloading-elements) in the [x:Load attribute](/windows/uwp/xaml-platform/x-load-attribute) page.
+
 ## -see-also
 
-[x:Load](/windows/uwp/xaml-platform/x-load-attribute)
+[x:Load attribute](/windows/uwp/xaml-platform/x-load-attribute)
 
 ## -examples
 
