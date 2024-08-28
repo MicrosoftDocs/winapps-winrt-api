@@ -38,7 +38,7 @@ The JSON string returned by this property uses the following format:
 
 Error reporting can occur for card validation errors and card creation errors. The following sections provide detailed information about the format of the JSON telemetry data format for each type of error.
 
-### CardValidation
+### CardValidation error
 
 An event containing the *cardValidation* error kind is raised when the provided card template populated with the provided card data produces any rendering error or warning from the ones detailed in the AdaptiveCards [ValidationEvent](https://github.com/microsoft/AdaptiveCards/blob/main/source/nodejs/adaptivecards/docs/enums/adaptivecards.validationevent.md) enumeration. This event is intended to help developers during the development and testing phases of their Widgets, but there may be cases where this event is raised after a Widget has been released.
 
@@ -68,7 +68,7 @@ Example JSON payload for a card validation error.
 }
 ```
 
-### CardCreationFailed
+### CardCreationFailed error
 
 An event containing the *cardCreationFailed* error kind is raised when a card template cannot be successfully populated by its corresponding provided card data, for example, if a key referred in the template cannot be found in the data. This event is intended to help developers during the development and testing phases of their Widgets, but there may be cases where this event is raised after a Widget has been released.
 
