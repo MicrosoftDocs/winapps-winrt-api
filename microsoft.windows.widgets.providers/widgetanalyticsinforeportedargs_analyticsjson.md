@@ -70,7 +70,7 @@ This event is raised when an user clicks on one of the actions under the ellipsi
 | version | Version of the JSON payload schema.|
 | eventKind	 | interaction"|
 | interactionKind | "contextMenu"|
-| clickedItem | Name of the menu item clicked, for example: "customize", "unpin", "attribution", "feedback"|
+| clickedItem | Name of the menu item clicked, for example: "customize", "unpin", "attribution", "feedback", “additionalInfo”|
 
 Example JSON payload for a ContextMenu event.
 
@@ -108,6 +108,30 @@ Example JSON payload for a Hyperlink event.
     "url": "https://www.contoso.com"
 }
 ```
+
+#### AdditionalInfoUri
+
+This event is raised when an user launches the AdditionalInfoUri for a Widget, for example, when the user clicks on the widget title in the Dashboard that results in external navigation.
+
+| Property | Value |
+|----------|-------|
+| host | String that identifies the host sending the error info.|
+| version | Version of the JSON payload schema.|
+| eventKind | "interaction"|
+| interactionKind | "additionalInfoUri"|
+| uri | Uri registered for navigation when the user launches the AdditionalInfoUri for a Widget. For example, when clicking on the Widget's title in the Dashboard. |
+
+Example JSON payload for a AdditionalInfoUri event.
+
+```json
+{
+    "host": "dashboard.microsoft.com",
+    "version": "1.0",
+    "eventKind": "interaction",
+    "interactionKind": "additionalInfoUri",
+    "uri": "https://www.contoso.com"
+}
+
 
 #### Action.OpenUrl
 
@@ -226,6 +250,8 @@ Example JSON payload for a Carousel event.
     "carouselEventKind": 1
 }
 ```
+
+
 
 ### EventKind - exitCustomization
 
