@@ -70,7 +70,7 @@ This event is raised when an user clicks on one of the actions under the ellipsi
 | version | Version of the JSON payload schema.|
 | eventKind	 | interaction"|
 | interactionKind | "contextMenu"|
-| clickedItem | Name of the menu item clicked, for example: "customize", "unpin", "attribution", "feedback", “additionalInfo”|
+| clickedItem | Name of the menu item clicked, for example: "customize", "unpin", "attribution", "feedback", "additionalInfo"|
 
 Example JSON payload for a ContextMenu event.
 
