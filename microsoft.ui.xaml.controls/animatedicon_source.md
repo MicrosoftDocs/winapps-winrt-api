@@ -24,15 +24,15 @@ The `Source` property does not support XAML [attribute syntax](/windows/uwp/xaml
 ```xaml
 <!--  These XAML declarations produce the same result. -->
 
-<muxc:AnimatedIcon>
-    <muxc:AnimatedIcon.Source>
+<AnimatedIcon>
+    <AnimatedIcon.Source>
         <animatedvisuals:AnimatedBackVisualSource/>
-    </muxc:AnimatedIcon.Source>
-</muxc:AnimatedIcon>
+    </AnimatedIcon.Source>
+</AnimatedIcon>
 
-<muxc:AnimatedIcon>
+<AnimatedIcon>
     <animatedvisuals:AnimatedBackVisualSource/>
-</muxc:AnimatedIcon>
+</AnimatedIcon>
 ```
 
 WinUI provides animated visuals for some common icons in the [Microsoft.UI.Xaml.Controls.AnimatedVisuals](/windows/winui/api/microsoft.ui.xaml.controls.animatedvisuals) namespace.
@@ -49,11 +49,10 @@ This example sets the `AnimatedIcon.Source` property to [AnimatedBackVisualSourc
 
 ```xaml
 <!-- 
-xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
 xmlns:animatedvisuals="using:Microsoft.UI.Xaml.Controls.AnimatedVisuals"
 -->
 
-<muxc:AnimatedIcon>
+<AnimatedIcon>
     <animatedvisuals:AnimatedBackVisualSource/>
-</muxc:AnimatedIcon>
+</AnimatedIcon>
 ```

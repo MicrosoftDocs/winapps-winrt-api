@@ -39,17 +39,17 @@ Animated visual sources that are used in control templates often have a more com
 You can set the property on the `AnimatedIcon` or on an ancestor in the XAML tree. In either case, you need to use the attached property syntax, like this:
 
 ```xaml
-<muxc:AnimatedIcon muxc:AnimatedIcon.State="Normal">...</muxc:AnimatedIcon>
+<AnimatedIcon AnimatedIcon.State="Normal">...</AnimatedIcon>
 ```
 
 > [!IMPORTANT]
 > If you add an `AnimatedIcon` to the XAML tree and set the `State` property on an ancestor element, the `State` property must be set to an initial value before the animated icon is first loaded in order for the icon to animate. You typically set the initial state in XAML as shown here.
 >
 >```xaml
-><StackPanel muxc:AnimatedIcon.State="Normal" ...>
->    <muxc:AnimatedIcon>
+><StackPanel AnimatedIcon.State="Normal" ...>
+>    <AnimatedIcon>
 >        <animatedvisuals:AnimatedBackVisualSource/>
->    </muxc:AnimatedIcon>
+>    </AnimatedIcon>
 ></StackPanel>
 >```
 
@@ -110,26 +110,23 @@ This example demonstrates a back button with a back arrow icon that animates whe
 
 ```xaml
 <!-- 
-xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
 xmlns:animatedvisuals="using:Microsoft.UI.Xaml.Controls.AnimatedVisuals"
 -->
 
 <AppBarButton x:Name="BackButton" Label="Back"
-              muxc:AnimatedIcon.State="Normal"
+              AnimatedIcon.State="Normal"
               PointerEntered="AppBarButton_PointerEntered"
               PointerExited="AppBarButton_PointerExited">
-    <muxc:AnimatedIcon>
+    <AnimatedIcon>
         <animatedvisuals:AnimatedBackVisualSource/>
-        <muxc:AnimatedIcon.FallbackIconSource>
-            <muxc:SymbolIconSource Symbol="Back"/>
-        </muxc:AnimatedIcon.FallbackIconSource>
-    </muxc:AnimatedIcon>
+        <AnimatedIcon.FallbackIconSource>
+            <SymbolIconSource Symbol="Back"/>
+        </AnimatedIcon.FallbackIconSource>
+    </AnimatedIcon>
 </AppBarButton>
 ```
 
 ```csharp
-// using muxc = Microsoft.UI.Xaml.Controls;
-
 // Add handlers.
 protected override void OnNavigatedTo(NavigationEventArgs e)
 {
@@ -152,22 +149,22 @@ protected override void OnNavigatedFrom(NavigationEventArgs e)
 
 private void AppBarButton_PointerEntered(object sender, PointerRoutedEventArgs e)
 {
-    muxc.AnimatedIcon.SetState((UIElement)sender, "PointerOver");
+    AnimatedIcon.SetState((UIElement)sender, "PointerOver");
 }
 
 private void AppBarButton_PointerPressed(object sender, PointerRoutedEventArgs e)
 {
-    muxc.AnimatedIcon.SetState((UIElement)sender, "Pressed");
+    AnimatedIcon.SetState((UIElement)sender, "Pressed");
 }
 
 private void AppBarButton_PointerReleased(object sender, PointerRoutedEventArgs e)
 {
-    muxc.AnimatedIcon.SetState((UIElement)sender, "Normal");
+    AnimatedIcon.SetState((UIElement)sender, "Normal");
 }
 
 private void AppBarButton_PointerExited(object sender, PointerRoutedEventArgs e)
 {
-    muxc.AnimatedIcon.SetState((UIElement)sender, "Normal");
+    AnimatedIcon.SetState((UIElement)sender, "Normal");
 }
 ```
 
