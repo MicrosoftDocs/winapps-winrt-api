@@ -1,0 +1,23 @@
+---
+-api-id: P:Microsoft.UI.Input.WindowRectChangingEventArgs.MoveSizeOperation
+-api-type: winrt property
+---
+
+# Microsoft.UI.Input.WindowRectChangingEventArgs.MoveSizeOperation
+
+<!--
+public Microsoft.UI.Input.MoveSizeOperation MoveSizeOperation { get; }
+-->
+
+
+## -description
+
+## -property-value
+
+## -remarks
+
+## -see-also
+
+## -examples
+
+
