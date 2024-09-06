@@ -9,13 +9,22 @@
 public sealed class EnteringMoveSizeEventArgs
 -->
 
+<<<<<<< HEAD
+## -description
+
+Contains event data for the [EnteringMoveSize](inputnonclientpointersource_enteringmovesize.md) event.
+=======
 
 ## -description
+>>>>>>> main
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> main
