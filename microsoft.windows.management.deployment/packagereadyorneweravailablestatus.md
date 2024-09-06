@@ -12,6 +12,8 @@ public enum PackageReadyOrNewerAvailableStatus
 
 ## -description
 
+Defines the stub behavior for an app package that is being added or staged.
+
 ## -enum-fields
 
 ### -field NotReady: 0
@@ -25,5 +27,3 @@ public enum PackageReadyOrNewerAvailableStatus
 ## -see-also
 
 ## -examples
-
-

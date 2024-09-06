@@ -12,16 +12,22 @@ public bool IsPackageProvisionedByUri (System.Uri packageUri);
 
 ## -description
 
+Determines, for a uri, whether the target package(s) is/are provisioned.
+
 ## -parameters
 
-### -param packageUri
+### -param package
+
+The target package(s) to query about.
 
 ## -returns
 
+`true` if the target package(s) is/are provisioned; otherwise, `false`.
+
 ## -remarks
+
+This method requires administrative privileges.
 
 ## -see-also
 
 ## -examples
-
-

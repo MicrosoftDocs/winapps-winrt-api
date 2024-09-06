@@ -12,7 +12,7 @@ public AddPackageOptions ();
 
 ## -description
 
-Constructs a new **AddPackageOptions** object.
+Constructs a new [AddPackageOptions](./addpackageoptions.md) object.
 
 ## -remarks
 

@@ -22,7 +22,7 @@ The target package(s) to query about.
 
 ## -returns
 
-`true` if the target package(s) is/are present (installed, registered) and ready for use; otherwise, `false`;
+`true` if the target package(s) is/are present (installed, registered) and ready for use; otherwise, `false`.
 
 ## -remarks
 

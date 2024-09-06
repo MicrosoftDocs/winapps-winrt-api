@@ -16,7 +16,7 @@ Gets or sets a value that indicates whether this window will appear in various s
 
 ## -property-value
 
-`true` if this window will appear in various system representations, such as ALT+TAB and taskbar; otherwise, `false`;
+`true` if this window will appear in various system representations, such as ALT+TAB and taskbar; otherwise, `false`.
 
 ## -remarks
 

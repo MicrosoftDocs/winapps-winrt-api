@@ -16,7 +16,7 @@ Gets or sets a value that indicates whether this window is modal.
 
 ## -property-value
 
-`true` if this window is modal; otherwise, `false`;
+`true` if this window is modal; otherwise, `false`.
 
 ## -remarks
 

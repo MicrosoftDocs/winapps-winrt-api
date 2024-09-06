@@ -27,3 +27,28 @@ public Windows.Foundation.IAsyncOperationWithProgress<Microsoft.Windows.Manageme
 ## -examples
 
 
+===
+
+## -description
+
+Stages a [Package](/uwp/api/windows.applicationmodel.package) to the system without registering it.
+
+## -parameters
+
+### -param packageUri
+
+The source URI of the main package.
+
+### -param options
+
+The deployment options for the package.
+
+## -returns
+
+The status of the deployment request. The [PackageDeploymentResult](packagedeploymentresult.md) contains the final returned value of the deployment operation, once it is completed. The [PackageDeploymentProgress](packagedeploymentprogress.md) can be used to obtain the percentage of completion over the entire course of the deployment operation.
+
+## -remarks
+
+## -see-also
+
+[Package](/uwp/api/windows.applicationmodel.package)

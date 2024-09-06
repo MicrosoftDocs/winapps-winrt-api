@@ -16,7 +16,7 @@ Gets a value that indicates whether this window has a border.
 
 ## -property-value
 
-`true` if this window has a border; otherwise, `false`;
+`true` if this window has a border; otherwise, `false`.
 
 ## -remarks
 

@@ -12,12 +12,16 @@ public System.Collections.Generic.IList<string> OptionalPackageFamilyNames { get
 
 ## -description
 
+Gets the list of package family names from the main bundle to be added.
+
 ## -property-value
+
+The list of package family names from the main bundle to be added.
 
 ## -remarks
 
 ## -see-also
 
+[AddPackageOptions][addpackageoptions.md]
+
 ## -examples
-
-

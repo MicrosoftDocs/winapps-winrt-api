@@ -22,7 +22,7 @@ The uri of the target package(s) to query about.
 
 ## -returns
 
-`true` if the target package(s) is/are present (installed, registered) and ready for use; otherwise, `false`;
+`true` if the target package(s) is/are present (installed, registered) and ready for use; otherwise, `false`.
 
 ## -remarks
 
@@ -31,5 +31,3 @@ See Remarks for [IsPackageReady](./packagedeploymentmanager_ispackageready_13934
 ## -see-also
 
 ## -examples
-
-

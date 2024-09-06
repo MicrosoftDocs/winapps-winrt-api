@@ -18,11 +18,11 @@ Sets the border and title bar properties of the window.
 
 ### -param hasBorder
 
-`true` if this window has a border; otherwise, `false`;
+`true` if this window has a border; otherwise, `false`.
 
 ### -param hasTitleBar
 
-`true` if this window has a title bar; otherwise, `false`;
+`true` if this window has a title bar; otherwise, `false`.
 
 ## -remarks
 

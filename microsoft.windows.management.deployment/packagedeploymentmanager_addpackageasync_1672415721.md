@@ -12,17 +12,27 @@ public Windows.Foundation.IAsyncOperationWithProgress<Microsoft.Windows.Manageme
 
 ## -description
 
+Adds a [Package](/uwp/api/windows.applicationmodel.package) (the main package) and its dependency packages for the current user, using the specified deployment options.
+
 ## -parameters
 
 ### -param package
 
+The package to add.
+
 ### -param options
 
+The deployment options for the package.
+
 ## -returns
+
+The DeploymentProgress percentage of completion over the entire course of the deployment operation.
 
 ## -remarks
 
 ## -see-also
+
+[Package](/uwp/api/windows.applicationmodel.package)
 
 ## -examples
 

@@ -22,7 +22,7 @@ The target package set to query about.
 
 ## -returns
 
-`true` only if all packages referenced by *packageSet* are present (installed, registered) and ready for use; otherwise, `false`;
+`true` only if all packages referenced by *packageSet* are present (installed, registered) and ready for use; otherwise, `false`.
 
 ## -remarks
 
