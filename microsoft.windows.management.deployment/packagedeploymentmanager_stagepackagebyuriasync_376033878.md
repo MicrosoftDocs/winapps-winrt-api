@@ -12,25 +12,6 @@ public Windows.Foundation.IAsyncOperationWithProgress<Microsoft.Windows.Manageme
 
 ## -description
 
-## -parameters
-
-### -param packageUri
-
-### -param options
-
-## -returns
-
-## -remarks
-
-## -see-also
-
-## -examples
-
-
-===
-
-## -description
-
 Stages a [Package](/uwp/api/windows.applicationmodel.package) to the system without registering it.
 
 ## -parameters
@@ -52,3 +33,5 @@ The status of the deployment request. The [PackageDeploymentResult](packagedeplo
 ## -see-also
 
 [Package](/uwp/api/windows.applicationmodel.package)
+
+## -examples

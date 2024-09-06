@@ -22,6 +22,8 @@ The package set.
 
 ## -returns
 
+A [PackageSetRuntimeDisposition](./packagesetitemruntimedisposition.md) representing the result of the operation.
+
 ## -remarks
 
 ## -see-also

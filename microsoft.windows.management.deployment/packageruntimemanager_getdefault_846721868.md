@@ -16,6 +16,8 @@ Retrieves an instance of the manager.
 
 ## -returns
 
+An instance of the manager.
+
 ## -remarks
 
 ## -see-also

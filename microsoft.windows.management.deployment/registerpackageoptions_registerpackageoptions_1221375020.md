@@ -10,6 +10,8 @@ public RegisterPackageOptions ();
 -->
 
 
+## -description
+
 Creates a new instance of the [RegisterPackageOptions](registerpackageoptions.md) class.
 
 ## -remarks

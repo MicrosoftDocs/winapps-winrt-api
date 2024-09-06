@@ -12,10 +12,10 @@ public RemovePackageOptions ();
 
 ## -description
 
+Creates a new instance of the [RemovePackageOptions](registerpackageoptions.md) class.
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
