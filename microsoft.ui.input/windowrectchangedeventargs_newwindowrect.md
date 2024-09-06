@@ -9,6 +9,7 @@
 public Windows.Graphics.RectInt32 NewWindowRect { get; }
 -->
 
+<<<<<<< HEAD
 ## -description
 
 Gets the new position to which the window changed.
@@ -17,8 +18,20 @@ Gets the new position to which the window changed.
 
 The new position to which the window changed.
 
+=======
+
+## -description
+
+## -property-value
+
+>>>>>>> main
 ## -remarks
 
 ## -see-also
 
 ## -examples
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> main

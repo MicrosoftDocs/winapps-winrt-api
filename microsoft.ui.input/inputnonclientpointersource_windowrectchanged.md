@@ -9,6 +9,7 @@
 public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Input.InputNonClientPointerSource,Microsoft.UI.Input.WindowRectChangedEventArgs> WindowRectChanged;
 -->
 
+<<<<<<< HEAD
 ## -description
 
 Occurs when the window position has finished changing.
@@ -22,3 +23,15 @@ This corresponds to the [WM_WINDOWPOSCHANGED](/windows/win32/winmsg/wm-windowpos
 [WindowRectChangedEventArgs](windowrectchangedeventargs.md)
 
 ## -examples
+=======
+
+## -description
+
+## -remarks
+
+## -see-also
+
+## -examples
+
+
+>>>>>>> main

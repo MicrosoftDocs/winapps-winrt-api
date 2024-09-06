@@ -9,12 +9,22 @@
 public sealed class ExitedMoveSizeEventArgs
 -->
 
+<<<<<<< HEAD
 ## -description
 
 Contains event data for the [ExitedMoveSize](inputnonclientpointersource_exitedmovesize.md) event.
+=======
+
+## -description
+>>>>>>> main
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> main

@@ -9,6 +9,7 @@
 public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Input.InputNonClientPointerSource,Microsoft.UI.Input.EnteringMoveSizeEventArgs> EnteringMoveSize;
 -->
 
+<<<<<<< HEAD
 ## -description
 
 Occurs when the window is about to enter a move-size loop.
@@ -24,3 +25,15 @@ This corresponds to the [WM_NCLBUTTONDOWN](/windows/win32/inputdev/wm-nclbuttond
 [EnteringMoveSizeEventArgs](enteringmovesizeeventargs.md)
 
 ## -examples
+=======
+
+## -description
+
+## -remarks
+
+## -see-also
+
+## -examples
+
+
+>>>>>>> main

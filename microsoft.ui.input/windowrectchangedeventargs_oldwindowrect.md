@@ -9,6 +9,7 @@
 public Windows.Graphics.RectInt32 OldWindowRect { get; }
 -->
 
+<<<<<<< HEAD
 ## -description
 
 Gets the old rect from which the window changed.
@@ -17,8 +18,20 @@ Gets the old rect from which the window changed.
 
 The old rect from which the window changed.
 
+=======
+
+## -description
+
+## -property-value
+
+>>>>>>> main
 ## -remarks
 
 ## -see-also
 
 ## -examples
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> main
