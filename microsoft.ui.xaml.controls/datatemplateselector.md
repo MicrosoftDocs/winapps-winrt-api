@@ -20,7 +20,7 @@ See Remarks
 
 ## -remarks
 
-For more info about data templates, see the [DataTemplate](../microsoft.ui.xaml/datatemplate.md) class and [Item containers and templates](/windows/apps/design/controls/item-containers-templates).
+For more info and examples, see [Data template selection](/windows/apps/design/controls/data-template-selector). For more general info about data templates, see the [DataTemplate](../microsoft.ui.xaml/datatemplate.md) class and [Item containers and templates](/windows/apps/design/controls/item-containers-templates).
 
 The base DataTemplateSelector class is not used as an object element in XAML. However, it is a common scenario to derive a custom DataTemplateSelector, map a xmlns prefix for the custom class and its namespace/assembly, and then refer to an instance of the custom class as defined in a [Resources](../microsoft.ui.xaml/frameworkelement_resources.md) block in XAML. This makes it possible to refer to the custom template selector class by **x:Key**, and use that reference to set the value of properties such as [ItemTemplateSelector](itemscontrol_itemtemplateselector.md) in XAML templates and visual states.
 
@@ -33,4 +33,4 @@ For example XAML that references a custom DataTemplateSelector as the [HeaderTem
 ## -examples
 
 ## -see-also
-[ItemTemplateSelector](itemscontrol_itemtemplateselector.md), [DataTemplate](../microsoft.ui.xaml/datatemplate.md), [ContentControl.ContentTemplateSelector](contentcontrol_contenttemplateselector.md), [GroupStyle.HeaderTemplateSelector](groupstyle_headertemplateselector.md), [How to group items in a list or grid](/previous-versions/windows/apps/hh780627(v=win.10)), [Adding ListView and GridView controls](/previous-versions/windows/apps/hh780618(v=win.10))
+[Data template selection](/windows/apps/design/controls/data-template-selector), [ItemTemplateSelector](itemscontrol_itemtemplateselector.md), [DataTemplate](../microsoft.ui.xaml/datatemplate.md), [ContentControl.ContentTemplateSelector](contentcontrol_contenttemplateselector.md), [GroupStyle.HeaderTemplateSelector](groupstyle_headertemplateselector.md), [How to group items in a list or grid](/previous-versions/windows/apps/hh780627(v=win.10)), [Adding ListView and GridView controls](/previous-versions/windows/apps/hh780618(v=win.10))
