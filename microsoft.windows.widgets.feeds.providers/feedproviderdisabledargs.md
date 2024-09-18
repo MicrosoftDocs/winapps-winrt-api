@@ -12,7 +12,7 @@ public sealed class FeedProviderDisabledArgs
 
 ## -description
 
-Provides data for the <xref:Microsoft.Windows.Widgets.Feeds.Providers.IFeedProvider.OnFeedProviderDisabled(Microsoft.Windows.Widgets.Feeds.Providers.FeedProviderDisabledArgs)> method.
+Provides data for the [FeedProviderDisabledArgs)](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers.ifeedprovider.onfeedproviderdisabled(microsoft.windows.widgets.feeds.providers.feedproviderdisabledargs)) method.
 
 ## -remarks
 

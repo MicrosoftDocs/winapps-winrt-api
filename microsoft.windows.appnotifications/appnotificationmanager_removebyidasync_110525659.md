@@ -20,7 +20,7 @@ Asynchronously removes the app notification with the specified ID from Notificat
 
 ### -param notificationId
 
-The unique identifier for the app notification to be removed. The ID is set by the platform and can be accessed with the [Id](xref:Microsoft.Windows.AppNotifications.AppNotification.Id) property.
+The unique identifier for the app notification to be removed. The ID is set by the platform and can be accessed with the [Id](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification.id) property.
 
 ## -returns
 

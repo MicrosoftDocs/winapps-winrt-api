@@ -11,11 +11,11 @@ public Microsoft.UI.Content.ContentDeferral GetIslandStateChangeDeferral ();
 
 ## -description
 
-Retrieves a new <xref:Microsoft.UI.Content.ContentDeferral> for this <xref:Microsoft.UI.Content.ContentSite>.
+Retrieves a new [ContentDeferral](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentdeferral) for this [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite).
 
 ## -returns
 
-A new <xref:Microsoft.UI.Content.ContentDeferral> if the <xref:Microsoft.UI.Content.ContentSite> is connected to a <xref:Microsoft.UI.Content.ContentIsland>. Otherwise, it returns null and does not create a deferral.
+A new [ContentDeferral](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentdeferral) if the [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite) is connected to a [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland). Otherwise, it returns null and does not create a deferral.
 
 ## -remarks
 

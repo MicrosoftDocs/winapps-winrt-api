@@ -12,7 +12,7 @@ public Microsoft.Windows.AppNotifications.Builder.AppNotificationProgressBar Bin
 
 ## -description
 
-Binds the [AppNotificationProgressBar.ValueStringOverride](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationProgressBar.ValueStringOverride) property.
+Binds the [AppNotificationProgressBar.ValueStringOverride](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationprogressbar.valuestringoverride) property.
 
 ## -returns
 
@@ -20,7 +20,7 @@ Returns the **AppNotificationProgressBar** instance so that additional method ca
 
 ## -remarks
 
-Update the bound title value by assigning an [AppNotificationProgressData](xref:Microsoft.Windows.AppNotifications.AppNotificationProgressData) object to the [AppNotification.Progress](xref:Microsoft.Windows.AppNotifications.AppNotification.Progress)s property.
+Update the bound title value by assigning an [AppNotificationProgressData](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationprogressdata) object to the [AppNotification.Progress](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification.progress)s property.
 
 You can also set the title with the **AppNotificationProgressBar.Title** property or by calling [AppNotificationProgressBar.SetValueStringOverride](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationProgressBar.SetValueStringOverride(System.String)).
 

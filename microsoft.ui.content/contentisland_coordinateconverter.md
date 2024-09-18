@@ -11,11 +11,11 @@ public Microsoft.UI.Content.ContentCoordinateConverter CoordinateConverter { get
 
 ## -description
 
-Gets the <xref:Microsoft.UI.Content.ContentCoordinateConverter> for this <xref:Microsoft.UI.Content.ContentIsland>.
+Gets the [ContentCoordinateConverter](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentcoordinateconverter) for this [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -property-value
 
-The <xref:Microsoft.UI.Content.ContentCoordinateConverter> for this <xref:Microsoft.UI.Content.ContentIsland>.
+The [ContentCoordinateConverter](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentcoordinateconverter) for this [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -remarks
 

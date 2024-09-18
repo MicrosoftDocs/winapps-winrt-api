@@ -22,7 +22,7 @@ The widget ID of the widget to be updated.
 
 ## -remarks
 
-Passing a **WidgetRequestOption** to <xref:Microsoft.Windows.Widgets.Providers.WidgetManager.UpdateWidget(Microsoft.Windows.Widgets.Providers.WidgetUpdateRequestOptions)?displayProperty=nameWithType> with an ID of a widget that has been deleted, a widget not associated with your app, or using a widget ID that does not exist will result in the update being ignored.
+Passing a **WidgetRequestOption** to [Microsoft.Windows.Widgets.Providers.WidgetManager.UpdateWidget](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.widgetmanager.updatewidget(microsoft.windows.widgets.providers.widgetupdaterequestoptions)) with an ID of a widget that has been deleted, a widget not associated with your app, or using a widget ID that does not exist will result in the update being ignored.
 
 ## -see-also
 

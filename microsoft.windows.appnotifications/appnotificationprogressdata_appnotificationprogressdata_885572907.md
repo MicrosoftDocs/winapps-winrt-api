@@ -12,7 +12,7 @@ public AppNotificationProgressData (uint sequenceNumber);
 
 ## -description
 
-Creates an instance of the [AppNotificationProgressData](xref:Microsoft.Windows.AppNotifications.AppNotificationProgressData) class with the specified sequence number.
+Creates an instance of the [AppNotificationProgressData](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationprogressdata) class with the specified sequence number.
 
 ## -parameters
 

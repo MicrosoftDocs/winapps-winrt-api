@@ -12,11 +12,11 @@ public Microsoft.Windows.Widgets.Providers.WidgetContext WidgetContext { get; }
 
 ## -description
 
-Gets a <xref:Microsoft.Windows.Widgets.Providers.WidgetContext> object containing information about the configuration of a widget within the widget host.
+Gets a [WidgetContext](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.widgetcontext) object containing information about the configuration of a widget within the widget host.
 
 ## -property-value
 
-A <xref:Microsoft.Windows.Widgets.Providers.WidgetContext> object.
+A [WidgetContext](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.widgetcontext) object.
 
 ## -remarks
 

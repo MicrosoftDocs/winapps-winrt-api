@@ -11,16 +11,16 @@ public Windows.Foundation.Point Point { get; }
 
 ## -description
 
-Gets the <xref:Windows.Foundation.Point> within the non-client region where the pointer event occurred.
+Gets the [Point](/uwp/api/windows.foundation.point) within the non-client region where the pointer event occurred.
 
 ## -property-value
 
-The <xref:Windows.Foundation.Point> within the non-client region where the pointer event occurred.
+The [Point](/uwp/api/windows.foundation.point) within the non-client region where the pointer event occurred.
 
 ## -remarks
 
 ## -see-also
 
-<xref:Microsoft.UI.Input.InputNonClientPointerSource.PointerEntered>, <xref:Microsoft.UI.Input.InputNonClientPointerSource.PointerExited>, <xref:Microsoft.UI.Input.InputNonClientPointerSource.PointerMoved>, <xref:Microsoft.UI.Input.InputNonClientPointerSource.PointerPressed>, <xref:Microsoft.UI.Input.InputNonClientPointerSource.PointerReleased>
+[PointerEntered](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputnonclientpointersource.pointerentered), [PointerExited](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputnonclientpointersource.pointerexited), [PointerMoved](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputnonclientpointersource.pointermoved), [PointerPressed](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputnonclientpointersource.pointerpressed), [PointerReleased](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputnonclientpointersource.pointerreleased)
 
 ## -examples

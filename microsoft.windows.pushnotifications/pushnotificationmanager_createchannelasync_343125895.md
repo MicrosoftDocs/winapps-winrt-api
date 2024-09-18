@@ -24,7 +24,7 @@ The remote identifier for the created push channel. This value, known as the *Az
 )
 ## -returns
 
-An asynchronous action with progress that returns a [PushNotificationCreateChannelResult](xref:Microsoft.Windows.PushNotifications.PushNotificationCreateChannelResult) on completion.
+An asynchronous action with progress that returns a [PushNotificationCreateChannelResult](/windows/windows-app-sdk/api/winrt/microsoft.windows.pushnotifications.pushnotificationcreatechannelresult) on completion.
 
 ## -remarks
 

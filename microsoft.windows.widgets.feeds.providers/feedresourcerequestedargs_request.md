@@ -12,7 +12,7 @@ public Microsoft.Windows.Widgets.Feeds.Providers.FeedResourceRequest Request { g
 
 ## -description
 
-Sets the [FeedResourceRequest](xref:Microsoft.Windows.Widgets.Feeds.Providers.FeedResourceRequest) representing the feed resource request.
+Sets the [FeedResourceRequest](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers.feedresourcerequest) representing the feed resource request.
 
 ## -property-value
 

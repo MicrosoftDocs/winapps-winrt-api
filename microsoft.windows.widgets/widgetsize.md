@@ -30,7 +30,7 @@ Large.
 
 ## -remarks
 
-Query the currently displayed size of widget by calling <xref:Microsoft.Windows.Widgets.Providers.WidgetManager.GetWidgetInfo(System.String)?displayProperty=nameWithType> or <xref:Microsoft.Windows.Widgets.Providers.WidgetManager.GetWidgetInfos?displayProperty=nameWithType>. The <xref:Microsoft.Windows.Widgets.Providers.IWidgetProvider.OnWidgetContextChanged(Microsoft.Windows.Widgets.Providers.WidgetContextChangedArgs)?displayProperty=nameWithType> callback is called when the current display size of the widget changes.
+Query the currently displayed size of widget by calling [Microsoft.Windows.Widgets.Providers.WidgetManager.GetWidgetInfo](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.widgetmanager.getwidgetinfo(system.string)) or [Microsoft.Windows.Widgets.Providers.WidgetManager.GetWidgetInfos](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.widgetmanager.getwidgetinfos). The [Microsoft.Windows.Widgets.Providers.IWidgetProvider.OnWidgetContextChanged](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.iwidgetprovider.onwidgetcontextchanged(microsoft.windows.widgets.providers.widgetcontextchangedargs)) callback is called when the current display size of the widget changes.
 
 ## -see-also
 

@@ -18,7 +18,7 @@ Sets the audio event for an app notification.
 
 ### -param appNotificationSoundEvent
 
-A member of the [AppNotificationSoundEvent](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationSoundEvent) enumeration specifying a system sound to play.
+A member of the [AppNotificationSoundEvent](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationsoundevent) enumeration specifying a system sound to play.
 
 ## -returns
 

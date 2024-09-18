@@ -15,10 +15,10 @@ Occurs when a new character is received by the input queue.
 
 ## -remarks
 
-Apps do not receive this event when an Input Method Editor (IME) is enabled. The Input Method Editor (IME) handles all keyboard input and sets [Handled](xref:Microsoft.UI.Input.CharacterReceivedEventArgs.Handled) to true.
+Apps do not receive this event when an Input Method Editor (IME) is enabled. The Input Method Editor (IME) handles all keyboard input and sets [Handled](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.characterreceivedeventargs.handled) to true.
 
 ## -see-also
 
-<xref:Microsoft.UI.Input.CharacterReceivedEventArgs>
+[CharacterReceivedEventArgs](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.characterreceivedeventargs)
 
 ## -examples

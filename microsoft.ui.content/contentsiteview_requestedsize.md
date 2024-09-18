@@ -11,15 +11,15 @@ public System.Numerics.Vector2 RequestedSize { get; }
 
 ## -description
 
-Gets the logical <xref:Microsoft.UI.Content.ContentSite.RequestedSize>.
+Gets the logical [RequestedSize](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.requestedsize).
 
 ## -property-value
 
-The logical <xref:Microsoft.UI.Content.ContentSite.RequestedSize>.
+The logical [RequestedSize](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.requestedsize).
 
 ## -remarks
 
-The <xref:Microsoft.UI.Content.IContentSiteBridge> integrates with the <xref:Microsoft.UI.Content.ContentSite> layout policies to decide the <xref:Microsoft.UI.Content.ContentSite.ActualSize> to return to the <xref:Microsoft.UI.Content.ContentIsland>.
+The [IContentSiteBridge](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.icontentsitebridge) integrates with the [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite) layout policies to decide the [ActualSize](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.actualsize) to return to the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -see-also
 

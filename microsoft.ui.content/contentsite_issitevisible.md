@@ -11,11 +11,11 @@ public bool IsSiteVisible { get; set; }
 
 ## -description
 
-Gets or sets whether this <xref:Microsoft.UI.Content.ContentSite> is visible.
+Gets or sets whether this [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite) is visible.
 
 ## -property-value
 
-True, if this <xref:Microsoft.UI.Content.ContentSite> is visible; otherwise, false.
+True, if this [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite) is visible; otherwise, false.
 
 ## -remarks
 
