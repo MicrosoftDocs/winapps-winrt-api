@@ -11,7 +11,7 @@ public static void SetAutomationControlType (Microsoft.UI.Xaml.UIElement element
 
 ## -description
 
-Sets the [Microsoft.UI.Xaml.Automation.Peers.AutomationControlType](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.peers/automationcontroltype) for the specified UI element.
+Sets the <xref:Microsoft.UI.Xaml.Automation.Peers.AutomationControlType?displayProperty=nameWithType> for the specified UI element.
 
 ## -parameters
 
@@ -21,7 +21,7 @@ The UI element for which to set the UI Automation control type.
 
 ### -param value
 
-The [Microsoft.UI.Xaml.Automation.Peers.AutomationControlType](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.peers/automationcontroltype) to assign to the UI element.
+The <xref:Microsoft.UI.Xaml.Automation.Peers.AutomationControlType?displayProperty=nameWithType> to assign to the UI element.
 
 ## -remarks
 

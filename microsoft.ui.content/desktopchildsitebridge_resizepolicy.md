@@ -11,11 +11,11 @@ public Microsoft.UI.Content.ContentSizePolicy ResizePolicy { get; set; }
 
 ## -description
 
-Gets or sets the resizing policy between a [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland) and its associated Win32 HWND.
+Gets or sets the resizing policy between a <xref:Microsoft.UI.Content.ContentIsland> and its associated Win32 HWND.
 
 ## -property-value
 
-The resizing policy between a [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland) and its associated Win32 HWND.
+The resizing policy between a <xref:Microsoft.UI.Content.ContentIsland> and its associated Win32 HWND.
 
 ## -remarks
 

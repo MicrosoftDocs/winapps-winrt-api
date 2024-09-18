@@ -11,17 +11,17 @@ public Windows.Graphics.PointInt32 ConvertLocalToScreen (Windows.Foundation.Poin
 
 ## -description
 
-Converts the local coordinates of the supplied [point](/uwp/api/windows.foundation/point) to screen coordinate space (adjusted for [RasterizationScale](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml/xamlroot_rasterizationscale)).
+Converts the local coordinates of the supplied [point](xref:Windows.Foundation.Point) to screen coordinate space (adjusted for <xref:Microsoft.UI.Xaml.XamlRoot.RasterizationScale>).
 
 ## -parameters
 
 ### -param localPoint
 
-The [point](/uwp/api/windows.foundation/point) to convert from local coordinates to screen coordinate space (adjusted for [RasterizationScale](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml/xamlroot_rasterizationscale)).
+The [point](xref:Windows.Foundation.Point) to convert from local coordinates to screen coordinate space (adjusted for <xref:Microsoft.UI.Xaml.XamlRoot.RasterizationScale>).
 
 ## -returns
 
-The converted [point](/uwp/api/windows.graphics/pointint32).
+The converted [point](xref:Windows.Graphics.PointInt32).
 
 ## -remarks
 

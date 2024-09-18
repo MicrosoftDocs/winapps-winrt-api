@@ -11,7 +11,7 @@ public interface IResourceContext
 
 ## -description
 
-The interface that is implemented by the [ResourceContext](/windows/windows-app-sdk/api/winrt/microsoft.windows.applicationmodel.resources/resourcecontext) class, which encapsulates all of the factors that might affect resource selection.
+The interface that is implemented by the <xref:Microsoft.Windows.ApplicationModel.Resources.ResourceContext> class, which encapsulates all of the factors that might affect resource selection.
 
 ## -remarks
 

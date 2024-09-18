@@ -20,7 +20,7 @@ True if the button is placed inside the app notification context menu; otherwise
 
 ## -remarks
 
-You can also set the context menu placement value by calling [AppNotificationButton.SetContextMenuPlacement](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder/appnotificationbutton_setcontextmenuplacement_646485109).
+You can also set the context menu placement value by calling [AppNotificationButton.SetContextMenuPlacement](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton.SetContextMenuPlacement).
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI forapp notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

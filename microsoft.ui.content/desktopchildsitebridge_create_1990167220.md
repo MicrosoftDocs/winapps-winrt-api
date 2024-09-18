@@ -11,13 +11,13 @@ public static Microsoft.UI.Content.DesktopChildSiteBridge Create (Microsoft.UI.C
 
 ## -description
 
-Creates a new [DesktopChildSiteBridge](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/desktopchildsitebridge) as a child of the specified parent Win32 HWND.
+Creates a new <xref:Microsoft.UI.Content.DesktopChildSiteBridge> as a child of the specified parent Win32 HWND.
 
 ## -parameters
 
 ### -param compositor
 
-The compositor used to manage the session between the [DesktopChildSiteBridge](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/desktopchildsitebridge) and the [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite). This must be associated with the current thread.
+The compositor used to manage the session between the <xref:Microsoft.UI.Content.DesktopChildSiteBridge> and the <xref:Microsoft.UI.Content.ContentSite>. This must be associated with the current thread.
 
 ### -param parentWindowId
 
@@ -25,7 +25,7 @@ The window identifier. This window must be of type WS_OVERLAPPED, WS_POPUP or WS
 
 ## -returns
 
-A new [DesktopChildSiteBridge](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/desktopchildsitebridge).
+A new <xref:Microsoft.UI.Content.DesktopChildSiteBridge>.
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public void UpdateWidget (Microsoft.Windows.Widgets.Providers.WidgetUpdateReques
 
 ## -description
 
-Interface definition of the [WidgetUpdateRequestOptions)](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers/widgetmanager_updatewidget_250598866) method.
+Interface definition of the <xref:Microsoft.Windows.Widgets.Providers.WidgetManager.UpdateWidget(Microsoft.Windows.Widgets.Providers.WidgetUpdateRequestOptions)> method.
 
 ## -parameters
 

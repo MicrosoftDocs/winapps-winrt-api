@@ -20,7 +20,7 @@ True if the current device supports the urgent app notification scenario; otherw
 
 ## -remarks
 
-The [AppNotificationBuilder.SetScenario](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder.SetScenario(Microsoft.Windows.AppNotifications.Builder.AppNotificationScenario)) method allows you to specify one of the scenarios from the [AppNotificationScenario](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder/appnotificationscenario) enumeration which causes the system to adjust some of the notification behaviors to present a consistent experience for the specified scenario. The **Urgent** scenario value is only supported for on Windows 10 Build 19041 and later. This method allows you to determine at runtime if the urgent scenario is supported on the current device.
+The [AppNotificationBuilder.SetScenario](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder.SetScenario(Microsoft.Windows.AppNotifications.Builder.AppNotificationScenario)) method allows you to specify one of the scenarios from the [AppNotificationScenario](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationScenario) enumeration which causes the system to adjust some of the notification behaviors to present a consistent experience for the specified scenario. The **Urgent** scenario value is only supported for on Windows 10 Build 19041 and later. This method allows you to determine at runtime if the urgent scenario is supported on the current device.
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

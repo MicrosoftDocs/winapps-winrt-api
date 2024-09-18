@@ -12,7 +12,7 @@ public AppNotificationBuilder ();
 
 ## -description
 
-Initializes a new instance of the [AppNotificationBuilder](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder/appnotificationbuilder) class.
+Initializes a new instance of the [AppNotificationBuilder](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder) class.
 
 ## -remarks
 

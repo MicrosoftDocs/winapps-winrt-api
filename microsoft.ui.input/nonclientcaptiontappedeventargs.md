@@ -11,7 +11,7 @@ public sealed class NonClientCaptionTappedEventArgs
 
 ## -description
 
-Contains event data for the [CaptionTapped](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/inputnonclientpointersource_captiontapped) event.
+Contains event data for the <xref:Microsoft.UI.Input.InputNonClientPointerSource.CaptionTapped> event.
 
 ## -remarks
 

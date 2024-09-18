@@ -11,11 +11,11 @@ public float OverrideScale { get; set; }
 
 ## -description
 
-Gets or sets the scaling factor to use for this [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite), which overrides the [ParentScale](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite_parentscale).
+Gets or sets the scaling factor to use for this <xref:Microsoft.UI.Content.ContentSite>, which overrides the <xref:Microsoft.UI.Content.ContentSite.ParentScale>.
 
 ## -property-value
 
-The scaling factor to use for this [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite), which overrides the [ParentScale](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite_parentscale).
+The scaling factor to use for this <xref:Microsoft.UI.Content.ContentSite>, which overrides the <xref:Microsoft.UI.Content.ContentSite.ParentScale>.
 
 ## -remarks
 

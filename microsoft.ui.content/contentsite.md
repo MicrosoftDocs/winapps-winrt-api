@@ -11,13 +11,13 @@ public class ContentSite : Microsoft.UI.IClosableNotifier, System.IDisposable
 
 ## -description
 
-Provides a host environment for a [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland).
+Provides a host environment for a <xref:Microsoft.UI.Content.ContentIsland>.
 
 ## -remarks
 
-A [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite) is derived from a [DesktopSiteBridge](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/desktopsitebridge) and provides the APIs to configure an associated [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland).
+A <xref:Microsoft.UI.Content.ContentSite> is derived from a <xref:Microsoft.UI.Content.DesktopSiteBridge> and provides the APIs to configure an associated <xref:Microsoft.UI.Content.ContentIsland>.
 
-There is always a 1:1 mapping between [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite) objects and [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland) objects.
+There is always a 1:1 mapping between <xref:Microsoft.UI.Content.ContentSite> objects and <xref:Microsoft.UI.Content.ContentIsland> objects.
 
 ## -see-also
 

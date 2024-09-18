@@ -12,7 +12,7 @@ public static Microsoft.Windows.Widgets.Providers.WidgetManager GetDefault ();
 
 ## -description
 
-Gets an instance of the [WidgetManager](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers/widgetmanager) class.
+Gets an instance of the <xref:Microsoft.Windows.Widgets.Providers.WidgetManager> class.
 
 ## -returns
 

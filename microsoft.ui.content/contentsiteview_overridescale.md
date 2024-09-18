@@ -11,11 +11,11 @@ public float OverrideScale { get; }
 
 ## -description
 
-Gets the override scaling factor for a single [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite), ignoring the default scaling factor of the parent Win32 HWND.
+Gets the override scaling factor for a single <xref:Microsoft.UI.Content.ContentSite>, ignoring the default scaling factor of the parent Win32 HWND.
 
 ## -property-value
 
-The override scaling factor for a single [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite).
+The override scaling factor for a single <xref:Microsoft.UI.Content.ContentSite>.
 
 ## -remarks
 

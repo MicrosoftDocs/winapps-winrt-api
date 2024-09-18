@@ -17,6 +17,6 @@ Contains event data for the [InputNonClientPointerSource.RegionsChanged](inputno
 
 ## -see-also
 
-[NonClientRegionKind](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/nonclientregionkind)
+<xref:Microsoft.UI.Input.NonClientRegionKind>
 
 ## -examples

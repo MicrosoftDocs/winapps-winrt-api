@@ -18,7 +18,7 @@ Raised when the user has requested widget customization through the widget host 
 
 ### -param customizationRequestedArgs
 
-A [WidgetCustomizationRequestedArgs](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers/widgetcustomizationrequestedargs) object providing access to the widget context and custom state.
+A [WidgetCustomizationRequestedArgs](xref:Microsoft.Windows.Widgets.Providers.WidgetCustomizationRequestedArgs) object providing access to the widget context and custom state.
 
 ## -remarks
 

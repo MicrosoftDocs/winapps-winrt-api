@@ -11,11 +11,11 @@ public event Microsoft.UI.ClosableNotifierHandler Closed;
 
 ## -description
 
-Occurs when this [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite) is closed.
+Occurs when this <xref:Microsoft.UI.Content.ContentSite> is closed.
 
 ## -remarks
 
-This event is intended for application developers. It is raised after a [FrameworkClosed](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite_frameworkclosed) event.
+This event is intended for application developers. It is raised after a <xref:Microsoft.UI.Content.ContentSite.FrameworkClosed> event.
 
 ## -see-also
 

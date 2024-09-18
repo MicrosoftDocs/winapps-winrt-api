@@ -12,7 +12,7 @@ public enum AppNotificationButtonStyle
 
 ## -description
 
-Specifies the button styles that can be assigned to an [AppNotificationButton](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder/appnotificationbutton) to provide a consistent experience for common scenarios.
+Specifies the button styles that can be assigned to an [AppNotificationButton](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton) to provide a consistent experience for common scenarios.
 
 ## -enum-fields
 
@@ -32,7 +32,7 @@ The style associated with a critical action.
 
 Assign a style to an app notification button by calling [AppNotificationButton.SetButtonStyle](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton.SetButtonStyle(Microsoft.Windows.AppNotifications.Builder.AppNotificationButtonStyle)).
 
-Button styles are only supported for on Windows 10 Build 19041 and later. Call [AppNotificationButton.IsButtonStyleSupported](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder/appnotificationbutton_isbuttonstylesupported_1707441472) to determine at runtime if button styles are supported on the current device.
+Button styles are only supported for on Windows 10 Build 19041 and later. Call [AppNotificationButton.IsButtonStyleSupported](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton.IsButtonStyleSupported) to determine at runtime if button styles are supported on the current device.
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

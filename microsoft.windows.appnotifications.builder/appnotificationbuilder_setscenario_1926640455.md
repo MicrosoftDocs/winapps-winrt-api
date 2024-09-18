@@ -18,7 +18,7 @@ Sets the scenario for the app notification, which causes the system to adjust so
 
 ### -param value
 
-A value from the [AppNotificationScenario](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder/appnotificationscenario) enumeration specifying the scenario for the app notification.
+A value from the <xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationScenario> enumeration specifying the scenario for the app notification.
 
 ## -returns
 
@@ -27,7 +27,7 @@ Returns the **AppNotificationBuilder** instance so that additional method calls 
 
 ## -remarks
 
-The [Urgent](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationScenario.Urgent) scenario value is only supported for on Windows 10 Build 19041 and later. Call [IsUrgentScenarioSupported](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder/appnotificationbuilder_isurgentscenariosupported_491113719) to determine at runtime if the urgent scenario is supported on the current device.
+The [Urgent](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationScenario.Urgent) scenario value is only supported for on Windows 10 Build 19041 and later. Call [IsUrgentScenarioSupported](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder.IsUrgentScenarioSupported) to determine at runtime if the urgent scenario is supported on the current device.
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

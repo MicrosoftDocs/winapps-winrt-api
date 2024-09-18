@@ -11,11 +11,11 @@ public static Microsoft.UI.Xaml.DependencyProperty AutomationControlTypeProperty
 
 ## -description
 
-Identifies the [AutomationProperties](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation/automationproperties) attached property, which is a [Microsoft.UI.Xaml.Automation.Peers.AutomationControlType](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.peers/automationcontroltype).
+Identifies the <xref:Microsoft.UI.Xaml.Automation.AutomationProperties> attached property, which is a <xref:Microsoft.UI.Xaml.Automation.Peers.AutomationControlType?displayProperty=nameWithType>.
 
 ## -property-value
 
-The identifier for the [AutomationProperties](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation/automationproperties) attached property.
+The identifier for the <xref:Microsoft.UI.Xaml.Automation.AutomationProperties> attached property.
 
 ## -remarks
 

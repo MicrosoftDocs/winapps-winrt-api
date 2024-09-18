@@ -18,7 +18,7 @@ Provides APIs for receiving and registering to receive push notifications.
 
 ## -remarks
 
-Get an instance of this class by accessing the [PushNotificationManager.Default](/windows/windows-app-sdk/api/winrt/microsoft.windows.pushnotifications/pushnotificationmanager_default) property.
+Get an instance of this class by accessing the [PushNotificationManager.Default](xref:Microsoft.Windows.PushNotifications.PushNotificationManager.Default) property.
 
 ## -see-also
 

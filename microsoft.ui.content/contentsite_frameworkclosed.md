@@ -15,7 +15,7 @@ Occurs when a framework closes.
 
 ## -remarks
 
-This event is intended for framework developers. It is raised before a [Closed](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland_closed) event.
+This event is intended for framework developers. It is raised before a <xref:Microsoft.UI.Content.ContentIsland.Closed> event.
 
 ## -see-also
 

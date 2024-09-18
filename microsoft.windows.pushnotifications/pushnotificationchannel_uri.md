@@ -18,7 +18,7 @@ Gets the URI representing the push notification channel.
 
 ## -remarks
 
-Your cloud service uses this URI to send a notification to the device, invoking [PushReceived](/windows/windows-app-sdk/api/winrt/microsoft.windows.pushnotifications/pushnotificationmanager_pushreceived) event if the process is already running or launching a new process if it is not.
+Your cloud service uses this URI to send a notification to the device, invoking [PushReceived](xref:Microsoft.Windows.PushNotifications.PushNotificationManager.PushReceived) event if the process is already running or launching a new process if it is not.
 
 
 

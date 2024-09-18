@@ -18,7 +18,7 @@ Invoked by the Widgets Board when a feed is disabled.
 
 ### -param args
 
-A [FeedDisabledArgs](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers/feeddisabledargs) object that provides the feed ID and feed provider ID of the feed that has been disabled.
+A <xref:Microsoft.Windows.Widgets.Feeds.Providers.FeedDisabledArgs> object that provides the feed ID and feed provider ID of the feed that has been disabled.
 
 ## -remarks
 

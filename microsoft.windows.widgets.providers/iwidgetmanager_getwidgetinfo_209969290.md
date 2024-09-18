@@ -12,7 +12,7 @@ public Microsoft.Windows.Widgets.Providers.WidgetInfo GetWidgetInfo (string widg
 
 ## -description
 
-Interface definition of the [String)](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers/widgetmanager_getwidgetinfo_209969290) method.
+Interface definition of the <xref:Microsoft.Windows.Widgets.Providers.WidgetManager.GetWidgetInfo(System.String)> method.
 
 ## -parameters
 

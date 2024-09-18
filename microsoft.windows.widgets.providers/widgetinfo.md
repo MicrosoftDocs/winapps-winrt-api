@@ -16,7 +16,7 @@ Contains status information for a widget, including the visual template, data te
 
 ## -remarks
 
-Get an instance of this class by calling [Microsoft.Windows.Widgets.Providers.WidgetManager.GetWidgetInfo](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers/widgetmanager_getwidgetinfo_209969290) or [Microsoft.Windows.Widgets.Providers.WidgetManager.GetWidgetInfos](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers/widgetmanager_getwidgetinfos_1427052970).
+Get an instance of this class by calling <xref:Microsoft.Windows.Widgets.Providers.WidgetManager.GetWidgetInfo(System.String)?displayProperty=nameWithType> or <xref:Microsoft.Windows.Widgets.Providers.WidgetManager.GetWidgetInfos?displayProperty=nameWithType>.
 
 ## -see-also
 

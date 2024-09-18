@@ -11,7 +11,7 @@ public void NotifySettingChanged (string setting);
 
 ## -description
 
-Tells a [ContentIslandEnvironment](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentislandenvironment) to raise a [SettingChanged](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentislandenvironment_settingchanged) event.
+Tells a <xref:Microsoft.UI.Content.ContentIslandEnvironment> to raise a <xref:Microsoft.UI.Content.ContentIslandEnvironment.SettingChanged> event.
 
 ## -parameters
 

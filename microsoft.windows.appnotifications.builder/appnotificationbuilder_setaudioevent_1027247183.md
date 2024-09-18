@@ -18,11 +18,11 @@ Sets the audio event and looping behavior for an app notification.
 
 ### -param appNotificationSoundEvent
 
-A member of the [AppNotificationSoundEvent](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder/appnotificationsoundevent) enumeration specifying a system sound to play.
+A member of the [AppNotificationSoundEvent](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationSoundEvent) enumeration specifying a system sound to play.
 
 ### -param loop
 
-A member of the [AppNotificationAudioLooping](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder/appnotificationaudiolooping) enumeration specifying the looping behavior for the audio.
+A member of the [AppNotificationAudioLooping](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationAudioLooping) enumeration specifying the looping behavior for the audio.
 
 ## -returns
 

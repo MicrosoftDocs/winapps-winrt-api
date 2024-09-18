@@ -18,7 +18,7 @@ Adds a button to the app notification.
 
 ### -param value
 
-An [AppNotificationButton](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder/appnotificationbutton) object representing the button to be added to the notification.
+An [AppNotificationButton](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton) object representing the button to be added to the notification.
 
 ## -returns
 

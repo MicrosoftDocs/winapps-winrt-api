@@ -16,7 +16,7 @@ Provides methods for feed providers to manage and query feeds.
 
 ## -remarks
 
-Get an instance of this class by calling [GetDefault](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers/feedmanager_getdefault_846721868)
+Get an instance of this class by calling <xref:Microsoft.Windows.Widgets.Feeds.Providers.FeedManager.GetDefault>
 
 ## -see-also
 

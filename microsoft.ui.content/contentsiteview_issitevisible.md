@@ -11,15 +11,15 @@ public bool IsSiteVisible { get; }
 
 ## -description
 
-Gets the [IsSiteVisible](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite_issitevisible) state reported by the [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite).
+Gets the <xref:Microsoft.UI.Content.ContentSite.IsSiteVisible> state reported by the <xref:Microsoft.UI.Content.ContentSite>.
 
 ## -property-value
 
-The [IsSiteVisible](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite_issitevisible) state reported by the [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite).
+The <xref:Microsoft.UI.Content.ContentSite.IsSiteVisible> state reported by the <xref:Microsoft.UI.Content.ContentSite>.
 
 ## -remarks
 
-This value is treated as a "hint" that the [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite) will not be displayed and can safely release GPU resources, such as when it's inside a minimized or hidden window.
+This value is treated as a "hint" that the <xref:Microsoft.UI.Content.ContentSite> will not be displayed and can safely release GPU resources, such as when it's inside a minimized or hidden window.
 
 ## -see-also
 

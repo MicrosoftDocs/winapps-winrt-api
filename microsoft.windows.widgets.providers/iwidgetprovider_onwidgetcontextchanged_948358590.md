@@ -18,7 +18,7 @@ Called when the configuration of the widget within the widget host changes.
 
 ### -param contextChangedArgs
 
-A [WidgetContextChangedArgs](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers/widgetcontextchangedargs) object providing data for the callback.
+A <xref:Microsoft.Windows.Widgets.Providers.WidgetContextChangedArgs> object providing data for the callback.
 
 ## -remarks
 

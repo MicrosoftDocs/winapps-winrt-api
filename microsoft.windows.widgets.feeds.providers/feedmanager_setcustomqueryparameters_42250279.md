@@ -18,7 +18,7 @@ Sets the query parameters that are passed to the remote feed provider URI when t
 
 ### -param options
 
-A [CustomQueryParametersUpdateOptions](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers/customqueryparametersupdateoptions) object that conveys the query parameters and related metadata.
+A <xref:Microsoft.Windows.Widgets.Feeds.Providers.CustomQueryParametersUpdateOptions> object that conveys the query parameters and related metadata.
 
 ## -remarks
 

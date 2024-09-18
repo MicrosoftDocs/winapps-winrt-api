@@ -11,16 +11,16 @@ public Microsoft.UI.Input.PointerDeviceType PointerDeviceType { get; }
 
 ## -description
 
-Gets the [PointerDeviceType](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/pointerdevicetype) for the pointer device that initiated the associated input event.
+Gets the <xref:Microsoft.UI.Input.PointerDeviceType> for the pointer device that initiated the associated input event.
 
 ## -property-value
 
-The [PointerDeviceType](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/pointerdevicetype) for the pointer device that initiated the associated input event.
+The <xref:Microsoft.UI.Input.PointerDeviceType> for the pointer device that initiated the associated input event.
 
 ## -remarks
 
 ## -see-also
 
-[PointerEntered](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/inputnonclientpointersource_pointerentered), [PointerExited](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/inputnonclientpointersource_pointerexited), [PointerMoved](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/inputnonclientpointersource_pointermoved), [PointerPressed](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/inputnonclientpointersource_pointerpressed), [PointerReleased](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/inputnonclientpointersource_pointerreleased)
+<xref:Microsoft.UI.Input.InputNonClientPointerSource.PointerEntered>, <xref:Microsoft.UI.Input.InputNonClientPointerSource.PointerExited>, <xref:Microsoft.UI.Input.InputNonClientPointerSource.PointerMoved>, <xref:Microsoft.UI.Input.InputNonClientPointerSource.PointerPressed>, <xref:Microsoft.UI.Input.InputNonClientPointerSource.PointerReleased>
 
 ## -examples

@@ -11,11 +11,11 @@ public bool DidSiteEnabledChange { get; }
 
 ## -description
 
-Gets whether enabled state of the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland) changed.
+Gets whether enabled state of the <xref:Microsoft.UI.Content.ContentIsland> changed.
 
 ## -property-value
 
-True, if the enabled state of the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland) changed; otherwise, false.
+True, if the enabled state of the <xref:Microsoft.UI.Content.ContentIsland> changed; otherwise, false.
 
 ## -remarks
 

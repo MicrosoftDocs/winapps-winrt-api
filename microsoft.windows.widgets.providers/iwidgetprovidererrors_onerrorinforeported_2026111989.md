@@ -18,7 +18,7 @@ Raised when the widget host reports a widget error.
 
 ### -param args
 
-A [WidgetErrorInfoReportedArgs](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers/widgeterrorinforeportedargs) that provides details about the error that triggered the event.
+A [WidgetErrorInfoReportedArgs](xref:Microsoft.Windows.Widgets.Providers.WidgetErrorInfoReportedArgs) that provides details about the error that triggered the event.
 
 ## -remarks
 

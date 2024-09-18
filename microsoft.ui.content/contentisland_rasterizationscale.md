@@ -11,7 +11,7 @@ public float RasterizationScale { get; }
 
 ## -description
 
-Gets the local dots per inch (dpi) of a [Microsoft.UI.Composition.ICompositionSurface](/windows/windows-app-sdk/api/winrt/microsoft.ui.composition/icompositionsurface).
+Gets the local dots per inch (dpi) of a <xref:Microsoft.UI.Composition.ICompositionSurface?displayProperty=nameWithType>.
 
 ## -property-value
 

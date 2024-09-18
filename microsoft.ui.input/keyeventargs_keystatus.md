@@ -21,6 +21,6 @@ The status of the physical key press that raised the character-received event.
 
 ## -see-also
 
-[KeyUp](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/inputkeyboardsource_keyup), [KeyDown](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/inputkeyboardsource_keydown), [SystemKeyDown](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/inputkeyboardsource_systemkeydown), [SystemKeyUp](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/inputkeyboardsource_systemkeyup)
+<xref:Microsoft.UI.Input.InputKeyboardSource.KeyUp>, <xref:Microsoft.UI.Input.InputKeyboardSource.KeyDown>, <xref:Microsoft.UI.Input.InputKeyboardSource.SystemKeyDown>, <xref:Microsoft.UI.Input.InputKeyboardSource.SystemKeyUp>
 
 ## -examples

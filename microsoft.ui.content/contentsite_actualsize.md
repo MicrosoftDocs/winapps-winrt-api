@@ -11,11 +11,11 @@ public System.Numerics.Vector2 ActualSize { get; set; }
 
 ## -description
 
-Gets the logical size of the [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite).
+Gets the logical size of the <xref:Microsoft.UI.Content.ContentSite>.
 
 ## -property-value
 
-The logical size of the [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite).
+The logical size of the <xref:Microsoft.UI.Content.ContentSite>.
 
 ## -remarks
 

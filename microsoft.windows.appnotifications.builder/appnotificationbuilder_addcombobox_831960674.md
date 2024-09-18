@@ -18,7 +18,7 @@ Adds a combo box to the XML payload for an app notification.
 
 ### -param value
 
-An [AppNotificationComboBox](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder/appnotificationcombobox) object representing the combo box to be added to the notification.
+An [AppNotificationComboBox](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationComboBox) object representing the combo box to be added to the notification.
 
 ## -returns
 

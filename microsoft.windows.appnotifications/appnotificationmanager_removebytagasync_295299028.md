@@ -20,7 +20,7 @@ Asynchronously removes all app notifications for the app that have the specified
 
 ### -param tag
 
-The unique identifier for the set of notifications to be removed, accessed with the [Tag](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications/appnotification_tag) property.
+The unique identifier for the set of notifications to be removed, accessed with the [Tag](xref:Microsoft.Windows.AppNotifications.AppNotification.Tag) property.
 
 ## -returns
 

@@ -11,7 +11,7 @@ public ItemsViewAutomationPeer (Microsoft.UI.Xaml.Controls.ItemsView owner);
 
 ## -description
 
-Initializes a new instance of the [ItemsViewAutomationPeer](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.peers/itemsviewautomationpeer) class.
+Initializes a new instance of the <xref:Microsoft.UI.Xaml.Automation.Peers.ItemsViewAutomationPeer> class.
 
 ## -parameters
 

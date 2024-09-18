@@ -11,11 +11,11 @@ public bool ShouldApplyRasterizationScale { get; }
 
 ## -description
 
-Gets whether the [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite) applies the computed [RasterizationScale](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite_rasterizationscale) as an optical scale.
+Gets whether the <xref:Microsoft.UI.Content.ContentSite> applies the computed <xref:Microsoft.UI.Content.ContentSite.RasterizationScale> as an optical scale.
 
 ## -property-value
 
-True, if the [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite) applies the computed [RasterizationScale](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite_rasterizationscale) as an optical scale; otherwise, false.
+True, if the <xref:Microsoft.UI.Content.ContentSite> applies the computed <xref:Microsoft.UI.Content.ContentSite.RasterizationScale> as an optical scale; otherwise, false.
 
 ## -remarks
 

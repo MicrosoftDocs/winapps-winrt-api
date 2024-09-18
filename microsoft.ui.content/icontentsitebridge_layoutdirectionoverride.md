@@ -11,15 +11,15 @@ public System.Nullable<Microsoft.UI.Content.ContentLayoutDirection> LayoutDirect
 
 ## -description
 
-Gets or sets the layout direction for reading order and text alignment used by a [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite).
+Gets or sets the layout direction for reading order and text alignment used by a <xref:Microsoft.UI.Content.ContentSite>.
 
 ## -property-value
 
-The layout direction used by a [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite). The default value is null.
+The layout direction used by a <xref:Microsoft.UI.Content.ContentSite>. The default value is null.
 
 ## -remarks
 
-Setting this value overrides the [Microsoft.UI.Content.ContentIsland.LayoutDirection](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland_layoutdirection) value.
+Setting this value overrides the <xref:Microsoft.UI.Content.ContentIsland.LayoutDirection?displayProperty=nameWithType> value.
 
 ## -see-also
 

@@ -28,7 +28,7 @@ High priority.
 
 The priority value provides hints to the platform on how and at what urgency level a notification should be presented to the user. For example, the priority may affect whether the system wakes up the screen of a sleeping device.
 
-Set the priority of an [AppNotification](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications/appnotification) with the [Priority](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications/appnotification_priority) property.
+Set the priority of an [AppNotification](xref:Microsoft.Windows.AppNotifications.AppNotification) with the [Priority](xref:Microsoft.Windows.AppNotifications.AppNotification.Priority) property.
 
 ## -see-also
 

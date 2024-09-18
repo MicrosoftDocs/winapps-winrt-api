@@ -11,7 +11,7 @@ public bool IsPointInRegion { get; }
 
 ## -description
 
-Gets whether the [Point](/uwp/api/windows.foundation/point) is within the non-client region where the pointer event occurred.
+Gets whether the <xref:Windows.Foundation.Point> is within the non-client region where the pointer event occurred.
 
 ## -property-value
 
@@ -21,6 +21,6 @@ True, if the Point is withing the non-client region where the pointer event occu
 
 ## -see-also
 
-[PointerEntered](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/inputnonclientpointersource_pointerentered), [PointerExited](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/inputnonclientpointersource_pointerexited), [PointerMoved](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/inputnonclientpointersource_pointermoved), [PointerPressed](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/inputnonclientpointersource_pointerpressed), [PointerReleased](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/inputnonclientpointersource_pointerreleased)
+<xref:Microsoft.UI.Input.InputNonClientPointerSource.PointerEntered>, <xref:Microsoft.UI.Input.InputNonClientPointerSource.PointerExited>, <xref:Microsoft.UI.Input.InputNonClientPointerSource.PointerMoved>, <xref:Microsoft.UI.Input.InputNonClientPointerSource.PointerPressed>, <xref:Microsoft.UI.Input.InputNonClientPointerSource.PointerReleased>
 
 ## -examples

@@ -18,7 +18,7 @@ Updates the query parameters for a feed.
 
 ### -param options
 
-A [Microsoft.Windows.Widgets.Feeds.Providers.CustomQueryParametersUpdateOptions](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers/customqueryparametersupdateoptions) containing the identifier for the feed provider and a string containing the query parameters to update.
+A <xref:Microsoft.Windows.Widgets.Feeds.Providers.CustomQueryParametersUpdateOptions?displayProperty=nameWithType> containing the identifier for the feed provider and a string containing the query parameters to update.
 
 ## -remarks
 

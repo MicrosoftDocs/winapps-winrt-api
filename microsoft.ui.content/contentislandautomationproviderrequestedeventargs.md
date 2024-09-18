@@ -11,7 +11,7 @@ public sealed class ContentIslandAutomationProviderRequestedEventArgs
 
 ## -description
 
-Contains event data for the [AutomationProviderRequested](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland_automationproviderrequested) event.
+Contains event data for the <xref:Microsoft.UI.Content.ContentIsland.AutomationProviderRequested> event.
 
 ## -remarks
 

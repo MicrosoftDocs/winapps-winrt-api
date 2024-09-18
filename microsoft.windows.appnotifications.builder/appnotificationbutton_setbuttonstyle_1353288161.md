@@ -18,7 +18,7 @@ Sets the button style for the app notification button.
 
 ### -param value
 
-A value from the [AppNotificationButtonStyle](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder/appnotificationbuttonstyle) enumeration specifying the style for the button.
+A value from the [AppNotificationButtonStyle](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButtonStyle) enumeration specifying the style for the button.
 
 ## -returns
 
@@ -26,7 +26,7 @@ Returns the **AppNotificationButton** instance so that additional method calls c
 
 ## -remarks
 
-Button styles are only supported for on Windows 10 Build 19041 and later. Call [AppNotificationButton.IsButtonStyleSupported](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder/appnotificationbutton_isbuttonstylesupported_1707441472) to determine at runtime if button styles are supported on the current device.
+Button styles are only supported for on Windows 10 Build 19041 and later. Call [AppNotificationButton.IsButtonStyleSupported](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton.IsButtonStyleSupported) to determine at runtime if button styles are supported on the current device.
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 
