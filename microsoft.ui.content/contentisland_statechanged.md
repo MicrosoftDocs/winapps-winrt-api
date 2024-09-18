@@ -11,11 +11,11 @@ public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Content.ContentIs
 
 ## -description
 
-Occurs when a state property for this <xref:Microsoft.UI.Content.ContentIsland> changes.
+Occurs when a state property for this [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland) changes.
 
 ## -remarks
 
-This event is raised asynchronously after all state changes. The event may be further delayed if there are state change deferrals (see <xref:Microsoft.UI.Content.ContentDeferral>) to complete.
+This event is raised asynchronously after all state changes. The event may be further delayed if there are state change deferrals (see [ContentDeferral](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentdeferral)) to complete.
 
 ## -see-also
 

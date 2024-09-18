@@ -11,11 +11,11 @@ public Windows.Foundation.Point Point { get; }
 
 ## -description
 
-Gets the <xref:Windows.Foundation.Point> within the [Caption](nonclientregionkind.md) non-client region where the pointer event occurred.
+Gets the [Point](/uwp/api/windows.foundation/point) within the [Caption](nonclientregionkind.md) non-client region where the pointer event occurred.
 
 ## -property-value
 
-The <xref:Windows.Foundation.Point> within the [Caption](nonclientregionkind.md) non-client region where the pointer event occurred.
+The [Point](/uwp/api/windows.foundation/point) within the [Caption](nonclientregionkind.md) non-client region where the pointer event occurred.
 
 ## -remarks
 

@@ -11,7 +11,7 @@ public class DesktopSiteBridge : Microsoft.UI.Content.IContentSiteBridge, Micros
 
 ## -description
 
-Abstract class that implements <xref:Microsoft.UI.Content.IContentSiteBridge> for a Win32 HWND.
+Abstract class that implements [IContentSiteBridge](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/icontentsitebridge) for a Win32 HWND.
 
 ## -remarks
 

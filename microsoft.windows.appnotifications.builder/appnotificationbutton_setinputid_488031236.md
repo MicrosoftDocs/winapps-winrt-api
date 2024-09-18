@@ -26,7 +26,7 @@ Returns the **AppNotificationButton** instance so that additional method calls c
 
 ## -remarks
 
-You can also set the input ID of an app notification button with the [AppNotificationButton.InputId](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton.InputId).
+You can also set the input ID of an app notification button with the [AppNotificationButton.InputId](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder/appnotificationbutton_inputid).
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

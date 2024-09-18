@@ -11,11 +11,11 @@ public Microsoft.UI.Content.ContentCoordinateConverter CoordinateConverter { get
 
 ## -description
 
-Gets a <xref:Microsoft.UI.Content.ContentCoordinateConverter> to converts between a local coordinate space and the system screen coordinates.
+Gets a [ContentCoordinateConverter](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentcoordinateconverter) to converts between a local coordinate space and the system screen coordinates.
 
 ## -property-value
 
-A <xref:Microsoft.UI.Content.ContentCoordinateConverter> to converts between a local coordinate space and the system screen coordinates.
+A [ContentCoordinateConverter](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentcoordinateconverter) to converts between a local coordinate space and the system screen coordinates.
 
 ## -remarks
 

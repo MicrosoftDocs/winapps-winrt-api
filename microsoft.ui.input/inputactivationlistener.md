@@ -23,7 +23,7 @@ If the object associated with an InputActivationListener is destroyed, the Input
 
 ## -examples
 
-The following Windows App SDK example shows how to respond to activation events for an <xref:Microsoft.UI.Windowing.AppWindow?displayProperty=nameWithType> object:
+The following Windows App SDK example shows how to respond to activation events for an [Microsoft.UI.Windowing.AppWindow](/windows/windows-app-sdk/api/winrt/microsoft.ui.windowing/appwindow) object:
 
 ```csharp
 class RespondToAppWindowActivation

@@ -11,17 +11,17 @@ public static Microsoft.UI.Input.DragDrop.DragDropManager GetForIsland (Microsof
 
 ## -description
 
-Retrieves a new <xref:Microsoft.UI.Input.DragDrop.DragDropManager> for the specified <xref:Microsoft.UI.Content.ContentIsland>.
+Retrieves a new [DragDropManager](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.dragdrop/dragdropmanager) for the specified [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland).
 
 ## -parameters
 
 ### -param content
 
-The <xref:Microsoft.UI.Content.ContentIsland> for which to associate a new <xref:Microsoft.UI.Input.DragDrop.DragDropManager>.
+The [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland) for which to associate a new [DragDropManager](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.dragdrop/dragdropmanager).
 
 ## -returns
 
-A new <xref:Microsoft.UI.Input.DragDrop.DragDropManager> associated with the specified <xref:Microsoft.UI.Content.ContentIsland>.
+A new [DragDropManager](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.dragdrop/dragdropmanager) associated with the specified [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland).
 
 ## -remarks
 

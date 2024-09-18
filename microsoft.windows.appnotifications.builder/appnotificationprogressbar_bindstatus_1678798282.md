@@ -12,7 +12,7 @@ public Microsoft.Windows.AppNotifications.Builder.AppNotificationProgressBar Bin
 
 ## -description
 
-Binds the [AppNotificationProgressBar.Status](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationProgressBar.Status) property.
+Binds the [AppNotificationProgressBar.Status](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder/appnotificationprogressbar_status) property.
 
 ## -returns
 
@@ -20,7 +20,7 @@ Returns the **AppNotificationProgressBar** instance so that additional method ca
 
 ## -remarks
 
-The **Status** value is bound by default. Update the bound status value by assigning an [AppNotificationProgressData](xref:Microsoft.Windows.AppNotifications.AppNotificationProgressData) object to the [AppNotification.Progress](xref:Microsoft.Windows.AppNotifications.AppNotification.Progress)s property.
+The **Status** value is bound by default. Update the bound status value by assigning an [AppNotificationProgressData](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications/appnotificationprogressdata) object to the [AppNotification.Progress](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications/appnotification_progress)s property.
 
 You can also set the status with the **AppNotificationProgressBar.Status** property or by calling [AppNotificationProgressBar.SetStatus](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationProgressBar.SetStatus(System.String)).
 

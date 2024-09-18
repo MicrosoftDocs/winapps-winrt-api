@@ -12,7 +12,7 @@ public void TryShowAnnouncement (string feedProviderDefinitionId, string feedDef
 
 ## -description
 
-Requests that an announcement be shown in the taskbar. The feeds host may or may not show this announcement, based on its policies. If the user interacts with the announcement, the feed provider's <xref:Microsoft.Windows.Widgets.Feeds.Providers.IFeedAnnouncementInvokedTarget.OnAnnouncementInvoked(Microsoft.Windows.Widgets.Notifications.FeedAnnouncementInvokedArgs)> method will be called.
+Requests that an announcement be shown in the taskbar. The feeds host may or may not show this announcement, based on its policies. If the user interacts with the announcement, the feed provider's [FeedAnnouncementInvokedArgs)](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers/ifeedannouncementinvokedtarget_onannouncementinvoked_577549378) method will be called.
 
 ## -parameters
 
@@ -26,7 +26,7 @@ The definition ID of the feed. This is the value specified in the *Id* attribute
 
 ### -param announcement
 
-A <xref:Microsoft.Windows.Widgets.Notifications.FeedAnnouncement> object that provides the data for the announcement to be displayed.
+A [FeedAnnouncement](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.notifications/feedannouncement) object that provides the data for the announcement to be displayed.
 
 ## -remarks
 

@@ -9,7 +9,7 @@
 
 ## -description
 
-Provides APIs for programmatically generating the XML payload for an [AppNotification](xref:Microsoft.Windows.AppNotifications.AppNotification). 
+Provides APIs for programmatically generating the XML payload for an [AppNotification](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications/appnotification). 
 
 ## -remarks
 

@@ -11,7 +11,7 @@ public sealed class InputActivationListenerActivationChangedEventArgs
 
 ## -description
 
-Contains event data for the <xref:Microsoft.UI.Input.InputActivationListener.InputActivationChanged> event.
+Contains event data for the [InputActivationChanged](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/inputactivationlistener_inputactivationchanged) event.
 
 ## -remarks
 

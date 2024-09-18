@@ -11,7 +11,7 @@ public bool IsCaptionVisible { get; set; }
 
 ## -description
 
-Gets or sets whether the <xref:Microsoft.UI.Xaml.DragUIOverride.Caption> associated with the content being dragged is shown.
+Gets or sets whether the [Caption](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml/draguioverride_caption) associated with the content being dragged is shown.
 
 ## -property-value
 

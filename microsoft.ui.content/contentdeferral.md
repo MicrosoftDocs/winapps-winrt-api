@@ -15,10 +15,10 @@ Provides support for deferrals of state changes in a [ContentIsland](contentisla
 
 ## -remarks
 
-A ContentDeferral will be cancelled automatically in certain circumstances (such as when the ContentIsland is connected to a different <xref:Microsoft.UI.Content.ContentSite>).
+A ContentDeferral will be cancelled automatically in certain circumstances (such as when the ContentIsland is connected to a different [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite)).
 
 > [!NOTE]
-> This object has thread affinity and needs to be completed on the UI thread of the owner (unlike <xref:Windows.Foundation.Deferral?displayProperty=fullName>).
+> This object has thread affinity and needs to be completed on the UI thread of the owner (unlike [Deferral](/uwp/api/windows.foundation/deferral)).
 
 For more information on deferrals, see [Asynchronous work and deferrals](/windows/uwp/launch-resume/app-lifecycle).
 

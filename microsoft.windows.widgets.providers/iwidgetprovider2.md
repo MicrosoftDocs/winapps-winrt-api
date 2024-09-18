@@ -16,7 +16,7 @@ This interface is implemented by Windows widget providers to receive callbacks f
 
 ## -remarks
 
-Windows widget provider apps must implement the [IWidgetProvider](xref:Microsoft.Windows.Widgets.Providers.IWidgetProvider) interface to receive callbacks for the base widget lifetime events.
+Windows widget provider apps must implement the [IWidgetProvider](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers/iwidgetprovider) interface to receive callbacks for the base widget lifetime events.
 
 ## -see-also
 

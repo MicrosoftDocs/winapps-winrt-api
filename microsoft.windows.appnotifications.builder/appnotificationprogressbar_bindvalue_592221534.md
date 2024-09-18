@@ -12,7 +12,7 @@ public Microsoft.Windows.AppNotifications.Builder.AppNotificationProgressBar Bin
 
 ## -description
 
-Binds the [AppNotificationProgressBar.Value](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationProgressBar.Value) property.
+Binds the [AppNotificationProgressBar.Value](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder/appnotificationprogressbar_value) property.
 
 ## -returns
 
@@ -20,7 +20,7 @@ Returns the **AppNotificationProgressBar** instance so that additional method ca
 
 ## -remarks
 
-The **Value** value is bound by default. Update the bound status value by assigning an [AppNotificationProgressData](xref:Microsoft.Windows.AppNotifications.AppNotificationProgressData) object to the [AppNotification.Progress](xref:Microsoft.Windows.AppNotifications.AppNotification.Progress)s property.
+The **Value** value is bound by default. Update the bound status value by assigning an [AppNotificationProgressData](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications/appnotificationprogressdata) object to the [AppNotification.Progress](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications/appnotification_progress)s property.
 
 You can also set the value with the **AppNotificationProgressBar.Value** property or by calling [AppNotificationProgressBar.SetValue](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationProgressBar.SetValue(System.Double)).
 

@@ -26,7 +26,7 @@ The current count of retry attempts made by the platform.
 
 ### -field status
 
-A member of the [PushNotificationChannelStatus](xref:Microsoft.Windows.PushNotifications.PushNotificationChannelStatus) enumeration specifying the current status of the push notification channel.
+A member of the [PushNotificationChannelStatus](/windows/windows-app-sdk/api/winrt/microsoft.windows.pushnotifications/pushnotificationchannelstatus) enumeration specifying the current status of the push notification channel.
 
 ## -remarks
 

@@ -11,11 +11,11 @@ public Microsoft.UI.WindowId WindowId { get; }
 
 ## -description
 
-Gets the <xref:Microsoft.UI.WindowId> of the associated Win32 HWND.
+Gets the [WindowId](/windows/windows-app-sdk/api/winrt/microsoft.ui/windowid) of the associated Win32 HWND.
 
 ## -property-value
 
-The <xref:Microsoft.UI.WindowId> of the associated Win32 HWND.
+The [WindowId](/windows/windows-app-sdk/api/winrt/microsoft.ui/windowid) of the associated Win32 HWND.
 
 ## -remarks
 

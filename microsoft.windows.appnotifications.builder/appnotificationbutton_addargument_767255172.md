@@ -30,7 +30,7 @@ Returns the **AppNotificationButton** instance so that additional method calls c
 
 ## -remarks
 
-App notification button arguments added with this method are passed to the activated application when the user clicks on the button. You can add multiple arguments to each button. You can retrieve the arguments added with this method, or add multiple arguments in one call, by accessing the [AppNotificationActivatedEventArgs.Arguments](xref:Microsoft.Windows.AppNotifications.AppNotificationActivatedEventArgs.Arguments) property.
+App notification button arguments added with this method are passed to the activated application when the user clicks on the button. You can add multiple arguments to each button. You can retrieve the arguments added with this method, or add multiple arguments in one call, by accessing the [AppNotificationActivatedEventArgs.Arguments](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications/appnotificationactivatedeventargs_arguments) property.
 
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI forapp notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).

@@ -11,11 +11,11 @@ public Microsoft.UI.Content.ContentLayoutDirection LayoutDirection { get; }
 
 ## -description
 
-Gets the layout direction for reading order and text alignment in a <xref:Microsoft.UI.Content.ContentSite>.
+Gets the layout direction for reading order and text alignment in a [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite).
 
 ## -property-value
 
-The layout direction of a <xref:Microsoft.UI.Content.ContentSite>.
+The layout direction of a [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite).
 
 ## -remarks
 

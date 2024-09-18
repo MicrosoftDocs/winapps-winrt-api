@@ -11,7 +11,7 @@ public class ItemContainerAutomationPeer : Microsoft.UI.Xaml.Automation.Peers.Fr
 
 ## -description
 
-Exposes <xref:Microsoft.UI.Xaml.Controls.ItemContainer?displayProperty=nameWithType> types to Microsoft UI Automation.
+Exposes [Microsoft.UI.Xaml.Controls.ItemContainer](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls/itemcontainer) types to Microsoft UI Automation.
 
 ## -remarks
 

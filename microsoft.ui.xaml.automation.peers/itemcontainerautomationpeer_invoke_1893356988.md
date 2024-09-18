@@ -11,7 +11,7 @@ public void Invoke ();
 
 ## -description
 
-Sends a request to click the <xref:Microsoft.UI.Xaml.Controls.ItemContainer?displayProperty=nameWithType> associated with the automation peer.
+Sends a request to click the [Microsoft.UI.Xaml.Controls.ItemContainer](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls/itemcontainer) associated with the automation peer.
 
 ## -remarks
 

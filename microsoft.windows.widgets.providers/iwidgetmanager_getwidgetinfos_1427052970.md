@@ -12,7 +12,7 @@ public Microsoft.Windows.Widgets.Providers.WidgetInfo[] GetWidgetInfos ();
 
 ## -description
 
-Interface definition of the <xref:Microsoft.Windows.Widgets.Providers.WidgetManager.GetWidgetInfos> method.
+Interface definition of the [GetWidgetInfos](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers/widgetmanager_getwidgetinfos_1427052970) method.
 
 ## -returns
 

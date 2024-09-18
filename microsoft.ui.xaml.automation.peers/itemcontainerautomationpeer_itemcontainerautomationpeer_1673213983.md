@@ -11,7 +11,7 @@ public ItemContainerAutomationPeer (Microsoft.UI.Xaml.Controls.ItemContainer own
 
 ## -description
 
-Initializes a new instance of the <xref:Microsoft.UI.Xaml.Automation.Peers.ItemContainerAutomationPeer> class.
+Initializes a new instance of the [ItemContainerAutomationPeer](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.peers/itemcontainerautomationpeer) class.
 
 ## -parameters
 

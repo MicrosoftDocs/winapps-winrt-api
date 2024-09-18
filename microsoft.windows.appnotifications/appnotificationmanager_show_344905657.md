@@ -20,12 +20,12 @@ Displays the specified app notification in Action Center.
 
 ### -param notification
 
-An [AppNotification](xref:Microsoft.Windows.AppNotifications.AppNotification) object representing the notification to be shown.
+An [AppNotification](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications/appnotification) object representing the notification to be shown.
 
 ## -remarks
 
 > [!IMPORTANT]
-> Your app must call [Register](xref:Microsoft.Windows.AppNotifications.AppNotificationManager.Register) before calling **Show**.
+> Your app must call [Register](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications/appnotificationmanager_register_292201929) before calling **Show**.
 
 ## -see-also
 

@@ -18,7 +18,7 @@ Called when an action is invoked on a widget, such as the user clicking on a but
 
 ### -param actionInvokedArgs
 
-A <xref:Microsoft.Windows.Widgets.Providers.WidgetActionInvokedArgs> object providing data for the callback.
+A [WidgetActionInvokedArgs](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers/widgetactioninvokedargs) object providing data for the callback.
 
 ## -remarks
 

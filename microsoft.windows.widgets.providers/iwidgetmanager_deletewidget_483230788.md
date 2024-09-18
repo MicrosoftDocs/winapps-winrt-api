@@ -12,7 +12,7 @@ public void DeleteWidget (string widgetId);
 
 ## -description
 
-Interface definition of the <xref:Microsoft.Windows.Widgets.Providers.WidgetManager.DeleteWidget(System.String)> method.
+Interface definition of the [String)](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers/widgetmanager_deletewidget_483230788) method.
 
 ## -parameters
 

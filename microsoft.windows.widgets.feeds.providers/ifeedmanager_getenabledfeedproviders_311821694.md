@@ -12,7 +12,7 @@ public Microsoft.Windows.Widgets.Feeds.Providers.FeedProviderInfo[] GetEnabledFe
 
 ## -description
 
-Gets a list of <xref:Microsoft.Windows.Widgets.Feeds.Providers.FeedProviderInfo?displayProperty=nameWithType> objects representing the enabled feed providers.
+Gets a list of [Microsoft.Windows.Widgets.Feeds.Providers.FeedProviderInfo](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers/feedproviderinfo) objects representing the enabled feed providers.
 
 ## -returns
 

@@ -12,11 +12,11 @@ public event Windows.ApplicationModel.Background.BackgroundTaskCanceledEventHand
 
 ## -description
 
-Raised when the system is going to cancel the background task launched to handle the [PushReceived](xref:Microsoft.Windows.PushNotifications.PushNotificationManager.PushReceived) event. 
+Raised when the system is going to cancel the background task launched to handle the [PushReceived](/windows/windows-app-sdk/api/winrt/microsoft.windows.pushnotifications/pushnotificationmanager_pushreceived) event. 
 
 ## -remarks
 
-For information on the reasons that the system may cancel a background task, see [BackgroundTaskCancellationReason](xref:Windows.ApplicationModel.Background.BackgroundTaskCancellationReason).
+For information on the reasons that the system may cancel a background task, see [BackgroundTaskCancellationReason](/uwp/api/windows.applicationmodel.background/backgroundtaskcancellationreason).
 
 ## -see-also
 

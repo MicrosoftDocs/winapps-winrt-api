@@ -18,7 +18,7 @@ Invoked by the Widgets Board when a feed is enabled.
 
 ### -param args
 
-A <xref:Microsoft.Windows.Widgets.Feeds.Providers.FeedEnabledArgs> object that provides the feed ID and feed provider ID of the feed that has been enabled.
+A [FeedEnabledArgs](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers/feedenabledargs) object that provides the feed ID and feed provider ID of the feed that has been enabled.
 
 ## -remarks
 

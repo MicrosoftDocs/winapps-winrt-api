@@ -11,11 +11,11 @@ public bool IsSiteVisible { get; }
 
 ## -description
 
-Gets whether the associated <xref:Microsoft.UI.Content.ContentSite> is visible.
+Gets whether the associated [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite) is visible.
 
 ## -property-value
 
-True, if the associated <xref:Microsoft.UI.Content.ContentSite> is visible; otherwise, false.
+True, if the associated [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite) is visible; otherwise, false.
 
 ## -remarks
 

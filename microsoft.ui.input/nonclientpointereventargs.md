@@ -17,6 +17,6 @@ Provides event data for various pointer events.
 
 ## -see-also
 
-<xref:Microsoft.UI.Input.InputNonClientPointerSource.PointerEntered>, <xref:Microsoft.UI.Input.InputNonClientPointerSource.PointerExited>, <xref:Microsoft.UI.Input.InputNonClientPointerSource.PointerMoved>, <xref:Microsoft.UI.Input.InputNonClientPointerSource.PointerPressed>, <xref:Microsoft.UI.Input.InputNonClientPointerSource.PointerReleased>
+[PointerEntered](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/inputnonclientpointersource_pointerentered), [PointerExited](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/inputnonclientpointersource_pointerexited), [PointerMoved](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/inputnonclientpointersource_pointermoved), [PointerPressed](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/inputnonclientpointersource_pointerpressed), [PointerReleased](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/inputnonclientpointersource_pointerreleased)
 
 ## -examples

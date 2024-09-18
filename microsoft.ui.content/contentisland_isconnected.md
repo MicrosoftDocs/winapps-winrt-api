@@ -11,18 +11,18 @@ public bool IsConnected { get; }
 
 ## -description
 
-Gets whether this <xref:Microsoft.UI.Content.ContentIsland> is connected to a <xref:Microsoft.UI.Content.ContentSite>.
+Gets whether this [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland) is connected to a [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite).
 
 ## -property-value
 
-True, if this <xref:Microsoft.UI.Content.ContentIsland> is connected to a <xref:Microsoft.UI.Content.ContentSite>; otherwise, false. The default is true.
+True, if this [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland) is connected to a [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite); otherwise, false. The default is true.
 
 ## -remarks
 
-A <xref:Microsoft.UI.Content.ContentIsland> must be connected to a <xref:Microsoft.UI.Content.ContentSite> to:
+A [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland) must be connected to a [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite) to:
 
-- Convert coordinates by calling one of the <xref:Microsoft.UI.Content.ContentCoordinateConverter> methods.
-- Retrieve the automation host provider by calling <xref:Microsoft.UI.Content.ContentIsland.GetAutomationHostProvider>.
+- Convert coordinates by calling one of the [ContentCoordinateConverter](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentcoordinateconverter) methods.
+- Retrieve the automation host provider by calling [GetAutomationHostProvider](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland_getautomationhostprovider_2108700090).
 
 ## -see-also
 

@@ -11,17 +11,17 @@ public Windows.Graphics.RectInt32 ConvertLocalToScreen (Windows.Foundation.Rect 
 
 ## -description
 
-Converts the local coordinates of the supplied [rect](xref:Windows.Foundation.Rect) to screen coordinate space (adjusted for <xref:Microsoft.UI.Xaml.XamlRoot.RasterizationScale>).
+Converts the local coordinates of the supplied [rect](/uwp/api/windows.foundation/rect) to screen coordinate space (adjusted for [RasterizationScale](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml/xamlroot_rasterizationscale)).
 
 ## -parameters
 
 ### -param localRect
 
-The [rect](xref:Windows.Foundation.Rect) to convert from local coordinates to screen coordinate space (adjusted for <xref:Microsoft.UI.Xaml.XamlRoot.RasterizationScale>).
+The [rect](/uwp/api/windows.foundation/rect) to convert from local coordinates to screen coordinate space (adjusted for [RasterizationScale](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml/xamlroot_rasterizationscale)).
 
 ## -returns
 
-The converted [rect](xref:Windows.Graphics.RectInt32).
+The converted [rect](/uwp/api/windows.graphics/rectint32).
 
 ## -remarks
 

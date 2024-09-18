@@ -11,7 +11,7 @@
 
 ## -description
 
-Closes this <xref:Microsoft.UI.Content.ContentSite>.
+Closes this [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsite).
 
 ## -remarks
 

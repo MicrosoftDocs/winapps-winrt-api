@@ -11,7 +11,7 @@
 
 ## -description
 
-Releases system resources used by the <xref:Microsoft.UI.Input.DragDrop.DragOperation>.
+Releases system resources used by the [DragOperation](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.dragdrop/dragoperation).
 
 ## -remarks
 

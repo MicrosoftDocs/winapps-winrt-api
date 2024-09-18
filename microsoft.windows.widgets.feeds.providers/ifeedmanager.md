@@ -12,7 +12,7 @@ public interface IFeedManager
 
 ## -description
 
-The interface implemented by the <xref:Microsoft.Windows.Widgets.Feeds.Providers.FeedManager?displayProperty=nameWithType> class.
+The interface implemented by the [Microsoft.Windows.Widgets.Feeds.Providers.FeedManager](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers/feedmanager) class.
 
 ## -remarks
 

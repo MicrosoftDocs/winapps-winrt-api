@@ -26,7 +26,7 @@ Returns the **AppNotificationComboBox** instance so that additional method calls
 
 ## -remarks
 
-You can also set the title with the [AppNotificationComboBox.Title](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationComboBox.Title) property.
+You can also set the title with the [AppNotificationComboBox.Title](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder/appnotificationcombobox_title) property.
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

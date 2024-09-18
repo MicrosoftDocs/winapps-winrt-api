@@ -12,7 +12,7 @@ public AppNotificationButton ();
 
 ## -description
 
-Initializes a new instance of the [AppNotificationButton](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton) class.
+Initializes a new instance of the [AppNotificationButton](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder/appnotificationbutton) class.
 
 ## -remarks
 

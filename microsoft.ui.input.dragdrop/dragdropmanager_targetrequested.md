@@ -11,7 +11,7 @@ public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Input.DragDrop.Dr
 
 ## -description
 
-Occurs when an object is registered as a drop target for the <xref:Microsoft.UI.Input.DragDrop.DragDropManager>.
+Occurs when an object is registered as a drop target for the [DragDropManager](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.dragdrop/dragdropmanager).
 
 ## -remarks
 

@@ -11,11 +11,11 @@ public Microsoft.UI.Input.PointerDeviceType PointerDeviceType { get; }
 
 ## -description
 
-Gets the <xref:Microsoft.UI.Input.PointerDeviceType> for the pointer device that initiated the caption tapped input event.
+Gets the [PointerDeviceType](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/pointerdevicetype) for the pointer device that initiated the caption tapped input event.
 
 ## -property-value
 
-The <xref:Microsoft.UI.Input.PointerDeviceType> for the pointer device that initiated the caption tapped input event.
+The [PointerDeviceType](/windows/windows-app-sdk/api/winrt/microsoft.ui.input/pointerdevicetype) for the pointer device that initiated the caption tapped input event.
 
 ## -remarks
 

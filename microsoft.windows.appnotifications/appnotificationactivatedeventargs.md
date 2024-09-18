@@ -16,7 +16,7 @@ Represents event args associated with an app activation triggered by an app noti
 
 ## -remarks
 
-To get an instance of this class, call <xref:Microsoft.Windows.AppLifecycle.AppInstance.GetActivatedEventArgs?displayProperty=nameWithType>, check the <xref:Microsoft.Windows.AppLifecycle.AppActivationArguments.Kind?displayProperty=nameWithType> property of the returned object for the value <xref:Microsoft.Windows.AppLifecycle.ExtendedActivationKind.AppNotification?displayProperty=nameWithType>, then cast the <xref:Microsoft.Windows.AppLifecycle.AppActivationArguments.Data?displayProperty=nameWithType> property to an **AppNotificationActivatedEventArgs**.
+To get an instance of this class, call [Microsoft.Windows.AppLifecycle.AppInstance.GetActivatedEventArgs](/windows/windows-app-sdk/api/winrt/microsoft.windows.applifecycle/appinstance_getactivatedeventargs_19856196), check the [Microsoft.Windows.AppLifecycle.AppActivationArguments.Kind](/windows/windows-app-sdk/api/winrt/microsoft.windows.applifecycle/appactivationarguments_kind) property of the returned object for the value <xref:Microsoft.Windows.AppLifecycle.ExtendedActivationKind.AppNotification?displayProperty=nameWithType>, then cast the [Microsoft.Windows.AppLifecycle.AppActivationArguments.Data](/windows/windows-app-sdk/api/winrt/microsoft.windows.applifecycle/appactivationarguments_data) property to an **AppNotificationActivatedEventArgs**.
 
 
 

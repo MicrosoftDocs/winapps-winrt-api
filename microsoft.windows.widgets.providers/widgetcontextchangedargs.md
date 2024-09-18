@@ -12,7 +12,7 @@ public sealed class WidgetContextChangedArgs
 
 ## -description
 
-Provides data for the <xref:Microsoft.Windows.Widgets.Providers.IWidgetProvider.OnWidgetContextChanged(Microsoft.Windows.Widgets.Providers.WidgetContextChangedArgs)?displayProperty=nameWithType> callback.
+Provides data for the [Microsoft.Windows.Widgets.Providers.IWidgetProvider.OnWidgetContextChanged](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers/iwidgetprovider_onwidgetcontextchanged_948358590) callback.
 
 ## -remarks
 

@@ -18,7 +18,7 @@ Raised when the feed's content posts a message using the [window.chrome.webview.
 
 ### -param args
 
-A [FeedMessageReceivedArgs](xref:Microsoft.Windows.Widgets.Feeds.Providers.FeedMessageReceivedArgs) that provides details about the message that triggered the event.
+A [FeedMessageReceivedArgs](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers/feedmessagereceivedargs) that provides details about the message that triggered the event.
 
 ## -remarks
 

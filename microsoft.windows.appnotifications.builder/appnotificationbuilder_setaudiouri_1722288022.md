@@ -22,7 +22,7 @@ The URI of the audio file.
 
 ### -param loop
 
-A member of the [AppNotificationAudioLooping](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationAudioLooping) enumeration specifying the looping behavior for the audio.
+A member of the [AppNotificationAudioLooping](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder/appnotificationaudiolooping) enumeration specifying the looping behavior for the audio.
 
 ## -returns
 

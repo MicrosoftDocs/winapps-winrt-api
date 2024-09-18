@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.DataTransfer.
 
 ## -description
 
-Starts the drag and drop operation for the specified <xref:Microsoft.UI.Input.DragDrop.DragDropManager> using the specified input pointer.
+Starts the drag and drop operation for the specified [DragDropManager](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.dragdrop/dragdropmanager) using the specified input pointer.
 
 ## -parameters
 
@@ -25,7 +25,7 @@ The input pointer associated with the drag and drop operation.
 
 ## -returns
 
-An asynchronous operation object from which, on successful completion, you can retrieve a <xref:Windows.ApplicationModel.DataTransfer.DataPackageOperation> object that specifies the action(s) being performed.
+An asynchronous operation object from which, on successful completion, you can retrieve a [DataPackageOperation](/uwp/api/windows.applicationmodel.datatransfer/datapackageoperation) object that specifies the action(s) being performed.
 
 ## -remarks
 

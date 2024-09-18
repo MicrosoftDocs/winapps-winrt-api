@@ -11,11 +11,11 @@ public Microsoft.UI.Dispatching.DispatcherQueue DispatcherQueue { get; }
 
 ## -description
 
-Gets the <xref:Microsoft.UI.Dispatching.DispatcherQueue> for this <xref:Microsoft.UI.Content.ContentSiteView>.
+Gets the [DispatcherQueue](/windows/windows-app-sdk/api/winrt/microsoft.ui.dispatching/dispatcherqueue) for this [ContentSiteView](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsiteview).
 
 ## -property-value
 
-The <xref:Microsoft.UI.Dispatching.DispatcherQueue> for this <xref:Microsoft.UI.Content.ContentSiteView>.
+The [DispatcherQueue](/windows/windows-app-sdk/api/winrt/microsoft.ui.dispatching/dispatcherqueue) for this [ContentSiteView](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsiteview).
 
 ## -remarks
 

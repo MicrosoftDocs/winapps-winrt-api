@@ -11,11 +11,11 @@ public class ContentIslandEnvironment
 
 ## -description
 
-Provides general environment information to a <xref:Microsoft.UI.Content.ContentIsland>.
+Provides general environment information to a [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland).
 
 ## -remarks
 
-Each <xref:Microsoft.UI.Content.ContentIsland> is associated with a unique <xref:Microsoft.UI.Content.ContentIslandEnvironment> object that is not shared between multiple <xref:Microsoft.UI.Content.ContentIsland> objects. However, information contained within a <xref:Microsoft.UI.Content.ContentIslandEnvironment>, such as <xref:Microsoft.UI.Content.ContentSiteEnvironment.AppWindowId>, can have the same value between different <xref:Microsoft.UI.Content.ContentIsland> objects in the same top level window.
+Each [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland) is associated with a unique [ContentIslandEnvironment](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentislandenvironment) object that is not shared between multiple [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland) objects. However, information contained within a [ContentIslandEnvironment](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentislandenvironment), such as [AppWindowId](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentsiteenvironment_appwindowid), can have the same value between different [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content/contentisland) objects in the same top level window.
 
 ## -see-also
 
