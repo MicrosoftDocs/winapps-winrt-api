@@ -11,17 +11,17 @@ public static Microsoft.UI.Content.ContentIsland GetFromId (ulong id);
 
 ## -description
 
-Retrieves the <xref:Microsoft.UI.Content.ContentIsland> with the specified identifier.
+Retrieves the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) with the specified identifier.
 
 ## -parameters
 
 ### -param id
 
-The <xref:Microsoft.UI.Content.ContentIsland> identifier.
+The [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) identifier.
 
 ## -returns
 
-A <xref:Microsoft.UI.Content.ContentIsland>, or null if the object no longer exists or has been closed.
+A [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland), or null if the object no longer exists or has been closed.
 
 ## -remarks
 

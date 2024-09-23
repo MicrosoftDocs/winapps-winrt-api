@@ -16,7 +16,7 @@ Provides information about the configuration of a widget within the widget host.
 
 ## -remarks
 
-Get an instance of this class by implementing the <xref:Microsoft.Windows.Widgets.Providers.IWidgetProvider.CreateWidget(Microsoft.Windows.Widgets.Providers.WidgetContext)> and <xref:Microsoft.Windows.Widgets.Providers.IWidgetProvider.OnWidgetContextChanged(Microsoft.Windows.Widgets.Providers.WidgetContextChangedArgs)> methods of the <xref:Microsoft.Windows.Widgets.Providers.IWidgetProvider> interface.
+Get an instance of this class by implementing the [WidgetContext)](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.iwidgetprovider.createwidget(microsoft.windows.widgets.providers.widgetcontext)) and [WidgetContextChangedArgs)](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.iwidgetprovider.onwidgetcontextchanged(microsoft.windows.widgets.providers.widgetcontextchangedargs)) methods of the [IWidgetProvider](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.iwidgetprovider) interface.
 
 ## -see-also
 

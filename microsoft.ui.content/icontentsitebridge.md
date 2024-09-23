@@ -11,7 +11,7 @@ public interface IContentSiteBridge : System.IDisposable
 
 ## -description
 
-The interface that is implemented by the <xref:Microsoft.UI.Content.DesktopSiteBridge> class, which provides the minimum support required for communication between a host <xref:Microsoft.UI.Content.ContentSite> and a <xref:Microsoft.UI.Content.ContentIsland>.
+The interface that is implemented by the [DesktopSiteBridge](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.desktopsitebridge) class, which provides the minimum support required for communication between a host [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite) and a [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -remarks
 

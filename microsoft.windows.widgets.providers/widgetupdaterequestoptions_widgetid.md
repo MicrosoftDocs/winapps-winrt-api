@@ -20,7 +20,7 @@ The widget ID of the widget to be updated.
 
 ## -remarks
 
-Set the widget ID in the constructor, <xref:Microsoft.Windows.Widgets.Providers.WidgetUpdateRequestOptions.#ctor(System.String)>.
+Set the widget ID in the constructor, [String)](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.widgetupdaterequestoptions.#ctor(system.string)).
 
 ## -see-also
 

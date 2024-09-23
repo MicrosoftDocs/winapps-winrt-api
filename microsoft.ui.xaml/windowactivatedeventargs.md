@@ -11,7 +11,7 @@ public sealed class WindowActivatedEventArgs
 
 ## -description
 
-Contains the window's activation state information returned by the <xref:Microsoft.UI.Xaml.Window.Activated?displayProperty=nameWithType> event.
+Contains the window's activation state information returned by the [Microsoft.UI.Xaml.Window.Activated](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.window.activated) event.
 
 ## -remarks
 

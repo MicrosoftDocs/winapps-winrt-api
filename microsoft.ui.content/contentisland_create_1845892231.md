@@ -11,7 +11,7 @@ public static Microsoft.UI.Content.ContentIsland Create (Microsoft.UI.Compositio
 
 ## -description
 
-Creates a <xref:Microsoft.UI.Content.ContentIsland> in a disconnected and empty state.
+Creates a [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) in a disconnected and empty state.
 
 ## -parameters
 
@@ -21,11 +21,11 @@ The root of the visual tree.
 
 ## -returns
 
-A <xref:Microsoft.UI.Content.ContentIsland>.
+A [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -remarks
 
-The root visual's <xref:Microsoft.UI.Composition.Compositor?displayProperty=nameWithType> must be associated with the current thread.
+The root visual's [Microsoft.UI.Composition.Compositor](/windows/windows-app-sdk/api/winrt/microsoft.ui.composition.compositor) must be associated with the current thread.
 
 ## -see-also
 

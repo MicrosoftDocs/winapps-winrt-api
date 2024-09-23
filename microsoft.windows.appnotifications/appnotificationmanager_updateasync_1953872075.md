@@ -20,24 +20,24 @@ Updates the progress data for app notifications with the specified tag and group
 
 ### -param data
 
-An [AppNotificationProgressData](xref:Microsoft.Windows.AppNotifications.AppNotificationProgressData) representing the progress of an app notification.
+An [AppNotificationProgressData](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationprogressdata) representing the progress of an app notification.
 
 ### -param tag
 
-The unique identifier for the set of notifications to be updated, accessed with the [Tag](xref:Microsoft.Windows.AppNotifications.AppNotification.Tag) property.
+The unique identifier for the set of notifications to be updated, accessed with the [Tag](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification.tag) property.
 
 ### -param group
 
-The unique identifier for the app notification group to be updated, accessed with the [Group](xref:Microsoft.Windows.AppNotifications.AppNotification.Group) property.
+The unique identifier for the app notification group to be updated, accessed with the [Group](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification.group) property.
 
 ## -returns
 
-An asynchronous operation that returns an [AppNotificationProgressResult](xref:Microsoft.Windows.AppNotifications.AppNotificationProgressResult).
+An asynchronous operation that returns an [AppNotificationProgressResult](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationprogressresult).
 
 ## -remarks
 
 ## -see-also
 
-[AppNotificationProgressData](xref:Microsoft.Windows.AppNotifications.AppNotificationProgressData), [Tag](xref:Microsoft.Windows.AppNotifications.AppNotification.Tag), [Group](xref:Microsoft.Windows.AppNotifications.AppNotification.Group), [AppNotificationProgressResult](xref:Microsoft.Windows.AppNotifications.AppNotificationProgressResult)
+[AppNotificationProgressData](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationprogressdata), [Tag](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification.tag), [Group](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification.group), [AppNotificationProgressResult](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationprogressresult)
 
 ## -examples

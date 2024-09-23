@@ -20,20 +20,20 @@ Updates the progress data for app notifications with the specified tag identifie
 
 ### -param data
 
-An [AppNotificationProgressData](xref:Microsoft.Windows.AppNotifications.AppNotificationProgressData) representing the progress of an app notification.
+An [AppNotificationProgressData](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationprogressdata) representing the progress of an app notification.
 
 ### -param tag
 
-The unique identifier for the set of notifications to be updated, accessed with the [Tag](xref:Microsoft.Windows.AppNotifications.AppNotification.Tag) property.
+The unique identifier for the set of notifications to be updated, accessed with the [Tag](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification.tag) property.
 
 ## -returns
 
-An asynchronous operation that returns an [AppNotificationProgressResult](xref:Microsoft.Windows.AppNotifications.AppNotificationProgressResult) value.
+An asynchronous operation that returns an [AppNotificationProgressResult](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationprogressresult) value.
 
 ## -remarks
 
 ## -see-also
 
-[AppNotificationProgressData](xref:Microsoft.Windows.AppNotifications.AppNotificationProgressData), [Tag](xref:Microsoft.Windows.AppNotifications.AppNotification.Tag), [AppNotificationProgressResult](xref:Microsoft.Windows.AppNotifications.AppNotificationProgressResult)
+[AppNotificationProgressData](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationprogressdata), [Tag](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification.tag), [AppNotificationProgressResult](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationprogressresult)
 
 ## -examples

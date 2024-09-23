@@ -18,7 +18,7 @@ Raised when the widget host reports analytics data associated with a user intera
 
 ### -param args
 
-A [WidgetAnalyticsInfoReportedArgs](xref:Microsoft.Windows.Widgets.Providers.WidgetAnalyticsInfoReportedArgs) that provides details about the user interaction that triggered the event.
+A [WidgetAnalyticsInfoReportedArgs](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.widgetanalyticsinforeportedargs) that provides details about the user interaction that triggered the event.
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public Microsoft.Windows.Widgets.Notifications.AnnouncementTextColor PrimaryText
 
 ## -description
 
-Gets or sets the color of the <xref:Microsoft.Windows.Widgets.Notifications.FeedAnnouncement.PrimaryText> string.
+Gets or sets the color of the [PrimaryText](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.notifications.feedannouncement.primarytext) string.
 
 ## -property-value
 

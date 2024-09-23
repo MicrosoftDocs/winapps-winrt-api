@@ -12,7 +12,7 @@ public AppNotification (string payload);
 
 ## -description
 
-Creates a new instance of the [AppNotification](xref:Microsoft.Windows.AppNotifications.AppNotification) class.
+Creates a new instance of the [AppNotification](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification) class.
 
 ## -parameters
 

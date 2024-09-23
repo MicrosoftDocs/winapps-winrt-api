@@ -12,7 +12,7 @@ public sealed class CustomQueryParametersRequestedArgs
 
 ## -description
 
-Provides data for the <xref:Microsoft.Windows.Widgets.Feeds.Providers.IFeedProvider.OnCustomQueryParametersRequested(Microsoft.Windows.Widgets.Feeds.Providers.CustomQueryParametersRequestedArgs)> method.
+Provides data for the [CustomQueryParametersRequestedArgs)](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers.ifeedprovider.oncustomqueryparametersrequested(microsoft.windows.widgets.feeds.providers.customqueryparametersrequestedargs)) method.
 
 ## -remarks
 
