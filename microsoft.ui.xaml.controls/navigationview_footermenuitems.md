@@ -29,19 +29,19 @@ FooterMenuItems will be displayed above the Settings Item by default. To remove 
 ## Add footer menu items in markup
 
 ```xaml
-<muxc:NavigationView>
+<NavigationView>
 
-    <muxc:NavigationView.MenuItems>
-        <muxc:NavigationViewItem Content="Browse" Icon="Library" />
-        <muxc:NavigationViewItem Content="Track an Order" Icon="Map" />
-        <muxc:NavigationViewItem Content="Order History" Icon="Tag" />
-    </muxc:NavigationView.MenuItems>
+    <NavigationView.MenuItems>
+        <NavigationViewItem Content="Browse" Icon="Library" />
+        <NavigationViewItem Content="Track an Order" Icon="Map" />
+        <NavigationViewItem Content="Order History" Icon="Tag" />
+    </NavigationView.MenuItems>
 
-    <muxc:NavigationView.FooterMenuItems>
-        <muxc:NavigationViewItem Content="Account" Icon="Contact" />
-        <muxc:NavigationViewItem Content="Your Cart" Icon="Shop" />
-        <muxc:NavigationViewItem Content="Help" Icon="Help" />
-    </muxc:NavigationView.FooterMenuItems>
+    <NavigationView.FooterMenuItems>
+        <NavigationViewItem Content="Account" Icon="Contact" />
+        <NavigationViewItem Content="Your Cart" Icon="Shop" />
+        <NavigationViewItem Content="Help" Icon="Help" />
+    </NavigationView.FooterMenuItems>
     
-</muxc:NavigationView>
+</NavigationView>
 ```

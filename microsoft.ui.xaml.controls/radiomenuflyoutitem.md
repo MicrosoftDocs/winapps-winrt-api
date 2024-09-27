@@ -46,9 +46,9 @@ This example shows how to create a three item radio menu flyout experience.
     <Button.Flyout>
         <MenuFlyout>
             <MenuFlyoutSubItem Text="View">
-                <muxc:RadioMenuFlyoutItem Text="Small icons" GroupName="ViewGroup"/>
-                <muxc:RadioMenuFlyoutItem Text="Medium icons" GroupName="ViewGroup" IsChecked="True"/>
-                <muxc:RadioMenuFlyoutItem Text="Large icons" GroupName="ViewGroup"/>
+                <RadioMenuFlyoutItem Text="Small icons" GroupName="ViewGroup"/>
+                <RadioMenuFlyoutItem Text="Medium icons" GroupName="ViewGroup" IsChecked="True"/>
+                <RadioMenuFlyoutItem Text="Large icons" GroupName="ViewGroup"/>
             </MenuFlyoutSubItem>
         </MenuFlyout>
     </Button.Flyout>

@@ -32,8 +32,7 @@ For more info about the behavior of the ItemsSource property, see [ItemsControl.
 This example shows how you can bind the control to a custom data source.
 
 ```xaml
-<!-- xmlns:muxc="using:Microsoft.UI.Xaml.Controls -->
- <muxc:RadioButtons Header="Background color"
+ <RadioButtons Header="Background color"
                     SelectionChanged="BackgroundColor_SelectionChanged"
                     ItemsSource="{x:Bind colorOptionItems}"/>
 

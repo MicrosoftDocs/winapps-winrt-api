@@ -34,18 +34,14 @@ UniformGridLayout supports virtualization when attached to a host that supports 
 The following example shows how to set the [ItemsRepeater.Layout](itemsrepeater_layout.md) property to a UniformGridLayout.
 
 ```xaml
-<!--
-    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
--->
-...
-<muxc:ItemsRepeater ItemsSource="{x:Bind Items}"
+<ItemsRepeater ItemsSource="{x:Bind Items}"
                     ItemTemplate="{StaticResource MyTemplate}">
-    <muxc:ItemsRepeater.Layout>
-        <muxc:UniformGridLayout MinItemWidth="200"
+    <ItemsRepeater.Layout>
+        <UniformGridLayout MinItemWidth="200"
                                 MinColumnSpacing="28"
                                 ItemsJustification="SpaceAround"/>
-    </muxc:ItemsRepeater.Layout>
-</muxc:ItemsRepeater>
+    </ItemsRepeater.Layout>
+</ItemsRepeater>
 ```
 
 ## -see-also

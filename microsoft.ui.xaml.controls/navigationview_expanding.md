@@ -26,7 +26,7 @@ Analogous to [TreeView.Expanding](/windows/winui/api/microsoft.UI.Xaml.Controls.
 The following example creates a hierarchical NavigationView and sets up an event handler for the Expanding event called OnItemExpanding. In this event handler, the expanded item's Content property is set to display in the ExpandingItemLabel TextBlock.
 
 ```xaml
-<muxc:NavigationView x:Name="navview"
+<NavigationView x:Name="navview"
     MenuItemsSource="{x:Bind categories, Mode=OneWay}"
     Expanding="OnItemExpanding"
     Collapsed="OnItemCollapsed"
@@ -36,7 +36,7 @@ The following example creates a hierarchical NavigationView and sets up an event
         <TextBlock Margin="0,10,0,0" x:Name="ExpandingItemLabel" Text="Last Expanding: N/A"/>
         <TextBlock x:Name="CollapsedItemLabel" Text="Last Collapsed: N/A"/>
     </StackPanel>
-</muxc:NavigationView>
+</NavigationView>
 ```
 
 ```csharp

@@ -51,7 +51,7 @@ This example shows how to set the [IsActive](progressring_isactive.md) property 
 ```xaml
 
 <StackPanel>
-   <muxc:ProgressRing IsActive="{x:Bind ProgressToggle.IsOn, Mode=OneWay}" />
+   <ProgressRing IsActive="{x:Bind ProgressToggle.IsOn, Mode=OneWay}" />
    <ToggleSwitch x:Name="ProgressToggle" Header="Toggle work" OffContent="Do work" OnContent="Working" IsOn="True" />
 </StackPanel>
 
@@ -62,8 +62,8 @@ This example shows how to set the [IsIndeterminate](progressring_isindeterminate
 ```xaml
 
 <StackPanel>
-   <muxc:ProgressRing IsIndeterminate="false">
-   <muxc:NumberBox x:Name="ProgressValue" Minimum="0" Maximum="100" SpinButtonPlacementMode="Inline" ValueChanged="ProgressValue_ValueChanged"/>
+   <ProgressRing IsIndeterminate="false">
+   <NumberBox x:Name="ProgressValue" Minimum="0" Maximum="100" SpinButtonPlacementMode="Inline" ValueChanged="ProgressValue_ValueChanged"/>
 </StackPanel>
 
 ```

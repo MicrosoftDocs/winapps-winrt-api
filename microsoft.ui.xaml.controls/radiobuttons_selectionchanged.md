@@ -30,13 +30,12 @@ You can get the selected item from the control's [SelectItem](radiobuttons_selec
 In this example, the `SelectionChanged` event is handled to change the background color of a [Border](/uwp/api/windows.ui.xaml.controls.border) element named "ExampleBorder".
 
 ```xaml
-<!-- xmlns:muxc="using:Microsoft.UI.Xaml.Controls -->
-<muxc:RadioButtons Header="Background color"
+<RadioButtons Header="Background color"
                    SelectionChanged="BackgroundColor_SelectionChanged">
     <x:String>Red</x:String>
     <x:String>Green</x:String>
     <x:String>Blue</x:String>
-</muxc:RadioButtons>
+</RadioButtons>
 
 ...
 
@@ -44,10 +43,9 @@ In this example, the `SelectionChanged` event is handled to change the backgroun
 ```
 
 ```csharp
-// xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
 private void BackgroundColor_SelectionChanged(object sender, SelectionChangedEventArgs e)
 {
-    if (ExampleBorder != null && sender is muxc.RadioButtons rb)
+    if (ExampleBorder != null && sender is RadioButtons rb)
     {
         string colorName = rb.SelectedItem as string;
         switch (colorName)

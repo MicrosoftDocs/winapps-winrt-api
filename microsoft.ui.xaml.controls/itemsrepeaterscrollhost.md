@@ -37,15 +37,13 @@ If the minimum target version of your app is Windows 10, version 1809 (SDK 17763
 This example shows a scrollable list of people.
 
 ```xaml
-<Page
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:muxc="using:Microsoft.UI.Xaml.Controls">
+<Page ...>
 
-    <muxc:ItemsRepeaterScrollHost>
+    <ItemsRepeaterScrollHost>
         <ScrollViewer>
-            <muxc:ItemsRepeater ItemsSource='{x:Bind PeopleCollection}' />
+            <ItemsRepeater ItemsSource='{x:Bind PeopleCollection}' />
         </ScrollViewer>
-    </muxc:ItemsRepeaterScrollHost> 
+    </ItemsRepeaterScrollHost> 
     
 </Page
 ```

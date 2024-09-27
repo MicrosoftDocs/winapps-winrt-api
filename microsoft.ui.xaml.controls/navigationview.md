@@ -23,9 +23,7 @@ This example shows how to handle the [Loaded](/uwp/api/windows.ui.xaml.framework
 ```csharp
 private void NavigationView_Loaded(object sender, RoutedEventArgs e)
 {
-    // using muxc = Microsoft.UI.Xaml.Controls;
-
-    var navView = sender as muxc.NavigationView;
+    var navView = sender as NavigationView;
     var rootGrid = VisualTreeHelper.GetChild(navView, 0) as Grid;
 
     // Find the back button.
@@ -35,7 +33,7 @@ private void NavigationView_Loaded(object sender, RoutedEventArgs e)
 
     navigationViewBackButton.AccessKey = "A";
 
-    if (navView.PaneDisplayMode == muxc.NavigationViewPaneDisplayMode.Top)
+    if (navView.PaneDisplayMode == NavigationViewPaneDisplayMode.Top)
     {
         // Set back button key tip placement mode.
         navigationViewBackButton.KeyTipPlacementMode = Windows.UI.Xaml.Input.KeyTipPlacementMode.Bottom;
@@ -44,7 +42,7 @@ private void NavigationView_Loaded(object sender, RoutedEventArgs e)
         var grid = VisualTreeHelper.GetChild(rootGrid, 1) as Grid;
         var topNavArea = VisualTreeHelper.GetChild(grid, 0) as StackPanel;
         var topNavGrid = VisualTreeHelper.GetChild(topNavArea, 1) as Grid;
-        var settingsTopNavPaneItem = VisualTreeHelper.GetChild(topNavGrid, 8) as muxc.NavigationViewItem;
+        var settingsTopNavPaneItem = VisualTreeHelper.GetChild(topNavGrid, 8) as NavigationViewItem;
 
         settingsTopNavPaneItem.AccessKey = "S";
         settingsTopNavPaneItem.KeyTipPlacementMode = Windows.UI.Xaml.Input.KeyTipPlacementMode.Bottom;
@@ -61,7 +59,7 @@ private void NavigationView_Loaded(object sender, RoutedEventArgs e)
         var paneRoot = VisualTreeHelper.GetChild(grid2, 0) as Grid;
         var border = VisualTreeHelper.GetChild(paneRoot, 0) as Border;
         var paneContentGrid = VisualTreeHelper.GetChild(border, 0) as Grid;
-        var settingsNavPaneItem = VisualTreeHelper.GetChild(paneContentGrid, 6) as muxc.NavigationViewItem;
+        var settingsNavPaneItem = VisualTreeHelper.GetChild(paneContentGrid, 6) as NavigationViewItem;
 
         settingsNavPaneItem.AccessKey = "S";
         settingsNavPaneItem.KeyTipPlacementMode = Windows.UI.Xaml.Input.KeyTipPlacementMode.Right;

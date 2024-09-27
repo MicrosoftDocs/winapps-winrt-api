@@ -26,9 +26,9 @@ Gets or sets whether the RadioMenuFlyoutItem is checked.
 ```xaml
 <MenuFlyout>
     <MenuFlyoutSubItem Text="View">
-        <muxc:RadioMenuFlyoutItem Text="Small icons"/>
-        <muxc:RadioMenuFlyoutItem Text="Medium icons" IsChecked="True"/>
-        <muxc:RadioMenuFlyoutItem Text="Large icons"/>
+        <RadioMenuFlyoutItem Text="Small icons"/>
+        <RadioMenuFlyoutItem Text="Medium icons" IsChecked="True"/>
+        <RadioMenuFlyoutItem Text="Large icons"/>
     </MenuFlyoutSubItem>
 </MenuFlyout>
 ```

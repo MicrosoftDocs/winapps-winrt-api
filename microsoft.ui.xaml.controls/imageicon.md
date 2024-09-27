@@ -38,13 +38,9 @@ Due to the file types supported, `ImageIcon` ignores the [Foreground](iconelemen
 The following example shows an [AppBarButton](appbarbutton.md) with an `ImageIcon`. [Source](imageicon_source.md) specifies an image that's included in the app package.
 
 ```xaml
-<!--
-xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
--->
-
 <AppBarButton Label="ImageIcon">
     <AppBarButton.Icon>
-        <muxc:ImageIcon Source="ms-appx:///Assets/globe.png"/>
+        <ImageIcon Source="ms-appx:///Assets/globe.png"/>
     </AppBarButton.Icon>
 </AppBarButton>
 ```
@@ -52,11 +48,9 @@ xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
 Here we show how to load an `ImageIcon` from a bitmap stream.
 
 ```csharp
-// using muxc = Microsoft.UI.Xaml.Controls;
-
 var bitmapSource = new BitmapSource();
 await bitmapSource.SetSourceAsync(bitmapStream);
-var icon = new muxc.ImageIcon() { Source = bitmapSource };
+var icon = new ImageIcon() { Source = bitmapSource };
 ```
 
 ## -see-also
