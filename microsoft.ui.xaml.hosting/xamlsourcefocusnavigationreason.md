@@ -11,7 +11,7 @@ public enum XamlSourceFocusNavigationReason
 
 ## -description
 
-Specifies values that represent reasons that a [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) got focus in a desktop application that uses a [DesktopWindowXamlSource](desktopwindowxamlsource.md) object to host XAML-based UI.
+Specifies values that represent reasons that a [UIElement](../microsoft.ui.xaml/uielement.md) got focus in a desktop application that uses a [DesktopWindowXamlSource](desktopwindowxamlsource.md) object to host XAML-based UI.
 
 ## -enum-fields
 
