@@ -9,22 +9,12 @@
 public sealed class WindowRectChangingEventArgs
 -->
 
-<<<<<<< HEAD
 ## -description
 
 Contains event data for the [WindowRectChanging](inputnonclientpointersource_windowrectchanging.md) event.
-=======
-
-## -description
->>>>>>> main
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-<<<<<<< HEAD
-=======
-
-
->>>>>>> main

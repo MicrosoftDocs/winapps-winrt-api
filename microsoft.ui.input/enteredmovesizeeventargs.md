@@ -9,22 +9,12 @@
 public sealed class EnteredMoveSizeEventArgs
 -->
 
-<<<<<<< HEAD
 ## -description
 
 Contains event data for the [EnteredMoveSize](inputnonclientpointersource_enteredmovesize.md) event.
-=======
-
-## -description
->>>>>>> main
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-<<<<<<< HEAD
-=======
-
-
->>>>>>> main

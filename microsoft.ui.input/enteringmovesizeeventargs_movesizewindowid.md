@@ -9,7 +9,6 @@
 public Microsoft.UI.WindowId MoveSizeWindowId { get; set; }
 -->
 
-<<<<<<< HEAD
 ## -description
 
 Gets or sets the ID of the window for which to enter the move-size loop.
@@ -29,17 +28,3 @@ The new window, if created, must be on the same thread as the window that receiv
 ## -see-also
 
 ## -examples
-=======
-
-## -description
-
-## -property-value
-
-## -remarks
-
-## -see-also
-
-## -examples
-
-
->>>>>>> main

@@ -9,7 +9,6 @@
 public Windows.Graphics.PointInt32 PointerScreenPoint { get; }
 -->
 
-<<<<<<< HEAD
 ## -description
 
 Gets the position of the pointer when the window position is about to change.
@@ -18,20 +17,8 @@ Gets the position of the pointer when the window position is about to change.
 
 The position of the pointer when the window position is about to change.
 
-=======
-
-## -description
-
-## -property-value
-
->>>>>>> main
 ## -remarks
 
 ## -see-also
 
 ## -examples
-<<<<<<< HEAD
-=======
-
-
->>>>>>> main

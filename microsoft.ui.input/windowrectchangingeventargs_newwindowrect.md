@@ -9,7 +9,6 @@
 public Windows.Graphics.RectInt32 NewWindowRect { get; set; }
 -->
 
-<<<<<<< HEAD
 ## -description
 
 Gets or sets the new rect that the window will change to (if nothing prevents the change).
@@ -25,17 +24,3 @@ This property can be set to provide an alternative rect instead.
 ## -see-also
 
 ## -examples
-=======
-
-## -description
-
-## -property-value
-
-## -remarks
-
-## -see-also
-
-## -examples
-
-
->>>>>>> main

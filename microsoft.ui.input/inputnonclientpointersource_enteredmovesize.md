@@ -3,17 +3,12 @@
 -api-type: winrt event
 ---
 
-<<<<<<< HEAD
 # Microsoft.UI.Input.InputNonClientPointerSource.[EnteredMoveSize](enteredmovesizeeventargs.md)
-=======
-# Microsoft.UI.Input.InputNonClientPointerSource.EnteredMoveSize
->>>>>>> main
 
 <!--
 public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Input.InputNonClientPointerSource,Microsoft.UI.Input.EnteredMoveSizeEventArgs> EnteredMoveSize;
 -->
 
-<<<<<<< HEAD
 ## -description
 
 Occurs when the window has entered a move-size loop.
@@ -27,15 +22,3 @@ This corresponds to the [WM_ENTERSIZEMOVE](/windows/win32/winmsg/wm-entersizemov
 [EnteredMoveSizeEventArgs](enteredmovesizeeventargs.md)
 
 ## -examples
-=======
-
-## -description
-
-## -remarks
-
-## -see-also
-
-## -examples
-
-
->>>>>>> main
