@@ -9,7 +9,6 @@
 public Microsoft.UI.Input.MoveSizeOperation MoveSizeOperation { get; }
 -->
 
-<<<<<<< HEAD
 ## -description
 
 Gets the type of operation being performed in the move-size loop.
@@ -18,20 +17,8 @@ Gets the type of operation being performed in the move-size loop.
 
 The type of operation being performed in the move-size loop.
 
-=======
-
-## -description
-
-## -property-value
-
->>>>>>> main
 ## -remarks
 
 ## -see-also
 
 ## -examples
-<<<<<<< HEAD
-=======
-
-
->>>>>>> main

@@ -9,7 +9,6 @@
 public bool AllowRectChange { get; set; }
 -->
 
-<<<<<<< HEAD
 ## -description
 
 Gets or sets whether the window rect is allowed to change.
@@ -20,20 +19,8 @@ A value indicating whether or not the window rect is allowed to change. The defa
 
 Setting this property to false prevents the window rect change from happening.
 
-=======
-
-## -description
-
-## -property-value
-
->>>>>>> main
 ## -remarks
 
 ## -see-also
 
 ## -examples
-<<<<<<< HEAD
-=======
-
-
->>>>>>> main

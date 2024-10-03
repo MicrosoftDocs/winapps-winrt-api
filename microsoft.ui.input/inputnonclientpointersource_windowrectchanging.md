@@ -9,7 +9,6 @@
 public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Input.InputNonClientPointerSource,Microsoft.UI.Input.WindowRectChangingEventArgs> WindowRectChanging;
 -->
 
-<<<<<<< HEAD
 ## -description
 
 Occurs when the window rect is about to change.
@@ -23,15 +22,3 @@ This corresponds to the [WM_WINDOWPOSCHANGING](/windows/win32/winmsg/wm-windowpo
 [WindowRectChangingEventArgs](windowrectchangingeventargs.md)
 
 ## -examples
-=======
-
-## -description
-
-## -remarks
-
-## -see-also
-
-## -examples
-
-
->>>>>>> main
