@@ -11,7 +11,7 @@ public static Microsoft.UI.Input.InputDesktopNamedResourceCursor CreateFromModul
 
 ## -description
 
-Creates an [InputDesktopNamedResourceCursor](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputdesktopnamedresourcecursor) instance using the specified resource name and the module from which to load the resource.
+Creates an <xref:Microsoft.UI.Input.InputDesktopNamedResourceCursor> instance using the specified resource name and the module from which to load the resource.
 
 ## -parameters
 

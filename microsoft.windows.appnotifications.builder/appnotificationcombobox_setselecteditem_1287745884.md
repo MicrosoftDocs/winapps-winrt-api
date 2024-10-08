@@ -26,9 +26,9 @@ Returns the **AppNotificationComboBox** instance so that additional method calls
 
 ## -remarks
 
-You can also set the selected item with the [AppNotificationComboBox.SelectedItem](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationcombobox.selecteditem) property.
+You can also set the selected item with the [AppNotificationComboBox.SelectedItem](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationComboBox.SelectedItem) property.
 
-Add items to a combo box by calling [AppNotificationComboBox.AddItem](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationComboBox.AddItem(System.String,System.String)) or with the [AppNotificationComboBox.Items](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationcombobox.items) property.
+Add items to a combo box by calling [AppNotificationComboBox.AddItem](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationComboBox.AddItem(System.String,System.String)) or with the [AppNotificationComboBox.Items](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationComboBox.Items) property.
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

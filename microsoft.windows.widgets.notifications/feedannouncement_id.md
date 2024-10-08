@@ -20,7 +20,7 @@ The unique identifier for the announcement.
 
 ## -remarks
 
-Feed providers can use this idenifier to distinguish between multiple announcements when handling the [FeedAnnouncementInvokedArgs)](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers.ifeedannouncementinvokedtarget.onannouncementinvoked(microsoft.windows.widgets.notifications.feedannouncementinvokedargs)) callback.
+Feed providers can use this idenifier to distinguish between multiple announcements when handling the <xref:Microsoft.Windows.Widgets.Feeds.Providers.IFeedAnnouncementInvokedTarget.OnAnnouncementInvoked(Microsoft.Windows.Widgets.Notifications.FeedAnnouncementInvokedArgs)> callback.
 
 ## -see-also
 

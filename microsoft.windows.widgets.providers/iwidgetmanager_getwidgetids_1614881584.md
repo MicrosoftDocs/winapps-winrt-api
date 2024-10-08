@@ -12,7 +12,7 @@ public string[] GetWidgetIds ();
 
 ## -description
 
-Interface definition of the [GetWidgetIds](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.widgetmanager.getwidgetids) method.
+Interface definition of the <xref:Microsoft.Windows.Widgets.Providers.WidgetManager.GetWidgetIds> method.
 
 ## -returns
 

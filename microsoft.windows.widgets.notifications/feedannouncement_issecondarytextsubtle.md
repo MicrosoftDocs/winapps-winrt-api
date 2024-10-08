@@ -12,7 +12,7 @@ public bool IsSecondaryTextSubtle { get; set; }
 
 ## -description
 
-Gets or sets a value indicating wether the [SecondaryText](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.notifications.feedannouncement.secondarytext) string is displayed with subtle formatting to appear less prominent.
+Gets or sets a value indicating wether the <xref:Microsoft.Windows.Widgets.Notifications.FeedAnnouncement.SecondaryText> string is displayed with subtle formatting to appear less prominent.
 
 ## -property-value
 

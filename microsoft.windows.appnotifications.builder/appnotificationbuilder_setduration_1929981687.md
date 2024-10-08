@@ -18,7 +18,7 @@ Sets the duration for an app notification.
 
 ### -param duration
 
-A value from the [AppNotificationDuration](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationduration) enumeration specifying the duration for the app notification.
+A value from the [AppNotificationDuration](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationDuration) enumeration specifying the duration for the app notification.
 
 ## -returns
 

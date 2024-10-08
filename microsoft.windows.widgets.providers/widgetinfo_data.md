@@ -20,7 +20,7 @@ A JSON string.
 
 ## -remarks
 
-Set the data template for a widget by calling [Microsoft.Windows.Widgets.Providers.WidgetManager.UpdateWidget](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.widgetmanager.updatewidget(microsoft.windows.widgets.providers.widgetupdaterequestoptions)).
+Set the data template for a widget by calling <xref:Microsoft.Windows.Widgets.Providers.WidgetManager.UpdateWidget(Microsoft.Windows.Widgets.Providers.WidgetUpdateRequestOptions)?displayProperty=nameWithType>.
 
 ## -see-also
 

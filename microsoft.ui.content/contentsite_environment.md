@@ -11,11 +11,11 @@ public Microsoft.UI.Content.ContentSiteEnvironment Environment { get; }
 
 ## -description
 
-Gets the [ContentSiteEnvironment](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsiteenvironment) object for this [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite).
+Gets the <xref:Microsoft.UI.Content.ContentSiteEnvironment> object for this <xref:Microsoft.UI.Content.ContentSite>.
 
 ## -property-value
 
-The [ContentSiteEnvironment](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsiteenvironment) object for this [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite).
+The <xref:Microsoft.UI.Content.ContentSiteEnvironment> object for this <xref:Microsoft.UI.Content.ContentSite>.
 
 ## -remarks
 

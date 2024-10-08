@@ -21,6 +21,6 @@ The time, relative to the system boot time, in microseconds.
 
 ## -see-also
 
-[KeyUp](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputkeyboardsource.keyup), [KeyDown](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputkeyboardsource.keydown), [SystemKeyDown](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputkeyboardsource.systemkeydown), [SystemKeyUp](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputkeyboardsource.systemkeyup)
+<xref:Microsoft.UI.Input.InputKeyboardSource.KeyUp>, <xref:Microsoft.UI.Input.InputKeyboardSource.KeyDown>, <xref:Microsoft.UI.Input.InputKeyboardSource.SystemKeyDown>, <xref:Microsoft.UI.Input.InputKeyboardSource.SystemKeyUp>
 
 ## -examples

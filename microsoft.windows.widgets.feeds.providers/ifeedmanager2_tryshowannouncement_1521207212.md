@@ -26,7 +26,7 @@ The definition ID of the feed.
 
 ### -param announcement
 
-A [FeedAnnouncement](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.notifications.feedannouncement) object that provides the data for the announcement to be displayed.
+A <xref:Microsoft.Windows.Widgets.Notifications.FeedAnnouncement> object that provides the data for the announcement to be displayed.
 
 ## -remarks
 

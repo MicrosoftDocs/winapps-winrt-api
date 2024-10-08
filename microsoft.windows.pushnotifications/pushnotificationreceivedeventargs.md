@@ -12,11 +12,11 @@ public sealed class PushNotificationReceivedEventArgs
 
 ## -description
 
-Provides data for the [PushReceived](/windows/windows-app-sdk/api/winrt/microsoft.windows.pushnotifications.pushnotificationmanager.pushreceived) event.
+Provides data for the [PushReceived](xref:Microsoft.Windows.PushNotifications.PushNotificationManager.PushReceived) event.
 
 ## -remarks
 
-To ensure that the **PushReceived** event handler is called within the process of the running app, be sure to register the handler for this event before calling [Register](/windows/windows-app-sdk/api/winrt/microsoft.windows.pushnotifications.pushnotificationmanager.register). Otherwise, a new process will be launched to handle the notification.
+To ensure that the **PushReceived** event handler is called within the process of the running app, be sure to register the handler for this event before calling [Register](xref:Microsoft.Windows.PushNotifications.PushNotificationManager.Register). Otherwise, a new process will be launched to handle the notification.
 
 
 ## -see-also

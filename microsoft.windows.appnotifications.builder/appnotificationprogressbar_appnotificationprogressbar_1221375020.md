@@ -12,7 +12,7 @@ public AppNotificationProgressBar ();
 
 ## -description
 
-Initializes a new instance of the [AppNotificationProgressBar](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationprogressbar) class.
+Initializes a new instance of the [AppNotificationProgressBar](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationProgressBar) class.
 
 ## -remarks
 

@@ -16,7 +16,7 @@ Gets or sets the priority for the app notification.
         
 ## -property-value
 
-A value from the [AppNotificationPriority](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationpriority) enumeration specifying the priority for the app notification.
+A value from the [AppNotificationPriority](xref:Microsoft.Windows.AppNotifications.AppNotificationPriority) enumeration specifying the priority for the app notification.
 
 ## -remarks
 

@@ -11,11 +11,11 @@ public bool IsSiteEnabled { get; set; }
 
 ## -description
 
-Gets or sets whether this [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite) is enabled.
+Gets or sets whether this <xref:Microsoft.UI.Content.ContentSite> is enabled.
 
 ## -property-value
 
-True, if this [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite) is enabled; otherwise, false.
+True, if this <xref:Microsoft.UI.Content.ContentSite> is enabled; otherwise, false.
 
 ## -remarks
 

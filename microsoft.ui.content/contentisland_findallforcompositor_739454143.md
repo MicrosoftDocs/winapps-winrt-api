@@ -11,7 +11,7 @@ public static Microsoft.UI.Content.ContentIsland[] FindAllForCompositor (Microso
 
 ## -description
 
-Returns all [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) objects associated with the specified [Microsoft.UI.Composition.Compositor](/windows/windows-app-sdk/api/winrt/microsoft.ui.composition.compositor).
+Returns all <xref:Microsoft.UI.Content.ContentIsland> objects associated with the specified <xref:Microsoft.UI.Composition.Compositor?displayProperty=nameWithType>.
 
 ## -parameters
 
@@ -23,7 +23,7 @@ The compositor of interest.
 
 ## -remarks
 
-[ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) objects that still have outstanding memory references will not be included.
+<xref:Microsoft.UI.Content.ContentIsland> objects that still have outstanding memory references will not be included.
 
 If the specified compositor is not associated with the calling thread, RPC_E_WRONGTHREAD is returned.
 

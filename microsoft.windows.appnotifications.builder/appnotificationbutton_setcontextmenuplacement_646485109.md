@@ -20,7 +20,7 @@ Returns the **AppNotificationButton** instance so that additional method calls c
 
 ## -remarks
 
-You can also set the context menu placement value with the [AppNotificationButton.ContextMenuPlacement](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbutton.contextmenuplacement) property.
+You can also set the context menu placement value with the [AppNotificationButton.ContextMenuPlacement](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton.ContextMenuPlacement) property.
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI forapp notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

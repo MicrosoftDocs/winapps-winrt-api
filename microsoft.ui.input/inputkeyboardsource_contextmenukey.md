@@ -11,7 +11,7 @@ public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Input.InputKeyboa
 
 ## -description
 
-Occurs when the **Menu** virtual-key (or Shift + F10) is unhandled from a previous [KeyDown](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputkeyboardsource.keydown) event.
+Occurs when the **Menu** virtual-key (or Shift + F10) is unhandled from a previous <xref:Microsoft.UI.Input.InputKeyboardSource.KeyDown> event.
 
 ## -remarks
 
@@ -19,6 +19,6 @@ This event is not raised for context menu events generated from other hardware d
 
 ## -see-also
 
-[ContextMenuKeyEventArgs](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.contextmenukeyeventargs)
+<xref:Microsoft.UI.Input.ContextMenuKeyEventArgs>
 
 ## -examples

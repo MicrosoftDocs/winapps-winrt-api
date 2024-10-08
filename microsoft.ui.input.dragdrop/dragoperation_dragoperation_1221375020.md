@@ -11,7 +11,7 @@ public DragOperation ();
 
 ## -description
 
-Initializes a new instance of the [DragOperation](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.dragdrop.dragoperation) class.
+Initializes a new instance of the <xref:Microsoft.UI.Input.DragDrop.DragOperation> class.
 
 ## -remarks
 

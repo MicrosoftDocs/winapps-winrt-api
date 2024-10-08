@@ -12,7 +12,7 @@ public enum AppNotificationImageCrop
 
 ## -description
 
-Specifies the cropping options for an image in an [AppNotification](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification).
+Specifies the cropping options for an image in an [AppNotification](xref:Microsoft.Windows.AppNotifications.AppNotification).
 
 ## -enum-fields
 
