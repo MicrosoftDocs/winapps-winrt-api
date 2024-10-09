@@ -11,11 +11,11 @@ public Microsoft.UI.Content.DesktopChildSiteBridge SiteBridge { get; }
 
 ## -description
 
-Gets the [DesktopSiteBridge](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.desktopsitebridge) associated with this [DesktopWindowXamlSource](desktopwindowxamlsource.md) object.
+Gets the <xref:Microsoft.UI.Content.DesktopSiteBridge> associated with this [DesktopWindowXamlSource](desktopwindowxamlsource.md) object.
 
 ## -property-value
 
-The [DesktopSiteBridge](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.desktopsitebridge) associated with this [DesktopWindowXamlSource](desktopwindowxamlsource.md) object.
+The <xref:Microsoft.UI.Content.DesktopSiteBridge> associated with this [DesktopWindowXamlSource](desktopwindowxamlsource.md) object.
 
 ## -remarks
 

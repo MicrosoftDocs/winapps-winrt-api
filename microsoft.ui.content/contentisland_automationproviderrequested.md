@@ -11,7 +11,7 @@ public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Content.ContentIs
 
 ## -description
 
-Occurs when an automation provider is requested for this [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
+Occurs when an automation provider is requested for this <xref:Microsoft.UI.Content.ContentIsland>.
 
 ## -remarks
 

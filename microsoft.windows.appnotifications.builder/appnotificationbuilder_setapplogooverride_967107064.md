@@ -22,7 +22,7 @@ The URI of the app logo override image file.
 
 ### -param imageCrop
 
-A member of the [AppNotificationImageCrop](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationimagecrop) enumeration specifying the cropping method.
+A member of the [AppNotificationImageCrop](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationImageCrop) enumeration specifying the cropping method.
 
 ### -param alternateText
 

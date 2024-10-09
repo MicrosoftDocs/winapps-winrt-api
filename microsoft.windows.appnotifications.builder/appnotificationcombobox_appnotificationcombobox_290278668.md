@@ -12,7 +12,7 @@ public AppNotificationComboBox (string id);
 
 ## -description
 
-Initializes a new instance of the [AppNotificationComboBox](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationcombobox) class with the specified ID.
+Initializes a new instance of the [AppNotificationComboBox](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationComboBox) class with the specified ID.
 
 ## -parameters
 

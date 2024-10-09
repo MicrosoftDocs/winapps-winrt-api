@@ -11,7 +11,7 @@
 
 ## -description
 
-Releases system resources used by the [DragDropManager](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.dragdrop.dragdropmanager).
+Releases system resources used by the <xref:Microsoft.UI.Input.DragDrop.DragDropManager>.
 
 ## -remarks
 

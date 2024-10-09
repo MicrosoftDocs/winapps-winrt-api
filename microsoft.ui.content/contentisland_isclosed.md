@@ -11,11 +11,11 @@ public bool IsClosed { get; }
 
 ## -description
 
-Gets whether this [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) is closed.
+Gets whether this <xref:Microsoft.UI.Content.ContentIsland> is closed.
 
 ## -property-value
 
-True, if this [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) is closed; otherwise, false.
+True, if this <xref:Microsoft.UI.Content.ContentIsland> is closed; otherwise, false.
 
 ## -remarks
 

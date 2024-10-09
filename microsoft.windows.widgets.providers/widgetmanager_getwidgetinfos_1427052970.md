@@ -16,7 +16,7 @@ Gets the stored information for all widgets associated with the calling app.
 
 ## -returns
 
-An array of [WidgetInfo](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.widgetinfo) objects containing information about the associated widgets.
+An array of <xref:Microsoft.Windows.Widgets.Providers.WidgetInfo> objects containing information about the associated widgets.
 
 ## -remarks
 

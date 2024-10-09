@@ -22,7 +22,7 @@ A string containing the text to be displayed on the app notification.
 
 ### -param properties
 
-An [AppNotificationTextProperties](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationtextproperties) specifying display and localization properties for the text.
+An [AppNotificationTextProperties](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationTextProperties) specifying display and localization properties for the text.
 
 ## -returns
 

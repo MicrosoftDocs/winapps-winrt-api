@@ -18,7 +18,7 @@ Raised when the feeds host reports analytics data associated with a user interac
 
 ### -param args
 
-A [FeedAnalyticsInfoReportedArgs](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers.feedanalyticsinforeportedargs) that provides details about the user interaction that triggered the event.
+A [FeedAnalyticsInfoReportedArgs](xref:Microsoft.Windows.Widgets.Feeds.Providers.FeedAnalyticsInfoReportedArgs) that provides details about the user interaction that triggered the event.
 
 ## -remarks
 

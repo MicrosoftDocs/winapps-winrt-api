@@ -11,13 +11,13 @@ public Microsoft.UI.Content.ContentIslandEnvironment Environment { get; }
 
 ## -description
 
-Gets the [ContentIslandEnvironment](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentislandenvironment) associated with this [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
+Gets the <xref:Microsoft.UI.Content.ContentIslandEnvironment> associated with this <xref:Microsoft.UI.Content.ContentIsland>.
 
 ## -property-value
 
 ## -remarks
 
-Each [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) has an associated [ContentIslandEnvironment](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentislandenvironment).
+Each <xref:Microsoft.UI.Content.ContentIsland> has an associated <xref:Microsoft.UI.Content.ContentIslandEnvironment>.
 
 ## -see-also
 

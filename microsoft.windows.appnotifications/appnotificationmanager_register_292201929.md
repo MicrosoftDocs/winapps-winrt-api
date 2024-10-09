@@ -11,7 +11,7 @@ public void Register ();
 
 ## -description
 
-Registers the app to receive [NotificationInvoked](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationmanager.notificationinvoked) events when the user interacts with an app notification.
+Registers the app to receive [NotificationInvoked](xref:Microsoft.Windows.AppNotifications.AppNotificationManager.NotificationInvoked) events when the user interacts with an app notification.
 
 > [!NOTE]
 > The **AppNotificationManager** class has a dependency on the [Singleton package](/windows/apps/windows-app-sdk/deployment-architecture#singleton-package). Because of that dependency, there are certain considerations to be aware of if you're calling these APIs from a [self-contained app](/windows/apps/package-and-deploy/deploy-overview). For more info, and specifics, see [Dependencies on additional MSIX packages](/windows/apps/package-and-deploy/self-contained-deploy/deploy-self-contained-apps#dependencies-on-additional-msix-packages).
@@ -22,12 +22,12 @@ For packaged apps, the COM server is defined in the app manifest. The process ca
 
 To ensure that the **NotificationInvoked** event handler is called within the process of the running app, be sure to register the handler for that event before calling **Register**. Otherwise, a new process will be launched to handle the invocation.
 
-Before your app terminates, call [Unregister](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationmanager.unregister) to clean up resources and ensure that your app is launched for subsequent app notifications.
+Before your app terminates, call [Unregister](xref:Microsoft.Windows.AppNotifications.AppNotificationManager.Unregister) to clean up resources and ensure that your app is launched for subsequent app notifications.
 
-If you don't intend for your app to use the app notification feature ever again, you should call [UnregisterAll](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationmanager.unregisterall) in order to clean up the registrations in the system.
+If you don't intend for your app to use the app notification feature ever again, you should call [UnregisterAll](xref:Microsoft.Windows.AppNotifications.AppNotificationManager.UnregisterAll) in order to clean up the registrations in the system.
 
 ## -see-also
 
-[NotificationInvoked](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationmanager.notificationinvoked), [Unregister](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationmanager.unregister), [UnregisterAll](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationmanager.unregisterall)
+[NotificationInvoked](xref:Microsoft.Windows.AppNotifications.AppNotificationManager.NotificationInvoked), [Unregister](xref:Microsoft.Windows.AppNotifications.AppNotificationManager.Unregister), [UnregisterAll](xref:Microsoft.Windows.AppNotifications.AppNotificationManager.UnregisterAll)
 
 ## -examples

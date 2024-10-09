@@ -18,7 +18,7 @@ Provides methods for querying, updating, and deleting widgets.
 
 This class can only perform operations on existing widgets. 
 
-Get an instance of this class by calling [GetDefault](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.widgetmanager.getdefault).
+Get an instance of this class by calling <xref:Microsoft.Windows.Widgets.Providers.WidgetManager.GetDefault>.
 
 ## -see-also
 

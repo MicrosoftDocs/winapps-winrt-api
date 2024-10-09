@@ -30,7 +30,7 @@ Returns the **AppNotificationComboBox** instance so that additional method calls
 
 ## -remarks
 
-You can also set the items for an app notification combo box with the [AppNotificationComboBox.Items](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationcombobox.items) property.
+You can also set the items for an app notification combo box with the [AppNotificationComboBox.Items](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationComboBox.Items) property.
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

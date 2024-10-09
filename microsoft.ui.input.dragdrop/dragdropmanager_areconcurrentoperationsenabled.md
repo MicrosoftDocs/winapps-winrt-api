@@ -11,7 +11,7 @@ public bool AreConcurrentOperationsEnabled { get; set; }
 
 ## -description
 
-Gets or sets whether the [DragDropManager](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.dragdrop.dragdropmanager) can handle multiple drag and drop operations concurrently.
+Gets or sets whether the <xref:Microsoft.UI.Input.DragDrop.DragDropManager> can handle multiple drag and drop operations concurrently.
 
 ## -property-value
 

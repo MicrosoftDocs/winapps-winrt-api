@@ -20,7 +20,7 @@ Gets a string containing the current Adaptive Card JSON data template for the wi
 
 The custom state format is app-defined and isn't validated by the widget host.
 
-Set the custom state for a widget by calling [Microsoft.Windows.Widgets.Providers.WidgetManager.UpdateWidget](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.widgetmanager.updatewidget(microsoft.windows.widgets.providers.widgetupdaterequestoptions))
+Set the custom state for a widget by calling <xref:Microsoft.Windows.Widgets.Providers.WidgetManager.UpdateWidget(Microsoft.Windows.Widgets.Providers.WidgetUpdateRequestOptions)?displayProperty=nameWithType>
 
 ## -see-also
 

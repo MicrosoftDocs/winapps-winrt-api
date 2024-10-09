@@ -11,13 +11,13 @@ public class ContentSiteEnvironment
 
 ## -description
 
-Provides information about the [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite) environment to an associated [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
+Provides information about the <xref:Microsoft.UI.Content.ContentSite> environment to an associated <xref:Microsoft.UI.Content.ContentIsland>.
 
 ## -remarks
 
-The [ContentIslandEnvironment](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentislandenvironment) is configured by the settings specified in a [ContentSiteEnvironment](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsiteenvironment).
+The <xref:Microsoft.UI.Content.ContentIslandEnvironment> is configured by the settings specified in a <xref:Microsoft.UI.Content.ContentSiteEnvironment>.
 
-Each [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite) has a [ContentSiteEnvironment](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsiteenvironment) that manages the [ContentIslandEnvironment](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentislandenvironment) settings. An [IContentSiteBridge](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.icontentsitebridge) implementation is responsible for deciding when to propagate information from the [ContentSiteEnvironment](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsiteenvironment) to the [ContentIslandEnvironment](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentislandenvironment). This enables the [IContentSiteBridge](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.icontentsitebridge) to determine policy how the environment is represented to the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
+Each <xref:Microsoft.UI.Content.ContentSite> has a <xref:Microsoft.UI.Content.ContentSiteEnvironment> that manages the <xref:Microsoft.UI.Content.ContentIslandEnvironment> settings. An <xref:Microsoft.UI.Content.IContentSiteBridge> implementation is responsible for deciding when to propagate information from the <xref:Microsoft.UI.Content.ContentSiteEnvironment> to the <xref:Microsoft.UI.Content.ContentIslandEnvironment>. This enables the <xref:Microsoft.UI.Content.IContentSiteBridge> to determine policy how the environment is represented to the <xref:Microsoft.UI.Content.ContentIsland>.
 
 ## -see-also
 

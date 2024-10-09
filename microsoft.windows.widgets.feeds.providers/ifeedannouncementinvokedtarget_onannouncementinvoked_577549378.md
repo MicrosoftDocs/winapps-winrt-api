@@ -18,7 +18,7 @@ Called by the feeds host when a feeds announcement, requested with a call to <xr
 
 ### -param args
 
-A [FeedAnnouncementInvokedArgs](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.notifications.feedannouncementinvokedargs) object conveying identifiers for the announcement and the associated feed and the kind of action that triggered the notification.
+A <xref:Microsoft.Windows.Widgets.Notifications.FeedAnnouncementInvokedArgs> object conveying identifiers for the announcement and the associated feed and the kind of action that triggered the notification.
 
 ## -remarks
 

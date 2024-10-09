@@ -20,7 +20,7 @@ Asynchronously removes all app notifications for the app that have the specified
 
 ### -param group
 
-The unique identifier for the app notification group to be removed, accessed with the [Group](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification.group) property.
+The unique identifier for the app notification group to be removed, accessed with the [Group](xref:Microsoft.Windows.AppNotifications.AppNotification.Group) property.
 
 ## -returns
 

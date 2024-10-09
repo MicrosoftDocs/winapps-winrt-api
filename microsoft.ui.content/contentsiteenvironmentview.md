@@ -11,7 +11,7 @@ public class ContentSiteEnvironmentView
 
 ## -description
 
-Provides access to a read-only view of [ContentSiteEnvironment](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsiteenvironment) properties.
+Provides access to a read-only view of <xref:Microsoft.UI.Content.ContentSiteEnvironment> properties.
 
 ## -remarks
 

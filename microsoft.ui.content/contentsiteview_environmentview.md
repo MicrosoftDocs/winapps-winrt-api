@@ -11,11 +11,11 @@ public Microsoft.UI.Content.ContentSiteEnvironmentView EnvironmentView { get; }
 
 ## -description
 
-Gets the [Microsoft.UI.Content.ContentSiteEnvironmentView](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsiteenvironmentview) for this [ContentSiteView](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsiteview).
+Gets the <xref:Microsoft.UI.Content.ContentSiteEnvironmentView?displayProperty=nameWithType> for this <xref:Microsoft.UI.Content.ContentSiteView>.
 
 ## -property-value
 
-The [Microsoft.UI.Content.ContentSiteEnvironmentView](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsiteenvironmentview) for this [ContentSiteView](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsiteview).
+The <xref:Microsoft.UI.Content.ContentSiteEnvironmentView?displayProperty=nameWithType> for this <xref:Microsoft.UI.Content.ContentSiteView>.
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public Microsoft.Windows.Widgets.Providers.WidgetInfo GetWidgetInfo (string widg
 
 ## -description
 
-Gets a [WidgetInfo](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.widgetinfo) object containing information about the widget with the provided widget ID, including the visual template, data template, custom state, the last update time, and context information from the widget host.
+Gets a <xref:Microsoft.Windows.Widgets.Providers.WidgetInfo> object containing information about the widget with the provided widget ID, including the visual template, data template, custom state, the last update time, and context information from the widget host.
 
 ## -parameters
 
@@ -26,7 +26,7 @@ A **WidgetInfo** object, if the specified ID is associated with a widget associa
 
 ## -remarks
 
-This method can be used by widget providers when handling a request associated with an unrecognized widget in order to recover the last known state. For example, if you are storing your widgets' states in the [Microsoft.Windows.Widgets.Providers.WidgetUpdateRequestOptions.CustomState](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.widgetupdaterequestoptions.customstate) property, you can use this method during your widget provider's initialization to regenerate the state of your widgets.
+This method can be used by widget providers when handling a request associated with an unrecognized widget in order to recover the last known state. For example, if you are storing your widgets' states in the <xref:Microsoft.Windows.Widgets.Providers.WidgetUpdateRequestOptions.CustomState?displayProperty=nameWithType> property, you can use this method during your widget provider's initialization to regenerate the state of your widgets.
 
 
 

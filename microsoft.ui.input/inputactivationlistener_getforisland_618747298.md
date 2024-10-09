@@ -11,7 +11,7 @@ public static Microsoft.UI.Input.InputActivationListener GetForIsland (Microsoft
 
 ## -description
 
-Retrieves an [InputActivationListener](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputactivationlistener) object for the specified [ContentIsland](../microsoft.ui.content/contentisland.md).
+Retrieves an <xref:Microsoft.UI.Input.InputActivationListener> object for the specified [ContentIsland](../microsoft.ui.content/contentisland.md).
 
 ## -parameters
 
@@ -21,7 +21,7 @@ The [ContentIsland](../microsoft.ui.content/contentisland.md) that is handling i
 
 ## -returns
 
-The [InputActivationListener](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputactivationlistener) object for the specified [ContentIsland](../microsoft.ui.content/contentisland.md), or a new InputActivationListener if one doesn't exist.
+The <xref:Microsoft.UI.Input.InputActivationListener> object for the specified [ContentIsland](../microsoft.ui.content/contentisland.md), or a new InputActivationListener if one doesn't exist.
 
 If *island* is invalid, or is owned by a different thread than the calling thread, GetForIsland returns null.
 
@@ -31,10 +31,10 @@ GetForIsland only supports content islands on the same thread as the caller.
 
 Calling GetForIsland multiple times will return the same object each time.
 
-In all cases there can only be a single [InputActivationListener](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputactivationlistener) associated with a particular content island.
+In all cases there can only be a single <xref:Microsoft.UI.Input.InputActivationListener> associated with a particular content island.
 
 ## -see-also
 
-[InputActivationListenerActivationChangedEventArgs](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputactivationlisteneractivationchangedeventargs)
+<xref:Microsoft.UI.Input.InputActivationListenerActivationChangedEventArgs>
 
 ## -examples

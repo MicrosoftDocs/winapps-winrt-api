@@ -18,7 +18,7 @@ Raised when the feeds host reports a feed error.
 
 ### -param args
 
-A [FeedErrorInfoReportedArgs](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers.feederrorinforeportedargs) that provides details about the error that triggered the event.
+A [FeedErrorInfoReportedArgs](xref:Microsoft.Windows.Widgets.Feeds.Providers.FeedErrorInfoReportedArgs) that provides details about the error that triggered the event.
 
 ## -remarks
 

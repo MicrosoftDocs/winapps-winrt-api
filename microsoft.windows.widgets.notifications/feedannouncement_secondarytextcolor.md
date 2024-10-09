@@ -12,7 +12,7 @@ public Microsoft.Windows.Widgets.Notifications.AnnouncementTextColor SecondaryTe
 
 ## -description
 
-Gets or sets the color of the [SecondaryText](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.notifications.feedannouncement.secondarytext) string.
+Gets or sets the color of the <xref:Microsoft.Windows.Widgets.Notifications.FeedAnnouncement.SecondaryText> string.
 
 ## -property-value
 
