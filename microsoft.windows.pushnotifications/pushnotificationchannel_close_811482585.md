@@ -12,7 +12,7 @@ public void Close ();
 
 ## -description
 
-Closes the push notification channel, after which a new channel must be requested with [CreateChannelAsync](xref:Microsoft.Windows.PushNotifications.PushNotificationManager.CreateChannelAsync(System.Guid)
+Closes the push notification channel, after which a new channel must be requested with [CreateChannelAsync](/windows/windows-app-sdk/api/winrt/microsoft.windows.pushnotifications.pushnotificationmanager.createchannelasync)
 
 ## -remarks
 

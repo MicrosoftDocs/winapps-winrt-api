@@ -11,13 +11,13 @@ public void Connect (Microsoft.UI.Content.ContentIsland content);
 
 ## -description
 
-Connects a <xref:Microsoft.UI.Content.ContentIsland> to a <xref:Microsoft.UI.Content.DesktopSiteBridge>.
+Connects a [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) to a [DesktopSiteBridge](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.desktopsitebridge).
 
 ## -parameters
 
 ### -param content
 
-The <xref:Microsoft.UI.Content.ContentIsland> to connect to a <xref:Microsoft.UI.Content.DesktopSiteBridge>.
+The [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) to connect to a [DesktopSiteBridge](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.desktopsitebridge).
 
 ## -remarks
 

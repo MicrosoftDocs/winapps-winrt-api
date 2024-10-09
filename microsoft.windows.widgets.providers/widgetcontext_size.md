@@ -20,7 +20,7 @@ A <Microsoft.Windows.Widgets.WidgetSize> indicating the currently displayed size
 
 ## -remarks
 
-When the size of the widget changes, the widget host initiates a call to the <xref:Microsoft.Windows.Widgets.Providers.IWidgetProvider.OnWidgetContextChanged(Microsoft.Windows.Widgets.Providers.WidgetContextChangedArgs)?displayProperty=nameWithType> callback.
+When the size of the widget changes, the widget host initiates a call to the [Microsoft.Windows.Widgets.Providers.IWidgetProvider.OnWidgetContextChanged](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.iwidgetprovider.onwidgetcontextchanged) callback.
  
 ## -see-also
 

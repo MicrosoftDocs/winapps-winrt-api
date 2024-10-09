@@ -26,7 +26,7 @@ Returns the **AppNotificationBuilder** instance so that additional method calls 
 
 ## -remarks
 
-You can use the group identifier to remove all app notifications in a group from the Notification Center by calling [AppNotificationManager.RemoveByGroupAsync](xref:Microsoft.Windows.AppNotifications.AppNotificationManager.RemoveByGroupAsync(System.String)).
+You can use the group identifier to remove all app notifications in a group from the Notification Center by calling [AppNotificationManager.RemoveByGroupAsync](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationmanager.removebygroupasync)).
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

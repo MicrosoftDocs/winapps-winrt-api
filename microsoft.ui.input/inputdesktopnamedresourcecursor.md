@@ -17,7 +17,7 @@ Represents a visual pointer object that uses an application resource instead of 
 
 Derived from [InputCursor](inputcursor.md).
 
-Uses a string resource name. If you need to use a resource ID instead, see <xref:Microsoft.UI.Input.InputDesktopResourceCursor> (Visual Studio assigns a unique integer ID to new resources).
+Uses a string resource name. If you need to use a resource ID instead, see [InputDesktopResourceCursor](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputdesktopresourcecursor) (Visual Studio assigns a unique integer ID to new resources).
 
 You can add a _.res_ resource file that contains a custom cursor to your project and include it in your assembly with the [/win32res](/dotnet/articles/csharp/language-reference/compiler-options/win32res-compiler-option) compiler option. The **Id** is the [Cursor Resource ID](/windows/desktop/menurc/cursor-resource) specified in the _.res_ file.
 

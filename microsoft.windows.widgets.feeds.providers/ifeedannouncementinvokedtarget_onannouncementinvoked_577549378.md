@@ -12,13 +12,13 @@ public void OnAnnouncementInvoked (Microsoft.Windows.Widgets.Notifications.FeedA
 
 ## -description
 
-Called by the feeds host when a feeds announcement, requested with a call to <xref:Microsoft.Windows.Widgets.Feeds.Providers.FeedManager.TryShowAnnouncement(System.String,System.String,Microsoft.Windows.Widgets.Notifications.FeedAnnouncement)>, has been initially displayed or interacted with by the user.
+Called by the feeds host when a feeds announcement, requested with a call to [TryShowAnnouncement](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers.feedmanager.tryshowannouncement), has been initially displayed or interacted with by the user.
 
 ## -parameters
 
 ### -param args
 
-A <xref:Microsoft.Windows.Widgets.Notifications.FeedAnnouncementInvokedArgs> object conveying identifiers for the announcement and the associated feed and the kind of action that triggered the notification.
+A [FeedAnnouncementInvokedArgs](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.notifications.feedannouncementinvokedargs) object conveying identifiers for the announcement and the associated feed and the kind of action that triggered the notification.
 
 ## -remarks
 

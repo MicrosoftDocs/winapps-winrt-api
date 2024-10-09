@@ -11,13 +11,13 @@ public void RequestSize (System.Numerics.Vector2 size);
 
 ## -description
 
-Retrieves a new size for the <xref:Microsoft.UI.Content.ContentIsland> from the <xref:Microsoft.UI.Content.ContentSite>.
+Retrieves a new size for the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) from the [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite).
 
 ## -parameters
 
 ### -param size
 
-The new size for the <xref:Microsoft.UI.Content.ContentIsland>.
+The new size for the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -remarks
 

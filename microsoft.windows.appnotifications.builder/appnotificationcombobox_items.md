@@ -20,7 +20,7 @@ A dictionary of key/value pairs representing the IDs and display text for the co
 
 ## -remarks
 
-You can also add items to an app notification combo box by calling [AppNotificationComboBox.AddItem](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationComboBox.AddItem(System.String,System.String)).
+You can also add items to an app notification combo box by calling [AppNotificationComboBox.AddItem](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationcombobox.additem)).
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

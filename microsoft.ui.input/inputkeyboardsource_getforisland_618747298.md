@@ -11,7 +11,7 @@ public static Microsoft.UI.Input.InputKeyboardSource GetForIsland (Microsoft.UI.
 
 ## -description
 
-Retrieves an <xref:Microsoft.UI.Input.InputKeyboardSource> object for the specified [ContentIsland](../microsoft.ui.content/contentisland.md).
+Retrieves an [InputKeyboardSource](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputkeyboardsource) object for the specified [ContentIsland](../microsoft.ui.content/contentisland.md).
 
 ## -parameters
 
@@ -21,7 +21,7 @@ The [ContentIsland](../microsoft.ui.content/contentisland.md) that is handling i
 
 ## -returns
 
-The <xref:Microsoft.UI.Input.InputKeyboardSource> object for the specified <xref:Microsoft.UI.Content.ContentIsland>, or a new InputKeyboardSource if one doesn't exist.
+The [InputKeyboardSource](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputkeyboardsource) object for the specified [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland), or a new InputKeyboardSource if one doesn't exist.
 
 If *island* is invalid, or is owned by a different thread than the calling thread, GetForIsland returns null.
 
@@ -31,7 +31,7 @@ GetForIsland only supports content islands on the same thread as the caller.
 
 Calling GetForIsland multiple times will return the same object each time.
 
-In all cases there can only be a single <xref:Microsoft.UI.Input.InputKeyboardSource> associated with a particular content island.
+In all cases there can only be a single [InputKeyboardSource](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputkeyboardsource) associated with a particular content island.
 
 ## -see-also
 

@@ -46,7 +46,7 @@ The following audio file sources are unsupported:
 - Internet URLs, such as http://, https://
 - Absolute file paths, such as C:/, F:/, etc.
 
-You can specify a sound event, which plays a system-defined sound, by calling [SetAudioEvent](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder.SetAudioEvent(Microsoft.Windows.AppNotifications.Builder.AppNotificationSoundEvent,Microsoft.Windows.AppNotifications.Builder.AppNotificationAudioLooping)).
+You can specify a sound event, which plays a system-defined sound, by calling [SetAudioEvent](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbuilder.setaudioevent)).
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

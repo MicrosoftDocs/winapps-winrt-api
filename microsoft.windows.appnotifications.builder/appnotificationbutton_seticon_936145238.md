@@ -26,7 +26,7 @@ Returns the **AppNotificationButton** instance so that additional method calls c
 
 ## -remarks
 
-You can also set the icon for an app notification button with the [AppNotificationButton.Icon](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton.Icon).
+You can also set the icon for an app notification button with the [AppNotificationButton.Icon](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbutton.icon).
 
 The following screenshot illustrates an app notification button that uses an icon.
 

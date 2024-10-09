@@ -11,7 +11,7 @@ public sealed class ContentEnvironmentStateChangedEventArgs
 
 ## -description
 
-Contains event data for the <xref:Microsoft.UI.Content.ContentIslandEnvironment.StateChanged?displayProperty=nameWithType> event.
+Contains event data for the [Microsoft.UI.Content.ContentIslandEnvironment.StateChanged](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentislandenvironment.statechanged) event.
 
 ## -remarks
 

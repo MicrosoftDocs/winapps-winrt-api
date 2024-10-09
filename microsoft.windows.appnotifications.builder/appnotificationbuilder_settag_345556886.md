@@ -26,7 +26,7 @@ Returns the **AppNotificationBuilder** instance so that additional method calls 
 
 ## -remarks
 
-You can use the tag to remove notifications associated with the tag from the Notification Center by calling [AppNotificationManager.RemoveByTagAsync](xref:Microsoft.Windows.AppNotifications.AppNotificationManager.RemoveByTagAsync(System.String)) or [AppNotificationManager.RemoveByTagAndGroupAsync](xref:Microsoft.Windows.AppNotifications.AppNotificationManager.RemoveByTagAndGroupAsync(System.String,System.String)).
+You can use the tag to remove notifications associated with the tag from the Notification Center by calling [AppNotificationManager.RemoveByTagAsync](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationmanager.removebytagasync)) or [AppNotificationManager.RemoveByTagAndGroupAsync](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationmanager.removebytagandgroupasync)).
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

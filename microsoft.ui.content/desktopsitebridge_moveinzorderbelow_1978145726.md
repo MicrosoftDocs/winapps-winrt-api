@@ -11,13 +11,13 @@ public void MoveInZOrderBelow (Microsoft.UI.WindowId windowId);
 
 ## -description
 
-Moves the associated Win32 HWND behind the specified <xref:Microsoft.UI.WindowId?displayProperty=nameWithType>.
+Moves the associated Win32 HWND behind the specified [Microsoft.UI.WindowId](/windows/windows-app-sdk/api/winrt/microsoft.ui.windowid).
 
 ## -parameters
 
 ### -param windowId
 
-The <xref:Microsoft.UI.WindowId> of the specified Win32 HWND. This window must have the same parent as the associated Win32 HWND.
+The [WindowId](/windows/windows-app-sdk/api/winrt/microsoft.ui.windowid) of the specified Win32 HWND. This window must have the same parent as the associated Win32 HWND.
 
 ## -remarks
 

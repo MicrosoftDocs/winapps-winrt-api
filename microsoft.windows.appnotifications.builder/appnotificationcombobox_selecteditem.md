@@ -20,9 +20,9 @@ A string containing the ID of the selected item.
 
 ## -remarks
 
-You can also set the selected item by calling [AppNotificationComboBox.SetSelectedItem](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationComboBox.SetSelectedItem(System.String)).
+You can also set the selected item by calling [AppNotificationComboBox.SetSelectedItem](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationcombobox.setselecteditem)).
 
-Add items to a combo box by calling [AppNotificationComboBox.AddItem](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationComboBox.AddItem(System.String,System.String)) or with the [AppNotificationComboBox.Items](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationComboBox.Items) property.
+Add items to a combo box by calling [AppNotificationComboBox.AddItem](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationcombobox.additem)) or with the [AppNotificationComboBox.Items](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationcombobox.items) property.
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

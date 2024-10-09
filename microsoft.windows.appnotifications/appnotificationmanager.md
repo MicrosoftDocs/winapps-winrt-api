@@ -18,10 +18,10 @@ Provides APIs for managing app notifications, including showing and removing not
 
 ## -remarks
 
-Get an instance of this class by accessing the [AppNotificationManager.Default](xref:Microsoft.Windows.AppNotifications.AppNotificationManager.Default) property.
+Get an instance of this class by accessing the [AppNotificationManager.Default](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationmanager.default) property.
 
 ## -see-also
 
-[AppNotificationManager.Default](xref:Microsoft.Windows.AppNotifications.AppNotificationManager.Default), [AppNotification](xref:Microsoft.Windows.AppNotifications.AppNotification)
+[AppNotificationManager.Default](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationmanager.default), [AppNotification](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification)
 
 ## -examples

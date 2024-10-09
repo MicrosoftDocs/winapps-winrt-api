@@ -12,7 +12,7 @@ public sealed class CustomQueryParametersUpdateOptions
 
 ## -description
 
-Conveys the query parameters and related metadata for calls to <xref:Microsoft.Windows.Widgets.Feeds.Providers.FeedManager.SetCustomQueryParameters(Microsoft.Windows.Widgets.Feeds.Providers.CustomQueryParametersUpdateOptions)>. 
+Conveys the query parameters and related metadata for calls to [SetCustomQueryParameters](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers.feedmanager.setcustomqueryparameters). 
 
 ## -remarks
 

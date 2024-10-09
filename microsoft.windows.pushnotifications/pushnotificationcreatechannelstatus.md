@@ -12,7 +12,7 @@ public struct PushNotificationCreateChannelStatus
 
 ## -description
 
-Provides status information for a push channel creation request initiated with a call to [CreateChannelAsync](xref:Microsoft.Windows.PushNotifications.PushNotificationManager.CreateChannelAsync(System.Guid)).
+Provides status information for a push channel creation request initiated with a call to [CreateChannelAsync](/windows/windows-app-sdk/api/winrt/microsoft.windows.pushnotifications.pushnotificationmanager.createchannelasync)).
 
 ## -struct-fields
 
@@ -26,7 +26,7 @@ The current count of retry attempts made by the platform.
 
 ### -field status
 
-A member of the [PushNotificationChannelStatus](xref:Microsoft.Windows.PushNotifications.PushNotificationChannelStatus) enumeration specifying the current status of the push notification channel.
+A member of the [PushNotificationChannelStatus](/windows/windows-app-sdk/api/winrt/microsoft.windows.pushnotifications.pushnotificationchannelstatus) enumeration specifying the current status of the push notification channel.
 
 ## -remarks
 
