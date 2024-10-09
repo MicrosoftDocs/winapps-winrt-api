@@ -16,7 +16,7 @@ Gets or sets the style of a button.
 
 ## -property-value
 
-A value from the [AppNotificationButtonStyle](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButtonStyle) enumeration specifying the style of the button.
+A value from the [AppNotificationButtonStyle](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbuttonstyle) enumeration specifying the style of the button.
 
 ## -remarks
 

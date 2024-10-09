@@ -26,7 +26,7 @@ Audio is looped.
 
 ## -remarks
 
-To specify the looping behavior of app notification audio, use [AppNotificationBuilder.SetAudioEvent](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder.SetAudioEvent(Microsoft.Windows.AppNotifications.Builder.AppNotificationSoundEvent,Microsoft.Windows.AppNotifications.Builder.AppNotificationAudioLooping)) or [AppNotificationBuilder.SetAudioUri](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder.SetAudioUri(Windows.Foundation.Uri,Microsoft.Windows.AppNotifications.Builder.AppNotificationAudioLooping)).
+To specify the looping behavior of app notification audio, use [AppNotificationBuilder.SetAudioEvent](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbuilder.setaudioevent)) or [AppNotificationBuilder.SetAudioUri](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbuilder.setaudiouri)).
 
 ## -see-also
 

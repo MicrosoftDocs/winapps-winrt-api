@@ -118,7 +118,7 @@ Incoming call 10.
 
 ## -remarks
 
-To set the audio event for an app notification, call [AppNotificationBuilder.SetAudioEvent](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder.SetAudioEvent(Microsoft.Windows.AppNotifications.Builder.AppNotificationSoundEvent,Microsoft.Windows.AppNotifications.Builder.AppNotificationAudioLooping)).
+To set the audio event for an app notification, call [AppNotificationBuilder.SetAudioEvent](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbuilder.setaudioevent)).
 
 ## -see-also
 

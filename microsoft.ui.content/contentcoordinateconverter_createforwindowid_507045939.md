@@ -11,7 +11,7 @@ public static Microsoft.UI.Content.ContentCoordinateConverter CreateForWindowId 
 
 ## -description
 
-Creates a new <xref:Microsoft.UI.Content.ContentCoordinateConverter> object for the specified <xref:Microsoft.UI.WindowId>.
+Creates a new [ContentCoordinateConverter](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentcoordinateconverter) object for the specified [WindowId](/windows/windows-app-sdk/api/winrt/microsoft.ui.windowid).
 
 ## -parameters
 

@@ -16,7 +16,7 @@ Specifies display and localization properties for text displayed on an app notif
 
 ## -remarks
 
-Add text with text properties to an app notification by calling [AppNotificationBuilder.AddText](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder.AddText(System.String,Microsoft.Windows.AppNotifications.Builder.AppNotificationTextProperties)).
+Add text with text properties to an app notification by calling [AppNotificationBuilder.AddText](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbuilder.addtext)).
 
 ## -see-also
 

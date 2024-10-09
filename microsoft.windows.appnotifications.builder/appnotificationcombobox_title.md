@@ -20,7 +20,7 @@ A string containing the title of the combo box.
 
 ## -remarks
 
-You can also set the title with the [AppNotificationComboBox.SetTitle](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationComboBox.SetTitle(System.String)) property.
+You can also set the title with the [AppNotificationComboBox.SetTitle](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationcombobox.settitle)) property.
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

@@ -18,7 +18,7 @@ Get the app notification setting status for the app, determining whether notific
 
 ## -property-value
 
-A value from the [AppNotificationSetting](xref:Microsoft.Windows.AppNotifications.AppNotificationSetting) enumeration.
+A value from the [AppNotificationSetting](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationsetting) enumeration.
 
 ## -remarks
 

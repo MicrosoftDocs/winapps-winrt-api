@@ -11,7 +11,7 @@
 
 ## -description
 
-Closes the <xref:Microsoft.UI.Content.ContentIsland>.
+Closes the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -remarks
 

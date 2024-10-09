@@ -16,7 +16,7 @@ Represents a button that is displayed on an app notification.
 
 ## -remarks
 
-Add a button to the XML payload for an app notification by calling [AppNotificationBuilder.AddButton](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder.AddButton(Microsoft.Windows.AppNotifications.Builder.AppNotificationButton)). Up to 5 buttons may be added to a single app notification.
+Add a button to the XML payload for an app notification by calling [AppNotificationBuilder.AddButton](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbuilder.addbutton)). Up to 5 buttons may be added to a single app notification.
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

@@ -12,7 +12,7 @@ public Windows.Foundation.Deferral GetDeferral ();
 
 ## -description
 
-Informs the system that the resource response task might continue to perform work after the [IFeedResourceProvider.OnResourceRequested](xref:Microsoft.Windows.Widgets.Feeds.Providers.IFeedResourceProvider.OnResourceRequested(Microsoft.Windows.Widgets.Feeds.Providers.FeedResourceRequestedArgs))
+Informs the system that the resource response task might continue to perform work after the [IFeedResourceProvider.OnResourceRequested](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers.ifeedresourceprovider.onresourcerequested))
 
 ## -returns
 

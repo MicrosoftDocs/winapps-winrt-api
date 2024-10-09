@@ -18,14 +18,14 @@ Gets all the app notifications for calling app that are currently displayed in A
 
 ## -returns
 
-A list of [AppNotification](xref:Microsoft.Windows.AppNotifications.AppNotification) objects.
+A list of [AppNotification](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification) objects.
 
 ## -remarks
 
-Note that the [AppNotification](xref:Microsoft.Windows.AppNotifications.AppNotification) objects returned by **GetAllAsync** will have the default values set for the [Priority](xref:Microsoft.Windows.AppNotifications.AppNotificationPriority) and [SuppressDisplay](xref:Microsoft.Windows.AppNotifications.AppNotification.SuppressDisplay) properties, because these properties are transient.
+Note that the [AppNotification](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification) objects returned by **GetAllAsync** will have the default values set for the [Priority](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationpriority) and [SuppressDisplay](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification.suppressdisplay) properties, because these properties are transient.
 
 ## -see-also
 
-[AppNotification](xref:Microsoft.Windows.AppNotifications.AppNotification)
+[AppNotification](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification)
 
 ## -examples

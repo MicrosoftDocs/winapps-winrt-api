@@ -28,9 +28,9 @@ Returns the **AppNotificationButton** instance so that additional method calls c
 
 You can use the URI to launch a web site in the default browser or to launch an app that has a registered URI scheme. For more information on launching apps with URIs see, [Launch an app with a URI](/windows/uwp/launch-resume/launch-app-with-uri). 
 
-After calling this method, calling [AddArgument](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton.AddArgument(System.String,System.String)) on the **AppNotificationButton** will throw an error. Also, you should set either the invoke URI or the [TargetAppId](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton.TargetAppId), but not both. If you do set both, the system will use the **TargetAppId**.
+After calling this method, calling [AddArgument](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbutton.addargument)) on the **AppNotificationButton** will throw an error. Also, you should set either the invoke URI or the [TargetAppId](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbutton.targetappid), but not both. If you do set both, the system will use the **TargetAppId**.
 
-You can also set the invoke URI for an app notification button with the [AppNotificationButton.InvokeUri](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton.InvokeUri) property.
+You can also set the invoke URI for an app notification button with the [AppNotificationButton.InvokeUri](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbutton.invokeuri) property.
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

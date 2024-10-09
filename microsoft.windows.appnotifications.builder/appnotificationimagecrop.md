@@ -12,7 +12,7 @@ public enum AppNotificationImageCrop
 
 ## -description
 
-Specifies the cropping options for an image in an [AppNotification](xref:Microsoft.Windows.AppNotifications.AppNotification).
+Specifies the cropping options for an image in an [AppNotification](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification).
 
 ## -enum-fields
 
@@ -26,7 +26,7 @@ Circular cropping.
 
 ## -remarks
 
-Set the crop for an app notification image in the call to  [AppNotificationBuilder.SetInlineImage](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder.SetInlineImage(Windows.Foundation.Uri,Microsoft.Windows.AppNotifications.Builder.AppNotificationImageCrop,System.String)).
+Set the crop for an app notification image in the call to  [AppNotificationBuilder.SetInlineImage](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbuilder.setinlineimage)).
 
 ## -see-also
 

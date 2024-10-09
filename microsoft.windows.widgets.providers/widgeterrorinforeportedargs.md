@@ -12,7 +12,7 @@ public sealed class WidgetErrorInfoReportedArgs
 
 ## -description
 
-Provides data for the [OnErrorInfoReported](xref:Microsoft.Windows.Widgets.Providers.IWidgetProviderErrors.OnErrorInfoReported(Microsoft.Windows.Widgets.Providers.WidgetErrorInfoReportedArgs)) event which is raised when the widget host reports a widget error.
+Provides data for the [OnErrorInfoReported](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.iwidgetprovidererrors.onerrorinforeported)) event which is raised when the widget host reports a widget error.
 
 ## -remarks
 

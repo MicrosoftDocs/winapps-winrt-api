@@ -20,7 +20,7 @@ The URI of the button icon.
 
 ## -remarks
 
-You can also set the icon for an app notification button by calling [AppNotificationButton.SetIcon](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton.SetIcon(Windows.Foundation.Uri)).
+You can also set the icon for an app notification button by calling [AppNotificationButton.SetIcon](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbutton.seticon)).
 
 The following screenshot illustrates an app notification button that uses an icon.
 

@@ -18,11 +18,11 @@ Sets the audio event and looping behavior for an app notification.
 
 ### -param appNotificationSoundEvent
 
-A member of the [AppNotificationSoundEvent](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationSoundEvent) enumeration specifying a system sound to play.
+A member of the [AppNotificationSoundEvent](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationsoundevent) enumeration specifying a system sound to play.
 
 ### -param loop
 
-A member of the [AppNotificationAudioLooping](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationAudioLooping) enumeration specifying the looping behavior for the audio.
+A member of the [AppNotificationAudioLooping](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationaudiolooping) enumeration specifying the looping behavior for the audio.
 
 ## -returns
 
@@ -30,7 +30,7 @@ Returns the **AppNotificationBuilder** instance so that additional method calls 
 
 ## -remarks
 
-This method allows you to provide an consistent audio experience by specifying an audio event type, which uses standardized system sounds. You can specify a custom sound for an app notification by calling [SetAudioUri](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder.SetAudioUri(Windows.Foundation.Uri,Microsoft.Windows.AppNotifications.Builder.AppNotificationAudioLooping)).
+This method allows you to provide an consistent audio experience by specifying an audio event type, which uses standardized system sounds. You can specify a custom sound for an app notification by calling [SetAudioUri](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbuilder.setaudiouri)).
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

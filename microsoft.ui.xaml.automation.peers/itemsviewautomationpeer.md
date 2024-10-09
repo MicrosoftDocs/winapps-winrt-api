@@ -11,7 +11,7 @@ public class ItemsViewAutomationPeer : Microsoft.UI.Xaml.Automation.Peers.Framew
 
 ## -description
 
-Exposes <xref:Microsoft.UI.Xaml.Controls.ItemsView?displayProperty=nameWithType> types to Microsoft UI Automation.
+Exposes [Microsoft.UI.Xaml.Controls.ItemsView](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.itemsview) types to Microsoft UI Automation.
 
 ## -remarks
 

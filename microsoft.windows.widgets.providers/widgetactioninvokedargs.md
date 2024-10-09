@@ -12,7 +12,7 @@ public sealed class WidgetActionInvokedArgs
 
 ## -description
 
-Provides data for the <xref:Microsoft.Windows.Widgets.Providers.IWidgetProvider.OnActionInvoked(Microsoft.Windows.Widgets.Providers.WidgetActionInvokedArgs)?displayProperty=nameWithType> callback, which is raised when an action is invoked on a widget, such as the user clicking on a button.
+Provides data for the [Microsoft.Windows.Widgets.Providers.IWidgetProvider.OnActionInvoked](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.iwidgetprovider.onactioninvoked) callback, which is raised when an action is invoked on a widget, such as the user clicking on a button.
 
 ## -remarks
 

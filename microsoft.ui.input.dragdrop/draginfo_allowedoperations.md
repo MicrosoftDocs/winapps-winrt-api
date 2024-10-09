@@ -19,7 +19,7 @@ The a bitwise combination of zero or more actions supported by the drag and drop
 
 ## -remarks
 
-The action(s) being performed can be modified using the keyboard or mouse buttons (see <xref:Microsoft.UI.Input.DragDrop.DragDropModifiers>).
+The action(s) being performed can be modified using the keyboard or mouse buttons (see [DragDropModifiers](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.dragdrop.dragdropmodifiers)).
 
 ## -see-also
 

@@ -12,7 +12,7 @@ public enum AppNotificationDuration
 
 ## -description
 
-Specifies the duration for which an [AppNotification](xref:Microsoft.Windows.AppNotifications.AppNotification) is displayed.
+Specifies the duration for which an [AppNotification](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification) is displayed.
 
 ## -enum-fields
 
@@ -26,7 +26,7 @@ Long duration.
 
 ## -remarks
 
-Set the duration for an app notification by calling [AppNotificationBuilder.SetDuration](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder.SetDuration(Microsoft.Windows.AppNotifications.Builder.AppNotificationDuration)).
+Set the duration for an app notification by calling [AppNotificationBuilder.SetDuration](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbuilder.setduration)).
 
 ## -see-also
 

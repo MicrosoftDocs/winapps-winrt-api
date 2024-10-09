@@ -12,7 +12,7 @@ public sealed class FeedErrorInfoReportedArgs
 
 ## -description
 
-Provides data for the [OnErrorInfoReported](xref:Microsoft.Windows.Widgets.Feeds.Providers.IFeedProviderErrors.OnErrorInfoReported(Microsoft.Windows.Widgets.Feeds.Providers.FeedErrorInfoReportedArgs)) event which is raised when the feeds host reports a feed error.
+Provides data for the [OnErrorInfoReported](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers.ifeedprovidererrors.onerrorinforeported)) event which is raised when the feeds host reports a feed error.
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public Microsoft.Windows.PushNotifications.PushNotificationChannel Channel { get
 
 ## -description
 
-Gets the push notification channel resulting from a successful call to [CreateChannelAsync](xref:Microsoft.Windows.PushNotifications.PushNotificationManager.CreateChannelAsync(System.Guid)).
+Gets the push notification channel resulting from a successful call to [CreateChannelAsync](/windows/windows-app-sdk/api/winrt/microsoft.windows.pushnotifications.pushnotificationmanager.createchannelasync)).
 
 ## -property-value
 

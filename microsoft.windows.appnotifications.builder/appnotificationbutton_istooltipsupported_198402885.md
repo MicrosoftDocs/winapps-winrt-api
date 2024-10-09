@@ -20,7 +20,7 @@ True if tool-tips are supported; otherwise, false.
 
 ## -remarks
 
-The [AppNotificationButton.SetToolTip](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton.SetToolTip(System.String)) method allows you to provide a tool-tip string that is displayed when the user mouses over the button. This feature is only supported for on Windows 10 Build 19041 and later. This method allows you to determine at runtime if tool-tips are supported on the current device.
+The [AppNotificationButton.SetToolTip](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbutton.settooltip)) method allows you to provide a tool-tip string that is displayed when the user mouses over the button. This feature is only supported for on Windows 10 Build 19041 and later. This method allows you to determine at runtime if tool-tips are supported on the current device.
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

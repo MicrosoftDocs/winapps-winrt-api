@@ -11,11 +11,11 @@ public bool DidActualSizeChange { get; }
 
 ## -description
 
-Gets whether the <xref:Microsoft.UI.Content.ContentIsland> size changed.
+Gets whether the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) size changed.
 
 ## -property-value
 
-True, if the <xref:Microsoft.UI.Content.ContentIsland> size changed; otherwise, false.
+True, if the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) size changed; otherwise, false.
 
 ## -remarks
 

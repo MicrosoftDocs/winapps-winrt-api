@@ -20,7 +20,7 @@ A dictionary of header values.
 
 ## -remarks
 
- If the provider returns from [IFeedResourceProvider.OnResourceRequested](xref:Microsoft.Windows.Widgets.Feeds.Providers.IFeedResourceProvider.OnResourceRequested(Microsoft.Windows.Widgets.Feeds.Providers.FeedResourceRequestedArgs)) setting the [FeedResourceRequestedArgs.Response](Microsoft.Windows.Widgets.Feeds.Providers.FeedResourceRequestedArgs.Request) property, the header collection may be modified and will be used to fetch the resource from the web.
+ If the provider returns from [IFeedResourceProvider.OnResourceRequested](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers.ifeedresourceprovider.onresourcerequested)) setting the [FeedResourceRequestedArgs.Response](Microsoft.Windows.Widgets.Feeds.Providers.FeedResourceRequestedArgs.Request) property, the header collection may be modified and will be used to fetch the resource from the web.
 
 ## -see-also
 

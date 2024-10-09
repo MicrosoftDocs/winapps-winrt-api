@@ -12,7 +12,7 @@ public enum PushNotificationChannelStatus
 
 ## -description
 
-Specifies the status of a push channel created with a call to [CreateChannelAsync](xref:Microsoft.Windows.PushNotifications.PushNotificationManager.CreateChannelAsync(System.Guid)).
+Specifies the status of a push channel created with a call to [CreateChannelAsync](/windows/windows-app-sdk/api/winrt/microsoft.windows.pushnotifications.pushnotificationmanager.createchannelasync)).
 
 ## -enum-fields
 
@@ -22,7 +22,7 @@ The push channel creation request is in progress.
 
 ### -field InProgressRetry: 1
 
-The push channel creation request is in progress and is in a backoff retry state. Check the [PushNotificationCreateChannelResult.ExtendedError](xref:Microsoft.Windows.PushNotifications.PushNotificationCreateChannelResult.ExtendedError) property to get the last extended error seen when creating a channel request.
+The push channel creation request is in progress and is in a backoff retry state. Check the [PushNotificationCreateChannelResult.ExtendedError](/windows/windows-app-sdk/api/winrt/microsoft.windows.pushnotifications.pushnotificationcreatechannelresult.extendederror) property to get the last extended error seen when creating a channel request.
 
 ### -field CompletedSuccess: 2
 

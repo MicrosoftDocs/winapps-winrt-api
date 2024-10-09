@@ -12,11 +12,11 @@ public AppNotificationTextProperties ();
 
 ## -description
 
-Initializes a new instance of the [AppNotificationTextProperties](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationTextProperties) class, which specifies display and localization properties for the text.
+Initializes a new instance of the [AppNotificationTextProperties](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationtextproperties) class, which specifies display and localization properties for the text.
 
 ## -remarks
 
-Add text with text properties to an app notification by calling [AppNotificationBuilder.AddText](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder.AddText(System.String,Microsoft.Windows.AppNotifications.Builder.AppNotificationTextProperties)).
+Add text with text properties to an app notification by calling [AppNotificationBuilder.AddText](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbuilder.addtext)).
 
 ## -see-also
 

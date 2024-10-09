@@ -11,7 +11,7 @@ public sealed class DesktopChildSiteBridge : Microsoft.UI.Content.DesktopSiteBri
 
 ## -description
 
-Supports a <xref:Microsoft.UI.Content.DesktopSiteBridge> implementation for a Win32 [WS_CHILD](/windows/win32/winmsg/window-features#child-windows) HWND.
+Supports a [DesktopSiteBridge](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.desktopsitebridge) implementation for a Win32 [WS_CHILD](/windows/win32/winmsg/window-features#child-windows) HWND.
 
 ## -remarks
 

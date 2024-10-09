@@ -12,7 +12,7 @@ public Microsoft.Windows.PushNotifications.PushNotificationChannelStatus Status 
 
 ## -description
 
-Gets the status of a push channel creation request initiated with a call to [CreateChannelAsync](xref:Microsoft.Windows.PushNotifications.PushNotificationManager.CreateChannelAsync(System.Guid)).
+Gets the status of a push channel creation request initiated with a call to [CreateChannelAsync](/windows/windows-app-sdk/api/winrt/microsoft.windows.pushnotifications.pushnotificationmanager.createchannelasync)).
 
 ## -property-value
 

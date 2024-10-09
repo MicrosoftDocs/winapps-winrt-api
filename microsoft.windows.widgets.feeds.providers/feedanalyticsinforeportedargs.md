@@ -12,7 +12,7 @@ public sealed class FeedAnalyticsInfoReportedArgs
 
 ## -description
 
-Provides data for the [OnAnalyticsInfoReported](xref:Microsoft.Windows.Widgets.Feeds.Providers.IFeedProviderAnalytics.OnAnalyticsInfoReported(Microsoft.Windows.Widgets.Feeds.Providers.FeedAnalyticsInfoReportedArgs)) event which is raised when the feeds host reports analytics data associated with a user interaction with a feed.
+Provides data for the [OnAnalyticsInfoReported](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers.ifeedprovideranalytics.onanalyticsinforeported)) event which is raised when the feeds host reports analytics data associated with a user interaction with a feed.
 
 ## -remarks
 
