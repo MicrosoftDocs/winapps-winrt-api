@@ -12,7 +12,7 @@ public sealed class FeedMessageReceivedArgs
 
 ## -description
 
-Provides data for the [FeedMessageReceivedArgs](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers.ifeedprovidermessage.onmessagereceived)) event which is raised when the feed's content posts a message using the [window.chrome.webview.postMessage](/microsoft-edge/webview2/reference/javascript/webview) JavaScript method.
+Provides data for the [IFeedProviderMessage.OnMessageReceived](ifeedprovidermessage_onmessagereceived_1785849108.md) event which is raised when the feed's content posts a message using the [window.chrome.webview.postMessage](/microsoft-edge/webview2/reference/javascript/webview) JavaScript method.
 
 ## -remarks
 
