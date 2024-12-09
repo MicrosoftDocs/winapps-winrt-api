@@ -18,7 +18,7 @@ Send a string message to the web content in a widget being displayed in the widg
 
 ### -param widgetId
 
-The ID of the widget. This is the value specified in the *Id* attribute of the **Definition** element in the provider's package manifest file. For more information see [Widget provider package manifest XML format](/windows/apps/develop/widgets/widget-provider-manifest).
+The ID of the widget. This is the value provided in the [Id](widgetcontext_id.md) property of the [WidgetContext](widgetcontext.md) object passed into the provider's implementation of [IWidgetProvider.CreateWidget](iwidgetprovider_createwidget_1336245033.md).
 
 ### -param message
 

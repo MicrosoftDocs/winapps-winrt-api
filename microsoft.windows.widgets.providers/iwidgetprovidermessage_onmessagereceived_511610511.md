@@ -12,7 +12,7 @@ public void OnMessageReceived (Microsoft.Windows.Widgets.Providers.WidgetMessage
 
 ## -description
 
-Raised when the widget's content posts a message using the [window.chrome.webview.postMessage](/microsoft-edge/webview2/reference/javascript/webview) JavaScript method.
+Raised when the widget's web content posts a message using the [window.chrome.webview.postMessage](/microsoft-edge/webview2/reference/javascript/webview) JavaScript method.
 
 ## -parameters
 
@@ -22,7 +22,7 @@ A [WidgetMessageReceivedArgs](widgetmessagereceivedargs.md) that provides detail
 
 ## -remarks
 
-The calls to [window.chrome.webview.postMessage](/microsoft-edge/webview2/reference/javascript/webview) in the widget content must use a `targetOrigin` that matches the origin of the widget registration, specified in the *ContentUri* attribute of the **Definition** element in the provider's package manifest file. For more information see [Widget provider package manifest XML format](/windows/apps/develop/widgets/widget-provider-manifest).
+The calls to [window.chrome.webview.postMessage](/microsoft-edge/webview2/reference/javascript/webview) in the widget's web content must use a `targetOrigin` that matches the origin of the widget registration, which is specified in the *webUrl* field of the adaptive card content.
 
 ## -see-also
 

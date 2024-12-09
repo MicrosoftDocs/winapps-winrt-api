@@ -12,7 +12,7 @@ public void OnResourceRequested (Microsoft.Windows.Widgets.Providers.WidgetResou
 
 ## -description
 
-Raised when the widget's content requests a resource that matches the web request filter string for a widget in the *WebRequestFilter* attribute of the **Definition** element in the provider's package manifest file. For more information, see [Widget provider package manifest XML format](/windows/apps/develop/widgets/widget-provider-manifest).
+Raised when the widget's web content requests a resource that matches the web request filter string for a widget in the *WebRequestFilter* attribute of the **Definition** element in the provider's package manifest file. For more information, see [Widget provider package manifest XML format](/windows/apps/develop/widgets/widget-provider-manifest).
 
 ## -parameters
 
