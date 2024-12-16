@@ -11,9 +11,11 @@ public bool AcceptsExpression { get; set; }
 
 ## -description
 
-Toggles whether the control will accept and evaluate a basic formulaic expression entered as input.
+Gets or sets a value that indicates whether the control accepts and evaluates a basic formulaic expression entered as input.
 
 ## -property-value
+
+`true` if the NumberBox accepts and evaluates a basic formulaic expression entered as input; otherwise, `false`. The default is `false`.
 
 ## -remarks
 
@@ -23,9 +25,10 @@ NumberBox uses infix notation to evaluate expressions. In order of precedence, t
 - */
 - +-
 
-Note that parentheses can be used to override precedence rules.
+Parentheses can be used to override precedence rules.
 
 ## -see-also
 
-## -examples
+[Number box](/windows/apps/design/controls/number-box)
 
+## -examples

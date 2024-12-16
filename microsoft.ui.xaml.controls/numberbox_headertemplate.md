@@ -15,9 +15,12 @@ Gets or sets the  [DataTemplate](../microsoft.ui.xaml/datatemplate.md) used to d
 
 ## -property-value
 
+The template that specifies the visualization of the header object. The default is `null`.
+
 ## -remarks
 
 ## -see-also
 
-## -examples
+[Number box](/windows/apps/design/controls/number-box)
 
+## -examples
