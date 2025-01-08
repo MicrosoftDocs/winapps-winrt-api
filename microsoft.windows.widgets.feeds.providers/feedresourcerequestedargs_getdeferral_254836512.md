@@ -20,7 +20,7 @@ A [Deferral](/uwp/api/windows.foundation.deferral) object.
 
 ## -remarks
 
-If the evaluation or the resource for the response is not immediately available, the provider should request a deferral, initiate a background task, and complete the deferral when the resource is available.
+If the evaluation of the resource for the response is not immediately available, the provider should request a deferral, initiate a background task, and complete the deferral when the resource is available.
 
 ## -see-also
 
