@@ -12,7 +12,7 @@ public sealed class FeedAnnouncement
 
 ## -description
 
-Provides data for a feed announcement that a feed provider can request to be displayed by calling <Microsoft.Windows.Widgets.Feeds.Providers.FeedManager.TryShowAnnouncement(System.String,System.String,Microsoft.Windows.Widgets.Notifications.FeedAnnouncement)>.
+Provides data for a feed announcement that a feed provider can request to be displayed by calling [FeedManager.TryShowAnnouncement](../microsoft.windows.widgets.feeds.providers/feedmanager_tryshowannouncement_1521207212.md).
 
 ## -remarks
 

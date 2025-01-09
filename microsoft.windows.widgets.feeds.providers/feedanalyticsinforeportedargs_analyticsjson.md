@@ -28,9 +28,24 @@ The JSON string returned by this property uses the following format:
 "version": "1.0",
 "feedId": "{feedDefinitionId}",
 "eventKind": "visibility",
-"visibilityKind": "visible"
+"visibilityKind": "visible",
+"currentAnnouncement":
+{
+    "id": "{currentAnnouncementId}"
+},
+"missedAnnouncements":
+[
+    {
+        "id": "{missedAnnouncementId1}"
+    },
+    {
+        "id": "{missedAnnouncementId2}"
+    }
+]
 }
 ```
+
+Starting with Windows App SDK 1.6, the analytics JSON payload may contain a **currentAnnouncement** or **missedAnnouncement** objects specifying the [Id](../microsoft.windows.widgets.notifications/feedannouncement_id.md) property value of announcements sent from the widget provider with calls to [FeedManager.TryShowAnnouncement](feedmanager_tryshowannouncement_1521207212.md).
 
 ## -see-also
 
