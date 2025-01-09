@@ -12,7 +12,7 @@ public enum AnnouncementActionKind
 
 ## -description
 
-Specifies the kind of action that triggered the invocation of <cref:Microsoft.Windows.Widgets.Feeds.Providers.IFeedAnnouncementInvokedTarget.OnAnnouncementInvoked(Microsoft.Windows.Widgets.Notifications.FeedAnnouncementInvokedArgs)>. 
+Specifies the kind of action that triggered the invocation of [FeedAnnouncementInvokedArgs](feedannouncementinvokedargs.md). 
 
 ## -enum-fields
 
