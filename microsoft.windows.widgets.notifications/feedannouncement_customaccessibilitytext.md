@@ -18,7 +18,7 @@ Gets or sets custom accessibility text is announced by screen readers.
 
 ## -remarks
 
-If not provided, the feeds host may concatenate the [PrimaryText](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.notifications.feedannouncement.primarytext) and <xref:Microsoft.Windows.Widgets.Notifications.FeedAnnouncement.Secondary> strings for screen reader announcements.
+If not provided, the feeds host may concatenate the [PrimaryText](feedannouncement_primarytext.md) and [SecondaryText](feedannouncement_secondarytext.md) strings for screen reader announcements.
 
 ## -see-also
 

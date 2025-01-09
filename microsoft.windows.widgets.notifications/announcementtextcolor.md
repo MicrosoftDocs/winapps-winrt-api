@@ -12,7 +12,7 @@ public enum AnnouncementTextColor
 
 ## -description
 
-Specifies the color of text fields in a <xhref:Microsoft.Windows.Widgets.Notifications.FeedAnnouncement>.
+Specifies the color of text fields in a [FeedAnnouncement](feedannouncement.md).
 
 ## -enum-fields
 
