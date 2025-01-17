@@ -253,9 +253,9 @@ Example JSON payload for a Carousel event.
 
 
 
-### exitCustomization
+### EventKind - exitCustomization
 
-This event is raised when the user leaves customization mode, after having entered customization mode by clicking the "Customize" menu item from widget frame context menu. When telemetry data is triggered by this type of event, the value of *interactionKind* is "exitCustomization".
+The *exitCustomization* event occurs when the user has entered customization mode by clicking the "Customize" menu item from widget frame context menu and the user leaves customization mode. When telemetry data is triggered by this type of event, the value of *eventKind* is "exitCustomization".
 
 | Property | Value |
 |----------|-------|
@@ -264,7 +264,7 @@ This event is raised when the user leaves customization mode, after having enter
 | eventKind | "interaction"|
 | interactionKind | "exitCustomization"|
 
-Example JSON payload for a *exitCustomization* event.
+Example JSON payload for a *existCustomization* event.
 
 ```json
 {
@@ -286,7 +286,7 @@ The visibility events occur when the widget is moved into or out of the visible 
 | eventKind | "visibility"|
 | visibilityKind | "visible" or "hidden"|
 
-Example JSON payload for a *visibility* event.
+Example JSON payload for a *existCustomization* event.
 
 ```json
 {
