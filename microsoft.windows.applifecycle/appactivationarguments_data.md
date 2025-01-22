@@ -23,7 +23,7 @@ The value of this property has one of the following data types, depending on the
 
 | Activation kind | Data type |
 |-----------------|-----------------------|
-| `Launch` | [ILaunchActivatedEventArge](/uwp/api/windows.applicationmodel.activation.ilaunchactivatedeventargs) |
+| `Launch` | [ILaunchActivatedEventArgs](/uwp/api/windows.applicationmodel.activation.ilaunchactivatedeventargs) |
 | `File` | [IFileActivatedEventArgs](/uwp/api/windows.applicationmodel.activation.ifileactivatedeventargs) |
 | `Protocol` | [IProtocolActivatedEventArgs](/uwp/api/windows.applicationmodel.activation.iprotocolactivatedeventargs) |
 | `StartupTask` | [IStartupTaskActivatedEventArgs](/uwp/api/windows.applicationmodel.activation.istartuptaskactivatedeventargs) |
