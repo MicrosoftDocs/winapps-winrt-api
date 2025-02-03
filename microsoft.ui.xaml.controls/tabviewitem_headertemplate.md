@@ -11,11 +11,11 @@ public Windows.UI.Xaml.DataTemplate HeaderTemplate { get; set; }
 
 ## -description
 
-Gets or sets the DataTemplate used to display the content to the right of the tab strip.
+Gets or sets the DataTemplate used to display the tab `Header` content.
 
 ## -property-value
 
-The DataTemplate used to display the content to the right of the tab strip.
+The DataTemplate used to display the tab `Header` content. The default is `null`.
 
 ## -remarks
 

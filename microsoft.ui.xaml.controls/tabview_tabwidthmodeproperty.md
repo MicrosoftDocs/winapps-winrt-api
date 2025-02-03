@@ -11,11 +11,11 @@ public static Windows.UI.Xaml.DependencyProperty TabWidthModeProperty { get; }
 
 ## -description
 
-Identifies the TabWidthMode dependency property.
+Identifies the `TabWidthMode` dependency property.
 
 ## -property-value
 
-The identifier for the TabWidthMode dependency property.
+The identifier for the `TabWidthMode` dependency property.
 
 ## -remarks
 

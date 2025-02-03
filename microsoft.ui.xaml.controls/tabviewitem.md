@@ -24,7 +24,7 @@ A TabViewItem contains both the elements within the tab's header as well as the 
 ## -examples
 
 > [!TIP]
-> For more info, design guidance, and code examples, see [TabView](/windows/apps/design/controls/tab-view).
+> For more info, design guidance, and code examples, see [Tab view](/windows/apps/design/controls/tab-view).
 
 > [!div class="nextstepaction"]
 > [Open the WinUI 3 Gallery app and see the TabView in action](winui3gallery://item/TabView).

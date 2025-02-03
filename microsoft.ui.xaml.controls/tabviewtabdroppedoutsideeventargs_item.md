@@ -11,9 +11,11 @@ public object Item { get; }
 
 ## -description
 
-Gets the item that was dropped outside of the TabStrip.
+Gets the data item that was dropped outside of the TabStrip.
 
 ## -property-value
+
+The data item that was dropped outside of the TabStrip.
 
 ## -remarks
 

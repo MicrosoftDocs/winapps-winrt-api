@@ -11,11 +11,11 @@ public static Windows.UI.Xaml.DependencyProperty IsClosableProperty { get; }
 
 ## -description
 
-Identifies the IsClosable dependency property.
+Identifies the `IsClosable` dependency property.
 
 ## -property-value
 
-The identifier for the IsClosable dependency property.
+The identifier for the `IsClosable` dependency property.
 
 ## -remarks
 

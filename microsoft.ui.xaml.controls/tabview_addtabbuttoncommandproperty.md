@@ -11,11 +11,11 @@ public static Windows.UI.Xaml.DependencyProperty AddTabButtonCommandProperty { g
 
 ## -description
 
-Identifies the AddButtonCommand dependency property.
+Identifies the `AddButtonCommand` dependency property.
 
 ## -property-value
 
-The identifier for the AddButtonCommand dependency property.
+The identifier for the `AddButtonCommand` dependency property.
 
 ## -remarks
 

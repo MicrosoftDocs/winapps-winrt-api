@@ -19,8 +19,10 @@ The selected tabs that are being dragged.
 
 ## -remarks
 
+> [!NOTE]
+> This API does not assume that only a single tab is selected. However, the [TabView](tabview.md) control does not currently provide a way to select multiple tabs.
+
 ## -see-also
 
 ## -examples
-
 

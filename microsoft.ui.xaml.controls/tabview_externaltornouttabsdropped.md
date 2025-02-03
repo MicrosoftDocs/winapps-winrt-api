@@ -15,6 +15,8 @@ Occurs when tabs torn-out from a TabView in another window have been dropped ont
 
 ## -remarks
 
+For more information and examples, see [Tab view > Tab tear-out](/windows/apps/design/controls/tab-view#tab-tear-out).
+
 Handle this event to move dropped tabs from the originating TabView control into this TabView. Use the  [TabViewExternalTornOutTabsDroppedEventArgs.DropIndex](tabviewexternaltornouttabsdroppedeventargs_dropindex.md) to determine where in the TabView the dropped tab should be inserted.
 
 This event occurs after [ExternalTornOutTabsDropping](tabview_externaltornouttabsdropping.md), and only when [AllowDrop](tabviewexternaltornouttabsdroppingeventargs_allowdrop.md) is set to `true` in the `ExternalTornOutTabsDropping` event args and the [CanTearOutTabs](tabview_cantearouttabs.md) property is `true`.

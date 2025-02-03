@@ -11,13 +11,15 @@ public Microsoft.UI.Xaml.Controls.TabViewWidthMode TabWidthMode { get; set; }
 
 ## -description
 
-Gets or sets how the tabs should be sized.
+Gets or sets a value that indicates how the tabs should be sized.
 
 ## -property-value
 
-The enum for how the tabs should be sized. 
+A value of the enumeration that specifies how the tabs should be sized. The default is `Equal`.
 
 ## -remarks
+
+For more info, see the [TabViewWidthMode](tabviewwidthmode.md) enumeration and [Tab view](/windows/apps/design/controls/tab-view)..
 
 ## -see-also
 

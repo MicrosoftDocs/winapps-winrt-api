@@ -11,7 +11,7 @@ public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Xaml.Controls.Tab
 
 ## -description
 
-Raised when the user attempts to close the TabViewItem via clicking the x-to-close button, CTRL+F4, or mousewheel.
+Occurs when the user attempts to close the TabViewItem via clicking the x-to-close button, CTRL+F4, or mousewheel.
 
 ## -remarks
 

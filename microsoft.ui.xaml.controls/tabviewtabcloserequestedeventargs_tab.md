@@ -11,9 +11,11 @@ public Microsoft.UI.Xaml.Controls.TabViewItem Tab { get; }
 
 ## -description
 
-Gets the tab in which a close is being requested.
+Gets the tab for which a close is being requested.
 
 ## -property-value
+
+The tab for which a close is being requested.
 
 ## -remarks
 

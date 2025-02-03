@@ -15,6 +15,8 @@ Occurs when tabs torn-out from a TabView in another window are being dropped ont
 
 ## -remarks
 
+For more information and examples, see [Tab view > Tab tear-out](/windows/apps/design/controls/tab-view#tab-tear-out).
+
 Handle this event to specify whether to allow the drop to occur. Set [TabViewExternalTornOutTabsDroppingEventArgs.AllowDrop](tabviewexternaltornouttabsdroppingeventargs_allowdrop.md) to `true` to allow the drop; otherwise, set it to `false` (the default). If set to `false`, the [ExternalTornOutTabsDropped](tabview_externaltornouttabsdropped.md) event is not raised and the user will continue to be dragging the torn-out tabs.
 
 External tabs are accepted only from other TabView controls in the same process.

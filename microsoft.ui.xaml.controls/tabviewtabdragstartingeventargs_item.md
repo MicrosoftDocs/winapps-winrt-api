@@ -11,9 +11,11 @@ public object Item { get; }
 
 ## -description
 
-Gets the item that was selected for the drag action.
+Gets the data item that was selected for the drag action.
 
 ## -property-value
+
+The data item that was selected for the drag action.
 
 ## -remarks
 

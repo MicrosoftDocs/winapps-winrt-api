@@ -17,12 +17,12 @@ Provides data for the [TabView.TabDragStarting](tabview_tabdragstarting.md) even
 
 ## -see-also
 
-[TabView](tabview.md), [Guidelines for TabView](/windows/apps/design/controls/tab-view)
+[TabView](tabview.md), [TabView.TabDragStarting](tabview_tabdragstarting.md), [Tab view](/windows/apps/design/controls/tab-view)
 
 ## -examples
 
 > [!TIP]
-> For more info, design guidance, and code examples, see [TabView](/windows/apps/design/controls/tab-view).
+> For more info, design guidance, and code examples, see [Tab view](/windows/apps/design/controls/tab-view).
 
 > [!div class="nextstepaction"]
 > [Open the WinUI 3 Gallery app and see the TabView in action](winui3gallery://item/TabView).

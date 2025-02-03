@@ -11,7 +11,7 @@ public enum TabViewWidthMode
 
 ## -description
 
-Defines constants that specify the width of the tabs.
+Defines constants that specify how a `TabView` control determines the width of its tabs.
 
 ## -enum-fields
 
@@ -29,14 +29,16 @@ Each tab adjusts its width to the content within the tab.
 
 ## -remarks
 
+This enumeration is used by the [TabView.TabWidthMode](tabview_tabwidthmode.md) property.
+
 ## -see-also
 
-[TabView](tabview.md), [Guidelines for TabView](/windows/apps/design/controls/tab-view)
+[TabView](tabview.md), [TabView.TabWidthMode](tabview_tabwidthmode.md), [Tab view](/windows/apps/design/controls/tab-view)
 
 ## -examples
 
 > [!TIP]
-> For more info, design guidance, and code examples, see [TabView](/windows/apps/design/controls/tab-view).
+> For more info, design guidance, and code examples, see [Tab view](/windows/apps/design/controls/tab-view).
 
 > [!div class="nextstepaction"]
 > [Open the WinUI 3 Gallery app and see the TabView in action](winui3gallery://item/TabView).
