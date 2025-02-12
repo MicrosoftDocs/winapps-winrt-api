@@ -17,7 +17,7 @@ Initializes a new instance of the [DesktopWindowXamlSource](desktopwindowxamlsou
 
 ### -param parentWindowId
 
-The *WindowId* of the HWND (retrieved through [Win32Interop.GetWindowIdFromWindow(IntPtr)](https://learn.microsoft.com/en-us/windows/apps/api-reference/cs-interop-apis/microsoft.ui/microsoft.ui.win32interop.getwindowidfromwindow)) of your Win32 application.
+The *WindowId* of the HWND (retrieved through [Win32Interop.GetWindowIdFromWindow(IntPtr)](/windows/apps/api-reference/cs-interop-apis/microsoft.ui/microsoft.ui.win32interop.getwindowidfromwindow) of your Win32 application.
 
 ## -remarks
 
