@@ -28,10 +28,7 @@ As keyboard accelerators are not typically described directly in the UI of your 
 
 Windows 10 build 1703 and later introduced keyboard accelerator shortcuts. However, these shortcuts were not displayed with the UI of their corresponding controls.
 
-In Windows 10 build 1803 and later, when KeyboardAccelerators are declared, controls present the corresponding key combinations by default in a tooltip (unless they are associated with [MenuFlyoutItem](../microsoft.ui.xaml.controls/menuflyoutitem.md) and [ToggleMenuFlyoutItem](../microsoft.ui.xaml.controls/togglemenuflyoutitem.md) objects).
-
-> [!NOTE]
-> Specifying a tooltip overrides this behavior.
+In Windows 10 build 1803 and later, when KeyboardAccelerators are declared, controls present the corresponding key combinations by default in a tooltip (unless they are associated with [MenuFlyoutItem](../microsoft.ui.xaml.controls/menuflyoutitem.md) and [ToggleMenuFlyoutItem](../microsoft.ui.xaml.controls/togglemenuflyoutitem.md) objects). Note that explicitly specifying a tooltip overrides this behavior.
 
 For [MenuFlyoutItem](../microsoft.ui.xaml.controls/appbarbutton.md) and [ToggleMenuFlyoutItem](../microsoft.ui.xaml.controls/togglemenuflyoutitem.md) objects, the keyboard accelerator is displayed with the flyout text.
 
