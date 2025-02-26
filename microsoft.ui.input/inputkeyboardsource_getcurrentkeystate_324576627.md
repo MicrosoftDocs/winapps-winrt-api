@@ -27,9 +27,6 @@ The flags indicating the state of the supplied virtual-key at the current time
 
 When handling a [KeyDown](inputkeyboardsource_keydown.md) event, this method might report that the key state is `None` instead of `Down` if the [KeyUp](inputkeyboardsource_systemkeyup.md) event is already in the message queue.
 
-> [!NOTE]
-> All keys support the `Locked` state (not just the standard **Caps Lock** and **Num Lock** keys).
-
 ## -see-also
 
 [InputKeyboardSource.GetKeyStateForCurrentThread(Windows.System.VirtualKey)](inputkeyboardsource_getkeystateforcurrentthread_617675970.md), [InputKeyboardSource.GetKeyState(Windows.System.VirtualKey)](inputkeyboardsource_getkeystate_1676715341.md)
