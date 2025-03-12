@@ -20,7 +20,12 @@ The light mode icon URI.
 
 ## -remarks
 
-PNG is the only supported image format for announcement icons.
+Supported image formats for announcement icons are:
+
+- .png
+- .jpg
+- .jpeg
+- .gif
 
 ## -see-also
 
