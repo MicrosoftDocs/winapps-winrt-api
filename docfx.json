@@ -65,8 +65,9 @@
         "winapps-api-build/**.yml": ["csharp","cppwinrt"]
       },
       "author": {
-        "microsoft.applicationmodel.resources": "alvinashcraft",
+        "microsoft.applicationmodel.resources*": "alvinashcraft",
         "microsoft.graphics*": "stevewhims",
+        "microsoft.security.authentication.oauth*": "alvinashcraft",
         "microsoft.ui*": "jwmsft",
         "microsoft.ui.composition*": "jwmsft",
         "microsoft.ui.composition.core*": "jwmsft",
@@ -125,8 +126,9 @@
       },
       "ms.author":
       {
-        "microsoft.applicationmodel.resources": "aashcraft",
+        "microsoft.applicationmodel.resources*": "aashcraft",
         "microsoft.graphics*": "stwhi",
+        "microsoft.security.authentication.oauth*": "aashcraft",
         "microsoft.ui*": "jimwalk",
         "microsoft.ui.composition*": "jimwalk",
         "microsoft.ui.composition.core*": "jimwalk",
