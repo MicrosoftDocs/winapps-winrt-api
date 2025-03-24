@@ -11,11 +11,11 @@ public Microsoft.UI.Text.RichEditMathMode GetMathMode ();
 
 ## -description
 
-Retrieves the current math mode setting of the [**RichEditBox**](../microsoft.ui.xaml.controls/richeditbox.md).
+Retrieves the current math mode setting of the [RichEditBox](../microsoft.ui.xaml.controls/richeditbox.md).
 
 ## -returns
 
-The current math mode setting of the RichEditBox.
+The current math mode setting of the **RichEditBox**.
 
 ## -remarks
 
