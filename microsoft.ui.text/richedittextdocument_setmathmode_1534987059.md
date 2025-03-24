@@ -21,7 +21,7 @@ Specifies whether a **RichEditBox** interprets input as Mathematical Markup Lang
 
 ## -remarks
 
-By default, the **RichEditBox** control does not interpret input as math. Setting *RichEditMathMode* to `MathOnly` enables [UnicodeMath](https://www.unicode.org/notes/tn28/UTN28-PlainTextMath-v3.1.pdf) input to be automatically recognized and converted to MathML in real time. For example, entering `4^2` converts to `4²`, and `1/2` converts to `½`. See the [WinUI 3 Gallery app](https://apps.microsoft.com/detail/9p3jfpwwdzrc) for more examples.
+By default, the **RichEditBox** control does not interpret input as math. Setting *mode* to `MathOnly` enables [UnicodeMath](https://www.unicode.org/notes/tn28/UTN28-PlainTextMath-v3.1.pdf) input to be automatically recognized and converted to MathML in real time. For example, entering `4^2` converts to `4²`, and `1/2` converts to `½`. See the [WinUI 3 Gallery app](https://apps.microsoft.com/detail/9p3jfpwwdzrc) for more examples.
 
 Changing the math mode of the **RichEditBox** clears both the current content and the Undo stack.
 
