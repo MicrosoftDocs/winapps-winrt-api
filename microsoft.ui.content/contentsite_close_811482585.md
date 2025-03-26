@@ -11,7 +11,7 @@
 
 ## -description
 
-Closes this [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite).
+Closes this [**ContentSite**](contentsite.md).
 
 ## -remarks
 

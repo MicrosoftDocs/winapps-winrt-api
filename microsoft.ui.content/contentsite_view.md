@@ -11,11 +11,11 @@ public Microsoft.UI.Content.ContentSiteView View { get; }
 
 ## -description
 
-Gets the [ContentSiteView](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsiteview) associated with this [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite).
+Gets the [ContentSiteView](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsiteview) associated with this [**ContentSite**](contentsite.md).
 
 ## -property-value
 
-The [ContentSiteView](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsiteview) associated with this [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite).
+The [ContentSiteView](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsiteview) associated with this [**ContentSite**](contentsite.md).
 
 ## -remarks
 

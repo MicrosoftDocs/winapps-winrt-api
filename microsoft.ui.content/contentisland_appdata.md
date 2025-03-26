@@ -11,7 +11,7 @@ public object AppData { get; set; }
 
 ## -description
 
-Gets or sets a storage container for this [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
+Gets or sets a storage container for this [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -property-value
 

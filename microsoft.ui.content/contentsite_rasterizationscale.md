@@ -11,7 +11,7 @@ public float RasterizationScale { get; }
 
 ## -description
 
-Gets the computed local DPI for this [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite).
+Gets the computed local DPI for this [**ContentSite**](contentsite.md).
 
 ## -property-value
 

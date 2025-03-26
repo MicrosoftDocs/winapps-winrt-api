@@ -11,7 +11,7 @@ public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Content.ContentIs
 
 ## -description
 
-Occurs when a state property for this [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) changes.
+Occurs when a state property for this [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) changes.
 
 ## -remarks
 
