@@ -126,35 +126,11 @@ Windows::Foundation::IAsyncAction MainPage::ClickHandler(IInspectable const&, Ro
 ...
 ```
 
-```cppcx
-// pch.h
-...
-#include <robuffer.h>
-...
-
-// MainPage.xaml.cpp
-auto writeableBitmap{ ref new Windows::UI::Xaml::Media::Imaging::WriteableBitmap(100, 100) };
-
-::IUnknown* pUnk{ reinterpret_cast<IUnknown*>(writeableBitmap->PixelBuffer) };
-Microsoft::WRL::ComPtr<Windows::Storage::Streams::IBufferByteAccess> bufferByteAccess;
-HRESULT hr{ pUnk->QueryInterface(IID_PPV_ARGS(&bufferByteAccess)) };
-
-byte *pBuffer{ nullptr };
-bufferByteAccess->Buffer(&pBuffer);
-
-// Now, write into the WriteableBitmap by using pBuffer. For example, make the first pixel red.
-*pBuffer = 0xFF; ++pBuffer;
-*pBuffer = 0xFF; ++pBuffer;
-*pBuffer = 0x0; ++pBuffer;
-*pBuffer = 0x0;
-```
-
 ## -remarks
 The [IBuffer](/uwp/api/windows.storage.streams.ibuffer) returned by **PixelBuffer** can't be written to directly. But you can use language-specific techniques to write to the underlying pixel content in the buffer.
 
-- To access the pixel content from C# or Microsoft Visual Basic, you can use the [WindowsRuntimeBufferExtensions.AsStream method](/dotnet/api/system.runtime.interopservices.windowsruntime.windowsruntimebufferextensions.asstream?view=dotnet-uwp-10.0&preserve-view=true) to access the underlying buffer as a stream. This is shown in the C# code example.
+- To access the pixel content from C#, you can use the [WindowsRuntimeBufferExtensions.AsStream method](/dotnet/api/system.runtime.interopservices.windowsruntime.windowsruntimebufferextensions.asstream?view=dotnet-uwp-10.0&preserve-view=true) to access the underlying buffer as a stream. This is shown in the C# code example.
 - To access the pixel content from C++/WinRT, you have three alternatives. As long as you're not `using namespace winrt;`, then you can include the SDK header file `robuffer.h` to bring in the definition of the [IBufferByteAccess](/previous-versions/hh846267(v%3Dvs.85)) COM interface. However, since `using namespace winrt;` is very common, you can alternatively define the **IBufferByteAccess** interface in one place in your project (see the C++/WinRT code example to see how). Once **IBufferByteAccess** is defined, using either of those two techniques, you can query **PixelBuffer** for an instance of **IBufferByteAccess**. You then call the [IBufferByteAccess::Buffer method](/previous-versions/hh846268%28v%3dvs.85%29) to retrieve a pointer to the buffer of bytes that represents the pixel content. This is shown in the C++/WinRT code example. The third alternative (also shown in the C++/WinRT code example) is to avoid using **IBufferByteAccess** altogether by retrieving the `uint8_t*` that's returned from a helper function that you can call with `WriteableBitmap.PixelBuffer().data()`.
-- To access the pixel content from C++/CX, you can query **PixelBuffer** for the [IBufferByteAccess interface](/previous-versions/hh846267(v%3Dvs.85)), which is a COM interface. Include `robuffer.h`. You can then call the the [IBufferByteAccess::Buffer method](/previous-versions/hh846268%28v%3dvs.85%29) to retrieve a pointer to the buffer of bytes that represents the pixel content. This is shown in the C++/CX code example.
 
 ## -see-also
 [BitmapSource](bitmapsource.md), [BitmapDecoder](/uwp/api/windows.graphics.imaging.bitmapdecoder), [IBuffer](/uwp/api/windows.storage.streams.ibuffer), [Windows.Graphics.Imaging namespace](/uwp/api/windows.graphics.imaging), [XAML images sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20images%20sample)

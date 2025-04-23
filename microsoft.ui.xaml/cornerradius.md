@@ -58,7 +58,7 @@ The radius of rounding, in pixels, of the lower-left corner of the object where 
 
 Although you can specify a `CornerRadius` as an object element, you cannot specify the individual values such as `BottomLeft` as attributes of that object element. The XAML parser does not support setting XAML attribute values for this structure. For example, this XAML does not work:
 
-``` xaml
+```xaml
 <!-- THIS DOES NOT WORK -->
 <CornerRadius x:Key="CornerRadiusError" BottomLeft="20"/>
 ```
@@ -71,7 +71,7 @@ You can use a space rather than a comma as the delimiter between values.
 
 This example shows how to use initialization text to set the values of a `CornerRadius` resource, and then apply the resource to a Border.
 
-``` xaml
+```xaml
 <Page.Resources>
     <CornerRadius x:Key="CornerRadius4010">40,10,40,10</CornerRadius>
 </Page.Resources>
@@ -84,7 +84,7 @@ This example shows how to use initialization text to set the values of a `Corner
 
 ### Projection and members of CornerRadius
 
-If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or Visual C++ component extensions (C++/CX), then CornerRadius has non-data members available, and its data members are exposed as read-write properties, not fields. See [CornerRadius](/dotnet/api/windows.ui.xaml.cornerradius) in the .NET API Browser.
+If you are using C#, then CornerRadius has non-data members available, and its data members are exposed as read-write properties, not fields. See [CornerRadius](/dotnet/api/windows.ui.xaml.cornerradius) in the .NET API Browser.
 
 If you are programming with [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) or the [Windows Runtime C++ Template Library (WRL)](/cpp/windows/windows-runtime-cpp-template-library-wrl), then only the data member fields exist as members of CornerRadius, and you cannot use the utility methods or properties of the .NET projection. C++ code can access similar utility methods that exist on the [CornerRadiusHelper](cornerradiushelper.md) class.
 
@@ -99,7 +99,7 @@ This table shows the equivalent methods available in .NET and C++.
 
 This XAML example shows several styles of [Border](../microsoft.ui.xaml.controls/border.md) using different CornerRadius values:
 
-``` xaml
+```xaml
     <StackPanel>
         <Border Height="30" Width="200" CornerRadius="0"
          BorderThickness="2" BorderBrush="Red" Margin="5">

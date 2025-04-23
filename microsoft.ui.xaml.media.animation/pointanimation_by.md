@@ -26,7 +26,7 @@ Gets or sets the total amount by which the animation changes its starting value.
 The total amount by which the animation changes its starting value. The default is **null**.
 
 <!--Projection dochack:-->
-If you are programming using C#or Microsoft Visual Basic, the type of this property is projected as **Point?**(a nullable [Point](/uwp/api/windows.foundation.point)).
+If you are programming using C#, the type of this property is projected as **Point?**(a nullable [Point](/uwp/api/windows.foundation.point)).
 
 ## -remarks
 A [PointAnimation](pointanimation.md) typically has at least one of the [From](pointanimation_from.md), By or [To](pointanimation_to.md) properties set, but never all three. For more info, see Remarks in [PointAnimation](pointanimation.md).

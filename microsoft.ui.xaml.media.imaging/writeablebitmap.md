@@ -23,7 +23,7 @@ Some of the scenarios where you might have used a **WriteableBitmap** class in p
 
 ## -examples
 
-For code examples in C#, C++/WinRT, and C++/CX, see [WriteableBitmap.PixelBuffer](writeablebitmap_pixelbuffer.md).
+For code examples in C# and C++/WinRT see [WriteableBitmap.PixelBuffer](writeablebitmap_pixelbuffer.md).
 
 ## -see-also
 

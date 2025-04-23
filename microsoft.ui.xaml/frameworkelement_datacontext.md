@@ -44,7 +44,7 @@ Setting a `DataContext` is convenient for setting several bindings of different 
 
 How you implement the object data source varies depending on your requirements and your programming language. For more info, see [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth).
 
-A common scenario for C# data contexts is to use a CLR-defined business object that supports change notification. For a business object, the custom class used as data context typically implements [INotifyPropertyChanged](../microsoft.ui.xaml.data/inotifypropertychanged.md), so that updates to the data can update a one-way or two-way binding. If the data source is a collection of business objects, it can implement [INotifyCollectionChanged](../microsoft.ui.xaml.interop/inotifycollectionchanged.md) plus list support ([IList<T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true) or [List<T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true)), or derive from [ObservableCollection<T>](/dotnet/api/system.collections.objectmodel.observablecollection-1?view=dotnet-uwp-10.0&preserve-view=true).
+A common scenario for C# data contexts is to use a CLR-defined business object that supports change notification. For a business object, the custom class used as data context typically implements [INotifyPropertyChanged](../microsoft.ui.xaml.data/inotifypropertychanged.md), so that updates to the data can update a one-way or two-way binding. If the data source is a collection of business objects, it can implement [INotifyCollectionChanged](../microsoft.ui.xaml.interop/inotifycollectionchanged.md) plus list support ([IList&lt;T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true) or [List&lt;T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true)), or derive from [ObservableCollection&lt;T>](/dotnet/api/system.collections.objectmodel.observablecollection-1?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -examples
 
@@ -170,4 +170,4 @@ namespace winrt::MyColorsApp::implementation
 
 ## -see-also
 
-[Binding](../microsoft.ui.xaml.data/binding.md), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth), [ObservableCollection<T>](/dotnet/api/system.collections.objectmodel.observablecollection-1?view=dotnet-uwp-10.0&preserve-view=true)
+[Binding](../microsoft.ui.xaml.data/binding.md), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth), [ObservableCollection&lt;T>](/dotnet/api/system.collections.objectmodel.observablecollection-1?view=dotnet-uwp-10.0&preserve-view=true)

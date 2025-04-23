@@ -10,7 +10,7 @@ public class GeneratorPositionHelper : Windows.UI.Xaml.Controls.Primitives.IGene
 # Microsoft.UI.Xaml.Controls.Primitives.GeneratorPositionHelper
 
 ## -description
-Provides utility methods for evaluating and creating [GeneratorPosition](generatorposition.md) structure values. C# and Microsoft Visual Basic code should use members of [GeneratorPosition](generatorposition.md) instead.
+Provides utility methods for evaluating and creating [GeneratorPosition](generatorposition.md) structure values. C# code should use members of [GeneratorPosition](generatorposition.md) instead.
 
 ## -remarks
 

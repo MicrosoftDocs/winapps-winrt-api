@@ -10,7 +10,7 @@ public Windows.UI.Color FromArgb(System.Byte a, System.Byte r, System.Byte g, Sy
 # Microsoft.UI.ColorHelper.FromArgb
 
 ## -description
-Generates a [Color](/uwp/api/windows.ui.color) structure, based on discrete **Byte** values for **ARGB** components. C# and Microsoft Visual Basic code should use **Color.FromArgb** instead.
+Generates a [Color](/uwp/api/windows.ui.color) structure, based on discrete **Byte** values for **ARGB** components. C# code should use **Color.FromArgb** instead.
 
 ## -parameters
 ### -param a
@@ -29,8 +29,10 @@ The **B** component of the desired color. Range is 0-255.
 The generated [Color](/uwp/api/windows.ui.color) value.
 
 ## -remarks
-> **C#/Visual Basic**
-> The [ColorHelper](colorhelper.md) class is available for use from C# and Visual Basic code but it's not commonly used. The **FromArgb** method that's available as a static method of the [Color](/uwp/api/windows.ui.color) structure has exactly the same functionality, and you also have other API there that's more convenient to use from [Color](/uwp/api/windows.ui.color) itself rather than using the [ColorHelper](colorhelper.md) class. [ColorHelper](colorhelper.md) is mainly intended for Visual C++ component extensions (C++/CX) code, which doesn't have access to the nondata API of the [Color](/uwp/api/windows.ui.color) structure.
+
+> [!NOTE]
+> **C#**
+> The [ColorHelper](colorhelper.md) class is available for use from C# code but it's not commonly used. The **FromArgb** method that's available as a static method of the [Color](/uwp/api/windows.ui.color) structure has exactly the same functionality, and you also have other API there that's more convenient to use from [Color](/uwp/api/windows.ui.color) itself rather than using the [ColorHelper](colorhelper.md) class. [ColorHelper](colorhelper.md) is mainly intended for C++ code, which doesn't have access to the non-data API of the [Color](/uwp/api/windows.ui.color) structure.
 
 The most common reason for creating a [Color](/uwp/api/windows.ui.color) value is to use it as an argument for the [SolidColorBrush](../microsoft.ui.xaml.media/solidcolorbrush_solidcolorbrush_2106742027.md) constructor, then assign that brush to a XAML UI property.
 
@@ -42,10 +44,6 @@ This example shows how to create a Color.
 Windows::UI::Color orangeColor{ Windows::UI::ColorHelper::FromArgb(255, 255, 128, 0) };
 ```
 
-```cppcx
-auto orangeColor = Windows::UI::ColorHelper::FromArgb(255, 255, 128, 0);
-```
-
 This example shows how to create a SolidColorBrush with the specified Color.
 
 ```cppwinrt
@@ -53,9 +51,6 @@ Windows::UI::Xaml::Media::SolidColorBrush greenBrush{
     Windows::UI::ColorHelper::FromArgb(255, 90, 200, 90) };
 ```
 
-```cppcx
-auto greenBrush = ref new SolidColorBrush(Windows::UI::ColorHelper::FromArgb(255, 90, 200, 90));
-```
-
 ## -see-also
+
 [SolidColorBrush](../microsoft.ui.xaml.media/solidcolorbrush.md)

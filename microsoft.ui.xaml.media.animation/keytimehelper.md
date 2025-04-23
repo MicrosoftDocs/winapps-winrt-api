@@ -10,7 +10,7 @@ public class KeyTimeHelper : Windows.UI.Xaml.Media.Animation.IKeyTimeHelper
 # Microsoft.UI.Xaml.Media.Animation.KeyTimeHelper
 
 ## -description
-Provides utility methods for working with [KeyTime](keytime.md) values. C# and Microsoft Visual Basic code should use members of [KeyTime](keytime.md) instead.
+Provides utility methods for working with [KeyTime](keytime.md) values. C# code should use members of [KeyTime](keytime.md) instead.
 
 ## -remarks
 

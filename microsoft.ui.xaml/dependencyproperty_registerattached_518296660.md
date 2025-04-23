@@ -21,11 +21,11 @@ The name of the dependency property to register.
 
 ### -param propertyType
 
-The type of the property, as a type reference ([System.Type](/dotnet/api/system.type) for Microsoft .NET, a [TypeName](/uwp/api/windows.ui.xaml.interop.typename) helper struct for Visual C++ component extensions (C++/CX)).
+The type of the property, as a type reference.
 
 ### -param ownerType
 
-The owner type that is registering the dependency property, as a type reference ([System.Type](/dotnet/api/system.type) for Microsoft .NET, a [TypeName](/uwp/api/windows.ui.xaml.interop.typename) helper struct for Visual C++ component extensions (C++/CX)).
+The owner type that is registering the dependency property, as a type reference.
 
 ### -param defaultMetadata
 
