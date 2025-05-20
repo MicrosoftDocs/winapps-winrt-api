@@ -9,15 +9,16 @@
 public string Path { get; }
 -->
 
-
 ## -description
 
+A **string** containing the path of the file selected by the user in the file picker dialog.
+
 ## -property-value
+
+Gets the path of the file selected by the user in the file picker dialog.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
