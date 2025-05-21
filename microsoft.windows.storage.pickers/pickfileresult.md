@@ -19,6 +19,8 @@ A **PickFileResult** object can be converted to [Windows.Storage.StorageFile](/u
 
 ## -see-also
 
+[Windows.Storage.StorageFile](/uwp/api/windows.storage.storagefile)
+
 ## -examples
 
 The following example demonstrates how to use the **PickFileResult** class to get the file path of a selected file:
