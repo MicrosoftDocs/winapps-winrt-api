@@ -9,13 +9,12 @@
 public sealed class FileSavePicker
 -->
 
-
 ## -description
+
+Represents a dialog that allows the user choose a file and location to save.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
