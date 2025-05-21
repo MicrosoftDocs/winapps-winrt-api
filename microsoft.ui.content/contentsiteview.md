@@ -11,11 +11,11 @@ public class ContentSiteView
 
 ## -description
 
-Provides access to a read-only view of [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite) properties.
+Provides access to a read-only view of [**ContentSite**](contentsite.md) properties.
 
 ## -remarks
 
-This object exposes the most recent values from a [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite), it is not a snapshot in time.
+This object exposes the most recent values from a [**ContentSite**](contentsite.md), it is not a snapshot in time.
 
 ## -see-also
 

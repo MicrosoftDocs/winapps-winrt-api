@@ -11,11 +11,11 @@ public float ParentScale { get; }
 
 ## -description
 
-Gets the default scaling factor of the parent Win32 HWND for a single [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite).
+Gets the default scaling factor of the parent Win32 HWND for a single [**ContentSite**](contentsite.md).
 
 ## -property-value
 
-The default scaling factor of the parent Win32 HWND for a single [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite).
+The default scaling factor of the parent Win32 HWND for a single [**ContentSite**](contentsite.md).
 
 ## -remarks
 

@@ -11,7 +11,7 @@ public Microsoft.UI.Xaml.Duration Subtract(Microsoft.UI.Xaml.Duration target, Mi
 
 ## -description
 
-Subtracts the `TimeSpan` component of one [Duration](duration.md) value from another [Duration](duration.md) value. C# and Microsoft Visual Basic code should use the [Subtraction](/dotnet/api/windows.ui.xaml.duration.op_subtraction) (-) operator or the [Duration.Subtract](/dotnet/api/windows.ui.xaml.duration.subtract) method instead.
+Subtracts the `TimeSpan` component of one [Duration](duration.md) value from another [Duration](duration.md) value. C# code should use the [Subtraction](/dotnet/api/windows.ui.xaml.duration.op_subtraction) (-) operator or the [Duration.Subtract](/dotnet/api/windows.ui.xaml.duration.subtract) method instead.
 
 ## -parameters
 

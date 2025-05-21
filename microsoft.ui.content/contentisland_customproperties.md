@@ -11,11 +11,11 @@ public Windows.Foundation.Collections.IPropertySet CustomProperties { get; }
 
 ## -description
 
-Gets the set of custom properties for the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
+Gets the set of custom properties for the [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -property-value
 
-The set of custom properties for the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
+The set of custom properties for the [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -remarks
 

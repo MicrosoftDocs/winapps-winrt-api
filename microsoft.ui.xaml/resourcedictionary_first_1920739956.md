@@ -20,7 +20,7 @@ The iterator. The iterator's current position is at the 0-index position, or at 
 ## -remarks
 
 <!--Begin NET note for IEnumerable support-->
-You can iterate through a [ResourceDictionary](resourcedictionary.md) in C#. In many cases, such as using `foreach` syntax, the compiler does this casting for you and you won't need to cast to `IEnumerable<KeyValuePair>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](/dotnet/api/system.collections.ienumerable.getenumerator), cast to [IEnumerable<T>](/dotnet/api/system.collections.generic.ienumerable-1) with a `KeyValuePair<Object,Object>` constraint.
+You can iterate through a [ResourceDictionary](resourcedictionary.md) in C#. In many cases, such as using `foreach` syntax, the compiler does this casting for you and you won't need to cast to `IEnumerable<KeyValuePair>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](/dotnet/api/system.collections.ienumerable.getenumerator), cast to [IEnumerable&lt;T>](/dotnet/api/system.collections.generic.ienumerable-1) with a `KeyValuePair<Object,Object>` constraint.
 
 <!--End NET note for IEnumerable support-->
 

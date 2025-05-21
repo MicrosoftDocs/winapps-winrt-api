@@ -17,7 +17,7 @@ Retrieves the property metadata value for the dependency property as registered 
 
 ### -param forType
 
-The name of the specific type from which to retrieve the dependency property metadata, as a type reference ([System.Type](/dotnet/api/system.type) for Microsoft .NET, a [TypeName](/uwp/api/windows.ui.xaml.interop.typename) helper struct for Visual C++ component extensions (C++/CX)).
+The name of the specific type from which to retrieve the dependency property metadata, as a type reference.
 
 ## -returns
 

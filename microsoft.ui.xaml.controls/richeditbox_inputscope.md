@@ -4,7 +4,7 @@
 ---
 
 <!-- Property syntax
-public Windows.UI.Xaml.Input.InputScope InputScope { get;  set; }
+public Microsoft.UI.Xaml.Input.InputScope InputScope { get;  set; }
 -->
 
 # Microsoft.UI.Xaml.Controls.RichEditBox.InputScope

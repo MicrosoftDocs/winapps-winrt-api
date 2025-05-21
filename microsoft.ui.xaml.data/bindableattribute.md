@@ -13,7 +13,7 @@ public class BindableAttribute : System.Attribute
 Specifies that a type defined in C++ can be used for binding.
 
 ## -remarks
-Apply this attribute to C++-based data classes to enable their use as binding sources. Common language runtime (CLR) types, including all types defined in C# and Microsoft Visual Basic, are bindable by default. You can also make a type bindable by implementing [ICustomPropertyProvider](icustompropertyprovider.md). For more info, see [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth).
+Apply this attribute to C++-based data classes to enable their use as binding sources. Common language runtime (CLR) types, including all types defined in C#, are bindable by default. You can also make a type bindable by implementing [ICustomPropertyProvider](icustompropertyprovider.md). For more info, see [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth).
 
 ## -examples
 The following code example shows the typical usage pattern for this attribute. For the complete code listing, see the [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind).

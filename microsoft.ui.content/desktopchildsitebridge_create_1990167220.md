@@ -17,7 +17,7 @@ Creates a new [DesktopChildSiteBridge](/windows/windows-app-sdk/api/winrt/micros
 
 ### -param compositor
 
-The compositor used to manage the session between the [DesktopChildSiteBridge](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.desktopchildsitebridge) and the [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite). This must be associated with the current thread.
+The compositor used to manage the session between the [DesktopChildSiteBridge](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.desktopchildsitebridge) and the [**ContentSite**](contentsite.md). This must be associated with the current thread.
 
 ### -param parentWindowId
 

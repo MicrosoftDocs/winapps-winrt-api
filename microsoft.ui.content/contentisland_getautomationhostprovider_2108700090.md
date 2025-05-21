@@ -11,11 +11,11 @@ public object GetAutomationHostProvider ();
 
 ## -description
 
-Gets the host automation provider associated with the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
+Gets the host automation provider associated with the [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -returns
 
-The host automation provider associated with the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
+The host automation provider associated with the [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -remarks
 

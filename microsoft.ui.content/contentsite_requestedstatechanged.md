@@ -11,11 +11,11 @@ public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Content.ContentSi
 
 ## -description
 
-Occurs when a [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) makes a new request to its associated [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite).
+Occurs when a [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) makes a new request to its associated [**ContentSite**](contentsite.md).
 
 ## -remarks
 
-The [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite) owner ([DesktopSiteBridge](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.desktopsitebridge)) can examine local properties (such as [RequestedSize](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.requestedsize)), decide policy, and then configure information (such as [ActualSize](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.actualsize)) to send to the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
+The [**ContentSite**](contentsite.md) owner ([DesktopSiteBridge](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.desktopsitebridge)) can examine local properties (such as [RequestedSize](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.requestedsize)), decide policy, and then configure information (such as [ActualSize](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.actualsize)) to send to the [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -see-also
 

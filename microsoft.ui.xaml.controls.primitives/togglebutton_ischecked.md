@@ -28,7 +28,7 @@ Gets or sets whether the [ToggleButton](togglebutton.md) is checked.
 **true** if the [ToggleButton](togglebutton.md) is checked; **false** if the [ToggleButton](togglebutton.md) is unchecked; otherwise **null**. The default is **false**.
 
 <!--Projection dochack:-->
-If you are programming using C# or Microsoft Visual Basic, the type of this property is projected as **bool?** (a nullable [Boolean](/dotnet/api/system.boolean?view=dotnet-uwp-10.0&preserve-view=true)).
+If you are programming using C#, the type of this property is projected as **bool?** (a nullable [Boolean](/dotnet/api/system.boolean?view=dotnet-uwp-10.0&preserve-view=true)).
 
 ## -remarks
 [ToggleButton](togglebutton.md) and can have three states: <table>

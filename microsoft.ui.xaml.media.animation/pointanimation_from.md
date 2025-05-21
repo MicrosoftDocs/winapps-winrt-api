@@ -26,7 +26,7 @@ Gets or sets the animation's starting value.
 The starting value of the animation. The default is **null**.
 
 <!--Projection dochack:-->
-If you are programming using C#or Microsoft Visual Basic, the type of this property is projected as **Point?**(a nullable [Point](/uwp/api/windows.foundation.point)).
+If you are programming using C#, the type of this property is projected as **Point?**(a nullable [Point](/uwp/api/windows.foundation.point)).
 
 ## -remarks
 A [PointAnimation](pointanimation.md) typically has at least one of the From, [By](pointanimation_by.md) or [To](pointanimation_to.md) properties set, but never all three. For more info, see Remarks in [PointAnimation](pointanimation.md).

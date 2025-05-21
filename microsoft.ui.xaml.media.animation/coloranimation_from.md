@@ -34,7 +34,7 @@ Gets or sets the animation's starting value.
 The starting value of the animation. The default is null.
 
 <!--Projection dochack:-->
-If you are programming using C# or Visual Basic, the type of this property is projected as **Color?**(a nullable [Color](/uwp/api/windows.ui.color)).
+If you are programming using C#, the type of this property is projected as **Color?**(a nullable [Color](/uwp/api/windows.ui.color)).
 
 ## -remarks
 
