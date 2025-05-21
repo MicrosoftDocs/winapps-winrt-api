@@ -124,6 +124,7 @@
         "microsoft.windows.pushnotifications*": "drewbatgit",
         "microsoft.windows.security.accesscontrol*": "alvinashcraft",
         "microsoft.windows.storage*": "alvinashcraft",
+        "microsoft.windows.storage.pickers*": "alvinashcraft",
         "microsoft.windows.system.power*": "alvinashcraft"
       },
       "ms.author":
@@ -187,6 +188,7 @@
         "microsoft.windows.pushnotifications*": "drewbat",
         "microsoft.windows.security.accesscontrol*": "aashcraft",
         "microsoft.windows.storage*": "aashcraft",
+        "microsoft.windows.storage.pickers*": "aashcraft",
         "microsoft.windows.system.power*": "aashcraft"
       }	
     },
