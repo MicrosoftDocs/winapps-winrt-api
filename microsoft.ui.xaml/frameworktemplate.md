@@ -26,7 +26,6 @@ FrameworkTemplate is the parent class for several immediately derived classes th
 + [ItemsPanelTemplate](../microsoft.ui.xaml.controls/itemspaneltemplate.md): supports an alternative technique for representing data in the visuals of a control, by defining a layout container as well as parts within that container that present the data. [ItemsPanelTemplate](../microsoft.ui.xaml.controls/itemspaneltemplate.md) is used as the value of [ItemsControl.ItemsPanel](../microsoft.ui.xaml.controls/itemscontrol_itemspanel.md) for items controls.
 <!--Others?-->
 
-
 ## -examples
 
 ## -see-also

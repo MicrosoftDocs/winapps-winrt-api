@@ -22,5 +22,3 @@ For more info, see [Application.ResourceManagerRequested](application_resourcema
 [Manage resources with MRT Core](/windows/apps/windows-app-sdk/mrtcore/mrtcore-overview), [IResourceManager](/microsoft.windows.applicationmodel.resources/iresourcemanager.md), [ResourceManager](/microsoft.windows.applicationmodel.resources/resourcemanager.md), [Application.ResourceManagerRequested](application_resourcemanagerrequested.md)
 
 ## -examples
-
-

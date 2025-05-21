@@ -9,7 +9,6 @@
 public Microsoft.UI.Composition.Visual GetVisualInternal ();
 -->
 
-
 ## -description
 
 Retrieves the `Visual` that the element resolves to.
@@ -23,5 +22,3 @@ The `Visual` that the element resolves to.
 ## -see-also
 
 ## -examples
-
-

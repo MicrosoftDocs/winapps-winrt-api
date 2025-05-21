@@ -9,7 +9,6 @@
 public Microsoft.UI.Content.ContentCoordinateConverter CoordinateConverter { get; }
 -->
 
-
 ## -description
 
 ## -property-value
@@ -19,5 +18,3 @@ public Microsoft.UI.Content.ContentCoordinateConverter CoordinateConverter { get
 ## -see-also
 
 ## -examples
-
-

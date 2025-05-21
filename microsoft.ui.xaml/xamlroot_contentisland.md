@@ -9,7 +9,6 @@
 public Microsoft.UI.Content.ContentIsland ContentIsland { get; }
 -->
 
-
 ## -description
 
 ## -property-value
@@ -19,5 +18,3 @@ public Microsoft.UI.Content.ContentIsland ContentIsland { get; }
 ## -see-also
 
 ## -examples
-
-

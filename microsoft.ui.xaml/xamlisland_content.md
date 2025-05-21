@@ -9,7 +9,6 @@
 public Microsoft.UI.Xaml.UIElement Content { get; set; }
 -->
 
-
 ## -description
 
 ## -property-value
@@ -19,5 +18,3 @@ public Microsoft.UI.Xaml.UIElement Content { get; set; }
 ## -see-also
 
 ## -examples
-
-

@@ -9,7 +9,6 @@
 public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.DataTransfer.DataPackageOperation> StartDragAsync (Microsoft.UI.Input.Experimental.ExpPointerPoint pointerPoint);
 -->
 
-
 ## -description
 
 ## -parameters
@@ -23,5 +22,3 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.DataTransfer.
 ## -see-also
 
 ## -examples
-
-
