@@ -11,7 +11,11 @@
 
 ## -description
 
+Disposes of the object and associated resources.
+
 ## -remarks
+
+This member is not implemented in C#.
 
 ## -see-also
 
