@@ -11,7 +11,7 @@ public Microsoft.UI.Xaml.Duration Forever { get; }
 
 ## -description
 
- Returns a generated [Duration](duration.md) value that indicates a `Forever` [Duration](duration.md). C# code should use [Duration.Forever](/dotnet/api/windows.ui.xaml.duration.forever) instead.
+Returns a generated [Duration](duration.md) value that indicates a `Forever` [Duration](duration.md). C# code should use [Duration.Forever](/dotnet/api/windows.ui.xaml.duration.forever) instead.
 
 ## -property-value
 

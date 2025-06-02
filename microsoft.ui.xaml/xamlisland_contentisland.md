@@ -15,6 +15,8 @@ Gets the [**ContentIsland**](../microsoft.ui.content/contentisland.md) associate
 
 ## -property-value
 
+The [**ContentIsland**](../microsoft.ui.content/contentisland.md) associated with the [**XamlIsland**](xamlisland.md).
+
 ## -remarks
 
 ## -see-also
