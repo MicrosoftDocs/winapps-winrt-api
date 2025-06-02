@@ -39,5 +39,3 @@ These levels match the levels in [LayoutCycleTracingLevel](layoutcycletracinglev
 [DebugSettings.LayoutCycleDebugBreakLevel](debugsettings_layoutcycledebugbreaklevel.md), [DebugSettings.LayoutCycleTracingLevel](debugsettings_layoutcycletracinglevel.md), [LayoutCycleTracingLevel](layoutcycletracinglevel.md)
 
 ## -examples
-
-
