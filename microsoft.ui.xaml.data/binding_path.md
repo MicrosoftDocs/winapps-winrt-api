@@ -60,9 +60,6 @@ The following XAML demonstrates how to set the Path using the [{Binding} markup 
 
 The following XAML demonstrates how to set the Path using integer and string indexers. For the complete code listing, see the [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind).
 
-> [!NOTE]
-> Visual C++ component extensions (C++/CX) does not currently support indexer binding. See the sample for a workaround.
-
 ```xaml
 <StackPanel>
 

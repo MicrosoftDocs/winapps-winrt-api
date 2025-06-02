@@ -10,8 +10,7 @@ public Windows.UI.Xaml.Media.Media3D.Matrix3D Multiply(Windows.UI.Xaml.Media.Med
 # Microsoft.UI.Xaml.Media.Media3D.Matrix3DHelper.Multiply
 
 ## -description
-Multiplies the specified matrices. C# and Microsoft Visual Basic code should use the multiplication operator instead. 
-<!--Add link if we add Matrix3D.Multiply-->
+Multiplies the specified matrices. C# code should use the multiplication operator instead.
 
 ## -parameters
 ### -param matrix1

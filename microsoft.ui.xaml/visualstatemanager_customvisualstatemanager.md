@@ -9,7 +9,6 @@
 see GetCustomVisualStateManager, and SetCustomVisualStateManager
 -->
 
-
 ## -description
 
 Gets or sets the custom VisualStateManager object that handles transitions between the states of a control.
@@ -27,5 +26,3 @@ This attached property is only needed for cases where you want to use a custom i
 [XAML attached properties](/windows/uwp/xaml-platform/attached-properties-overview)
 
 ## -examples
-
-

@@ -11,11 +11,11 @@ public System.Numerics.Vector2 ActualSize { get; }
 
 ## -description
 
-Gets the logical size of the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland), as determined by the [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite).
+Gets the logical size of the [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland), as determined by the [**ContentSite**](contentsite.md).
 
 ## -property-value
 
-The logical size of the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland), as determined by the [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite).
+The logical size of the [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland), as determined by the [**ContentSite**](contentsite.md).
 
 ## -remarks
 

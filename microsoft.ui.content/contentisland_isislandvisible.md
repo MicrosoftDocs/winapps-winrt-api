@@ -11,11 +11,11 @@ public bool IsIslandVisible { get; set; }
 
 ## -description
 
-Gets or sets whether this [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) is shown by its associated [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite).
+Gets or sets whether this [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) is shown by its associated [**ContentSite**](contentsite.md).
 
 ## -property-value
 
-True, if this [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) is shown by its associated [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite); otherwise, false. The default is true.
+True, if this [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) is shown by its associated [**ContentSite**](contentsite.md); otherwise, false. The default is true.
 
 ## -remarks
 

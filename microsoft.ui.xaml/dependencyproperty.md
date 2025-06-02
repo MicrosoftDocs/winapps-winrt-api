@@ -27,13 +27,15 @@ Instances of `DependencyProperty` are often referenced in the documentation as d
 
 The owner [DependencyObject](dependencyobject.md) provides the property store for the dependency property. When working with a dependency property in code, you might use a `DependencyProperty` identifiers as input for calls to property system methods such as [SetValue](dependencyobject_setvalue_1212521140.md). However, in most cases, getting or setting a dependency property is simpler by getting or setting the *wrapper*; this concept is explained in [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview).
 
-`DependencyProperty` supports a native conversion for XAML attribute syntax for filling values, which is used when a [Setter](setter.md) specifies its [Property](setter_property.md) value. This conversion uses an *ownerTypeName***.***propertyName* form for the input string.
+`DependencyProperty` supports a native conversion for XAML attribute syntax for filling values, which is used when a [Setter](setter.md) specifies its [Property](setter_property.md) value. This conversion uses an _ownerTypeName_**.**_propertyName_ form for the input string.
 
 > [!NOTE]
 > A related syntax that can also be used to specify a property by name and is required by certain data and animation API is the *property path syntax*. A property path can be used to reference the structure of a class that has properties and the value of that property. For more info, see [Property-path syntax](/windows/uwp/xaml-platform/property-path-syntax).
 
 > [!TIP]
-> If you are programming using a Microsoft .NET language (C# or Microsoft Visual Basic), the [TypeName](/uwp/api/windows.ui.xaml.interop.typename) type projects as [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true). When programming using C#, it is common to use the `typeof` operator to get references to the [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) of a type. In Microsoft Visual Basic, use `GetType`. If you're using Visual C++ component extensions (C++/CX)), where you'll need to create a [TypeName](/uwp/api/windows.ui.xaml.interop.typename) helper struct, you can use the [typeid component extension](/cpp/windows/typeid-cpp-component-extensions).
+> If you are programming using a Microsoft .NET language (C#), the [TypeName](/uwp/api/windows.ui.xaml.interop.typename) type projects as [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true). When programming using C#, it is common to use the `typeof` operator to get references to the [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) of a type.
+>
+> If you're using [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) you can use the `winrt::xaml_typename<T>()` helper function to create a `TypeName` object. See [winrt::xaml_typename function template](/uwp/cpp-ref-for-winrt/xaml-typename) for more details, and a code example.
 
 The Windows Runtime implements the XAML attached property language feature with `DependencyProperty` identifiers and property storage on a [DependencyObject](dependencyobject.md). For more info, see [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview).
 
@@ -73,8 +75,6 @@ There are several methods that are utility methods for the Windows Runtime prope
 This example shows a basic usage where a `DependencyProperty` is established as a public static member of a class. This is done by calling [Register](dependencyproperty_register_928563513.md) and storing the return value as a member of the class. For more examples, see [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties).
 
 [!code-csharp[DOSimpleDP](../microsoft.ui.xaml/code/DOandDPExamples/csharp/Class1.cs#SnippetDOSimpleDP)]
-
-> A Visual C++ component extensions (C++/CX) example isn't shown here because it must be factored completely differently than the Microsoft .NET examples, and involves several different code files. See examples in [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties).
 
 ## -see-also
 

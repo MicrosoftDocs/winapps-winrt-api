@@ -166,7 +166,7 @@ In XAML, the keys for `ResourceDictionary` items are declared by setting the [x:
 
 ### Iterating through a **ResourceDictionary**
 
-You can iterate through a `ResourceDictionary` in C#. In many cases, such as using `foreach` syntax, the compiler does this casting for you and you won't need to cast to `IEnumerable` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](/dotnet/api/system.collections.ienumerable.getenumerator), cast to [IEnumerable<T>](/dotnet/api/system.collections.generic.ienumerable-1) with a `KeyValuePair<Object,Object>` constraint.
+You can iterate through a `ResourceDictionary` in C#. In many cases, such as using `foreach` syntax, the compiler does this casting for you and you won't need to cast to `IEnumerable` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](/dotnet/api/system.collections.ienumerable.getenumerator), cast to [IEnumerable&lt;T>](/dotnet/api/system.collections.generic.ienumerable-1) with a `KeyValuePair<Object,Object>` constraint.
 
 ### **ResourceDictionary** and Microsoft Visual Studio
 
@@ -209,7 +209,7 @@ In practice, the vast majority of the resources defined in a `ResourceDictionary
 
 The API that your code uses to access the resources in a ResourceDictionary depends on which programming language you use:
 
-+ For C# you use API that implement [IDictionary<TKey,TValue>](/dotnet/api/system.collections.generic.idictionary-2) and [IEnumerable<T>](/dotnet/api/system.collections.generic.ienumerable-1). For example, [TryGetValue](/dotnet/api/system.collections.generic.idictionary-2.trygetvalue) or the [Item](/dotnet/api/system.collections.generic.idictionary-2.item) indexer.
++ For C# you use API that implement [IDictionary<TKey,TValue>](/dotnet/api/system.collections.generic.idictionary-2) and [IEnumerable&lt;T>](/dotnet/api/system.collections.generic.ienumerable-1). For example, [TryGetValue](/dotnet/api/system.collections.generic.idictionary-2.trygetvalue) or the [Item](/dotnet/api/system.collections.generic.idictionary-2.item) indexer.
 + API that aren't part of collection support, like [Source](resourcedictionary_source.md), are the same in all languages.
 
 For more info on how to use `ResourceDictionary` in code, see "Using a ResourceDictionary from code" section of [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary).

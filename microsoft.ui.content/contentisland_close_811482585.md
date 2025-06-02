@@ -11,12 +11,12 @@
 
 ## -description
 
-Closes the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
+Closes the [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -remarks
 
 ## -see-also
 
-[ContentIsland.Closed](contentisland_closed.md), [ContentIsland.IsClosed](contentisland_isclosed.md)
+[**ContentIsland.Closed**](contentisland_closed.md), [**ContentIsland.IsClosed**](contentisland_isclosed.md)
 
 ## -examples

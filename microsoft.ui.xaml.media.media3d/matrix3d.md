@@ -113,7 +113,7 @@ Matrix3D values can be declared in XAML, but the syntax is limited, and differen
 
 ### Projection and members of Matrix3D
 
-If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or in Visual C++ component extensions (C++/CX), then Matrix3D has non-data members available, and its data members are exposed as read-write properties, not fields.
+If you are using a Microsoft .NET language (C#), then Matrix3D has non-data members available, and its data members are exposed as read-write properties, not fields.
 
 If you are programming with C++ using the Windows Runtime Template Library (WRL), then only the data member fields exist as members of Matrix3D, and you cannot use the utility methods or properties listed in the members table. WRL code can access similar utility methods that exist on the [Matrix3DHelper](matrix3dhelper.md) class.
 

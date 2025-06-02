@@ -22,7 +22,7 @@ Gets or sets the animation's starting value.
 The starting value of the animation. The default is null.
 
 <!--Projection dochack:-->
-If you are programming using C# or Visual Basic, the type of this property is projected as **double?**(a nullable **double**).
+If you are programming using C#, the type of this property is projected as **double?**(a nullable **double**).
 
 ## -remarks
 

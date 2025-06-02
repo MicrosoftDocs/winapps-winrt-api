@@ -11,7 +11,7 @@ public bool DidRequestedSizeChange { get; }
 
 ## -description
 
-Gets whether the [RequestedSize](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.requestedsize) of the [ContentSite](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite) changed.
+Gets whether the [RequestedSize](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.requestedsize) of the [**ContentSite**](contentsite.md) changed.
 
 ## -property-value
 

@@ -22,7 +22,7 @@ Gets or sets the total amount by which the animation changes its starting value.
 The total amount by which the animation changes its starting value. The default is null.
 
 <!--Projection dochack:-->
-If you are programming using C# or Visual Basic, the type of this property is projected as **double?**(a nullable **double**).
+If you are programming using C#, the type of this property is projected as **double?**(a nullable **double**).
 
 ## -remarks
 

@@ -87,7 +87,7 @@ Matrix is the property value for the [MatrixTransform.Matrix](matrixtransform_ma
 
 ### Language projections and members of Matrix
 
-If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or in Visual C++ component extensions (C++/CX) then Matrix has non-data members available, and its data members are exposed as read-write properties, not fields.
+If you are using a Microsoft .NET language (C#), then Matrix has non-data members available, and its data members are exposed as read-write properties, not fields.
 
 If you are programming with C++ using the Windows Runtime Template Library (WRL), then only the data member fields exist as members of Matrix, and you cannot use the utility methods or properties listed in the members table. WRL code can access similar utility methods that exist on the [MatrixHelper](matrixhelper.md) class.
 

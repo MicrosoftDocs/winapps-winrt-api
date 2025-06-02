@@ -26,5 +26,3 @@ Most members of the `Window` class can only be accessed when running on the thre
 ## -see-also
 
 ## -examples
-
-

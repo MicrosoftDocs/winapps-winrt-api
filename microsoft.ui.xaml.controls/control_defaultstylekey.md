@@ -18,7 +18,7 @@ Gets or sets the key that references the default style for the control. Authors 
 The key that references the default style for the control. To work correctly as part of theme style lookup, this value is expected to be a [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) value.
 
 > [!NOTE]
-> Visual C++ component extensions (C++/CX) uses a string that is the qualified name of the type. But this relies on generated code that produces a [TypeName](/uwp/api/windows.ui.xaml.interop.typename) once accessed by a XAML compiler; see Remarks.
+> C++ uses a string that is the qualified name of the type. But this relies on generated code that produces a [TypeName](/uwp/api/windows.ui.xaml.interop.typename) once accessed by a XAML compiler; see Remarks.
 
 ## -remarks
 
@@ -35,6 +35,8 @@ public CustomControl1()
 }
 ```
 
++ For a control that has its logic written in C++, the value of DefaultStyleKey should be a namespace-qualified string that is the name of the custom control class. Typically you set this value in the default constructor:
+
 ```cppwinrt
 CustomControl1::CustomControl1() // public: in the header.
 {
@@ -42,17 +44,8 @@ CustomControl1::CustomControl1() // public: in the header.
 }
 ```
 
-+ For a control that has its logic written in Visual C++ component extensions (C++/CX), the value of DefaultStyleKey should be a namespace-qualified string that is the name of the custom control class. Typically you set this value in the default constructor:
-
-```cppcx
-CustomControl1::CustomControl1() //public: in the header
-{
-    DefaultStyleKey = "App1.CustomControl1";
-}
-```
-
 > [!NOTE]
-> Ultimately the string alone isn't enough to support a Visual C++ component extensions (C++/CX) type reference. If you use the **Add / New Item / Templated Control** options in Solution Explorer, the templates and support for Visual C++ component extensions (C++/CX) and XAML generates classes that give [IXamlMetadataProvider](../microsoft.ui.xaml.markup/ixamlmetadataprovider.md) info. The XAML compiler can access this code when the XAML is loaded, and uses it to validate and create types and members and join the partial classes. As far as what you define in your own app code, the string is all you need. But if you're curious you can have a look at the XamlTypeInfo.g.h and XamlTypeInfo.g.cpp files that are generated.
+> Ultimately the string alone isn't enough to support a C++ type reference. If you use the **Add / New Item / Templated Control** options in Solution Explorer, the templates and support for C++ and XAML generates classes that give [IXamlMetadataProvider](../microsoft.ui.xaml.markup/ixamlmetadataprovider.md) info. The XAML compiler can access this code when the XAML is loaded, and uses it to validate and create types and members and join the partial classes. As far as what you define in your own app code, the string is all you need. But if you're curious you can have a look at the XamlTypeInfo.g.h and XamlTypeInfo.g.cpp files that are generated.
 
 Control authors could choose to not provide a value for DefaultStyleKey, but that's uncommon. The result would be that the default style is the one as defined by the base class. In some cases (like for [ContentControl](contentcontrol.md)) the value is **null**. Even if you choose to not redefine the value, make sure that the original default style is useful for rendering your control.
 

@@ -41,9 +41,12 @@ Setting TargetType in code is uncommon. The XAML style/template system is intend
 Getting a TargetType in code is also uncommon, but you might do this to double-check that a [ControlTemplate](controltemplate.md) that you've loaded from XAML is compatible with a given control target that you got from the runtime tree.
 
 > [!TIP]
-> If you are programming using a Microsoft .NET language (C# or Microsoft Visual Basic), the [TypeName](/uwp/api/windows.ui.xaml.interop.typename) type projects as [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true). When programming using C#, you usually use the **typeof** operator to get references to the [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) of a type based on a type name as a string. In Microsoft Visual Basic, use **GetType**.
+> If you are programming using a Microsoft .NET language (C#), the [TypeName](/uwp/api/windows.ui.xaml.interop.typename) type projects as [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true). When programming using C#, you usually use the **typeof** operator to get references to the [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) of a type based on a type name as a string.
+>
+> If you're using [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) you can use the `winrt::xaml_typename<T>()` helper function to create a `TypeName` object. See [winrt::xaml_typename function template](/uwp/cpp-ref-for-winrt/xaml-typename) for more details, and a code example.
 
 ## -examples
 
 ## -see-also
+
 [Style.TargetType](../microsoft.ui.xaml/style_targettype.md), [XAML Control templates](/windows/apps/design/style/xaml-control-templates), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)

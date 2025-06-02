@@ -35,7 +35,7 @@ The default value of [Width](columndefinition_width.md) is a [GridLength](../mic
 
 The value you set for Height can be constrained if you also set a value for [MinHeight](rowdefinition_minheight.md) or [MaxHeight](rowdefinition_maxheight.md). Each of these properties can take only pixel measurements, not **Star** sizing. If a [RowDefinition](rowdefinition.md) uses **Star** or **Auto** sizing but also has [MinHeight](rowdefinition_minheight.md) or [MaxHeight](rowdefinition_maxheight.md) constraints, the [MinHeight](rowdefinition_minheight.md) or [MaxHeight](rowdefinition_maxheight.md) must be honored by the [Grid](grid.md) layout behavior, even if that means giving or taking layout space from other **Star** sizing rows defined in the [Grid](grid.md) that don't have constraints.
 
-It's more common to use **Star** sizing than absolute pixel values for a [Grid](grid.md) definition in a UWP app using C++, C#, or Visual Basic. **Star** sizing supports the dynamic layout concept, which helps your app look great on screens with different sizes, pixel densities and orientations. For more info, see [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml).
+It's more common to use **Star** sizing than absolute pixel values for a [Grid](grid.md) definition in a XAML app. **Star** sizing supports the dynamic layout concept, which helps your app look great on screens with different sizes, pixel densities and orientations. For more info, see [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml).
 
 ## -examples
 
