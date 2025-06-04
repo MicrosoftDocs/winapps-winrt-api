@@ -32,4 +32,3 @@ Returns the request ID. On state transitions, the request which caused the chang
 ## -see-also
 
 ## -examples
-

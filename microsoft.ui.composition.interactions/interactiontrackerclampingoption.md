@@ -14,6 +14,7 @@ public enum InteractionTrackerClampingOption : int
 Defines constants that specify how values are clamped when the InteractionTracker position is updated.
 
 ## -enum-fields
+
 ### -field Disabled:1
 
 If the input value is greater (or less) than the max (or min) value, it is not immediately clamped. Instead, the max/min is enforced to the newly input value of Position (and potentially clamped) the next time InteractionTracker enters the Inertia state.
@@ -33,4 +34,3 @@ Clamping is based on the values of InteractionTracker [MinPosition](interactiont
 [TryUpdatePosition](interactiontracker_tryupdateposition_1353769502.md), [TryUpdatePositionBy](interactiontracker_tryupdatepositionby_95397550.md)
 
 ## -examples
-

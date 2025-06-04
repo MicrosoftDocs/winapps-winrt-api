@@ -84,7 +84,6 @@ After being configured, InteractionTracker still requires one last step to actua
 
 ## -examples
 
-
 ```csharp
 
 void SetupSimpleInteractionTracker(Visual viewportVisual, Visual contentVisual)
@@ -143,4 +142,5 @@ void SetupSimpleInteractionTracker(Visual viewportVisual, Visual contentVisual)
 
 
 ## -see-also
+
 [VisualInteractionSource](visualinteractionsource.md), [ExpressionAnimation](../microsoft.ui.composition/expressionanimation.md)

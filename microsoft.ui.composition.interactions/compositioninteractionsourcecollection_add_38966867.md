@@ -10,10 +10,13 @@ public void Add(Windows.UI.Composition.Interactions.ICompositionInteractionSourc
 # Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.Add
 
 ## -description
+
 Adds an interaction source to the collection.
 
 ## -parameters
+
 ### -param value
+
 The interaction source to add to the collection.
 
 ## -remarks

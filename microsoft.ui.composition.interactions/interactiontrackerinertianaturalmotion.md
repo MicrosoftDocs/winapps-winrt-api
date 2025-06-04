@@ -18,4 +18,3 @@ A [ScalarNaturalMotionAnimation](../microsoft.ui.composition/scalarnaturalmotion
 ## -see-also
 
 ## -examples
-

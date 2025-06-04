@@ -14,6 +14,7 @@ public enum InteractionTrackerPositionUpdateOption : int
 Defines constants that indicate whether an already running custom scale animation should be allowed to continue running.
 
 ## -enum-fields
+
 ### -field Default:0
 
 An active scale animation will stop.
@@ -29,4 +30,3 @@ An active scale animation will continue.
 
 
 ## -examples
-

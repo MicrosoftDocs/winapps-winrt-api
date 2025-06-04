@@ -14,6 +14,7 @@ public InteractionTrackerVector2InertiaNaturalMotion InteractionTrackerVector2In
 Creates an instance of [InteractionTrackerVector2InertiaNaturalMotion](interactiontrackervector2inertianaturalmotion.md).
 
 ## -parameters
+
 ### -param compositor
 
 The compositor to use when creating the InteractionTrackerInertiaNaturalMotion object.
@@ -27,4 +28,3 @@ Returns the created InteractionTrackerInertiaNaturalMotion object.
 ## -see-also
 
 ## -examples
-

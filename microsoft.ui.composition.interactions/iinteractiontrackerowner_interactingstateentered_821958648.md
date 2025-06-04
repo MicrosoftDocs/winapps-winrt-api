@@ -10,13 +10,17 @@ public void InteractingStateEntered(Windows.UI.Composition.Interactions.Interact
 # Microsoft.UI.Composition.Interactions.IInteractionTrackerOwner.InteractingStateEntered
 
 ## -description
+
 Callback that is triggered when an [InteractionTracker](interactiontracker.md) enters the interaction state.
 
 ## -parameters
+
 ### -param sender
+
 The [InteractionTracker](interactiontracker.md) that triggered the callback.
 
 ### -param args
+
 Arguments for the callback.
 
 ## -remarks

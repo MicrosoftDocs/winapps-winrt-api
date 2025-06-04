@@ -10,11 +10,13 @@ public class InteractionTrackerInertiaMotion : Windows.UI.Composition.Interactio
 # Microsoft.UI.Composition.Interactions.InteractionTrackerInertiaMotion
 
 ## -description
+
 An [ExpressionAnimation](../microsoft.ui.composition/expressionanimation.md) that defines motion of InteractionTracker during its inertia state.
 
 The InteractionTrackerMotion class contains two [ExpressionAnimation](../microsoft.ui.composition/expressionanimation.md)s representing a second derivative equation of position [InteractionTracker](interactiontracker.md) will use to define the motion from the start to end of inertia when a particular condition is met. The InteractionTrackerMotion class is defined as two parts: The conditional statement to define when the motion will take place and the equation that describes the motion for how [InteractionTracker](interactiontracker.md) will reach its final resting position. Utilize the InteractionTrackerInertiaMotion class when you need to define a customized motion (such as a spring motion) for [InteractionTracker](interactiontracker.md) to use when in its inertia state.
 
 ## -remarks
+
 When building out the [ExpressionAnimation](../microsoft.ui.composition/expressionanimation.md) for the motion component of InteractionTrackerInertiaMotion, the expression is described as a second derivative equation. For example, In the code snippet above, we utilize the basic equation for Spring Force motion with damping.
 
 When attaching the InteractionTrackerInertiaMotion modifier to the [InteractionTracker](interactiontracker.md), you configure it to either the X/Y Position or Scale.
@@ -24,7 +26,6 @@ The [ExpressionAnimation](../microsoft.ui.composition/expressionanimation.md) de
 InteractionTrackerInertiaMotion modifiers change the equation InteractionTracker uses to calculate its position. Thus, the final resting position is determined by the nature of the equation itself. If you need InteractionTracker to stop at a specific location, utilize the [InteractionTrackerInertiaRestingValue](interactiontrackerinertiarestingvalue.md) modifier.
 
 ## -examples
-
 
 ```csharp
 
@@ -70,4 +71,5 @@ void CustomSpringInertiaMotion(float dampingCoefficient, 	float springStiffnessC
 
 
 ## -see-also
+
 [InteractionTrackerInertiaModifier](interactiontrackerinertiamodifier.md), [IClosable](/uwp/api/windows.foundation.iclosable)

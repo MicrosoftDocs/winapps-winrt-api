@@ -29,4 +29,3 @@ For more info, see [VisualInteractionSource.PointerWheelConfig](visualinteractio
 [VisualInteractionSource.PositionXSourceMode](visualinteractionsource_positionxsourcemode.md)
 
 ## -examples
-

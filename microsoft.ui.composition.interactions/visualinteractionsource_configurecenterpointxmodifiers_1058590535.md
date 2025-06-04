@@ -10,6 +10,7 @@ public void VisualInteractionSource.ConfigureCenterPointXModifiers(IIterable<Com
 # Microsoft.UI.Composition.Interactions.VisualInteractionSource.ConfigureCenterPointXModifiers
 
 ## -description
+
 Takes an ordered list of CompositionConditionalValue. In a frame, the first CompositionConditionalValue to have its “.Condition” evaluate to true replaces the zoom CenterPointX value the VisualInteractionSource provides with its “.Value”. If none evaluate to true, the CenterPointX is not replaced that frame.
 ## -parameters
 
@@ -20,4 +21,3 @@ Takes an ordered list of CompositionConditionalValue. In a frame, the first Comp
 ## -see-also
 
 ## -examples
-

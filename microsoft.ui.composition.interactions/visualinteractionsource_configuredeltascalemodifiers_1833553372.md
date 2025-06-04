@@ -10,6 +10,7 @@ public void VisualInteractionSource.ConfigureDeltaScaleModifiers(IIterable<Compo
 # Microsoft.UI.Composition.Interactions.VisualInteractionSource.ConfigureDeltaScaleModifiers
 
 ## -description
+
 Takes an ordered list of CompositionConditionalValue. In a frame, the first CompositionConditionalValue to have its “.Condition” evaluate to true replaces the DeltaScale value the VisualInteractionSource provides with its “.Value”. If none evaluate to true, the DeltaScale is not replaced that frame.
 
 ## -parameters
@@ -21,4 +22,3 @@ Takes an ordered list of CompositionConditionalValue. In a frame, the first Comp
 ## -see-also
 
 ## -examples
-

@@ -50,7 +50,6 @@ Internally, the system GestureRecognizer is being used to route input. Apps can 
 ## -see-also
 
 ## -examples
-
 The following code snippet shows how to configure a visual to follow input/gestures.  
 
 This is accomplished through three primary steps:

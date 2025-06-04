@@ -10,6 +10,7 @@ public void RemoveAll()
 # Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.RemoveAll
 
 ## -description
+
 Removes all interaction sources from the collection.
 
 ## -remarks

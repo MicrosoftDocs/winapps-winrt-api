@@ -10,14 +10,17 @@ public float ScaleVelocityInPercentPerSecond { get; }
 # Microsoft.UI.Composition.Interactions.InteractionTracker.ScaleVelocityInPercentPerSecond
 
 ## -description
+
 The rate of change for scale.
 
 The ScaleVelocityInPercentPerSecond property represents the current scale velocity of [InteractionTracker](interactiontracker.md) while in Inertia. Grabbing the position velocity of [InteractionTracker](interactiontracker.md) right after an Interaction has occurred or reference the most current velocity of [InteractionTracker](interactiontracker.md) in an [ExpressionAnimation](../microsoft.ui.composition/expressionanimation.md).
 
 ## -property-value
+
 The rate of change for scale.
 
 ## -remarks
+
 When accessing the ScaleVelocityInPercentPerSecond property off the [InertiaStateEntered](iinteractiontrackerowner_inertiastateentered_1691074160.md) event, you will be retrieving a snapshot of the calculated velocity based on the Interaction. This event will only fire once after the interaction has occurred.
 
 ## -examples

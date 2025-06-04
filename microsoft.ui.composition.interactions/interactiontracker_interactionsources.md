@@ -10,9 +10,11 @@ public Windows.UI.Composition.Interactions.CompositionInteractionSourceCollectio
 # Microsoft.UI.Composition.Interactions.InteractionTracker.InteractionSources
 
 ## -description
+
 A collection of objects that generate interactions.
 
 ## -property-value
+
 A collection of objects that generate interactions.
 
 ## -remarks

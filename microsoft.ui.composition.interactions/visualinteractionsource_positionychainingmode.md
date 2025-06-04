@@ -10,6 +10,7 @@ public Windows.UI.Composition.Interactions.InteractionChainingMode PositionYChai
 # Microsoft.UI.Composition.Interactions.VisualInteractionSource.PositionYChainingMode
 
 ## -description
+
 The PositionYChainingMode property defines the chaining behavior for an InteractionSource in the Y direction. There are three types of [InteractionChainingMode](interactionchainingmode.md) s: 
     **Auto**
   , 
@@ -19,6 +20,7 @@ The PositionYChainingMode property defines the chaining behavior for an Interact
   . When chaining in the Y direction is enabled, input will flow to the nearest ancestor’s [VisualInteractionSource](visualinteractionsource.md) whenever the interaction (such as panning) would otherwise take [InteractionTracker](interactiontracker.md) ’s position past its minimum or maximum Y position.
 
 ## -property-value
+
 Chaining mode for the Y-axis.
 
 ## -remarks

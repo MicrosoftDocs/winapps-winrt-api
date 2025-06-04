@@ -10,14 +10,17 @@ public Windows.Foundation.Numerics.Vector3 PositionVelocityInPixelsPerSecond { g
 # Microsoft.UI.Composition.Interactions.InteractionTracker.PositionVelocityInPixelsPerSecond
 
 ## -description
+
 The velocity currently applied to position.
 
 The PositionVelocityInPixelsPerSecond property represents the current position velocity of [InteractionTracker](interactiontracker.md) while in Inertia. There are two main use cases for this property: Retrieving the position velocity of [InteractionTracker](interactiontracker.md) right after an interaction has occurred or reference the most current velocity of [InteractionTracker](interactiontracker.md) in an [ExpressionAnimation](../microsoft.ui.composition/expressionanimation.md).
 
 ## -property-value
+
 The velocity currently applied to position.
 
 ## -remarks
+
 When accessing the PositionVelocityInPixelsPerSecond property from the [InertiaStateEntered](iinteractiontrackerowner_inertiastateentered_1691074160.md) event, you will be retrieving a snapshot of the calculated velocity based on the interaction. This event will only fire once after the interaction has occurred.
 
 ## -examples

@@ -22,4 +22,3 @@ public void TryRedirectForManipulation (Microsoft.UI.Input.Experimental.ExpPoint
 
 ## -examples
 
-

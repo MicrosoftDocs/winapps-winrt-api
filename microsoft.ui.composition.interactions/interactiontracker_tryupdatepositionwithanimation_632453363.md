@@ -10,18 +10,22 @@ public int TryUpdatePositionWithAnimation(Windows.UI.Composition.CompositionAnim
 # Microsoft.UI.Composition.Interactions.InteractionTracker.TryUpdatePositionWithAnimation
 
 ## -description
+
 Tries to update the [InteractionTracker](interactiontracker.md)'s position by applying an animation.
 
 The TryUpdatePositionWithAnimation method updates the position of [InteractionTracker](interactiontracker.md) based on the [CompositionAnimation](../microsoft.ui.composition/compositionanimation.md) input as a parameter. This method is used in situations in which the motion of [InteractionTracker](interactiontracker.md) needs to be defined by a specific animation, instead of the traditional Inertia experience. TryUpdatePositionWithAnimation can be called from the Idle or Inertia state – doing so, [InteractionTracker](interactiontracker.md) ’s position will be driven by the defined animation and enter the CustomAnimation state.
 
 ## -parameters
+
 ### -param animation
 The animation to apply to the [InteractionTracker](interactiontracker.md).
 
 ## -returns
+
 Returns the request ID. On state transitions, the request which caused the change in state will be included in the args. These IDs will start at 1 and increase with each try call during the lifetime of the application.
 
 ## -remarks
+
 When creating the animation you want to update [InteractionTracker](interactiontracker.md) ’s position with, you do not need to call [Microsoft.UI.Composition.CompositionObject.StartAnimation](../microsoft.ui.composition/compositionobject_startanimation_394405412.md). The system will take care of this behind the scenes once the animation is passed in via TryUpdatePositionWithAnimation.
 
 When defining the animation that will animate [InteractionTracker](interactiontracker.md) ’s position, be sure to either use a [Vector3KeyFrameAnimation](../microsoft.ui.composition/vector3keyframeanimation.md) or an [ExpressionAnimation](../microsoft.ui.composition/expressionanimation.md) that resolves to a Vector3.
