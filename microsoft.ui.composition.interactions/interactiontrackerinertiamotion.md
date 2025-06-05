@@ -29,7 +29,7 @@ InteractionTrackerInertiaMotion modifiers change the equation InteractionTracker
 
 ```csharp
 
-void CustomSpringInertiaMotion(float dampingCoefficient, 	float springStiffnessCoefficient)
+void CustomSpringInertiaMotion(float dampingCoefficient,     float springStiffnessCoefficient)
 {
   //
   // Set up our inertia modifiers to use our custom motion
@@ -42,7 +42,7 @@ void CustomSpringInertiaMotion(float dampingCoefficient, 	float springStiffnessC
   /*
   We create a custom spring motion for when the InteractionTracker passes the
   maximum boundary. 
-  When we hit the boundary, the amount of oscillation is determined by the 	distance to the far end point, the spring stiffness and damping rate.
+  When we hit the boundary, the amount of oscillation is determined by the     distance to the far end point, the spring stiffness and damping rate.
   */ 
  
   // Define the condition that the spring motion gets applied – when we pass the
@@ -67,8 +67,6 @@ void CustomSpringInertiaMotion(float dampingCoefficient, 	float springStiffnessC
          
          
 ```
-
-
 
 ## -see-also
 

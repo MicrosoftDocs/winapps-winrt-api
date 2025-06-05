@@ -18,6 +18,7 @@ The TryUpdatePositionWithAdditionalVelocity method adds the input Vector3 repres
 ## -parameters
 
 ### -param velocityInPixelsPerSecond
+
 The velocity to add in pixels per second.
 
 ## -returns
@@ -28,30 +29,28 @@ Returns the request ID. On state transitions, the request which caused the chang
 
 If [InteractionTracker](interactiontracker.md) is in its Interacting State (user actively manipulating), and TryUpdatePositionWithAdditionalVelocity is called, the system will ignore this request – an event gets fired when this occurs that can be listened for. If sent from one of the other states, listen for the event fired for [InertiaStateEntered](iinteractiontrackerowner_inertiastateentered_1691074160.md) and check the RequestId property that identifies which request triggered the callback. The table below summarizes the expected behavior when this method is called in a particular state:
 
-<table>
-   <tr><th>Current State</th><th>Outcome</th></tr>
-   <tr><td>Idle</td><td>State changes to inertia and inertia modifiers are evaluated with requested velocity as initial velocity</td></tr>
-   <tr><td>Interacting</td><td>Request ignored</td></tr>
-   <tr><td>Inertia</td><td>Inertia is restarted (state re-enters inertia) and inertia modifiers are evaluated with requested velocity added to current velocity</td></tr>
-   <tr><td>CustomAnimation</td><td>Current animation stops and state changes to inertia with inertia modifiers evaluated using requested velocity as initial velocity</td></tr>
-</table>
+| Current State   | Outcome                                                                                                                                                |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Idle            | State changes to inertia and inertia modifiers are evaluated with requested velocity as initial velocity                                               |
+| Interacting     | Request ignored                                                                                                                                        |
+| Inertia         | Inertia is restarted (state re-enters inertia) and inertia modifiers are evaluated with requested velocity added to current velocity                   |
+| CustomAnimation | Current animation stops and state changes to inertia with inertia modifiers evaluated using requested velocity as initial velocity                     |
 
 ## -examples
+
 ```csharp
 
 // Listen for the InertiaStateEntered event
-public void InertiaStateEntered(InteractionTracker sender, 	InteractionTrackerInertiaStateEnteredArgs args)
+public void InertiaStateEntered(InteractionTracker sender,     InteractionTrackerInertiaStateEnteredArgs args)
 {
   // Adding velocity to InteractionTracker if condition met
   if (_extraVelocityNeeded)
   {
     // Only adding velocity in the Y direction
-    _tracker.TryUpdatePositionWithAdditionalVelocity(new Vector3(0.0f, 50.0f,	0.0f));
+    _tracker.TryUpdatePositionWithAdditionalVelocity(new Vector3(0.0f, 50.0f,    0.0f));
   }
 }
          
 ```
-
-
 
 ## -see-also

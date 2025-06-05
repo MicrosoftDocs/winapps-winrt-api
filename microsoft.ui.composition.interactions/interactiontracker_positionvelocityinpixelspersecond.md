@@ -24,6 +24,7 @@ The velocity currently applied to position.
 When accessing the PositionVelocityInPixelsPerSecond property from the [InertiaStateEntered](iinteractiontrackerowner_inertiastateentered_1691074160.md) event, you will be retrieving a snapshot of the calculated velocity based on the interaction. This event will only fire once after the interaction has occurred.
 
 ## -examples
+
 ```csharp
 
 // Listen for the InertiaStateEntered event, so we can grab PositionVelocityInPixelsPerSecond value.
@@ -41,16 +42,12 @@ void CustomSpringMotion(float springCoefficient, float dampingCoefficient, float
   modifier.Condition = _compositor.CreateExpressionAnimation("this.Target.NaturalRestingPosition.X > maxPosition");
   modifier.Condition.SetScalarParameter("maxPosition", maxPosition);
 
-  // Utilize the current Velocity of InteractionTracker in the Expression defining 	the custom spring motion
+  // Utilize the current Velocity of InteractionTracker in the Expression defining     the custom spring motion
   modifier.Motion = _compositor.CreateExpressionAnimation("(-springStiffnessCoefficient * (this.Target.Position.X – maxPosition)) + (-dampingCoefficient * this.target.PositionVelocityInPixelsPerSecond.X");
-  modifier.Motion.SetScalarParameter("springStiffnessCoefficient", 	springCoefficient);
+  modifier.Motion.SetScalarParameter("springStiffnessCoefficient",     springCoefficient);
   modifier.Motion.SetScalarParameter("dampingCoefficient", dampingCoefficient);
   modifier.Motion.SetScalarParameter("maxPosition", maxPosition); 
 }
-          
-          
 ```
-
-
 
 ## -see-also

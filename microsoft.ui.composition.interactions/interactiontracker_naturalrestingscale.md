@@ -24,10 +24,11 @@ Natural resting scale for the [InteractionTracker](interactiontracker.md).
 The two use cases described in the code snippet are the primary uses of the NaturalRestingScale property. Although you may be tempted to reference this property off [InteractionTracker](interactiontracker.md) like any other object.property relationship, you will not always get the most up-to-date value. It is recommended in this situation that you listen for the [InertiaStateEntered](iinteractiontrackerowner_inertiastateentered_1691074160.md) event and grab the latest value from the arguments.
 
 ## -examples
+
 ```csharp
 
 // Listen for the InertiaStateEntered event
-public void InertiaStateEntered(InteractionTracker sender, 	InteractionTrackerInertiaStateEnteredArgs args)
+public void InertiaStateEntered(InteractionTracker sender,     InteractionTrackerInertiaStateEnteredArgs args)
 {
   // Grab the NaturalRestingScale out of the args when the event is fired.
   float scaleRest = args.NaturalRestingScale;
@@ -50,10 +51,6 @@ void CreateBasicScaleSnapPoint(float maxScale, float minScale)
 
   _tracker.ConfigureScaleInertiaModifiers(scaleInertiaModifier);
 }
-         
-         
 ```
-
-
 
 ## -see-also

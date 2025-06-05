@@ -18,6 +18,7 @@ The TryUpdatePositionBy method updates the current location of [InteractionTrack
 ## -parameters
 
 ### -param amount
+
 The value to add to the current position.
 
 ## -returns
@@ -28,25 +29,23 @@ Returns the request ID. On state transitions, the request which caused the chang
 
 If InteractionTracker is in its Interacting State (user actively manipulating), and TryUpdatePositionBy is called, the system will ignore this request – an event gets fired when this occurs that can be listened for. If sent from one of the other states, listen for the event fired for IdleStateEntered and check the RequestId property that identifies which request triggered the callback. The table below summarizes the expected behavior when this method is called in a particular state:
 
-<table>
-   <tr><th>Current State</th><th>Outcome</th></tr>
-   <tr><td>Idle</td><td>Property updates to requested value, no state changes</td></tr>
-   <tr><td>Interacting</td><td>Request ignored</td></tr>
-   <tr><td>Inertia</td><td>Property updates to requested value, state changes to Idle</td></tr>
-   <tr><td>CustomAnimation</td><td>Property updates to requested value, state changes to Idle</td></tr>
-</table>
+| Current State   | Outcome                                                      |
+|-----------------|--------------------------------------------------------------|
+| Idle            | Property updates to requested value, no state changes        |
+| Interacting     | Request ignored                                              |
+| Inertia         | Property updates to requested value, state changes to Idle   |
+| CustomAnimation | Property updates to requested value, state changes to Idle   |
 
 ## -examples
+
 ```csharp
 
-public void InertiaStateEntered(InteractionTracker sender, 	InteractionTrackerInertiaStateEnteredArgs args)
+public void InertiaStateEntered(InteractionTracker sender,     InteractionTrackerInertiaStateEnteredArgs args)
 {
   // For sample purpose, will overwrite Inertia motion definitions by moving InteractionTracker to a specified position based on a delta
   _tracker.TryUpdatePositionBy(new Vector3(50f));}
 }
          
 ```
-
-
 
 ## -see-also

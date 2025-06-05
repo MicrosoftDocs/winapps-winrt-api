@@ -11,11 +11,13 @@ public void VisualInteractionSource.ConfigureCenterPointYModifiers(IIterable<Com
 
 ## -description
 
-Takes an ordered list of CompositionConditionalValue. In a frame, the first CompositionConditionalValue to have its “.Condition” evaluate to true replaces the zoom CenterPointY value the VisualInteractionSource provides with its “.Value”. If none evaluate to true, the CenterPointY is not replaced that frame.
+Takes an ordered list of CompositionConditionalValue. In a frame, the first CompositionConditionalValue to have its ".Condition" evaluate to true replaces the zoom CenterPointY value the VisualInteractionSource provides with its ".Value". If none evaluate to true, the CenterPointY is not replaced that frame.
 
 ## -parameters
 
 ### -param conditionalValues
+
+The collection of replacement values.
 
 ## -remarks
 

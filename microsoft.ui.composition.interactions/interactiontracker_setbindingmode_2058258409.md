@@ -32,7 +32,7 @@ The axis that is being bound.
 Both interaction trackers (_boundTracker1_, _boundTracker2_) must come from the same Compositor.
 
 Pass **None** as the _axisMode_ parameter to remove an existing binding mode.
- 
+
 ## -see-also
 
 ## -examples

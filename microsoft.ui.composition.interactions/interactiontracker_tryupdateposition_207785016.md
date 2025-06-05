@@ -29,15 +29,15 @@ Returns the request ID. On state transitions, the request which caused the chang
 
 If [InteractionTracker](interactiontracker.md) is in its Interacting State (user actively manipulating), and TryUpdatePosition is called, the system will ignore this request – an event gets fired when this occurs that can be listened for. If sent from one of the other states, listen for the event fired for IdleStateEntered and check the RequestId property that identifies which request triggered the callback. The table below summarizes the expected behavior when this method is called in a particular state:
 
-<table>
-   <tr><th>Current State</th><th>Outcome</th></tr>
-   <tr><td>Idle</td><td>Property updates to requested value, no state changes</td></tr>
-   <tr><td>Interacting</td><td>Request ignored</td></tr>
-   <tr><td>Inertia</td><td>Property updates to requested value, state changes to Idle</td></tr>
-   <tr><td>CustomAnimation</td><td>Property updates to requested value, state changes to Idle</td></tr>
-</table>
+| Current State   | Outcome                                                      |
+|-----------------|--------------------------------------------------------------|
+| Idle            | Property updates to requested value, no state changes        |
+| Interacting     | Request ignored                                              |
+| Inertia         | Property updates to requested value, state changes to Idle   |
+| CustomAnimation | Property updates to requested value, state changes to Idle   |
 
 ## -examples
+
 ```csharp
 
 void SetupInteractionTracker()
@@ -50,13 +50,11 @@ void SetupInteractionTracker()
   _tracker.InteractionSources.Add(_interactionSource);
   _tracker.PositionInertiaDecayRate = new Vector3(0.95f);
 
-  // Update the position of InteractionTracker, so doesn’t start at (0,0)
+  // Update the position of InteractionTracker, so doesn't start at (0,0)
   _tracker.TryUpdatePosition(new Vector3(50f));
 }
          
          
 ```
-
-
 
 ## -see-also

@@ -11,13 +11,7 @@ public Windows.UI.Composition.Interactions.InteractionChainingMode PositionYChai
 
 ## -description
 
-The PositionYChainingMode property defines the chaining behavior for an InteractionSource in the Y direction. There are three types of [InteractionChainingMode](interactionchainingmode.md) s: 
-    **Auto**
-  , 
-    **Always**
-  , 
-    **Never**
-  . When chaining in the Y direction is enabled, input will flow to the nearest ancestor’s [VisualInteractionSource](visualinteractionsource.md) whenever the interaction (such as panning) would otherwise take [InteractionTracker](interactiontracker.md) ’s position past its minimum or maximum Y position.
+The PositionYChainingMode property defines the chaining behavior for an InteractionSource in the Y direction. There are three [InteractionChainingMode](interactionchainingmode.md) types: **Auto**, **Always**, **Never**. When chaining in the Y direction is enabled, input will flow to the nearest ancestor's [VisualInteractionSource](visualinteractionsource.md) whenever the interaction (such as panning) would otherwise take [InteractionTracker](interactiontracker.md) 's position past its minimum or maximum Y position.
 
 ## -property-value
 
@@ -26,9 +20,10 @@ Chaining mode for the Y-axis.
 ## -remarks
 
 ## -examples
+
 ```csharp
 
-void SetupInteractionSource(ContainerVisual container, InteractionTracker 	tracker)
+void SetupInteractionSource(ContainerVisual container, InteractionTracker     tracker)
 {
   // Setup the Interaction Source
   _interactionSource = VisualInteractionSource.Create(container);
@@ -39,7 +34,5 @@ void SetupInteractionSource(ContainerVisual container, InteractionTracker 	track
 }
           
 ```
-
-
 
 ## -see-also

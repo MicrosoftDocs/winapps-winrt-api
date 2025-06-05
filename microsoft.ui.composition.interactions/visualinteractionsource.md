@@ -21,7 +21,7 @@ The VisualInteractionSource is used to define important properties about the typ
 
 VisualInteractionSource is the class for configuring which types of gestures should be considered for driving the InteractionTracker. Position X and Y are associated with horizontal and vertical panning respectively. Scale is detected with a pinch gesture, often associated with zooming. These three source modes are all configurable for touch and Precision Touchpad input. Each of these source modes can be enabled with or without inertia:
 
-* Enabling inertia indicates that position or scale will naturally interpolate from the release velocity to no velocity during the inertia state. 
+* Enabling inertia indicates that position or scale will naturally interpolate from the release velocity to no velocity during the inertia state.
 
 * Disabling inertia indicates that position or scale velocity will immediately go to 0 upon completion of the interaction. When input that drives position or scale is routed to the InteractionTracker, the InteractionTracker property of the same name will be updated appropriately.
 
@@ -80,6 +80,7 @@ The chaining configuration indicates whether input that is processed by one Visu
 -->
 
 ## -examples
+
 ```csharp
 
 void SetupSimpleInteractionTracker(Visual viewportVisual, Visual contentVisual)
@@ -133,8 +134,6 @@ void SetupSimpleInteractionTracker(Visual viewportVisual, Visual contentVisual)
          
          
 ```
-
-
 
 ## -see-also
 

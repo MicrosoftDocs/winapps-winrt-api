@@ -21,21 +21,22 @@ Boolean value indicating whether panning on the y-axis is railed.
 
 ## -remarks
 
-When this property is enabled, the system provides more leniency in what is considered a “perfect” vertical pan. Often times when a finger pans across the screen, it is very difficult for an end user to achieve a perfect pan in the Y-direction. This property helps makes it more possible to have “perfect” vertical panning in scenarios (such as multi-directional scrolling) where both X and Y panning is already enabled.
+When this property is enabled, the system provides more leniency in what is considered a "perfect" vertical pan. Often times when a finger pans across the screen, it is very difficult for an end user to achieve a perfect pan in the Y-direction. This property helps makes it more possible to have "perfect" vertical panning in scenarios (such as multi-directional scrolling) where both X and Y panning is already enabled.
 
-When enabled, pans within 22.5 degrees of the vertical axis will get recognized as “perfect” vertical pans – in other words, their X components will be ignored. Note that the angle of the pan is determined within the first few millimeters of the interaction and will retain that angle until the finger is lifted. If outside the threshold of 22.5 degrees of the axis, then the X component will then be recognized.
+When enabled, pans within 22.5 degrees of the vertical axis will get recognized as "perfect" vertical pans – in other words, their X components will be ignored. Note that the angle of the pan is determined within the first few millimeters of the interaction and will retain that angle until the finger is lifted. If outside the threshold of 22.5 degrees of the axis, then the X component will then be recognized.
 
 The diagram below shows this in a visual format:
 
-<img src="images/rails.png" alt="Pans within 22.5 degrees of the vertical axis will get recognized as perfect vertical pans – in other words, their X components will be ignored. If outside the threshold of 22.5 degrees of the axis, then the X component will then be recognized." />
+:::image type="content" source="images/rails.png" alt-text="Diagram showing how pans within 22.5 degrees of the vertical axis will get recognized as perfect vertical pans – in other words, their X components will be ignored. If outside the threshold of 22.5 degrees of the axis, then the X component will then be recognized.":::
 
 > [!NOTE]
 > When rails are enabled, this has an impact to chaining. The system will only chain up to its nearest acenstor VisualInteractionSource when the pan is within 22.5 degrees of the axis.
 
 ## -examples
+
 ```csharp
 
-void SetupInteractionSource(ContainerVisual container, InteractionTracker 	tracker)
+void SetupInteractionSource(ContainerVisual container, InteractionTracker     tracker)
 {
   // Setup the InteractionSource
   _interactionSource = VisualInteractionSource.Create(container);
@@ -46,7 +47,5 @@ void SetupInteractionSource(ContainerVisual container, InteractionTracker 	track
 }
         
 ```
-
-
 
 ## -see-also

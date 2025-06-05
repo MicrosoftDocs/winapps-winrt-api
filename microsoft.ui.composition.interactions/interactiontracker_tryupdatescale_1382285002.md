@@ -22,6 +22,7 @@ The TryUpdateScale method updates the scale location of [InteractionTracker](int
 The new value for scale.
 
 ### -param centerPoint
+
 The new center point.
 
 ## -returns
@@ -34,15 +35,15 @@ If [InteractionTracker](interactiontracker.md) is in its Interacting State (user
 
 The table below summarizes the expected behavior when this method is called in a particular state:
 
-<table>
-   <tr><th>Current State</th><th>Outcome</th></tr>
-   <tr><td>Idle</td><td>Property updates to requested value, no state changes</td></tr>
-   <tr><td>Interacting</td><td>Request ignored</td></tr>
-   <tr><td>Inertia</td><td>Property updates to requested value, state changes to Idle</td></tr>
-   <tr><td>CustomAnimation</td><td>Property updates to requested value, state changes to Idle</td></tr>
-</table>
+| Current State   | Outcome                                                      |
+|-----------------|--------------------------------------------------------------|
+| Idle            | Property updates to requested value, no state changes        |
+| Interacting     | Request ignored                                              |
+| Inertia         | Property updates to requested value, state changes to Idle   |
+| CustomAnimation | Property updates to requested value, state changes to Idle   |
 
 ## -examples
+
 ```csharp
 
 void SetupInteractionTracker()
@@ -60,7 +61,5 @@ void SetupInteractionTracker()
 }
          
 ```
-
-
 
 ## -see-also

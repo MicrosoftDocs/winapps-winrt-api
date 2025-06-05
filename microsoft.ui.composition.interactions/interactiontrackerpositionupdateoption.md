@@ -27,6 +27,4 @@ An active scale animation will continue.
 
 ## -see-also
 
-
-
 ## -examples

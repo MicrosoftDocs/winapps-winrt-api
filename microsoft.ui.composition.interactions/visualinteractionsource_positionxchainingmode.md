@@ -26,6 +26,7 @@ Chaining mode for the X-axis.
 ## -remarks
 
 ## -examples
+
 ```csharp
 
 void SetupInteractionSource(ContainerVisual container, InteractionTracker tracker)

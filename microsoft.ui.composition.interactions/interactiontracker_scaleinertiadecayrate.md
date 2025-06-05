@@ -25,9 +25,10 @@ Below is a graph of the equation that models the ScaleInertiaDecayRate property.
 
 In the graph, time is on the X axis, and position from the start of the interaction is on the Y. Notice that with a much larger value (closer to 1), the position from start is much smaller and plateaus earlier.
 
-<img src="images/inertiavalues.png" alt="Slopes of inertia values with decay rates of 0.9, 0.6, 0.4, and 0.2." />
+:::image type="content" source="images/inertiavalues.png" alt-text="Image showing the slopes of inertia values with decay rates of 0.9, 0.6, 0.4, and 0.2.":::
 
 ## -examples
+
 ```csharp
 
 void SetupInteractionTracker()
@@ -40,7 +41,5 @@ void SetupInteractionTracker()
 }
           
 ```
-
-
 
 ## -see-also

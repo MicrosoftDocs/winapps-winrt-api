@@ -24,6 +24,7 @@ Natural resting position for the [InteractionTracker](interactiontracker.md).
 The two use cases described in the code snippet above are the primary uses of the NaturalRestingPosition property. Although you may be tempted to reference this property off [InteractionTracker](interactiontracker.md) like any other object.property relationship, you will not always get the most up-to-date value. It is recommended in this situation that you listen for the [InertiaStateEntered](iinteractiontrackerowner_inertiastateentered_1691074160.md) event and grab the latest value from the arguments.
 
 ## -examples
+
 ```csharp
 
 // Listen for the InertiaStateEntered event, so can grab NaturalRestingPosition value.
@@ -33,13 +34,13 @@ public void InertiaStateEntered(InteractionTracker sender, InteractionTrackerIne
   Vector3 naturalRest = args.NaturalRestingPosition;
 }
 
-// Reference the NaturalRestingPosition property in an expression for things like 	SnapPoints
+// Reference the NaturalRestingPosition property in an expression for things like     SnapPoints
 void CreateBasicSnapPoint(float highBound, float lowBound)
 {
   var snappoint = InteractionTrackerInertiaRestingValue.Create(_compositor);
 
   // Reference the NaturalRestingPosition of InteractionTracker in an ExpressionAnimation for conditional portion of an InertiaModifier.
-  snappoint.Condition = _compositor.CreateExpressionAnimation("this.target.NaturalRestingPosition.Y >= 	lowBound && this.target.NaturalRestingPosition.Y < highBound ");
+  snappoint.Condition = _compositor.CreateExpressionAnimation("this.target.NaturalRestingPosition.Y >=     lowBound && this.target.NaturalRestingPosition.Y < highBound ");
             
   snappoint.Condition.SetScalarParameter("lowBound", lowBound);
   snappoint.Condition.SetScalarParameter("highBound", highBound);
@@ -52,10 +53,6 @@ void CreateBasicSnapPoint(float highBound, float lowBound)
 
   _tracker.ConfigurePositionYInertiaModifiers(yInertiaModifier);
 }
-          
-          
 ```
-
-
 
 ## -see-also

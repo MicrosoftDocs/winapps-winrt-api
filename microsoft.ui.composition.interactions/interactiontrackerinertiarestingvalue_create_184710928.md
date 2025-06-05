@@ -16,6 +16,7 @@ Creates an instance of [InteractionTrackerInertiaRestingValue](interactiontracke
 ## -parameters
 
 ### -param compositor
+
 The compositor to use when creating the [InteractionTrackerInertiaRestingValue](interactiontrackerinertiarestingvalue.md) object.
 
 ## -returns
