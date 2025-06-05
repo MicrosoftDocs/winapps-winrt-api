@@ -10,9 +10,11 @@ public ExpressionAnimation Value { get;  set; }
 # Microsoft.UI.Composition.Interactions.CompositionConditionalValue.Value
 
 ## -description
+
 The modified input expression to be applied when the condition is true.
 
 ## -property-value
+
 The modified input expression to be applied when the condition is true.
 
 ## -remarks
@@ -20,4 +22,3 @@ The modified input expression to be applied when the condition is true.
 ## -see-also
 
 ## -examples
-

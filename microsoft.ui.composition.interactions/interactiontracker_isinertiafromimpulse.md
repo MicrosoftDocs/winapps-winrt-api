@@ -30,4 +30,3 @@ For example, when scrolling a page of content, a small touch delta can result in
 [Create snap points with inertia modifiers](/windows/uwp/composition/inertia-modifiers), InteractionTracker_IsInertiaFromImpulse
 
 ## -examples
-

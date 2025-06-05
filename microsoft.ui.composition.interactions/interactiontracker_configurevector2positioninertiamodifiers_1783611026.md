@@ -14,6 +14,7 @@ public void InteractionTracker.ConfigureVector2PositionInertiaModifiers(IIterabl
 Applies a collection of InteractionTrackerInertiaModifier objects to the position of an InteractionTracker.
 
 ## -parameters
+
 ### -param modifiers
 
 The collection of InteractionTrackerInertiaModifier objects to apply to the position of an InteractionTracker.
@@ -23,4 +24,3 @@ The collection of InteractionTrackerInertiaModifier objects to apply to the posi
 ## -see-also
 
 ## -examples
-

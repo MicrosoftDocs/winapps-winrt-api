@@ -18,4 +18,3 @@ Base class for [InteractionTrackerVector2InertiaNaturalMotion](interactiontracke
 ## -see-also
 
 ## -examples
-

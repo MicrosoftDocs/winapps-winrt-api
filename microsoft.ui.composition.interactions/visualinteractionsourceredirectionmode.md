@@ -36,4 +36,3 @@ Pointer input goes to the UI thread, mouse wheel input goes to the compositor.
 ## -examples
 
 ## -see-also
-

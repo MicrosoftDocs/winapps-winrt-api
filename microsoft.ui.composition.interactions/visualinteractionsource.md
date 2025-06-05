@@ -10,16 +10,18 @@ public class VisualInteractionSource : Windows.UI.Composition.CompositionObject,
 # Microsoft.UI.Composition.Interactions.VisualInteractionSource
 
 ## -description
+
 Object for configuring input to the InteractionTracker relative to a visual.
 
 The VisualInteractionSource is designed to be used only with [InteractionTracker](interactiontracker.md) and defines which input will be sent to the [InteractionTracker](interactiontracker.md) to drive its state and properties. This class contains both the visual to be used for hit-testing, as well as a variety of configuration properties for which gestures and types of input will be sent to the [InteractionTracker](interactiontracker.md).
 
 ## -remarks
+
 The VisualInteractionSource is used to define important properties about the types of interactions that should drive the InteractionTracker's state and properties. The source property is used both for hit-testing, as well as the coordinate space for gesture detection. As a result, it is important to use a Visual that is not going to be in motion during the manipulation. Multiple VisualInteractionSources can be associated with the same InteractionTracker if there are multiple hit-test regions, but the most common cases require only one VisualInteractionSource for a given InteractionTracker.
 
 VisualInteractionSource is the class for configuring which types of gestures should be considered for driving the InteractionTracker. Position X and Y are associated with horizontal and vertical panning respectively. Scale is detected with a pinch gesture, often associated with zooming. These three source modes are all configurable for touch and Precision Touchpad input. Each of these source modes can be enabled with or without inertia:
 
-* Enabling inertia indicates that position or scale will naturally interpolate from the release velocity to no velocity during the inertia state. 
+* Enabling inertia indicates that position or scale will naturally interpolate from the release velocity to no velocity during the inertia state.
 
 * Disabling inertia indicates that position or scale velocity will immediately go to 0 upon completion of the interaction. When input that drives position or scale is routed to the InteractionTracker, the InteractionTracker property of the same name will be updated appropriately.
 
@@ -78,6 +80,7 @@ The chaining configuration indicates whether input that is processed by one Visu
 -->
 
 ## -examples
+
 ```csharp
 
 void SetupSimpleInteractionTracker(Visual viewportVisual, Visual contentVisual)
@@ -132,7 +135,6 @@ void SetupSimpleInteractionTracker(Visual viewportVisual, Visual contentVisual)
          
 ```
 
-
-
 ## -see-also
+
 [CompositionObject](../microsoft.ui.composition/compositionobject.md), [IClosable](/uwp/api/windows.foundation.iclosable), [ICompositionInteractionSource](icompositioninteractionsource.md)

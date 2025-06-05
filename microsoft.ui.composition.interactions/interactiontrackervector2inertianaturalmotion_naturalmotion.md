@@ -22,4 +22,3 @@ A Vector2NaturalMotionAnimation that describes the modified motion for [Interact
 ## -see-also
 
 ## -examples
-

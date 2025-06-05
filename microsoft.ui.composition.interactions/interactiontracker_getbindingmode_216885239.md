@@ -14,6 +14,7 @@ public InteractionBindingAxisModes InteractionTracker.GetBindingMode(Interaction
 Retrieves the binding axis mode between two interaction trackers.
 
 ## -parameters
+
 ### -param boundTracker1
 
 The first interaction tracker in the binding.
@@ -29,4 +30,3 @@ The second interaction tracker in the binding.
 ## -see-also
 
 ## -examples
-

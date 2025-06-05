@@ -14,6 +14,7 @@ public enum InteractionBindingAxisModes : uint
 Defines constants that specify which axis is bound between two interaction trackers.
 
 ## -enum-fields
+
 ### -field Scale:4
 
 The binding affects scale.
@@ -37,4 +38,3 @@ Pass **None** to [InteractionTracker.SetBindingMode](interactiontracker_setbindi
 ## -see-also
 
 ## -examples
-

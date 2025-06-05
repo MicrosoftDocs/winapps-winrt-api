@@ -14,6 +14,7 @@ public VisualInteractionSource VisualInteractionSource.CreateFromIVisualElement(
 Creates an instance of [VisualInteractionSource](visualinteractionsource.md) from an element that implements [IVisualElement](../microsoft.ui.composition/ivisualelement.md).
 
 ## -parameters
+
 ### -param source
 
 The element to use as the source of the interaction, typically a XAML [UIElement](../microsoft.ui.xaml/uielement.md).
@@ -27,4 +28,3 @@ Returns the created [VisualInteractionSource](visualinteractionsource.md) object
 ## -see-also
 
 ## -examples
-

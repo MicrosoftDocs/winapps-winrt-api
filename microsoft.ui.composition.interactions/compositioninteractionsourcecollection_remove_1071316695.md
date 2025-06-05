@@ -10,10 +10,13 @@ public void Remove(Windows.UI.Composition.Interactions.ICompositionInteractionSo
 # Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.Remove
 
 ## -description
+
 Removes the specified interaction source from the collection.
 
 ## -parameters
+
 ### -param value
+
 The interaction source to remove from the collection.
 
 ## -remarks

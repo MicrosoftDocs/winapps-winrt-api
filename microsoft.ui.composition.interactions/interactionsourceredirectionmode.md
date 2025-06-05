@@ -14,6 +14,7 @@ public enum InteractionSourceRedirectionMode : int
 Defines constants that specify whether an input should be redirected to the InteractionTracker.
 
 ## -enum-fields
+
 ### -field Enabled:1
 
 Input is redirected to the InteractionTracker.
@@ -27,4 +28,3 @@ Redirection is off, all input goes to the UI thread.
 ## -see-also
 
 ## -examples
-

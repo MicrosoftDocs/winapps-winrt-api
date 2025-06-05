@@ -10,13 +10,17 @@ public void CustomAnimationStateEntered(Windows.UI.Composition.Interactions.Inte
 # Microsoft.UI.Composition.Interactions.IInteractionTrackerOwner.CustomAnimationStateEntered
 
 ## -description
+
 Callback triggered when an [InteractionTracker](interactiontracker.md) enters the custom animation state.
 
 ## -parameters
+
 ### -param sender
+
 The [InteractionTracker](interactiontracker.md) that triggered the callback.
 
 ### -param args
+
 Arguments for the callback.
 
 ## -remarks

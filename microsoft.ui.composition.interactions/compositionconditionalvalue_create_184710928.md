@@ -10,6 +10,7 @@ public CompositionConditionalValue CompositionConditionalValue.Create(Compositor
 # Microsoft.UI.Composition.Interactions.CompositionConditionalValue.Create
 
 ## -description
+
 Creates an instance of CompositionConditionalValue.
 
 ## -parameters
@@ -17,6 +18,7 @@ Creates an instance of CompositionConditionalValue.
 ### -param compositor
 
 ## -returns
+
 Returns the created CompositionConditionalValue.
 
 ## -remarks
@@ -24,4 +26,3 @@ Returns the created CompositionConditionalValue.
 ## -see-also
 
 ## -examples
-
