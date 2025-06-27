@@ -14,6 +14,7 @@ public InteractionTrackerInertiaNaturalMotion InteractionTrackerInertiaNaturalMo
 Creates an instance of [InteractionTrackerInertiaNaturalMotion](interactiontrackerinertianaturalmotion.md).
 
 ## -parameters
+
 ### -param compositor
 
 The compositor to use when creating the InteractionTrackerInertiaNaturalMotion object.
@@ -27,4 +28,3 @@ Returns the created InteractionTrackerInertiaNaturalMotion object.
 ## -see-also
 
 ## -examples
-

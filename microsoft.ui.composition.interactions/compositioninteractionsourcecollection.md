@@ -10,15 +10,16 @@ public class CompositionInteractionSourceCollection : Windows.UI.Composition.Com
 # Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection
 
 ## -description
+
 A collection of interaction sources.
 
 This is the collection of interaction sources that are associated with a given [InteractionTracker](interactiontracker.md). The only valid member of this collection is a [VisualInteractionSource](visualinteractionsource.md). Each [VisualInteractionSource](visualinteractionsource.md) needs to have a unique hit-test (source) visual. Each [VisualInteractionSource](visualinteractionsource.md) will be configured individually for the desired input to be sent to the [InteractionTracker](interactiontracker.md).
 
 ## -remarks
+
 While multiple CompositionInteractionSources can be added to the same CompositionInteractionSourceCollection the most common case is to only have one member in this collection. Multiple can be used if multiple hit-test regions should drive the same [InteractionTracker](interactiontracker.md). If multiple source visuals are hit-test at the same time the visual tree hierarchy will determine which one takes precedence. If any common parent contains more hit-test contacts than a single child, the input will be promoted to that parent.
 
 ## -examples
-
 
 ```csharp
 
@@ -69,7 +70,6 @@ void SetupMultipleSourceInteractionTracker(Visual horizontalVisual, Visual verti
          
 ```
 
-
-
 ## -see-also
+
 [CompositionObject](../microsoft.ui.composition/compositionobject.md), [IClosable](/uwp/api/windows.foundation.iclosable), [IIterable(ICompositionInteractionSource)](/uwp/api/windows.foundation.collections.iiterable-1)

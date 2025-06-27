@@ -38,4 +38,3 @@ interactionSource.PointerWheelConfig.PositionYSourceMode =
 [VisualInteractionSource.PointerWheelConfig](visualinteractionsource_pointerwheelconfig.md)
 
 ## -examples
-

@@ -10,11 +10,13 @@ public class InteractionTrackerInertiaRestingValue : Windows.UI.Composition.Inte
 # Microsoft.UI.Composition.Interactions.InteractionTrackerInertiaRestingValue
 
 ## -description
+
 An [ExpressionAnimation](../microsoft.ui.composition/expressionanimation.md) that defines the rest position after an interaction.
 
-The InteractionTrackerInertiaRestingValue class defines two [ExpressionAnimation](../microsoft.ui.composition/expressionanimation.md)s that calculate an explicit resting position for [InteractionTracker](interactiontracker.md) when a particular condition is met. The InteractionTrackerInertiaRestingValue is defined as two parts: The conditional statement in which the [InteractionTracker](interactiontracker.md) ’s specific resting location needs to be explicitly defined if true and the equation that describes a mathematical relationship that outputs the location. Utilize the InteractionTrackerInertiaRestingValue class when needing to ensure InteractionTracker lands on a specific location after an interaction occurs.
+The InteractionTrackerInertiaRestingValue class defines two [ExpressionAnimation](../microsoft.ui.composition/expressionanimation.md)s that calculate an explicit resting position for [InteractionTracker](interactiontracker.md) when a particular condition is met. The InteractionTrackerInertiaRestingValue is defined as two parts: The conditional statement in which the [InteractionTracker](interactiontracker.md) 's specific resting location needs to be explicitly defined if true and the equation that describes a mathematical relationship that outputs the location. Utilize the InteractionTrackerInertiaRestingValue class when needing to ensure InteractionTracker lands on a specific location after an interaction occurs.
 
 ## -remarks
+
 When attaching the InteractionTrackerInertiaRestingValue modifier to the [InteractionTracker](interactiontracker.md), you configure it to either the X/Y Position or Scale.
 
 The [ExpressionAnimation](../microsoft.ui.composition/expressionanimation.md) defining the condition property only gets run once, when the interaction completes (finger released), while the RestingValue Expression gets run every frame.
@@ -23,9 +25,7 @@ InteractionTrackerInertiaRestingValue modifiers explicitly defines the resting p
 
 ## -examples
 
-
-```
-
+```csharp
 void MandatorySingleSnapPoints(ContainerVisual containerVisual, Visual contentVisual)
 {
   //
@@ -41,7 +41,7 @@ void MandatorySingleSnapPoints(ContainerVisual containerVisual, Visual contentVi
     
   var modifier1 = InteractionTrackerInertiaRestingValue.Create(_compositor);
      
-  // Add a condition for when this upward “snap-point” applies.
+  // Add a condition for when this upward "snap-point" applies.
   modifier1.Condition = _compositor.CreateExpressionAnimation(
     "this.Target.NaturalRestingPosition.y < " + 
     "(this.StartingValue - mod(this.StartingValue, snapPointRange) + snapPointRange / 2)");
@@ -60,7 +60,7 @@ void MandatorySingleSnapPoints(ContainerVisual containerVisual, Visual contentVi
  
   var modifier2 = InteractionTrackerInertiaRestingValue.Create(_compositor);
  
-  // Add a condition for when this downward “snap-point” applies.
+  // Add a condition for when this downward "snap-point" applies.
   modifier2.Condition = _compositor.CreateExpressionAnimation(
     "this.Target.NaturalRestingPosition.y >= " + 
     "(this.StartingValue - mod(this.StartingValue, snapPointRange) + snapPointRange / 2)");
@@ -85,7 +85,6 @@ void MandatorySingleSnapPoints(ContainerVisual containerVisual, Visual contentVi
       
 ```
 
-
-
 ## -see-also
+
 [InteractionTrackerInertiaModifier](interactiontrackerinertiamodifier.md), [IClosable](/uwp/api/windows.foundation.iclosable)

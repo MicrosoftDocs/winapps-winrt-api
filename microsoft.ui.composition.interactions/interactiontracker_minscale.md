@@ -10,9 +10,11 @@ public float MinScale { get;  set; }
 # Microsoft.UI.Composition.Interactions.InteractionTracker.MinScale
 
 ## -description
+
 The minimum scale for the [InteractionTracker](interactiontracker.md).
 
 ## -property-value
+
 The minimum scale for the [InteractionTracker](interactiontracker.md).
 
 ## -remarks

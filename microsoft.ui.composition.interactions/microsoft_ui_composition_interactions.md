@@ -6,6 +6,7 @@
 # Microsoft.UI.Composition.Interactions
 
 ## -description
+
 Provides functionality that enables input driven animations in the visual layer.
 
 ## -remarks

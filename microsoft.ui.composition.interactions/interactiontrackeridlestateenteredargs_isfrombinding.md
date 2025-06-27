@@ -22,4 +22,3 @@ Gets a value that indicates whether this state was entered through interaction w
 ## -see-also
 
 ## -examples
-

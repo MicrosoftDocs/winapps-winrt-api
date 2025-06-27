@@ -10,33 +10,38 @@ public int TryUpdatePositionWithAnimation(Windows.UI.Composition.CompositionAnim
 # Microsoft.UI.Composition.Interactions.InteractionTracker.TryUpdatePositionWithAnimation
 
 ## -description
+
 Tries to update the [InteractionTracker](interactiontracker.md)'s position by applying an animation.
 
-The TryUpdatePositionWithAnimation method updates the position of [InteractionTracker](interactiontracker.md) based on the [CompositionAnimation](../microsoft.ui.composition/compositionanimation.md) input as a parameter. This method is used in situations in which the motion of [InteractionTracker](interactiontracker.md) needs to be defined by a specific animation, instead of the traditional Inertia experience. TryUpdatePositionWithAnimation can be called from the Idle or Inertia state – doing so, [InteractionTracker](interactiontracker.md) ’s position will be driven by the defined animation and enter the CustomAnimation state.
+The TryUpdatePositionWithAnimation method updates the position of [InteractionTracker](interactiontracker.md) based on the [CompositionAnimation](../microsoft.ui.composition/compositionanimation.md) input as a parameter. This method is used in situations in which the motion of [InteractionTracker](interactiontracker.md) needs to be defined by a specific animation, instead of the traditional Inertia experience. TryUpdatePositionWithAnimation can be called from the Idle or Inertia state – doing so, [InteractionTracker](interactiontracker.md) 's position will be driven by the defined animation and enter the CustomAnimation state.
 
 ## -parameters
+
 ### -param animation
+
 The animation to apply to the [InteractionTracker](interactiontracker.md).
 
 ## -returns
+
 Returns the request ID. On state transitions, the request which caused the change in state will be included in the args. These IDs will start at 1 and increase with each try call during the lifetime of the application.
 
 ## -remarks
-When creating the animation you want to update [InteractionTracker](interactiontracker.md) ’s position with, you do not need to call [Microsoft.UI.Composition.CompositionObject.StartAnimation](../microsoft.ui.composition/compositionobject_startanimation_394405412.md). The system will take care of this behind the scenes once the animation is passed in via TryUpdatePositionWithAnimation.
 
-When defining the animation that will animate [InteractionTracker](interactiontracker.md) ’s position, be sure to either use a [Vector3KeyFrameAnimation](../microsoft.ui.composition/vector3keyframeanimation.md) or an [ExpressionAnimation](../microsoft.ui.composition/expressionanimation.md) that resolves to a Vector3.
+When creating the animation you want to update [InteractionTracker](interactiontracker.md) 's position with, you do not need to call [Microsoft.UI.Composition.CompositionObject.StartAnimation](../microsoft.ui.composition/compositionobject_startanimation_394405412.md). The system will take care of this behind the scenes once the animation is passed in via TryUpdatePositionWithAnimation.
+
+When defining the animation that will animate [InteractionTracker](interactiontracker.md) 's position, be sure to either use a [Vector3KeyFrameAnimation](../microsoft.ui.composition/vector3keyframeanimation.md) or an [ExpressionAnimation](../microsoft.ui.composition/expressionanimation.md) that resolves to a Vector3.
 
 The table below summarizes the expected behavior when this method is called in a particular state:
 
-<table>
-   <tr><th>Current State</th><th>Outcome</th></tr>
-   <tr><td>Idle</td><td>Requested animation starts on requested property, state changes to CustomAnimation</td></tr>
-   <tr><td>Interacting</td><td>Request ignored</td></tr>
-   <tr><td>Inertia</td><td>Requested animation starts on requested property, state changes to CustomAnimation</td></tr>
-   <tr><td>CustomAnimation</td><td>Current animation stops and new requested animation starts on requested property, state re-enters CustomAnimation</td></tr>
-</table>
+| Current State    | Outcome                                                                                                                         |
+|------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| Idle             | Requested animation starts on requested property, state changes to CustomAnimation                                              |
+| Interacting      | Request ignored                                                                                                                 |
+| Inertia          | Requested animation starts on requested property, state changes to CustomAnimation                                              |
+| CustomAnimation  | Current animation stops and new requested animation starts on requested property, state re-enters CustomAnimation               |
 
 ## -examples
+
 ```csharp
 
 void CustomAnimationForIT(Vector3 newPosition)
@@ -56,7 +61,5 @@ void CustomAnimationForIT(Vector3 newPosition)
 }
          
 ```
-
-
 
 ## -see-also

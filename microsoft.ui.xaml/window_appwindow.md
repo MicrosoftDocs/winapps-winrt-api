@@ -22,5 +22,3 @@ The `AppWindow` associated with this XAML `Window`.
 ## -see-also
 
 ## -examples
-
-
