@@ -14,6 +14,7 @@ public void InteractionTracker.SetBindingMode(InteractionTracker boundTracker1, 
 Sets the binding axis mode between two interaction trackers.
 
 ## -parameters
+
 ### -param boundTracker1
 
 The first interaction tracker in the binding.
@@ -31,8 +32,7 @@ The axis that is being bound.
 Both interaction trackers (_boundTracker1_, _boundTracker2_) must come from the same Compositor.
 
 Pass **None** as the _axisMode_ parameter to remove an existing binding mode.
- 
+
 ## -see-also
 
 ## -examples
-

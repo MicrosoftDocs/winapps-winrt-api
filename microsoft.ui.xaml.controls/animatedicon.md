@@ -39,17 +39,17 @@ Animated visual sources that are used in control templates often have a more com
 You can set the property on the `AnimatedIcon` or on an ancestor in the XAML tree. In either case, you need to use the attached property syntax, like this:
 
 ```xaml
-<muxc:AnimatedIcon muxc:AnimatedIcon.State="Normal">...</muxc:AnimatedIcon>
+<AnimatedIcon AnimatedIcon.State="Normal">...</AnimatedIcon>
 ```
 
 > [!IMPORTANT]
 > If you add an `AnimatedIcon` to the XAML tree and set the `State` property on an ancestor element, the `State` property must be set to an initial value before the animated icon is first loaded in order for the icon to animate. You typically set the initial state in XAML as shown here.
 >
 >```xaml
-><StackPanel muxc:AnimatedIcon.State="Normal" ...>
->    <muxc:AnimatedIcon>
+><StackPanel AnimatedIcon.State="Normal" ...>
+>    <AnimatedIcon>
 >        <animatedvisuals:AnimatedBackVisualSource/>
->    </muxc:AnimatedIcon>
+>    </AnimatedIcon>
 ></StackPanel>
 >```
 
@@ -57,7 +57,7 @@ You can set the property on the `AnimatedIcon` or on an ancestor in the XAML tre
 
 You can add an `AnimatedIcon` to the `ControlTemplate` of a XAML control and use a [VisualStateManager](../microsoft.ui.xaml/visualstatemanager.md) to set its state. Some controls, such as [NavigationViewItem](navigationviewitem.md), automatically set the state for an `AnimatedIcon` that is set as its [Icon](navigationviewitem_icon.md).
 
-To see an example that sets `AnimatedIcon.State` in a control template visual state, see [CheckBox_themeresources.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/CheckBox_themeresources.xaml) in the WinUI GitHub repo. The `CheckBox` control uses the [AnimatedAcceptVisualSource](../microsoft.ui.xaml.controls.animatedvisuals/animatedacceptvisualsource.md) for its check mark. The visual state setters look like this:
+To see an example that sets `AnimatedIcon.State` in a control template visual state, see the default template for [CheckBox](checkbox.md#control-style-and-template). The `CheckBox` control uses the [AnimatedAcceptVisualSource](../microsoft.ui.xaml.controls.animatedvisuals/animatedacceptvisualsource.md) for its check mark. The visual state setters look like this:
 
 ```xaml
 <VisualState x:Name="CheckedPointerOver">
@@ -96,7 +96,7 @@ In order to support XAML processor access to the attached properties, and also t
 > For more info, design guidance, and code examples, see [Animated icon](/windows/apps/design/controls/animated-icon).
 
 > [!div class="nextstepaction"]
-> [Open the WinUI 3 Gallery app and see the AnimatedIcon in action](winui3gallery:/item/AnimatedIcon)
+> [Open the WinUI 3 Gallery app and see the AnimatedIcon in action](winui3gallery://item/AnimatedIcon)
 
 > The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery)
 
@@ -110,26 +110,23 @@ This example demonstrates a back button with a back arrow icon that animates whe
 
 ```xaml
 <!-- 
-xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
 xmlns:animatedvisuals="using:Microsoft.UI.Xaml.Controls.AnimatedVisuals"
 -->
 
 <AppBarButton x:Name="BackButton" Label="Back"
-              muxc:AnimatedIcon.State="Normal"
+              AnimatedIcon.State="Normal"
               PointerEntered="AppBarButton_PointerEntered"
               PointerExited="AppBarButton_PointerExited">
-    <muxc:AnimatedIcon>
+    <AnimatedIcon>
         <animatedvisuals:AnimatedBackVisualSource/>
-        <muxc:AnimatedIcon.FallbackIconSource>
-            <muxc:SymbolIconSource Symbol="Back"/>
-        </muxc:AnimatedIcon.FallbackIconSource>
-    </muxc:AnimatedIcon>
+        <AnimatedIcon.FallbackIconSource>
+            <SymbolIconSource Symbol="Back"/>
+        </AnimatedIcon.FallbackIconSource>
+    </AnimatedIcon>
 </AppBarButton>
 ```
 
 ```csharp
-// using muxc = Microsoft.UI.Xaml.Controls;
-
 // Add handlers.
 protected override void OnNavigatedTo(NavigationEventArgs e)
 {
@@ -152,22 +149,22 @@ protected override void OnNavigatedFrom(NavigationEventArgs e)
 
 private void AppBarButton_PointerEntered(object sender, PointerRoutedEventArgs e)
 {
-    muxc.AnimatedIcon.SetState((UIElement)sender, "PointerOver");
+    AnimatedIcon.SetState((UIElement)sender, "PointerOver");
 }
 
 private void AppBarButton_PointerPressed(object sender, PointerRoutedEventArgs e)
 {
-    muxc.AnimatedIcon.SetState((UIElement)sender, "Pressed");
+    AnimatedIcon.SetState((UIElement)sender, "Pressed");
 }
 
 private void AppBarButton_PointerReleased(object sender, PointerRoutedEventArgs e)
 {
-    muxc.AnimatedIcon.SetState((UIElement)sender, "Normal");
+    AnimatedIcon.SetState((UIElement)sender, "Normal");
 }
 
 private void AppBarButton_PointerExited(object sender, PointerRoutedEventArgs e)
 {
-    muxc.AnimatedIcon.SetState((UIElement)sender, "Normal");
+    AnimatedIcon.SetState((UIElement)sender, "Normal");
 }
 ```
 

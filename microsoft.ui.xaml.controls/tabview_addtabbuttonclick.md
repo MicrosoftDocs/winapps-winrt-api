@@ -11,11 +11,15 @@ public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Xaml.Controls.Tab
 
 ## -description
 
-Occurs when the add (+) tab button has been clicked. 
+Occurs when the add tab button (+) has been clicked.
 
 ## -remarks
 
+For more info, design guidance, and code examples, see [Tab view](/windows/apps/design/controls/tab-view).
+
 ## -see-also
+
+[Tab view](/windows/apps/design/controls/tab-view), [AddTabButtonCommand](tabview_addtabbuttoncommand.md)
 
 ## -examples
 

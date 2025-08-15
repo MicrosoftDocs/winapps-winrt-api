@@ -16,7 +16,7 @@ Gets or sets a value that indicates whether this window can be minimized.
 
 ## -property-value
 
-`true` if this window can be minimized; otherwise, `false`;
+`true` if this window can be minimized; otherwise, `false`.
 
 ## -remarks
 

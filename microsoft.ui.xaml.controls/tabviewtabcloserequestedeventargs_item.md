@@ -11,9 +11,11 @@ public object Item { get; }
 
 ## -description
 
-Gets a value that represents the data context for the tab in which a close is being requested.
+Gets the data item for the tab for which a close is being requested.
 
 ## -property-value
+
+The data item for the tab for which a close is being requested.
 
 ## -remarks
 

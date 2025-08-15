@@ -12,7 +12,7 @@ public interface IWidgetProviderAnalytics
 
 ## -description
 
-This interface is implemented by Windows widget providers to receive callbacks from the widget host for widget analytics events.
+This optional interface can be implemented by Windows widget providers to receive callbacks from the widget host for widget analytics events.
 
 ## -remarks
 

@@ -9,7 +9,6 @@
 public static void RegisterForFileTypeActivation (string[] supportedFileTypes, string logo, string displayName, string[] supportedVerbs, string exePath);
 -->
 
-
 ## -description
 
 Registers to activate the app when the specified file type is opened via [ShellExecute](/windows/win32/api/shellapi/nf-shellapi-shellexecuteexw), [Launcher.LaunchFileAsync](/uwp/api/windows.system.launcher.launchfileasync), or the command-line.
@@ -34,14 +33,14 @@ Zero or more app-defined verbs. Each verb is added to the **File Explorer** cont
 
 ### -param exePath
 
-The path to the executable to be activated. If you pass an empty string, the current exectuable will be activated by default. Typically this parameter is specified if the caller of this method is the app's installer rather than the app itself.
+The path to the executable to be activated. If you pass an empty string, the current executable will be activated by default. Typically this parameter is specified if the caller of this method is the app's installer rather than the app itself.
 
 ## -remarks
 
-[UnregisterForFileTypeActivation](activationregistrationmanager_unregisterforfiletypeactivation_236201725.md)
+Packaged apps should continue to use their appx manifest to register for file-type, protocol or startup activation. They can then use either [Microsoft.Windows.AppLifecycle.AppInstance.GetActivatedEventArgs](appinstance_getactivatedeventargs_19856196.md) or [Windows.ApplicationModel.AppInstance.GetActivatedEventArgs](/uwp/api/windows.applicationmodel.appinstance.getactivatedeventargs) to retrieve the arguments on activation.
 
 ## -see-also
 
+[UnregisterForFileTypeActivation](activationregistrationmanager_unregisterforfiletypeactivation_236201725.md)
+
 ## -examples
-
-

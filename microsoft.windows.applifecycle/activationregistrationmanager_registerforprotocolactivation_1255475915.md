@@ -33,6 +33,8 @@ The path to the executable to be activated. If you pass an empty string, the cur
 
 ## -remarks
 
+Packaged apps should continue to use their appx manifest to register for file-type, protocol or startup activation. They can then use either [Microsoft.Windows.AppLifecycle.AppInstance.GetActivatedEventArgs](appinstance_getactivatedeventargs_19856196.md) or [Windows.ApplicationModel.AppInstance.GetActivatedEventArgs](/uwp/api/windows.applicationmodel.appinstance.getactivatedeventargs) to retrieve the arguments on activation.
+
 ## -see-also
 
 [UnregisterForProtocolActivation](activationregistrationmanager_unregisterforprotocolactivation_1644306636.md)

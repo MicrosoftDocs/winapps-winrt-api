@@ -10,7 +10,7 @@ public class MatrixHelper : Windows.UI.Xaml.Media.IMatrixHelper
 # Microsoft.UI.Xaml.Media.MatrixHelper
 
 ## -description
-Provides static helper methods for processing [Matrix](matrix.md) values. C# and Microsoft Visual Basic code should use members of [Matrix](matrix.md) instead.
+Provides static helper methods for processing [Matrix](matrix.md) values. C# code should use members of [Matrix](matrix.md) instead.
 
 ## -remarks
 

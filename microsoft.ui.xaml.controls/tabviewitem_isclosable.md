@@ -11,11 +11,11 @@ public bool IsClosable { get; set; }
 
 ## -description
 
-Gets or sets the value that determines if the tab shows a close button. The default is true.
+Gets or sets a value that indicates whether the tab shows a close button.
 
 ## -property-value
 
-Determines if the tab shows a close button. The default is true.
+`true` if the tab shows a close button; otherwise, `false`. The default is `true`.
 
 ## -remarks
 

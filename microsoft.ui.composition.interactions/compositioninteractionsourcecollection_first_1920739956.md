@@ -10,9 +10,11 @@ public Windows.Foundation.Collections.IIterator<Windows.UI.Composition.Interacti
 # Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.First
 
 ## -description
+
 Returns an iterator pointing to the first object in the collection.
 
 ## -returns
+
 Returns an iterator pointing to the first object in the collection.
 
 ## -remarks

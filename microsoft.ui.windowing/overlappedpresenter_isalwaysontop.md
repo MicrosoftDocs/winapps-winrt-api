@@ -16,7 +16,7 @@ Gets or sets a value that indicates whether this window will be kept on top of o
 
 ## -property-value
 
-`true` if this window will be kept on top of other windows; otherwise, `false`;
+`true` if this window will be kept on top of other windows; otherwise, `false`.
 
 ## -remarks
 

@@ -191,6 +191,14 @@ The app was activated by a phone call.
 
 The app was activated as a VPN app in the foreground.
 
+### -field Push: 5000
+
+The app was activated by a push notification.
+
+### -field AppNotification: 5001
+
+The app was activated by an app notification.
+
 ## -remarks
 
 This enum is used by the [Kind](appactivationarguments_kind.md) property.

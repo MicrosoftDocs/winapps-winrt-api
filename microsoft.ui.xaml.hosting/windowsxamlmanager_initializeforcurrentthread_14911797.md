@@ -25,6 +25,11 @@ If you create a **DesktopWindowXamlSource** object before you create the **Windo
 
 This method returns a [WindowsXamlManager](windowsxamlmanager.md) object that contains a reference to the WinUI XAML framework. You can create as many **WindowsXamlManager** objects as you want on a given thread. However, because each object holds a reference to the WinUI XAML framework, you should [Close](desktopwindowxamlsource_close_811482585.md) (**Dispose** in .NET) the objects to ensure that XAML resources are eventually released.
 
+> [!NOTE]
+> In Windows App SDK 1.4, `InitializeForCurrentThread` returns a new object each time it is called.
+>
+> In Windows App SDK 1.5 or later, `InitializeForCurrentThread` returns the same `WindowsXamlManager` instance until the [DispatcherQueue](../microsoft.ui.dispatching/dispatcherqueue.md) on the thread shuts down.
+
 ## -see-also
 
 ## -examples

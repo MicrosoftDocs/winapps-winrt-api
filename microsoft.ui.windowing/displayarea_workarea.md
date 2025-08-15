@@ -19,6 +19,8 @@ The rectangle of the work area of the `DisplayArea`.
 
 ## -remarks
 
+The _work area_ of a display is the part of the desktop display that excludes task bars, docked windows, and docked tool bars.
+
 ## -see-also
 
 [DisplayArea](displayarea.md)

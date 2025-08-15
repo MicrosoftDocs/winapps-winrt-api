@@ -11,11 +11,11 @@ public Microsoft.UI.Content.ContentLayoutDirection LayoutDirection { get; set; }
 
 ## -description
 
-Gets or sets the layout direction for reading order and text alignment for this <xref:Microsoft.UI.Content.ContentSite>.
+Gets or sets the layout direction for reading order and text alignment for this [**ContentSite**](contentsite.md).
 
 ## -property-value
 
-The layout direction for reading order and text alignment for this <xref:Microsoft.UI.Content.ContentSite>.
+The layout direction for reading order and text alignment for this [**ContentSite**](contentsite.md).
 
 ## -remarks
 

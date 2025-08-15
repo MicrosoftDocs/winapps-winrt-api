@@ -11,13 +11,13 @@ public object AppData { get; set; }
 
 ## -description
 
-Gets or sets a storage container for this <xref:Microsoft.UI.Content.ContentIsland>.
+Gets or sets a storage container for this [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -property-value
 
 ## -remarks
 
-If the data object implements [IClosable](xref:Windows.Foundation.IClosable) or [IDisposable](xref:Microsoft.IDisposableObservable), it will be notified when the ContentIsland is closed or disposed.
+If the data object implements [IClosable](/uwp/api/windows.foundation.iclosable) or [IDisposable](xref:Microsoft.IDisposableObservable), it will be notified when the ContentIsland is closed or disposed.
 
 ## -see-also
 

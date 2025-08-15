@@ -15,6 +15,9 @@ Represents the base class for flyout controls, such as [Flyout](../microsoft.ui.
 
 ## -remarks
 
+> [!NOTE]
+> When used with [XAML Islands](/windows/apps/desktop/modernize/xaml-islands) ([DesktopWindowXamlSource](../microsoft.ui.xaml.hosting/desktopwindowxamlsource.md)): By default, this control is automatically constrained within the _[work area](../microsoft.ui.windowing/displayarea_workarea.md)_ of its display. To change this behavior, set the [DesktopWindowXamlSource.ShouldConstrainPopupsToWorkArea](../microsoft.ui.xaml.hosting/desktopwindowxamlsource_shouldconstrainpopupstoworkarea.md) property of the XAML island that contains this control.
+
 ### **FlyoutBase** derived classes
 
 FlyoutBase is the parent class for [Flyout](../microsoft.ui.xaml.controls/flyout.md) and [MenuFlyout](../microsoft.ui.xaml.controls/menuflyout.md).

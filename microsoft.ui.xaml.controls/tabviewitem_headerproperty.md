@@ -11,11 +11,11 @@ public static Windows.UI.Xaml.DependencyProperty HeaderProperty { get; }
 
 ## -description
 
-Identifies the Header dependency property.
+Identifies the `Header` dependency property.
 
 ## -property-value
 
-The identifier for the Header dependency property.
+The identifier for the `Header` dependency property.
 
 ## -remarks
 

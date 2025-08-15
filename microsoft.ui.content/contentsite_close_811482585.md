@@ -11,7 +11,7 @@
 
 ## -description
 
-Closes this <xref:Microsoft.UI.Content.ContentSite>.
+Closes this [**ContentSite**](contentsite.md).
 
 ## -remarks
 

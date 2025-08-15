@@ -11,13 +11,13 @@ public float RasterizationScale { get; }
 
 ## -description
 
-Gets the computed local DPI for the associated <xref:Microsoft.UI.Content.ContentSite>, which is computed from the <xref:Microsoft.UI.Content.ContentSiteView.OverrideScale> and <xref:Microsoft.UI.Content.ContentSite.ParentScale>.
+Gets the computed local DPI for the associated [**ContentSite**](contentsite.md), which is computed from the [OverrideScale](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsiteview.overridescale) and [ParentScale](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.parentscale).
 
 See ContentIsland.RasterizationScale for more information.
 
 ## -property-value
 
-The computed local DPI for the associated <xref:Microsoft.UI.Content.ContentSite>.
+The computed local DPI for the associated [**ContentSite**](contentsite.md).
 
 ## -remarks
 

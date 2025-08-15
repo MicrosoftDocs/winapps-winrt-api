@@ -11,9 +11,11 @@ public Windows.UI.Xaml.Controls.DataTemplateSelector TabItemTemplateSelector { g
 
 ## -description
 
-Gets or sets a selection object that changes the DataTemplate to apply for content, based on processing information about the content item or its container at run time.
+Gets or sets a reference to a custom [DataTemplateSelector](datatemplateselector.md) logic class. The `DataTemplateSelector` referenced by this property returns a template to apply to generated tab items.
 
 ## -property-value
+
+A reference to a custom [DataTemplateSelector](datatemplateselector.md) logic class. The default is `null`.
 
 ## -remarks
 

@@ -11,11 +11,11 @@ public System.Numerics.Vector2 ActualSize { get; }
 
 ## -description
 
-Gets the logical size of the associated <xref:Microsoft.UI.Content.ContentIsland>.
+Gets the logical size of the associated [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -property-value
 
-The logical size of the associated <xref:Microsoft.UI.Content.ContentIsland>.
+The logical size of the associated [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -remarks
 

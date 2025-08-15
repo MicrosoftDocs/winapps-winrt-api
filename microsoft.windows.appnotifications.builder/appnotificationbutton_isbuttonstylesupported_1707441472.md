@@ -20,7 +20,7 @@ True if button styles are supported; otherwise, false.
 
 ## -remarks
 
-The [AppNotificationButton.SetButtonStyle](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton.SetButtonStyle(Microsoft.Windows.AppNotifications.Builder.AppNotificationButtonStyle)) method allows you to specify one of the button styles from the [AppNotificationButtonStyle](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButtonStyle) enumeration to provide a consistent experience for common scenarios. This feature is only supported for on Windows 10 Build 19041 and later. This method allows you to determine at runtime if button styles are supported on the current device.
+The [AppNotificationButton.SetButtonStyle](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbutton.setbuttonstyle)) method allows you to specify one of the button styles from the [AppNotificationButtonStyle](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbuttonstyle) enumeration to provide a consistent experience for common scenarios. This feature is only supported for on Windows 10 Build 19041 and later. This method allows you to determine at runtime if button styles are supported on the current device.
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

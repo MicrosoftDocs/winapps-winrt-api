@@ -11,11 +11,11 @@ public object SelectedItem { get; set; }
 
 ## -description
 
-Gets or sets the selected item.
+Gets or sets the selected tab item.
 
 ## -property-value
 
-The selected item.
+The selected tab item, if any is selected. The default is `null`.
 
 ## -remarks
 

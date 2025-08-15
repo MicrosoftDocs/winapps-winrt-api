@@ -20,7 +20,7 @@ True if the widget is active; otherwise, false.
 
 ## -remarks
 
-Widget providers are notified when a widget enters and leaves the active state through the <xref:Microsoft.Windows.Widgets.Providers.IWidgetProvider.Activate(Microsoft.Windows.Widgets.Providers.WidgetContext)?displayProperty=nameWithType> and <xref:Microsoft.Windows.Widgets.Providers.IWidgetProvider.Deactivate(System.String)?displayProperty=nameWithType> methods. Widgets are in an active state immediate after <xref:Microsoft.Windows.Widgets.Providers.IWidgetProvider.CreateWidget(Microsoft.Windows.Widgets.Providers.WidgetContext)?displayProperty=nameWithType> is called.
+Widget providers are notified when a widget enters and leaves the active state through the [Microsoft.Windows.Widgets.Providers.IWidgetProvider.Activate](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.iwidgetprovider.activate) and [Microsoft.Windows.Widgets.Providers.IWidgetProvider.Deactivate](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.iwidgetprovider.deactivate) methods. Widgets are in an active state immediate after [Microsoft.Windows.Widgets.Providers.IWidgetProvider.CreateWidget](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.iwidgetprovider.createwidget) is called.
 
 ## -see-also
 

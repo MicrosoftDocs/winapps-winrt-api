@@ -13,13 +13,9 @@ public class TabView : Windows.UI.Xaml.Controls.Control
 
 The TabView control is a way to display a set of tabs and their respective content. Tab controls are useful for displaying several pages (or documents) of content while giving a user the capability to rearrange, open, or close new tabs.
 
-**Is this the right control?**
-
-Use a TabView to help the user manage multiple app pages or documents within the same window.
-
-Do not use a TabView to display a static set of tabs that the user cannot rearrange, open, or close. Use a [NavigationView](navigationview.md) ([NavigationViewPaneDisplayMode](navigationviewpanedisplaymode.md) of Top) instead.
-
 ## -remarks
+
+For more info, design guidance, and code examples, see [Tab view](/windows/apps/design/controls/tab-view).
 
 ### Control style and template
 
@@ -29,7 +25,7 @@ XAML also includes resources that you can use to modify the colors of a control 
 
 ## -see-also
 
-[TabViewItem](tabviewitem.md), [TabViewCloseButtonOverlayMode](tabviewclosebuttonoverlaymode.md), [Guidelines for TabView](/windows/apps/design/controls/tab-view)
+[TabViewItem](tabviewitem.md), [TabViewCloseButtonOverlayMode](tabviewclosebuttonoverlaymode.md), [Tab view](/windows/apps/design/controls/tab-view)
 
 ## -examples
 
@@ -37,36 +33,46 @@ XAML also includes resources that you can use to modify the colors of a control 
 > For more info, design guidance, and code examples, see [Tab view](/windows/apps/design/controls/tab-view).
 
 > [!div class="nextstepaction"]
-> [Open the WinUI 3 Gallery app and see the TabView in action](winui3gallery:/item/TabView)
+> [Open the WinUI 3 Gallery app and see the TabView in action](winui3gallery://item/TabView)
 
 > The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery)
 
+This example creates a simple TabView along with event handlers to support opening and closing tabs. The _Home_ tab is defined in XAML and can't be closed. The `TabView_AddTabButtonClick` event handler shows how to add a new [TabViewItem](tabviewitem.md) in code.
 
-### Basic TabView Sample, similar to a Web Browser
-
-``` xml
-<TabView AddTabButtonClick="Tabs_AddTabButtonClick"
-         TabCloseRequested="Tabs_TabCloseRequested" />
+``` xaml
+<TabView VerticalAlignment="Stretch"
+         AddTabButtonClick="TabView_AddTabButtonClick"
+         TabCloseRequested="TabView_TabCloseRequested">
+    <TabViewItem Header="Home" IsClosable="False">
+        <TabViewItem.IconSource>
+            <SymbolIconSource Symbol="Home" />
+        </TabViewItem.IconSource>
+        <TabViewItem.Content>
+            <StackPanel Padding="12">
+                <TextBlock Text="TabView content" 
+                           Style="{ThemeResource TitleTextBlockStyle}"/>
+            </StackPanel>
+        </TabViewItem.Content>
+    </TabViewItem>
+</TabView>
 ```
 
 ``` csharp
-// Add a new Tab to the TabView
-private void Tabs_AddTabButtonClick(TabView sender, TabViewAddTabButtonClickEventArgs e)
+// Add a new tab to the TabView.
+private void TabView_AddTabButtonClick(TabView sender, object args)
 {
     var newTab = new TabViewItem();
+    newTab.Header = $"New Document {sender.TabItems.Count}";
     newTab.IconSource = new SymbolIconSource() { Symbol = Symbol.Document };
-    newTab.Header = "New Document";
-
-    // The Content of a TabViewItem is often a frame which hosts a page.
-    Frame frame = new Frame();
-    newTab.Content = frame;
-    frame.Navigate(typeof(BaconIpsumPage));
-
+    newTab.Content = new TextBlock() { Text = $"Content for new tab {sender.TabItems.Count}.",
+                                       Padding = new Thickness(12) };
     sender.TabItems.Add(newTab);
+    sender.SelectedItem = newTab;
 }
 
-// Remove the requested tab from the TabView
-private void Tabs_TabCloseRequested(TabView sender, TabViewTabCloseRequestedEventArgs args)
+// Remove the requested tab from the TabView.
+private void TabView_TabCloseRequested(TabView sender, 
+                                       TabViewTabCloseRequestedEventArgs args)
 {
     sender.TabItems.Remove(args.Tab);
 }

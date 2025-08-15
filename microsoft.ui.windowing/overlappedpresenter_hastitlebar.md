@@ -16,7 +16,7 @@ Gets a value that indicates whether this window has a title bar.
 
 ## -property-value
 
-`true` if this window has a title bar; otherwise, `false`;
+`true` if this window has a title bar; otherwise, `false`.
 
 ## -remarks
 

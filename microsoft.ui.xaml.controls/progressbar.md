@@ -40,23 +40,21 @@ XAML also includes resources that you can use to modify the colors of a control 
 > For more info, design guidance, and code examples, see [Progress controls](/windows/apps/design/controls/progress-controls).
 
 > [!div class="nextstepaction"]
-> [Open the WinUI 3 Gallery app and see the ProgressBar in action](winui3gallery:/item/ProgressBar)
+> [Open the WinUI 3 Gallery app and see the ProgressBar in action](winui3gallery://item/ProgressBar)
 
 > The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery).
 
 The following shows how to set up an indeterminate ProgressBar and a basic determinate ProgressBar where the value is dependent on a RepeatButton click.
 
 ```xaml
-<!-- xmlns:muxc="using:Microsoft.UI.Xaml.Controls" -->
-
 <StackPanel x:Name="LayoutRoot">
     <StackPanel BorderThickness="4" BorderBrush="Black" Padding="12">
         <TextBlock Text="Indeterminate Progress Bar"/>
-        <muxc:ProgressBar IsIndeterminate="True" Margin="0,12"/>
+        <ProgressBar IsIndeterminate="True" Margin="0,12"/>
     </StackPanel>
     <StackPanel BorderBrush="Black" BorderThickness="4" Padding="12">
         <TextBlock Text="Value-Based Progress Bar"/>
-        <muxc:ProgressBar x:Name="progressBar1" Value="0" Maximum="200" Margin="0,12"/>
+        <ProgressBar x:Name="progressBar1" Value="0" Maximum="200" Margin="0,12"/>
         <RepeatButton Content="Press and hold" Click="RepeatButton_Click"/>
     </StackPanel>
 </StackPanel>

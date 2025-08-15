@@ -31,11 +31,14 @@ If you want to place interactive elements in the title bar area, you can use [In
 
 To specify a custom title bar, you must set [ExtendsContentIntoTitleBar](window_extendscontentintotitlebar.md) to `true` to hide the default system title bar. If `ExtendsContentIntoTitleBar` is `false`, the call to `SetTitleBar` does not have any effect. Your custom title bar element is shown in the body of your app window as an ordinary UI element and does not get the title bar behaviors.
 
+> [!CAUTION]
+> `ExtendsContentIntoTitleBar` shows in the XAML IntelliSense for `Window`, but setting it in XAML causes an error. Set this property in code instead.
+
 If you set [ExtendsContentIntoTitleBar](window_extendscontentintotitlebar.md) to `true` but do not call `SetTitleBar` (or call `SetTitlebar` with a `null` argument), a default custom title bar is provided. This default title bar is a direct replacement of the system title bar in position, width, and height. If you want a specialized title bar, you can call [SetTitleBar](window_settitlebar_1494775390.md) with a [`UIElement`](uielement.md) and get a title bar area on that `UIElement`'s position, width, and height. That `UIElement` can be hosted anywhere within the contents of the app, not just the non-client area.
 
 ## Title bar element
 
-Only a single element can be specified as the title bar. If multiple elements are required, they can be specified as child elements of a single container (such as a [Grid](../microsoft.ui.xaml.controls/grid.md) or [StackPanel](../microsoft.ui.xaml.controls/stackpanel.md)). 
+Only a single element can be specified as the title bar. If multiple elements are required, they can be specified as child elements of a single container (such as a [Grid](../microsoft.ui.xaml.controls/grid.md) or [StackPanel](../microsoft.ui.xaml.controls/stackpanel.md)).
 
 The custom title bar works best when it is not deep nested within the app. Deep nesting the [UIElement](uielement.md) within the XAML tree can cause unpredictable layout behaviors. The title bar will always be a of rectangular shape. In case of a non-rectangular `UIElement`, its rectangular bounding rectangle will be used for dimensions of the title bar.
 

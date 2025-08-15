@@ -1,0 +1,11 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.10" />
+    <PackageVersion Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.755" />
+    <PackageVersion Include="Microsoft.WindowsAppSDK" Version="1.3.230602002" />
+    <PackageVersion Include="Microsoft.WinUI" Version="3.0.0-preview4.201109.6-CI" />
+  </ItemGroup>
+</Project>

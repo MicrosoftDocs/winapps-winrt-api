@@ -42,7 +42,9 @@ You can use [GetNavigationState](frame_getnavigationstate_1352043812.md) to seri
 The `parameter` value can have a complex type if you do not use [GetNavigationState](frame_getnavigationstate_1352043812.md). However, you should still use only basic types in order to avoid excess memory usage caused by the frame’s navigation stack holding a reference to the `parameter`. A preferred approach is to not pass the actual object, but instead pass an identifier that you can use to look up the object in the target landing page. For example, instead of passing a `Customer` object, pass a reference to the `CustomerID`, then look up the `Customer` after the navigation is complete.
 
 > [!TIP]
-> If you are programming using a Microsoft .NET language (C# or Microsoft Visual Basic), the [TypeName](/uwp/api/windows.ui.xaml.interop.typename) type projects as [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true). When programming using C#, it is common to use the `typeof` operator to get references to the [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) of a type. In Microsoft Visual Basic, use `GetType`. If you're using [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) you can use the `winrt::xaml_typename<T>()` helper function to create a `TypeName` object. See [winrt::xaml_typename function template](/uwp/cpp-ref-for-winrt/xaml-typename) for more details, and a code example.
+> If you are programming using a Microsoft .NET language (C#), the [TypeName](/uwp/api/windows.ui.xaml.interop.typename) type projects as [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true). When programming using C#, it is common to use the `typeof` operator to get references to the [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) of a type.
+>
+> If you're using [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) you can use the `winrt::xaml_typename<T>()` helper function to create a `TypeName` object. See [winrt::xaml_typename function template](/uwp/cpp-ref-for-winrt/xaml-typename) for more details, and a code example.
 
 ## -examples
 

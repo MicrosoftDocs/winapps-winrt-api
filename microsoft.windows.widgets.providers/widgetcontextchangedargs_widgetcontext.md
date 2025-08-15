@@ -11,11 +11,11 @@ public Microsoft.Windows.Widgets.Providers.WidgetContext WidgetContext { get; }
 
 ## -description
 
-Gets the <xref:Microsoft.Windows.Widgets.Providers.WidgetContext> object associated with the <xref:Microsoft.Windows.Widgets.Providers.IWidgetProvider.OnWidgetContextChanged(Microsoft.Windows.Widgets.Providers.WidgetContextChangedArgs)?displayProperty=nameWithType> callback.
+Gets the [WidgetContext](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.widgetcontext) object associated with the [Microsoft.Windows.Widgets.Providers.IWidgetProvider.OnWidgetContextChanged](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.iwidgetprovider.onwidgetcontextchanged) callback.
 
 ## -property-value
 
-A <xref:Microsoft.Windows.Widgets.Providers.WidgetContext> object.
+A [WidgetContext](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.widgetcontext) object.
 
 ## -remarks
 

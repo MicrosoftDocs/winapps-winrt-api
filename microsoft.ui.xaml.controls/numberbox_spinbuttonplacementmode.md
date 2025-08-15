@@ -15,9 +15,14 @@ Gets or sets a value that indicates the placement of buttons used to increment o
 
 ## -property-value
 
+A value of the enumeration that specifies the placement of buttons used to increment or decrement the [Value](numberbox_value.md) property. The default is `Hidden`.
+
 ## -remarks
+
+For more information, see the [NumberBoxSpinButtonPlacementMode](numberboxspinbuttonplacementmode.md) enumeration.
 
 ## -see-also
 
-## -examples
+[Number box](/windows/apps/design/controls/number-box)
 
+## -examples

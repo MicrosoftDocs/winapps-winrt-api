@@ -11,11 +11,11 @@ public bool IsConnected { get; }
 
 ## -description
 
-Gets whether this <xref:Microsoft.UI.Content.ContentSite> is connected to a <xref:Microsoft.UI.Content.ContentIsland>.
+Gets whether this [**ContentSite**](contentsite.md) is connected to a [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -property-value
 
-True, if this <xref:Microsoft.UI.Content.ContentSite> is connected to a <xref:Microsoft.UI.Content.ContentIsland>; otherwise, false.
+True, if this [**ContentSite**](contentsite.md) is connected to a [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland); otherwise, false.
 
 ## -remarks
 

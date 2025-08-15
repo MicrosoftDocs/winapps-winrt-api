@@ -1,0 +1,27 @@
+---
+-api-id: P:Microsoft.Windows.Management.Deployment.RegisterPackageOptions.ForceTargetAppShutdown
+-api-type: winrt property
+---
+
+# Microsoft.Windows.Management.Deployment.RegisterPackageOptions.ForceTargetAppShutdown
+
+<!--
+public bool ForceTargetAppShutdown { get; set; }
+-->
+
+
+## -description
+
+Gets or sets a value that indicates whether the processes associated with the [Package](/uwp/api/windows.applicationmodel.package) will be shut down forcibly so that registration can continue if the package is currently in use.
+
+## -property-value
+
+**TRUE** indicates that the processes associated with the package will be shut down forcibly so that registration can continue; otherwise, **FALSE**.
+
+## -remarks
+
+## -see-also
+
+[Package](/uwp/api/windows.applicationmodel.package), [RegisterPackageOptions][registerpackageoptions.md]
+
+## -examples

@@ -10,16 +10,21 @@ public Windows.ApplicationModel.DataTransfer.DataPackageOperation AllowedOperati
 # Microsoft.UI.Xaml.DragStartingEventArgs.AllowedOperations
 
 ## -description
-Gets or sets the allowed data package operations (none, move, copy, and/or link) for the drag and drop operation.
+
+Gets or sets a value that specifies which operations (none, move, copy, and/or link) are allowed by the source of the drag event.
 
 ## -property-value
-The allowed data operations.
+
+A value or bitwise combination of values that specifies which operations are allowed by the source of the drag event.
 
 ## -remarks
-For more info about the allowed data operations, see [DataPackageOperation](/uwp/api/windows.applicationmodel.datatransfer.datapackageoperation).
+
+This value is set in the [UIElement.DragStarting](uielement_dragstarting.md) event handler. It can then be read from the [DragEventArgs.AllowedOperations](drageventargs_allowedoperations.md) property in the [DragEnter](uielement_dragenter.md) and [DragOver](uielement_dragover.md) events of the `UIElement` that is a potential drop target of the drag and drop operation. It notifies the target which data package operations (none, move, copy, and/or link) are allowed by the source.
+
+For more info about the allowed data operations, see the [DataPackageOperation](/uwp/api/windows.applicationmodel.datatransfer.datapackageoperation) enumeration.
 
 ## -examples
 
 ## -see-also
 
-[Drag-and-drop overview](/windows/apps/design/input/drag-and-drop), [DragEventArgs.AllowedOperations](drageventargs_allowedoperations.md), [CoreDragOperation.AllowedOperations](/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredragoperation.allowedoperations)
+[Drag-and-drop overview](/windows/apps/design/input/drag-and-drop), [DragEventArgs.AllowedOperations](drageventargs_allowedoperations.md), [DragOperation.AllowedOperations](../microsoft.ui.input.dragdrop/dragoperation_allowedoperations.md)

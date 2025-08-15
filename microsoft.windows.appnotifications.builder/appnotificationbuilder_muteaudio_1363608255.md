@@ -20,7 +20,7 @@ Returns the **AppNotificationBuilder** instance so that additional method calls 
 
 ## -remarks
 
-To specify the audio for an app notification, use <xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder.SetAudioEvent(Microsoft.Windows.AppNotifications.Builder.AppNotificationSoundEvent,Microsoft.Windows.AppNotifications.Builder.AppNotificationAudioLooping)> or <xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder.SetAudioUri(Windows.Foundation.Uri,Microsoft.Windows.AppNotifications.Builder.AppNotificationAudioLooping)>.
+To specify the audio for an app notification, use [SetAudioEvent](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbuilder.setaudioevent) or [SetAudioUri](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbuilder.setaudiouri).
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

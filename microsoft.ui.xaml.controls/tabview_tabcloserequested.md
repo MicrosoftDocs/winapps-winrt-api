@@ -15,13 +15,17 @@ Raised when the user attempts to close a Tab via clicking the x-to-close button,
 
 ## -remarks
 
-Use this event to close the requested tab by either removing it from the TabItems collection or from the collection of data items. 
+For more info, design guidance, and code examples, see [Tab view](/windows/apps/design/controls/tab-view).
+
+Use this event to close the requested tab by either removing it from the TabItems collection or from the collection of data items.
 
 ## -see-also
 
+[Tab view](/windows/apps/design/controls/tab-view)
+
 ## -examples
 
-``` xml
+``` xaml
 <TabView TabCloseRequested="Tabs_TabCloseRequested" />
 ```
 
@@ -32,4 +36,3 @@ private void Tabs_TabCloseRequested(TabView sender, TabViewTabCloseRequestedEven
     sender.TabItems.Remove(args.Tab);
 }
 ```
-

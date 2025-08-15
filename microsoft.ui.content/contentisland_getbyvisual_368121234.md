@@ -11,7 +11,7 @@ public static Microsoft.UI.Content.ContentIsland GetByVisual (Microsoft.UI.Compo
 
 ## -description
 
-Retrieves the <xref:Microsoft.UI.Content.ContentIsland> that contains the specified child visual object on the current thread.
+Retrieves the [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) that contains the specified child [**Visual**](../microsoft.ui.composition/visual.md) object on the current thread.
 
 ## -parameters
 
@@ -21,9 +21,9 @@ The child visual object.
 
 ## -returns
 
-the <xref:Microsoft.UI.Content.ContentIsland> that contains the specified child visual object, or null if the content island is not a parent of the visual object.
+the [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) that contains the specified child [**Visual**](../microsoft.ui.composition/visual.md) object, or null if the content island is not a parent of the visual object.
 
-If the visual passed in is not associated with the current thread, RPC_E_WRONGTHREAD will be returned.
+If the [**Visual**](../microsoft.ui.composition/visual.md) passed in is not associated with the current thread, RPC_E_WRONGTHREAD will be returned.
 
 ## -remarks
 

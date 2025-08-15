@@ -22,4 +22,3 @@ A ScalarNaturalMotionAnimation that describes the modified motion for [Interacti
 ## -see-also
 
 ## -examples
-

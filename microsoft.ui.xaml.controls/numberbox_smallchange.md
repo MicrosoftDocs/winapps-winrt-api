@@ -11,13 +11,16 @@ public double SmallChange { get; set; }
 
 ## -description
 
-Gets or sets the value that is added to or subtracted from [Value](numberbox_value.md) when a small change is made, such as with an arrow key or scrolling.
+Gets or sets a number that is added to or subtracted from [Value](numberbox_value.md) when a small change is made, such as with an arrow key or scrolling.
 
 ## -property-value
+
+A number that is added to or subtracted from [Value](numberbox_value.md) when a small change is made, such as with an arrow key or scrolling. The default is 1.
 
 ## -remarks
 
 ## -see-also
 
-## -examples
+[Number box](/windows/apps/design/controls/number-box)
 
+## -examples

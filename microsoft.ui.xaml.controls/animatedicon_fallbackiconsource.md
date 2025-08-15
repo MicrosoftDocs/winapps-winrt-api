@@ -29,15 +29,14 @@ The fallback icon can be any icon type that inherits from [IconSource](iconsourc
 
 ```xaml
 <!-- 
-xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
 xmlns:animatedvisuals="using:Microsoft.UI.Xaml.Controls.AnimatedVisuals"
 -->
 
-<muxc:AnimatedIcon>
+<AnimatedIcon>
     <animatedvisuals:AnimatedBackVisualSource/>
 
-    <muxc:AnimatedIcon.FallbackIconSource>
-        <muxc:SymbolIconSource Symbol="Back"/>
-    </muxc:AnimatedIcon.FallbackIconSource>
-</muxc:AnimatedIcon>
+    <AnimatedIcon.FallbackIconSource>
+        <SymbolIconSource Symbol="Back"/>
+    </AnimatedIcon.FallbackIconSource>
+</AnimatedIcon>
 ```

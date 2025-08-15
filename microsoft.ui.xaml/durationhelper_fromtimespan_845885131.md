@@ -11,7 +11,7 @@ public Microsoft.UI.Xaml.Duration FromTimeSpan(Windows.Foundation.TimeSpan timeS
 
 ## -description
 
-Creates a new [Duration](duration.md) based on a [TimeSpan](/uwp/api/windows.foundation.timespan) value. C# and Microsoft Visual Basic code should use the [Duration(TimeSpan)](/dotnet/api/windows.ui.xaml.duration.-ctor) constructor instead.
+Creates a new [Duration](duration.md) based on a [TimeSpan](/uwp/api/windows.foundation.timespan) value. C# code should use the [Duration(TimeSpan)](/dotnet/api/windows.ui.xaml.duration.-ctor) constructor instead.
 
 ## -parameters
 

@@ -12,7 +12,7 @@ public sealed class WidgetCustomizationRequestedArgs
 
 ## -description
 
-Provides data for the [OnCustomizationRequested](xref:Microsoft.Windows.Widgets.Providers.IWidgetProvider2.OnCustomizationRequested(Microsoft.Windows.Widgets.Providers.WidgetCustomizationRequestedArgs)) event which is raised when the user has requested widget customization through the widget host UI.
+Provides data for the [OnCustomizationRequested](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.iwidgetprovider2.oncustomizationrequested)) event which is raised when the user has requested widget customization through the widget host UI.
 
 ## -remarks
 

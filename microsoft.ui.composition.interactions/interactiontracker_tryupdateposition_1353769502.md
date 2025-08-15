@@ -16,6 +16,7 @@ Tries to update the position of the [InteractionTracker](interactiontracker.md) 
 ## -parameters
 
 ### -param value
+
 The new position for the [InteractionTracker](interactiontracker.md).
 
 ### -param option
@@ -31,4 +32,3 @@ Returns the request ID. On state transitions, the request which caused the chang
 ## -see-also
 
 ## -examples
-

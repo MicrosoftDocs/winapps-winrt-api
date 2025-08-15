@@ -11,11 +11,11 @@ public bool IsClosed { get; }
 
 ## -description
 
-Gets whether this <xref:Microsoft.UI.Content.ContentSite> is closed.
+Gets whether this [**ContentSite**](contentsite.md) is closed.
 
 ## -property-value
 
-True, if this <xref:Microsoft.UI.Content.ContentSite> is closed; otherwise, false.
+True, if this [**ContentSite**](contentsite.md) is closed; otherwise, false.
 
 ## -remarks
 

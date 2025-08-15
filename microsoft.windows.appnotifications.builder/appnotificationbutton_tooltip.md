@@ -20,9 +20,9 @@ A string containing the tool-tip text.
 
 ## -remarks
 
-You can also set the tool-tip text by calling the [AppNotificationButton.SetToolTip](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton.SetToolTip(System.String)) method.
+You can also set the tool-tip text by calling the [AppNotificationButton.SetToolTip](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbutton.settooltip)) method.
 
-Tool-tip text is only supported for on Windows 10 Build 19041 and later. Call [AppNotificationButton.IsToolTipSupported](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton.IsToolTipSupported) to determine at runtime if tool-tips are supported on the current device.
+Tool-tip text is only supported for on Windows 10 Build 19041 and later. Call [AppNotificationButton.IsToolTipSupported](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbutton.istooltipsupported) to determine at runtime if tool-tips are supported on the current device.
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

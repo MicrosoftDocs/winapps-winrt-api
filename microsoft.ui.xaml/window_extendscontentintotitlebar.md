@@ -25,6 +25,10 @@ To specify a custom title bar, you must set `ExtendsContentIntoTitleBar` to `tru
 
 If you set `ExtendsContentIntoTitleBar` to `true` but do not call `SetTitleBar`, a default custom title bar is provided. See [SetTitleBar](window_settitlebar_1494775390.md) for more details on this.
 
+> [!CAUTION]
+> `ExtendsContentIntoTitleBar` shows in the XAML IntelliSense for `Window`, but setting it in XAML causes an error. Set this property in code instead.
+
+
 ## -see-also
 
 [SetTitleBar](window_settitlebar_1494775390.md), [IWindowNative](/windows/apps/winui/reference/iwindownative)

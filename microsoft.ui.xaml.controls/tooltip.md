@@ -38,6 +38,9 @@ Here's a ToolTip for a [Button](button.md).
 
 For design guidelines, see [Guidelines for tooltips](/windows/uwp/controls-and-patterns/tooltips).
 
+> [!NOTE]
+> When used with [XAML Islands](/windows/apps/desktop/modernize/xaml-islands) ([DesktopWindowXamlSource](../microsoft.ui.xaml.hosting/desktopwindowxamlsource.md)): By default, this control is automatically constrained within the _[work area](../microsoft.ui.windowing/displayarea_workarea.md)_ of its display. To change this behavior, set the [DesktopWindowXamlSource.ShouldConstrainPopupsToWorkArea](../microsoft.ui.xaml.hosting/desktopwindowxamlsource_shouldconstrainpopupstoworkarea.md) property of the XAML island that contains this control.
+
 ### Usage
 
 A ToolTip must be assigned to another UI element that is its owner. The [ToolTipService](tooltipservice.md) class provides static methods to display a ToolTip.
@@ -86,7 +89,7 @@ XAML also includes resources that you can use to modify the colors of a control 
 > For more info, design guidance, and code examples, see [Tooltips](/windows/apps/design/controls/tooltips).
 
 > [!div class="nextstepaction"]
-> [Open the WinUI 3 Gallery app and see the Tooltips in action](winui3gallery:/item/Tooltips)
+> [Open the WinUI 3 Gallery app and see the Tooltips in action](winui3gallery://item/Tooltips)
 
 > The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery)
 

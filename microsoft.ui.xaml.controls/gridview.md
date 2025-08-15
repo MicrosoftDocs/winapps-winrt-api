@@ -82,8 +82,8 @@ This table shows the ways a user can interact with a GridView, and how you can r
 
 GridView supports data virtualization to improve performance with large data sets. Random access virtualization is supported when the data source implements the appropriate interfaces, which vary depending on the programming language:
 
-+ Visual C++ component extensions (C++/CX) apps should implement [IObservableVector](/uwp/api/windows.foundation.collections.iobservablevector-1).
-+ C# or Visual Basic apps should implement [INotifyCollectionChanged](/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=dotnet-uwp-10.0&preserve-view=true) and [System.Collections.IList](/dotnet/api/system.collections.ilist?view=dotnet-uwp-10.0&preserve-view=true) (not [IList<T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true). Virtualization requires both of these interfaces.
++ C++ apps should implement [IObservableVector](/uwp/api/windows.foundation.collections.iobservablevector-1).
++ C# apps should implement [INotifyCollectionChanged](/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=dotnet-uwp-10.0&preserve-view=true) and [System.Collections.IList](/dotnet/api/system.collections.ilist?view=dotnet-uwp-10.0&preserve-view=true) (not [IList&lt;T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true). Virtualization requires both of these interfaces.
  Incremental loading virtualization is supported when the data source implements the [ISupportIncrementalLoading](../microsoft.ui.xaml.data/isupportincrementalloading.md) interface. When incremental loading is supported, you can use these members to control data loading: [DataFetchSize](listviewbase_datafetchsize.md), [IncrementalLoadingThreshold](listviewbase_incrementalloadingthreshold.md), [IncrementalLoadingTrigger](listviewbase_incrementalloadingtrigger.md), [LoadMoreItemsAsync](listviewbase_loadmoreitemsasync_1264491126.md).
 
 > **Windows 8**
@@ -105,7 +105,7 @@ List controls that derive from [Selector](../microsoft.ui.xaml.controls.primitiv
 > For more info, design guidance, and code examples, see [List view and grid view](/windows/apps/design/controls/listview-and-gridview).
 
 > [!div class="nextstepaction"]
-> [Open the WinUI 3 Gallery app and see the GridView in action](winui3gallery:/item/GridView)
+> [Open the WinUI 3 Gallery app and see the GridView in action](winui3gallery://item/GridView)
 
 > The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery).
 

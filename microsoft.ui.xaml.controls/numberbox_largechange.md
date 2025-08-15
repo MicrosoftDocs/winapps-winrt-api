@@ -11,13 +11,16 @@ public double LargeChange { get; set; }
 
 ## -description
 
-Gets or sets the value that is added to or subtracted from [Value](numberbox_value.md) when a large change is made, such as with the PageUP and PageDown keys.
+Gets or sets a number that is added to or subtracted from [Value](numberbox_value.md) when a large change is made, such as with the PageUp and PageDown keys.
 
 ## -property-value
+
+A number that is added to or subtracted from [Value](numberbox_value.md) when a large change is made, such as with the PageUp and PageDown keys. The default is 10.
 
 ## -remarks
 
 ## -see-also
 
-## -examples
+[Number box](/windows/apps/design/controls/number-box)
 
+## -examples

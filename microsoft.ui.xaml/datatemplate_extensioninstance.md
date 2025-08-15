@@ -9,7 +9,6 @@
 see GetExtensionInstance, and SetExtensionInstance
 -->
 
-
 ## -description
 
 Gets or sets an extension instance that defines helper methods for phased rendering of a data template.
@@ -25,5 +24,3 @@ Gets or sets an extension instance that defines helper methods for phased render
 [XAML attached properties](/windows/uwp/xaml-platform/attached-properties-overview)
 
 ## -examples
-
-

@@ -10,6 +10,7 @@ public class InteractionTrackerCustomAnimationStateEnteredArgs : Windows.UI.Comp
 # Microsoft.UI.Composition.Interactions.InteractionTrackerCustomAnimationStateEnteredArgs
 
 ## -description
+
 Arguments for the [IInteractionTrackerOwner.CustomAnimationStateEntered](iinteractiontrackerowner_customanimationstateentered_972111660.md) callback.
 
 ## -remarks

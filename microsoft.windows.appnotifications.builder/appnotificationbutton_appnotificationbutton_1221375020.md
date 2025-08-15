@@ -12,11 +12,11 @@ public AppNotificationButton ();
 
 ## -description
 
-Initializes a new instance of the [AppNotificationButton](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationButton) class.
+Initializes a new instance of the [AppNotificationButton](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbutton) class.
 
 ## -remarks
 
-Add an **AppNotificationButton** to the xml payload for an app notification by calling [AppNotificationBuilder.AddButton](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder.AddButton(Microsoft.Windows.AppNotifications.Builder.AppNotificationButton)).
+Add an **AppNotificationButton** to the xml payload for an app notification by calling [AppNotificationBuilder.AddButton](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbuilder.addbutton)).
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 

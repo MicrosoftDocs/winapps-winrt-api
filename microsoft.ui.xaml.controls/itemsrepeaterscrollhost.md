@@ -30,22 +30,20 @@ If the minimum target version of your app is Windows 10, version 1809 (SDK 17763
 > For more info, design guidance, and code examples, see [ItemsRepeater](/windows/apps/design/controls/items-repeater).
 
 > [!div class="nextstepaction"]
-> [Open the WinUI 3 Gallery app and see the ItemsRepeater in action](winui3gallery:/item/ItemsRepeater)
+> [Open the WinUI 3 Gallery app and see the ItemsRepeater in action](winui3gallery://item/ItemsRepeater)
 
 > The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery).
 
 This example shows a scrollable list of people.
 
 ```xaml
-<Page
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:muxc="using:Microsoft.UI.Xaml.Controls">
+<Page ...>
 
-    <muxc:ItemsRepeaterScrollHost>
+    <ItemsRepeaterScrollHost>
         <ScrollViewer>
-            <muxc:ItemsRepeater ItemsSource='{x:Bind PeopleCollection}' />
+            <ItemsRepeater ItemsSource='{x:Bind PeopleCollection}' />
         </ScrollViewer>
-    </muxc:ItemsRepeaterScrollHost> 
+    </ItemsRepeaterScrollHost> 
     
 </Page
 ```

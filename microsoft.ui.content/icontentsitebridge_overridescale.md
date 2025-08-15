@@ -11,15 +11,15 @@ public float OverrideScale { get; set; }
 
 ## -description
 
-Gets or sets the scaling factor used by a <xref:Microsoft.UI.Content.ContentSite>.
+Gets or sets the scaling factor used by a [**ContentSite**](contentsite.md).
 
 ## -property-value
 
-The scaling factor used by a <xref:Microsoft.UI.Content.ContentSite>.
+The scaling factor used by a [**ContentSite**](contentsite.md).
 
 ## -remarks
 
-Setting this value overrides the <xref:Microsoft.UI.Content.ContentIsland.RasterizationScale?displayProperty=nameWithType> value.
+Setting this value overrides the [Microsoft.UI.Content.ContentIsland.RasterizationScale](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland.rasterizationscale) value.
 
 ## -see-also
 

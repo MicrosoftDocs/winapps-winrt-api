@@ -11,7 +11,7 @@ public object AutomationProvider { get; set; }
 
 ## -description
 
-Gets or sets an automation provider object for the associated <xref:Microsoft.UI.Content.ContentIsland>.
+Gets or sets an automation provider object for the associated [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -property-value
 

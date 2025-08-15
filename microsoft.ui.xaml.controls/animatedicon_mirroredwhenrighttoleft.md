@@ -15,7 +15,7 @@ Gets or sets a value that indicates whether the icon is mirrored when the [FlowD
 
 ## -property-value
 
-True, if the icon is mirrored when the [FlowDirection](../microsoft.ui.xaml/flowdirection.md) is **RightToLeft**. Otherwise, false. The default is false.
+`true`, if the icon is mirrored when the [FlowDirection](../microsoft.ui.xaml/flowdirection.md) is **RightToLeft**. Otherwise, `false`. The default is `false`.
 
 ## -remarks
 

@@ -11,11 +11,11 @@ public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Content.ContentSi
 
 ## -description
 
-Occurs when a <xref:Microsoft.UI.Content.ContentIsland> makes a new request to its associated <xref:Microsoft.UI.Content.ContentSite>.
+Occurs when a [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) makes a new request to its associated [**ContentSite**](contentsite.md).
 
 ## -remarks
 
-The <xref:Microsoft.UI.Content.ContentSite> owner (<xref:Microsoft.UI.Content.DesktopSiteBridge>) can examine local properties (such as <xref:Microsoft.UI.Content.ContentSite.RequestedSize>), decide policy, and then configure information (such as <xref:Microsoft.UI.Content.ContentSite.ActualSize>) to send to the <xref:Microsoft.UI.Content.ContentIsland>.
+The [**ContentSite**](contentsite.md) owner ([DesktopSiteBridge](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.desktopsitebridge)) can examine local properties (such as [RequestedSize](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.requestedsize)), decide policy, and then configure information (such as [ActualSize](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.actualsize)) to send to the [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -see-also
 

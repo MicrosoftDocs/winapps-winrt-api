@@ -119,12 +119,8 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
-      <Version>6.2.10</Version>
-    </PackageReference>
-    <PackageReference Include="Microsoft.WinUI">
-      <Version>3.0.0-preview4.201109.6-CI</Version>
-    </PackageReference>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform"/>
+    <PackageReference Include="Microsoft.WinUI"/>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '$(MinimumVisualStudioVersion)' ">
     <VisualStudioVersion>$(MinimumVisualStudioVersion)</VisualStudioVersion>

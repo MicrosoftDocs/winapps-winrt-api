@@ -25,10 +25,10 @@ This example adds hierarchy by defining the item template to be a NavigationView
 
 ```xaml
 <DataTemplate x:Key="NavigationViewMenuItem" x:DataType="local:Category">
-    <muxc:NavigationViewItem Content="{x:Bind Name}" MenuItemsSource="{x:Bind Children}"/>
+    <NavigationViewItem Content="{x:Bind Name}" MenuItemsSource="{x:Bind Children}"/>
 </DataTemplate>
 
-<muxc:NavigationView x:Name="navview" 
+<NavigationView x:Name="navview" 
     MenuItemsSource="{x:Bind categories, Mode=OneWay}" 
     MenuItemTemplate="{StaticResource NavigationViewMenuItem}" 
     ItemInvoked="{x:Bind OnItemInvoked}" 
@@ -40,7 +40,7 @@ This example adds hierarchy by defining the item template to be a NavigationView
         <TextBlock Margin="0,10,0,0" x:Name="ExpandingItemLabel" Text="Last Expanding: N/A"/>
         <TextBlock x:Name="CollapsedItemLabel" Text="Last Collapsed: N/A"/>
     </StackPanel>    
-</muxc:NavigationView>
+</NavigationView>
 ```
 
 ```csharp

@@ -18,4 +18,3 @@ A [Vector2NaturalMotionAnimation](../microsoft.ui.composition/vector2naturalmoti
 ## -see-also
 
 ## -examples
-

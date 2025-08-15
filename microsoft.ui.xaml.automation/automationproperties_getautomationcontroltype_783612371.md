@@ -11,7 +11,7 @@ public static Microsoft.UI.Xaml.Automation.Peers.AutomationControlType GetAutoma
 
 ## -description
 
-Gets the <xref:Microsoft.UI.Xaml.Automation.Peers.AutomationControlType?displayProperty=nameWithType> for the specified UI element.
+Gets the [Microsoft.UI.Xaml.Automation.Peers.AutomationControlType](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.peers.automationcontroltype) for the specified UI element.
 
 ## -parameters
 
@@ -21,7 +21,7 @@ The UI element for which to get the UI Automation control type.
 
 ## -returns
 
-The <xref:Microsoft.UI.Xaml.Automation.Peers.AutomationControlType?displayProperty=nameWithType> for the specified UI element.
+The [Microsoft.UI.Xaml.Automation.Peers.AutomationControlType](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.peers.automationcontroltype) for the specified UI element.
 
 ## -remarks
 

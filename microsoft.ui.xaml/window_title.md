@@ -40,7 +40,7 @@ public MainWindow()
 ```
 
 > [!NOTE]
-> The XAML version is only available for Windows App SDK 1.3.1 and upper.
+>  In Windows App SDK 1.3.0 and earlier, `Title` shows in the XAML IntelliSense for `Window`, but setting it in XAML causes an error. Set this property in code instead. In Windows App SDK 1.3.1 and later, you can set this property in XAML.
 
 ```xaml
 <Window

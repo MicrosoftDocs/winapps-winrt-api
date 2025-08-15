@@ -25,16 +25,16 @@ Radio menu flyout items work in groups, and users can only select one item in a 
 ![Two groups of radio menu flyout items within a View menu bar item](images/RadioMenuFlyoutItems2.png)
 
 ```xaml
-<muxc:MenuBar>
-    <muxc:MenuBarItem Title="View">
+<MenuBar>
+    <MenuBarItem Title="View">
         <MenuFlyoutItem Text="Open"/>
         <MenuFlyoutSeparator/>
-        <muxc:RadioMenuFlyoutItem Text="Landscape" GroupName="OrientationGroup"/>
-        <muxc:RadioMenuFlyoutItem Text="Portrait" GroupName="OrientationGroup" IsChecked="True"/>
+        <RadioMenuFlyoutItem Text="Landscape" GroupName="OrientationGroup"/>
+        <RadioMenuFlyoutItem Text="Portrait" GroupName="OrientationGroup" IsChecked="True"/>
         <MenuFlyoutSeparator/>
-        <muxc:RadioMenuFlyoutItem Text="Small icons" GroupName="SizeGroup"/>
-        <muxc:RadioMenuFlyoutItem Text="Medium icons" IsChecked="True" GroupName="SizeGroup"/>
-        <muxc:RadioMenuFlyoutItem Text="Large icons" GroupName="SizeGroup"/>
-    </muxc:MenuBarItem>
-</muxc:MenuBar>
+        <RadioMenuFlyoutItem Text="Small icons" GroupName="SizeGroup"/>
+        <RadioMenuFlyoutItem Text="Medium icons" IsChecked="True" GroupName="SizeGroup"/>
+        <RadioMenuFlyoutItem Text="Large icons" GroupName="SizeGroup"/>
+    </MenuBarItem>
+</MenuBar>
 ```

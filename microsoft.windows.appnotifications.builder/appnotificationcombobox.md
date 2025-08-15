@@ -16,7 +16,7 @@ Represents a combo box that is displayed on an app notification.
 
 ## -remarks
 
-Add a combo box to the XML payload for an app notification by calling [AppNotificationBuilder.AddComboBox](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder.AddComboBox(Microsoft.Windows.AppNotifications.Builder.AppNotificationComboBox)). Up to 5 inputs may be added to a single app notification.
+Add a combo box to the XML payload for an app notification by calling [AppNotificationBuilder.AddComboBox](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbuilder.addcombobox)). Up to 5 inputs may be added to a single app notification.
 
 ## -see-also
 

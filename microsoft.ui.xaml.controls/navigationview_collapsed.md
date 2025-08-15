@@ -24,7 +24,7 @@ Analogous to [TreeView.Collapse](/windows/winui/api/microsoft.UI.Xaml.Controls.T
 The following example creates a hierarchical NavigationView and sets up an event handler for the Collapsed event called OnItemCollapsed. In this event handler, the last collapsed item's Content property is set to display in the CollapsedItemLabel TextBlock.
 
 ```xaml
-<muxc:NavigationView x:Name="navview" 
+<NavigationView x:Name="navview" 
     MenuItemsSource="{x:Bind categories, Mode=OneWay}" 
     Expanding="OnItemExpanding" 
     Collapsed="OnItemCollapsed" 
@@ -34,7 +34,7 @@ The following example creates a hierarchical NavigationView and sets up an event
         <TextBlock Margin="0,10,0,0" x:Name="ExpandingItemLabel" Text="Last Expanding: N/A"/>
         <TextBlock x:Name="CollapsedItemLabel" Text="Last Collapsed: N/A"/>
     </StackPanel>    
-</muxc:NavigationView>
+</NavigationView>
 ```
 
 ```csharp

@@ -11,11 +11,11 @@ public Microsoft.UI.Dispatching.DispatcherQueue DispatcherQueue { get; }
 
 ## -description
 
-Gets the dispatcher queue used by a <xref:Microsoft.UI.Content.ContentSite>.
+Gets the dispatcher queue used by a [**ContentSite**](contentsite.md).
 
 ## -property-value
 
-The dispatcher queue used by a <xref:Microsoft.UI.Content.ContentSite>.
+The dispatcher queue used by a [**ContentSite**](contentsite.md).
 
 ## -remarks
 

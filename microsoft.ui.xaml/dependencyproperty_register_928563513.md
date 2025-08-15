@@ -21,11 +21,11 @@ The name of the dependency property to register.
 
 ### -param propertyType
 
-The type of the property, as a type reference ([System.Type](/dotnet/api/system.type) for Microsoft .NET, a [TypeName](/uwp/api/windows.ui.xaml.interop.typename) helper struct for Visual C++ component extensions (C++/CX)).
+The type of the property, as a type reference.
 
 ### -param ownerType
 
-The owner type that is registering the dependency property, as a type reference ([System.Type](/dotnet/api/system.type) for Microsoft .NET, a [TypeName](/uwp/api/windows.ui.xaml.interop.typename) helper struct for Visual C++ component extensions (C++/CX)).
+The owner type that is registering the dependency property, as a type reference..
 
 ### -param typeMetadata
 
@@ -39,7 +39,7 @@ A dependency property identifier that typically is stored in a public static r
 
 How to register a custom dependency property is described in detail (with examples) in the topic [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties).
 
-Registering a dependency property is typically something that you only do when an app first starts or [DependencyObject](dependencyobject.md) derived classes defined by your app code are first used. You need to register the dependency properties early in the app lifetime to assure that other code and XAML in your app don't try to use the dependency properties before they are registered and available. Exactly how and when to register varies, based on the programming language. For C# or Microsoft Visual Basic it's common to register dependency properties during the static class initialization of the class that owns the dependency property. That way any code or XAML that initializes the instance will invoke that static construction and register the dependency property. For Visual C++ component extensions (C++/CX)), static class initialization isn't an available technique, so you typically must define an app-wide helper method that registers all the custom dependency properties that your app intends to use, as part of the [Application](application.md) object initialization. For examples of how and when to register custom dependency properties, including some special techniques that are needed for Visual C++ component extensions (C++/CX), see [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties).
+Registering a dependency property is typically something that you only do when an app first starts or [DependencyObject](dependencyobject.md) derived classes defined by your app code are first used. You need to register the dependency properties early in the app lifetime to assure that other code and XAML in your app don't try to use the dependency properties before they are registered and available. Exactly how and when to register varies, based on the programming language. For C# it's common to register dependency properties during the static class initialization of the class that owns the dependency property. That way any code or XAML that initializes the instance will invoke that static construction and register the dependency property. For C++, static class initialization isn't an available technique, so you typically must define an app-wide helper method that registers all the custom dependency properties that your app intends to use, as part of the [Application](application.md) object initialization. For examples of how and when to register custom dependency properties, including some special techniques that are needed for C++, see [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties).
 
 ## -examples
 

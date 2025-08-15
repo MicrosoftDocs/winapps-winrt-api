@@ -13,12 +13,14 @@ public double Maximum { get; set; }
 
 Gets or sets the numerical maximum for [Value](numberbox_value.md).
 
-
 ## -property-value
+
+The numerical maximum for [Value](numberbox_value.md). The default is [Double.MaxValue](/dotnet/api/system.double.maxvalue) (1.7976931348623157E+308).
 
 ## -remarks
 
 ## -see-also
 
-## -examples
+[Number box](/windows/apps/design/controls/number-box)
 
+## -examples

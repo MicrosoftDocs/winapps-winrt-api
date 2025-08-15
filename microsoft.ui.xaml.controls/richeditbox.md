@@ -11,7 +11,7 @@ public class RichEditBox : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Con
 
 ## -description
 
-Represents a rich text editing control that supports formatted text, hyperlinks, and other rich content.
+Represents a rich text editing control that supports formatted text, hyperlinks, images, math equations, and other rich content.
 
 ## -xaml-syntax
 
@@ -25,7 +25,7 @@ Represents a rich text editing control that supports formatted text, hyperlinks,
 > [!TIP]
 > For more info, design guidance, and code examples, see [Rich edit box](/windows/apps/design/controls/rich-edit-box).
 
-RichEditBox is a control that lets a user enter formatted text such as bold, italic, and underlined. RichEditBox can also display Rich Text Format (.rtf) documents including hyperlinks and images (.jpg, .png, etc). This control is designed for advanced text editing scenarios. For simple plain text input, like on a form, consider using [TextBox](textbox.md).
+RichEditBox is a control that lets a user enter formatted text such as bold, italic, and underlined. RichEditBox can also display Rich Text Format (.rtf) documents including hyperlinks and images (.jpg, .png, etc) and math equations using [MathML 3.0](https://www.w3.org/Math/). This control is designed for advanced text editing scenarios. For simple plain text input, like on a form, consider using [TextBox](textbox.md).
 
 You use the [Document](richeditbox_document.md) property of the RichEditBox to get its content. The content of a RichEditBox is a [Windows.UI.Text.ITextDocument](/uwp/api/windows.ui.text.itextdocument) object, which gives you access to the underlying [Text Object Model](/windows/desktop/Controls/text-object-model) APIs. See the [Windows.UI.Text](/uwp/api/windows.ui.text) namespace for APIs that you can use to work with the text document.
 
@@ -53,7 +53,7 @@ Resources that start with `TextControl` are shared by [TextBox](textbox.md), [Pa
 > For more info, design guidance, and code examples, see [Rich edit box](/windows/apps/design/controls/rich-edit-box).
 
 > [!div class="nextstepaction"]
-> [Open the WinUI 3 Gallery app and see the RichEditBox in action](winui3gallery:/item/RichEditBox)
+> [Open the WinUI 3 Gallery app and see the RichEditBox in action](winui3gallery://item/RichEditBox)
 
 > The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery)
 

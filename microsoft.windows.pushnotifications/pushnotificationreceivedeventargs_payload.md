@@ -12,7 +12,7 @@ public byte[] Payload { get; }
 
 ## -description
 
-Gets the payload of the push notification that triggered the associated [PushReceived](xref:Microsoft.Windows.PushNotifications.PushNotificationManager.PushReceived) event.
+Gets the payload of the push notification that triggered the associated [PushReceived](/windows/windows-app-sdk/api/winrt/microsoft.windows.pushnotifications.pushnotificationmanager.pushreceived) event.
 
 ## -property-value
 

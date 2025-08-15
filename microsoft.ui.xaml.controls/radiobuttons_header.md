@@ -34,12 +34,11 @@ You can set a data template for the header by using the [HeaderTemplate](radiobu
 This example shows a `RadioButtons` group with its `Header` set to "Background color".
 
 ```xaml
-<!-- xmlns:muxc="using:Microsoft.UI.Xaml.Controls -->
-<muxc:RadioButtons Header="Background color">
+<RadioButtons Header="Background color">
     <x:String>Red</x:String>
     <x:String>Green</x:String>
     <x:String>Blue</x:String>
-</muxc:RadioButtons>
+</RadioButtons>
 ```
 
 ![A RadioButtons group with its Header set to "Background color"](images/radiobuttons/radiobuttons-default-group.png)
@@ -47,18 +46,17 @@ This example shows a `RadioButtons` group with its `Header` set to "Background c
 This example shows a `RadioButtons` group with it a complex header with an icon and text.
 
 ```xaml
-<!-- xmlns:muxc="using:Microsoft.UI.Xaml.Controls -->
-<muxc:RadioButtons>
-    <muxc:RadioButtons.Header>
+<RadioButtons>
+    <RadioButtons.Header>
         <StackPanel Orientation="Horizontal">
             <SymbolIcon Symbol="Highlight"/>
             <TextBlock Text="Highlight color" Margin="8,0,0,0"/>
         </StackPanel>
-    </muxc:RadioButtons.Header>
+    </RadioButtons.Header>
     <x:String>Yellow</x:String>
     <x:String>Green</x:String>
     <x:String>Pink</x:String>
-</muxc:RadioButtons>
+</RadioButtons>
 ```
 
 ![A RadioButtons group with its Header set to "Background color"](images/radiobuttons/radiobuttons-header-icon.png)

@@ -12,11 +12,11 @@ public AppNotificationProgressBar ();
 
 ## -description
 
-Initializes a new instance of the [AppNotificationProgressBar](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationProgressBar) class.
+Initializes a new instance of the [AppNotificationProgressBar](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationprogressbar) class.
 
 ## -remarks
 
-Add a progress bar to the XML payload for an app notification by calling [AppNotificationBuilder.AddProgressBar](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationBuilder.AddProgressBar(Microsoft.Windows.AppNotifications.Builder.AppNotificationProgressBar)). 
+Add a progress bar to the XML payload for an app notification by calling [AppNotificationBuilder.AddProgressBar](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationbuilder.addprogressbar)). 
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 
@@ -64,7 +64,7 @@ The resulting XML payload:
 </toast>
 ```
 
-Update the bound values by calling [AppNotificationManager.UpdateAsync](xref:Microsoft.Windows.AppNotifications.AppNotificationManager.UpdateAsync(Microsoft.Windows.AppNotifications.AppNotificationProgressData,System.String)) and specifying the tag, and optionally the group, of the tag you want to update.
+Update the bound values by calling [AppNotificationManager.UpdateAsync](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationmanager.updateasync)) and specifying the tag, and optionally the group, of the tag you want to update.
 
 ```csharp
 private async Task UpdateProgressBar()

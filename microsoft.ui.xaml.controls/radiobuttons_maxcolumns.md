@@ -32,15 +32,14 @@ To have items arranged in a single horizontal row, set `MaxColumns` equal to the
 ## -examples
 
 ```xaml
-<!-- xmlns:muxc="using:Microsoft.UI.Xaml.Controls -->
-<muxc:RadioButtons Header="Options" MaxColumns="3">
+<RadioButtons Header="Options" MaxColumns="3">
     <x:String>Item 1</x:String>
     <x:String>Item 2</x:String>
     <x:String>Item 3</x:String>
     <x:String>Item 4</x:String>
     <x:String>Item 5</x:String>
     <x:String>Item 6</x:String>
-</muxc:RadioButtons>
+</RadioButtons>
 ```
 
 ![Six radio buttons arranged in three columns](images/radiobuttons/radiobuttons-multi-column.png)

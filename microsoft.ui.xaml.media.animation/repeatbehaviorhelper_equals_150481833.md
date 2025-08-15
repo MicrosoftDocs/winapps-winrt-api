@@ -10,8 +10,7 @@ public bool Equals(Windows.UI.Xaml.Media.Animation.RepeatBehavior target, Window
 # Microsoft.UI.Xaml.Media.Animation.RepeatBehaviorHelper.Equals
 
 ## -description
-Determines whether two [RepeatBehavior](repeatbehavior.md) values have equivalent values. C# and Microsoft Visual Basic code should use the equality operator instead.
-<!-- Link RepeatBehavior.Equals if we add it.-->
+Determines whether two [RepeatBehavior](repeatbehavior.md) values have equivalent values. C# code should use the equality operator instead.
 
 ## -parameters
 ### -param target

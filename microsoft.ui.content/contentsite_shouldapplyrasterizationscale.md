@@ -11,7 +11,7 @@ public bool ShouldApplyRasterizationScale { get; set; }
 
 ## -description
 
-Gets or sets whether the <xref:Microsoft.UI.Content.ContentSite> should apply the computed <xref:Microsoft.UI.Content.ContentSite.RasterizationScale>.
+Gets or sets whether the [**ContentSite**](contentsite.md) should apply the computed [RasterizationScale](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.rasterizationscale).
 
 ## -property-value
 

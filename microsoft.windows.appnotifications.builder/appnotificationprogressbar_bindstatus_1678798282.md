@@ -12,7 +12,7 @@ public Microsoft.Windows.AppNotifications.Builder.AppNotificationProgressBar Bin
 
 ## -description
 
-Binds the [AppNotificationProgressBar.Status](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationProgressBar.Status) property.
+Binds the [AppNotificationProgressBar.Status](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationprogressbar.status) property.
 
 ## -returns
 
@@ -20,9 +20,9 @@ Returns the **AppNotificationProgressBar** instance so that additional method ca
 
 ## -remarks
 
-The **Status** value is bound by default. Update the bound status value by assigning an [AppNotificationProgressData](xref:Microsoft.Windows.AppNotifications.AppNotificationProgressData) object to the [AppNotification.Progress](xref:Microsoft.Windows.AppNotifications.AppNotification.Progress)s property.
+The **Status** value is bound by default. Update the bound status value by assigning an [AppNotificationProgressData](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationprogressdata) object to the [AppNotification.Progress](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification.progress)s property.
 
-You can also set the status with the **AppNotificationProgressBar.Status** property or by calling [AppNotificationProgressBar.SetStatus](xref:Microsoft.Windows.AppNotifications.Builder.AppNotificationProgressBar.SetStatus(System.String)).
+You can also set the status with the **AppNotificationProgressBar.Status** property or by calling [AppNotificationProgressBar.SetStatus](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationprogressbar.setstatus)).
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 
@@ -71,7 +71,7 @@ The resulting XML payload:
 </toast>
 ```
 
-Update the bound values by calling [AppNotificationManager.UpdateAsync](xref:Microsoft.Windows.AppNotifications.AppNotificationManager.UpdateAsync(Microsoft.Windows.AppNotifications.AppNotificationProgressData,System.String)) and specifying the tag, and optionally the group, of the tag you want to update.
+Update the bound values by calling [AppNotificationManager.UpdateAsync](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationmanager.updateasync)) and specifying the tag, and optionally the group, of the tag you want to update.
 
 ```csharp
 private async Task UpdateProgressBar()

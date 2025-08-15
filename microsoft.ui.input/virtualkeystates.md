@@ -27,9 +27,6 @@ The key is pressed down.
 
 The key is in a toggled or modified state (for example, Caps Lock).
 
-> [!NOTE]
-> All keys support the Locked state (not just the standard Caps Lock and Num Lock keys).
-
 ## -remarks
 
 The keyboard device driver receives *scan codes* from the keyboard and interprets and translates (maps) them into virtual-key codes (device-independent values defined by the system to identify the purpose of a key).

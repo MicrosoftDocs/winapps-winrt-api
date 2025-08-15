@@ -13,9 +13,6 @@ public enum RichEditMathMode : int
 
 Defines constants that specify whether a [RichEditBox](../microsoft.ui.xaml.controls/richeditbox.md) interprets input as math ([MathML](https://www.w3.org/Math/)) or text.
 
-> [!IMPORTANT]
-> The math mode APIs are a limited access feature. Please contact [richeditmathml@microsoft.com](mailto:richeditmathml@microsoft.com) for more info, or to request an unlock token.
-
 ## -enum-fields
 
 ### -field NoMath:0

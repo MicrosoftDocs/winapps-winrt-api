@@ -11,7 +11,7 @@ public enum XamlSourceFocusNavigationReason
 
 ## -description
 
-Specifies values that represent reasons that a [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) got focus in a desktop application that uses a [DesktopWindowXamlSource](desktopwindowxamlsource.md) object to host XAML-based UI.
+Specifies values that represent reasons that a [UIElement](../microsoft.ui.xaml/uielement.md) got focus in a desktop application that uses a [DesktopWindowXamlSource](desktopwindowxamlsource.md) object to host XAML-based UI.
 
 ## -enum-fields
 
@@ -53,4 +53,10 @@ The focus was set in response to the user navigating **down** by using 4-directi
 
 [XamlSourceFocusNavigationRequest.Reason](xamlsourcefocusnavigationrequest_reason.md)
 
+[Using the WinRT XAML hosting API in a C++ desktop (Win32) app](/windows/apps/desktop/modernize/using-the-xaml-hosting-api)
+
 ## -examples
+
+This sample shows how to add a WASDK island with XAML content to a Win32 app (the Windows App SDK runtime must be installed for the app to run).
+
+[Simple Island App](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/Islands)
