@@ -63,12 +63,12 @@ This example shows how to extend the window's content area and replace the syste
             <Image Source="Images/WindowIcon.png"
                    HorizontalAlignment="Left" 
                    Width="16" Height="16" 
-                   Margin="8,0"/>
+                   Margin="16,0"/>
             <TextBlock x:Name="AppTitleTextBlock" Text="App title"
                        TextWrapping="NoWrap"
                        Style="{StaticResource CaptionTextBlockStyle}" 
                        VerticalAlignment="Center"
-                       Margin="28,0,0,0"/>
+                       Margin="48,0,0,0"/>
         </Grid>
 
         <NavigationView Grid.Row="1">

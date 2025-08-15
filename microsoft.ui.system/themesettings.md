@@ -28,7 +28,7 @@ In this sample code, an app uses a **ThemeSettings** object to listen for high c
 ```cppwinrt
 void MyApp::ListenForHighContrastChange(XamlRoot& xamlRoot) 
 {
-  const auto myWindowId = xamlRoot.ContentEnvironment().AppWindowId();
+  const auto myWindowId = xamlRoot.ContentIslandEnvironment().AppWindowId();
   m_themeSettings = ThemeSettings::CreateForWindowId(myWindowId);
 
   m_themeSettings.Changed([xamlRoot](const ThemeSettings& ts, const auto&) {
@@ -48,7 +48,7 @@ void MyApp::ListenForHighContrastChange(XamlRoot& xamlRoot)
 ```csharp
 void MyApp.ListenForHighContrastChange(XamlRoot xamlRoot)
 {
-    var myWindowId = xamlRoot.ContentEnvironment().AppWindowId();
+    var myWindowId = xamlRoot.ContentIslandEnvironment().AppWindowId();
     m_themeSettings = ThemeSettings.CreateForWindowId(myWindowId);
 
     m_themeSettings.Changed += (ts, _) =>

@@ -43,7 +43,7 @@ LinedFlowLayout provides properties to control:
 
 ## -see-also
 
-[ItemsView](itemsview.md), [ItemsRepeater](itemsrepeater.md) [StackLayout](stacklayout.md), [UniformGridLayout](uniformgridlayout.md)
+[ItemsView](itemsview.md), [ItemsRepeater](itemsrepeater.md), [StackLayout](stacklayout.md), [UniformGridLayout](uniformgridlayout.md)
 
 ## -examples
 
