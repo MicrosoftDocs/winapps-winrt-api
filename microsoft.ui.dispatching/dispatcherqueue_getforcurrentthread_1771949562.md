@@ -15,7 +15,7 @@ Gets the [DispatcherQueue](dispatcherqueue.md) associated with the current threa
 
 ## -returns
 
-A DispatcherQueue instance that will execute tasks serially on the current thread.
+A DispatcherQueue instance that will execute tasks serially on the current thread, or null if no such DispatcherQueue exists.
 
 ## -remarks
 

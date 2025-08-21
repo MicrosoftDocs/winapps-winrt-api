@@ -13,7 +13,7 @@ public class Compositor : Windows.Foundation.IClosable, Windows.UI.Composition.I
 
 Manages the session between an application and the system compositor process.
 
-The Compositor class creates an instance of the Compositor for the application that can be used as a factory for a variety of types in the Windows.UI.Composition namespace spanning the visual layer, effects system and animation system. The Compositor class also manages the lifetime of objects created from the factory.
+The Compositor class creates an instance of the Compositor for the application that can be used as a factory for a variety of types in the Microsoft.UI.Composition namespace spanning the visual layer, effects system and animation system. The Compositor class also manages the lifetime of objects created from the factory.
 
 ## -remarks
 

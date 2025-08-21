@@ -121,11 +121,14 @@
         "microsoft.windows.applicationmodel.windowsappruntime*": "stevewhims",
         "microsoft.windows.applifecycle*": "alvinashcraft",
         "microsoft.windows.appnotifications*": "drewbatgit",
+        "microsoft.windows.globalization*": "karl-bridge-microsoft",
+        "microsoft.windows.management.deployment*": "stevewhims",
         "microsoft.windows.pushnotifications*": "drewbatgit",
         "microsoft.windows.security.accesscontrol*": "alvinashcraft",
         "microsoft.windows.storage*": "alvinashcraft",
         "microsoft.windows.storage.pickers*": "alvinashcraft",
-        "microsoft.windows.system.power*": "alvinashcraft"
+        "microsoft.windows.system.power*": "alvinashcraft",
+        "microsoft.windows.widgets*": "drewbatgit"
       },
       "ms.author":
       {
@@ -185,11 +188,14 @@
         "microsoft.windows.applicationmodel.windowsappruntime*": "stwhi",
         "microsoft.windows.applifecycle*": "aashcraft",
         "microsoft.windows.appnotifications*": "drewbat",
+        "microsoft.windows.globalization*": "kbridge",
+        "microsoft.windows.management.deployment*": "stwhi",
         "microsoft.windows.pushnotifications*": "drewbat",
         "microsoft.windows.security.accesscontrol*": "aashcraft",
         "microsoft.windows.storage*": "aashcraft",
         "microsoft.windows.storage.pickers*": "aashcraft",
-        "microsoft.windows.system.power*": "aashcraft"
+        "microsoft.windows.system.power*": "aashcraft",
+        "microsoft.windows.widgets*": "drewbatgit"
       }	
     },
     "template": [],

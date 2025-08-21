@@ -15,8 +15,7 @@ Retrieves the pointer data for up to the last 64 pointer locations since the las
 
 ## -returns
 
-The data for each pointer.
-
+The data for each pointer, or an empty collection, if the PointerEventArgs are null due to the object being disconnected.
 ## -remarks
 
 ## -see-also
