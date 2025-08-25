@@ -15,7 +15,7 @@ Gets or sets the maximum number of lines to return from the recognition operatio
 
 ## -property-value
 
-The maximum number of lines to return from the recognition operation.
+The maximum number of lines to return from the recognition operation (up to 1000 lines).
 
 ## -remarks
 
