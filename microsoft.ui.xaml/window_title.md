@@ -21,7 +21,9 @@ The string used for the window title.
 
 For more information, see [Title bar customization](/windows/apps/develop/title-bar?tabs=winui3#title-1)
 
-By default, the title bar shows the app's display name as the window title. The display name is set in the `Package.appxmanifest` file. To replace the title with custom text, set the `Window.Title` property to a text value, as shown in the Examples.
+By default, the title bar shows the app type as the window title (for example, "WinUI Desktop"). You should update the window title to show a meaningful display name for your app.
+
+To replace the title with custom text, set the `Window.Title` property to a text value, as shown in the Examples.
 
 In addition to the title bar, this string is used in other system UI such as the application switcher (Alt-Tab).
 
@@ -31,12 +33,20 @@ If [ExtendsContentIntoTitleBar](window_extendscontentintotitlebar.md) is set to 
 
 ## -examples
 
+This example shows how to set the Title in code.
+
 ```csharp
 public MainWindow()
 {
     InitializeComponent();
     Title = "App title";
 }
+```
+
+A XAML app has a display name that's set in the `Package.appxmanifest` file. You can get this value and use it to set the `Title` property like this:
+
+```csharp
+Title = AppInfo.Current.DisplayInfo.DisplayName;
 ```
 
 > [!NOTE]

@@ -21,4 +21,4 @@ The [Closed](window_closed.md) event occurs when a [Window](window.md) closes.
 
 ## -see-also
 
-[Closed](window_closed.md)
+[Closed](window_closed.md), [Windowing overview for WinUI and Windows App SDK](/windows/apps/develop/ui-input/windowing-overview)
