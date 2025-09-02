@@ -69,7 +69,7 @@ In order to support XAML processor access to the attached properties, and also t
 > [!div class="nextstepaction"]
 > [Open the WinUI 3 Gallery app and see the Canvas in action](winui3gallery://item/Canvas)
 
-> The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery).
+> The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://apps.microsoft.com/detail/9p3jfpwwdzrc) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery).
 
 This example shows how to position a rectangle 30 pixels from the left and 30 pixels from the top of a Canvas.
 

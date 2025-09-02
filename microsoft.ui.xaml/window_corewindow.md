@@ -11,18 +11,22 @@ public Windows.UI.Core.CoreWindow CoreWindow { get; }
 
 ## -description
 
-Desktop apps always return `null` for this property.
+[Deprecated] Always returns `null`.
 
 ## -property-value
 
-Value is `null` for Desktop apps.
+Always `null`.
 
 ## -remarks
 
-The [Window](window.md) object implements [IWindowNative](/windows/windows-app-sdk/api/win32/microsoft.ui.xaml.window/nn-microsoft-ui-xaml-window-iwindownative), through which Desktop apps can get the underlying HWND of the `Window`.
+> [!IMPORTANT]
+> `Window.CoreWindow` may be altered or unavailable in future releases.
+
+> [!NOTE]
+> The XAML Window class has several properties that were carried over from the UWP [Windows.UI.Xaml.Window](/uwp/api/windows.ui.xaml.window) class, but are not supported in WinUI apps. These properties always have a `null` value and are not used in WinUI apps. For more info, see [Windowing functionality migration](/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/guides/windowing).
 
 ## -examples
 
 ## -see-also
 
-[IWindowNative](/windows/windows-app-sdk/api/win32/microsoft.ui.xaml.window/nn-microsoft-ui-xaml-window-iwindownative)
+[Windowing functionality migration](/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/guides/windowing)

@@ -19,6 +19,10 @@ The `AppWindow` associated with this XAML `Window`.
 
 ## -remarks
 
+For more information about the relationship between `Window` and `AppWindow`, see [Windowing overview for WinUI and Windows App SDK](/windows/apps/develop/ui-input/windowing-overview).
+
 ## -see-also
+
+[Windowing overview for WinUI and Windows App SDK](/windows/apps/develop/ui-input/windowing-overview)
 
 ## -examples

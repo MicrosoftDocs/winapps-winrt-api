@@ -15,14 +15,14 @@ Occurs when the window has successfully been activated.
 
 ## -remarks
 
-This event occurs when a [Window](window.md) has been activated or deactivated by the system. An app can determine what the status of the `Window` activation is by checking the [WindowActivationState](windowactivatedeventargs_windowactivationstate.md) property. A `Window` could be visible on screen but not be active (for example, in snapped apps). Additionally, if any other parts of the system takes focus away from the window, this event will occur. This could happen as a result of user interaction or code, and the `WindowActivationState` will indicate which action has taken place.
+This event occurs when a [Window](window.md) has been activated or deactivated by the system. You can determine the status of the `Window` activation by checking the [WindowActivationState](windowactivatedeventargs_windowactivationstate.md) property. A `Window` could be visible on screen but not be active. Additionally, if any other parts of the system takes focus away from the window, this event will occur. This could happen as a result of user interaction or code, and the `WindowActivationState` will indicate which action has taken place.
 
 ## -examples
 
 The following code example demonstrates a typical usage pattern for this event.
 
 ```csharp
-void Current_Activated(object sender, WindowActivatedEventArgs e)
+void Window_Activated(object sender, WindowActivatedEventArgs e)
 {
     if (e.WindowActivationState == WindowActivationState.Deactivated)
     {
@@ -36,9 +36,8 @@ void Current_Activated(object sender, WindowActivatedEventArgs e)
         VisualStateManager.GoToState(this, "ActivateUI", false);
     }
 }
-
 ```
 
 ## -see-also
 
-[WindowActivatedEventArgs](windowactivatedeventargs.md)
+[WindowActivatedEventArgs](windowactivatedeventargs.md), [Windowing overview for WinUI and Windows App SDK](/windows/apps/develop/ui-input/windowing-overview)
