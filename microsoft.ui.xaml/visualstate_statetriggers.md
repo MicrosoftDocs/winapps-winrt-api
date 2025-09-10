@@ -23,7 +23,7 @@ Use this property to create rules in XAML that specify when a particular [Visual
 
 You can use the built-in [AdaptiveTrigger](adaptivetrigger.md) to create rules based on window size, which is useful for creating responsive UI. You can also extend [StateTriggerBase](statetriggerbase.md) to create your own custom triggers and use them within the StateTriggers property.
 
-For more examples, see the [XAML Responsive Techniques sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlResponsiveTechniques?amp;amp;clcid=0x409) and the [State Triggers sample](https://go.microsoft.com/fwlink/p/?LinkId=620025&amp;amp;clcid=0x409).
+For more examples, see the [XAML Responsive Techniques sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlResponsiveTechniques?amp;amp;clcid=0x409) and the [State Triggers sample](https://github.com/Microsoft/Windows-universal-samples/tree/main/Samples/XamlStateTriggers).
 
 ## -examples
 
@@ -61,4 +61,4 @@ This example shows how to use the StateTriggers property with an [AdaptiveTrigge
 
 ## -see-also
 
-[AdaptiveTrigger](adaptivetrigger.md), [StateTriggerBase](statetriggerbase.md), [XAML Responsive Techniques sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlResponsiveTechniques?amp;amp;clcid=0x409), [State Triggers sample](https://go.microsoft.com/fwlink/p/?LinkId=620025&amp;amp;clcid=0x409)
+[AdaptiveTrigger](adaptivetrigger.md), [StateTriggerBase](statetriggerbase.md), [XAML Responsive Techniques sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlResponsiveTechniques?amp;amp;clcid=0x409), [State Triggers sample](https://github.com/Microsoft/Windows-universal-samples/tree/main/Samples/XamlStateTriggers)
