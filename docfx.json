@@ -195,7 +195,7 @@
         "microsoft.windows.storage*": "aashcraft",
         "microsoft.windows.storage.pickers*": "aashcraft",
         "microsoft.windows.system.power*": "aashcraft",
-        "microsoft.windows.widgets*": "drewbatgit"
+        "microsoft.windows.widgets*": "drewbat"
       }	
     },
     "template": [],
