@@ -21,12 +21,14 @@ Gets or sets a value that indicates how far up or down the keytip is placed in r
 
 ## -property-value
 
-The number of pixels to move the KeyTip. Positive values move it down. Negative values move it up.
+The number of pixels to move the keytip. Positive values move it down. Negative values move it up.
 
 ## -remarks
 
+Keytips are badges displayed next to controls that support access keys when the user presses the Alt key. Each keytip contains the alphanumeric keys that activate the associated control.
+
 ## -see-also
 
-[UIElement.KeyTipVerticalOffset](../microsoft.ui.xaml/uielement_keytipverticaloffset.md)
+[UIElement.KeyTipVerticalOffset](../microsoft.ui.xaml/uielement_keytipverticaloffset.md), [Access keys](/windows/apps/design/input/access-keys)
 
 ## -examples
