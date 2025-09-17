@@ -21,12 +21,14 @@ Gets or sets a value that indicates how far left or right the keytip is placed i
 
 ## -property-value
 
-The number of pixels to move the KeyTip. Positive values move it right. Negative values move it left.
+The number of pixels to move the keytip. Positive values move it right. Negative values move it left.
 
 ## -remarks
 
+Keytips are badges displayed next to controls that support access keys when the user presses the Alt key. Each keytip contains the alphanumeric keys that activate the associated control.
+
 ## -see-also
 
-[UIElement.KeyTipHorizontalOffset](../microsoft.ui.xaml/uielement_keytiphorizontaloffset.md)
+[UIElement.KeyTipHorizontalOffset](../microsoft.ui.xaml/uielement_keytiphorizontaloffset.md), [Access keys](/windows/apps/design/input/access-keys)
 
 ## -examples

@@ -11,7 +11,7 @@ public KeyTipPlacementMode KeyTipPlacementMode { get;  set; }
 
 ## -description
 
-Gets or sets a value that indicates where the KeyTip is placed in relation to the text element.
+Gets or sets a value that indicates where the keytip is placed in relation to the text element.
 
 ## -xaml-syntax
 
@@ -30,8 +30,10 @@ A value of the enumeration. The default is **Auto**.
 
 ## -remarks
 
+Keytips are badges displayed next to controls that support access keys when the user presses the Alt key. Each keytip contains the alphanumeric keys that activate the associated control.
+
 ## -see-also
 
-[UIElement.KeyTipPlacementMode](../microsoft.ui.xaml/uielement_keytipplacementmode.md)
+[UIElement.KeyTipPlacementMode](../microsoft.ui.xaml/uielement_keytipplacementmode.md), [Access keys](/windows/apps/design/input/access-keys)
 
 ## -examples
