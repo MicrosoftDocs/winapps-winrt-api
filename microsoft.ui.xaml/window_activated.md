@@ -11,11 +11,15 @@ public event Microsoft.UI.Xaml.WindowActivatedEventHandler Activated
 
 ## -description
 
-Occurs when the window has successfully been activated.
+Occurs when the window has been successfully activated or deactivated.
 
 ## -remarks
 
-This event occurs when a [Window](window.md) has been activated or deactivated by the system. You can determine the status of the `Window` activation by checking the [WindowActivationState](windowactivatedeventargs_windowactivationstate.md) property. A `Window` could be visible on screen but not be active. Additionally, if any other parts of the system takes focus away from the window, this event will occur. This could happen as a result of user interaction or code, and the `WindowActivationState` will indicate which action has taken place.
+This event occurs when a [Window](window.md) has been activated or deactivated. You can determine the status of the `Window` activation by checking the [WindowActivationState](windowactivatedeventargs_windowactivationstate.md) property.
+
+If any other part of the system takes focus away from the window, this event will occur. A `Window` can be visible on screen but not be active.
+
+Window activation can happen as a result of user interaction or code, and the `WindowActivationState` will indicate which action has taken place.
 
 ## -examples
 
