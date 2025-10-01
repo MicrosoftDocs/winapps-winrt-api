@@ -23,4 +23,4 @@ If this was the last window to be closed for the app, the application will end.
 
 ## -see-also
 
-[Close](window_close_811482585.md)
+[Close](window_close_811482585.md), [Windowing overview for WinUI and Windows App SDK](/windows/apps/develop/ui-input/windowing-overview)

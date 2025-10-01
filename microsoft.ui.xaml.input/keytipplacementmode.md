@@ -18,37 +18,47 @@ public enum KeyTipPlacementMode : int {
 # Microsoft.UI.Xaml.Input.KeyTipPlacementMode
 
 ## -description
+
 Defines constants that specify where a Key Tip is placed in relation to a UIElement.
 
 ## -enum-fields
 
 ### -field Auto:0
+
 The placement of the Key Tip is determined by the system.
 
 ### -field Bottom:1
+
 The Key Tip is placed below the element.
 
 ### -field Top:2
+
 The Key Tip is placed above the element.
 
 ### -field Left:3
+
 The Key Tip is placed left of the element.
 
 ### -field Right:4
+
 The Key Tip is placed right of the element.
 
 ### -field Center:5
+
 The Key Tip is centered on the element.
 
 ### -field Hidden:6
+
 The Key Tip is not shown.
 
-
 ## -remarks
+
+Keytips are badges displayed next to controls that support access keys when the user presses the Alt key. Each keytip contains the alphanumeric keys that activate the associated control.
+
 This enumeration is used by the [UIElement.KeyTipPlacementMode](../microsoft.ui.xaml/uielement_keytipplacementmode.md) property.
 
 ## -see-also
-[UIElement.KeyTipPlacementMode](../microsoft.ui.xaml/uielement_keytipplacementmode.md), [Access keys guidelines](/windows/apps/design/input/access-keys)
+
+[UIElement.KeyTipPlacementMode](../microsoft.ui.xaml/uielement_keytipplacementmode.md), [Access keys](/windows/apps/design/input/access-keys)
 
 ## -examples
-

@@ -23,7 +23,14 @@ Use this property in conjunction with the [SetTitleBar](window_settitlebar_14947
 
 To specify a custom title bar, you must set `ExtendsContentIntoTitleBar` to `true` to hide the default system title bar. If `ExtendsContentIntoTitleBar` is `false`, a call to `SetTitleBar` does not have any effect. Your custom title bar element is shown in the body of your app window as an ordinary UI element and does not get the title bar behaviors.
 
-If you set `ExtendsContentIntoTitleBar` to `true` but do not call `SetTitleBar`, a default custom title bar is provided. See [SetTitleBar](window_settitlebar_1494775390.md) for more details on this.
+If you set `ExtendsContentIntoTitleBar` to `true` but do not call `SetTitleBar`, a default custom title bar is provided. See [SetTitleBar](window_settitlebar_1494775390.md) for more details.
+
+> [!CAUTION]
+> `ExtendsContentIntoTitleBar` shows in the XAML IntelliSense for `Window`, but setting it in XAML causes an error. Set this property in code instead.
+
+> [!CAUTION]
+> `ExtendsContentIntoTitleBar` shows in the XAML IntelliSense for `Window`, but setting it in XAML causes an error. Set this property in code instead.
+
 
 > [!CAUTION]
 > `ExtendsContentIntoTitleBar` shows in the XAML IntelliSense for `Window`, but setting it in XAML causes an error. Set this property in code instead.
@@ -31,4 +38,4 @@ If you set `ExtendsContentIntoTitleBar` to `true` but do not call `SetTitleBar`,
 
 ## -see-also
 
-[SetTitleBar](window_settitlebar_1494775390.md), [IWindowNative](/windows/apps/winui/reference/iwindownative)
+[SetTitleBar](window_settitlebar_1494775390.md), [IWindowNative](/windows/apps/winui/reference/iwindownative), [Windowing overview for WinUI and Windows App SDK](/windows/apps/develop/ui-input/windowing-overview), [Title bar customization](/windows/apps/develop/title-bar)

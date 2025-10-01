@@ -27,4 +27,4 @@ For code examples in C# and C++/WinRT see [WriteableBitmap.PixelBuffer](writeabl
 
 ## -see-also
 
-[BitmapSource](bitmapsource.md), [WriteableBitmap.PixelBuffer](writeablebitmap_pixelbuffer.md), [BitmapDecoder](/uwp/api/windows.graphics.imaging.bitmapdecoder), [Windows.Graphics.Imaging namespace](/uwp/api/windows.graphics.imaging), [XAML images sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20images%20sample), [Camera preview frame sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620516)
+[BitmapSource](bitmapsource.md), [WriteableBitmap.PixelBuffer](writeablebitmap_pixelbuffer.md), [BitmapDecoder](/uwp/api/windows.graphics.imaging.bitmapdecoder), [Windows.Graphics.Imaging namespace](/uwp/api/windows.graphics.imaging), [XAML images sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20images%20sample), [Camera preview frame sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/main/Samples/CameraGetPreviewFrame)

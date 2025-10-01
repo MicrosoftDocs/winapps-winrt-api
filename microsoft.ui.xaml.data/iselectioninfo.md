@@ -24,4 +24,4 @@ The ISelectionInfo interface supports virtualization of large data sources for e
 
 ## -see-also
 
-[Data virtualization sample (Windows 10)](https://go.microsoft.com/fwlink/?LinkID=703784)
+[Data virtualization sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/main/Samples/XamlDataVirtualization)

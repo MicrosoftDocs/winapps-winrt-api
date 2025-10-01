@@ -20,7 +20,7 @@ Provides APIs for local, on-device AI features.
 
 Learn about the [Windows App SDK](/windows/apps/windows-app-sdk/) APIs that can access local language models such as Phi Silica, Microsoft's most powerful NPU-tuned local language model that enables on-device processing and generation of chat, reasoning over text, math solving, code generation, and more.
 
-For more details, see [Get started with Phi Silica in the Windows App SDK](phi-silica.md).
+For more details, see [Get started with Phi Silica in the Windows App SDK](/windows/ai/apis/phi-silica).
 
 > [!TIP]
 > Provide feedback on these APIs and their functionality by creating a [new Issue](https://github.com/microsoft/WindowsAppSDK/issues/new?template=Blank+issue) in the Windows App SDK GitHub repo (include **Phi Silica** in the title) or by responding to an [existing issue](https://github.com/microsoft/WindowsAppSDK/issues).

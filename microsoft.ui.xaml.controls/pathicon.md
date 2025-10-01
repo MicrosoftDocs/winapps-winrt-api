@@ -32,7 +32,7 @@ Represents an icon that uses a vector path as its content.
 > [!div class="nextstepaction"]
 > [Open the WinUI 3 Gallery app and see the AppBarButton in action (used in an AppBarButton)](winui3gallery://item/AppBarButton)
 
-> The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery).
+> The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://apps.microsoft.com/detail/9p3jfpwwdzrc) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery).
 
 This example shows an [AppBarButton](appbarbutton.md) with a PathIcon.
 

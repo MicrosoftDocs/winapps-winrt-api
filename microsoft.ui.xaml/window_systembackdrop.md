@@ -40,15 +40,20 @@ This example shows how to set the `SystemBackdrop` to use [Mica Alt](/windows/ap
 
     <Grid RowDefinitions="*,*">
         <!-- This area has a transparent background, so the Mica
-         backdrop will be mostly visible. For example, if there are
-         buttons here, the backdrop will show up in the margins
-         and gaps between the buttons. -->
-        <Grid Background="Transparent"></Grid>
-           
+        backdrop will be mostly visible. For example, if there are
+        buttons here, the backdrop will show up in the margins
+        and gaps between the buttons. -->
+        <Grid Background="Transparent">
+            <TextBlock Text="Grid 1"/>
+        </Grid>
+
         <!-- This area has an opaque background,
-         so the Mica backdrop won't be visible. -->
-        <Grid Grid.Row="1" Background="Gray"></Grid>
-    </Grid>
+        so the Mica backdrop won't be visible. -->
+        <Grid Grid.Row="1" Background="Gray">
+            <TextBlock Text="Grid 2"/>
+        </Grid>
+
+
 </Window>
 ```
 
