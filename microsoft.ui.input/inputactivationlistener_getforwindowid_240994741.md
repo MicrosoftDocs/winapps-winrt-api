@@ -11,7 +11,7 @@ public static Microsoft.UI.Input.InputActivationListener GetForWindowId (Microso
 
 ## -description
 
-Retrieves a [InputActivationListener](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputactivationlistener) object for the specified top-level window.
+Retrieves an [InputActivationListener](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputactivationlistener) object for the specified top-level window.
 
 ## -parameters
 
@@ -21,7 +21,7 @@ The window identifier.
 
 ## -returns
 
-A [InputActivationListener](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputactivationlistener) object for the specified top-level window, or a new InputActivationListener if one doesn't exist.
+An [InputActivationListener](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputactivationlistener) object for the specified top-level window, or a new InputActivationListener if one doesn't exist.
 
 If *windowId* is invalid, is owned by a different thread than the calling thread, or is a child window, GetForWindowId returns null.
 
