@@ -12,20 +12,28 @@ public static Microsoft.Windows.Foundation.DecimalValue Clamp (Microsoft.Windows
 
 ## -description
 
+Retrieve a decimal based on the value provided, clamped to the inclusive range of the specified minimum and maximum.
+
 ## -parameters
 
 ### -param value
 
+The value to clamp.
+
 ### -param min
+
+The specified minimum.
 
 ### -param max
 
+The specified maximum.
+
 ## -returns
+
+If *min* <= *value* <= *max*, then return *value*; otherwise, if *value* < *min*, then return *min*; otherwise, if *max* < *value*, then return *max*.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

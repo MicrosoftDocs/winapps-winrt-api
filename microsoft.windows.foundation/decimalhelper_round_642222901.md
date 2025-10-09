@@ -12,18 +12,24 @@ public static Microsoft.Windows.Foundation.DecimalValue Round (Microsoft.Windows
 
 ## -description
 
+Retrieve a decimal based on the value provided, rounded to the specified number of decimal places.
+
 ## -parameters
 
 ### -param value
 
+The value to round to the specified number of decimal places.
+
 ### -param decimalPlaces
 
+The number of decimal places to round *value* to.
+
 ## -returns
+
+A decimal based on the value provided, rounded to the specified number of decimal places.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

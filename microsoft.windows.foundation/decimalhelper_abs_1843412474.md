@@ -12,16 +12,20 @@ public static Microsoft.Windows.Foundation.DecimalValue Abs (Microsoft.Windows.F
 
 ## -description
 
+Retrieve a decimal with the absolute value of the value provided; that is, discard the sign.
+
 ## -parameters
 
 ### -param value
 
+The value to retrieve the absolute value of.
+
 ## -returns
+
+A decimal with the absolute value of the value provided.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

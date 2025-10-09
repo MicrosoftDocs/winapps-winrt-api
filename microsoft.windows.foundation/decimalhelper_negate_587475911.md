@@ -12,16 +12,20 @@ public static Microsoft.Windows.Foundation.DecimalValue Negate (Microsoft.Window
 
 ## -description
 
+Retrieve a decimal with the opposite sign from the value provided.
+
 ## -parameters
 
 ### -param value
 
+The value to negate.
+
 ## -returns
+
+A decimal whose value is (-*value*).
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

@@ -12,18 +12,24 @@ public static Microsoft.Windows.Foundation.DecimalValue Modulo (Microsoft.Window
 
 ## -description
 
+Retrieves a [DecimalValue](./decimalvalue.md) whose value is the modulus of the two specified parameters.
+
 ## -parameters
 
 ### -param left
 
+The first value to find the modulus of.
+
 ### -param right
 
+The second value to find the modulus of.
+
 ## -returns
+
+A [DecimalValue](./decimalvalue.md) whose value is (*left* % *right*).
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

@@ -12,16 +12,20 @@ public static Microsoft.Windows.Foundation.DecimalValue Floor (Microsoft.Windows
 
 ## -description
 
+Retrieve a decimal with the the integral digits only of the value provided, rounded down to -infinity; any fractional digits are discarded.
+
 ## -parameters
 
 ### -param value
 
+The value to retrieve the integral value of, rounded down to -infinity.
+
 ## -returns
+
+A decimal with the the integral digits only of the value provided, rounded down to -infinity.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

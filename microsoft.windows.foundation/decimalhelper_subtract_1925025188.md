@@ -12,18 +12,24 @@ public static Microsoft.Windows.Foundation.DecimalValue Subtract (Microsoft.Wind
 
 ## -description
 
+Retrieves a [DecimalValue](./decimalvalue.md) whose value is the difference between the two specified parameters.
+
 ## -parameters
 
 ### -param left
 
+The first value to find the difference of.
+
 ### -param right
 
+The second value to find the difference of.
+
 ## -returns
+
+A [DecimalValue](./decimalvalue.md) whose value is (*left* - *right*).
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
