@@ -12,7 +12,7 @@ public interface IFeedManager2
 
 ## -description
 
-An interface implemented by the [Microsoft.Windows.Widgets.Feeds.Providers.FeedManager](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers.feedmanager) to enable additional features.
+An interface implemented by the [Microsoft.Windows.Widgets.Feeds.Providers.FeedManager](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.feeds.providers.feedmanager) to add methods to those included in [IFeedManager](ifeedmanager.md).
 
 ## -remarks
 
