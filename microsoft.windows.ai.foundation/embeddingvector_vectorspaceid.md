@@ -11,11 +11,11 @@ public Guid VectorSpaceId { get; }
 
 ## -description
 
-Gets the unique identifier of the [EmbeddingVector](embeddingvector.md).
+Gets the unique identifier of the vector space associated with the [EmbeddingVector](embeddingvector.md).
 
 ## -property-value
 
-The unique identifier of the [EmbeddingVector](embeddingvector.md).
+The unique identifier of the vector space.
 
 ## -remarks
 

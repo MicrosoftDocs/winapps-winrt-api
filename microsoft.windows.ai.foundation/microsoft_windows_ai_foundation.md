@@ -7,7 +7,7 @@
 
 ## -description
 
-Enables fundamental Windows Runtime AI functionality, specifically embedding vector support for text prompts.
+Enables fundamental Windows Runtime AI functionality, specifically, support for generating text embedding vectors from prompts.
 
 ## -remarks
 
