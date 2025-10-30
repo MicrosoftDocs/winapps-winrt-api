@@ -9,13 +9,12 @@
 public sealed class LanguageModelOptions
 -->
 
-
 ## -description
+
+Defines the options that affect how the language model responds to a prompt.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

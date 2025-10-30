@@ -9,15 +9,16 @@
 public System.Collections.Generic.IReadOnlyList<Microsoft.Windows.AI.Foundation.EmbeddingVector> EmbeddingVectors { get; }
 -->
 
-
 ## -description
 
+Gets the embedding vectors created during the embedding vector initialization.
+
 ## -property-value
+
+The embedding vectors created during the embedding vector initialization.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

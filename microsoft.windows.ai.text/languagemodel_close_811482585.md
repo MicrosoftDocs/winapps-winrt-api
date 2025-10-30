@@ -11,10 +11,10 @@
 
 ## -description
 
+Closes the [LanguageModel](languagemodel.md) object.
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

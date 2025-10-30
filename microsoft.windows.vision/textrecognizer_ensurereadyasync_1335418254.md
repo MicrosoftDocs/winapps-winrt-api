@@ -11,11 +11,11 @@ public static Windows.Foundation.IAsyncOperationWithProgress<Microsoft.Windows.A
 
 ## -description
 
-Ensures the underlying language model is installed and available for use.
+Ensures the underlying text recognition language model is ready for use by downloading and installing any required components.
 
 ## -returns
 
-An asynchronous action with progress that returns a [PackageDeploymentResult](/windows/windows-app-sdk/api/winrt/microsoft.windows.management.deployment.packagedeploymentresult) on completion.
+An asynchronous action with progress that returns an [AIFeatureReadyResult](../microsoft.windows.ai/aifeaturereadyresult.md) on completion.
 
 ## -remarks
 

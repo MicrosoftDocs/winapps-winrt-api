@@ -9,15 +9,16 @@
 public Microsoft.Windows.AI.Text.LanguageModelResponseStatus Status { get; }
 -->
 
-
 ## -description
 
+Gets the status of the embedding vector initialization.
+
 ## -property-value
+
+The status of the embedding vector initialization.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

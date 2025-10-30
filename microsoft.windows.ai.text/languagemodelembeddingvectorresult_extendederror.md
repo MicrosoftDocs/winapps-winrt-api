@@ -9,15 +9,16 @@
 public System.Exception ExtendedError { get; }
 -->
 
-
 ## -description
 
+Gets the error information for the embedding vector initialization.
+
 ## -property-value
+
+The error information for the embedding vector initialization.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

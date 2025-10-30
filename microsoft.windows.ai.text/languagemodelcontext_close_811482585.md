@@ -9,13 +9,12 @@
 // This member is not implemented in C#
 -->
 
-
 ## -description
+
+Closes the [LanguageModelContext](languagemodelcontext.md) object.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
