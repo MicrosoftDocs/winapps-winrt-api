@@ -9,15 +9,16 @@
 public string Text { get; }
 -->
 
-
 ## -description
 
+Gets the language model response text.
+
 ## -property-value
+
+The language model response text.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

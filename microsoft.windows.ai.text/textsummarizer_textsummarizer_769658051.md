@@ -9,17 +9,18 @@
 public TextSummarizer (Microsoft.Windows.AI.Text.LanguageModel languageModel);
 -->
 
-
 ## -description
+
+Initializes a new instance of a [TextSummarizer](textsummarizer.md) object.
 
 ## -parameters
 
 ### -param languageModel
+
+The local small language model.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

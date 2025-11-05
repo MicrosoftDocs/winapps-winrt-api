@@ -9,15 +9,16 @@
 public Microsoft.Windows.AI.ContentSafety.ContentFilterOptions ContentFilterOptions { get; set; }
 -->
 
-
 ## -description
 
+Gets or sets a value that specifies filtering levels for various categories of responses.
+
 ## -property-value
+
+A value that specifies filtering levels for various categories of responses.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

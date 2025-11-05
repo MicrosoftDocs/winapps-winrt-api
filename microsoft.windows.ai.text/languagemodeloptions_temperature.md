@@ -11,14 +11,20 @@ public float Temperature { get; set; }
 
 ## -description
 
+Gets or sets a value that specifies how random (explorative) or conservative (deterministic) a response should be.
+
 ## -property-value
+
+A value that specifies how random (explorative) or conservative (deterministic) a response should be.
+
+Value can range between 0 and FLT_MAX, inclusive. Default is 0.9.
 
 ## -remarks
 
-
-Default value: 0.9. Higher values (e.g., 1.0) make the output less predictable which could be useful in a casual/entertaining use case. Lower values (e.g., 0.7) lead to more focused and coherent responses which could be useful in a professional use case where responses should be grammatically correct and contextually appropriate. Acceptable values between 0 and max float
-
+A low value indicates more predictable and less varied responses, while a higher value indicates more creative and varied responses.
 
 ## -see-also
 
 ## -examples
+
+[TopK](languagemodeloptions_topk.md), [TopP](languagemodeloptions_topp.md)

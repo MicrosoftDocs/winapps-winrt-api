@@ -9,13 +9,14 @@
 public sealed class TextToTableResponseResult
 -->
 
-
 ## -description
+
+Represents a text-to-table response.
 
 ## -remarks
 
 ## -see-also
 
+[TextToTableConverter](texttotableconverter.md)
+
 ## -examples
-
-

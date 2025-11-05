@@ -9,13 +9,12 @@
 public LanguageModelOptions ();
 -->
 
-
 ## -description
+
+Initializes a new instance of a [LanguageModelOptions](languagemodeloptions.md) object.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

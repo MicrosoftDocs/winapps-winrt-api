@@ -9,15 +9,16 @@
 public Microsoft.Windows.AI.Text.LanguageModelResponseStatus Status { get; }
 -->
 
-
 ## -description
 
+Gets the text-to-table response status.
+
 ## -property-value
+
+The text-to-table response status.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

@@ -9,15 +9,16 @@
 public System.Exception ExtendedError { get; }
 -->
 
-
 ## -description
 
+Gets the extended error details for a failed text-to-table response.
+
 ## -property-value
+
+The extended error details for a failed text-to-table response.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

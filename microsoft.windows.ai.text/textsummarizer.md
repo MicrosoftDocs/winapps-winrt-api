@@ -9,13 +9,12 @@
 public sealed class TextSummarizer
 -->
 
-
 ## -description
+
+Represents a specialized lanugage model capable of summarizing text input.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

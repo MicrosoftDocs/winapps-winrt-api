@@ -9,13 +9,12 @@
 public sealed class TextToTableConverter
 -->
 
-
 ## -description
+
+Represents a specialized lanugage model capable of formatting text input into a table.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

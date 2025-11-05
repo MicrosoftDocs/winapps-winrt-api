@@ -15,13 +15,15 @@ Gets or sets a probability threshold value used to identify a suitable response 
 
 ## -property-value
 
-Value can range between 0 to 1, inclusive. Default is 0.9.
+A probability threshold value used to identify a suitable response from the smallest possible set of tokens.
 
-A low value indicates more predictable and less varied responses, while a higher value indicates more creative and varied responses.
+Value can range between 0 to 1, inclusive. Default is 0.9.
 
 ## -remarks
 
 Top-p sampling is also known as nucleus sampling.
+
+A low value indicates more predictable and less varied responses, while a higher value indicates more creative and varied responses.
 
 Tokens that have a cumulative value greater than the value of this property are selected for the language model response.
 

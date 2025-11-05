@@ -15,13 +15,15 @@ Gets or sets a value that specifies the maximum number of highest probability to
 
 ## -property-value
 
-Value can range between 0-32064, inclusive. Default is 40.
+A value that specifies the maximum number of highest probability tokens used to identify a suitable response.
 
-A low value indicates more predictable and less varied responses, while a higher value indicates more creative and varied responses.
+Value can range between 0-32064, inclusive. Default is 40.
 
 ## -remarks
 
 Top-k sampling is also known as truncated sampling.
+
+A low value indicates more predictable and less varied responses, while a higher value indicates more creative and varied responses.
 
 ## -see-also
 

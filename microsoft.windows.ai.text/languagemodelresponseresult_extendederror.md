@@ -9,15 +9,16 @@
 public System.Exception ExtendedError { get; }
 -->
 
-
 ## -description
 
+Gets the extended error details for a failed language model response.
+
 ## -property-value
+
+The extended error details for a failed language model response.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

@@ -9,13 +9,12 @@
 public sealed class LanguageModelResponseResult
 -->
 
-
 ## -description
+
+Represents a language model response.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

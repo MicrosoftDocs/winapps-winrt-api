@@ -9,21 +9,26 @@
 public Windows.Foundation.IAsyncOperationWithProgress<Microsoft.Windows.AI.Text.LanguageModelResponseResult,string> SummarizeConversationAsync (System.Collections.Generic.IReadOnlyList<Microsoft.Windows.AI.Text.ConversationItem> messages, Microsoft.Windows.AI.Text.ConversationSummaryOptions options);
 -->
 
-
 ## -description
+
+Asynchronously summarizes the text of a conversation.
 
 ## -parameters
 
 ### -param messages
 
+The collection of conversation posts and responses to summarize.
+
 ### -param options
 
+The configuration options for summarizing a conversation.
+
 ## -returns
+
+The summarized text.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
