@@ -19,7 +19,7 @@ The output language of the conversation summary.
 
 ## -remarks
 
-This should be in tier 1 languages, such as English, Chinese Simplified, Japanese, etc.
+Currently supports the following languages: English, German, French, Spanish, Italian, Portuguese, Chinese, Japanese.
 
 ## -see-also
 
