@@ -1,9 +1,9 @@
 ---
--api-id: M:Microsoft.Graphics.Imaging.ImageScaler.GetReadyState
+-api-id: M:Microsoft.Windows.AI.Imaging.TextRecognizer.GetReadyState
 -api-type: winrt method
 ---
 
-# Microsoft.Graphics.Imaging.ImageScaler.GetReadyState
+# Microsoft.Windows.AI.Imaging.TextRecognizer.GetReadyState
 
 <!--
 public static Microsoft.Windows.AI.AIFeatureReadyState GetReadyState ();
@@ -24,3 +24,5 @@ Returns `Ready` if the underlying language model is installed.
 ## -see-also
 
 ## -examples
+
+

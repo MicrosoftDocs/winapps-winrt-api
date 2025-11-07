@@ -7,7 +7,7 @@
 
 ## -description
 
-Provides globalization support (such as language profiles) for apps built with the Windows App SDK.
+Provides globalization features (such as language profiles).
 
 ## -remarks
 

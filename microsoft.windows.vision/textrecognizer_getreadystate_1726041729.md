@@ -17,7 +17,7 @@ Retrieves the state of the underlying language model.
 
 The state of the underlying language model.
 
-Returns `Microsoft.Windows.AI.AIFeatureReadyState.Ready` if the underlying language model is installed.
+Returns `Ready` if the underlying language model is installed.
 
 ## -remarks
 

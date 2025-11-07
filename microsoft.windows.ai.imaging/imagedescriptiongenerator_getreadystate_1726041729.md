@@ -1,9 +1,9 @@
 ---
--api-id: M:Microsoft.Graphics.Imaging.ImageScaler.GetReadyState
+-api-id: M:Microsoft.Windows.AI.Imaging.ImageDescriptionGenerator.GetReadyState
 -api-type: winrt method
 ---
 
-# Microsoft.Graphics.Imaging.ImageScaler.GetReadyState
+# Microsoft.Windows.AI.Imaging.ImageDescriptionGenerator.GetReadyState
 
 <!--
 public static Microsoft.Windows.AI.AIFeatureReadyState GetReadyState ();
