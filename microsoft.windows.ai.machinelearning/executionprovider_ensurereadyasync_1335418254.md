@@ -9,7 +9,6 @@
 public Windows.Foundation.IAsyncOperationWithProgress<Microsoft.Windows.AI.MachineLearning.ExecutionProviderReadyResult,double> EnsureReadyAsync ();
 -->
 
-
 ## -description
 
 Ensures that the execution provider is ready for use by downloading and installing any required components.
