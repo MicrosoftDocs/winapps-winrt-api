@@ -9,14 +9,13 @@
 public bool TryRegister ();
 -->
 
-
 ## -description
 
-Attempts to register the execution provider with ONNX Runtime, and returns a Boolean value indicating success.
+Attempts to register the execution provider with ONNX Runtime.
 
 ## -returns
 
-A Boolean value indicating success
+True, if successful; otherwise, false.
 
 ## -remarks
 
