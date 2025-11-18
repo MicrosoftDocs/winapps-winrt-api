@@ -20,4 +20,4 @@ Provides APIs for local, on-device generative AI prompt processing and responses
 ## -examples
 
 - [AI Dev Gallery](https://github.com/microsoft/ai-dev-gallery/)
-- [Microsoft Foundry on Windows Sample](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/WindowsCopilotRuntime)
+- [Windows AI API samples](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/WindowsCopilotRuntime)

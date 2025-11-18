@@ -20,4 +20,4 @@ Provides APIs for machine learning models that analyze the textual content of im
 ## -examples
 
 - [AI Dev Gallery](https://github.com/microsoft/ai-dev-gallery/)
-- [Microsoft Foundry on Windows Sample](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/WindowsCopilotRuntime)
+- [Windows AI API samples](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/WindowsCopilotRuntime)

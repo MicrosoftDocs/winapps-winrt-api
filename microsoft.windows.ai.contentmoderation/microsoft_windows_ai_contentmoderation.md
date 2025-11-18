@@ -18,7 +18,7 @@ Provides APIs for machine learning models that perform content moderation.
 
 Learn about the [Windows App SDK](/windows/apps/windows-app-sdk/), backed by artificial intelligence (AI), that can moderate content through sensitivity filters.
 
-For more details, see [Content Safety Moderation with Microsoft Foundry on Windows](/en-us/windows/ai/apis/content-moderation).
+For more details, see [Content safety moderation with the Windows AI APIs](/en-us/windows/ai/apis/content-moderation).
 
 > [!TIP]
 > Provide feedback on these APIs and their functionality by creating a [new Issue](https://github.com/microsoft/WindowsAppSDK/issues/new?template=Blank+issue) in the Windows App SDK GitHub repo (include **Content Moderation** in the title) or by responding to an [existing issue](https://github.com/microsoft/WindowsAppSDK/issues).
@@ -32,4 +32,4 @@ For more details, see [Content Safety Moderation with Microsoft Foundry on Windo
 ## -examples
 
 - [AI Dev Gallery](https://github.com/microsoft/ai-dev-gallery/)
-- [Microsoft Foundry on Windows Sample](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/WindowsCopilotRuntime)
+- [Windows AI API samples](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/WindowsCopilotRuntime)
