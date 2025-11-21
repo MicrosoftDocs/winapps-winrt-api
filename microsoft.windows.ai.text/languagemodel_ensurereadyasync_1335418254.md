@@ -1,9 +1,9 @@
 ---
--api-id: M:Microsoft.Windows.Vision.TextRecognizer.EnsureReadyAsync
+-api-id: M:Microsoft.Windows.AI.Text.LanguageModel.EnsureReadyAsync
 -api-type: winrt method
 ---
 
-# Microsoft.Windows.Vision.TextRecognizer.EnsureReadyAsync
+# Microsoft.Windows.AI.Text.LanguageModel.EnsureReadyAsync
 
 <!--
 public static Windows.Foundation.IAsyncOperationWithProgress<Microsoft.Windows.AI.AIFeatureReadyResult,double> EnsureReadyAsync ();
@@ -11,7 +11,7 @@ public static Windows.Foundation.IAsyncOperationWithProgress<Microsoft.Windows.A
 
 ## -description
 
-Ensures the underlying text recognition language model is ready for use by downloading and installing any required components.
+Ensures the underlying language model is ready for use by downloading and installing any required components.
 
 ## -returns
 

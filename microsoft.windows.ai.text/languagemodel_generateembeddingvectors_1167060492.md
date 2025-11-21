@@ -1,17 +1,27 @@
 ---
--api-id: T:Microsoft.Windows.AI.Foundation.EmbeddingVector
--api-type: winrt class
+-api-id: M:Microsoft.Windows.AI.Text.LanguageModel.GenerateEmbeddingVectors(System.String)
+-api-type: winrt method
 ---
 
-# Microsoft.Windows.AI.Foundation.EmbeddingVector
+# Microsoft.Windows.AI.Text.LanguageModel.GenerateEmbeddingVectors(System.String)
 
 <!--
-public sealed class EmbeddingVector
+public Microsoft.Windows.AI.Text.LanguageModelEmbeddingVectorResult GenerateEmbeddingVectors (string prompt);
 -->
 
 ## -description
 
-Represents a single embedding vector.
+Returns an embedding vector representing the string prompt.
+
+## -parameters
+
+### -param prompt
+
+The string prompt.
+
+## -returns
+
+The embedding vector representing the string prompt.
 
 ## -remarks
 

@@ -1,17 +1,17 @@
 ---
--api-id: T:Microsoft.Windows.AI.Foundation.EmbeddingVector
+-api-id: T:Microsoft.Windows.AI.Text.LanguageModelEmbeddingVectorResult
 -api-type: winrt class
 ---
 
-# Microsoft.Windows.AI.Foundation.EmbeddingVector
+# Microsoft.Windows.AI.Text.LanguageModelEmbeddingVectorResult
 
 <!--
-public sealed class EmbeddingVector
+public sealed class LanguageModelEmbeddingVectorResult
 -->
 
 ## -description
 
-Represents a single embedding vector.
+Represents an object used to process and store the result of an embedding vector initialization.
 
 ## -remarks
 
