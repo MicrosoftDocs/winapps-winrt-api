@@ -34,4 +34,4 @@ For more details, see [Get started with Phi Silica in the Windows App SDK](/wind
 ## -examples
 
 - [AI Dev Gallery](https://github.com/microsoft/ai-dev-gallery/)
-- [Windows AI Foundry Sample](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/WindowsCopilotRuntime)
+- [Windows AI API samples](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/WindowsCopilotRuntime)
