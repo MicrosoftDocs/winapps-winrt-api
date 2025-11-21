@@ -19,7 +19,7 @@ The output language of the conversation summary.
 
 ## -remarks
 
-Currently supports the following languages: English, German, French, Spanish, Italian, Portuguese, Chinese, Japanese.
+Currently supports the following languages: English, German, French, Spanish, Italian, Portuguese, Chinese (Simplified), Japanese.
 
 ## -see-also
 
