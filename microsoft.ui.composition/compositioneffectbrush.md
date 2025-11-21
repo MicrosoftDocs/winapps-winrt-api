@@ -15,7 +15,7 @@ Paints a SpriteVisual with the output of a filter effect. The filter effect desc
 ## -remarks
 The effect APIs enable developers to customize how their UI is rendered. This can be something as simple as adjusting saturation levels on an image or something more complex like chaining numerous effects together and animating the effect properties to create interesting application transitions and user experiences. A composition effect is a graph of operations that define how to produce graphical content based on composition surfaces. For example, the pixel content of images. Effects are applied to visuals in the tree and can reference existing surfaces.
 
-An instance of CompositionEffectBrush is created using a [CompositionEffectFactory](compositioneffectfactory.md) based on a specified effect description. [CompositionEffectFactory](compositioneffectfactory.md) uses the [Win2D](https://microsoft.github.io/Win2D/html/Introduction.htm) effect description format in the **Microsoft.Graphics.Canvas.Effects** namespace ([WinAppSDK (WinUI 3)](https://microsoft.github.io/Win2D/WinUI3/html/N_Microsoft_Graphics_Canvas_Effects.htm) / [UWP (WinUI 2)](https://microsoft.github.io/Win2D/WinUI2/html/N_Microsoft_Graphics_Canvas_Effects.htm)).
+An instance of CompositionEffectBrush is created using a [CompositionEffectFactory](compositioneffectfactory.md) based on a specified effect description. [CompositionEffectFactory](compositioneffectfactory.md) uses the [Win2D](https://microsoft.github.io/Win2D/html/Introduction.htm) effect description format in the **Microsoft.Graphics.Canvas.Effects** namespace ([Windows App SDK (WinUI 3)](https://microsoft.github.io/Win2D/WinUI3/html/N_Microsoft_Graphics_Canvas_Effects.htm) / [UWP (WinUI 2)](https://microsoft.github.io/Win2D/WinUI2/html/N_Microsoft_Graphics_Canvas_Effects.htm)).
 
 > [!NOTE]
 > Effects that are not supported are marked as **[NoComposition]** in the [Win2D API Reference](https://microsoft.github.io/Win2D/html/Introduction.htm) for effects namespace.
@@ -34,7 +34,7 @@ Once an effect graph is declared, the system compiles the effect using built-in 
 
 To create and apply an effect you need to perform the following steps:
 
-1. Create an effect description. See the [Win2D](https://microsoft.github.io/Win2D/html/Introduction.htm) namespace, **Microsoft.Graphics.Canvas.Effects** namespace ([WinAppSDK (WinUI 3)](https://microsoft.github.io/Win2D/WinUI3/html/N_Microsoft_Graphics_Canvas_Effects.htm) / [UWP (WinUI 2)](https://microsoft.github.io/Win2D/WinUI2/html/N_Microsoft_Graphics_Canvas_Effects.htm)), for valid effect types.
+1. Create an effect description. See the [Win2D](https://microsoft.github.io/Win2D/html/Introduction.htm) namespace, **Microsoft.Graphics.Canvas.Effects** namespace ([Windows App SDK (WinUI 3)](https://microsoft.github.io/Win2D/WinUI3/html/N_Microsoft_Graphics_Canvas_Effects.htm) / [UWP (WinUI 2)](https://microsoft.github.io/Win2D/WinUI2/html/N_Microsoft_Graphics_Canvas_Effects.htm)), for valid effect types.
 1. Set any effect sources with either an instance of [CompositionEffectSourceParameter](compositioneffectsourceparameter.md) or another effect. Specifying another effect creates an effect chain.
 1. Create a CompositionEffectFactory with Compositor.[CreateEffectFactory](compositor_createeffectfactory_720924202.md) using the effect description as input.
 1. Create an instance of the effect using CompositorEffectFactory.[CreateBrush](compositioneffectfactory_createbrush_639615316.md).
