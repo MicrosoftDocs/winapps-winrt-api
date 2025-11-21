@@ -17,7 +17,7 @@ Gets or sets a value that specifies how random (explorative) or conservative (de
 
 A value that specifies how random (explorative) or conservative (deterministic) a response should be.
 
-Value can range between 0 and FLT_MAX, inclusive. Default is 0.9.
+Value can range between 0 and [FLT_MAX](/cpp/cpp/floating-limits), inclusive. Default is 0.9.
 
 ## -remarks
 

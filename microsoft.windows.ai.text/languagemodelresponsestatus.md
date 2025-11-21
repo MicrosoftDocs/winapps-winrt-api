@@ -35,7 +35,7 @@ A context window acts like the model's short-term memory, holding the input prom
 
 ### -field PromptBlockedByContentModeration: 4
 
-Inputted prompt was blocked by Text Content Moderation (TCM) or a Text Block List (TBL).
+The input prompt was blocked by Text Content Moderation (TCM) or a Text Block List (TBL).
 
 ### -field ResponseBlockedByContentModeration: 5
 

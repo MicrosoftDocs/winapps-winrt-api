@@ -11,7 +11,7 @@ public static Windows.Foundation.IAsyncOperation<Microsoft.Windows.AI.Text.Langu
 
 ## -description
 
-Asynchronously generates a language model object.
+Asynchronously creates a new instance of the language model object.
 
 ## -returns
 

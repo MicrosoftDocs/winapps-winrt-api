@@ -19,7 +19,7 @@ The unique identifier of an [embedding vector](../microsoft.windows.ai.foundatio
 
 ## -remarks
 
-In a vector space model, words, sentences, or entire documents (or "embeddings") are transformed into vectors, or lists of numbers that represent the semantics of the text.
+In a vector space model, words, sentences, or entire documents ("embeddings") are transformed into vectors (lists of numbers that represent the semantics of the text).
 
 ## -see-also
 

@@ -19,6 +19,9 @@ Specifies the language model readiness states.
 
 Model is installed and ready to use.
 
+> [!NOTE]
+> In some cases (such as during disk cleaning), model status can revert to a non-ready status.
+
 ### -field EnsureNeeded: 1
 
 Model needs to be downloaded and installed.
