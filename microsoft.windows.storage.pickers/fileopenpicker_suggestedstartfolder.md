@@ -19,7 +19,7 @@ A string representing the path of the suggested start folder.
 
 ## -remarks
 
-Once the user picks a directory, the picker ignores `SuggestedStartFolder`. If you set both `SuggestedStartFolder` and [SuggestedStartLocation](fileopenpicker_suggestedstartlocation.md), the picker uses `SuggestedStartFolder`. If the folder isn't found, the picker falls back to [SuggestedStartLocation](fileopenpicker_suggestedstartlocation.md).
+Once the user picks from a folder, the picker ignores `SuggestedStartFolder`. If you set both `SuggestedStartFolder` and [SuggestedStartLocation](fileopenpicker_suggestedstartlocation.md), the picker uses `SuggestedStartFolder`. If the folder isn't found, the picker falls back to [SuggestedStartLocation](fileopenpicker_suggestedstartlocation.md).
 
 ## -see-also
 
