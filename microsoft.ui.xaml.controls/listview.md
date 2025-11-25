@@ -63,12 +63,6 @@ If you populate the ListView by setting the [ItemsSource](itemscontrol_itemssour
 
 ### Item selection
 
-
-:::image type="content" source="images/list-view-item.png" alt-text="Grid view control with the first and last items showing green text and an icon, but the second item showing only plain text with no template applied.":::
-
-### Item selection
-
-
 By default, a user can select a single item in a ListView. You can set the [SelectionMode](listviewbase_selectionmode.md) property to a [ListViewSelectionMode](listviewselectionmode.md) enumeration value to allow multi-selection or to disable selection. You can also change the ListView interaction mode to make items respond to a user click like a button instead of being selected.
 
 This table shows the ways a user can interact with a ListView, and how you can respond to the interaction.
@@ -81,12 +75,6 @@ This table shows the ways a user can interact with a ListView, and how you can r
 | Non-contiguous multi-selection | [SelectionMode](listviewbase_selectionmode.md) = [Extended](listviewselectionmode.md), [IsItemClickEnabled](listviewbase_isitemclickenabled.md) = **False** | [SelectionChanged](../microsoft.ui.xaml.controls.primitives/selector_selectionchanged.md) | [SelectedItems](listviewbase_selecteditems.md) |
 | Click | [SelectionMode](listviewbase_selectionmode.md) = [None](listviewselectionmode.md), [IsItemClickEnabled](listviewbase_isitemclickenabled.md) = **True** | [ItemClick](listviewbase_itemclick.md) | N/A |
 
-
-#### Selection behavior and CollectionViewSource
-
-List controls that derive from [Selector](../microsoft.ui.xaml.controls.primitives/selector.md) have a default selection behavior that depends on what the items source is (the type that's used for [ItemsSource](itemscontrol_itemssource.md)). If the items source is a [CollectionViewSource](../microsoft.ui.xaml.data/collectionviewsource.md) instance, then the behavior in the selection control is that the selection will default to the current item. When the list is first displayed, the selection defaults to the first item as current item. If you don't want the first item to be selected in this case, set [IsSynchronizedWithCurrentItem](../microsoft.ui.xaml.controls.primitives/selector_issynchronizedwithcurrentitem.md) to **false** in the ListView.
-
-### Data virtualization
 
 #### Selection behavior and CollectionViewSource
 
