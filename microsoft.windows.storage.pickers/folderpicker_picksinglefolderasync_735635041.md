@@ -21,7 +21,7 @@ Returns `null` if the folder dialog is canceled or closed without selection.
 
 ## -remarks
 
-You can convert a `PickFolderResult` object to a `Windows.Storage.StorageFolder` object by calling `Windows.Storage.StorageFolder.GetFolderFromPathAsync` with the folder path. However, you can't successfully convert all folder paths. For example, paths such as `C:\`, `S:\`, `C:\Windows\`, or paths that exceed the maximum allowed length might fail to convert due to access permission restrictions or path length limitations. Make sure the folder path is accessible and adheres to the system's path length constraints before attempting the conversion.
+If necessary, you can convert a `PickFolderResult` object to a `Windows.Storage.StorageFolder` object by calling `Windows.Storage.StorageFolder.GetFolderFromPathAsync` with the folder path.
 
 ## -see-also
 
