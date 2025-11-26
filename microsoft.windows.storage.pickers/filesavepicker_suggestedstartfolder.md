@@ -19,7 +19,7 @@ A string representing the path of the suggested start folder.
 
 ## -remarks
 
-Once the user picks a directory, the file save picker silently ignores `SuggestedStartFolder`. If you define both `SuggestedStartFolder` and [SuggestedStartLocation](filesavepicker_suggestedstartlocation.md), `SuggestedStartFolder` takes precedence. If the folder isn't found, the file save picker falls back to [SuggestedStartLocation](filesavepicker_suggestedstartlocation.md).
+Once the user picks from a directory, the file save picker silently ignores `SuggestedStartFolder`. If you define both `SuggestedStartFolder` and [SuggestedStartLocation](filesavepicker_suggestedstartlocation.md), `SuggestedStartFolder` takes precedence. If the folder isn't found, the file save picker falls back to [SuggestedStartLocation](filesavepicker_suggestedstartlocation.md).
 
 ## -see-also
 
