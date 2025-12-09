@@ -15,10 +15,12 @@ Asynchronously creates a new instance of the [ImageObjectRemover](imageobjectrem
 
 ## -returns
 
-A new instance of the [ImageObjectRemover](imageobjectremover.md) class.
+An asynchronous operation object that returns an [ImageObjectRemover](imageobjectremover.md) object on completion.
 
 ## -remarks
 
 ## -see-also
+
+[Get Started with AI Imaging](/windows/ai/apis/imaging)
 
 ## -examples

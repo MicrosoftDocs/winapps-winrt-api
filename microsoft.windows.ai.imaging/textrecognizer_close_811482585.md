@@ -19,4 +19,6 @@ Not implemented in C#.
 
 ## -see-also
 
+[Get Started with AI Text Recognition (OCR)](/windows/ai/apis/text-recognition), [Text recognizer walkthrough](/windows/ai/apis/text-recognition-tutorial)
+
 ## -examples

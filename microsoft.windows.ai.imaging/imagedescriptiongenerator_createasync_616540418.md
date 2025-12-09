@@ -15,10 +15,12 @@ Asynchronously creates a new instance of the [ImageDescriptionGenerator](imagede
 
 ## -returns
 
-A new instance of the [ImageDescriptionGenerator](imagedescriptiongenerator.md) class.
+An asynchronous operation object that returns an [ImageDescriptionGenerator](imagedescriptiongenerator.md) object on completion.
 
 ## -remarks
 
 ## -see-also
+
+[Get Started with AI Imaging](/windows/ai/apis/imaging)
 
 ## -examples

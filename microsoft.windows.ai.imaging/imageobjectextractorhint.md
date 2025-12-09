@@ -9,13 +9,14 @@
 public sealed class ImageObjectExtractorHint
 -->
 
-
 ## -description
+
+Represents an object that helps an [ImageObjectExtractor](../microsoft.graphics.imaging/imageobjectextractor.md) identify the intended artifact to extract.
 
 ## -remarks
 
 ## -see-also
 
+[Get Started with AI Imaging](/windows/ai/apis/imaging)
+
 ## -examples
-
-

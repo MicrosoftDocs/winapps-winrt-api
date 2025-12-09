@@ -23,4 +23,6 @@ Returns `Ready` if the underlying language model is installed.
 
 ## -see-also
 
+[Get Started with AI Imaging](/windows/ai/apis/imaging), [Image scaler walkthrough](/windows/ai/apis/imaging-tutorial)
+
 ## -examples

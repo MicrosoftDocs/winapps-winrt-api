@@ -19,4 +19,6 @@ Not implemented in C#.
 
 ## -see-also
 
+[Get Started with AI Imaging](/windows/ai/apis/imaging)
+
 ## -examples

@@ -20,11 +20,11 @@ Asynchronously requests a push channel from the Windows Push Notification Servic
 
 ### -param remoteId
 
-The remote identifier for the created push channel. This value, known as the *Azure AppId*, is a GUID that matches the application ID specified in Azure Active Directory (AAD). For information on getting your application ID, see [Use the portal to create an Azure AD application and service principal that can access resources](/azure/active-directory/develop/howto-create-service-principal-portal
-)
+The remote identifier for the created push channel. This value, known as the *Azure AppId*, is a GUID that matches the application ID specified in Azure Active Directory (AAD). For information on getting your application ID, see [Use the portal to create an Azure AD application and service principal that can access resources](/azure/active-directory/develop/howto-create-service-principal-portal)
+
 ## -returns
 
-An asynchronous action with progress that returns a [PushNotificationCreateChannelResult](/windows/windows-app-sdk/api/winrt/microsoft.windows.pushnotifications.pushnotificationcreatechannelresult) on completion.
+An asynchronous action with progress object that returns a [PushNotificationCreateChannelResult](/windows/windows-app-sdk/api/winrt/microsoft.windows.pushnotifications.pushnotificationcreatechannelresult) on completion.
 
 ## -remarks
 

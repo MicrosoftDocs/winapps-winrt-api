@@ -11,11 +11,11 @@ public sealed class ImageBuffer : System.IDisposable
 
 ## -description
 
-Represents an uncompressed bitmap for efficient cross-process marshaling.
+Represents an uncompressed bitmap used for efficient cross-process marshaling.
 
 ## -remarks
 
-This object can be used with AI model APIs such as [**TextRecognizer**](../microsoft.windows.vision/textrecognizer.md) that require image data. Typical usage involves creating an **ImageBuffer** from an existing [**SoftwareBitmap**](/uwp/api/windows.graphics.imaging.softwarebitmap).
+This object can be used with AI-based APIs that require image data, such as [TextRecognizer](../microsoft.windows.ai.imaging/textrecognizer.md). Typical usage involves creating an **ImageBuffer** from an existing [**SoftwareBitmap**](/uwp/api/windows.graphics.imaging.softwarebitmap).
 
 ## -see-also
 

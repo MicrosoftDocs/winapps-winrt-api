@@ -15,10 +15,12 @@ Asynchronously creates a new instance of the [TextRecognizer](textrecognizer.md)
 
 ## -returns
 
-A new instance of the [TextRecognizer](textrecognizer.md) class.
+An asynchronous operation object that returns a [TextRecognizer](textrecognizer.md) object on completion.
 
 ## -remarks
 
 ## -see-also
+
+[Get Started with AI Text Recognition (OCR)](/windows/ai/apis/text-recognition), [Text recognizer walkthrough](/windows/ai/apis/text-recognition-tutorial)
 
 ## -examples

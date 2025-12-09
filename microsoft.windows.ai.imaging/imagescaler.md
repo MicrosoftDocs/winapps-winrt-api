@@ -17,4 +17,6 @@ Represents an object that can resize an image and increase or decrease its resol
 
 ## -see-also
 
+[Get Started with AI Imaging](/windows/ai/apis/imaging), [Image scaler walkthrough](/windows/ai/apis/imaging-tutorial)
+
 ## -examples

@@ -21,4 +21,6 @@ The maximum scale factor supported by the [ImageScaler](imagescaler.md).
 
 ## -see-also
 
+[Get Started with AI Imaging](/windows/ai/apis/imaging), [Image scaler walkthrough](/windows/ai/apis/imaging-tutorial)
+
 ## -examples
