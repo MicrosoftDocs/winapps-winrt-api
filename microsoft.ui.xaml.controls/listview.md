@@ -63,7 +63,6 @@ If you populate the ListView by setting the [ItemsSource](itemscontrol_itemssour
 
 ### Item selection
 
-
 By default, a user can select a single item in a ListView. You can set the [SelectionMode](listviewbase_selectionmode.md) property to a [ListViewSelectionMode](listviewselectionmode.md) enumeration value to allow multi-selection or to disable selection. You can also change the ListView interaction mode to make items respond to a user click like a button instead of being selected.
 
 This table shows the ways a user can interact with a ListView, and how you can respond to the interaction.

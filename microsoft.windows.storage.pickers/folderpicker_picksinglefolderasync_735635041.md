@@ -17,9 +17,11 @@ Displays a dialog that allows the user to select a folder.
 
 Returns a [PickFolderResult](pickfolderresult.md) object that contains the path of the picked folder.
 
-Returns `null` if the folder dialog was cancelled or closed without selection.
+Returns `null` if the folder dialog is canceled or closed without selection.
 
 ## -remarks
+
+If necessary, you can convert a `PickFolderResult` object to a `Windows.Storage.StorageFolder` object by calling `Windows.Storage.StorageFolder.GetFolderFromPathAsync` with the folder path.
 
 ## -see-also
 
