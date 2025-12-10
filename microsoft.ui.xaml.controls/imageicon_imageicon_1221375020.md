@@ -19,4 +19,4 @@ Initializes a new instance of the `ImageIcon` class.
 
 ## -see-also
 
-[IconElement](iconelement.md), [Image](image.md), [Icons for UWP apps](/windows/uwp/style/icons)
+[IconElement](iconelement.md), [Image](image.md), [Icons in Windows apps](/windows/apps/develop/ui/controls/icons)
