@@ -11,11 +11,11 @@ public bool ProcessesKeyboardInput { get; set; }
 
 ## -description
 
-Gets or sets whether the [**ContentSite**](contentsite.md) object processes keyboard input.
+Gets or sets whether the [ContentSite](contentsite.md) object processes keyboard input.
 
 ## -property-value
 
-True, if the [**ContentSite**](contentsite.md) object processes keyboard input. Otherwise, false.
+True, if the [ContentSite](contentsite.md) object processes keyboard input. Otherwise, false.
 
 ## -remarks
 

@@ -11,17 +11,17 @@ public static Microsoft.UI.Content.ContentIsland[] FindAllForSystemCompositor (W
 
 ## -description
 
-Retrieves all [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) objects associated with the specified [**Compositor**](../microsoft.ui.composition/compositor.md).
+Retrieves all [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) objects associated with the specified [Compositor](../microsoft.ui.composition/compositor.md).
 
 ## -parameters
 
 ### -param compositor
 
-The [**Compositor**](../microsoft.ui.composition/compositor.md) from which to retrieve the [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) objects.
+The [Compositor](../microsoft.ui.composition/compositor.md) from which to retrieve the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) objects.
 
 ## -returns
 
-A collection of [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) objects.
+A collection of [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) objects.
 
 ## -remarks
 

@@ -11,7 +11,7 @@ public event Microsoft.UI.ClosableNotifierHandler Closed;
 
 ## -description
 
-Occurs when this [**ContentSite**](contentsite.md) is closed.
+Occurs when this [ContentSite](contentsite.md) is closed.
 
 ## -remarks
 

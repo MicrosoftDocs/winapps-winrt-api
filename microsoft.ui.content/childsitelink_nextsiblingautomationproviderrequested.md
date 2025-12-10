@@ -11,7 +11,7 @@ public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Content.IContentS
 
 ## -description
 
-Occurs when the next sibling automation provider is requested by the connected [**ContentIsland**](contentisland.md).
+Occurs when the next sibling automation provider is requested by the connected [ContentIsland](contentisland.md).
 
 ## -remarks
 

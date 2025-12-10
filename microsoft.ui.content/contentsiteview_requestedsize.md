@@ -19,7 +19,7 @@ The logical [RequestedSize](/windows/windows-app-sdk/api/winrt/microsoft.ui.cont
 
 ## -remarks
 
-The [IContentSiteBridge](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.icontentsitebridge) integrates with the [**ContentSite**](contentsite.md) layout policies to decide the [ActualSize](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.actualsize) to return to the [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
+The [IContentSiteBridge](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.icontentsitebridge) integrates with the [ContentSite](contentsite.md) layout policies to decide the [ActualSize](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.actualsize) to return to the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -see-also
 

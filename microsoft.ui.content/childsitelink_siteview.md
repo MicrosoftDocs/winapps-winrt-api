@@ -11,11 +11,11 @@ public Microsoft.UI.Content.ContentSiteView SiteView { get; }
 
 ## -description
 
-Gets a view of the owned [**ContentSite**](contentsite.md).
+Gets a view of the owned [ContentSite](contentsite.md).
 
 ## -property-value
 
-A view of the owned [**ContentSite**](contentsite.md).
+A view of the owned [ContentSite](contentsite.md).
 
 ## -remarks
 

@@ -11,11 +11,11 @@ public bool IsSiteEnabled { get; }
 
 ## -description
 
-Gets the [IsSiteEnabled](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.issiteenabled) state reported by the [**ContentSite**](contentsite.md).
+Gets the [IsSiteEnabled](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.issiteenabled) state reported by the [ContentSite](contentsite.md).
 
 ## -property-value
 
-The [IsSiteEnabled](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.issiteenabled) state reported by the [**ContentSite**](contentsite.md).
+The [IsSiteEnabled](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.issiteenabled) state reported by the [ContentSite](contentsite.md).
 
 ## -remarks
 

@@ -11,7 +11,7 @@ public ImageBuffer (Windows.Storage.Streams.IBuffer buffer, Microsoft.Graphics.I
 
 ## -description
 
-Initializes a new instance of the **ImageBuffer** class.
+Initializes a new instance of the `ImageBuffer` class.
 
 ## -parameters
 

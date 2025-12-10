@@ -11,7 +11,7 @@ public enum ContentLayoutDirection
 
 ## -description
 
-Specifies the supported layout direction for reading order and text alignment of a [**ContentSite**](contentsite.md).
+Specifies the supported layout direction for reading order and text alignment of a [ContentSite](contentsite.md).
 
 ## -enum-fields
 

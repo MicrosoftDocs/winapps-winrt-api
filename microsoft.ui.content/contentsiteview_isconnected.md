@@ -11,11 +11,11 @@ public bool IsConnected { get; }
 
 ## -description
 
-Gets the [IsConnected](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.isconnected) state reported by the [**ContentSite**](contentsite.md).
+Gets the [IsConnected](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.isconnected) state reported by the [ContentSite](contentsite.md).
 
 ## -property-value
 
-The [IsConnected](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.isconnected) state reported by the [**ContentSite**](contentsite.md).
+The [IsConnected](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentsite.isconnected) state reported by the [ContentSite](contentsite.md).
 
 ## -remarks
 

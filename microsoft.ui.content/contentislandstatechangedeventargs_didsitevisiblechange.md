@@ -11,11 +11,11 @@ public bool DidSiteVisibleChange { get; }
 
 ## -description
 
-Gets whether the [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) visibility changed.
+Gets whether the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) visibility changed.
 
 ## -property-value
 
-True, if the [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) visibility changed; otherwise, false.
+True, if the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) visibility changed; otherwise, false.
 
 ## -remarks
 

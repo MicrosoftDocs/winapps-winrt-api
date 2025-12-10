@@ -11,11 +11,11 @@ public bool ProcessesPointerInput { get; }
 
 ## -description
 
-Gets a value that indicates whether the associated [**ContentSite**](contentsite.md) is processing pointer input.
+Gets a value that indicates whether the associated [ContentSite](contentsite.md) is processing pointer input.
 
 ## -property-value
 
-True, if the associated [**ContentSite**](contentsite.md) is processing pointer input; otherwise, false.
+True, if the associated [ContentSite](contentsite.md) is processing pointer input; otherwise, false.
 
 ## -remarks
 

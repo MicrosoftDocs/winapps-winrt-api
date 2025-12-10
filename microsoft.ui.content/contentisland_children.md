@@ -11,11 +11,11 @@ public System.Collections.Generic.IEnumerable<Microsoft.UI.Content.ChildSiteLink
 
 ## -description
 
-Gets an unordered enumeration of the [**ChildSiteLink**](childsitelink.md) objects parented to this [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
+Gets an unordered enumeration of the [ChildSiteLink](childsitelink.md) objects parented to this [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -property-value
 
-an unordered enumeration of the [**ChildSiteLink**](childsitelink.md) objects parented to this [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
+an unordered enumeration of the [ChildSiteLink](childsitelink.md) objects parented to this [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -remarks
 

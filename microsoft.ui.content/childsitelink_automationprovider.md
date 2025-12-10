@@ -11,11 +11,11 @@ public object AutomationProvider { get; }
 
 ## -description
 
-Gets an automation provider that represents a proxy for the automation provider of the connected [**ContentIsland**](contentisland.md).
+Gets an automation provider that represents a proxy for the automation provider of the connected [ContentIsland](contentisland.md).
 
 ## -property-value
 
-An automation provider that represents a proxy for the automation provider of the connected [**ContentIsland**](contentisland.md).
+An automation provider that represents a proxy for the automation provider of the connected [ContentIsland](contentisland.md).
 
 ## -remarks
 

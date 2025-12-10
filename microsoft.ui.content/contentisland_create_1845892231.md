@@ -11,7 +11,7 @@ public static Microsoft.UI.Content.ContentIsland Create (Microsoft.UI.Compositio
 
 ## -description
 
-Creates a new [**ContentIsland**](contentisland.md) in a disconnected and empty state.
+Creates a new [ContentIsland](contentisland.md) in a disconnected and empty state.
 
 ## -parameters
 
@@ -21,7 +21,7 @@ The root of the visual tree.
 
 ## -returns
 
-A [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
+A [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -remarks
 

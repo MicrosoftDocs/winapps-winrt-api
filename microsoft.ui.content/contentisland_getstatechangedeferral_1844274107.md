@@ -19,7 +19,7 @@ A [ContentDeferral](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.cont
 
 ## -remarks
 
-A ContentDeferral will be cancelled automatically in certain circumstances (such as when the ContentIsland is connected to a different [**ContentSite**](contentsite.md)).
+A ContentDeferral will be cancelled automatically in certain circumstances (such as when the ContentIsland is connected to a different [ContentSite](contentsite.md)).
 
 For more information on deferrals, see [Asynchronous work and deferrals](/windows/uwp/launch-resume/app-lifecycle).
 

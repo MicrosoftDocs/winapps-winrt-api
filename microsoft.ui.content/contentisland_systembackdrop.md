@@ -11,11 +11,11 @@ public Windows.UI.Composition.CompositionBrush SystemBackdrop { get; set; }
 
 ## -description
 
-Gets or sets the system backdrop to apply to this [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
+Gets or sets the system backdrop to apply to this [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -property-value
 
-The system backdrop to apply to this [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
+The system backdrop to apply to this [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland).
 
 ## -remarks
 

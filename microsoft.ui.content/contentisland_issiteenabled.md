@@ -11,11 +11,11 @@ public bool IsSiteEnabled { get; }
 
 ## -description
 
-Gets whether the **[**ContentSite**](contentsite.md)** can receive input.
+Gets whether the **[ContentSite](contentsite.md)** can receive input.
 
 ## -property-value
 
-True, if the [**ContentSite**](contentsite.md) can receive input; otherwise, false.
+True, if the [ContentSite](contentsite.md) can receive input; otherwise, false.
 
 ## -remarks
 
