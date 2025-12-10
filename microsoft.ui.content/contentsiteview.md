@@ -11,11 +11,11 @@ public class ContentSiteView
 
 ## -description
 
-Provides access to a read-only view of [**ContentSite**](contentsite.md) properties.
+Provides access to a read-only view of [ContentSite](contentsite.md) properties.
 
 ## -remarks
 
-This object exposes the most recent values from a [**ContentSite**](contentsite.md), it is not a snapshot in time.
+This object exposes the most recent values from a [ContentSite](contentsite.md), it is not a snapshot in time.
 
 ## -see-also
 

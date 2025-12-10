@@ -11,11 +11,11 @@ public bool IsSiteVisible { get; }
 
 ## -description
 
-Gets whether the associated [**ContentSite**](contentsite.md) is visible.
+Gets whether the associated [ContentSite](contentsite.md) is visible.
 
 ## -property-value
 
-True, if the associated [**ContentSite**](contentsite.md) is visible; otherwise, false.
+True, if the associated [ContentSite](contentsite.md) is visible; otherwise, false.
 
 ## -remarks
 

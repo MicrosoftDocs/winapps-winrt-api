@@ -11,11 +11,11 @@ public System.Collections.Generic.IEnumerable<Microsoft.UI.Content.DesktopPopupS
 
 ## -description
 
-Gets an unordered enumeration of the [**DesktopPopupSiteBridge**](desktoppopupsitebridge.md) objects parented to this [**ContentIsland**](contentisland.md).
+Gets an unordered enumeration of the [DesktopPopupSiteBridge](desktoppopupsitebridge.md) objects parented to this [ContentIsland](contentisland.md).
 
 ## -property-value
 
-An unordered enumeration of the [**DesktopPopupSiteBridge**](desktoppopupsitebridge.md) objects parented to this [**ContentIsland**](contentisland.md).
+An unordered enumeration of the [DesktopPopupSiteBridge](desktoppopupsitebridge.md) objects parented to this [ContentIsland](contentisland.md).
 
 ## -remarks
 

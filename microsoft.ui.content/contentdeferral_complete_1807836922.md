@@ -17,7 +17,7 @@ Ends the deferral and lets state changes in a [ContentIsland](contentisland.md) 
 
 If there are multiple deferrals for the same state change, they all have to complete before the state change can proceed.
 
-A ContentDeferral will be cancelled automatically in certain circumstances (such as when the ContentIsland is connected to a different [**ContentSite**](contentsite.md)).
+A ContentDeferral will be cancelled automatically in certain circumstances (such as when the ContentIsland is connected to a different [ContentSite](contentsite.md)).
 
 > [!NOTE]
 > This object has thread affinity and needs to be completed on the UI thread of the owner (unlike [Deferral](/uwp/api/windows.foundation.deferral)).

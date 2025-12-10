@@ -11,11 +11,11 @@ public float OverrideScale { get; }
 
 ## -description
 
-Gets the override scaling factor for a single [**ContentSite**](contentsite.md), ignoring the default scaling factor of the parent Win32 HWND.
+Gets the override scaling factor for a single [ContentSite](contentsite.md), ignoring the default scaling factor of the parent Win32 HWND.
 
 ## -property-value
 
-The override scaling factor for a single [**ContentSite**](contentsite.md).
+The override scaling factor for a single [ContentSite](contentsite.md).
 
 ## -remarks
 

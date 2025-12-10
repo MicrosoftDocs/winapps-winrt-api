@@ -11,11 +11,11 @@ public Microsoft.UI.Content.ContentIsland ContentIsland { get; }
 
 ## -description
 
-Gets the ContentIsland associated with this [**XamlRoot**](xamlroot.md).
+Gets the ContentIsland associated with this [XamlRoot](xamlroot.md).
 
 ## -property-value
 
-The ContentIsland associated with this [**XamlRoot**](xamlroot.md).
+The ContentIsland associated with this [XamlRoot](xamlroot.md).
 
 ## -remarks
 

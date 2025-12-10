@@ -11,21 +11,21 @@ public static Microsoft.UI.Content.ChildSiteLink CreateForSystemVisual (Microsof
 
 ## -description
 
-Creates a new [**ChildSiteLink**](childsitelink.md) instance (in a disconnected and empty state).
+Creates a new [ChildSiteLink](childsitelink.md) instance (in a disconnected and empty state).
 
 ## -parameters
 
 ### -param parent
 
-The parent [**ContentIsland**](contentisland.md) the [**ChildSiteLink**](childsitelink.md) is associated with.
+The parent [ContentIsland](contentisland.md) the [ChildSiteLink](childsitelink.md) is associated with.
 
 ### -param placementVisual
 
-The specified placement [**Visual**](../microsoft.ui.composition/visual.md) positions and sets the size of the instance relative to the root [**Visual**](../microsoft.ui.composition/visual.md) of the parent [**ContentIsland**](contentisland.md).
+The specified placement [Visual](../microsoft.ui.composition/visual.md) positions and sets the size of the instance relative to the root [Visual](../microsoft.ui.composition/visual.md) of the parent [ContentIsland](contentisland.md).
 
 ## -returns
 
-Returns the created [**ChildSiteLink**](childsitelink.md).
+Returns the created [ChildSiteLink](childsitelink.md).
 
 ## -remarks
 

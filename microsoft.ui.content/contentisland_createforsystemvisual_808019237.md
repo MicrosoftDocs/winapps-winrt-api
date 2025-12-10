@@ -11,13 +11,13 @@ public static Microsoft.UI.Content.ContentIsland CreateForSystemVisual (Microsof
 
 ## -description
 
-Creates a new [**ContentIsland**](contentisland.md) instance in a disconnected and empty state.  
+Creates a new [ContentIsland](contentisland.md) instance in a disconnected and empty state.  
 
 ## -parameters
 
 ### -param queue
 
-The [**DispatcherQueue**](/windows/windows-app-sdk/api/winrt/microsoft.ui.dispatching.dispatcherqueue) associated with the current thread.
+The [DispatcherQueue](/windows/windows-app-sdk/api/winrt/microsoft.ui.dispatching.dispatcherqueue) associated with the current thread.
 
 ### -param root
 
@@ -25,7 +25,7 @@ The root of the visual tree.
 
 ## -returns
 
-A new [**ContentIsland**](contentisland.md).
+A new [ContentIsland](contentisland.md).
 
 ## -remarks
 

@@ -11,7 +11,7 @@ public void VisualInteractionSource.ConfigureDeltaPositionYModifiers(IIterable<C
 
 ## -description
 
-Takes an ordered list of [**CompositionConditionalValue**](compositionconditionalvalue.md) objects. In a frame, the first **CompositionConditionalValue** to have its [**Condition**](compositionconditionalvalue_condition.md) property return true replaces the [**DeltaPosition**](visualinteractionsource_deltaposition.md) Y value with the value provided by the [**CompositionConditionalValue.Value**](compositionconditionalvalue_value.md) property. If none evaluate to true, the **DeltaPosition** Y value is not replaced for that frame.
+Takes an ordered list of [CompositionConditionalValue](compositionconditionalvalue.md) objects. In a frame, the first `CompositionConditionalValue` to have its [Condition](compositionconditionalvalue_condition.md) property return true replaces the [DeltaPosition](visualinteractionsource_deltaposition.md) Y value with the value provided by the [CompositionConditionalValue.Value](compositionconditionalvalue_value.md) property. If none evaluate to true, the `DeltaPosition` Y value is not replaced for that frame.
 
 ## -parameters
 

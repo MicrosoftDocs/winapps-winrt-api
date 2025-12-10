@@ -11,11 +11,11 @@ public System.Numerics.Vector2 ActualSize { get; set; }
 
 ## -description
 
-Gets the logical size of the [**ContentSite**](contentsite.md).
+Gets the logical size of the [ContentSite](contentsite.md).
 
 ## -property-value
 
-The logical size of the [**ContentSite**](contentsite.md).
+The logical size of the [ContentSite](contentsite.md).
 
 ## -remarks
 

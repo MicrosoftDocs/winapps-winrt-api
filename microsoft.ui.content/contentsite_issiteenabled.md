@@ -11,11 +11,11 @@ public bool IsSiteEnabled { get; set; }
 
 ## -description
 
-Gets or sets whether this [**ContentSite**](contentsite.md) is enabled.
+Gets or sets whether this [ContentSite](contentsite.md) is enabled.
 
 ## -property-value
 
-True, if this [**ContentSite**](contentsite.md) is enabled; otherwise, false.
+True, if this [ContentSite](contentsite.md) is enabled; otherwise, false.
 
 ## -remarks
 
