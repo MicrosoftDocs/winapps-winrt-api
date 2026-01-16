@@ -11,7 +11,7 @@ public Vector2 EllipseCenter { get;  set; }
 
 ## -description
 
-Gets or sets the two-dimensional coordinates of the center of the ellipse that contains the gradient.
+Gets or sets the two-dimensional coordinates of the center of the ellipse that contains the gradient. Animatable.
 
 ## -property-value
 
