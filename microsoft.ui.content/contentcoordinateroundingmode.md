@@ -17,7 +17,7 @@ Specifies the rounding methods used for converting screen coordinates (float to 
 
 ### -field Auto: 0
 
-Use the current floating-point unit (FPU) setting. Default.
+Rounds towards zero by discarding the fractional portion of the floating point number. Default.
 
 ### -field Floor: 1
 
