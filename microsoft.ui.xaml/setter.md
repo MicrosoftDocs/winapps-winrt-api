@@ -31,10 +31,6 @@ You must specify both the [Value](setter_value.md), and the [Target](setter_targ
 
 If you're accessing a `Setter` instance using code, you cannot change the value of any property of a `Setter` instance if the value of the [IsSealed](style_issealed.md) property on a parent [Style](style.md) is `true`. This is also reported by the [IsSealed](setterbase_issealed.md) property on an individual `Setter`. The system sets these properties to `true` when the runtime applies styles to UI elements and displays them in the UI. Attempting to change a sealed `Setter` throws a runtime error.
 
-### Migration notes
-
-+ Windows Presentation Foundation (WPF) and Microsoft Silverlight supported the ability to use a [Binding](../microsoft.ui.xaml.data/binding.md) expression to supply the [Value](setter_value.md) for a `Setter` in a [Style](style.md). The Windows Runtime doesn't support a `Binding` usage for [Setter.Value](../microsoft.ui.xaml.data/binding.md) (the `Binding` won't evaluate and the `Setter` has no effect, you won't get errors, but you won't get the desired result either). When you convert XAML styles from WPF or Microsoft Silverlight XAML, replace any `Binding` expression usages with strings or objects that set values, or refactor the values as shared [{StaticResource} markup extension](/windows/uwp/xaml-platform/staticresource-markup-extension) values rather than `Binding`-obtained values.
-
 ## -examples
 
 This example shows how to use `Setter` statements in a style for [TextBlock](../microsoft.ui.xaml.controls/textblock.md) elements.

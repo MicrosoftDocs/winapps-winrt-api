@@ -36,8 +36,6 @@ Gets or sets the amount of space around a [Block](block.md) element.
 The amount of space around a [Block](block.md) element.
 
 ## -remarks
-> **Code migration note**
-> Microsoft Silverlight doesn't support a **Margin** property on **Block** or **Paragraph**. Windows Presentation Foundation (WPF) has a **Margin** property on **Block** and **Paragraph**, but also has a **Padding** property there that the Windows Runtime doesn't support. If you need per-paragraph padding support, you might need to put each [Paragraph](paragraph.md) in a different [Border](../microsoft.ui.xaml.controls/border.md) container and use a [Panel](../microsoft.ui.xaml.controls/panel.md) for layout control, and set [Border.Padding](../microsoft.ui.xaml.controls/border_padding.md) on each [Border](../microsoft.ui.xaml.controls/border.md). Or, use [RichTextBlock](../microsoft.ui.xaml.controls/richtextblock.md).
 
 ## -examples
 
