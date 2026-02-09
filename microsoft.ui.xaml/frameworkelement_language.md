@@ -56,7 +56,7 @@ However, you can't specify both the Language and xml:lang attributes on the same
 
 ### Migration notes
 
-This API takes a string. In the equivalent Microsoft Silverlight and Windows Presentation Foundation (WPF)  API, the type of this property is a helper object that wraps the same string. You can import XAML from other projects without noticing this difference, because how XAML parses the string is identical.
+This API takes a string. In the equivalent Windows Presentation Foundation (WPF) API, the type of this property is a helper object that wraps the same string. You can import XAML from other projects without noticing this difference because the way XAML parses the string is identical.
 
 ## -examples
 
