@@ -128,7 +128,7 @@
         "microsoft.windows.ai.foundation/**": "karl-bridge-microsoft",
         "microsoft.windows.ai.generative/**": "karl-bridge-microsoft",
         "microsoft.windows.ai.machinelearning/**": "stevewhims",
-        "microsoft.windows.ai.text/**": "karl-bridge-microsoft",
+        "microsoft.windows.ai.text*": "karl-bridge-microsoft",
         "microsoft.windows.applicationmodel.background/**": "GrantMeStrength",
         "microsoft.windows.applicationmodel.background.universalbgtask/**": "GrantMeStrength",
         "microsoft.windows.applicationmodel.dynamicdependency/**": "stevewhims",
