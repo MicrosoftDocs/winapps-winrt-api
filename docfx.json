@@ -65,8 +65,8 @@
         "winapps-api-build/**.yml": ["csharp","cppwinrt"]
       },
       "author": {
-        "microsoft.applicationmodel.resources/**": "GrantMeStrength",
-        "microsoft.graphics/**": "stevewhims",
+        "microsoft.applicationmodel.resources*": "GrantMeStrength",
+        "microsoft.graphics*": "stevewhims",
         "microsoft.security.authentication.oauth/**": "GrantMeStrength",
         "microsoft.ui/*": "jwmsft",
         "microsoft.ui.composition/*": "jwmsft",
