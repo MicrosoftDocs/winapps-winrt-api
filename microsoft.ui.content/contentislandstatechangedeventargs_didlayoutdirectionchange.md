@@ -11,11 +11,11 @@ public bool DidLayoutDirectionChange { get; }
 
 ## -description
 
-Gets whether the [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) layout direction changed.
+Gets whether the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) layout direction changed.
 
 ## -property-value
 
-True, if the [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) layout direction changed; otherwise, false.
+True, if the [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) layout direction changed; otherwise, false.
 
 ## -remarks
 

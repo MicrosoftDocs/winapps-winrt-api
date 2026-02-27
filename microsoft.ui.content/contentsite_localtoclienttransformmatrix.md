@@ -11,11 +11,11 @@ public System.Numerics.Matrix4x4 LocalToClientTransformMatrix { get; }
 
 ## -description
 
-Gets the transform matrix from the root [**Visual**](../microsoft.ui.composition/visual.md) to the client area of the hosting HWND.
+Gets the transform matrix from the root [Visual](../microsoft.ui.composition/visual.md) to the client area of the hosting HWND.
 
 ## -property-value
 
-The transform matrix from the root [**Visual**](../microsoft.ui.composition/visual.md) to the client area of the hosting HWND.
+The transform matrix from the root [Visual](../microsoft.ui.composition/visual.md) to the client area of the hosting HWND.
 
 ## -remarks
 

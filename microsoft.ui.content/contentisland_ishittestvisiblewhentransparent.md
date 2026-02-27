@@ -11,13 +11,13 @@ public bool IsHitTestVisibleWhenTransparent { get; set; }
 
 ## -description
 
-Gets or sets whether visual hit testing is supported by this [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) when not displaying any content.
+Gets or sets whether visual hit testing is supported by this [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) when not displaying any content.
 
 ## -property-value
 
 ## -remarks
 
-This [**ContentIsland**](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) must be connected to a [**ContentSite**](contentsite.md) to participate in hit testing.
+This [ContentIsland](/windows/windows-app-sdk/api/winrt/microsoft.ui.content.contentisland) must be connected to a [ContentSite](contentsite.md) to participate in hit testing.
 
 ## -see-also
 

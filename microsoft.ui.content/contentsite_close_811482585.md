@@ -11,7 +11,7 @@
 
 ## -description
 
-Closes this [**ContentSite**](contentsite.md).
+Closes this [ContentSite](contentsite.md).
 
 ## -remarks
 

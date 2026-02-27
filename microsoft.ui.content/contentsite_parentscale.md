@@ -11,11 +11,11 @@ public float ParentScale { get; set; }
 
 ## -description
 
-Gets or sets the parent Win32 HWND default scaling factor for this [**ContentSite**](contentsite.md).
+Gets or sets the parent Win32 HWND default scaling factor for this [ContentSite](contentsite.md).
 
 ## -property-value
 
-The parent Win32 HWND default scaling factor for this [**ContentSite**](contentsite.md).
+The parent Win32 HWND default scaling factor for this [ContentSite](contentsite.md).
 
 ## -remarks
 

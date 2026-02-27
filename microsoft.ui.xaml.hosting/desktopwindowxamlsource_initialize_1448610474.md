@@ -21,9 +21,9 @@ The *WindowId* of the HWND of your Win32 application.
 
 ## -remarks
 
-For C++ desktop application developers, use the [**interop::GetWindowIdFromWindow**](/windows/windows-app-sdk/api/win32/winrt-microsoft.ui.interop/nf-winrt-microsoft-ui-interop-getwindowidfromwindow) function to obtain the *WindowId* of the HWND of your Win32 application.
+For C++ desktop application developers, use the [interop::GetWindowIdFromWindow](/windows/windows-app-sdk/api/win32/winrt-microsoft.ui.interop/nf-winrt-microsoft-ui-interop-getwindowidfromwindow) function to obtain the *WindowId* of the HWND of your Win32 application.
 
-For C# desktop application developers, use the [**Win32Interop.GetWindowIdFromWindow(IntPtr)**](/windows/apps/api-reference/cs-interop-apis/microsoft.ui/microsoft.ui.win32interop.getwindowidfromwindow) method to obtain the *WindowId* of the HWND of your Win32 application.
+For C# desktop application developers, use the [Win32Interop.GetWindowIdFromWindow(IntPtr)](/windows/apps/api-reference/cs-interop-apis/microsoft.ui/microsoft.ui.win32interop.getwindowidfromwindow) method to obtain the *WindowId* of the HWND of your Win32 application.
 
 ## -see-also
 

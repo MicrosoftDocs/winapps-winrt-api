@@ -11,11 +11,11 @@ public System.Nullable<Microsoft.UI.Content.ContentLayoutDirection> LayoutDirect
 
 ## -description
 
-Gets or sets the layout direction for reading order and text alignment used by a [**ContentSite**](contentsite.md).
+Gets or sets the layout direction for reading order and text alignment used by a [ContentSite](contentsite.md).
 
 ## -property-value
 
-The layout direction used by a [**ContentSite**](contentsite.md). The default value is null.
+The layout direction used by a [ContentSite](contentsite.md). The default value is null.
 
 ## -remarks
 

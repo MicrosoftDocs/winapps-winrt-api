@@ -11,7 +11,7 @@ public Windows.Graphics.Imaging.SoftwareBitmap CreateSoftwareBitmap ();
 
 ## -description
 
-Create a new [**SoftwareBitmap**](/uwp/api/windows.graphics.imaging.softwarebitmap) of pixel type BGRA32 from the pixel data stored in an **ImageBuffer**.
+Create a new [SoftwareBitmap](/uwp/api/windows.graphics.imaging.softwarebitmap) of pixel type BGRA32 from the pixel data stored in an `ImageBuffer`.
 
 ## -returns
 

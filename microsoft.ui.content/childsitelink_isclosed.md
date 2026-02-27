@@ -15,7 +15,7 @@ Gets whether the [ChildSiteLink](childsitelink.md) is hidden or closed.
 
 ## -property-value
 
-True, if this [ChildSiteLink](childsitelink.md) is shown by its associated [**ContentSite**](contentsite.md); otherwise, false. The default is true.
+True, if this [ChildSiteLink](childsitelink.md) is shown by its associated [ContentSite](contentsite.md); otherwise, false. The default is true.
 
 ## -remarks
 

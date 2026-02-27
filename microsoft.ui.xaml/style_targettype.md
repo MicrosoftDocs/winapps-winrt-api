@@ -87,7 +87,7 @@ This example creates two styles: one for a [TextBlock](../microsoft.ui.xaml.cont
   <StackPanel.Resources>
     <!--Create a Style for a TextBlock to specify that the
               Foreground equals Navy, FontSize equals 14, and
-              VerticalAlignment equals Botton.-->
+              VerticalAlignment equals Bottom.-->
     <Style TargetType="TextBlock" x:Key="TextBlockStyle">
       <Setter Property="Foreground" Value="Navy"/>
       <Setter Property="FontSize" Value="14"/>

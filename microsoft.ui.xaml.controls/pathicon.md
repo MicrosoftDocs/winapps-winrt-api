@@ -47,4 +47,4 @@ This example shows an [AppBarButton](appbarbutton.md) with a PathIcon.
 
 ## -see-also
 
-[IconElement](iconelement.md), [AppBarButton](appbarbutton.md), [Path](../microsoft.ui.xaml.shapes/path.md), [Move and draw commands syntax](/windows/uwp/xaml-platform/move-draw-commands-syntax), [Icons for UWP apps](/windows/uwp/style/icons) 
+[IconElement](iconelement.md), [AppBarButton](appbarbutton.md), [Path](../microsoft.ui.xaml.shapes/path.md), [Move and draw commands syntax](/windows/uwp/xaml-platform/move-draw-commands-syntax), [Icons in Windows apps](/windows/apps/develop/ui/controls/icons) 

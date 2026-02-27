@@ -11,11 +11,11 @@ public Microsoft.UI.Content.ContentAutomationOptions AutomationOption { get; set
 
 ## -description
 
-Gets or sets the automation hosting contract option of the connected [**ContentIsland**](contentisland.md).
+Gets or sets the automation hosting contract option of the connected [ContentIsland](contentisland.md).
 
 ## -property-value
 
-The automation hosting contract option of the connected [**ContentIsland**](contentisland.md).
+The automation hosting contract option of the connected [ContentIsland](contentisland.md).
 
 ## -remarks
 

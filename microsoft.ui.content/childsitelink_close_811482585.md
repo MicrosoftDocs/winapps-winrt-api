@@ -11,7 +11,7 @@
 
 ## -description
 
-Closes the **ChildSiteLink** object, and releases system resources.
+Closes the `ChildSiteLink` object, and releases system resources.
 
 ## -remarks
 

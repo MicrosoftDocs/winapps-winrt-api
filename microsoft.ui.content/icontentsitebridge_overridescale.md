@@ -11,11 +11,11 @@ public float OverrideScale { get; set; }
 
 ## -description
 
-Gets or sets the scaling factor used by a [**ContentSite**](contentsite.md).
+Gets or sets the scaling factor used by a [ContentSite](contentsite.md).
 
 ## -property-value
 
-The scaling factor used by a [**ContentSite**](contentsite.md).
+The scaling factor used by a [ContentSite](contentsite.md).
 
 ## -remarks
 

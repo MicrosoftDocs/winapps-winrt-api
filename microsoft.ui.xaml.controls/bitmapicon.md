@@ -60,4 +60,4 @@ This example shows an [AppBarButton](appbarbutton.md) with a BitmapIcon. The [Ur
 
 
 ## -see-also
-[IconElement](iconelement.md), [AppBarButton](appbarbutton.md), [Icons for UWP apps](/windows/uwp/style/icons)
+[IconElement](iconelement.md), [AppBarButton](appbarbutton.md), [Icons in Windows apps](/windows/apps/develop/ui/controls/icons)

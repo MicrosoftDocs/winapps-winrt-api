@@ -11,11 +11,11 @@ public bool ProcessesKeyboardInput { get; }
 
 ## -description
 
-Gets a value that indicates whether the associated [**ContentSite**](contentsite.md) is processing keyboard input.
+Gets a value that indicates whether the associated [ContentSite](contentsite.md) is processing keyboard input.
 
 ## -property-value
 
-True, if the associated [**ContentSite**](contentsite.md) is processing keyboard input; otherwise, false.
+True, if the associated [ContentSite](contentsite.md) is processing keyboard input; otherwise, false.
 
 ## -remarks
 

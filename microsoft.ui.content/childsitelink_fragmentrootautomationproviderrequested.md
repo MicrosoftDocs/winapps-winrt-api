@@ -11,7 +11,7 @@ public event Windows.Foundation.TypedEventHandler<Microsoft.UI.Content.IContentS
 
 ## -description
 
-Occurs when the [IRawElementProviderFragmentRoot](/windows/win32/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot) is requested by the connected [**ContentIsland**](contentisland.md).
+Occurs when the [IRawElementProviderFragmentRoot](/windows/win32/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot) is requested by the connected [ContentIsland](contentisland.md).
 
 ## -remarks
 

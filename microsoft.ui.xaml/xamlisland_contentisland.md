@@ -11,11 +11,11 @@ public Microsoft.UI.Content.ContentIsland ContentIsland { get; }
 
 ## -description
 
-Gets the [**ContentIsland**](../microsoft.ui.content/contentisland.md) associated with the [**XamlIsland**](xamlisland.md).
+Gets the [ContentIsland](../microsoft.ui.content/contentisland.md) associated with the [XamlIsland](xamlisland.md).
 
 ## -property-value
 
-The [**ContentIsland**](../microsoft.ui.content/contentisland.md) associated with the [**XamlIsland**](xamlisland.md).
+The [ContentIsland](../microsoft.ui.content/contentisland.md) associated with the [XamlIsland](xamlisland.md).
 
 ## -remarks
 

@@ -11,21 +11,21 @@ public static Microsoft.Graphics.Imaging.ImageBuffer CreateCopyFromBitmap (Windo
 
 ## -description
 
-Create a new **ImageBuffer** from an existing [**SoftwareBitmap**](/uwp/api/windows.graphics.imaging.softwarebitmap) by copying out the underlying bitmap data.
+Create a new `ImageBuffer` from an existing [SoftwareBitmap](/uwp/api/windows.graphics.imaging.softwarebitmap) by copying out the underlying bitmap data.
 
 ## -parameters
 
 ### -param softwareBitmap
 
-The **SotftwareBitmap** to create the **ImageBuffer** from.
+The **SotftwareBitmap** to create the `ImageBuffer` from.
 
 ## -returns
 
-The **ImageBuffer**, or null if it's an unsupported format.
+The `ImageBuffer`, or null if it's an unsupported format.
 
 ## -remarks
 
-The **SoftwareBitmap** is locked until the async operation completes and the new **ImageBuffer** is destroyed.
+The **SoftwareBitmap** is locked until the async operation completes and the new `ImageBuffer` is destroyed.
 
 ## -see-also
 

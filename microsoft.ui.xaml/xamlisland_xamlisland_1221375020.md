@@ -11,7 +11,7 @@ public XamlIsland ();
 
 ## -description
 
-Initializes a new instance of the [**XamlIsland**](xamlisland.md) class.
+Initializes a new instance of the [XamlIsland](xamlisland.md) class.
 
 ## -remarks
 

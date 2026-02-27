@@ -11,11 +11,11 @@ public Microsoft.UI.Content.ContentIsland Parent { get; }
 
 ## -description
 
-Gets the parent [**ContentIsland**](contentisland.md).
+Gets the parent [ContentIsland](contentisland.md).
 
 ## -property-value
 
-The parent [**ContentIsland**](contentisland.md).
+The parent [ContentIsland](contentisland.md).
 
 ## -remarks
 
