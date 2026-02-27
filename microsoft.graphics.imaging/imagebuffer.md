@@ -11,7 +11,7 @@ public sealed class ImageBuffer : System.IDisposable
 
 ## -description
 
-Represents an uncompressed bitmap for efficient cross-process marshaling.
+Represents an uncompressed bitmap used for efficient cross-process marshaling.
 
 ## -remarks
 

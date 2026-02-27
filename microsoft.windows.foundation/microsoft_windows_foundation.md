@@ -5,14 +5,12 @@
 
 # Microsoft.Windows.Foundation
 
-
-
 ## -description
+
+Provides support for basic Windows App SDK features and types.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

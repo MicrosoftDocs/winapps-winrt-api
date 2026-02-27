@@ -7,7 +7,7 @@
 
 ## -description
 
-Provides APIs for machine learning models that perform content moderation.
+Provides APIs for machine learning models to monitor, review, and filter content and ensure it meets specific guidelines, standards, or policies.
 
 ## -remarks
 
