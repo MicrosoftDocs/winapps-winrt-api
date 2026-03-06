@@ -11,11 +11,11 @@ public System.Collections.Generic.IReadOnlyList<Windows.Graphics.PointInt32> Exc
 
 ## -description
 
-Gets a collection of rectangular polygons for an [ImageObjectExtractor](../microsoft.graphics.imaging/imageobjectextractor.md) to exclude when identifying the intended artifact to extract.
+Gets a collection of rectangular polygons for an [ImageObjectExtractor](imageobjectextractor.md) to exclude when identifying the intended artifact to extract.
 
 ## -property-value
 
-A collection of rectangular polygons for an [ImageObjectExtractor](../microsoft.graphics.imaging/imageobjectextractor.md) to exclude when identifying the intended artifact to extract.
+A collection of rectangular polygons for an [ImageObjectExtractor](imageobjectextractor.md) to exclude when identifying the intended artifact to extract.
 
 ## -remarks
 
