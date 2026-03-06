@@ -11,7 +11,7 @@ public sealed class ImageObjectExtractorHint
 
 ## -description
 
-Represents an object that helps an [ImageObjectExtractor](../microsoft.graphics.imaging/imageobjectextractor.md) identify the intended artifact to extract.
+Represents an object that helps an [ImageObjectExtractor](imageobjectextractor.md) identify the intended artifact to extract.
 
 ## -remarks
 

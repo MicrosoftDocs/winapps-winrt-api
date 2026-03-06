@@ -6,7 +6,7 @@
 # Microsoft.Graphics.Imaging.ImageBuffer.PixelFormat
 
 <!--
-public Microsoft.Graphics.Imaging.PixelFormat PixelFormat { get; }
+public Microsoft.Graphics.Imaging.ImageBufferPixelFormat PixelFormat { get; }
 -->
 
 ## -description
