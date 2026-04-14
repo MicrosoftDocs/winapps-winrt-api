@@ -11,7 +11,7 @@ public double RasterizationScale { get; set; }
 
 ## -description
 
-Gets a value that represents an extra scale factor to be used when rendering shapes, images, or media, usually to render at a higher resolution than normal.
+Gets a value that represents an extra scale factor to be used when rendering shapes, images, text, or media, usually to render at a higher resolution than normal.
 
 ## -property-value
 
@@ -19,7 +19,9 @@ A value that represents the additional scale factor to use while rendering. The 
 
 ## -remarks
 
-The value of this property is an extra scale factor to be used when rendering shapes, images, or media, usually to render at a higher resolution than normal. For example, it can be used to have a `TextBlock` render a 2x scale before running a scale animation so the text is rendered crisply at its final scale value during the animation.
+The value of this property is an extra scale factor to be used when rendering shapes, images, or media. It is usually applied to render at a higher resolution than normal. 
+
+For example, it can be used to have a `TextBlock` render at a 2x scale before running a scale animation. This ensures the text is rendered crisply at its final scale value during the animation.
 
 To determine the display scale factor for an element, use the [XamlRoot.RasterizationScale](xamlroot_rasterizationscale.md) property instead.
 
