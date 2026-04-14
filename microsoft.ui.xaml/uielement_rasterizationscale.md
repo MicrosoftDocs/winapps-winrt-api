@@ -11,13 +11,18 @@ public double RasterizationScale { get; set; }
 
 ## -description
 
-Gets a value that represents the number of raw (physical) pixels for each view pixel.
+Gets a value that represents an extra scale factor to be used when rendering shapes, images, or media, usually to render at a higher resolution than normal.
 
 ## -property-value
 
-A value that represents the number of raw (physical) pixels for each view pixel. The default is 1.0.
+A value that represents the additional scale factor to use while rendering. The default is 1.0.
 
 ## -remarks
+
+The value of this property is an extra scale factor to be used when rendering shapes, images, or media, usually to render at a higher resolution than normal. For example, it can be used to have a `TextBlock` render a 2x scale before running a scale animation so the text is rendered crisply at its final scale value during the animation.
+
+To determine the display scale factor for an element, use the [XamlRoot.RasterizationScale](xamlroot_rasterizationscale.md) property instead.
+
 
 ## -see-also
 
