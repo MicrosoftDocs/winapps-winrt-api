@@ -40,12 +40,13 @@ For reference information about the XML schema for app notifications, see [App n
 
 ## -examples
 
-The following example shows the usage of this method to add arguments to an app notification.
+The following example shows the usage of **AddArgument** to add a key/value argument to an app notification.
 
 ```csharp
 var notification = new AppNotificationBuilder()
-    .AddText("Send a message.")
-    .AddTextBox("textBox")
+    .AddArgument("conversationId", "9813")
+    .AddText("Photos from our trip")
+    .AddText("Check out these pictures of our trip!")
     .BuildNotification();
 
 AppNotificationManager.Default.Show(notification);
@@ -54,10 +55,11 @@ AppNotificationManager.Default.Show(notification);
 The resulting XML payload:
 
 ```xml
-<toast launch='key=value'>
+<toast launch='conversationId=9813'>
     <visual>
         <binding template='ToastGeneric'>
-            <text>Notification text.</text>
+            <text>Photos from our trip</text>
+            <text>Check out these pictures of our trip!</text>
         </binding>
     </visual>
 </toast>
