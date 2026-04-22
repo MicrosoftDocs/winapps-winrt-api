@@ -18,7 +18,8 @@
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "ThirdPartyNotices"
+          "ThirdPartyNotices",
+          "es-metadata.yml"
         ]
       }
     ],
