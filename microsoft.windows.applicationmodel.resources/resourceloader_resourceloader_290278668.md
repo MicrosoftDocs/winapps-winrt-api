@@ -18,7 +18,7 @@ Constructs a new [ResourceLoader](resourceloader.md) object for the specified [R
 
 ### -param fileName
 
-The resource identifier of the [ResourceMap](resourcemap.md) that the new resource loader uses for unqualified resource references. It can then retrieve resources relative to those references.
+The path and name of the file that should be used for the current context.
 
 > [!NOTE]
 > The resource identifier is treated as a Uniform Resource Identifier (URI) fragment, subject to Uniform Resource Identifier (URI) semantics. For example, "Caption%20" is treated as "Caption ". Do not use "?" or "#" in resource identifiers, as they terminate the resource path. For example, "Foo?3" is treated as "Foo".
