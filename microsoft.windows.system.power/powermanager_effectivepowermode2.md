@@ -19,7 +19,7 @@ The current effective power mode of the device.
 
 ## -remarks
 
-This property returns the current [EffectivePowerMode](effectivepowermode.md) synchronously. It is equivalent to [EffectivePowerMode](powermanager_effectivepowermode.md), but does not require awaiting an asynchronous operation.
+This property returns the current [EffectivePowerMode](effectivepowermode.md) synchronously. It returns the same value as awaiting [EffectivePowerMode](powermanager_effectivepowermode.md), but does not require an asynchronous call.
 
 Subscribe to the [EffectivePowerModeChanged](powermanager_effectivepowermodechanged.md) event to be notified when this value changes.
 

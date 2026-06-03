@@ -21,7 +21,7 @@ The current effective power mode of the device.
 
 This property returns an asynchronous operation that resolves to the current [EffectivePowerMode](effectivepowermode.md). For a synchronous alternative, use [EffectivePowerMode2](powermanager_effectivepowermode2.md).
 
-The effective power mode reflects the combined result of the user's power plan selection, battery saver state, and system policies. Use this value to adjust your app's resource usage — for example, reduce animation quality or defer background processing when the mode is [BatterySaver](effectivepowermode.md) or [BetterBattery](effectivepowermode.md).
+The effective power mode reflects the combined result of the user's power plan selection, battery saver state, and system policies. Use this value to adjust your app's resource usage — for example, reduce animation quality or defer background processing when the mode is `BatterySaver` or `BetterBattery`.
 
 ## -see-also
 
