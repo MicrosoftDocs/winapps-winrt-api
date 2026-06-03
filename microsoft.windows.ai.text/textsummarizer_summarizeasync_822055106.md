@@ -46,5 +46,8 @@ var textSummarizer = new TextSummarizer(languageModel);
 string text = "This is a large amount of text I want to have summarized.";
 var result = await textSummarizer.SummarizeAsync(text);
 
-Console.WriteLine(result.Text);
+if (result.Status == LanguageModelResponseStatus.Complete)
+{
+    Console.WriteLine(result.Text);
+}
 ```

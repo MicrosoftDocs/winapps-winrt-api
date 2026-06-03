@@ -31,8 +31,14 @@ Use this method to check whether the language model is available on the device b
 using Microsoft.Windows.AI;
 using Microsoft.Windows.AI.Text;
 
-if (LanguageModel.GetReadyState() != AIFeatureReadyState.Ready) 
+var readyState = LanguageModel.GetReadyState();
+if (readyState == AIFeatureReadyState.EnsureNeeded) 
 { 
     await LanguageModel.EnsureReadyAsync(); 
+}
+else if (readyState != AIFeatureReadyState.Ready)
+{
+    // NotSupportedOnCurrentSystem or DisabledByUser — cannot proceed
+    return;
 }
 ```

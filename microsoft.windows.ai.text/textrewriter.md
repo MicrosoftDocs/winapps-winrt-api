@@ -11,7 +11,7 @@ public sealed class TextRewriter
 
 ## -description
 
-Represents a specialized lanugage model capable of rewriting text input.
+Represents a specialized language model capable of rewriting text input.
 
 ## -remarks
 

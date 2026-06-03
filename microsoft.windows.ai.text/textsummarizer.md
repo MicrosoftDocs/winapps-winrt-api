@@ -11,7 +11,7 @@ public sealed class TextSummarizer
 
 ## -description
 
-Represents a specialized lanugage model capable of summarizing text input.
+Represents a specialized language model capable of summarizing text input.
 
 ## -remarks
 
@@ -45,5 +45,8 @@ var textSummarizer = new TextSummarizer(languageModel);
 string text = "This is a large amount of text I want to have summarized.";
 var result = await textSummarizer.SummarizeAsync(text);
 
-Console.WriteLine(result.Text);
+if (result.Status == LanguageModelResponseStatus.Complete)
+{
+    Console.WriteLine(result.Text);
+}
 ```

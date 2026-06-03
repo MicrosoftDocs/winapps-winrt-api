@@ -11,7 +11,7 @@ public sealed class TextToTableConverter
 
 ## -description
 
-Represents a specialized lanugage model capable of formatting text input into a table.
+Represents a specialized language model capable of formatting text input into a table.
 
 ## -remarks
 
