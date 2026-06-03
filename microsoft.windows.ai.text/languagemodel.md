@@ -54,6 +54,8 @@ using LanguageModel languageModel = await LanguageModel.CreateAsync();
 string prompt = "Provide the molecular formula for glucose.";
 var result = await languageModel.GenerateResponseAsync(prompt);
 
-Console.WriteLine(result.Text);
-// Output: C6H12O6
+if (result.Status == LanguageModelResponseStatus.Complete)
+{
+    Console.WriteLine(result.Text);
+}
 ```

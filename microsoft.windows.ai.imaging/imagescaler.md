@@ -15,7 +15,7 @@ Represents an object that can resize an image and increase or decrease its resol
 
 ## -remarks
 
-**ImageScaler** uses AI-powered Image Super Resolution to scale and sharpen images up to 8× their original size while maintaining quality. The model runs on the device's NPU for hardware-accelerated performance.
+**ImageScaler** uses AI-powered Image Super Resolution to scale and sharpen images while maintaining quality. The model runs on the device's NPU for hardware-accelerated performance. Call [MaxSupportedScaleFactor](imagescaler_maxsupportedscalefactor.md) to determine the maximum scale factor available on the current device.
 
 Before creating an **ImageScaler** instance, call [GetReadyState](imagescaler_getreadystate_1726041729.md) to check whether the model is available on the device. If the model is not ready, call [EnsureReadyAsync](imagescaler_ensurereadyasync_1335418254.md) to download and prepare it. Then call [CreateAsync](imagescaler_createasync_616540418.md) to create an instance.
 
