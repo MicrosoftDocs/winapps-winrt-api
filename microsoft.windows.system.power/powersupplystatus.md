@@ -30,6 +30,8 @@ Power supply is adequate.
 
 ## -remarks
 
+Use this enum with the [PowerSupplyStatus](powermanager_powersupplystatus.md) property. An `Inadequate` supply means the charger is connected but is not providing enough power to maintain or charge the battery — for example, a low-wattage USB charger on a high-power device.
+
 ## -see-also
 
 [PowerSupplyStatus property](powermanager_powersupplystatus.md), [PowerSupplyStatusChanged event](powermanager_powersupplystatuschanged.md), [Power management with the app lifecycle API](/windows/apps/windows-app-sdk/applifecycle/applifecycle-power)
