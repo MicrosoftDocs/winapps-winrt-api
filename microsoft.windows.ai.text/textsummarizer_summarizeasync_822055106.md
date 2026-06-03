@@ -38,6 +38,8 @@ Before calling this method, you can check whether the text fits within the model
 ## -examples
 
 ```csharp
+using Microsoft.Windows.AI.Text;
+
 using LanguageModel languageModel = await LanguageModel.CreateAsync();
 
 var textSummarizer = new TextSummarizer(languageModel);

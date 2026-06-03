@@ -19,7 +19,7 @@ An asynchronous operation object that returns an [ImageScaler](imagescaler.md) o
 
 ## -remarks
 
-Call [GetReadyState](imagescaler_getreadystate_1726041729.md) before calling this method. If **GetReadyState** returns `NotReady`, call [EnsureReadyAsync](imagescaler_ensurereadyasync_1335418254.md) first to download and install the model.
+Call [GetReadyState](imagescaler_getreadystate_1726041729.md) before calling this method. If **GetReadyState** does not return `Ready`, call [EnsureReadyAsync](imagescaler_ensurereadyasync_1335418254.md) first to download and install the model.
 
 The returned **ImageScaler** implements [IDisposable](/dotnet/api/system.idisposable). Use a `using` statement (C#) or call **Close** (C++/WinRT) to release resources when you are done.
 

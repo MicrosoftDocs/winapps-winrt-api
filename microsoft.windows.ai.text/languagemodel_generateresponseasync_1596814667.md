@@ -40,6 +40,8 @@ To maintain conversation context across multiple prompts, use the overload that 
 ## -examples
 
 ```csharp
+using Microsoft.Windows.AI.Text;
+
 using LanguageModel languageModel = await LanguageModel.CreateAsync();
 
 string prompt = "Provide the molecular formula for glucose.";

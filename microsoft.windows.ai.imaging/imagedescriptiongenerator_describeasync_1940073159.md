@@ -35,7 +35,7 @@ An asynchronous operation with progress object which, when it completes, contain
 
 The [ImageDescriptionKind](imagedescriptionkind.md) parameter controls the format and detail level of the description. Choose `BriefDescription` for a short caption, `DetailedDescription` for more thorough coverage, `DiagramDescription` for diagrams and charts, or `AccessibleDescription` for accessibility-optimized alt text.
 
-The [ContentFilterOptions](../microsoft.windows.ai.contentsafety/contentfilteroptions.md) parameter lets you configure the content moderation severity levels.
+The [ContentFilterOptions](../microsoft.windows.ai.contentmoderation/contentfilteroptions.md) parameter lets you configure the content moderation severity levels.
 
 The returned [ImageDescriptionResult](imagedescriptionresult.md) contains the generated [Description](imagedescriptionresult_description.md) text and a [Status](imagedescriptionresult_status.md) code.
 

@@ -21,7 +21,7 @@ Returns `Ready` if the underlying language model is installed.
 
 ## -remarks
 
-Use this method to check whether the image scaling model is available on the device before calling [CreateAsync](imagescaler_createasync_616540418.md). If the returned state is `NotReady`, call [EnsureReadyAsync](imagescaler_ensurereadyasync_1335418254.md) to download and install the model.
+Use this method to check whether the image scaling model is available on the device before calling [CreateAsync](imagescaler_createasync_616540418.md). If the returned state is `EnsureNeeded`, call [EnsureReadyAsync](imagescaler_ensurereadyasync_1335418254.md) to download and install the model.
 
 ## -see-also
 

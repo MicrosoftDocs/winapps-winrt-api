@@ -25,9 +25,9 @@ The result of a text recognition operation on an image.
 
 ## -remarks
 
-Performs synchronous text recognition on the image. The image must be provided as an [ImageBuffer](/windows/windows-app-sdk/api/winrt/microsoft.graphics.imaging.imagebuffer), which you can create from a [SoftwareBitmap](/uwp/api/windows.graphics.imaging.softwarebitmap) using `ImageBuffer.CreateBufferAttachedToBitmap` (C#) or `ImageBuffer.CreateForSoftwareBitmap` (C++/WinRT).
+Performs synchronous text recognition on the image. The image must be provided as an [ImageBuffer](/windows/windows-app-sdk/api/winrt/microsoft.graphics.imaging.imagebuffer), which you can create from a [SoftwareBitmap](/uwp/api/windows.graphics.imaging.softwarebitmap) using `ImageBuffer.CreateBufferAttachedToBitmap` or `ImageBuffer.CreateCopyFromBitmap`.
 
-The returned [RecognizedText](recognizedtext.md) contains a collection of [RecognizedLine](recognizedline.md) objects. Each line provides the recognized [Text](recognizedline_text.md), individual [Words](recognizedline_words.md) with bounding boxes and confidence scores, and a [Style](recognizedline_style.md) indicator (handwritten vs. printed).
+The returned [RecognizedText](recognizedtext.md) contains a collection of [RecognizedLine](recognizedline.md) objects. Each line provides the recognized [Text](recognizedline_text.md), individual [Words](recognizedline_words.md) with bounding boxes and confidence scores, and a [Style](recognizedline_style.md) indicator.
 
 For asynchronous processing, use [RecognizeTextFromImageAsync](textrecognizer_recognizetextfromimageasync_356575282.md) instead.
 

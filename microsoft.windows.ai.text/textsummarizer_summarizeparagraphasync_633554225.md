@@ -25,7 +25,7 @@ The summarized text.
 
 ## -remarks
 
-Unlike [SummarizeAsync](textsummarizer_summarizeasync_822055106.md) which returns a list of key points, this method returns the summary as a single flowing paragraph.
+This method returns the summary as a single flowing paragraph, whereas [SummarizeAsync](textsummarizer_summarizeasync_822055106.md) may format the output as key points.
 
 ## -see-also
 

@@ -19,7 +19,7 @@ The readiness state of the language model.
 
 ## -remarks
 
-Use this method to check whether the language model is available on the device before calling [CreateAsync](languagemodel_createasync_616540418.md). If the returned state is `NotReady`, call [EnsureReadyAsync](languagemodel_ensurereadyasync_1335418254.md) to download and install the model.
+Use this method to check whether the language model is available on the device before calling [CreateAsync](languagemodel_createasync_616540418.md). If the returned state is `EnsureNeeded`, call [EnsureReadyAsync](languagemodel_ensurereadyasync_1335418254.md) to download and install the model. Other non-ready states include `NotSupportedOnCurrentSystem` and `DisabledByUser`.
 
 ## -see-also
 
@@ -28,6 +28,9 @@ Use this method to check whether the language model is available on the device b
 ## -examples
 
 ```csharp
+using Microsoft.Windows.AI;
+using Microsoft.Windows.AI.Text;
+
 if (LanguageModel.GetReadyState() != AIFeatureReadyState.Ready) 
 { 
     await LanguageModel.EnsureReadyAsync(); 
