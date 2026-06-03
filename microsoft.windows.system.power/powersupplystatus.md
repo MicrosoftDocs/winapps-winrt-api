@@ -30,7 +30,7 @@ Power supply is adequate.
 
 ## -remarks
 
-Use this enum with the [PowerSupplyStatus](powermanager_powersupplystatus.md) property. An `Inadequate` supply means the charger is connected but is not providing enough power to maintain or charge the battery — for example, a low-wattage USB charger on a high-power device.
+Use this enum with the [PowerSupplyStatus](powermanager_powersupplystatus.md) property. `NotPresent` means no power supply is connected, `Inadequate` means a power supply is connected but not providing adequate power, and `Adequate` means the power supply is connected and providing adequate power.
 
 ## -see-also
 

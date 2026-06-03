@@ -18,7 +18,7 @@ Provides static events that notify your app of changes to the devices power stat
 
 **PowerManager** is a static class — you do not instantiate it. Read its properties to query the current power state and subscribe to its events to be notified when the state changes.
 
-All properties and events are available in both packaged and unpackaged Windows App SDK desktop apps. The class wraps the underlying Win32 [power setting GUIDs](/windows/win32/power/power-setting-guids) into a strongly-typed WinRT surface.
+The class wraps the underlying Win32 [power setting GUIDs](/windows/win32/power/power-setting-guids) into a strongly-typed WinRT surface.
 
 For more information, see [Power management with the app lifecycle API](/windows/apps/windows-app-sdk/applifecycle/applifecycle-power).
 

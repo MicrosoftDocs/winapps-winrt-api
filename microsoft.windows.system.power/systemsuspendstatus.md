@@ -34,7 +34,7 @@ The user has manually resumed the device from suspend state.
 
 ## -remarks
 
-Use this enum with the [SystemSuspendStatus](powermanager_systemsuspendstatus.md) property and the [SystemSuspendStatusChanged](powermanager_systemsuspendstatuschanged.md) event to detect when the system is entering or leaving a suspend state. The `AutoResume` and `ManualResume` values distinguish between the system waking on its own (for example, due to a scheduled task or network event) and the user explicitly waking the device.
+Use this enum with the [SystemSuspendStatus](powermanager_systemsuspendstatus.md) property and the [SystemSuspendStatusChanged](powermanager_systemsuspendstatuschanged.md) event to detect when the system is entering or leaving a suspend state. `AutoResume` indicates the system resumed without user interaction, while `ManualResume` indicates the user explicitly woke the device.
 
 ## -see-also
 

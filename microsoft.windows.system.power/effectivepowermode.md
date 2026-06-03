@@ -46,7 +46,7 @@ The device is in the windows mixed reality power mode.
 
 ## -remarks
 
-The effective power mode reflects the combined result of the user's power plan selection, battery saver state, and other system policies. The values are ordered from lowest power consumption (`BatterySaver`) to highest (`MaxPerformance`), with `GameMode` and `MixedReality` representing specialized modes for those workloads.
+The effective power mode reflects the combined result of the user's power plan selection, battery saver state, and other system policies. `GameMode` and `MixedReality` represent specialized modes for those workloads.
 
 Use this enum with the [EffectivePowerMode](powermanager_effectivepowermode.md) or [EffectivePowerMode2](powermanager_effectivepowermode2.md) property to adapt your app's behavior to the current power mode.
 

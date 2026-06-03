@@ -20,7 +20,7 @@ The current power supply status of the device.
 
 ## -remarks
 
-Use this property to determine whether the power supply is connected and providing adequate power. A value of [Inadequate](powersupplystatus.md) indicates the charger is connected but not supplying enough power to charge the battery (for example, a low-wattage USB charger on a high-power laptop). Subscribe to the [PowerSupplyStatusChanged](powermanager_powersupplystatuschanged.md) event to be notified when this value changes.
+Use this property to determine whether the power supply is connected and providing adequate power. Subscribe to the [PowerSupplyStatusChanged](powermanager_powersupplystatuschanged.md) event to be notified when this value changes.
 
 ## -see-also
 
