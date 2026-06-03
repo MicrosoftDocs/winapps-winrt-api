@@ -28,8 +28,8 @@ Use this method to check whether the language model is available on the device b
 ## -examples
 
 ```csharp
-if (LanguageModel.GetReadyState() == AIFeatureReadyState.NotReady) 
+if (LanguageModel.GetReadyState() != AIFeatureReadyState.Ready) 
 { 
-    var op = await LanguageModel.EnsureReadyAsync(); 
+    await LanguageModel.EnsureReadyAsync(); 
 }
 ```

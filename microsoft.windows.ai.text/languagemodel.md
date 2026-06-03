@@ -38,9 +38,9 @@ The following example shows how to check model availability, create a **Language
 using Microsoft.Windows.AI.Text;
 using Microsoft.Windows.AI;
 
-if (LanguageModel.GetReadyState() == AIFeatureReadyState.NotReady) 
+if (LanguageModel.GetReadyState() != AIFeatureReadyState.Ready) 
 { 
-    var op = await LanguageModel.EnsureReadyAsync(); 
+    await LanguageModel.EnsureReadyAsync(); 
 } 
 
 using LanguageModel languageModel = await LanguageModel.CreateAsync();

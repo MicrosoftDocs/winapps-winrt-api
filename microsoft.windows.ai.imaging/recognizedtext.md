@@ -19,6 +19,6 @@ Represents the result of a text recognition operation on an image.
 
 ## -see-also
 
-[RecognizeTextFromImage](textrecognizer_recognizetextfromimage_2145955329.md), [RecognizeTextFromImageAsync], (textrecognizer_recognizetextfromimageasync_356575282.md), [Get Started with AI Text Recognition (OCR)](/windows/ai/apis/text-recognition), [Text recognizer walkthrough](/windows/ai/apis/text-recognition-tutorial)
+[RecognizeTextFromImage](textrecognizer_recognizetextfromimage_2145955329.md), [RecognizeTextFromImageAsync](textrecognizer_recognizetextfromimageasync_356575282.md), [Get Started with AI Text Recognition (OCR)](/windows/ai/apis/text-recognition), [Text recognizer walkthrough](/windows/ai/apis/text-recognition-tutorial)
 
 ## -examples
