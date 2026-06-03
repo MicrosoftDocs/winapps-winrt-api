@@ -33,6 +33,10 @@ The response to the prompt.
 
 ## -remarks
 
+Generates a response from pre-computed embedding vectors with a [LanguageModelContext](languagemodelcontext.md) for multi-turn conversation history and [LanguageModelOptions](languagemodeloptions.md) for content moderation configuration.
+
 ## -see-also
+
+[GenerateResponseFromEmbeddingsAsync(IIterable\<EmbeddingVector\>)](languagemodel_generateresponsefromembeddingsasync_253779765.md), [GenerateEmbeddingVectors](languagemodel_generateembeddingvectors_1167060492.md), [LanguageModelContext](languagemodelcontext.md), [LanguageModelOptions](languagemodeloptions.md)
 
 ## -examples

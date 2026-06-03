@@ -19,6 +19,8 @@ The maximum scale factor supported by the [ImageScaler](imagescaler.md).
 
 ## -remarks
 
+The maximum scale factor depends on the device hardware and model capabilities. The Image Super Resolution feature supports scaling up to 8× on supported devices. Always check this property before requesting a specific scale factor to avoid errors.
+
 ## -see-also
 
 [Get Started with AI Imaging](/windows/ai/apis/imaging), [Image scaler walkthrough](/windows/ai/apis/imaging-tutorial)

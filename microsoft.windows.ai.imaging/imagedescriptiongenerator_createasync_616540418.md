@@ -19,6 +19,10 @@ An asynchronous operation object that returns an [ImageDescriptionGenerator](ima
 
 ## -remarks
 
+Call [GetReadyState](imagedescriptiongenerator_getreadystate_1726041729.md) before calling this method. If **GetReadyState** returns `NotReady`, call [EnsureReadyAsync](imagedescriptiongenerator_ensurereadyasync_1335418254.md) first to download and install the model.
+
+The returned **ImageDescriptionGenerator** implements [IDisposable](/dotnet/api/system.idisposable). Use a `using` statement (C#) or call **Close** (C++/WinRT) to release resources when you are done.
+
 ## -see-also
 
 [Get Started with AI Imaging](/windows/ai/apis/imaging)

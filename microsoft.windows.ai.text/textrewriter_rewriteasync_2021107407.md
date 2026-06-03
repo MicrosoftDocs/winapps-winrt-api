@@ -29,6 +29,10 @@ The rewritten text in the specified tone.
 
 ## -remarks
 
+Rewrites the text using the specified [TextRewriteTone](textrewritetone.md), which controls the style of the output (for example, professional, casual, or friendly). The rewriter corrects spelling and grammar errors, enhances word choice, and optimizes clarity and readability while preserving the original meaning.
+
 ## -see-also
+
+[RewriteAsync(String)](textrewriter_rewriteasync_54766249.md), [TextRewriteTone](textrewritetone.md), [LanguageModelResponseResult](languagemodelresponseresult.md)
 
 ## -examples

@@ -25,6 +25,29 @@ The response to the prompt.
 
 ## -remarks
 
+This is the simplest overload of **GenerateResponseAsync**. It sends a single prompt to the local language model and returns the complete response.
+
+The operation reports progress as each token is generated. You can subscribe to progress updates to display partial responses in real time, which is useful for streaming scenarios.
+
+Check the [Status](languagemodelresponseresult_status.md) property of the returned [LanguageModelResponseResult](languagemodelresponseresult.md) to determine whether the response completed successfully. The [Text](languagemodelresponseresult_text.md) property contains the generated response.
+
+To maintain conversation context across multiple prompts, use the overload that accepts a [LanguageModelContext](languagemodelcontext.md). To configure content moderation, use the overload that accepts [LanguageModelOptions](languagemodeloptions.md).
+
 ## -see-also
 
+[GenerateResponseAsync(LanguageModelContext, String, LanguageModelOptions)](languagemodel_generateresponseasync_1153118514.md), [GenerateResponseAsync(String, LanguageModelOptions)](languagemodel_generateresponseasync_323610015.md), [LanguageModelResponseResult](languagemodelresponseresult.md), [Get started with Phi Silica](/windows/ai/apis/phi-silica)
+
 ## -examples
+
+```csharp
+using LanguageModel languageModel = await LanguageModel.CreateAsync();
+
+string prompt = "Provide the molecular formula for glucose.";
+var result = await languageModel.GenerateResponseAsync(prompt);
+
+if (result.Status == LanguageModelResponseStatus.Complete)
+{
+    Console.WriteLine(result.Text);
+    // Output: C6H12O6
+}
+```
