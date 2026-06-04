@@ -19,12 +19,9 @@ Constructs a new [ResourceLoader](resourceloader.md) object for the specified [R
 
 The path and name of the file that should be used for the current context.
 
-> [!NOTE]
-> The resource identifier is treated as a Uniform Resource Identifier (URI) fragment, subject to Uniform Resource Identifier (URI) semantics. For example, "Caption%20" is treated as "Caption ". Do not use "?" or "#" in resource identifiers, as they terminate the resource path. For example, "Foo?3" is treated as "Foo".
-
 ## -remarks
 
-This constructor is typically used to access resources relative to a resource file with the specified resource identifier. For example, `new ResourceLoader('Errors');` is relative to errors.resjson or errors.resw.
+This constructor is typically used to load resources from a specific PRI file. For example, `new ResourceLoader("MyResources.pri")` loads from the specified file relative to the app's working directory.
 
 ## -examples
 
