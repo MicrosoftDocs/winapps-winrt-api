@@ -16,7 +16,7 @@ Gets or sets a value that indicates whether a tree node is expanded.
 
 ## -property-value
 
-**true** if the tree node is expanded; otherwise, **false**.
+**true** if the tree node is expanded; otherwise, **false**. The default value is **false**.
 
 
 ## -remarks
@@ -26,5 +26,4 @@ Gets or sets a value that indicates whether a tree node is expanded.
 
 
 ## -examples
-
 
