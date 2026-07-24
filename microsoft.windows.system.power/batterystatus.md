@@ -34,6 +34,8 @@ The battery is charging.
 
 ## -remarks
 
+Use this enum with the [BatteryStatus](powermanager_batterystatus.md) property to determine the current battery state. A value of `NotPresent` indicates a desktop or device without a battery. The `Idle` state means the battery is neither charging nor discharging.
+
 ## -see-also
 
 [BatteryStatus property](powermanager_batterystatus.md), [BatteryStatusChanged event](powermanager_batterystatuschanged.md), [Power management with the app lifecycle API](/windows/apps/windows-app-sdk/applifecycle/applifecycle-power)
