@@ -15,6 +15,8 @@ Closes the [LanguageModel](languagemodel.md) object.
 
 ## -remarks
 
+In C#, use a `using` statement instead of calling this method directly. The `using` statement ensures the object is disposed even if an exception occurs.
+
 ## -see-also
 
 ## -examples

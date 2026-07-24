@@ -29,6 +29,12 @@ The response to the prompt.
 
 ## -remarks
 
+This overload accepts [LanguageModelOptions](languagemodeloptions.md) to configure content moderation for a single prompt. Use this when you don't need multi-turn conversation context but want to control content filtering.
+
+The operation reports progress as each token is generated. Check the [Status](languagemodelresponseresult_status.md) property of the returned [LanguageModelResponseResult](languagemodelresponseresult.md) to determine whether the response completed successfully.
+
 ## -see-also
+
+[GenerateResponseAsync(String)](languagemodel_generateresponseasync_1596814667.md), [GenerateResponseAsync(LanguageModelContext, String, LanguageModelOptions)](languagemodel_generateresponseasync_1153118514.md), [LanguageModelOptions](languagemodeloptions.md), [Content moderation](/windows/ai/apis/content-moderation)
 
 ## -examples

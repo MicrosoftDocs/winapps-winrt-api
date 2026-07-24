@@ -25,6 +25,10 @@ The summarized text.
 
 ## -remarks
 
+This method returns the summary as a single flowing paragraph. For other summarization approaches, see [SummarizeAsync](textsummarizer_summarizeasync_822055106.md) and [SummarizeConversationAsync](textsummarizer_summarizeconversationasync_1593584223.md).
+
 ## -see-also
+
+[SummarizeAsync](textsummarizer_summarizeasync_822055106.md), [SummarizeConversationAsync](textsummarizer_summarizeconversationasync_1593584223.md)
 
 ## -examples

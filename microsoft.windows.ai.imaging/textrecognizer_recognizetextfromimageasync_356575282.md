@@ -25,6 +25,8 @@ An asynchronous operation object which, when it completes, contains the result o
 
 ## -remarks
 
+Asynchronous version of [RecognizeTextFromImage](textrecognizer_recognizetextfromimage_2145955329.md). Use this method when you want to avoid blocking the UI thread. The image must be provided as an [ImageBuffer](/windows/windows-app-sdk/api/winrt/microsoft.graphics.imaging.imagebuffer).
+
 ## -see-also
 
 [Get Started with AI Text Recognition (OCR)](/windows/ai/apis/text-recognition), [Text recognizer walkthrough](/windows/ai/apis/text-recognition-tutorial)

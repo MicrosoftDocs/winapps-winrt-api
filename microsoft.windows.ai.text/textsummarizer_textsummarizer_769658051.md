@@ -21,6 +21,10 @@ The local small language model.
 
 ## -remarks
 
+The **LanguageModel** must be created and ready before passing it to this constructor. Call [LanguageModel.GetReadyState](languagemodel_getreadystate_1726041729.md), [LanguageModel.EnsureReadyAsync](languagemodel_ensurereadyasync_1335418254.md), and [LanguageModel.CreateAsync](languagemodel_createasync_616540418.md) to get a ready instance.
+
 ## -see-also
+
+[LanguageModel](languagemodel.md), [TextSummarizer](textsummarizer.md)
 
 ## -examples

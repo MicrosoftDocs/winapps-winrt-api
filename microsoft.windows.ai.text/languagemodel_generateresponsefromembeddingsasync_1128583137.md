@@ -29,6 +29,10 @@ The response to the prompt.
 
 ## -remarks
 
+Generates a response from pre-computed embedding vectors with [LanguageModelOptions](languagemodeloptions.md) to configure content moderation.
+
 ## -see-also
+
+[GenerateResponseFromEmbeddingsAsync(IIterable\<EmbeddingVector\>)](languagemodel_generateresponsefromembeddingsasync_253779765.md), [GenerateEmbeddingVectors](languagemodel_generateembeddingvectors_1167060492.md), [LanguageModelOptions](languagemodeloptions.md)
 
 ## -examples
