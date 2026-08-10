@@ -11,7 +11,7 @@ public void Activate()
 
 ## -description
 
-Attempts to activate the application window. The window must be attached to the calling thread's message queue. This method doesn't force a background app into the foreground. If the app is in the foreground when the system activates the window, the window is brought to the foreground (top of the Z-order) and receives input focus.
+Attempts to activate the application window. If the calling app is in the foreground, the window is brought to the foreground (top of Z-order) and receives input focus. If the app is in the background, this method does not force the window into the foreground.
 
 ## -remarks
 
