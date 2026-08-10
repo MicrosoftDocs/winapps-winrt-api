@@ -11,7 +11,7 @@ public void Activate()
 
 ## -description
 
-Attempts to activate the application window by bringing it to the foreground and setting the input focus to it.
+Attempts to activate the application window. If the calling app is in the foreground, the window is brought to the foreground (top of Z-order) and receives input focus. If the app is in the background, this method does not force the window into the foreground.
 
 ## -remarks
 
