@@ -21,6 +21,7 @@ A value of the enumeration that indicates the preferred height of the title bar.
 ## -remarks
 
 Check the [Height](appwindowtitlebar_height.md) property to get the new height value in client coordinates after setting this property.
+Setting this property while `AppWindowTitleBar.ExtendsContentIntoTitleBar` is `false` causes an exception to throw.
 
 ## -see-also
 
