@@ -57,7 +57,8 @@ The resulting XML payload:
         </binding>
     </visual>
     <actions>
-        <input id='textBox' type='text'/><action content='Send' arguments='action=sendMessage'/>
+        <input id='textBox' type='text'/>
+        <action content='Send' arguments='action=sendMessage'/>
     </actions>
 </toast>
 ```

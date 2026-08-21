@@ -62,8 +62,9 @@ The resulting XML payload:
     </visual>
     <actions>
         <input id='ComboBox' type='selection' defaultInput='yes'>
-            <selection id='maybe' content='Maybe'/><selection id='no' content='Decline'/>
             <selection id='yes' content='Going'/>
+            <selection id='maybe' content='Maybe'/>
+            <selection id='no' content='Decline'/>
         </input>
     </actions>
 </toast>
