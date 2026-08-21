@@ -53,7 +53,7 @@ The following example demonstrates setting an inline image in the XML payload fo
 ```csharp
 var notification = new AppNotificationBuilder()
     .AddText("Notification text.")
-    .SetInlineImage(new Uri("ms-appx:///Images/InlineImage.png"), AppNotificationImageCrop.Circle, "Alternate text")
+    .SetInlineImage(new Uri("ms-appx:///Images/InlineImage.png"), AppNotificationImageCrop.Circle)
     .BuildNotification();
 
 AppNotificationManager.Default.Show(notification);
@@ -66,7 +66,7 @@ The resulting XML payload:
     <visual>
         <binding template='ToastGeneric'>
             <text>Notification text.</text>
-            <image src='ms-appx:///Images/InlineImage.png' alt='Alternate text' hint-crop='circle'/>
+            <image src='ms-appx:///Images/InlineImage.png' hint-crop='circle'/>
         </binding>
     </visual>
 </toast>
