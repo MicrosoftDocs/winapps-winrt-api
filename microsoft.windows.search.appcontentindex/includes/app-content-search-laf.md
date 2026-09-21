@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> The `Microsoft.Windows.Search.AppContentIndex` APIs are a [Limited Access Feature](https://aka.ms/laffeatures). An app must obtain a token for feature ID `com.microsoft.windows.ai.appcontentindexer` and receive <xref:Windows.ApplicationModel.LimitedAccessFeatureStatus.Available?displayProperty=nameWithType> from <xref:Windows.ApplicationModel.LimitedAccessFeatures.TryUnlockFeature%2A> before calling these APIs.
