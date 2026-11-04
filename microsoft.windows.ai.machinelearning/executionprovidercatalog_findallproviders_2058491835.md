@@ -29,7 +29,7 @@ var catalog = Microsoft.Windows.AI.MachineLearning.ExecutionProviderCatalog.GetD
 var providers = catalog.FindAllProviders();
 foreach (var provider in providers)
 {
-    Console.WriteLine($"Found provider: {provider.Name}, Type: {provider.DeviceType}");
+    Console.WriteLine($"Found provider: {provider.Name}, Library path: {provider.LibraryPath}");
 }
 ```
 
@@ -39,7 +39,7 @@ auto providers = catalog.FindAllProviders();
 for (const auto& provider : providers)
 {
     std::wcout << L"Found provider: " << provider.Name().c_str() 
-              << L", Type: " << static_cast<int>(provider.DeviceType()) << L"\n";
+              << L", Library path: " << provider.LibraryPath().c_str() << L"\n";
 }
 ```
 
@@ -47,5 +47,5 @@ for (const auto& provider : providers)
 catalog = winml.ExecutionProviderCatalog.get_default()
 providers = catalog.find_all_providers()
 for provider in providers:
-    print(f"Found provider: {provider.name}, Type: {provider.device_type}")
+    print(f"Found provider: {provider.name}, Library path: {provider.library_path}")
 ```
