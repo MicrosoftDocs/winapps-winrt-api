@@ -20,7 +20,7 @@ The progress value.
 
 ## -remarks
 
-You can also set the status by calling [AppNotificationProgressBar.SetValue](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationprogressbar.setvalue)).
+You can also set the value by calling [AppNotificationProgressBar.SetValue](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationprogressbar.setvalue)).
 
 The **Value** value is bound by default. Update the bound status value by assigning an [AppNotificationProgressData](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationprogressdata) object to the [AppNotification.Progress](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification.progress)s property.
 

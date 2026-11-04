@@ -36,7 +36,7 @@ For reference information about the XML schema for app notifications, see [App n
 
 ## -examples
 
-The following example demonstrates adding a combo box to an app notification.
+The following example demonstrates adding a progress bar to an app notification.
 
 ```csharp
 var builder = new AppNotificationBuilder()

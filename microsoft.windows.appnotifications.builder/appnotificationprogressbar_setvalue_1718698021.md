@@ -26,7 +26,7 @@ Returns the **AppNotificationProgressBar** instance so that additional method ca
 
 ## -remarks
 
-You can also set the status with the **AppNotificationProgressBar.Value** property.
+You can also set the value with the **AppNotificationProgressBar.Value** property.
 
 The **Value** value is bound by default. Update the bound status value by assigning an [AppNotificationProgressData](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationprogressdata) object to the [AppNotification.Progress](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification.progress)s property.
 
