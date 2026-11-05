@@ -15,7 +15,7 @@ Provides a base class used to create XAML brushes that paint an area with a [Com
 ## -remarks
 You can use XamlCompositionBrushBase to create custom brushes. 
 
-For example, it can be used to create a brush that applies [effects](/windows/uwp/composition/composition-effects) to XAML UIElements using a [CompositionEffectBrush](/uwp/api/Windows.UI.Composition.CompositionEffectBrush), or a [SceneLightingEffect](/uwp/api/Windows.UI.Composition.Effects.SceneLightingEffect) that controls the reflective properties of elements when being lit by a [XamlLight](xamllight.md), or a whole series of effects chained together to produce something more complex.
+For example, it can be used to create a brush that applies [effects](/windows/apps/develop/composition/composition-effects) to XAML UIElements using a [CompositionEffectBrush](../microsoft.ui.composition/compositioneffectbrush.md), or a [SceneLightingEffect](../microsoft.ui.composition.effects/scenelightingeffect.md) that controls the reflective properties of elements when being lit by a [XamlLight](xamllight.md), or a whole series of effects chained together to produce something more complex.
 
 When creating a brush, it's usually a good practice to delay creating a [CompositionBrush](../microsoft.ui.composition/compositionbrush.md) and any related resources until the brush is being used. The [OnConnected](xamlcompositionbrushbase_onconnected_591765711.md) method is called when a brush is first used on screen to paint an element, so you can override [OnConnected](xamlcompositionbrushbase_onconnected_591765711.md) to safely create resources only when they're needed. This means you can create an instance of a brush in a ResourceDictionary then reference that brush resource later from other parts of UI definitions and only pay the cost of creating composition resources when the brush is actually in use.
 
@@ -23,7 +23,7 @@ It's also a good practice to dispose of composition resources when they're no lo
 
 ## -examples
 
-This example shows the definition for a custom brush that draws a blurred copy of whatever is behind a UIElement where the brush is applied using a [Win2D](https://github.com/Microsoft/Win2D) blur effect and a [CompositionBackdropBrush](/uwp/api/Windows.UI.Composition.CompositionBackdropBrush):
+This example shows the definition for a custom brush that draws a blurred copy of whatever is behind a UIElement where the brush is applied using a [Win2D](https://github.com/Microsoft/Win2D) blur effect and a [CompositionBackdropBrush](../microsoft.ui.composition/compositionbackdropbrush.md):
 
 ```csharp
 public sealed class BackdropBlurBrush : XamlCompositionBrushBase
@@ -58,7 +58,8 @@ public sealed class BackdropBlurBrush : XamlCompositionBrushBase
         // Delay creating composition resources until they're required.
         if (CompositionBrush == null)
         {
-            var backdrop = Window.Current.Compositor.CreateBackdropBrush();                
+            var compositor = CompositionTarget.GetCompositorForCurrentThread();
+            var backdrop = compositor.CreateBackdropBrush();
 
             // Use a Win2D blur affect applied to a CompositionBackdropBrush.
             var graphicsEffect = new GaussianBlurEffect
@@ -68,7 +69,7 @@ public sealed class BackdropBlurBrush : XamlCompositionBrushBase
                 Source = new CompositionEffectSourceParameter("backdrop")
             };
 
-            var effectFactory = Window.Current.Compositor.CreateEffectFactory(graphicsEffect, new[] { "Blur.BlurAmount" });
+            var effectFactory = compositor.CreateEffectFactory(graphicsEffect, new[] { "Blur.BlurAmount" });
             var effectBrush = effectFactory.CreateBrush();
 
             effectBrush.SetSourceParameter("backdrop", backdrop);
@@ -96,10 +97,10 @@ For the [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winr
 namespace MyApp
 {
     [default_interface]
-    runtimeclass BackdropBlurBrush : Windows.UI.Xaml.Media.XamlCompositionBrushBase
+    runtimeclass BackdropBlurBrush : Microsoft.UI.Xaml.Media.XamlCompositionBrushBase
     {
         BackdropBlurBrush();
-        static Windows.UI.Xaml.DependencyProperty BlurAmountProperty{ get; };
+        static Microsoft.UI.Xaml.DependencyProperty BlurAmountProperty{ get; };
         Double BlurAmount;
     }
 }
@@ -116,7 +117,7 @@ struct BackdropBlurBrush : BackdropBlurBrushT<BackdropBlurBrush>
 {
     BackdropBlurBrush() = default;
 
-    static Windows::UI::Xaml::DependencyProperty BlurAmountProperty() { return m_blurAmountProperty; }
+    static Microsoft::UI::Xaml::DependencyProperty BlurAmountProperty() { return m_blurAmountProperty; }
 
     double BlurAmount()
     {
@@ -131,22 +132,22 @@ struct BackdropBlurBrush : BackdropBlurBrushT<BackdropBlurBrush>
     void OnConnected();
     void OnDisconnected();
 
-    static void OnBlurAmountChanged(Windows::UI::Xaml::DependencyObject const& d, Windows::UI::Xaml::DependencyPropertyChangedEventArgs const& e);
+    static void OnBlurAmountChanged(Microsoft::UI::Xaml::DependencyObject const& d, Microsoft::UI::Xaml::DependencyPropertyChangedEventArgs const& e);
 
 private:
-    static Windows::UI::Xaml::DependencyProperty m_blurAmountProperty;
+    static Microsoft::UI::Xaml::DependencyProperty m_blurAmountProperty;
 };
 
 // WindowBlurBrush.cpp.
-Windows::UI::Xaml::DependencyProperty BackdropBlurBrush::m_blurAmountProperty =
-    Windows::UI::Xaml::DependencyProperty::Register(
+Microsoft::UI::Xaml::DependencyProperty BackdropBlurBrush::m_blurAmountProperty =
+    Microsoft::UI::Xaml::DependencyProperty::Register(
         L"BlurAmount",
         winrt::xaml_typename<double>(),
         winrt::xaml_typename<MyApp::BackdropBlurBrush>(),
-        Windows::UI::Xaml::PropertyMetadata{ winrt::box_value(0.), Windows::UI::Xaml::PropertyChangedCallback{ &BackdropBlurBrush::OnBlurAmountChanged } }
+        Microsoft::UI::Xaml::PropertyMetadata{ winrt::box_value(0.), Microsoft::UI::Xaml::PropertyChangedCallback{ &BackdropBlurBrush::OnBlurAmountChanged } }
 );
 
-void BackdropBlurBrush::OnBlurAmountChanged(Windows::UI::Xaml::DependencyObject const& d, Windows::UI::Xaml::DependencyPropertyChangedEventArgs const& e)
+void BackdropBlurBrush::OnBlurAmountChanged(Microsoft::UI::Xaml::DependencyObject const& d, Microsoft::UI::Xaml::DependencyPropertyChangedEventArgs const& e)
 {
     auto brush{ d.as<MyApp::BackdropBlurBrush>() };
     // Unbox and set a new blur amount if the CompositionBrush exists.
@@ -161,15 +162,16 @@ void BackdropBlurBrush::OnConnected()
     // Delay creating composition resources until they're required.
     if (!CompositionBrush())
     {
-        auto backdrop{ Windows::UI::Xaml::Window::Current().Compositor().CreateBackdropBrush() };
+        auto compositor{ Microsoft::UI::Xaml::Media::CompositionTarget::GetCompositorForCurrentThread() };
+        auto backdrop{ compositor.CreateBackdropBrush() };
 
         // Use a Win2D blur affect applied to a CompositionBackdropBrush.
         Microsoft::Graphics::Canvas::Effects::GaussianBlurEffect graphicsEffect{};
         graphicsEffect.Name(L"Blur");
         graphicsEffect.BlurAmount(this->BlurAmount());
-        graphicsEffect.Source(Windows::UI::Composition::CompositionEffectSourceParameter(L"backdrop"));
+        graphicsEffect.Source(Microsoft::UI::Composition::CompositionEffectSourceParameter(L"backdrop"));
 
-        auto effectFactory{ Windows::UI::Xaml::Window::Current().Compositor().CreateEffectFactory(graphicsEffect, { L"Blur.BlurAmount" }) };
+        auto effectFactory{ compositor.CreateEffectFactory(graphicsEffect, { L"Blur.BlurAmount" }) };
         auto effectBrush{ effectFactory.CreateBrush() };
 
         effectBrush.SetSourceParameter(L"backdrop", backdrop);
@@ -191,14 +193,14 @@ void BackdropBlurBrush::OnDisconnected()
 ```cppcx
 // WindowBlurBrush.h:
 public ref class BackdropBlurBrush sealed :
-    public Windows::UI::Xaml::Media::XamlCompositionBrushBase
+    public Microsoft::UI::Xaml::Media::XamlCompositionBrushBase
 {
 public:
     BackdropBlurBrush();
 
-    static property Windows::UI::Xaml::DependencyProperty^ BlurAmountProperty
+    static property Microsoft::UI::Xaml::DependencyProperty^ BlurAmountProperty
     {
-        Windows::UI::Xaml::DependencyProperty^ get() { return m_blurAmountProperty; }
+        Microsoft::UI::Xaml::DependencyProperty^ get() { return m_blurAmountProperty; }
     };
 
     property double BlurAmount
@@ -217,14 +219,14 @@ protected:
     virtual void OnConnected() override;
     virtual void OnDisconnected() override;	
     private:
-    static Windows::UI::Xaml::DependencyProperty^ m_blurAmountProperty;
-    static void OnBlurAmountChanged(Windows::UI::Xaml::DependencyObject^ d, Windows::UI::Xaml::DependencyPropertyChangedEventArgs^ e);
+    static Microsoft::UI::Xaml::DependencyProperty^ m_blurAmountProperty;
+    static void OnBlurAmountChanged(Microsoft::UI::Xaml::DependencyObject^ d, Microsoft::UI::Xaml::DependencyPropertyChangedEventArgs^ e);
 };
 
 // WindowBlurBrush.cpp:
 DependencyProperty^ BackdropBlurBrush::m_blurAmountProperty = DependencyProperty::Register(
     "BlurAmount",
-    Platform::String::typeid,
+    double::typeid,
     BackdropBlurBrush::typeid,
     ref new PropertyMetadata(0.0, ref new PropertyChangedCallback(OnBlurAmountChanged))
 );
@@ -248,18 +250,19 @@ void BackdropBlurBrush::OnConnected()
     // Delay creating composition resources until they're required
     if (CompositionBrush == nullptr)
     {
-        auto backdrop = Window::Current->Compositor->CreateBackdropBrush();
+        auto compositor = Microsoft::UI::Xaml::Media::CompositionTarget::GetCompositorForCurrentThread();
+        auto backdrop = compositor->CreateBackdropBrush();
         
         // Use a Win2D blur affect applied to a CompositionBackdropBrush
         auto graphicsEffect = ref new GaussianBlurEffect();
         graphicsEffect->Name = "Blur";
         graphicsEffect->BlurAmount = static_cast<float>(this->BlurAmount);
-        graphicsEffect->Source = ref new CompositionEffectSourceParameter("backdrop");
+        graphicsEffect->Source = ref new Microsoft::UI::Composition::CompositionEffectSourceParameter("backdrop");
         
         auto animatableProperties = ref new Platform::Collections::Vector<Platform::String^>();
         animatableProperties->Append("Blur.BlurAmount");
 
-        auto effectFactory = Window::Current->Compositor->CreateEffectFactory(graphicsEffect, animatableProperties);
+        auto effectFactory = compositor->CreateEffectFactory(graphicsEffect, animatableProperties);
         auto effectBrush = effectFactory->CreateBrush();
 
         effectBrush->SetSourceParameter("backdrop", backdrop);
@@ -293,4 +296,4 @@ For [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt), 
 
 ## -see-also
 
-[Using XAML brushes](/windows/uwp/graphics/using-brushes), [Using the composition Visual Layer with XAML](/windows/uwp/composition/using-the-visual-layer-with-xaml),[Composition brushes](/windows/uwp/composition/composition-brushes)
+[Using XAML brushes](/windows/apps/develop/platform/xaml/brushes), [Using the composition Visual Layer with XAML](/windows/apps/develop/composition/using-the-visual-layer-with-xaml), [Composition brushes](/windows/apps/develop/composition/composition-brushes)
