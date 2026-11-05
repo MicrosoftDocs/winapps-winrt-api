@@ -33,6 +33,14 @@ The response to the prompt.
 
 ## -remarks
 
+This overload accepts a [LanguageModelContext](languagemodelcontext.md) to maintain conversation history across multiple prompts and [LanguageModelOptions](languagemodeloptions.md) to configure content moderation. The context window acts as the model's short-term memory, holding previous exchanges so the model can generate coherent multi-turn responses.
+
+The operation reports progress as each token is generated. You can subscribe to progress updates to display partial responses in real time.
+
+Check the [Status](languagemodelresponseresult_status.md) property of the returned [LanguageModelResponseResult](languagemodelresponseresult.md) to determine whether the response completed successfully. A status of `PromptLargerThanContext` indicates that the prompt exceeds the context window. Call [GetUsablePromptLength](languagemodel_getusablepromptlength_261255212.md) to trim the prompt or create a new context.
+
 ## -see-also
+
+[GenerateResponseAsync(String)](languagemodel_generateresponseasync_1596814667.md), [LanguageModelContext](languagemodelcontext.md), [LanguageModelOptions](languagemodeloptions.md), [LanguageModelResponseResult](languagemodelresponseresult.md), [Get started with Phi Silica](/windows/ai/apis/phi-silica)
 
 ## -examples

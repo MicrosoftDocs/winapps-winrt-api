@@ -29,6 +29,12 @@ The summarized text.
 
 ## -remarks
 
+Summarizes a multi-turn conversation represented by a collection of [ConversationItem](conversationitem.md) objects. Each **ConversationItem** contains a [Message](conversationitem_message.md) and a [Participant](conversationitem_participant.md) name.
+
+Use the [ConversationSummaryOptions](conversationsummaryoptions.md) parameter to control whether the summary includes message citations, participant attribution, and to set the maximum number of key points.
+
 ## -see-also
+
+[SummarizeAsync](textsummarizer_summarizeasync_822055106.md), [ConversationItem](conversationitem.md), [ConversationSummaryOptions](conversationsummaryoptions.md)
 
 ## -examples
