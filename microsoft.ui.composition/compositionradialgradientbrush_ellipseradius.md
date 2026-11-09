@@ -11,7 +11,7 @@ public Vector2 EllipseRadius { get;  set; }
 
 ## -description
 
-Gets or sets the radii of the ellipse that contains the gradient.
+Gets or sets the radii of the ellipse that contains the gradient. Animatable.
 
 ## -property-value
 
