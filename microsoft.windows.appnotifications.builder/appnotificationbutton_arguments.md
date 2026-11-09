@@ -58,7 +58,7 @@ The resulting XML payload:
         </binding>
     </visual>
     <actions>
-        <action content='Reply' arguments='action=reply;arg2=value'/><
-    /actions>
+        <action content='Reply' arguments='action=reply;arg2=value'/>
+    </actions>
 </toast>
 ```

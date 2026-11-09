@@ -48,7 +48,7 @@ var notification = new AppNotificationBuilder()
 AppNotificationManager.Default.Show(notification);
 ```
 
-The resulting XML payload if the urgent scenario is supported:
+The resulting XML payload:
 
 ```xml
 <toast>

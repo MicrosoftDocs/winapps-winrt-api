@@ -66,7 +66,7 @@ The resulting XML payload:
     <visual>
         <binding template='ToastGeneric'>
             <text>Notification text.</text>
-            <image placement='hero' src='ms-appx:///Images/HeroImage.png'/>
+            <image placement='hero' src='ms-appx:///Images/HeroImage.png' alt='Alternate text'/>
         </binding>
     </visual>
 </toast>

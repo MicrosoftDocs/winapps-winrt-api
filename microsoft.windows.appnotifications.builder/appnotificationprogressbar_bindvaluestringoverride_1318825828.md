@@ -20,9 +20,9 @@ Returns the **AppNotificationProgressBar** instance so that additional method ca
 
 ## -remarks
 
-Update the bound title value by assigning an [AppNotificationProgressData](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationprogressdata) object to the [AppNotification.Progress](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification.progress)s property.
+Update the bound value string override value by assigning an [AppNotificationProgressData](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotificationprogressdata) object to the [AppNotification.Progress](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.appnotification.progress) property.
 
-You can also set the title with the **AppNotificationProgressBar.Title** property or by calling [AppNotificationProgressBar.SetValueStringOverride](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationprogressbar.setvaluestringoverride)).
+You can also set the value string override with the **AppNotificationProgressBar.ValueStringOverride** property or by calling [AppNotificationProgressBar.SetValueStringOverride](/windows/windows-app-sdk/api/winrt/microsoft.windows.appnotifications.builder.appnotificationprogressbar.setvaluestringoverride)).
 
 For guidance on using the **AppNotificationBuilder** APIs to create the UI for app notifications, see [App notification content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).
 
