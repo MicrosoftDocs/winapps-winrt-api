@@ -25,6 +25,12 @@ The response to the prompt.
 
 ## -remarks
 
+Generates a response from pre-computed embedding vectors instead of a text prompt. Use [GenerateEmbeddingVectors](languagemodel_generateembeddingvectors_1167060492.md) to convert text to embeddings, then pass the relevant embeddings to this method.
+
+The operation reports progress as each token is generated.
+
 ## -see-also
+
+[GenerateEmbeddingVectors](languagemodel_generateembeddingvectors_1167060492.md), [GenerateResponseAsync(String)](languagemodel_generateresponseasync_1596814667.md), [LanguageModelResponseResult](languagemodelresponseresult.md)
 
 ## -examples
