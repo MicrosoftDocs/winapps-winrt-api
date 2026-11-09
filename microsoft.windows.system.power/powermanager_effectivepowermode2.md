@@ -19,6 +19,10 @@ The current effective power mode of the device.
 
 ## -remarks
 
+This property returns the current [EffectivePowerMode](effectivepowermode.md) synchronously. It returns the same value as awaiting [EffectivePowerMode](powermanager_effectivepowermode.md), but does not require an asynchronous call.
+
+Subscribe to the [EffectivePowerModeChanged](powermanager_effectivepowermodechanged.md) event to be notified when this value changes.
+
 ## -see-also
 
 [EffectivePowerModeChanged event](powermanager_effectivepowermodechanged.md), [EffectivePowerMode enum](effectivepowermode.md), [Power management with the app lifecycle API](/windows/apps/windows-app-sdk/applifecycle/applifecycle-power), [EffectivePowerMode](./powermanager_effectivepowermode.md)

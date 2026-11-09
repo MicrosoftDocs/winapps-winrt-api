@@ -30,6 +30,8 @@ Power supply is adequate.
 
 ## -remarks
 
+Use this enum with the [PowerSupplyStatus](powermanager_powersupplystatus.md) property. `NotPresent` means no power supply is connected, `Inadequate` means a power supply is connected but not providing adequate power, and `Adequate` means the power supply is connected and providing adequate power.
+
 ## -see-also
 
 [PowerSupplyStatus property](powermanager_powersupplystatus.md), [PowerSupplyStatusChanged event](powermanager_powersupplystatuschanged.md), [Power management with the app lifecycle API](/windows/apps/windows-app-sdk/applifecycle/applifecycle-power)
